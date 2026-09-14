@@ -45,6 +45,6 @@ The study files are a sanitized review handoff. They omit raw corpora, the user'
 
 ## Frozen downloads and this import
 
-[The private 1.0.4 release](https://github.com/jaykobdetar/account-history-analyzer/releases/tag/v1.0.4) carries the exact working-source-and-reports archive, production wheel, source distribution and sanitized pilot ZIP. This preserves complete historical synthetic report bundles without duplicating large generated outputs in Git history. [Import provenance](GITHUB_IMPORT.md) records what was copied and what stayed local.
+[The 1.0.4 release](https://github.com/jaykobdetar/account-history-analyzer/releases/tag/v1.0.4) carries the exact working-source-and-reports archive, production wheel, source distribution and sanitized pilot ZIP. This preserves complete historical synthetic report bundles without duplicating large generated outputs in Git history. [Import provenance](GITHUB_IMPORT.md) records what was copied and what stayed local.
 
 The original `AGENT_PROMPT.md`, `BUILD_SPEC.md`, `ACCEPTANCE_TESTS.md`, `PACKAGE_VALIDATION.md` and original handoff checksum list remain historical specification inputs. In particular, PACKAGE_VALIDATION describes the pre-implementation handoff, not the current software status. Current completion evidence is in RW001.md and the second-pilot review.

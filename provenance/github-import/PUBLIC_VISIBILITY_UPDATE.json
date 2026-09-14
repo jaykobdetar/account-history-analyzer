@@ -1,0 +1,27 @@
+{
+  "reason": "Owner explicitly requested public visibility after the private repository was created.",
+  "changed_at_utc": "2026-09-14T20:34:06.476420+00:00",
+  "repository": {
+    "full_name": "jaykobdetar/account-history-analyzer",
+    "html_url": "https://github.com/jaykobdetar/account-history-analyzer",
+    "private": false,
+    "visibility": "public"
+  },
+  "documentation_changes": {
+    "docs/DOCUMENTATION_INDEX.md": {
+      "before_sha256": "3925454ebbdaee4cbffb5a3fadf994bdb7e2aaefa4a1ab1f7b56e25540c1f03e",
+      "after_sha256": "2f1bc0b43d54f29ab72d78815b07325bf4f4a4e140b95b567efe2674ebba6a5d"
+    },
+    "studies/README.md": {
+      "before_sha256": "29bdd8877780fa1c8995d2e8097ed40290b3b7102b03cd644e013789e18a258d",
+      "after_sha256": "6a56a035de64cbb9eff4062478b874f787f103d80986a6f9570ff29df07c4231"
+    },
+    "docs/GITHUB_IMPORT.md": {
+      "before_sha256": "e8c4e646b85a882930fb686b66962dc77de6ebbc8aad0a342915b5b961510234",
+      "after_sha256": "44f33b01dcb04a59d6d241b0c928dfa2bba1c97c4d04d930d9fe8b63fbe278b3"
+    }
+  },
+  "source_features_thresholds_and_frozen_artifacts_changed": false,
+  "initial_publication_manifest_is_historical": true,
+  "tag_v1_0_4_moved": false
+}

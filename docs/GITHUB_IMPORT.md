@@ -1,4 +1,6 @@
-# Private GitHub import of AHAS 1.0.4
+# GitHub import of AHAS 1.0.4
+
+The repository was initially created privately and then made public at the owner’s explicit request on 2026-09-14. The included source and sanitized documentation are unchanged in scope; raw corpora, private reports and maps remain local. The original private-import receipts and initial-publication manifest remain historical records.
 
 This repository is an initial Git snapshot of the existing working release and current sanitized documentation. It does not invent earlier Git history. The frozen local source tree, release archives, study protocol, original data and receipts remain unchanged.
 
