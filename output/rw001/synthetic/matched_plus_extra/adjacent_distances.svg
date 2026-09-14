@@ -1,0 +1,93 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 775" role="img" aria-labelledby="adjacent-distances-title">
+<title id="adjacent-distances-title">Adjacent primary-window representation distances</title>
+<rect width="100%" height="100%" fill="#ffffff"/>
+<g font-family="system-ui, sans-serif" fill="#253347">
+<text x="20" y="30" font-size="21" font-weight="600">Adjacent primary-window representation distances</text>
+<text x="20" y="66" font-size="16" font-weight="600">Pooled comments — Raw 4-gram cosine</text>
+<text x="20" y="84" font-size="11" fill="#526274">distance in the named representation; x = adjacent window pair</text>
+<metadata>{&quot;boundaries&quot;:[3],&quot;labels&quot;:[&quot;1–2&quot;,&quot;2–3&quot;,&quot;3–4&quot;,&quot;4–5&quot;,&quot;5–6&quot;,&quot;6–7&quot;,&quot;7–8&quot;,&quot;8–9&quot;,&quot;9–10&quot;,&quot;10–11&quot;,&quot;11–12&quot;],&quot;title&quot;:&quot;Pooled comments — Raw 4-gram cosine&quot;,&quot;unit&quot;:&quot;distance in the named representation; x = adjacent window pair&quot;,&quot;values&quot;:[0.061663153561260176,0.0617567726046675,0.1753829774485538,0.07598014073811232,0.06175254420740439,1.0,0.11420408702405704,0.061663153561260176,0.07576470792542644,0.17550828584441924,0.061663153561260176]}</metadata>
+<line x1="76.0" y1="222" x2="926.0" y2="222" stroke="#dbe2ea"/>
+<text x="68.0" y="226" text-anchor="end" font-size="11">0</text>
+<line x1="76.0" y1="162" x2="926.0" y2="162" stroke="#dbe2ea"/>
+<text x="68.0" y="166" text-anchor="end" font-size="11">0.54</text>
+<line x1="76.0" y1="102" x2="926.0" y2="102" stroke="#dbe2ea"/>
+<text x="68.0" y="106" text-anchor="end" font-size="11">1.08</text>
+<line x1="288.5" y1="102.0" x2="288.5" y2="222.0" stroke="#a83242" stroke-dasharray="4 4"><title>Descriptive candidate between windows 3 and 4</title></line>
+<polyline fill="none" stroke="#296589" stroke-width="2" points="146.833,215.149 217.667,215.138 288.5,202.513 359.333,213.558 430.167,215.139 501,110.889 571.833,209.311 642.667,215.149 713.5,213.582 784.333,202.499 855.167,215.149"/>
+<circle cx="146.833" cy="215.149" r="3" fill="#296589" data-value="0.061663153561260176"><title>1–2: 0.0616632 distance in the named representation; x = adjacent window pair</title></circle>
+<circle cx="217.667" cy="215.138" r="3" fill="#296589" data-value="0.0617567726046675"><title>2–3: 0.0617568 distance in the named representation; x = adjacent window pair</title></circle>
+<circle cx="288.5" cy="202.513" r="3" fill="#296589" data-value="0.1753829774485538"><title>3–4: 0.175383 distance in the named representation; x = adjacent window pair</title></circle>
+<circle cx="359.333" cy="213.558" r="3" fill="#296589" data-value="0.07598014073811232"><title>4–5: 0.0759801 distance in the named representation; x = adjacent window pair</title></circle>
+<circle cx="430.167" cy="215.139" r="3" fill="#296589" data-value="0.06175254420740439"><title>5–6: 0.0617525 distance in the named representation; x = adjacent window pair</title></circle>
+<circle cx="501" cy="110.889" r="3" fill="#296589" data-value="1.0"><title>6–7: 1 distance in the named representation; x = adjacent window pair</title></circle>
+<circle cx="571.833" cy="209.311" r="3" fill="#296589" data-value="0.11420408702405704"><title>7–8: 0.114204 distance in the named representation; x = adjacent window pair</title></circle>
+<circle cx="642.667" cy="215.149" r="3" fill="#296589" data-value="0.061663153561260176"><title>8–9: 0.0616632 distance in the named representation; x = adjacent window pair</title></circle>
+<circle cx="713.5" cy="213.582" r="3" fill="#296589" data-value="0.07576470792542644"><title>9–10: 0.0757647 distance in the named representation; x = adjacent window pair</title></circle>
+<circle cx="784.333" cy="202.499" r="3" fill="#296589" data-value="0.17550828584441924"><title>10–11: 0.175508 distance in the named representation; x = adjacent window pair</title></circle>
+<circle cx="855.167" cy="215.149" r="3" fill="#296589" data-value="0.061663153561260176"><title>11–12: 0.0616632 distance in the named representation; x = adjacent window pair</title></circle>
+<text x="146.833" y="242.0" text-anchor="middle" font-size="10">1–2</text>
+<text x="288.5" y="242.0" text-anchor="middle" font-size="10">3–4</text>
+<text x="430.167" y="242.0" text-anchor="middle" font-size="10">5–6</text>
+<text x="571.833" y="242.0" text-anchor="middle" font-size="10">7–8</text>
+<text x="713.5" y="242.0" text-anchor="middle" font-size="10">9–10</text>
+<text x="855.167" y="242.0" text-anchor="middle" font-size="10">11–12</text>
+<text x="20" y="291" font-size="16" font-weight="600">Pooled comments — Masked 4-gram cosine</text>
+<text x="20" y="309" font-size="11" fill="#526274">distance in the named representation; x = adjacent window pair</text>
+<metadata>{&quot;boundaries&quot;:[3],&quot;labels&quot;:[&quot;1–2&quot;,&quot;2–3&quot;,&quot;3–4&quot;,&quot;4–5&quot;,&quot;5–6&quot;,&quot;6–7&quot;,&quot;7–8&quot;,&quot;8–9&quot;,&quot;9–10&quot;,&quot;10–11&quot;,&quot;11–12&quot;],&quot;title&quot;:&quot;Pooled comments — Masked 4-gram cosine&quot;,&quot;unit&quot;:&quot;distance in the named representation; x = adjacent window pair&quot;,&quot;values&quot;:[0.0,0.0,0.0,0.0,0.0,0.07560819381821393,0.0,0.0,0.0,0.0,0.0]}</metadata>
+<line x1="76.0" y1="447" x2="926.0" y2="447" stroke="#dbe2ea"/>
+<text x="68.0" y="451" text-anchor="end" font-size="11">0</text>
+<line x1="76.0" y1="387" x2="926.0" y2="387" stroke="#dbe2ea"/>
+<text x="68.0" y="391" text-anchor="end" font-size="11">0.0408284</text>
+<line x1="76.0" y1="327" x2="926.0" y2="327" stroke="#dbe2ea"/>
+<text x="68.0" y="331" text-anchor="end" font-size="11">0.0816568</text>
+<line x1="288.5" y1="327.0" x2="288.5" y2="447.0" stroke="#a83242" stroke-dasharray="4 4"><title>Descriptive candidate between windows 3 and 4</title></line>
+<polyline fill="none" stroke="#296589" stroke-width="2" points="146.833,447 217.667,447 288.5,447 359.333,447 430.167,447 501,335.889 571.833,447 642.667,447 713.5,447 784.333,447 855.167,447"/>
+<circle cx="146.833" cy="447" r="3" fill="#296589" data-value="0.0"><title>1–2: 0 distance in the named representation; x = adjacent window pair</title></circle>
+<circle cx="217.667" cy="447" r="3" fill="#296589" data-value="0.0"><title>2–3: 0 distance in the named representation; x = adjacent window pair</title></circle>
+<circle cx="288.5" cy="447" r="3" fill="#296589" data-value="0.0"><title>3–4: 0 distance in the named representation; x = adjacent window pair</title></circle>
+<circle cx="359.333" cy="447" r="3" fill="#296589" data-value="0.0"><title>4–5: 0 distance in the named representation; x = adjacent window pair</title></circle>
+<circle cx="430.167" cy="447" r="3" fill="#296589" data-value="0.0"><title>5–6: 0 distance in the named representation; x = adjacent window pair</title></circle>
+<circle cx="501" cy="335.889" r="3" fill="#296589" data-value="0.07560819381821393"><title>6–7: 0.0756082 distance in the named representation; x = adjacent window pair</title></circle>
+<circle cx="571.833" cy="447" r="3" fill="#296589" data-value="0.0"><title>7–8: 0 distance in the named representation; x = adjacent window pair</title></circle>
+<circle cx="642.667" cy="447" r="3" fill="#296589" data-value="0.0"><title>8–9: 0 distance in the named representation; x = adjacent window pair</title></circle>
+<circle cx="713.5" cy="447" r="3" fill="#296589" data-value="0.0"><title>9–10: 0 distance in the named representation; x = adjacent window pair</title></circle>
+<circle cx="784.333" cy="447" r="3" fill="#296589" data-value="0.0"><title>10–11: 0 distance in the named representation; x = adjacent window pair</title></circle>
+<circle cx="855.167" cy="447" r="3" fill="#296589" data-value="0.0"><title>11–12: 0 distance in the named representation; x = adjacent window pair</title></circle>
+<text x="146.833" y="467.0" text-anchor="middle" font-size="10">1–2</text>
+<text x="288.5" y="467.0" text-anchor="middle" font-size="10">3–4</text>
+<text x="430.167" y="467.0" text-anchor="middle" font-size="10">5–6</text>
+<text x="571.833" y="467.0" text-anchor="middle" font-size="10">7–8</text>
+<text x="713.5" y="467.0" text-anchor="middle" font-size="10">9–10</text>
+<text x="855.167" y="467.0" text-anchor="middle" font-size="10">11–12</text>
+<text x="20" y="516" font-size="16" font-weight="600">Pooled comments — Function-word base-2 JS</text>
+<text x="20" y="534" font-size="11" fill="#526274">distance in the named representation; x = adjacent window pair</text>
+<metadata>{&quot;boundaries&quot;:[3],&quot;labels&quot;:[&quot;1–2&quot;,&quot;2–3&quot;,&quot;3–4&quot;,&quot;4–5&quot;,&quot;5–6&quot;,&quot;6–7&quot;,&quot;7–8&quot;,&quot;8–9&quot;,&quot;9–10&quot;,&quot;10–11&quot;,&quot;11–12&quot;],&quot;title&quot;:&quot;Pooled comments — Function-word base-2 JS&quot;,&quot;unit&quot;:&quot;distance in the named representation; x = adjacent window pair&quot;,&quot;values&quot;:[0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0]}</metadata>
+<line x1="76.0" y1="672" x2="926.0" y2="672" stroke="#dbe2ea"/>
+<text x="68.0" y="676" text-anchor="end" font-size="11">0</text>
+<line x1="76.0" y1="612" x2="926.0" y2="612" stroke="#dbe2ea"/>
+<text x="68.0" y="616" text-anchor="end" font-size="11">0.5</text>
+<line x1="76.0" y1="552" x2="926.0" y2="552" stroke="#dbe2ea"/>
+<text x="68.0" y="556" text-anchor="end" font-size="11">1</text>
+<line x1="288.5" y1="552.0" x2="288.5" y2="672.0" stroke="#a83242" stroke-dasharray="4 4"><title>Descriptive candidate between windows 3 and 4</title></line>
+<polyline fill="none" stroke="#296589" stroke-width="2" points="146.833,672 217.667,672 288.5,672 359.333,672 430.167,672 501,672 571.833,672 642.667,672 713.5,672 784.333,672 855.167,672"/>
+<circle cx="146.833" cy="672" r="3" fill="#296589" data-value="0.0"><title>1–2: 0 distance in the named representation; x = adjacent window pair</title></circle>
+<circle cx="217.667" cy="672" r="3" fill="#296589" data-value="0.0"><title>2–3: 0 distance in the named representation; x = adjacent window pair</title></circle>
+<circle cx="288.5" cy="672" r="3" fill="#296589" data-value="0.0"><title>3–4: 0 distance in the named representation; x = adjacent window pair</title></circle>
+<circle cx="359.333" cy="672" r="3" fill="#296589" data-value="0.0"><title>4–5: 0 distance in the named representation; x = adjacent window pair</title></circle>
+<circle cx="430.167" cy="672" r="3" fill="#296589" data-value="0.0"><title>5–6: 0 distance in the named representation; x = adjacent window pair</title></circle>
+<circle cx="501" cy="672" r="3" fill="#296589" data-value="0.0"><title>6–7: 0 distance in the named representation; x = adjacent window pair</title></circle>
+<circle cx="571.833" cy="672" r="3" fill="#296589" data-value="0.0"><title>7–8: 0 distance in the named representation; x = adjacent window pair</title></circle>
+<circle cx="642.667" cy="672" r="3" fill="#296589" data-value="0.0"><title>8–9: 0 distance in the named representation; x = adjacent window pair</title></circle>
+<circle cx="713.5" cy="672" r="3" fill="#296589" data-value="0.0"><title>9–10: 0 distance in the named representation; x = adjacent window pair</title></circle>
+<circle cx="784.333" cy="672" r="3" fill="#296589" data-value="0.0"><title>10–11: 0 distance in the named representation; x = adjacent window pair</title></circle>
+<circle cx="855.167" cy="672" r="3" fill="#296589" data-value="0.0"><title>11–12: 0 distance in the named representation; x = adjacent window pair</title></circle>
+<text x="146.833" y="692.0" text-anchor="middle" font-size="10">1–2</text>
+<text x="288.5" y="692.0" text-anchor="middle" font-size="10">3–4</text>
+<text x="430.167" y="692.0" text-anchor="middle" font-size="10">5–6</text>
+<text x="571.833" y="692.0" text-anchor="middle" font-size="10">7–8</text>
+<text x="713.5" y="692.0" text-anchor="middle" font-size="10">9–10</text>
+<text x="855.167" y="692.0" text-anchor="middle" font-size="10">11–12</text>
+<text x="20" y="730" font-size="11" fill="#526274">Representations have different distance distributions and are not interchangeable probability scales.</text>
+<text x="20" y="750" font-size="11" fill="#526274">Missing comparisons break lines. Dashed red marks descriptive candidates; no author probability is implied.</text>
+</g>
+</svg>

@@ -1,0 +1,208 @@
+{
+  "protocol_id": "ahas-reddit-pilot2-20260914-v1",
+  "state": "Protocol definition; registration status is controlled only by the separate hash-bound freeze receipt.",
+  "source_release": "1.0.4",
+  "implementation_fingerprint": "bfc989028bf2b47c506d1ba501287d4e362aadc25ca5c731c41e4b27a336e179",
+  "analysis_config_sha256": "8fd0239fe2f87c9f1506786ac36099fe996e00cc6e021b3ecc67fbb65cd2d925",
+  "communities": [
+    "ApplyingToCollege",
+    "Cornell",
+    "college"
+  ],
+  "source_archives": {
+    "ApplyingToCollege": {
+      "path": "data/ApplyingToCollege.corpus.zip",
+      "sha256": "046d9d2566b03dfbaa17d7d62f4311083a39897d2e35d170043e3be2e6a242e5"
+    },
+    "Cornell": {
+      "path": "../ahas-realworld-review/inputs/Cornell.corpus.zip",
+      "sha256": "f153a56a343e6d9568d90b635d44d1ccca71479ac19cd28e075587485bad715d"
+    },
+    "college": {
+      "path": "data/college.corpus.zip",
+      "sha256": "31a124155a303bdb3e0e91a1a97c48964ccfffa14585b5088b94935660722aa9"
+    }
+  },
+  "language": "English assumed for this public-corpus experiment; not individually verified",
+  "splits": [
+    "development",
+    "evaluation",
+    "confirmation"
+  ],
+  "salts": {
+    "author_split": "ahas-pilot2-author-split-v1",
+    "author_rank": "ahas-pilot2-author-rank-v1",
+    "omission": "ahas-pilot2-omission-v1",
+    "chronology": "ahas-pilot2-chronology-v1"
+  },
+  "paired": {
+    "target_total_accounts": 36,
+    "target_accounts_per_split": 12,
+    "target_accounts_per_home_community_per_split": 4,
+    "pre_shortlist_per_home_community_per_split": 20,
+    "home_community": "largest sum of source present raw codepoints in calendar2017 and2018; lexicographic tie",
+    "author_identity": "casefolded actual source account; identity used only by evaluator/selection, never feature calculations",
+    "split_rule": "int(sha256(author_split_salt + ':' + casefolded_author),16) modulo3 in splits order",
+    "rank_rule": "descending min(eligible words in early cell, eligible words in late cell), then SHA256(author_rank_salt + ':' + casefolded_author)",
+    "pre_shortlist_rank": "descending min(present raw codepoints in calendar2017, calendar2018), then author_rank hash",
+    "early": {
+      "start_utc": "2017-01-01T00:00:00Z",
+      "end_utc": "2017-10-01T00:00:00Z",
+      "center_utc": "2017-05-16T00:00:00Z"
+    },
+    "late": {
+      "start_utc": "2018-01-01T00:00:00Z",
+      "end_utc": "2018-10-01T00:00:00Z",
+      "center_utc": "2018-05-16T00:00:00Z"
+    },
+    "selection_eligibility": "present usable English-assumed comments with at least20 retained words; whole original records only",
+    "block_pairing": "minimum sum of absolute differences between account cell-median timestamps for early and late; enumerate all3perfectmatchings of4accounts; lexicographic author-hash tie",
+    "shared_word_budget": "B=max(1000,min(3000,min eligible-word capacities of Aearly,Alate,Bearly,Blate))); independent B for within and cross conditions, derived before selecting records or scoring",
+    "minimum_eligible_records": 8,
+    "selection_order": "absolute UTC distance from cell center, then actual UTC timestamp, then original recordID; accumulate whole eligible records until Bwords and8records, or exhaust; canonical order in exports",
+    "time_budget_audit": [
+      "target_B",
+      "actual_eligible_words",
+      "overshoot_words",
+      "eligible_records",
+      "largest_record_share",
+      "first_last_utc",
+      "median_utc",
+      "pair_time_gap",
+      "same_vs_different_balance"
+    ],
+    "conditions": [
+      "within_community",
+      "cross_community"
+    ],
+    "cross_rule": "same paired accounts: early homecommunity, late next community in communities cycle; unsupported remains empty/abstained",
+    "pairs_per_block": [
+      "Aearly-Alate same_author",
+      "Bearly-Blate same_author",
+      "Aearly-Blate different_author",
+      "Bearly-Alate different_author"
+    ],
+    "arms": [
+      "full",
+      "hash50",
+      "middle50",
+      "drop_Cornell"
+    ],
+    "hash50": "keep iff int(SHA256(omission_salt + ':' + original_recordID),16) modulo2 equals0",
+    "middle50": "remove indices floor(n/4) through floor(3*n/4)-1 from each complete baseunit in canonical chronological order",
+    "drop_Cornell": "remove original source records whose subreddit is Cornell",
+    "omission_policy": "same base units and budgets; unchanged surviving records, no refill or replacement",
+    "chunking": "one predefined homecommunity/condition/arm/method dataset document, both development/evaluation; only selected subset snapshots; confirmation physically absent",
+    "unfilled_slot_policy": "report all pre-score exclusions/unfilled slots; no replacements after cohort freeze or purge",
+    "missing_time_matching": "If any required median is missing, matchingcost is null with reason missing_cell_median; choose lexicographically smallest orderedauthorhash perfectmatching."
+  },
+  "leakage": {
+    "population": "pre-purge eligible candidate records of selected36accounts in all3communities and both fixedtimecells, before budget selection",
+    "thread": "purge all records in any actual thread containing selected records in multiple splits, symmetrically",
+    "exact": "Nonempty tuple of normalized lexical-token segments, numbers retained and segment boundaries preserved. Empty retainedtext is an audited singleton.",
+    "near": {
+      "token_shingle_n": 5,
+      "jaccard_min": 0.8,
+      "directed_containment_min": 0.9,
+      "min_word_tokens": 20,
+      "min_shared_shingles": 5,
+      "candidate_pair_cap": 2000000,
+      "comparison_rule": "Integer decisions:100*intersection>=80*union OR100*intersection>=90*leftsize OR100*intersection>=90*rightsize; bothrecords>=20wordtokens,>=5sharedunique segment-local5shingles. Explicit evaluator adaptation, not production50word evidenceguard.",
+      "cap_accounting": "Every unique recordpair sharing any5shingle before verification; cap exhaustion blocks scoring as not_auditable."
+    },
+    "template": {
+      "contiguous_word_tokens": 15,
+      "min_distinct_accounts": 3
+    },
+    "quotation": "recognized CommonMark blockquote word phrases versus retained15-token phrases; unmarked/indirect quotation unknown",
+    "components": "connected components of exact/near/template/quotation relations; purge all members of any component crossing splits; no iterative refills",
+    "missing_metadata": "omit missing dimensions and report not_auditable; never synthesize passed evidence",
+    "source_document": "actual global Reddit recordIDs; document-level disjointness only. All folds share the ConvoKit/Pushshift collection and are not independent corpus replications.",
+    "confirmation": "inventory/provenance/leakage checks permitted; no distances, comparison scores or representation selection; no confirmation records in scored dataset documents",
+    "missing_content": "Explicit non-presenttextNone contributes no observedtokens; annotate content-unobservable and available-retainedtext-only audit scope. A singleton does not prove missingtext independent. Missingbody without explicit nonpresentstatus is not_auditable."
+  },
+  "methods": [
+    {
+      "name": "retained_prose_n4",
+      "primary": true,
+      "method_id": "cosine_distance_v1",
+      "view": "retained_prose",
+      "n": 4
+    },
+    {
+      "name": "function_mask_n4",
+      "primary": false,
+      "method_id": "cosine_distance_v1",
+      "view": "function_mask_v1",
+      "n": 4
+    },
+    {
+      "name": "function_word_js",
+      "primary": false,
+      "method_id": "function_word_js_v1",
+      "view": "lexical_tokens",
+      "n": null
+    }
+  ],
+  "decision_threshold": null,
+  "chronological": {
+    "target_source_accounts": 12,
+    "target_splice_pairs": 6,
+    "source_pairs_per_home_community": 2,
+    "source_comments_min": 200,
+    "source_comments_max": 400,
+    "present_raw_codepoints_min": 40000,
+    "eligible_retained_words_min": 8000,
+    "candidate_order": "SHA256(chronology_salt + ':' + casefolded_author); select first4eligible perhomecommunity after all fixed exclusions, no grid/score eligibility gate",
+    "excluded_accounts": "all originalpilot12 and all selectedpaired36 including confirmation; placeholders/AutoModerator",
+    "confirmation_exclusion": "Cheap fullauthor/thread/source exclusion, then joint selected12wholehistory+pairedcandidatepool related-componentaudit; reject anywholechronoauthor touchingconfirmationcomponent without refill, recordunfilledslots. Otherknownsplitdependence makeschronologyexploratory.",
+    "pairing": "closest account median timestamps with deterministic author-hash ties; every sourceaccount in one pair only",
+    "cut": "median of union actual creation timestamps of a sourcepair; A strictlybeforecut, B atoraftercut; source text/times/IDs unchanged, constructed accountmetadata reassigned",
+    "truth": "first surviving B record's zero-based original constructed snapshot ordinal; unknown or missing one side is not a labeled unchanged construction",
+    "arms": [
+      "full",
+      "hash50",
+      "middle50",
+      "drop_Cornell"
+    ],
+    "omissions": "same recordhash rule; contiguous middlehalf of fullconstructed canonical stream; removeCornell. No refills; map truth to survivor ordinals and retain fulloriginal ordinal correspondence.",
+    "continuity_proxy_controls": 6,
+    "continuity_proxy_definition": "A-side sourceaccount complete available comment history; [] denotes no observed sourceaccountID reassignment, NOT stable human authorship",
+    "unknown_truth_natural_histories": 3,
+    "unknown_truth_definition": "ordinary analyze, one preregistered Acontrol perhomecommunity; no authorship groundtruth or falsepositive score",
+    "scope": {
+      "scope_type": "pooled",
+      "kind": "comment",
+      "subreddit": null
+    },
+    "boundary_tolerance_records": 10,
+    "legal_grid": "independent eligible whole-record1000word/8record windows; require8qualifiedwindows, minsegment3; enumeratej=3..N-3. Splitinterval[last_left_original_position+1,first_right_original_position].",
+    "diagnostics": [
+      "input_adequacy",
+      "has_candidate",
+      "nearest_candidate_error_original_ordinals",
+      "best_legal_grid_error",
+      "tolerance_attainable",
+      "excess_error_over_grid",
+      "matched_at_original_tolerance"
+    ],
+    "interpretation": "Separate insufficientinput, adequate_no_candidate, off_target_candidate and grid_unattainable flags; gridunattainable still fails end-to-end10record requirement, no tolerance relaxation",
+    "grouping": "audit full originalauthor/thread/source/related components. If strictpartition impossible, mark chronologicalstudy exploratory/not independentlyheldout; do not dropcompletehistory records silently",
+    "operational_chunking": "one fullhistory or splice peraccount_stream invocation; max2concurrent analyses, original limits unchanged",
+    "control_arms": "All4arms apply to6proxycontrols and6splices (48plannedlabeledcase slots);3unknowntruthnaturalviews are full-only ordinaryanalyze. Reusedsourcehistories are notindependent subjects."
+  },
+  "outcomes": {
+    "coverage_first": true,
+    "all_planned_methods_conditions_arms": true,
+    "metrics": [
+      "complete perpair score distributions",
+      "ROC-AUC",
+      "noninterpolated average precision with different_author positive",
+      "abstentions and reasons",
+      "module availability"
+    ],
+    "dependence": "Report distinct accounts,2-account blocks,sourcepairs and communities. Related pairs/methods/omissionarms are not independent people. No IID confidence intervals or uncalibrated significance tests.",
+    "labels": "Account-ID proxies/construction facts only; possible shared/automatedaccounts or multipleaccounts perperson. No bot/AI/authorshipprobability or general accuracy claim.",
+    "real_world_validation": "not_established"
+  }
+}

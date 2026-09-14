@@ -1,0 +1,11 @@
+{
+  "adjacent_distances.svg": true,
+  "resolved_config.json": true,
+  "activity_hourly.svg": true,
+  "activity_daily.svg": true,
+  "report.html": true,
+  "method_registry.json": true,
+  "report.md": true,
+  "surface_features.svg": true,
+  "eligible_word_volume.svg": true
+}

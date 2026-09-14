@@ -1,0 +1,51 @@
+{
+  "command": [
+    "python3.12",
+    "/home/jaykob/Downloads/Account_History_Analyzer_V1_Agent_Handoff/account_history_analyzer_v1/scripts/offline_exec.py",
+    "/home/jaykob/Downloads/Account_History_Analyzer_V1_Agent_Handoff/account_history_analyzer_v1/.venv/bin/python",
+    "/home/jaykob/Downloads/Account_History_Analyzer_V1_Agent_Handoff/account_history_analyzer_v1/qa/audit-repair/postrepair-links.py"
+  ],
+  "cwd": "/tmp",
+  "exit_code": 0,
+  "elapsed_seconds": 0.16051481399335898,
+  "network_isolation": "linux_seccomp_socket_denial",
+  "data_sha256": "2536ac803b23e05e8002249f0ec2868dfc081a6ae72273c50a0660df46adc8b6",
+  "comparison": [
+    {
+      "case": "mixed_same_host",
+      "before_occurrences": 2,
+      "after_occurrences": 1,
+      "retained_segments_unchanged": true
+    },
+    {
+      "case": "mixed_different_host",
+      "before_occurrences": 2,
+      "after_occurrences": 1,
+      "retained_segments_unchanged": true
+    },
+    {
+      "case": "formatted_label",
+      "before_occurrences": 2,
+      "after_occurrences": 1,
+      "retained_segments_unchanged": true
+    },
+    {
+      "case": "code_label",
+      "before_occurrences": 2,
+      "after_occurrences": 1,
+      "retained_segments_unchanged": true
+    },
+    {
+      "case": "quote_label",
+      "before_occurrences": 1,
+      "after_occurrences": 1,
+      "retained_segments_unchanged": true
+    },
+    {
+      "case": "independent_links",
+      "before_occurrences": 4,
+      "after_occurrences": 2,
+      "retained_segments_unchanged": true
+    }
+  ]
+}

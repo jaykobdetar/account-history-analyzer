@@ -1,0 +1,49 @@
+{
+  "checks": [
+    {
+      "command": "python3.12 scripts/offline_exec.py .venv/bin/python -m pytest -q",
+      "exit_code": 0,
+      "log": "qa/audit-repair/full-tests.log",
+      "passed": 553,
+      "seconds": 83.75,
+      "skipped": 1,
+      "skipped_reason": "Analyzer seccomp forbids Chrome Unix IPC; separate browser gate required"
+    },
+    {
+      "command": "python3.12 scripts/offline_exec.py .venv/bin/python -m pytest tests/test_reuse.py tests/test_reuse_properties.py tests/test_reuse_resources.py tests/test_reuse_adversarial_review.py tests/test_schemas.py tests/test_artifact_streaming.py tests/test_verification.py -q",
+      "exit_code": 0,
+      "log": "qa/audit-repair/combined-correctness-gate.log",
+      "passed": 145,
+      "seconds": 13.95,
+      "skipped": 0
+    },
+    {
+      "command": "python3.12 scripts/offline_exec.py env AHAS_RUN_LARGE_ROUNDTRIP=1 .venv/bin/python -m pytest qa/audit-repair/supplied-probes/test_review_regressions.py -q",
+      "exit_code": 0,
+      "log": "qa/audit-repair/supplied-regressions-after.log",
+      "passed": 3,
+      "seconds": 160.78,
+      "skipped": 0
+    },
+    {
+      "command": "docker run --rm --network none --env AHAS_NETWORK_ISOLATION=docker_network_none --entrypoint python ahas-reference:1.0.2 -m pytest -q",
+      "exit_code": 0,
+      "log": "qa/audit-repair/container-tests.log",
+      "network_isolation": "docker_network_none",
+      "passed": 553,
+      "seconds": 112.43,
+      "skipped": 1,
+      "skipped_reason": "Chrome and Node not installed; separate host browser check passed"
+    },
+    {
+      "command": ".venv/bin/python scripts/browser_offline_exec.py env AHAS_RUN_BROWSER_AUDIT=1 .venv/bin/python -m pytest tests/test_security.py::test_out04_real_browser_remote_requests_intercepted -q",
+      "exit_code": 0,
+      "log": "qa/audit-repair/browser-test.log",
+      "network_isolation": "linux_seccomp_nonunix_socket_denial",
+      "passed": 1,
+      "seconds": 2.06,
+      "skipped": 0
+    }
+  ],
+  "network_isolation": "linux_seccomp_socket_denial"
+}

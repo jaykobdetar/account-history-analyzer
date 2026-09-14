@@ -1,0 +1,15 @@
+{
+  "python": "3.13.5",
+  "platform": "Linux-6.18.44-x86_64-with-glibc2.41",
+  "packages": {
+    "numpy": "2.3.5",
+    "scipy": "1.17.0",
+    "jsonschema": "4.26.0",
+    "markdown-it-py": "4.2.0",
+    "pytest": "9.0.2",
+    "hypothesis": null,
+    "ruptures": null,
+    "hatchling": null,
+    "typing_extensions": "4.16.0"
+  }
+}

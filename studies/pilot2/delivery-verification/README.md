@@ -1,0 +1,13 @@
+# AHAS 1.0.4 repair and second-pilot delivery
+
+[Open the comprehensive review](../public-handoff-final/review/REVIEW.html), or download [the sanitized review handoff](AHAS_1.0.4_RW001_and_Pilot2_Review_20260914.zip). Its 317 members include the protocol, complete outcome tables, preparation/resource audits, scripts, actual command logs, and repair evidence. Raw prose, private account maps and native source-containing outputs remain in the protected local workspace.
+
+The working production source is a separate artifact: [source and reports archive](/home/jaykob/Downloads/Account_History_Analyzer_V1_Agent_Handoff/account_history_analyzer_v1/release/1.0.4/account-history-analyzer-1.0.4-source-and-reports.tar.gz). It contains the package, wheel, dependency locks, reference-container recipe, tests, sample reports and repair logs. [Exact installation, offline analysis and local replay commands](../public-handoff-final/README.md) accompany the review.
+
+The final ZIP is 1,109,429 bytes; SHA-256 `d3794079f8ee6b5b01f3ba12cbcefd30b6cbd6835dab2c1ccf353a2489a770a2`. [Archive verification](archive-verification.json) confirms every member against the staged manifest and an identical second build in this runtime. [The final independent check](final-archive-independent-check.json) verifies all 1,448 frozen files, all saved outcomes, static HTML and the stated source-excerpt/account-key exclusion checks. It exited zero in 20.96 seconds. [Its actual receipt](final-archive-independent-check.receipt.json) and raw stdout/stderr are alongside it. Completed staging/link/packaging receipts and logs are in `packaging-logs/`.
+
+Repair checks passed 658 repository tests with one separately exercised browser skip, eight audit/adversarial regressions and 24 reviewer regressions. New study checks passed 68 combined tests and five actual-archive checks. Seventy-two paired batches and forty chronological/operational analyses completed; twenty planned slots remained unfilled. Byte-identical replays covered three paired evaluator files, three splice evaluator files plus its grid diagnostic, and fourteen natural-history canonical artifacts. No cross-platform identity is claimed.
+
+The confirmation reserve remains unscored. Sparse cross-community coverage and the two unfilled Cornell source-pair slots constrain interpretation. Account-ID proxies and constructed transitions do not establish human authorship or takeover truth. `real_world_validation: not_established` remains unchanged. Old scores, receipts and private pilot files remain historical.
+
+[DELIVERY.json](DELIVERY.json) binds these delivered artifacts by size and SHA-256. Later packaging checks are additive receipts, not rewritten historical executions.

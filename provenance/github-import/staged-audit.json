@@ -1,0 +1,932 @@
+{
+  "archive_members_present_equal": 634,
+  "archive_sha256": "c1f4985fb484698e055a8ee045b42b5ecfb7377b7958bfa2778a7b6e639564cb",
+  "auditor_script_sha256": "d1beacf263eb11de81a0c6a5f03946500e94bc56d4ebac94ec8f996d74f67cb9",
+  "current_distributions_only": true,
+  "documented_archive_members_modified": [
+    ".gitignore",
+    "README.md"
+  ],
+  "final_delivery_proofs_present": [
+    "DELIVERY.json",
+    "final-archive-independent-check.json",
+    "final-archive-check-binding.json",
+    "final-portable-links.json",
+    "handoff-factual-check.json",
+    "archive-verification.json"
+  ],
+  "intentionally_omitted_historical_output_and_distributions": [
+    "dist/.gitignore",
+    "dist/account_history_analyzer-1.0.0-py3-none-any.whl",
+    "dist/account_history_analyzer-1.0.0.tar.gz",
+    "dist/account_history_analyzer-1.0.1-py3-none-any.whl",
+    "dist/account_history_analyzer-1.0.1.tar.gz",
+    "dist/account_history_analyzer-1.0.2-py3-none-any.whl",
+    "dist/account_history_analyzer-1.0.2.tar.gz",
+    "dist/account_history_analyzer-1.0.3-py3-none-any.whl",
+    "dist/account_history_analyzer-1.0.3.tar.gz",
+    "output/arithmetic/activity_daily.svg",
+    "output/arithmetic/activity_hourly.svg",
+    "output/arithmetic/adjacent_distances.svg",
+    "output/arithmetic/checksums.json",
+    "output/arithmetic/eligible_word_volume.svg",
+    "output/arithmetic/evidence.jsonl",
+    "output/arithmetic/ingest_receipt.json",
+    "output/arithmetic/method_registry.json",
+    "output/arithmetic/records_features.jsonl",
+    "output/arithmetic/report.html",
+    "output/arithmetic/report.md",
+    "output/arithmetic/resolved_config.json",
+    "output/arithmetic/results.json",
+    "output/arithmetic/run_receipt.json",
+    "output/arithmetic/surface_features.svg",
+    "output/arithmetic/windows.jsonl",
+    "output/arithmetic-no-excerpts/activity_daily.svg",
+    "output/arithmetic-no-excerpts/activity_hourly.svg",
+    "output/arithmetic-no-excerpts/adjacent_distances.svg",
+    "output/arithmetic-no-excerpts/eligible_word_volume.svg",
+    "output/arithmetic-no-excerpts/method_registry.json",
+    "output/arithmetic-no-excerpts/report.html",
+    "output/arithmetic-no-excerpts/report.md",
+    "output/arithmetic-no-excerpts/resolved_config.json",
+    "output/arithmetic-no-excerpts/surface_features.svg",
+    "output/audit-repair/arithmetic/activity_daily.svg",
+    "output/audit-repair/arithmetic/activity_hourly.svg",
+    "output/audit-repair/arithmetic/adjacent_distances.svg",
+    "output/audit-repair/arithmetic/checksums.json",
+    "output/audit-repair/arithmetic/eligible_word_volume.svg",
+    "output/audit-repair/arithmetic/evidence.jsonl",
+    "output/audit-repair/arithmetic/ingest_receipt.json",
+    "output/audit-repair/arithmetic/method_registry.json",
+    "output/audit-repair/arithmetic/records_features.jsonl",
+    "output/audit-repair/arithmetic/report.html",
+    "output/audit-repair/arithmetic/report.md",
+    "output/audit-repair/arithmetic/resolved_config.json",
+    "output/audit-repair/arithmetic/results.json",
+    "output/audit-repair/arithmetic/run_receipt.json",
+    "output/audit-repair/arithmetic/surface_features.svg",
+    "output/audit-repair/arithmetic/windows.jsonl",
+    "output/audit-repair/constructed_style_shift/activity_daily.svg",
+    "output/audit-repair/constructed_style_shift/activity_hourly.svg",
+    "output/audit-repair/constructed_style_shift/adjacent_distances.svg",
+    "output/audit-repair/constructed_style_shift/checksums.json",
+    "output/audit-repair/constructed_style_shift/eligible_word_volume.svg",
+    "output/audit-repair/constructed_style_shift/evidence.jsonl",
+    "output/audit-repair/constructed_style_shift/ingest_receipt.json",
+    "output/audit-repair/constructed_style_shift/method_registry.json",
+    "output/audit-repair/constructed_style_shift/records_features.jsonl",
+    "output/audit-repair/constructed_style_shift/report.html",
+    "output/audit-repair/constructed_style_shift/report.md",
+    "output/audit-repair/constructed_style_shift/resolved_config.json",
+    "output/audit-repair/constructed_style_shift/results.json",
+    "output/audit-repair/constructed_style_shift/run_receipt.json",
+    "output/audit-repair/constructed_style_shift/surface_features.svg",
+    "output/audit-repair/constructed_style_shift/windows.jsonl",
+    "output/audit-repair/constructed_topic_shift/activity_daily.svg",
+    "output/audit-repair/constructed_topic_shift/activity_hourly.svg",
+    "output/audit-repair/constructed_topic_shift/adjacent_distances.svg",
+    "output/audit-repair/constructed_topic_shift/checksums.json",
+    "output/audit-repair/constructed_topic_shift/eligible_word_volume.svg",
+    "output/audit-repair/constructed_topic_shift/evidence.jsonl",
+    "output/audit-repair/constructed_topic_shift/ingest_receipt.json",
+    "output/audit-repair/constructed_topic_shift/method_registry.json",
+    "output/audit-repair/constructed_topic_shift/records_features.jsonl",
+    "output/audit-repair/constructed_topic_shift/report.html",
+    "output/audit-repair/constructed_topic_shift/report.md",
+    "output/audit-repair/constructed_topic_shift/resolved_config.json",
+    "output/audit-repair/constructed_topic_shift/results.json",
+    "output/audit-repair/constructed_topic_shift/run_receipt.json",
+    "output/audit-repair/constructed_topic_shift/surface_features.svg",
+    "output/audit-repair/constructed_topic_shift/windows.jsonl",
+    "output/audit-repair/edge_cases/activity_daily.svg",
+    "output/audit-repair/edge_cases/activity_hourly.svg",
+    "output/audit-repair/edge_cases/adjacent_distances.svg",
+    "output/audit-repair/edge_cases/checksums.json",
+    "output/audit-repair/edge_cases/eligible_word_volume.svg",
+    "output/audit-repair/edge_cases/evidence.jsonl",
+    "output/audit-repair/edge_cases/ingest_receipt.json",
+    "output/audit-repair/edge_cases/method_registry.json",
+    "output/audit-repair/edge_cases/records_features.jsonl",
+    "output/audit-repair/edge_cases/report.html",
+    "output/audit-repair/edge_cases/report.md",
+    "output/audit-repair/edge_cases/resolved_config.json",
+    "output/audit-repair/edge_cases/results.json",
+    "output/audit-repair/edge_cases/run_receipt.json",
+    "output/audit-repair/edge_cases/surface_features.svg",
+    "output/audit-repair/edge_cases/windows.jsonl",
+    "output/audit-repair/empty/activity_daily.svg",
+    "output/audit-repair/empty/activity_hourly.svg",
+    "output/audit-repair/empty/adjacent_distances.svg",
+    "output/audit-repair/empty/checksums.json",
+    "output/audit-repair/empty/eligible_word_volume.svg",
+    "output/audit-repair/empty/evidence.jsonl",
+    "output/audit-repair/empty/ingest_receipt.json",
+    "output/audit-repair/empty/method_registry.json",
+    "output/audit-repair/empty/records_features.jsonl",
+    "output/audit-repair/empty/report.html",
+    "output/audit-repair/empty/report.md",
+    "output/audit-repair/empty/resolved_config.json",
+    "output/audit-repair/empty/results.json",
+    "output/audit-repair/empty/run_receipt.json",
+    "output/audit-repair/empty/surface_features.svg",
+    "output/audit-repair/empty/windows.jsonl",
+    "output/audit-repair/stable_constructed_style/activity_daily.svg",
+    "output/audit-repair/stable_constructed_style/activity_hourly.svg",
+    "output/audit-repair/stable_constructed_style/adjacent_distances.svg",
+    "output/audit-repair/stable_constructed_style/checksums.json",
+    "output/audit-repair/stable_constructed_style/eligible_word_volume.svg",
+    "output/audit-repair/stable_constructed_style/evidence.jsonl",
+    "output/audit-repair/stable_constructed_style/ingest_receipt.json",
+    "output/audit-repair/stable_constructed_style/method_registry.json",
+    "output/audit-repair/stable_constructed_style/records_features.jsonl",
+    "output/audit-repair/stable_constructed_style/report.html",
+    "output/audit-repair/stable_constructed_style/report.md",
+    "output/audit-repair/stable_constructed_style/resolved_config.json",
+    "output/audit-repair/stable_constructed_style/results.json",
+    "output/audit-repair/stable_constructed_style/run_receipt.json",
+    "output/audit-repair/stable_constructed_style/surface_features.svg",
+    "output/audit-repair/stable_constructed_style/windows.jsonl",
+    "output/comparison/activity_daily.svg",
+    "output/comparison/activity_hourly.svg",
+    "output/comparison/adjacent_distances.svg",
+    "output/comparison/checksums.json",
+    "output/comparison/eligible_word_volume.svg",
+    "output/comparison/evidence.jsonl",
+    "output/comparison/ingest_receipt.json",
+    "output/comparison/method_registry.json",
+    "output/comparison/records_features.jsonl",
+    "output/comparison/report.html",
+    "output/comparison/report.md",
+    "output/comparison/resolved_config.json",
+    "output/comparison/results.json",
+    "output/comparison/run_receipt.json",
+    "output/comparison/surface_features.svg",
+    "output/comparison/windows.jsonl",
+    "output/constructed_style_shift/activity_daily.svg",
+    "output/constructed_style_shift/activity_hourly.svg",
+    "output/constructed_style_shift/adjacent_distances.svg",
+    "output/constructed_style_shift/checksums.json",
+    "output/constructed_style_shift/eligible_word_volume.svg",
+    "output/constructed_style_shift/evidence.jsonl",
+    "output/constructed_style_shift/ingest_receipt.json",
+    "output/constructed_style_shift/method_registry.json",
+    "output/constructed_style_shift/records_features.jsonl",
+    "output/constructed_style_shift/report.html",
+    "output/constructed_style_shift/report.md",
+    "output/constructed_style_shift/resolved_config.json",
+    "output/constructed_style_shift/results.json",
+    "output/constructed_style_shift/run_receipt.json",
+    "output/constructed_style_shift/surface_features.svg",
+    "output/constructed_style_shift/windows.jsonl",
+    "output/constructed_topic_shift/activity_daily.svg",
+    "output/constructed_topic_shift/activity_hourly.svg",
+    "output/constructed_topic_shift/adjacent_distances.svg",
+    "output/constructed_topic_shift/checksums.json",
+    "output/constructed_topic_shift/eligible_word_volume.svg",
+    "output/constructed_topic_shift/evidence.jsonl",
+    "output/constructed_topic_shift/ingest_receipt.json",
+    "output/constructed_topic_shift/method_registry.json",
+    "output/constructed_topic_shift/records_features.jsonl",
+    "output/constructed_topic_shift/report.html",
+    "output/constructed_topic_shift/report.md",
+    "output/constructed_topic_shift/resolved_config.json",
+    "output/constructed_topic_shift/results.json",
+    "output/constructed_topic_shift/run_receipt.json",
+    "output/constructed_topic_shift/surface_features.svg",
+    "output/constructed_topic_shift/windows.jsonl",
+    "output/edge_cases/activity_daily.svg",
+    "output/edge_cases/activity_hourly.svg",
+    "output/edge_cases/adjacent_distances.svg",
+    "output/edge_cases/checksums.json",
+    "output/edge_cases/eligible_word_volume.svg",
+    "output/edge_cases/evidence.jsonl",
+    "output/edge_cases/ingest_receipt.json",
+    "output/edge_cases/method_registry.json",
+    "output/edge_cases/records_features.jsonl",
+    "output/edge_cases/report.html",
+    "output/edge_cases/report.md",
+    "output/edge_cases/resolved_config.json",
+    "output/edge_cases/results.json",
+    "output/edge_cases/run_receipt.json",
+    "output/edge_cases/surface_features.svg",
+    "output/edge_cases/windows.jsonl",
+    "output/empty/activity_daily.svg",
+    "output/empty/activity_hourly.svg",
+    "output/empty/adjacent_distances.svg",
+    "output/empty/checksums.json",
+    "output/empty/eligible_word_volume.svg",
+    "output/empty/evidence.jsonl",
+    "output/empty/ingest_receipt.json",
+    "output/empty/method_registry.json",
+    "output/empty/records_features.jsonl",
+    "output/empty/report.html",
+    "output/empty/report.md",
+    "output/empty/resolved_config.json",
+    "output/empty/results.json",
+    "output/empty/run_receipt.json",
+    "output/empty/surface_features.svg",
+    "output/empty/windows.jsonl",
+    "output/pr383/arithmetic/activity_daily.svg",
+    "output/pr383/arithmetic/activity_hourly.svg",
+    "output/pr383/arithmetic/adjacent_distances.svg",
+    "output/pr383/arithmetic/checksums.json",
+    "output/pr383/arithmetic/eligible_word_volume.svg",
+    "output/pr383/arithmetic/evidence.jsonl",
+    "output/pr383/arithmetic/ingest_receipt.json",
+    "output/pr383/arithmetic/method_registry.json",
+    "output/pr383/arithmetic/records_features.jsonl",
+    "output/pr383/arithmetic/report.html",
+    "output/pr383/arithmetic/report.md",
+    "output/pr383/arithmetic/resolved_config.json",
+    "output/pr383/arithmetic/results.json",
+    "output/pr383/arithmetic/run_receipt.json",
+    "output/pr383/arithmetic/surface_features.svg",
+    "output/pr383/arithmetic/windows.jsonl",
+    "output/pr383/constructed_style_shift/activity_daily.svg",
+    "output/pr383/constructed_style_shift/activity_hourly.svg",
+    "output/pr383/constructed_style_shift/adjacent_distances.svg",
+    "output/pr383/constructed_style_shift/checksums.json",
+    "output/pr383/constructed_style_shift/eligible_word_volume.svg",
+    "output/pr383/constructed_style_shift/evidence.jsonl",
+    "output/pr383/constructed_style_shift/ingest_receipt.json",
+    "output/pr383/constructed_style_shift/method_registry.json",
+    "output/pr383/constructed_style_shift/records_features.jsonl",
+    "output/pr383/constructed_style_shift/report.html",
+    "output/pr383/constructed_style_shift/report.md",
+    "output/pr383/constructed_style_shift/resolved_config.json",
+    "output/pr383/constructed_style_shift/results.json",
+    "output/pr383/constructed_style_shift/run_receipt.json",
+    "output/pr383/constructed_style_shift/surface_features.svg",
+    "output/pr383/constructed_style_shift/windows.jsonl",
+    "output/pr383/constructed_topic_shift/activity_daily.svg",
+    "output/pr383/constructed_topic_shift/activity_hourly.svg",
+    "output/pr383/constructed_topic_shift/adjacent_distances.svg",
+    "output/pr383/constructed_topic_shift/checksums.json",
+    "output/pr383/constructed_topic_shift/eligible_word_volume.svg",
+    "output/pr383/constructed_topic_shift/evidence.jsonl",
+    "output/pr383/constructed_topic_shift/ingest_receipt.json",
+    "output/pr383/constructed_topic_shift/method_registry.json",
+    "output/pr383/constructed_topic_shift/records_features.jsonl",
+    "output/pr383/constructed_topic_shift/report.html",
+    "output/pr383/constructed_topic_shift/report.md",
+    "output/pr383/constructed_topic_shift/resolved_config.json",
+    "output/pr383/constructed_topic_shift/results.json",
+    "output/pr383/constructed_topic_shift/run_receipt.json",
+    "output/pr383/constructed_topic_shift/surface_features.svg",
+    "output/pr383/constructed_topic_shift/windows.jsonl",
+    "output/pr383/edge_cases/activity_daily.svg",
+    "output/pr383/edge_cases/activity_hourly.svg",
+    "output/pr383/edge_cases/adjacent_distances.svg",
+    "output/pr383/edge_cases/checksums.json",
+    "output/pr383/edge_cases/eligible_word_volume.svg",
+    "output/pr383/edge_cases/evidence.jsonl",
+    "output/pr383/edge_cases/ingest_receipt.json",
+    "output/pr383/edge_cases/method_registry.json",
+    "output/pr383/edge_cases/records_features.jsonl",
+    "output/pr383/edge_cases/report.html",
+    "output/pr383/edge_cases/report.md",
+    "output/pr383/edge_cases/resolved_config.json",
+    "output/pr383/edge_cases/results.json",
+    "output/pr383/edge_cases/run_receipt.json",
+    "output/pr383/edge_cases/surface_features.svg",
+    "output/pr383/edge_cases/windows.jsonl",
+    "output/pr383/empty/activity_daily.svg",
+    "output/pr383/empty/activity_hourly.svg",
+    "output/pr383/empty/adjacent_distances.svg",
+    "output/pr383/empty/checksums.json",
+    "output/pr383/empty/eligible_word_volume.svg",
+    "output/pr383/empty/evidence.jsonl",
+    "output/pr383/empty/ingest_receipt.json",
+    "output/pr383/empty/method_registry.json",
+    "output/pr383/empty/records_features.jsonl",
+    "output/pr383/empty/report.html",
+    "output/pr383/empty/report.md",
+    "output/pr383/empty/resolved_config.json",
+    "output/pr383/empty/results.json",
+    "output/pr383/empty/run_receipt.json",
+    "output/pr383/empty/surface_features.svg",
+    "output/pr383/empty/windows.jsonl",
+    "output/pr383/stable_constructed_style/activity_daily.svg",
+    "output/pr383/stable_constructed_style/activity_hourly.svg",
+    "output/pr383/stable_constructed_style/adjacent_distances.svg",
+    "output/pr383/stable_constructed_style/checksums.json",
+    "output/pr383/stable_constructed_style/eligible_word_volume.svg",
+    "output/pr383/stable_constructed_style/evidence.jsonl",
+    "output/pr383/stable_constructed_style/ingest_receipt.json",
+    "output/pr383/stable_constructed_style/method_registry.json",
+    "output/pr383/stable_constructed_style/records_features.jsonl",
+    "output/pr383/stable_constructed_style/report.html",
+    "output/pr383/stable_constructed_style/report.md",
+    "output/pr383/stable_constructed_style/resolved_config.json",
+    "output/pr383/stable_constructed_style/results.json",
+    "output/pr383/stable_constructed_style/run_receipt.json",
+    "output/pr383/stable_constructed_style/surface_features.svg",
+    "output/pr383/stable_constructed_style/windows.jsonl",
+    "output/report005/arithmetic/activity_daily.svg",
+    "output/report005/arithmetic/activity_hourly.svg",
+    "output/report005/arithmetic/adjacent_distances.svg",
+    "output/report005/arithmetic/checksums.json",
+    "output/report005/arithmetic/eligible_word_volume.svg",
+    "output/report005/arithmetic/evidence.jsonl",
+    "output/report005/arithmetic/ingest_receipt.json",
+    "output/report005/arithmetic/method_registry.json",
+    "output/report005/arithmetic/records_features.jsonl",
+    "output/report005/arithmetic/report.html",
+    "output/report005/arithmetic/report.md",
+    "output/report005/arithmetic/resolved_config.json",
+    "output/report005/arithmetic/results.json",
+    "output/report005/arithmetic/run_receipt.json",
+    "output/report005/arithmetic/surface_features.svg",
+    "output/report005/arithmetic/windows.jsonl",
+    "output/report005/constructed_style_shift/activity_daily.svg",
+    "output/report005/constructed_style_shift/activity_hourly.svg",
+    "output/report005/constructed_style_shift/adjacent_distances.svg",
+    "output/report005/constructed_style_shift/checksums.json",
+    "output/report005/constructed_style_shift/eligible_word_volume.svg",
+    "output/report005/constructed_style_shift/evidence.jsonl",
+    "output/report005/constructed_style_shift/ingest_receipt.json",
+    "output/report005/constructed_style_shift/method_registry.json",
+    "output/report005/constructed_style_shift/records_features.jsonl",
+    "output/report005/constructed_style_shift/report.html",
+    "output/report005/constructed_style_shift/report.md",
+    "output/report005/constructed_style_shift/resolved_config.json",
+    "output/report005/constructed_style_shift/results.json",
+    "output/report005/constructed_style_shift/run_receipt.json",
+    "output/report005/constructed_style_shift/surface_features.svg",
+    "output/report005/constructed_style_shift/windows.jsonl",
+    "output/report005/constructed_topic_shift/activity_daily.svg",
+    "output/report005/constructed_topic_shift/activity_hourly.svg",
+    "output/report005/constructed_topic_shift/adjacent_distances.svg",
+    "output/report005/constructed_topic_shift/checksums.json",
+    "output/report005/constructed_topic_shift/eligible_word_volume.svg",
+    "output/report005/constructed_topic_shift/evidence.jsonl",
+    "output/report005/constructed_topic_shift/ingest_receipt.json",
+    "output/report005/constructed_topic_shift/method_registry.json",
+    "output/report005/constructed_topic_shift/records_features.jsonl",
+    "output/report005/constructed_topic_shift/report.html",
+    "output/report005/constructed_topic_shift/report.md",
+    "output/report005/constructed_topic_shift/resolved_config.json",
+    "output/report005/constructed_topic_shift/results.json",
+    "output/report005/constructed_topic_shift/run_receipt.json",
+    "output/report005/constructed_topic_shift/surface_features.svg",
+    "output/report005/constructed_topic_shift/windows.jsonl",
+    "output/report005/edge_cases/activity_daily.svg",
+    "output/report005/edge_cases/activity_hourly.svg",
+    "output/report005/edge_cases/adjacent_distances.svg",
+    "output/report005/edge_cases/checksums.json",
+    "output/report005/edge_cases/eligible_word_volume.svg",
+    "output/report005/edge_cases/evidence.jsonl",
+    "output/report005/edge_cases/ingest_receipt.json",
+    "output/report005/edge_cases/method_registry.json",
+    "output/report005/edge_cases/records_features.jsonl",
+    "output/report005/edge_cases/report.html",
+    "output/report005/edge_cases/report.md",
+    "output/report005/edge_cases/resolved_config.json",
+    "output/report005/edge_cases/results.json",
+    "output/report005/edge_cases/run_receipt.json",
+    "output/report005/edge_cases/surface_features.svg",
+    "output/report005/edge_cases/windows.jsonl",
+    "output/report005/empty/activity_daily.svg",
+    "output/report005/empty/activity_hourly.svg",
+    "output/report005/empty/adjacent_distances.svg",
+    "output/report005/empty/checksums.json",
+    "output/report005/empty/eligible_word_volume.svg",
+    "output/report005/empty/evidence.jsonl",
+    "output/report005/empty/ingest_receipt.json",
+    "output/report005/empty/method_registry.json",
+    "output/report005/empty/records_features.jsonl",
+    "output/report005/empty/report.html",
+    "output/report005/empty/report.md",
+    "output/report005/empty/resolved_config.json",
+    "output/report005/empty/results.json",
+    "output/report005/empty/run_receipt.json",
+    "output/report005/empty/surface_features.svg",
+    "output/report005/empty/windows.jsonl",
+    "output/report005/stable_constructed_style/activity_daily.svg",
+    "output/report005/stable_constructed_style/activity_hourly.svg",
+    "output/report005/stable_constructed_style/adjacent_distances.svg",
+    "output/report005/stable_constructed_style/checksums.json",
+    "output/report005/stable_constructed_style/eligible_word_volume.svg",
+    "output/report005/stable_constructed_style/evidence.jsonl",
+    "output/report005/stable_constructed_style/ingest_receipt.json",
+    "output/report005/stable_constructed_style/method_registry.json",
+    "output/report005/stable_constructed_style/records_features.jsonl",
+    "output/report005/stable_constructed_style/report.html",
+    "output/report005/stable_constructed_style/report.md",
+    "output/report005/stable_constructed_style/resolved_config.json",
+    "output/report005/stable_constructed_style/results.json",
+    "output/report005/stable_constructed_style/run_receipt.json",
+    "output/report005/stable_constructed_style/surface_features.svg",
+    "output/report005/stable_constructed_style/windows.jsonl",
+    "output/stable_constructed_style/activity_daily.svg",
+    "output/stable_constructed_style/activity_hourly.svg",
+    "output/stable_constructed_style/adjacent_distances.svg",
+    "output/stable_constructed_style/checksums.json",
+    "output/stable_constructed_style/eligible_word_volume.svg",
+    "output/stable_constructed_style/evidence.jsonl",
+    "output/stable_constructed_style/ingest_receipt.json",
+    "output/stable_constructed_style/method_registry.json",
+    "output/stable_constructed_style/records_features.jsonl",
+    "output/stable_constructed_style/report.html",
+    "output/stable_constructed_style/report.md",
+    "output/stable_constructed_style/resolved_config.json",
+    "output/stable_constructed_style/results.json",
+    "output/stable_constructed_style/run_receipt.json",
+    "output/stable_constructed_style/surface_features.svg",
+    "output/stable_constructed_style/windows.jsonl"
+  ],
+  "main_link_counts": {
+    "external_link_publication_verification_owned_by_root": 5,
+    "local_ok": 88
+  },
+  "main_links": [
+    {
+      "document": "README.md",
+      "status": "local_ok",
+      "target": "docs/RW001.md"
+    },
+    {
+      "document": "README.md",
+      "status": "local_ok",
+      "target": "docs/DOCUMENTATION_INDEX.md"
+    },
+    {
+      "document": "README.md",
+      "status": "local_ok",
+      "target": "studies/pilot2/review/REVIEW.md"
+    },
+    {
+      "document": "README.md",
+      "status": "local_ok",
+      "target": "studies/pilot2/review/PAIRED_OUTCOMES.md"
+    },
+    {
+      "document": "README.md",
+      "status": "external_link_publication_verification_owned_by_root",
+      "target": "https://github.com/jaykobdetar/account-history-analyzer/releases/tag/v1.0.4"
+    },
+    {
+      "document": "README.md",
+      "status": "local_ok",
+      "target": "docs/REPORT005.md"
+    },
+    {
+      "document": "README.md",
+      "status": "local_ok",
+      "target": "docs/AUDIT_REPAIR.md"
+    },
+    {
+      "document": "README.md",
+      "status": "external_link_publication_verification_owned_by_root",
+      "target": "https://github.com/deepcharles/ruptures/pull/383"
+    },
+    {
+      "document": "README.md",
+      "status": "local_ok",
+      "target": "docs/PR383.md"
+    },
+    {
+      "document": "README.md",
+      "status": "local_ok",
+      "target": "docs/EVALUATION.md"
+    },
+    {
+      "document": "README.md",
+      "status": "local_ok",
+      "target": "docs/TEST_MAP.md"
+    },
+    {
+      "document": "README.md",
+      "status": "local_ok",
+      "target": "docs/EXTERNAL_EVALUATION.md"
+    },
+    {
+      "document": "README.md",
+      "status": "local_ok",
+      "target": "docs/METHODS.md"
+    },
+    {
+      "document": "README.md",
+      "status": "local_ok",
+      "target": "docs/DECISIONS.md"
+    },
+    {
+      "document": "README.md",
+      "status": "local_ok",
+      "target": "docs/LIMITATIONS.md"
+    },
+    {
+      "document": "README.md",
+      "status": "local_ok",
+      "target": "SOURCES.md"
+    },
+    {
+      "document": "README.md",
+      "status": "local_ok",
+      "target": "docs/REUSE_RESOURCE_POLICY.md"
+    },
+    {
+      "document": "README.md",
+      "status": "local_ok",
+      "target": "containers/README.md"
+    },
+    {
+      "document": "README.md",
+      "status": "local_ok",
+      "target": "docs/DEPENDENCIES.md"
+    },
+    {
+      "document": "docs/DOCUMENTATION_INDEX.md",
+      "status": "local_ok",
+      "target": "../README.md"
+    },
+    {
+      "document": "docs/DOCUMENTATION_INDEX.md",
+      "status": "local_ok",
+      "target": "../containers/README.md"
+    },
+    {
+      "document": "docs/DOCUMENTATION_INDEX.md",
+      "status": "local_ok",
+      "target": "METHODS.md"
+    },
+    {
+      "document": "docs/DOCUMENTATION_INDEX.md",
+      "status": "local_ok",
+      "target": "LIMITATIONS.md"
+    },
+    {
+      "document": "docs/DOCUMENTATION_INDEX.md",
+      "status": "local_ok",
+      "target": "DECISIONS.md"
+    },
+    {
+      "document": "docs/DOCUMENTATION_INDEX.md",
+      "status": "local_ok",
+      "target": "DEPENDENCIES.md"
+    },
+    {
+      "document": "docs/DOCUMENTATION_INDEX.md",
+      "status": "local_ok",
+      "target": "../SOURCES.md"
+    },
+    {
+      "document": "docs/DOCUMENTATION_INDEX.md",
+      "status": "local_ok",
+      "target": "../config/README.md"
+    },
+    {
+      "document": "docs/DOCUMENTATION_INDEX.md",
+      "status": "local_ok",
+      "target": "EXTERNAL_EVALUATION.md"
+    },
+    {
+      "document": "docs/DOCUMENTATION_INDEX.md",
+      "status": "local_ok",
+      "target": "TEST_MAP.md"
+    },
+    {
+      "document": "docs/DOCUMENTATION_INDEX.md",
+      "status": "local_ok",
+      "target": "MILESTONES.md"
+    },
+    {
+      "document": "docs/DOCUMENTATION_INDEX.md",
+      "status": "local_ok",
+      "target": "EVALUATION.md"
+    },
+    {
+      "document": "docs/DOCUMENTATION_INDEX.md",
+      "status": "local_ok",
+      "target": "../BUILD_SPEC.md"
+    },
+    {
+      "document": "docs/DOCUMENTATION_INDEX.md",
+      "status": "local_ok",
+      "target": "../ACCEPTANCE_TESTS.md"
+    },
+    {
+      "document": "docs/DOCUMENTATION_INDEX.md",
+      "status": "local_ok",
+      "target": "RW001.md"
+    },
+    {
+      "document": "docs/DOCUMENTATION_INDEX.md",
+      "status": "local_ok",
+      "target": "REPORT005.md"
+    },
+    {
+      "document": "docs/DOCUMENTATION_INDEX.md",
+      "status": "local_ok",
+      "target": "AUDIT_REPAIR.md"
+    },
+    {
+      "document": "docs/DOCUMENTATION_INDEX.md",
+      "status": "local_ok",
+      "target": "PR383.md"
+    },
+    {
+      "document": "docs/DOCUMENTATION_INDEX.md",
+      "status": "local_ok",
+      "target": "REUSE_RESOURCE_POLICY.md"
+    },
+    {
+      "document": "docs/DOCUMENTATION_INDEX.md",
+      "status": "local_ok",
+      "target": "../qa/"
+    },
+    {
+      "document": "docs/DOCUMENTATION_INDEX.md",
+      "status": "local_ok",
+      "target": "../output/rw001/"
+    },
+    {
+      "document": "docs/DOCUMENTATION_INDEX.md",
+      "status": "local_ok",
+      "target": "../provenance/releases/1.0.4/"
+    },
+    {
+      "document": "docs/DOCUMENTATION_INDEX.md",
+      "status": "local_ok",
+      "target": "../studies/pilot1/historical-1.0.3/README.md"
+    },
+    {
+      "document": "docs/DOCUMENTATION_INDEX.md",
+      "status": "local_ok",
+      "target": "../studies/pilot2/review/REVIEW.md"
+    },
+    {
+      "document": "docs/DOCUMENTATION_INDEX.md",
+      "status": "local_ok",
+      "target": "../studies/pilot2/protocol/PROTOCOL.md"
+    },
+    {
+      "document": "docs/DOCUMENTATION_INDEX.md",
+      "status": "local_ok",
+      "target": "../studies/pilot2/protocol/scoring-freeze.json"
+    },
+    {
+      "document": "docs/DOCUMENTATION_INDEX.md",
+      "status": "local_ok",
+      "target": "../studies/pilot2/inventory/"
+    },
+    {
+      "document": "docs/DOCUMENTATION_INDEX.md",
+      "status": "local_ok",
+      "target": "../studies/pilot2/review/PREPARATION_REVIEW.md"
+    },
+    {
+      "document": "docs/DOCUMENTATION_INDEX.md",
+      "status": "local_ok",
+      "target": "../studies/pilot2/review/PAIRED_OUTCOMES.md"
+    },
+    {
+      "document": "docs/DOCUMENTATION_INDEX.md",
+      "status": "local_ok",
+      "target": "../studies/pilot2/review/pair-observations.json"
+    },
+    {
+      "document": "docs/DOCUMENTATION_INDEX.md",
+      "status": "local_ok",
+      "target": "../studies/pilot2/review/paired-metrics.csv"
+    },
+    {
+      "document": "docs/DOCUMENTATION_INDEX.md",
+      "status": "local_ok",
+      "target": "../studies/pilot2/review/STREAM_OUTCOMES.md"
+    },
+    {
+      "document": "docs/DOCUMENTATION_INDEX.md",
+      "status": "local_ok",
+      "target": "../studies/pilot2/review/RESOURCE_COST.md"
+    },
+    {
+      "document": "docs/DOCUMENTATION_INDEX.md",
+      "status": "local_ok",
+      "target": "../studies/pilot2/review/COMMANDS.md"
+    },
+    {
+      "document": "docs/DOCUMENTATION_INDEX.md",
+      "status": "local_ok",
+      "target": "../studies/pilot2/review/FINAL_COMMANDS.md"
+    },
+    {
+      "document": "docs/DOCUMENTATION_INDEX.md",
+      "status": "local_ok",
+      "target": "../studies/pilot2/delivery-verification/"
+    },
+    {
+      "document": "docs/DOCUMENTATION_INDEX.md",
+      "status": "external_link_publication_verification_owned_by_root",
+      "target": "https://github.com/jaykobdetar/account-history-analyzer/releases/tag/v1.0.4"
+    },
+    {
+      "document": "docs/DOCUMENTATION_INDEX.md",
+      "status": "local_ok",
+      "target": "GITHUB_IMPORT.md"
+    },
+    {
+      "document": "studies/pilot2/README.md",
+      "status": "local_ok",
+      "target": "review/REVIEW.html"
+    },
+    {
+      "document": "studies/pilot2/README.md",
+      "status": "local_ok",
+      "target": "review/PAIRED_OUTCOMES.html"
+    },
+    {
+      "document": "studies/pilot2/README.md",
+      "status": "local_ok",
+      "target": "review/STREAM_OUTCOMES.html"
+    },
+    {
+      "document": "studies/pilot2/README.md",
+      "status": "local_ok",
+      "target": "review/PREPARATION_REVIEW.md"
+    },
+    {
+      "document": "studies/pilot2/README.md",
+      "status": "local_ok",
+      "target": "review/RESOURCE_COST.md"
+    },
+    {
+      "document": "studies/pilot2/README.md",
+      "status": "local_ok",
+      "target": "review/COMMANDS.md"
+    },
+    {
+      "document": "studies/pilot2/README.md",
+      "status": "local_ok",
+      "target": "protocol/PROTOCOL.md"
+    },
+    {
+      "document": "studies/pilot2/README.md",
+      "status": "local_ok",
+      "target": "review/FINAL_COMMANDS.md"
+    },
+    {
+      "document": "studies/pilot2/README.md",
+      "status": "local_ok",
+      "target": "review/PORTABLE_LINK_EDITS.json"
+    },
+    {
+      "document": "studies/pilot2/review/REVIEW.md",
+      "status": "local_ok",
+      "target": "PAIRED_OUTCOMES.html"
+    },
+    {
+      "document": "studies/pilot2/review/REVIEW.md",
+      "status": "local_ok",
+      "target": "STREAM_OUTCOMES.html"
+    },
+    {
+      "document": "studies/pilot2/review/REVIEW.md",
+      "status": "local_ok",
+      "target": "../diagnostics/GRID_DIAGNOSTICS.md"
+    },
+    {
+      "document": "studies/pilot2/review/REVIEW.md",
+      "status": "external_link_publication_verification_owned_by_root",
+      "target": "https://convokit.cornell.edu/documentation/subreddit.html"
+    },
+    {
+      "document": "studies/pilot2/review/REVIEW.md",
+      "status": "local_ok",
+      "target": "PREPARATION_REVIEW.md"
+    },
+    {
+      "document": "studies/pilot2/review/REVIEW.md",
+      "status": "local_ok",
+      "target": "../protocol/PROTOCOL.md"
+    },
+    {
+      "document": "studies/pilot2/review/REVIEW.md",
+      "status": "local_ok",
+      "target": "paired-leakage-review.md"
+    },
+    {
+      "document": "studies/pilot2/review/REVIEW.md",
+      "status": "local_ok",
+      "target": "COMMANDS.md"
+    },
+    {
+      "document": "studies/pilot2/review/REVIEW.md",
+      "status": "local_ok",
+      "target": "RESOURCE_COST.md"
+    },
+    {
+      "document": "studies/pilot2/review/REVIEW.md",
+      "status": "local_ok",
+      "target": "../resources/RESOURCE_REVIEW.md"
+    },
+    {
+      "document": "studies/pilot2/review/REVIEW.html",
+      "status": "local_ok",
+      "target": "PAIRED_OUTCOMES.html"
+    },
+    {
+      "document": "studies/pilot2/review/REVIEW.html",
+      "status": "local_ok",
+      "target": "STREAM_OUTCOMES.html"
+    },
+    {
+      "document": "studies/pilot2/review/REVIEW.html",
+      "status": "local_ok",
+      "target": "../diagnostics/GRID_DIAGNOSTICS.md"
+    },
+    {
+      "document": "studies/pilot2/review/REVIEW.html",
+      "status": "external_link_publication_verification_owned_by_root",
+      "target": "https://convokit.cornell.edu/documentation/subreddit.html"
+    },
+    {
+      "document": "studies/pilot2/review/REVIEW.html",
+      "status": "local_ok",
+      "target": "PREPARATION_REVIEW.md"
+    },
+    {
+      "document": "studies/pilot2/review/REVIEW.html",
+      "status": "local_ok",
+      "target": "../protocol/PROTOCOL.md"
+    },
+    {
+      "document": "studies/pilot2/review/REVIEW.html",
+      "status": "local_ok",
+      "target": "paired-leakage-review.md"
+    },
+    {
+      "document": "studies/pilot2/review/REVIEW.html",
+      "status": "local_ok",
+      "target": "COMMANDS.md"
+    },
+    {
+      "document": "studies/pilot2/review/REVIEW.html",
+      "status": "local_ok",
+      "target": "RESOURCE_COST.md"
+    },
+    {
+      "document": "studies/pilot2/review/REVIEW.html",
+      "status": "local_ok",
+      "target": "../resources/RESOURCE_REVIEW.md"
+    },
+    {
+      "document": "studies/pilot1/historical-1.0.3/README.md",
+      "status": "local_ok",
+      "target": "../../../docs/RW001.md"
+    },
+    {
+      "document": "studies/pilot1/historical-1.0.3/README.md",
+      "status": "local_ok",
+      "target": "../../pilot2/review/REVIEW.md"
+    },
+    {
+      "document": "studies/pilot1/historical-1.0.3/README.md",
+      "status": "local_ok",
+      "target": "review/PUBLIC_REVIEW.md"
+    },
+    {
+      "document": "studies/pilot1/historical-1.0.3/README.md",
+      "status": "local_ok",
+      "target": "protocol/COHORT.md"
+    },
+    {
+      "document": "studies/pilot1/historical-1.0.3/README.md",
+      "status": "local_ok",
+      "target": "protocol/STREAMS.md"
+    },
+    {
+      "document": "studies/pilot1/historical-1.0.3/README.md",
+      "status": "local_ok",
+      "target": "protocol/INITIAL_SCOPE.md"
+    },
+    {
+      "document": "studies/pilot1/historical-1.0.3/README.md",
+      "status": "local_ok",
+      "target": "review/COMPLETION.md"
+    }
+  ],
+  "obvious_credential_material_matches": [],
+  "pilot1_historical_docs_byte_equal": [
+    "studies/pilot1/historical-1.0.3/review/PUBLIC_REVIEW.md",
+    "studies/pilot1/historical-1.0.3/protocol/COHORT.md",
+    "studies/pilot1/historical-1.0.3/protocol/STREAMS.md",
+    "studies/pilot1/historical-1.0.3/protocol/INITIAL_SCOPE.md",
+    "studies/pilot1/historical-1.0.3/review/COMPLETION.md"
+  ],
+  "pilot2_original_handoff_files_byte_equal": 317,
+  "production_source_files_byte_equal_to_live": 54,
+  "raw_private_input_map_or_unexpected_jsonl_paths": [],
+  "required_archive_members_missing": [],
+  "scope_limits": [
+    "Read-only source/document copy and high-specificity credential-pattern checks, not a guarantee that arbitrary secrets cannot exist.",
+    "Historical command absolute paths and intentionally omitted source-data links remain provenance; new main navigation was checked locally.",
+    "External GitHub release URL availability, actual private visibility, Git index completeness and live smoke/replay are checked by the parent publisher."
+  ],
+  "stage": "/home/jaykob/.codex/visualizations/2026/09/13/01a09a32-1ca6-7983-93da-5f7da689ab16/ahas-github-20260914/account-history-analyzer",
+  "status": "passed",
+  "symlinks": 0,
+  "tests_or_analyses_run": false,
+  "total_bytes_excluding_git": 35265565,
+  "total_regular_files_excluding_git": 1013
+}

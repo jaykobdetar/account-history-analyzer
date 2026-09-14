@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?><testsuites name="pytest tests"><testsuite name="pytest" errors="0" failures="1" skipped="0" tests="1" time="3.829" timestamp="2026-09-14T09:57:25.698454+00:00" hostname="localhost"><testcase classname="test_ngram_label_contract" name="test_distinct_four_character_features_have_distinct_display_labels" time="2.882"><failure message="AssertionError: Distinct exported feature strings collapsed in HTML: ['the', 'THE', 'the', 'THE', 'E SH', 'is', 'IS', 'CAB', 'ABLE', 'CABL']&#10;assert 8 == 10&#10; +  where 8 = len({'ABLE', 'CAB', 'CABL', 'E SH', 'IS', 'THE', ...})&#10; +    where {'ABLE', 'CAB', 'CABL', 'E SH', 'IS', 'THE', ...} = set(['the', 'THE', 'the', 'THE', 'E SH', 'is', ...])&#10; +  and   10 = len(['the', 'THE', 'the', 'THE', 'E SH', 'is', ...])">def test_distinct_four_character_features_have_distinct_display_labels():
+     _,tables,_=load_and_render(os.environ['AHAS_SOURCE_ROOT'])
+     table=next(t for t in tables if t['context'].startswith('cosine_distance_v1, retained_prose, n=4:'))
+     labels=[row[0] for row in table['rows']]
+&gt;    assert len(set(labels))==len(labels), f'Distinct exported feature strings collapsed in HTML: {labels!r}'
+E    AssertionError: Distinct exported feature strings collapsed in HTML: ['the', 'THE', 'the', 'THE', 'E SH', 'is', 'IS', 'CAB', 'ABLE', 'CABL']
+E    assert 8 == 10
+E     +  where 8 = len({'ABLE', 'CAB', 'CABL', 'E SH', 'IS', 'THE', ...})
+E     +    where {'ABLE', 'CAB', 'CABL', 'E SH', 'IS', 'THE', ...} = set(['the', 'THE', 'the', 'THE', 'E SH', 'is', ...])
+E     +  and   10 = len(['the', 'THE', 'the', 'THE', 'E SH', 'is', ...])
+
+mnt/data/ahas_102_source_review/scripts/test_ngram_label_contract.py:13: AssertionError</failure></testcase></testsuite></testsuites>

@@ -1,0 +1,64 @@
+DEPRECATED: The legacy builder is deprecated and will be removed in a future release.
+            Install the buildx component to build images with BuildKit:
+            https://docs.docker.com/go/buildx/
+
+Sending build context to Docker daemon  4.264MB
+Step 1/17 : FROM python:3.12.3-slim-bookworm@sha256:afc139a0a640942491ec481ad8dda10f2c5b753f5c969393b12480155fe15a63
+ ---> cf001c2f8af7
+Step 2/17 : ENV PYTHONHASHSEED=0 TZ=UTC OPENBLAS_NUM_THREADS=1 OMP_NUM_THREADS=1 MKL_NUM_THREADS=1 PIP_DISABLE_PIP_VERSION_CHECK=1
+ ---> Using cache
+ ---> 471fba4cb2f1
+Step 3/17 : WORKDIR /opt/ahas
+ ---> Using cache
+ ---> 1e10d1720c2a
+Step 4/17 : COPY requirements.lock.txt /tmp/requirements.lock.txt
+ ---> Using cache
+ ---> 446ec444f641
+Step 5/17 : COPY containers/build-requirements.lock /tmp/build-requirements.lock
+ ---> Using cache
+ ---> 0e45d722cf22
+Step 6/17 : RUN python -m pip install --no-cache-dir --require-hashes -r /tmp/requirements.lock.txt -r /tmp/build-requirements.lock
+ ---> Using cache
+ ---> f64ceeb7a986
+Step 7/17 : COPY pyproject.toml README.md LICENSE uv.lock ./
+ ---> 8e1a2151e668
+Step 8/17 : COPY src ./src
+ ---> b592e605f448
+Step 9/17 : COPY schemas ./schemas
+ ---> 091416e4c745
+Step 10/17 : COPY config ./config
+ ---> 13ac0e48dc47
+Step 11/17 : COPY tests ./tests
+ ---> bbd1cdeb398b
+Step 12/17 : COPY fixtures ./fixtures
+ ---> 8d8a23b94655
+Step 13/17 : COPY design_examples ./design_examples
+ ---> e7baaf85dfdb
+Step 14/17 : COPY scripts ./scripts
+ ---> 513ea1b470d4
+Step 15/17 : RUN python -m pip install --no-deps --no-build-isolation .
+ ---> Running in b36a7059b27e
+Processing /opt/ahas
+  Preparing metadata (pyproject.toml): started
+  Preparing metadata (pyproject.toml): finished with status 'done'
+Building wheels for collected packages: account-history-analyzer
+  Building wheel for account-history-analyzer (pyproject.toml): started
+  Building wheel for account-history-analyzer (pyproject.toml): finished with status 'done'
+  Created wheel for account-history-analyzer: filename=account_history_analyzer-1.0.2-py3-none-any.whl size=196492 sha256=f0f1fdd9e07c29f35510d77a06fa8319ddd431d45accdfc380f587491e3b1eb6
+  Stored in directory: /tmp/pip-ephem-wheel-cache-nkbkk89v/wheels/38/81/0a/cc1f730bbc17002687083d620cb5e61e50d842f4a98f20334c
+Successfully built account-history-analyzer
+Installing collected packages: account-history-analyzer
+Successfully installed account-history-analyzer-1.0.2
+[91mWARNING: Running pip as the 'root' user can result in broken permissions and conflicting behaviour with the system package manager. It is recommended to use a virtual environment instead: https://pip.pypa.io/warnings/venv
+[0m ---> Removed intermediate container b36a7059b27e
+ ---> 2cdb84c36b2e
+Step 16/17 : ENTRYPOINT ["ahas"]
+ ---> Running in e948b1a34815
+ ---> Removed intermediate container e948b1a34815
+ ---> cae1af574a1e
+Step 17/17 : CMD ["--help"]
+ ---> Running in 7d29a5360301
+ ---> Removed intermediate container 7d29a5360301
+ ---> 97a776aa4f82
+Successfully built 97a776aa4f82
+Successfully tagged ahas-reference:1.0.2

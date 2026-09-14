@@ -1,0 +1,137 @@
+{
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "evidence_id",
+    "source_record_id",
+    "source_field",
+    "representation",
+    "segment_index",
+    "offset_basis",
+    "start",
+    "end",
+    "text",
+    "role",
+    "feature_id",
+    "side",
+    "source_line_range"
+  ],
+  "properties": {
+    "evidence_id": {
+      "type": "string"
+    },
+    "source_record_id": {
+      "type": "string"
+    },
+    "source_field": {
+      "enum": [
+        "text",
+        "title"
+      ]
+    },
+    "representation": {
+      "enum": [
+        "raw_source",
+        "retained_prose"
+      ]
+    },
+    "segment_index": {
+      "anyOf": [
+        {
+          "type": "integer",
+          "minimum": 0
+        },
+        {
+          "type": "null"
+        }
+      ]
+    },
+    "offset_basis": {
+      "enum": [
+        "raw_source",
+        "normalized_segment"
+      ]
+    },
+    "start": {
+      "type": "integer",
+      "minimum": 0
+    },
+    "end": {
+      "type": "integer",
+      "minimum": 0
+    },
+    "text": {
+      "type": "string"
+    },
+    "role": {
+      "type": "string"
+    },
+    "feature_id": {
+      "anyOf": [
+        {
+          "type": "string"
+        },
+        {
+          "type": "null"
+        }
+      ]
+    },
+    "side": {
+      "enum": [
+        null,
+        "left",
+        "right"
+      ]
+    },
+    "source_line_range": {
+      "anyOf": [
+        {
+          "type": "array",
+          "items": {
+            "type": "integer",
+            "minimum": 1
+          },
+          "minItems": 2,
+          "maxItems": 2
+        },
+        {
+          "type": "null"
+        }
+      ]
+    }
+  },
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "AHAS V1 source-linked evidence",
+  "allOf": [
+    {
+      "if": {
+        "properties": {
+          "representation": {
+            "const": "raw_source"
+          }
+        }
+      },
+      "then": {
+        "properties": {
+          "offset_basis": {
+            "const": "raw_source"
+          },
+          "segment_index": {
+            "type": "null"
+          }
+        }
+      },
+      "else": {
+        "properties": {
+          "offset_basis": {
+            "const": "normalized_segment"
+          },
+          "segment_index": {
+            "type": "integer",
+            "minimum": 0
+          }
+        }
+      }
+    }
+  ]
+}

@@ -1,0 +1,16 @@
+[
+  {
+    "archive": "account-history-analyzer-1.0.2-source-and-reports.tar.gz",
+    "bytes": 22879750,
+    "sha256": "8a5be86a5cb4a264368e50c1ecfd3109ebaad4e89405ec870bc8c05b82cd92ae",
+    "members": 697,
+    "uncompressed_bytes": 381861552
+  },
+  {
+    "archive": "account-history-analyzer-1.0.2-benchmark-report.tar.gz",
+    "bytes": 4954037,
+    "sha256": "4de646a5e10e77785d1c64fd6de23a4a5ae93c2af5c7797f43ef8398641c9c35",
+    "members": 17,
+    "uncompressed_bytes": 119192853
+  }
+]

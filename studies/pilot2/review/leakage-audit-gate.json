@@ -1,0 +1,59 @@
+{
+  "method": {
+    "ahas_version": "1.0.4",
+    "candidate_cap_unit": "unique pairs sharing at least one unique five-token shingle",
+    "component_rule": "union all exact, near, template and quotation relationships",
+    "containment_denominator": 100,
+    "containment_direction": "either record; both records satisfy 20-word guard",
+    "containment_numerator": 90,
+    "default_max_candidate_pairs": 2000000,
+    "definition_sha256": "d777c6164446005babd167e91234c4bb646cbb24a4cf6f6f569e58495b6461c6",
+    "exact": "nonempty normalized lexical-token segment sequence; numbers retained",
+    "incomplete_behavior": "not_auditable; no actionable clusters or purge IDs",
+    "jaccard_denominator": 100,
+    "jaccard_numerator": 80,
+    "limitations": [
+      "Shared content or a template is not evidence of its cause, authorship, automation, or deception.",
+      "The audit covers supplied candidate records only, not the entire source collection.",
+      "Unmarked quotations, short phrases, semantic paraphrases, and source attribution remain unknown.",
+      "Transitive template and quote connections may exclude records without a direct pairwise match.",
+      "Account keys are supplier identities, not verified human authorship.",
+      "Audit containment uses a 20-word guard and differs from production containment eligibility.",
+      "Non-present or unavailable content has unknown hidden relationships; a graph singleton does not establish independence."
+    ],
+    "method_id": "pilot2_leakage_audit_v1",
+    "missing_content": "explicit non-present status may have null text; graph covers available content only",
+    "near_minimum_shared_unique_shingles": 5,
+    "near_minimum_words_each_record": 20,
+    "near_shingle_tokens": 5,
+    "purge_rule": "all records in any component spanning two or more of the three splits",
+    "quotation_phrase_word_tokens": 15,
+    "quotation_scope": "recognized CommonMark blockquote inline paragraphs with original line maps",
+    "segment_boundaries": "never crossed by exact segmentation, shingles, or phrases",
+    "singletons": "actual nodes in a completed audit graph; empty retained text never exact-matched",
+    "template_minimum_distinct_accounts": 3,
+    "template_phrase_word_tokens": 15,
+    "version": "1.0.0"
+  },
+  "real_pool_execution": {
+    "address_space_limit_bytes": 3221225472,
+    "candidate_pair_cap": 2000000,
+    "candidate_pool_sha256": "b498a3f7cd9c11c05abc8cc998e37d02a12a535edeba48a4dc13ee4a2eee78a6",
+    "candidate_records": 33190,
+    "result_available": false
+  },
+  "recorded_utc": "2026-09-14T19:23:24.924341+00:00",
+  "source_sha256": {
+    "review/protocol-design-review.md": "fde4e2e8877bbe36b24dc979babe715276201ed1f375f851b79325bb5a344d45",
+    "scripts/leakage_audit.py": "f080682bc5beac251f9fb07404d0c9a9093aab04deff8d53997708d05dd01e92",
+    "tests/test_leakage_audit.py": "7692442b7c5ad52844ba3d62650d7d220d5cd9c9e6a085700149f0d5bab08ade"
+  },
+  "status": "synthetic_gate_passed_real_pool_running",
+  "style_distances_calculated": false,
+  "test_gate": {
+    "command_receipt": "logs/leakage-audit-tests-memory-reporting.receipt.json",
+    "network_isolation": "linux_seccomp_socket_denial",
+    "test_count_failed": 0,
+    "test_count_passed": 28
+  }
+}

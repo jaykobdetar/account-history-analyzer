@@ -1,0 +1,16 @@
+{
+  "status": "passed",
+  "source_record_count": 33190,
+  "source_records_by_community": {
+    "ApplyingToCollege": 18052,
+    "Cornell": 1365,
+    "college": 13773
+  },
+  "selected_account_count": 36,
+  "old_selected_account_overlap": 0,
+  "source_text_ids_timestamps_links_and_statuses_preserved": true,
+  "word_counts_scope": "Existing preparation eligibility counts checked against guard; no independent word-token recomputation in this check.",
+  "registered_files_unchanged": true,
+  "candidate_pool_sha256": "b498a3f7cd9c11c05abc8cc998e37d02a12a535edeba48a4dc13ee4a2eee78a6",
+  "scores_computed": false
+}

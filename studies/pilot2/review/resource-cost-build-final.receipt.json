@@ -1,0 +1,26 @@
+{
+  "command": [
+    ".venv/bin/python",
+    "-B",
+    "/home/jaykob/.codex/visualizations/2026/09/13/01a09a32-1ca6-7983-93da-5f7da689ab16/ahas-pilot2-20260914/review/build_resource_cost_report.py",
+    "--root",
+    "/home/jaykob/.codex/visualizations/2026/09/13/01a09a32-1ca6-7983-93da-5f7da689ab16/ahas-pilot2-20260914",
+    "--old-study",
+    "/home/jaykob/.codex/visualizations/2026/09/13/01a09a32-1ca6-7983-93da-5f7da689ab16/ahas-realworld-review",
+    "--repo",
+    "/home/jaykob/Downloads/Account_History_Analyzer_V1_Agent_Handoff/account_history_analyzer_v1",
+    "--out-json",
+    "/home/jaykob/.codex/visualizations/2026/09/13/01a09a32-1ca6-7983-93da-5f7da689ab16/ahas-pilot2-20260914/review/resource-cost.json",
+    "--out-markdown",
+    "/home/jaykob/.codex/visualizations/2026/09/13/01a09a32-1ca6-7983-93da-5f7da689ab16/ahas-pilot2-20260914/review/RESOURCE_COST.md"
+  ],
+  "cwd": "/home/jaykob/Downloads/Account_History_Analyzer_V1_Agent_Handoff/account_history_analyzer_v1",
+  "started_utc": "2026-09-14T20:00:56.906063+00:00",
+  "finished_utc": "2026-09-14T20:00:58.404507+00:00",
+  "exit_code": 0,
+  "wall_seconds": 1.4984472029900644,
+  "peak_rss_kib": 32692,
+  "measurement_scope": "this command and descendants; separate from canonical results",
+  "stdout_sha256": "cf326802e6bcf9c4f9f7a9cd603622dc60f6e49da687b1e37d8c48594b0545b4",
+  "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+}

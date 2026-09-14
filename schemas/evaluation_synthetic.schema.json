@@ -1,0 +1,655 @@
+{
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "schema_version",
+    "suite",
+    "method_id",
+    "method_version",
+    "status",
+    "real_world_validation",
+    "external_data",
+    "label_definition",
+    "config_sha256",
+    "implementation_fingerprint",
+    "reference_environment",
+    "dataset",
+    "numerical_checks",
+    "fixtures",
+    "cross_fixture_checks",
+    "check_counts",
+    "limitations"
+  ],
+  "properties": {
+    "schema_version": {
+      "const": "1.0.0"
+    },
+    "suite": {
+      "const": "synthetic"
+    },
+    "method_id": {
+      "const": "synthetic_construction_evaluation_v1"
+    },
+    "method_version": {
+      "const": "1.0.0"
+    },
+    "status": {
+      "enum": [
+        "passed",
+        "failed"
+      ]
+    },
+    "real_world_validation": {
+      "const": "not_established"
+    },
+    "external_data": {
+      "const": "not_evaluated"
+    },
+    "label_definition": {
+      "const": "construction_operations_only"
+    },
+    "config_sha256": {
+      "type": "string",
+      "pattern": "^[0-9a-f]{64}$"
+    },
+    "implementation_fingerprint": {
+      "type": "string",
+      "pattern": "^[0-9a-f]{64}$"
+    },
+    "reference_environment": {
+      "type": "string"
+    },
+    "dataset": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "fixture_version",
+        "index_sha256",
+        "content_sha256",
+        "files",
+        "shipped_scenarios_complete",
+        "missing_shipped_scenarios"
+      ],
+      "properties": {
+        "fixture_version": {
+          "type": "string"
+        },
+        "index_sha256": {
+          "type": "string",
+          "pattern": "^[0-9a-f]{64}$"
+        },
+        "content_sha256": {
+          "type": "string",
+          "pattern": "^[0-9a-f]{64}$"
+        },
+        "files": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "additionalProperties": false,
+            "required": [
+              "file",
+              "bytes",
+              "sha256",
+              "index_matches"
+            ],
+            "properties": {
+              "file": {
+                "type": "string"
+              },
+              "bytes": {
+                "type": "integer",
+                "minimum": 0
+              },
+              "sha256": {
+                "type": "string",
+                "pattern": "^[0-9a-f]{64}$"
+              },
+              "index_matches": {
+                "type": "boolean"
+              }
+            }
+          }
+        },
+        "shipped_scenarios_complete": {
+          "type": "boolean"
+        },
+        "missing_shipped_scenarios": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        }
+      }
+    },
+    "numerical_checks": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": [
+          "check_id",
+          "status",
+          "evidence_level",
+          "expected",
+          "observed",
+          "tolerance",
+          "reason"
+        ],
+        "properties": {
+          "check_id": {
+            "type": "string"
+          },
+          "status": {
+            "enum": [
+              "passed",
+              "failed",
+              "not_evaluated"
+            ]
+          },
+          "evidence_level": {
+            "enum": [
+              "numerical_correctness",
+              "synthetic_signal",
+              "fixture_integrity"
+            ]
+          },
+          "expected": {
+            "$ref": "#/$defs/json_value"
+          },
+          "observed": {
+            "$ref": "#/$defs/json_value"
+          },
+          "tolerance": {
+            "anyOf": [
+              {
+                "type": "number",
+                "minimum": 0
+              },
+              {
+                "type": "null"
+              }
+            ]
+          },
+          "reason": {
+            "anyOf": [
+              {
+                "type": "string"
+              },
+              {
+                "type": "null"
+              }
+            ]
+          }
+        }
+      }
+    },
+    "fixtures": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": [
+          "case",
+          "canonical_snapshot_sha256",
+          "results_sha256",
+          "analysis_exit_code",
+          "module_statuses",
+          "checks",
+          "summary",
+          "construction_boundary"
+        ],
+        "properties": {
+          "case": {
+            "type": "string"
+          },
+          "canonical_snapshot_sha256": {
+            "type": "string",
+            "pattern": "^[0-9a-f]{64}$"
+          },
+          "results_sha256": {
+            "type": "string",
+            "pattern": "^[0-9a-f]{64}$"
+          },
+          "analysis_exit_code": {
+            "enum": [
+              0,
+              4
+            ]
+          },
+          "module_statuses": {
+            "type": "object",
+            "additionalProperties": false,
+            "required": [
+              "coverage",
+              "text",
+              "activity",
+              "reuse",
+              "style",
+              "links",
+              "interactions",
+              "ai_text_detection"
+            ],
+            "properties": {
+              "coverage": {
+                "enum": [
+                  "ok",
+                  "insufficient_data",
+                  "not_run",
+                  "resource_limit"
+                ]
+              },
+              "text": {
+                "enum": [
+                  "ok",
+                  "insufficient_data",
+                  "not_run",
+                  "resource_limit"
+                ]
+              },
+              "activity": {
+                "enum": [
+                  "ok",
+                  "insufficient_data",
+                  "not_run",
+                  "resource_limit"
+                ]
+              },
+              "reuse": {
+                "enum": [
+                  "ok",
+                  "insufficient_data",
+                  "not_run",
+                  "resource_limit"
+                ]
+              },
+              "style": {
+                "enum": [
+                  "ok",
+                  "insufficient_data",
+                  "not_run",
+                  "resource_limit"
+                ]
+              },
+              "links": {
+                "enum": [
+                  "ok",
+                  "insufficient_data",
+                  "not_run",
+                  "resource_limit"
+                ]
+              },
+              "interactions": {
+                "enum": [
+                  "ok",
+                  "insufficient_data",
+                  "not_run",
+                  "resource_limit"
+                ]
+              },
+              "ai_text_detection": {
+                "enum": [
+                  "ok",
+                  "insufficient_data",
+                  "not_run",
+                  "resource_limit"
+                ]
+              }
+            }
+          },
+          "checks": {
+            "type": "array",
+            "items": {
+              "type": "object",
+              "additionalProperties": false,
+              "required": [
+                "check_id",
+                "status",
+                "evidence_level",
+                "expected",
+                "observed",
+                "tolerance",
+                "reason"
+              ],
+              "properties": {
+                "check_id": {
+                  "type": "string"
+                },
+                "status": {
+                  "enum": [
+                    "passed",
+                    "failed",
+                    "not_evaluated"
+                  ]
+                },
+                "evidence_level": {
+                  "enum": [
+                    "numerical_correctness",
+                    "synthetic_signal",
+                    "fixture_integrity"
+                  ]
+                },
+                "expected": {
+                  "$ref": "#/$defs/json_value"
+                },
+                "observed": {
+                  "$ref": "#/$defs/json_value"
+                },
+                "tolerance": {
+                  "anyOf": [
+                    {
+                      "type": "number",
+                      "minimum": 0
+                    },
+                    {
+                      "type": "null"
+                    }
+                  ]
+                },
+                "reason": {
+                  "anyOf": [
+                    {
+                      "type": "string"
+                    },
+                    {
+                      "type": "null"
+                    }
+                  ]
+                }
+              }
+            }
+          },
+          "summary": {
+            "type": "object",
+            "additionalProperties": false,
+            "required": [
+              "record_count",
+              "retained_words",
+              "event_count",
+              "eligible_style_records",
+              "exact_reuse_groups",
+              "near_reuse_pairs",
+              "qualified_primary_windows",
+              "primary_candidates",
+              "findings"
+            ],
+            "properties": {
+              "record_count": {
+                "type": "integer",
+                "minimum": 0
+              },
+              "retained_words": {
+                "type": "integer",
+                "minimum": 0
+              },
+              "event_count": {
+                "type": "integer",
+                "minimum": 0
+              },
+              "eligible_style_records": {
+                "type": "integer",
+                "minimum": 0
+              },
+              "exact_reuse_groups": {
+                "type": "integer",
+                "minimum": 0
+              },
+              "near_reuse_pairs": {
+                "type": "integer",
+                "minimum": 0
+              },
+              "qualified_primary_windows": {
+                "type": "integer",
+                "minimum": 0
+              },
+              "primary_candidates": {
+                "type": "integer",
+                "minimum": 0
+              },
+              "findings": {
+                "type": "integer",
+                "minimum": 0
+              }
+            }
+          },
+          "construction_boundary": {
+            "anyOf": [
+              {
+                "type": "object",
+                "additionalProperties": false,
+                "required": [
+                  "position",
+                  "record_interval",
+                  "definition",
+                  "neighbor_definition",
+                  "streams"
+                ],
+                "properties": {
+                  "position": {
+                    "type": "integer",
+                    "minimum": 1
+                  },
+                  "record_interval": {
+                    "type": "array",
+                    "items": {
+                      "type": "integer",
+                      "minimum": 0
+                    },
+                    "minItems": 2,
+                    "maxItems": 2
+                  },
+                  "definition": {
+                    "const": "operation_begins_at_zero_based_record_position"
+                  },
+                  "neighbor_definition": {
+                    "const": "construction_adjacent_record_inside_either_candidate_adjacent_window"
+                  },
+                  "streams": {
+                    "type": "array",
+                    "items": {
+                      "type": "object",
+                      "additionalProperties": false,
+                      "required": [
+                        "stream_id",
+                        "status",
+                        "candidates"
+                      ],
+                      "properties": {
+                        "stream_id": {
+                          "type": "string"
+                        },
+                        "status": {
+                          "enum": [
+                            "ok",
+                            "insufficient_data",
+                            "no_measurable_variation"
+                          ]
+                        },
+                        "candidates": {
+                          "type": "array",
+                          "items": {
+                            "type": "object",
+                            "additionalProperties": false,
+                            "required": [
+                              "boundary_id",
+                              "record_interval",
+                              "relation",
+                              "record_position_gap",
+                              "neighboring_window",
+                              "left_record_id",
+                              "right_record_id"
+                            ],
+                            "properties": {
+                              "boundary_id": {
+                                "type": "string"
+                              },
+                              "record_interval": {
+                                "type": "array",
+                                "items": {
+                                  "type": "integer",
+                                  "minimum": 0
+                                },
+                                "minItems": 2,
+                                "maxItems": 2
+                              },
+                              "relation": {
+                                "enum": [
+                                  "overlap",
+                                  "touching",
+                                  "separated"
+                                ]
+                              },
+                              "record_position_gap": {
+                                "type": "integer",
+                                "minimum": 0
+                              },
+                              "neighboring_window": {
+                                "type": "boolean"
+                              },
+                              "left_record_id": {
+                                "type": "string"
+                              },
+                              "right_record_id": {
+                                "type": "string"
+                              }
+                            }
+                          }
+                        }
+                      }
+                    }
+                  }
+                }
+              },
+              {
+                "type": "null"
+              }
+            ]
+          }
+        }
+      }
+    },
+    "cross_fixture_checks": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": [
+          "check_id",
+          "status",
+          "evidence_level",
+          "expected",
+          "observed",
+          "tolerance",
+          "reason"
+        ],
+        "properties": {
+          "check_id": {
+            "type": "string"
+          },
+          "status": {
+            "enum": [
+              "passed",
+              "failed",
+              "not_evaluated"
+            ]
+          },
+          "evidence_level": {
+            "enum": [
+              "numerical_correctness",
+              "synthetic_signal",
+              "fixture_integrity"
+            ]
+          },
+          "expected": {
+            "$ref": "#/$defs/json_value"
+          },
+          "observed": {
+            "$ref": "#/$defs/json_value"
+          },
+          "tolerance": {
+            "anyOf": [
+              {
+                "type": "number",
+                "minimum": 0
+              },
+              {
+                "type": "null"
+              }
+            ]
+          },
+          "reason": {
+            "anyOf": [
+              {
+                "type": "string"
+              },
+              {
+                "type": "null"
+              }
+            ]
+          }
+        }
+      }
+    },
+    "check_counts": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "passed",
+        "failed",
+        "not_evaluated"
+      ],
+      "properties": {
+        "passed": {
+          "type": "integer",
+          "minimum": 0
+        },
+        "failed": {
+          "type": "integer",
+          "minimum": 0
+        },
+        "not_evaluated": {
+          "type": "integer",
+          "minimum": 0
+        }
+      }
+    },
+    "limitations": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    }
+  },
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "AHAS V1 synthetic construction evaluation",
+  "$defs": {
+    "json_value": {
+      "anyOf": [
+        {
+          "type": "null"
+        },
+        {
+          "type": "boolean"
+        },
+        {
+          "type": "number"
+        },
+        {
+          "type": "string"
+        },
+        {
+          "type": "array",
+          "items": {
+            "$ref": "#/$defs/json_value"
+          }
+        },
+        {
+          "type": "object",
+          "additionalProperties": {
+            "$ref": "#/$defs/json_value"
+          }
+        }
+      ]
+    }
+  }
+}

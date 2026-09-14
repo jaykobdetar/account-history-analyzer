@@ -1,0 +1,56 @@
+{
+  "community": "college",
+  "url": "https://zissou.infosci.cornell.edu/convokit/datasets/subreddit-corpus/corpus-zipped/cock4brains~-~coloringpages/college.corpus.zip",
+  "expected_bytes_from_official_index": 133664381,
+  "resolved_url": "https://zissou.infosci.cornell.edu/convokit/datasets/subreddit-corpus/corpus-zipped/cock4brains~-~coloringpages/college.corpus.zip",
+  "http_headers": {
+    "Server": "nginx/1.18.0 (Ubuntu)",
+    "Date": "Mon, 14 Sep 2026 18:46:10 GMT",
+    "Content-Type": "application/zip",
+    "Content-Length": "133664381",
+    "Last-Modified": "Wed, 30 Oct 2019 06:42:02 GMT",
+    "Connection": "close",
+    "ETag": "\"5db930ba-7f78e7d\"",
+    "Strict-Transport-Security": "max-age=31536000; includeSubDomains; preload",
+    "Accept-Ranges": "bytes"
+  },
+  "started_utc": "2026-09-14T18:46:10.352431+00:00",
+  "finished_utc": "2026-09-14T18:46:30.344635+00:00",
+  "elapsed_seconds": 19.992211128002964,
+  "actual_bytes": 133664381,
+  "sha256": "31a124155a303bdb3e0e91a1a97c48964ccfffa14585b5088b94935660722aa9",
+  "members": [
+    {
+      "name": "users.json",
+      "bytes": 1890393,
+      "compressed_bytes": 792488,
+      "crc32": 934828060
+    },
+    {
+      "name": "conversations.json",
+      "bytes": 28013302,
+      "compressed_bytes": 4693273,
+      "crc32": 1069440325
+    },
+    {
+      "name": "corpus.json",
+      "bytes": 88,
+      "compressed_bytes": 72,
+      "crc32": 4022993713
+    },
+    {
+      "name": "index.json",
+      "bytes": 836,
+      "compressed_bytes": 231,
+      "crc32": 952343535
+    },
+    {
+      "name": "utterances.jsonl",
+      "bytes": 503619931,
+      "compressed_bytes": 128177785,
+      "crc32": 6955566
+    }
+  ],
+  "status": "acquired",
+  "analysis_executed": false
+}

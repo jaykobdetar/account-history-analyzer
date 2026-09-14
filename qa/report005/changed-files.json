@@ -1,0 +1,62 @@
+[
+  {
+    "path": "README.md",
+    "status": "modified"
+  },
+  {
+    "path": "containers/README.md",
+    "status": "modified"
+  },
+  {
+    "path": "docs/DECISIONS.md",
+    "status": "modified"
+  },
+  {
+    "path": "docs/MILESTONES.md",
+    "status": "modified"
+  },
+  {
+    "path": "docs/REPORT005.md",
+    "status": "added"
+  },
+  {
+    "path": "docs/TEST_MAP.md",
+    "status": "modified"
+  },
+  {
+    "path": "pyproject.toml",
+    "status": "modified"
+  },
+  {
+    "path": "schemas/results.schema.json",
+    "status": "modified"
+  },
+  {
+    "path": "src/account_history_analyzer/__init__.py",
+    "status": "modified"
+  },
+  {
+    "path": "src/account_history_analyzer/contracts/results.schema.json",
+    "status": "modified"
+  },
+  {
+    "path": "src/account_history_analyzer/payload_schemas.py",
+    "status": "modified"
+  },
+  {
+    "path": "src/account_history_analyzer/reporting.py",
+    "status": "modified"
+  },
+  {
+    "path": "tests/test_ngram_labels.py",
+    "status": "added"
+  },
+  {
+    "path": "tests/test_report005_metadata.py",
+    "status": "added"
+  },
+  {
+    "path": "uv.lock",
+    "status": "modified"
+  }
+]

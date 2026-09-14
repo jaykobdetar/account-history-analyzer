@@ -1,0 +1,8 @@
+{
+  "cpu_model": "AMD Ryzen 7 5800X 8-Core Processor",
+  "machine": "x86_64",
+  "measurement_note": "CPU timings were run without other AHAS test/evaluation jobs intentionally started; other host activity is not controlled.",
+  "memory": "MemTotal:       16291440 kB",
+  "platform": "Linux-6.17.0-40-generic-x86_64-with-glibc2.39",
+  "python": "3.12.3"
+}

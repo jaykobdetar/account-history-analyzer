@@ -1,0 +1,1 @@
+{"status": "failed", "documents_checked": 21, "before_counts": {"local_ok": 79, "external_not_requested": 4, "outside_bundle": 13}, "after_counts": {"local_ok": 79, "external_not_requested": 4, "outside_bundle": 13}, "originals_unchanged": true, "requires_staging_manifest_refresh": false}

@@ -1,0 +1,19 @@
+F                                                                        [100%]
+=================================== FAILURES ===================================
+______ test_distinct_four_character_features_have_distinct_display_labels ______
+
+    def test_distinct_four_character_features_have_distinct_display_labels():
+     _,tables,_=load_and_render(os.environ['AHAS_SOURCE_ROOT'])
+     table=next(t for t in tables if t['context'].startswith('cosine_distance_v1, retained_prose, n=4:'))
+     labels=[row[0] for row in table['rows']]
+>    assert len(set(labels))==len(labels), f'Distinct exported feature strings collapsed in HTML: {labels!r}'
+E    AssertionError: Distinct exported feature strings collapsed in HTML: ['the', 'THE', 'the', 'THE', 'E SH', 'is', 'IS', 'CAB', 'ABLE', 'CABL']
+E    assert 8 == 10
+E     +  where 8 = len({'ABLE', 'CAB', 'CABL', 'E SH', 'IS', 'THE', ...})
+E     +    where {'ABLE', 'CAB', 'CABL', 'E SH', 'IS', 'THE', ...} = set(['the', 'THE', 'the', 'THE', 'E SH', 'is', ...])
+E     +  and   10 = len(['the', 'THE', 'the', 'THE', 'E SH', 'is', ...])
+
+qa/report005/handoff/scripts/test_ngram_label_contract.py:13: AssertionError
+=========================== short test summary info ============================
+FAILED qa/report005/handoff/scripts/test_ngram_label_contract.py::test_distinct_four_character_features_have_distinct_display_labels
+1 failed in 2.58s

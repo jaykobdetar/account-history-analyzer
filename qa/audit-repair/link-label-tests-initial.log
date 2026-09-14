@@ -1,0 +1,159 @@
+FFFFFF..............F................................................... [100%]
+=================================== FAILURES ===================================
+_ test_URL_LABEL_01_mixed_and_formatted_labels_count_only_destination[Read https://label.test for details] _
+
+label = 'Read https://label.test for details'
+
+    @pytest.mark.parametrize('label', [
+        'Read https://label.test for details',
+        '**Read** https://label.test for _details_',
+        'Read **https://label.test** for details',
+        'Read _https://label.test/a*b*c_ for details',
+        'R**ea**d https://label.test for det**ai**ls',
+        'Read https://label.test/a_b_c for details',
+    ])
+    def test_URL_LABEL_01_mixed_and_formatted_labels_count_only_destination(label):
+        result = make(f'before [{label}](https://destination.test) after')
+        assert texts(result) == ['before Read', 'for details after']
+        assert result['counts']['links'] == 1
+        assert result['counts']['removed_url_spans'] == 1
+        assert [link['hostname'] for link in result['links']] == ['destination.test']
+        assert [link['url'] for link in result['links']] == ['https://destination.test']
+>       assert result['counts']['retained_words'] == 6
+E       assert 5 == 6
+
+tests/test_link_labels.py:42: AssertionError
+_ test_URL_LABEL_01_mixed_and_formatted_labels_count_only_destination[**Read** https://label.test for _details_] _
+
+label = '**Read** https://label.test for _details_'
+
+    @pytest.mark.parametrize('label', [
+        'Read https://label.test for details',
+        '**Read** https://label.test for _details_',
+        'Read **https://label.test** for details',
+        'Read _https://label.test/a*b*c_ for details',
+        'R**ea**d https://label.test for det**ai**ls',
+        'Read https://label.test/a_b_c for details',
+    ])
+    def test_URL_LABEL_01_mixed_and_formatted_labels_count_only_destination(label):
+        result = make(f'before [{label}](https://destination.test) after')
+        assert texts(result) == ['before Read', 'for details after']
+        assert result['counts']['links'] == 1
+        assert result['counts']['removed_url_spans'] == 1
+        assert [link['hostname'] for link in result['links']] == ['destination.test']
+        assert [link['url'] for link in result['links']] == ['https://destination.test']
+>       assert result['counts']['retained_words'] == 6
+E       assert 5 == 6
+
+tests/test_link_labels.py:42: AssertionError
+_ test_URL_LABEL_01_mixed_and_formatted_labels_count_only_destination[Read **https://label.test** for details] _
+
+label = 'Read **https://label.test** for details'
+
+    @pytest.mark.parametrize('label', [
+        'Read https://label.test for details',
+        '**Read** https://label.test for _details_',
+        'Read **https://label.test** for details',
+        'Read _https://label.test/a*b*c_ for details',
+        'R**ea**d https://label.test for det**ai**ls',
+        'Read https://label.test/a_b_c for details',
+    ])
+    def test_URL_LABEL_01_mixed_and_formatted_labels_count_only_destination(label):
+        result = make(f'before [{label}](https://destination.test) after')
+        assert texts(result) == ['before Read', 'for details after']
+        assert result['counts']['links'] == 1
+        assert result['counts']['removed_url_spans'] == 1
+        assert [link['hostname'] for link in result['links']] == ['destination.test']
+        assert [link['url'] for link in result['links']] == ['https://destination.test']
+>       assert result['counts']['retained_words'] == 6
+E       assert 5 == 6
+
+tests/test_link_labels.py:42: AssertionError
+_ test_URL_LABEL_01_mixed_and_formatted_labels_count_only_destination[Read _https://label.test/a*b*c_ for details] _
+
+label = 'Read _https://label.test/a*b*c_ for details'
+
+    @pytest.mark.parametrize('label', [
+        'Read https://label.test for details',
+        '**Read** https://label.test for _details_',
+        'Read **https://label.test** for details',
+        'Read _https://label.test/a*b*c_ for details',
+        'R**ea**d https://label.test for det**ai**ls',
+        'Read https://label.test/a_b_c for details',
+    ])
+    def test_URL_LABEL_01_mixed_and_formatted_labels_count_only_destination(label):
+        result = make(f'before [{label}](https://destination.test) after')
+        assert texts(result) == ['before Read', 'for details after']
+        assert result['counts']['links'] == 1
+        assert result['counts']['removed_url_spans'] == 1
+        assert [link['hostname'] for link in result['links']] == ['destination.test']
+        assert [link['url'] for link in result['links']] == ['https://destination.test']
+>       assert result['counts']['retained_words'] == 6
+E       assert 5 == 6
+
+tests/test_link_labels.py:42: AssertionError
+_ test_URL_LABEL_01_mixed_and_formatted_labels_count_only_destination[R**ea**d https://label.test for det**ai**ls] _
+
+label = 'R**ea**d https://label.test for det**ai**ls'
+
+    @pytest.mark.parametrize('label', [
+        'Read https://label.test for details',
+        '**Read** https://label.test for _details_',
+        'Read **https://label.test** for details',
+        'Read _https://label.test/a*b*c_ for details',
+        'R**ea**d https://label.test for det**ai**ls',
+        'Read https://label.test/a_b_c for details',
+    ])
+    def test_URL_LABEL_01_mixed_and_formatted_labels_count_only_destination(label):
+        result = make(f'before [{label}](https://destination.test) after')
+        assert texts(result) == ['before Read', 'for details after']
+        assert result['counts']['links'] == 1
+        assert result['counts']['removed_url_spans'] == 1
+        assert [link['hostname'] for link in result['links']] == ['destination.test']
+        assert [link['url'] for link in result['links']] == ['https://destination.test']
+>       assert result['counts']['retained_words'] == 6
+E       assert 5 == 6
+
+tests/test_link_labels.py:42: AssertionError
+_ test_URL_LABEL_01_mixed_and_formatted_labels_count_only_destination[Read https://label.test/a_b_c for details] _
+
+label = 'Read https://label.test/a_b_c for details'
+
+    @pytest.mark.parametrize('label', [
+        'Read https://label.test for details',
+        '**Read** https://label.test for _details_',
+        'Read **https://label.test** for details',
+        'Read _https://label.test/a*b*c_ for details',
+        'R**ea**d https://label.test for det**ai**ls',
+        'Read https://label.test/a_b_c for details',
+    ])
+    def test_URL_LABEL_01_mixed_and_formatted_labels_count_only_destination(label):
+        result = make(f'before [{label}](https://destination.test) after')
+        assert texts(result) == ['before Read', 'for details after']
+        assert result['counts']['links'] == 1
+        assert result['counts']['removed_url_spans'] == 1
+        assert [link['hostname'] for link in result['links']] == ['destination.test']
+        assert [link['url'] for link in result['links']] == ['https://destination.test']
+>       assert result['counts']['retained_words'] == 6
+E       assert 5 == 6
+
+tests/test_link_labels.py:42: AssertionError
+_________ test_URL_LABEL_09_separate_title_uses_same_counting_contract _________
+
+    def test_URL_LABEL_09_separate_title_uses_same_counting_contract():
+        result = make('Body words stay available.', title='[Read https://label.test details](https://destination.test)')
+        assert result['counts']['links'] == 0
+>       assert result['title']['counts']['links'] == 1
+               ^^^^^^^^^^^^^^^^^^^^^^^^^
+E       KeyError: 'counts'
+
+tests/test_link_labels.py:127: KeyError
+=========================== short test summary info ============================
+FAILED tests/test_link_labels.py::test_URL_LABEL_01_mixed_and_formatted_labels_count_only_destination[Read https://label.test for details]
+FAILED tests/test_link_labels.py::test_URL_LABEL_01_mixed_and_formatted_labels_count_only_destination[**Read** https://label.test for _details_]
+FAILED tests/test_link_labels.py::test_URL_LABEL_01_mixed_and_formatted_labels_count_only_destination[Read **https://label.test** for details]
+FAILED tests/test_link_labels.py::test_URL_LABEL_01_mixed_and_formatted_labels_count_only_destination[Read _https://label.test/a*b*c_ for details]
+FAILED tests/test_link_labels.py::test_URL_LABEL_01_mixed_and_formatted_labels_count_only_destination[R**ea**d https://label.test for det**ai**ls]
+FAILED tests/test_link_labels.py::test_URL_LABEL_01_mixed_and_formatted_labels_count_only_destination[Read https://label.test/a_b_c for details]
+FAILED tests/test_link_labels.py::test_URL_LABEL_09_separate_title_uses_same_counting_contract
+7 failed, 65 passed in 0.67s

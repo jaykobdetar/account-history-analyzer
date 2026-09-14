@@ -1,0 +1,18 @@
+{
+  "account_id": "constructed_style_shift",
+  "capture_utc": "2025-03-01T00:00:00Z",
+  "coverage": {
+    "end_utc": "2025-02-09T21:00:00Z",
+    "known_gaps": [],
+    "notes": "Complete only with respect to this artificial fixture, not any real platform account.",
+    "start_utc": "2025-01-01T00:00:00Z",
+    "status": "complete_for_declared_scope"
+  },
+  "default_language": "en",
+  "license_notes": "Original synthetic fixture material supplied for use and modification with this project.",
+  "schema_version": "1.0.0",
+  "snapshot_id": "constructed_style_shift_snapshot_v1",
+  "source_category": "synthetic",
+  "source_notes": "Constructed software-test fixture. No real account or person is represented.",
+  "text_format": "plain"
+}

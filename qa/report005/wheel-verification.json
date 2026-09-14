@@ -1,0 +1,469 @@
+{
+  "analysis": {
+    "results_sha256": "407e67eef34a0d2e6b8cbccfbaf09c4521a50414da407c709f2ca9699a3c2039",
+    "status": "complete"
+  },
+  "canonical_comparison": {
+    "compared_file_count": 14,
+    "excluded_receipts": [
+      "ingest_receipt.json",
+      "run_receipt.json"
+    ],
+    "exclusion_reason": "Operational paths and timing are outside canonical analytical identity.",
+    "files": [
+      {
+        "byte_identical": true,
+        "bytes": 1733,
+        "name": "activity_daily.svg",
+        "source_sha256": "52310bc1db65cc9718c6dc448e8088060cbb2351e059991754ad386435e6f8e7",
+        "wheel_sha256": "52310bc1db65cc9718c6dc448e8088060cbb2351e059991754ad386435e6f8e7"
+      },
+      {
+        "byte_identical": true,
+        "bytes": 6249,
+        "name": "activity_hourly.svg",
+        "source_sha256": "94b644bed6bcaeb5d1667d584bbe083ec8012f89147831ffc1b11c1000c85bf1",
+        "wheel_sha256": "94b644bed6bcaeb5d1667d584bbe083ec8012f89147831ffc1b11c1000c85bf1"
+      },
+      {
+        "byte_identical": true,
+        "bytes": 4308,
+        "name": "adjacent_distances.svg",
+        "source_sha256": "9dd9cad2dd9d67a2ce272b31d0a66fe25b10f0bc6c76477c5c4f88137c89086c",
+        "wheel_sha256": "9dd9cad2dd9d67a2ce272b31d0a66fe25b10f0bc6c76477c5c4f88137c89086c"
+      },
+      {
+        "byte_identical": true,
+        "bytes": 1136,
+        "name": "checksums.json",
+        "source_sha256": "71c790b5359c5ea020c575e956c64999532f9240dff1a1d1d66b561d0ae056a1",
+        "wheel_sha256": "71c790b5359c5ea020c575e956c64999532f9240dff1a1d1d66b561d0ae056a1"
+      },
+      {
+        "byte_identical": true,
+        "bytes": 1828,
+        "name": "eligible_word_volume.svg",
+        "source_sha256": "7fb386fd281533601e2902959982103951034aa1dba3320bb94d1590f93cc46b",
+        "wheel_sha256": "7fb386fd281533601e2902959982103951034aa1dba3320bb94d1590f93cc46b"
+      },
+      {
+        "byte_identical": true,
+        "bytes": 0,
+        "name": "evidence.jsonl",
+        "source_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "wheel_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      },
+      {
+        "byte_identical": true,
+        "bytes": 336157,
+        "name": "method_registry.json",
+        "source_sha256": "1b4d53b648303ea3b10f98e8dc40958b50587bd3c61c2262c83be7fb8a30da26",
+        "wheel_sha256": "1b4d53b648303ea3b10f98e8dc40958b50587bd3c61c2262c83be7fb8a30da26"
+      },
+      {
+        "byte_identical": true,
+        "bytes": 46362,
+        "name": "records_features.jsonl",
+        "source_sha256": "49c53bce59583c9db5d509d6b0bc07711beb74c89e25973160cbbf346cd04851",
+        "wheel_sha256": "49c53bce59583c9db5d509d6b0bc07711beb74c89e25973160cbbf346cd04851"
+      },
+      {
+        "byte_identical": true,
+        "bytes": 53503,
+        "name": "report.html",
+        "source_sha256": "69f0236b776542057ab4fffffda1962aa64ed18f3f2a2325d6e3ec21ca8333cc",
+        "wheel_sha256": "69f0236b776542057ab4fffffda1962aa64ed18f3f2a2325d6e3ec21ca8333cc"
+      },
+      {
+        "byte_identical": true,
+        "bytes": 26824,
+        "name": "report.md",
+        "source_sha256": "3c72343aa69d75fa8d01b287320c395ef90ebc372376d6abf5cfe83df407a05a",
+        "wheel_sha256": "3c72343aa69d75fa8d01b287320c395ef90ebc372376d6abf5cfe83df407a05a"
+      },
+      {
+        "byte_identical": true,
+        "bytes": 2293,
+        "name": "resolved_config.json",
+        "source_sha256": "8fd0239fe2f87c9f1506786ac36099fe996e00cc6e021b3ecc67fbb65cd2d925",
+        "wheel_sha256": "8fd0239fe2f87c9f1506786ac36099fe996e00cc6e021b3ecc67fbb65cd2d925"
+      },
+      {
+        "byte_identical": true,
+        "bytes": 45189,
+        "name": "results.json",
+        "source_sha256": "407e67eef34a0d2e6b8cbccfbaf09c4521a50414da407c709f2ca9699a3c2039",
+        "wheel_sha256": "407e67eef34a0d2e6b8cbccfbaf09c4521a50414da407c709f2ca9699a3c2039"
+      },
+      {
+        "byte_identical": true,
+        "bytes": 5162,
+        "name": "surface_features.svg",
+        "source_sha256": "2eb68ccb06db46cf5883dacaffdd9326d0e2645666de72456c522f1a7d0feaa4",
+        "wheel_sha256": "2eb68ccb06db46cf5883dacaffdd9326d0e2645666de72456c522f1a7d0feaa4"
+      },
+      {
+        "byte_identical": true,
+        "bytes": 0,
+        "name": "windows.jsonl",
+        "source_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "wheel_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      }
+    ],
+    "installed_directory": "qa/report005/wheel-output/arithmetic",
+    "source_directory": "output/report005/arithmetic"
+  },
+  "commands": [
+    {
+      "argv": [
+        "/home/jaykob/.local/bin/uv",
+        "venv",
+        "/tmp/ahas-report005-install",
+        "--python",
+        "/usr/bin/python3.12",
+        "--offline",
+        "--no-python-downloads",
+        "--cache-dir",
+        "/tmp/ahas-uv-cache"
+      ],
+      "cwd": "/tmp",
+      "elapsed_seconds": 0.029159589990740642,
+      "environment_overrides": {
+        "PYTHONHASHSEED": "317",
+        "TZ": "UTC"
+      },
+      "exit_code": 0,
+      "log_path": "qa/report005/wheel-fresh-venv.log",
+      "log_sha256": "33b461ca5e41eb297ced59835fb8d4ce0537e957066fc2fedeee4c32f0f69159",
+      "name": "wheel-fresh-venv",
+      "removed_environment_variables": [
+        "PYTHONPATH",
+        "PYTHONHOME"
+      ],
+      "seccomp_network_denial": false
+    },
+    {
+      "argv": [
+        "/home/jaykob/.local/bin/uv",
+        "pip",
+        "install",
+        "--python",
+        "/tmp/ahas-report005-install/bin/python",
+        "--offline",
+        "--require-hashes",
+        "--cache-dir",
+        "/tmp/ahas-uv-cache",
+        "--link-mode",
+        "copy",
+        "-r",
+        "/home/jaykob/Downloads/Account_History_Analyzer_V1_Agent_Handoff/account_history_analyzer_v1/requirements.lock.txt",
+        "-r",
+        "/home/jaykob/Downloads/Account_History_Analyzer_V1_Agent_Handoff/account_history_analyzer_v1/containers/build-requirements.lock"
+      ],
+      "cwd": "/tmp",
+      "elapsed_seconds": 0.23964898101985455,
+      "environment_overrides": {
+        "PYTHONHASHSEED": "317",
+        "TZ": "UTC"
+      },
+      "exit_code": 0,
+      "log_path": "qa/report005/wheel-locked-dependencies.log",
+      "log_sha256": "57eabd1df5402bbc9096ab8d7cba90e407325e49b683455d1841ca4314ee77fb",
+      "name": "wheel-locked-dependencies",
+      "removed_environment_variables": [
+        "PYTHONPATH",
+        "PYTHONHOME"
+      ],
+      "seccomp_network_denial": false
+    },
+    {
+      "argv": [
+        "/home/jaykob/.local/bin/uv",
+        "pip",
+        "install",
+        "--python",
+        "/tmp/ahas-report005-install/bin/python",
+        "--offline",
+        "--require-hashes",
+        "--no-deps",
+        "--cache-dir",
+        "/tmp/ahas-uv-cache",
+        "--link-mode",
+        "copy",
+        "-r",
+        "/home/jaykob/Downloads/Account_History_Analyzer_V1_Agent_Handoff/account_history_analyzer_v1/qa/report005/wheel-install.requirements.txt"
+      ],
+      "cwd": "/tmp",
+      "elapsed_seconds": 0.02181636801105924,
+      "environment_overrides": {
+        "PYTHONHASHSEED": "317",
+        "TZ": "UTC"
+      },
+      "exit_code": 0,
+      "log_path": "qa/report005/wheel-package-install.log",
+      "log_sha256": "ad531d326bd75bc9a1b2bfbfc0c759375f39f8824e6a646bd2af9adefb80f250",
+      "name": "wheel-package-install",
+      "removed_environment_variables": [
+        "PYTHONPATH",
+        "PYTHONHOME"
+      ],
+      "seccomp_network_denial": false
+    },
+    {
+      "argv": [
+        "/usr/bin/python3.12",
+        "/home/jaykob/Downloads/Account_History_Analyzer_V1_Agent_Handoff/account_history_analyzer_v1/scripts/offline_exec.py",
+        "/tmp/ahas-report005-install/bin/python",
+        "-c",
+        "import hashlib, importlib.metadata as m, json, pathlib, sys\nimport account_history_analyzer as a\nfrom account_history_analyzer.pipeline import implementation_identity\nfrom account_history_analyzer.reporting import ngram_label, TEMPLATE_VERSION\npath=pathlib.Path(a.__file__).resolve()\nassert path.is_relative_to(pathlib.Path('/tmp/ahas-report005-install/lib/python3.12/site-packages'))\nassert a.__version__==m.version('account-history-analyzer')==TEMPLATE_VERSION=='1.0.3'\nfp,environment,resources=implementation_identity()\nassert fp=='c63f7130067baef0d8eeddcff30cf1c99ba31b8b69816ca843db03a917d9789a'\ncases=[' th','he ',' the ',r'\\u0020','\u00e9','\ud83d\ude00','\\t\\n','&nbsp;','\"\\\\|']\nfor value in cases:\n assert json.loads(ngram_label(value))==value\nassert ngram_label(' ')==r'\"\\u0020\"'\nsource=pathlib.Path('/home/jaykob/Downloads/Account_History_Analyzer_V1_Agent_Handoff/account_history_analyzer_v1')/'src/account_history_analyzer'\nfiles={str(p.relative_to(source)):hashlib.sha256(p.read_bytes()).hexdigest() for p in source.rglob('*') if p.is_file() and '__pycache__' not in p.parts}\nfor name,expected in files.items():\n assert hashlib.sha256((path.parent/name).read_bytes()).hexdigest()==expected, name\nprint(json.dumps({'module_file':str(path),'python':sys.version,'version':a.__version__,\n 'implementation_fingerprint':fp,'reference_environment':environment,'resource_sha256':resources,\n 'installed_distributions':{d.metadata['Name']:d.version for d in m.distributions()},\n 'installed_package_file_count':len(files),'installed_package_sha256':files,\n 'ngram_label_roundtrip_cases':cases,'space_label':ngram_label(' ')},sort_keys=True))\n"
+      ],
+      "cwd": "/tmp",
+      "elapsed_seconds": 0.1438803250202909,
+      "environment_overrides": {
+        "PYTHONHASHSEED": "317",
+        "TZ": "UTC"
+      },
+      "exit_code": 0,
+      "log_path": "qa/report005/wheel-installed-probe.log",
+      "log_sha256": "34f2b3e96987b49b2b524df4f154cdfbc24fc57bf4cbf31f6ed70290384136ba",
+      "name": "wheel-installed-probe",
+      "removed_environment_variables": [
+        "PYTHONPATH",
+        "PYTHONHOME"
+      ],
+      "seccomp_network_denial": true
+    },
+    {
+      "argv": [
+        "/usr/bin/python3.12",
+        "/home/jaykob/Downloads/Account_History_Analyzer_V1_Agent_Handoff/account_history_analyzer_v1/scripts/offline_exec.py",
+        "/tmp/ahas-report005-install/bin/ahas",
+        "analyze",
+        "--input",
+        "/home/jaykob/Downloads/Account_History_Analyzer_V1_Agent_Handoff/account_history_analyzer_v1/fixtures/arithmetic.jsonl",
+        "--manifest",
+        "/home/jaykob/Downloads/Account_History_Analyzer_V1_Agent_Handoff/account_history_analyzer_v1/fixtures/arithmetic.snapshot.json",
+        "--out",
+        "/home/jaykob/Downloads/Account_History_Analyzer_V1_Agent_Handoff/account_history_analyzer_v1/qa/report005/wheel-output/arithmetic"
+      ],
+      "cwd": "/tmp",
+      "elapsed_seconds": 2.551137301023118,
+      "environment_overrides": {
+        "PYTHONHASHSEED": "317",
+        "TZ": "UTC"
+      },
+      "exit_code": 0,
+      "log_path": "qa/report005/wheel-installed-analyze.log",
+      "log_sha256": "4512a7f92130b22cc5dede4c6cc84c758de6ea2f8447b1612f4944344c933730",
+      "name": "wheel-installed-analyze",
+      "removed_environment_variables": [
+        "PYTHONPATH",
+        "PYTHONHOME"
+      ],
+      "seccomp_network_denial": true
+    },
+    {
+      "argv": [
+        "/usr/bin/python3.12",
+        "/home/jaykob/Downloads/Account_History_Analyzer_V1_Agent_Handoff/account_history_analyzer_v1/scripts/offline_exec.py",
+        "/tmp/ahas-report005-install/bin/ahas",
+        "verify",
+        "--input",
+        "/home/jaykob/Downloads/Account_History_Analyzer_V1_Agent_Handoff/account_history_analyzer_v1/fixtures/arithmetic.jsonl",
+        "--manifest",
+        "/home/jaykob/Downloads/Account_History_Analyzer_V1_Agent_Handoff/account_history_analyzer_v1/fixtures/arithmetic.snapshot.json",
+        "--analysis-dir",
+        "/home/jaykob/Downloads/Account_History_Analyzer_V1_Agent_Handoff/account_history_analyzer_v1/qa/report005/wheel-output/arithmetic",
+        "--recompute"
+      ],
+      "cwd": "/tmp",
+      "elapsed_seconds": 1.6302214030001778,
+      "environment_overrides": {
+        "PYTHONHASHSEED": "317",
+        "TZ": "UTC"
+      },
+      "exit_code": 0,
+      "log_path": "qa/report005/wheel-installed-verify-recompute.log",
+      "log_sha256": "49007fafb42ccee1e8a35c81d1ece2250b9e96d18eb8184dd5485a2bfa483b35",
+      "name": "wheel-installed-verify-recompute",
+      "removed_environment_variables": [
+        "PYTHONPATH",
+        "PYTHONHOME"
+      ],
+      "seccomp_network_denial": true
+    }
+  ],
+  "expected_implementation_fingerprint": "c63f7130067baef0d8eeddcff30cf1c99ba31b8b69816ca843db03a917d9789a",
+  "harness_correction": "Initial source inventory omitted the correctly shipped py.typed marker. Failed receipt/script/logs preserved in wheel-initial-inventory-attempt. Reused the same newly created, hash-locked installation after correcting only the inventory.",
+  "historical_preservation": "No previous release environments, artifacts or receipts modified; root .venv unused for installation",
+  "installed_probe": {
+    "implementation_fingerprint": "c63f7130067baef0d8eeddcff30cf1c99ba31b8b69816ca843db03a917d9789a",
+    "installed_distributions": {
+      "Pygments": "2.21.0",
+      "account-history-analyzer": "1.0.3",
+      "attrs": "26.1.0",
+      "hatchling": "1.29.0",
+      "hypothesis": "6.131.9",
+      "iniconfig": "2.3.0",
+      "jsonschema": "4.26.0",
+      "jsonschema-specifications": "2025.9.1",
+      "markdown-it-py": "3.0.0",
+      "mdurl": "0.1.2",
+      "numpy": "2.4.2",
+      "packaging": "26.3",
+      "pathspec": "1.1.1",
+      "pluggy": "1.6.0",
+      "pytest": "9.0.2",
+      "referencing": "0.37.0",
+      "rpds-py": "2026.6.3",
+      "ruptures": "1.1.10",
+      "scipy": "1.17.1",
+      "sortedcontainers": "2.4.0",
+      "trove-classifiers": "2026.6.1.19",
+      "typing_extensions": "4.16.0"
+    },
+    "installed_package_file_count": 54,
+    "installed_package_sha256": {
+      "__init__.py": "f04c13ee127ed17e18a35ef8d8b2604871144d080654c1fc95b98ebc40d20331",
+      "__main__.py": "79ee6f134c5c5193377cf9b189cbdcc3e2095e49ba9cec310114441c15a917c4",
+      "_vendor/__init__.py": "899d2a3ebba87a9f32ba6c87f30763dd4a36d0b152f5f8a77467bc49a99e12b2",
+      "_vendor/ruptures_LICENSE.txt": "f29c48be39fff974e2d631b2317c194409531cc86e16e05f3968ead0456bc920",
+      "_vendor/ruptures_pr383.json": "74ffcf877726d94ba15583beb7403e9af95f53b9a5e263fb24a167cf43a04fb4",
+      "_vendor/ruptures_pr383.py": "7b94336b9bae20cab66965feaac873738eb49a33a871b79376a0b3733311625a",
+      "_vendor/ruptures_pr383_source.txt": "65f5ead7c29a9a23eb67c676dc02ab146316b0678f586697f4c5de754c40110a",
+      "activity.py": "40c880942ea5c335194951ec087069f4573956e3f6ee2561252f871e722f73f0",
+      "artifact_io.py": "e1890bbdeb338aea2b2f5be9b70f129dffddff6e1cb34c061b8bbc8fcc9eb541",
+      "artifacts.py": "3dfb3d50739e5c21a8aa2597f332a49e8f4fefe4443e170ec8fa4654f4ab8fd7",
+      "changepoints.py": "a9ee4bc24a6b07525071822193cd78445ed81ad6942f0a1566cfe16083bd85e3",
+      "charts.py": "8bae66a610e6432145a4f141d72c59fd501018fad52cb16a2aa6735be16b9c7f",
+      "cli.py": "81accfd5f2c38b3517eb9d2a1f71ed05ee37f680ebacceb5b086aa1ca4b67835",
+      "comparisons.py": "635bd94e48d12846923f246a3a781639f1191b9ce5500ce248815215bf54dcd3",
+      "config.py": "eef58b80517653ce0a9b9d8ee8e2e7724d6b065747565a0b57bb1a4a8896b8d3",
+      "contracts/comparison.schema.json": "a030ab9a9194fe44a97aaf1001d5c47b7661c48d1de07b1eecac40317f238515",
+      "contracts/config.schema.json": "fb1a410a59b4d572afc8602d26114f9d222d9a160dd1dc54d38c944fd28b4a7e",
+      "contracts/delta_reference.schema.json": "d907ffc0667ff67a2abfb5a82aa1e635f17b6209c3611033cfb874aff9ff1ed1",
+      "contracts/evaluation_account_stream.schema.json": "aa8321703181c823f28ccc3585789f8d471b7a4f9de05c6a173c593670ffc24e",
+      "contracts/evaluation_paired_text.schema.json": "ffcbf11f73d0b63acfd98075d256adc8a406f7378ee5e27897a19cc59fdb6105",
+      "contracts/evaluation_synthetic.schema.json": "66c5b887288798b8d343e981538d7a1aed1998894c18ed80053b00c315b7919a",
+      "contracts/evidence.schema.json": "1bccffcbd6909a107a1fba7c3492099e77d7d4a035e46194375bda266f08e509",
+      "contracts/record.schema.json": "38a224db4624e99eef029c782e23ee9cf6f3b33015dc25732efa1f553ecf5f21",
+      "contracts/records_features.schema.json": "21fa6577058ac628d666472d8e542ca1f8ca549d85931af89082ea55ecd79d4b",
+      "contracts/results.schema.json": "6e16c89e8cd3ab6b7bdcdd045f520dbff76d88bf5a00b8c31a4baeaac4fc06a1",
+      "contracts/snapshot.schema.json": "8567f3172b86773c2ec07091e24ff9a695305c6024e1fcfb5b362e1196fe65b1",
+      "contracts/windows.schema.json": "791906c3f024f112ad9ddc386a6a73e6a1e049ff2441173fa31c0bd8cc1f76df",
+      "errors.py": "85a0f387dfec0182a69c1a65eb44c3e0c615ed9684f735dcbbdf8e3555b9aec6",
+      "evaluation_external.py": "f74a2b9959afec2f56edba9db5a7f4de5cf888df3c09db84118f0b23151db3c5",
+      "evaluation_metrics.py": "c8d6a0d687068c82fa1a086fa249447cfcf682d6ed8e2082169784bd0145a85c",
+      "evaluation_reporting.py": "b6ebea566a275715734c310cec69607191b71ed8f685a61e7103cd5f026c0419",
+      "evaluation_schemas.py": "01db1ac5329aaf44ab45fdd7d5ae507f9115b130ae97c085a771e32c064c2efb",
+      "evaluation_synthetic.py": "20ae56d2373227405825d3a7e07e056c56c9991f56eabf09e28335e43fb7e726",
+      "features.py": "7507e931ba54b52aa986b3fea1dd203deea77c492ca067385e63610235bc008a",
+      "findings.py": "47693cf819ac8e6cd75a5d74a8534c0e7a10794d8309bd6a888909e5f19a94a9",
+      "interactions.py": "910f6c3e35c5dee5326121d5e31bad14448bd7e33466947fa9b181fcab99fff0",
+      "io.py": "8c08668a73aef1c1e35142b0e88e1fb7e940d030d0f373f2deb89e9ba0c78538",
+      "links.py": "c9a2c1c0c864516c059fec7290e9de80730f13a82790e44be5bb52264d46fe4a",
+      "payload_schemas.py": "afc7773d2859e0a1a9e6013f104aee06ace23604873ce0a2640772140add6b47",
+      "pipeline.py": "a1f5b98335729836c4b5304ab65246cf474a8a51f66865876a0c942322855251",
+      "py.typed": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "registry.py": "2981f1b3b4d5f6098c81b6df154aaaf80f5c9d05ef672e35ff7ed48482e44973",
+      "reporting.py": "4e4e98b59a5017bbded50f2cca0c3b726369ec9349cdee9e234a59cb2a24b3a1",
+      "resources/contraction_pairs.json": "f14da203d3a5965b5ea0982551dc9748c4a9655e7662cf8617ba58d86b805f34",
+      "resources/default.toml": "b7147fe42aa43213cca289b263aa9e38889c0eb8dfbca43e7f710947331aa0a3",
+      "resources/function_words_en_v1.txt": "f91c30201a636e7a9edd15166342afdcedae7fa34d7c7dd5c7352e49d4af2c9e",
+      "reuse.py": "458db5b7c71e8f039350b8fd94db6aab79c1e32a0374d926d705c217b6cd6648",
+      "reuse_matching.py": "653ffbee8cb54994b857bc6256b021209edd10125d4ee27fbb283004172c6fe3",
+      "schemas.py": "ccd78fc72e3a334166351949ca071c30403166576ad959d2edb10ac27c3d55f8",
+      "sensitivity.py": "6584021092ef4b1b7a8a48f2eb5263a097d743b4a84e5b355d348a849aa5e40b",
+      "style.py": "e6032e76cf307f09ef9ebecb73aeca20cd1b11e7ef2c56a4357b54df1b963b3e",
+      "text.py": "a42e491225e4a6f015501f237d0beb2e8c59928028d687e0e9efb237e462353f",
+      "verification.py": "937bed670d971f54b557db38f8caaa3bd74bee16f39dff1de6df0a45bbe5319e",
+      "windows.py": "425ee5dc4040a85783c0b0a68ceb95d81c08469c5a1b44d4bc9c0afbf2e88b62"
+    },
+    "module_file": "/tmp/ahas-report005-install/lib/python3.12/site-packages/account_history_analyzer/__init__.py",
+    "ngram_label_roundtrip_cases": [
+      " th",
+      "he ",
+      " the ",
+      "\\u0020",
+      "\u00e9",
+      "\ud83d\ude00",
+      "\t\n",
+      "&nbsp;",
+      "\"\\|"
+    ],
+    "python": "3.12.3 (main, Aug 31 2026, 10:18:26) [GCC 13.3.0]",
+    "reference_environment": "CPython-3.12.3;Linux;x86_64;numpy=2.4.2;scipy=1.17.1;ruptures=1.1.10;markdown-it-py=3.0.0;jsonschema=4.26.0",
+    "resource_sha256": {
+      "contraction_pairs.json": "f14da203d3a5965b5ea0982551dc9748c4a9655e7662cf8617ba58d86b805f34",
+      "default.toml": "b7147fe42aa43213cca289b263aa9e38889c0eb8dfbca43e7f710947331aa0a3",
+      "function_words_en_v1.txt": "f91c30201a636e7a9edd15166342afdcedae7fa34d7c7dd5c7352e49d4af2c9e",
+      "method_registry": "1b4d53b648303ea3b10f98e8dc40958b50587bd3c61c2262c83be7fb8a30da26",
+      "report_templates": "4e4e98b59a5017bbded50f2cca0c3b726369ec9349cdee9e234a59cb2a24b3a1"
+    },
+    "space_label": "\"\\u0020\"",
+    "version": "1.0.3"
+  },
+  "lockfiles": {
+    "containers/build-requirements.lock": "5f17bd7bbe43c8d5f270b5825c9e4a6724b932d5028b0501f9eed0efb38c325b",
+    "requirements.lock.txt": "5be809bea0bfe607d31e7530e969e2be03ccb1b3b3cb44d6e04bc8e0bab8fcf5"
+  },
+  "network_isolation": {
+    "installation": "uv --offline with existing cache; not seccomp",
+    "installed_commands": "Linux seccomp socket denial via scripts/offline_exec.py"
+  },
+  "scope": "Fresh hash-locked offline wheel installation; installed CLI analysis and complete numerical/artifact replay; no sdist rebuild in this receipt",
+  "status": "passed",
+  "suite_version": "1.0.3",
+  "validation_invocations": [
+    {
+      "argv": [
+        "python3.12",
+        "qa/report005/wheel_validate.py"
+      ],
+      "cwd": "/home/jaykob/Downloads/Account_History_Analyzer_V1_Agent_Handoff/account_history_analyzer_v1",
+      "exit_code": 1,
+      "receipt_path": "qa/report005/wheel-initial-inventory-attempt/wheel-verification.json",
+      "script_path": "qa/report005/wheel-initial-inventory-attempt/wheel_validate.py",
+      "script_sha256": "0154d060caf65193612652de1a4c4a314d30f714d0867ebaa7d88df53c00de49"
+    },
+    {
+      "argv": [
+        "python3.12",
+        "qa/report005/wheel_validate.py",
+        "--resume-existing-fresh"
+      ],
+      "cwd": "/home/jaykob/Downloads/Account_History_Analyzer_V1_Agent_Handoff/account_history_analyzer_v1",
+      "exit_code": 0,
+      "script_path": "qa/report005/wheel_validate.py",
+      "script_sha256": "d029afd6e606d3e55a07c73e98cc5e5bde112e5e6cfe5b8aa881e35cad707788"
+    }
+  ],
+  "verification": {
+    "checked_artifacts": 13,
+    "reproduced_artifacts": [
+      "activity_daily.svg",
+      "activity_hourly.svg",
+      "adjacent_distances.svg",
+      "checksums.json",
+      "eligible_word_volume.svg",
+      "evidence.jsonl",
+      "method_registry.json",
+      "records_features.jsonl",
+      "report.html",
+      "report.md",
+      "resolved_config.json",
+      "results.json",
+      "surface_features.svg",
+      "windows.jsonl"
+    ],
+    "results_sha256": "407e67eef34a0d2e6b8cbccfbaf09c4521a50414da407c709f2ca9699a3c2039",
+    "status": "reproduced",
+    "verification_scope": "all_canonical_artifacts"
+  },
+  "wheel": {
+    "bytes": 197078,
+    "path": "dist/account_history_analyzer-1.0.3-py3-none-any.whl",
+    "sha256": "4b472fa9d44d0803ab8f510eedc5a8bac5db454c5363dae81bd322511a59934d"
+  },
+  "wheel_package_files_match_source_and_installation": true
+}

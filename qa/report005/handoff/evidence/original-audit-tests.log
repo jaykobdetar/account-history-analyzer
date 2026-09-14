@@ -1,0 +1,4 @@
+..s                                                                      [100%]
+=========================== short test summary info ============================
+SKIPPED [1] mnt/data/ahas_102_source_review/original/account_history_analyzer_v1/qa/audit-repair/supplied-probes/test_review_regressions.py:48: Opt-in full-pipeline benchmark; requires the pinned Python 3.12 environment
+2 passed, 1 skipped in 0.92s

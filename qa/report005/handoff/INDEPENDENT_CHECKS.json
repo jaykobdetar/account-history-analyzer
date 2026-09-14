@@ -1,0 +1,964 @@
+{
+  "review_scope": "Independent focused source, component, and saved-artifact verification of AHAS 1.0.2. No source edits. Not a complete reference-environment release or real-world scientific validation.",
+  "environment": {
+    "python": "3.13.5",
+    "platform": "Linux-6.18.44-x86_64-with-glibc2.41",
+    "packages": {
+      "numpy": "2.3.5",
+      "scipy": "1.17.0",
+      "jsonschema": "4.26.0",
+      "markdown-it-py": "4.2.0",
+      "pytest": "9.0.2",
+      "hypothesis": null,
+      "ruptures": null,
+      "hatchling": null,
+      "typing_extensions": "4.16.0"
+    }
+  },
+  "reference_setup": "CPython 3.12.3 download attempt failed DNS; ruptures and hypothesis unavailable. Actual public package initializer and independent modules were used normally in final tests and CLI runs.",
+  "not_executed": [
+    "Full 553-test reference host/container suite",
+    "Fresh end-to-end numerical analyze on the 1,000-record benchmark",
+    "Full numerical verify --recompute",
+    "Browser/Chrome audit",
+    "External real-world corpus validation"
+  ],
+  "original_findings": {
+    "AHAS-AUD-001": "repaired_in_exercised_component_and_artifact_cases",
+    "AHAS-AUD-002": "repaired_in_exercised_component_and_artifact_cases",
+    "AHAS-AUD-003": "repaired_in_exercised_component_and_artifact_cases",
+    "AHAS-AUD-004": "repaired_in_exercised_component_and_artifact_cases"
+  },
+  "tests": {
+    "component-tests-direct": {
+      "name": "pytest",
+      "errors": "0",
+      "failures": "0",
+      "skipped": "0",
+      "tests": "152",
+      "time": "7.439",
+      "timestamp": "2026-09-14T09:46:34.831714+00:00",
+      "hostname": "localhost"
+    },
+    "reviewer-tests": {
+      "name": "pytest",
+      "errors": "0",
+      "failures": "0",
+      "skipped": "0",
+      "tests": "23",
+      "time": "1.129",
+      "timestamp": "2026-09-14T09:56:20.185141+00:00",
+      "hostname": "localhost"
+    },
+    "original-audit-tests": {
+      "name": "pytest",
+      "errors": "0",
+      "failures": "0",
+      "skipped": "1",
+      "tests": "3",
+      "time": "0.922",
+      "timestamp": "2026-09-14T09:58:00.694149+00:00",
+      "hostname": "localhost"
+    },
+    "ngram-regression": {
+      "name": "pytest",
+      "errors": "0",
+      "failures": "1",
+      "skipped": "0",
+      "tests": "1",
+      "time": "3.829",
+      "timestamp": "2026-09-14T09:57:25.698454+00:00",
+      "hostname": "localhost"
+    }
+  },
+  "package": {
+    "scope": "Independent package and checksum inspection, not independent execution of supplied release tests.",
+    "package": {
+      "fingerprint": "583043074c28db2c91b62c33dc0197a569e863f4c83a80197c509324d9cb4fac",
+      "fingerprint_files": 53,
+      "reference_fingerprint": "583043074c28db2c91b62c33dc0197a569e863f4c83a80197c509324d9cb4fac",
+      "wheel_sha256": "f0f1fdd9e07c29f35510d77a06fa8319ddd431d45accdfc380f587491e3b1eb6",
+      "wheel_package_files": 54,
+      "wheel_matches": {
+        "account_history_analyzer/__init__.py": true,
+        "account_history_analyzer/__main__.py": true,
+        "account_history_analyzer/activity.py": true,
+        "account_history_analyzer/artifact_io.py": true,
+        "account_history_analyzer/artifacts.py": true,
+        "account_history_analyzer/changepoints.py": true,
+        "account_history_analyzer/charts.py": true,
+        "account_history_analyzer/cli.py": true,
+        "account_history_analyzer/comparisons.py": true,
+        "account_history_analyzer/config.py": true,
+        "account_history_analyzer/errors.py": true,
+        "account_history_analyzer/evaluation_external.py": true,
+        "account_history_analyzer/evaluation_metrics.py": true,
+        "account_history_analyzer/evaluation_reporting.py": true,
+        "account_history_analyzer/evaluation_schemas.py": true,
+        "account_history_analyzer/evaluation_synthetic.py": true,
+        "account_history_analyzer/features.py": true,
+        "account_history_analyzer/findings.py": true,
+        "account_history_analyzer/interactions.py": true,
+        "account_history_analyzer/io.py": true,
+        "account_history_analyzer/links.py": true,
+        "account_history_analyzer/payload_schemas.py": true,
+        "account_history_analyzer/pipeline.py": true,
+        "account_history_analyzer/py.typed": true,
+        "account_history_analyzer/registry.py": true,
+        "account_history_analyzer/reporting.py": true,
+        "account_history_analyzer/reuse.py": true,
+        "account_history_analyzer/reuse_matching.py": true,
+        "account_history_analyzer/schemas.py": true,
+        "account_history_analyzer/sensitivity.py": true,
+        "account_history_analyzer/style.py": true,
+        "account_history_analyzer/text.py": true,
+        "account_history_analyzer/verification.py": true,
+        "account_history_analyzer/windows.py": true,
+        "account_history_analyzer/_vendor/__init__.py": true,
+        "account_history_analyzer/_vendor/ruptures_LICENSE.txt": true,
+        "account_history_analyzer/_vendor/ruptures_pr383.json": true,
+        "account_history_analyzer/_vendor/ruptures_pr383.py": true,
+        "account_history_analyzer/_vendor/ruptures_pr383_source.txt": true,
+        "account_history_analyzer/contracts/comparison.schema.json": true,
+        "account_history_analyzer/contracts/config.schema.json": true,
+        "account_history_analyzer/contracts/delta_reference.schema.json": true,
+        "account_history_analyzer/contracts/evaluation_account_stream.schema.json": true,
+        "account_history_analyzer/contracts/evaluation_paired_text.schema.json": true,
+        "account_history_analyzer/contracts/evaluation_synthetic.schema.json": true,
+        "account_history_analyzer/contracts/evidence.schema.json": true,
+        "account_history_analyzer/contracts/record.schema.json": true,
+        "account_history_analyzer/contracts/records_features.schema.json": true,
+        "account_history_analyzer/contracts/results.schema.json": true,
+        "account_history_analyzer/contracts/snapshot.schema.json": true,
+        "account_history_analyzer/contracts/windows.schema.json": true,
+        "account_history_analyzer/resources/contraction_pairs.json": true,
+        "account_history_analyzer/resources/default.toml": true,
+        "account_history_analyzer/resources/function_words_en_v1.txt": true
+      },
+      "changes_against_101": {
+        "__init__.py": "changed",
+        "artifact_io.py": "added",
+        "artifacts.py": "changed",
+        "cli.py": "changed",
+        "config.py": "changed",
+        "contracts/config.schema.json": "changed",
+        "contracts/results.schema.json": "changed",
+        "evaluation_reporting.py": "changed",
+        "io.py": "changed",
+        "payload_schemas.py": "changed",
+        "pipeline.py": "changed",
+        "registry.py": "changed",
+        "reporting.py": "changed",
+        "resources/default.toml": "changed",
+        "reuse.py": "changed",
+        "reuse_matching.py": "added",
+        "text.py": "changed",
+        "verification.py": "changed"
+      }
+    },
+    "bundles": {
+      "arithmetic": {
+        "file_count": 13,
+        "matches": {
+          "activity_daily.svg": true,
+          "activity_hourly.svg": true,
+          "adjacent_distances.svg": true,
+          "eligible_word_volume.svg": true,
+          "evidence.jsonl": true,
+          "method_registry.json": true,
+          "records_features.jsonl": true,
+          "report.html": true,
+          "report.md": true,
+          "resolved_config.json": true,
+          "results.json": true,
+          "surface_features.svg": true,
+          "windows.jsonl": true
+        },
+        "manifest_sha256": "2d811a97b0f247d1156aa5956b055d506a180d0ac4ebf025187d2e9bfbaadd90",
+        "results_bytes": 45189
+      },
+      "constructed_style_shift": {
+        "file_count": 13,
+        "matches": {
+          "activity_daily.svg": true,
+          "activity_hourly.svg": true,
+          "adjacent_distances.svg": true,
+          "eligible_word_volume.svg": true,
+          "evidence.jsonl": true,
+          "method_registry.json": true,
+          "records_features.jsonl": true,
+          "report.html": true,
+          "report.md": true,
+          "resolved_config.json": true,
+          "results.json": true,
+          "surface_features.svg": true,
+          "windows.jsonl": true
+        },
+        "manifest_sha256": "9f4643ea8f0f714cf4987286afad8aece0f47411aa0cbc4d8ac4d3a826037531",
+        "results_bytes": 32695380
+      },
+      "constructed_topic_shift": {
+        "file_count": 13,
+        "matches": {
+          "activity_daily.svg": true,
+          "activity_hourly.svg": true,
+          "adjacent_distances.svg": true,
+          "eligible_word_volume.svg": true,
+          "evidence.jsonl": true,
+          "method_registry.json": true,
+          "records_features.jsonl": true,
+          "report.html": true,
+          "report.md": true,
+          "resolved_config.json": true,
+          "results.json": true,
+          "surface_features.svg": true,
+          "windows.jsonl": true
+        },
+        "manifest_sha256": "3a88b5fde0f699047b7ab749f8bfe5e0429c9cc12ffaff0bf6b57fa4f3af6ce5",
+        "results_bytes": 30310647
+      },
+      "edge_cases": {
+        "file_count": 13,
+        "matches": {
+          "activity_daily.svg": true,
+          "activity_hourly.svg": true,
+          "adjacent_distances.svg": true,
+          "eligible_word_volume.svg": true,
+          "evidence.jsonl": true,
+          "method_registry.json": true,
+          "records_features.jsonl": true,
+          "report.html": true,
+          "report.md": true,
+          "resolved_config.json": true,
+          "results.json": true,
+          "surface_features.svg": true,
+          "windows.jsonl": true
+        },
+        "manifest_sha256": "416dbbfb4127ba6ebc4e6575d89c3fe1b03f7c0de33e76d46683d6bf525169cd",
+        "results_bytes": 42809
+      },
+      "empty": {
+        "file_count": 13,
+        "matches": {
+          "activity_daily.svg": true,
+          "activity_hourly.svg": true,
+          "adjacent_distances.svg": true,
+          "eligible_word_volume.svg": true,
+          "evidence.jsonl": true,
+          "method_registry.json": true,
+          "records_features.jsonl": true,
+          "report.html": true,
+          "report.md": true,
+          "resolved_config.json": true,
+          "results.json": true,
+          "surface_features.svg": true,
+          "windows.jsonl": true
+        },
+        "manifest_sha256": "21837bad11a233cac44950bab6c929f693741214e423c5db1774e215d1f3ce04",
+        "results_bytes": 39556
+      },
+      "stable_constructed_style": {
+        "file_count": 13,
+        "matches": {
+          "activity_daily.svg": true,
+          "activity_hourly.svg": true,
+          "adjacent_distances.svg": true,
+          "eligible_word_volume.svg": true,
+          "evidence.jsonl": true,
+          "method_registry.json": true,
+          "records_features.jsonl": true,
+          "report.html": true,
+          "report.md": true,
+          "resolved_config.json": true,
+          "results.json": true,
+          "surface_features.svg": true,
+          "windows.jsonl": true
+        },
+        "manifest_sha256": "a28b720b91bbc41c77e2a46f43b345433ff8b124215a67f4912f384edad1d30b",
+        "results_bytes": 29265069
+      },
+      "benchmark": {
+        "file_count": 13,
+        "matches": {
+          "activity_daily.svg": true,
+          "activity_hourly.svg": true,
+          "adjacent_distances.svg": true,
+          "eligible_word_volume.svg": true,
+          "evidence.jsonl": true,
+          "method_registry.json": true,
+          "records_features.jsonl": true,
+          "report.html": true,
+          "report.md": true,
+          "resolved_config.json": true,
+          "results.json": true,
+          "surface_features.svg": true,
+          "windows.jsonl": true
+        },
+        "manifest_sha256": "8c78f78ed9c91135781b048f623267b559d3f00abbb44f20e0e79aa0d2f14d1f",
+        "results_bytes": 92002224,
+        "all_16_file_sizes_match_receipt": {
+          "activity_daily.svg": true,
+          "activity_hourly.svg": true,
+          "adjacent_distances.svg": true,
+          "checksums.json": true,
+          "eligible_word_volume.svg": true,
+          "evidence.jsonl": true,
+          "ingest_receipt.json": true,
+          "method_registry.json": true,
+          "records_features.jsonl": true,
+          "report.html": true,
+          "report.md": true,
+          "resolved_config.json": true,
+          "results.json": true,
+          "run_receipt.json": true,
+          "surface_features.svg": true,
+          "windows.jsonl": true
+        },
+        "checksums_match_receipt": true,
+        "input_hash_matches_receipt": true,
+        "manifest_hash_matches_receipt": true,
+        "total_bytes": 119192853
+      }
+    },
+    "supplied_logs": {
+      "full-tests.log": {
+        "sha256": "a75d7bb9f0ef49c7b985878fe1338f3b5f7ddd19286e25763ae1839da998dbf7",
+        "summary": [
+          "553 passed, 1 skipped in 83.75s (0:01:23)"
+        ]
+      },
+      "container-tests.log": {
+        "sha256": "0cb5717bfb0617b8129025495f259fd26f4a4dcf75d19add9b093ceeba2f2194",
+        "summary": [
+          "553 passed, 1 skipped in 112.43s (0:01:52)"
+        ]
+      },
+      "browser-test.log": {
+        "sha256": "3a0934a0d39527281353ac978dced94348902349f24910579c52056fc7cb3187",
+        "summary": [
+          "1 passed in 2.06s"
+        ]
+      },
+      "supplied-regressions-after.log": {
+        "sha256": "f87658ba649a3a5d0a42c3840dd0dc124e9e99fbc02b719ad85f4d7ccb472e3a",
+        "summary": [
+          "3 passed in 160.78s (0:02:40)"
+        ]
+      }
+    }
+  },
+  "fixture_reports": {
+    "scope": "Rendering saved analytical values, not recomputing numerical analysis. Actual unmodified modules under local nonreference environment.",
+    "fixtures": {
+      "arithmetic": {
+        "published_rerender_equal": {
+          "report.md": true,
+          "report.html": true,
+          "activity_daily.svg": true,
+          "activity_hourly.svg": true,
+          "eligible_word_volume.svg": true,
+          "surface_features.svg": true,
+          "adjacent_distances.svg": true
+        },
+        "recursive_mapping_reversal": {
+          "included": {
+            "markdown": true,
+            "html": true
+          },
+          "none": {
+            "markdown": true,
+            "html": true
+          }
+        },
+        "input_result_unchanged": true,
+        "canonical_map_reversal_equal": true
+      },
+      "constructed_style_shift": {
+        "published_rerender_equal": {
+          "report.md": true,
+          "report.html": true,
+          "activity_daily.svg": true,
+          "activity_hourly.svg": true,
+          "eligible_word_volume.svg": true,
+          "surface_features.svg": true,
+          "adjacent_distances.svg": true
+        },
+        "recursive_mapping_reversal": {
+          "included": {
+            "markdown": true,
+            "html": true
+          },
+          "none": {
+            "markdown": true,
+            "html": true
+          }
+        },
+        "input_result_unchanged": true,
+        "canonical_map_reversal_equal": true
+      },
+      "constructed_topic_shift": {
+        "published_rerender_equal": {
+          "report.md": true,
+          "report.html": true,
+          "activity_daily.svg": true,
+          "activity_hourly.svg": true,
+          "eligible_word_volume.svg": true,
+          "surface_features.svg": true,
+          "adjacent_distances.svg": true
+        },
+        "recursive_mapping_reversal": {
+          "included": {
+            "markdown": true,
+            "html": true
+          },
+          "none": {
+            "markdown": true,
+            "html": true
+          }
+        },
+        "input_result_unchanged": true,
+        "canonical_map_reversal_equal": true
+      },
+      "edge_cases": {
+        "published_rerender_equal": {
+          "report.md": true,
+          "report.html": true,
+          "activity_daily.svg": true,
+          "activity_hourly.svg": true,
+          "eligible_word_volume.svg": true,
+          "surface_features.svg": true,
+          "adjacent_distances.svg": true
+        },
+        "recursive_mapping_reversal": {
+          "included": {
+            "markdown": true,
+            "html": true
+          },
+          "none": {
+            "markdown": true,
+            "html": true
+          }
+        },
+        "input_result_unchanged": true,
+        "canonical_map_reversal_equal": true
+      },
+      "empty": {
+        "published_rerender_equal": {
+          "report.md": true,
+          "report.html": true,
+          "activity_daily.svg": true,
+          "activity_hourly.svg": true,
+          "eligible_word_volume.svg": true,
+          "surface_features.svg": true,
+          "adjacent_distances.svg": true
+        },
+        "recursive_mapping_reversal": {
+          "included": {
+            "markdown": true,
+            "html": true
+          },
+          "none": {
+            "markdown": true,
+            "html": true
+          }
+        },
+        "input_result_unchanged": true,
+        "canonical_map_reversal_equal": true
+      },
+      "stable_constructed_style": {
+        "published_rerender_equal": {
+          "report.md": true,
+          "report.html": true,
+          "activity_daily.svg": true,
+          "activity_hourly.svg": true,
+          "eligible_word_volume.svg": true,
+          "surface_features.svg": true,
+          "adjacent_distances.svg": true
+        },
+        "recursive_mapping_reversal": {
+          "included": {
+            "markdown": true,
+            "html": true
+          },
+          "none": {
+            "markdown": true,
+            "html": true
+          }
+        },
+        "input_result_unchanged": true,
+        "canonical_map_reversal_equal": true
+      }
+    }
+  },
+  "benchmark_integrity_cli": {
+    "checked_artifacts": 13,
+    "results_sha256": "f2c8f0f9f3ecd3c583b09dde27cf922713d80b332ddee2cfd120188e7fa8c6ab",
+    "status": "integrity_only",
+    "verification_scope": "artifact_checksums_and_supplied_identities"
+  },
+  "benchmark_render_cli": {
+    "analytical_results_unchanged": true,
+    "excerpts": "included",
+    "status": "rendered"
+  },
+  "benchmark_rerender_equal": {
+    "adjacent_distances.svg": true,
+    "resolved_config.json": true,
+    "activity_hourly.svg": true,
+    "activity_daily.svg": true,
+    "report.html": true,
+    "method_registry.json": true,
+    "report.md": true,
+    "surface_features.svg": true,
+    "eligible_word_volume.svg": true
+  },
+  "benchmark_saved_value_republication": {
+    "scope": "Republish saved analytical values through actual write_artifacts, then compare and verify. No numerical recomputation.",
+    "canonical_matches": {
+      "activity_daily.svg": true,
+      "activity_hourly.svg": true,
+      "adjacent_distances.svg": true,
+      "eligible_word_volume.svg": true,
+      "evidence.jsonl": true,
+      "method_registry.json": true,
+      "records_features.jsonl": true,
+      "report.html": true,
+      "report.md": true,
+      "resolved_config.json": true,
+      "results.json": true,
+      "surface_features.svg": true,
+      "windows.jsonl": true,
+      "checksums.json": true
+    },
+    "integrity": {
+      "status": "integrity_only",
+      "checked_artifacts": 13,
+      "results_sha256": "f2c8f0f9f3ecd3c583b09dde27cf922713d80b332ddee2cfd120188e7fa8c6ab",
+      "verification_scope": "artifact_checksums_and_supplied_identities"
+    },
+    "wall_seconds": 48.57015696600001,
+    "peak_rss_kib": 532636
+  },
+  "reuse_before_after": {
+    "scope": "Actual unchanged 1.0.1 versus 1.0.2 reuse modules on identical locally prepared features. Single-run timings exclude preprocessing. Nonreference environment.",
+    "cases": [
+      {
+        "pattern": "identical",
+        "words_per_record": 1000,
+        "repaired_seconds": 0.0011117210000293198,
+        "candidate_pairs": 1,
+        "complete": true,
+        "work_units": 13025,
+        "matches": [
+          1000
+        ]
+      },
+      {
+        "pattern": "identical",
+        "words_per_record": 2000,
+        "repaired_seconds": 0.0021531589999312928,
+        "candidate_pairs": 1,
+        "complete": true,
+        "work_units": 26025,
+        "matches": [
+          2000
+        ]
+      },
+      {
+        "pattern": "identical",
+        "words_per_record": 4000,
+        "repaired_seconds": 0.004200911999987511,
+        "candidate_pairs": 1,
+        "complete": true,
+        "work_units": 52025,
+        "matches": [
+          4000
+        ]
+      },
+      {
+        "pattern": "identical",
+        "words_per_record": 8000,
+        "repaired_seconds": 0.00809136700002,
+        "candidate_pairs": 1,
+        "complete": true,
+        "work_units": 104025,
+        "matches": [
+          8000
+        ],
+        "baseline_seconds": 6.807066304000045,
+        "full_pair_payload_equal": true,
+        "baseline_pair_count": 1,
+        "pair_payload_sha256": "b34978a2d14af5938facd3c4bdf481c3c4aba8b4e6db610774ce5d73852e273d"
+      },
+      {
+        "pattern": "one_edit",
+        "words_per_record": 1000,
+        "repaired_seconds": 0.0022720450000406345,
+        "candidate_pairs": 1,
+        "complete": true,
+        "work_units": 21230,
+        "matches": [
+          500
+        ]
+      },
+      {
+        "pattern": "one_edit",
+        "words_per_record": 2000,
+        "repaired_seconds": 0.00524058899998181,
+        "candidate_pairs": 1,
+        "complete": true,
+        "work_units": 42230,
+        "matches": [
+          1000
+        ]
+      },
+      {
+        "pattern": "one_edit",
+        "words_per_record": 4000,
+        "repaired_seconds": 0.00897946099996716,
+        "candidate_pairs": 1,
+        "complete": true,
+        "work_units": 84230,
+        "matches": [
+          2000
+        ]
+      },
+      {
+        "pattern": "one_edit",
+        "words_per_record": 8000,
+        "repaired_seconds": 0.017186180000066997,
+        "candidate_pairs": 1,
+        "complete": true,
+        "work_units": 168230,
+        "matches": [
+          4000
+        ],
+        "baseline_seconds": 6.83775600599995,
+        "full_pair_payload_equal": true,
+        "baseline_pair_count": 1,
+        "pair_payload_sha256": "6506598b35220daecf08ee670128c7c6d2d2e9275b8b460bfb1b66e45ba925a3"
+      },
+      {
+        "pattern": "period3_edit",
+        "words_per_record": 1000,
+        "repaired_seconds": 0.0022687010000481678,
+        "candidate_pairs": 1,
+        "complete": true,
+        "work_units": 21096,
+        "matches": [
+          500
+        ]
+      },
+      {
+        "pattern": "period3_edit",
+        "words_per_record": 2000,
+        "repaired_seconds": 0.0049373100000593695,
+        "candidate_pairs": 1,
+        "complete": true,
+        "work_units": 41763,
+        "matches": [
+          1000
+        ]
+      },
+      {
+        "pattern": "period3_edit",
+        "words_per_record": 4000,
+        "repaired_seconds": 0.010061307000000852,
+        "candidate_pairs": 1,
+        "complete": true,
+        "work_units": 83096,
+        "matches": [
+          2000
+        ]
+      },
+      {
+        "pattern": "period3_edit",
+        "words_per_record": 8000,
+        "repaired_seconds": 0.017446231999997508,
+        "candidate_pairs": 1,
+        "complete": true,
+        "work_units": 165763,
+        "matches": [
+          4000
+        ],
+        "baseline_seconds": 2.3368901540000024,
+        "full_pair_payload_equal": true,
+        "baseline_pair_count": 1,
+        "pair_payload_sha256": "c22ebabf419bf56dddc71dd58d4c65ea8bdae9e3ee7d7ba6fa911abbaff73071"
+      },
+      {
+        "pattern": "period3_shift",
+        "words_per_record": 1000,
+        "repaired_seconds": 0.00251243999991857,
+        "candidate_pairs": 1,
+        "complete": true,
+        "work_units": 21538,
+        "matches": [
+          999
+        ]
+      },
+      {
+        "pattern": "period3_shift",
+        "words_per_record": 2000,
+        "repaired_seconds": 0.005160769999974946,
+        "candidate_pairs": 1,
+        "complete": true,
+        "work_units": 42871,
+        "matches": [
+          1999
+        ]
+      },
+      {
+        "pattern": "period3_shift",
+        "words_per_record": 4000,
+        "repaired_seconds": 0.008895845000097324,
+        "candidate_pairs": 1,
+        "complete": true,
+        "work_units": 85538,
+        "matches": [
+          3999
+        ]
+      },
+      {
+        "pattern": "period3_shift",
+        "words_per_record": 8000,
+        "repaired_seconds": 0.019178998000029424,
+        "candidate_pairs": 1,
+        "complete": true,
+        "work_units": 170871,
+        "matches": [
+          7999
+        ],
+        "baseline_seconds": 2.3225419200000488,
+        "full_pair_payload_equal": true,
+        "baseline_pair_count": 1,
+        "pair_payload_sha256": "3c45ce5b74b83f22e7e2ba7528bb0749d90d5154c889c66615fa1f9a34a7f1ed"
+      },
+      {
+        "pattern": "period31_edit",
+        "words_per_record": 1000,
+        "repaired_seconds": 0.0025904350000018894,
+        "candidate_pairs": 1,
+        "complete": true,
+        "work_units": 24007,
+        "matches": [
+          500
+        ]
+      },
+      {
+        "pattern": "period31_edit",
+        "words_per_record": 2000,
+        "repaired_seconds": 0.004555146000029708,
+        "candidate_pairs": 1,
+        "complete": true,
+        "work_units": 44523,
+        "matches": [
+          1000
+        ]
+      },
+      {
+        "pattern": "period31_edit",
+        "words_per_record": 4000,
+        "repaired_seconds": 0.00858217200004674,
+        "candidate_pairs": 1,
+        "complete": true,
+        "work_units": 85555,
+        "matches": [
+          2000
+        ]
+      },
+      {
+        "pattern": "period31_edit",
+        "words_per_record": 8000,
+        "repaired_seconds": 0.018548607999946398,
+        "candidate_pairs": 1,
+        "complete": true,
+        "work_units": 167620,
+        "matches": [
+          4000
+        ],
+        "baseline_seconds": 0.23864510900000369,
+        "full_pair_payload_equal": true,
+        "baseline_pair_count": 1,
+        "pair_payload_sha256": "27de20ae7dc2b8dfc714447b860f7c116a6770ca58e2c955c8abc9f1056bfb55"
+      }
+    ]
+  },
+  "remaining_presentation_issue": {
+    "scope": "Actual rendering and supplied JSON inspected; calculations not rerun here.",
+    "regenerated_html_matches_supplied": true,
+    "checked_exported_ngram_coordinates": 124714,
+    "wrong_length_in_json": 0,
+    "examples": [
+      {
+        "n": 3,
+        "rows": [
+          {
+            "stored_feature": " th",
+            "stored_codepoints": 3,
+            "displayed_feature": "th"
+          },
+          {
+            "stored_feature": " TH",
+            "stored_codepoints": 3,
+            "displayed_feature": "TH"
+          },
+          {
+            "stored_feature": "he ",
+            "stored_codepoints": 3,
+            "displayed_feature": "he"
+          },
+          {
+            "stored_feature": "the",
+            "stored_codepoints": 3,
+            "displayed_feature": "the"
+          },
+          {
+            "stored_feature": "HE ",
+            "stored_codepoints": 3,
+            "displayed_feature": "HE"
+          },
+          {
+            "stored_feature": "THE",
+            "stored_codepoints": 3,
+            "displayed_feature": "THE"
+          },
+          {
+            "stored_feature": "E S",
+            "stored_codepoints": 3,
+            "displayed_feature": "E S"
+          },
+          {
+            "stored_feature": " CA",
+            "stored_codepoints": 3,
+            "displayed_feature": "CA"
+          },
+          {
+            "stored_feature": "e s",
+            "stored_codepoints": 3,
+            "displayed_feature": "e s"
+          },
+          {
+            "stored_feature": " SH",
+            "stored_codepoints": 3,
+            "displayed_feature": "SH"
+          }
+        ],
+        "distinct_displayed_labels": 10
+      },
+      {
+        "n": 4,
+        "rows": [
+          {
+            "stored_feature": "the ",
+            "stored_codepoints": 4,
+            "displayed_feature": "the"
+          },
+          {
+            "stored_feature": "THE ",
+            "stored_codepoints": 4,
+            "displayed_feature": "THE"
+          },
+          {
+            "stored_feature": " the",
+            "stored_codepoints": 4,
+            "displayed_feature": "the"
+          },
+          {
+            "stored_feature": " THE",
+            "stored_codepoints": 4,
+            "displayed_feature": "THE"
+          },
+          {
+            "stored_feature": "E SH",
+            "stored_codepoints": 4,
+            "displayed_feature": "E SH"
+          },
+          {
+            "stored_feature": " is ",
+            "stored_codepoints": 4,
+            "displayed_feature": "is"
+          },
+          {
+            "stored_feature": " IS ",
+            "stored_codepoints": 4,
+            "displayed_feature": "IS"
+          },
+          {
+            "stored_feature": " CAB",
+            "stored_codepoints": 4,
+            "displayed_feature": "CAB"
+          },
+          {
+            "stored_feature": "ABLE",
+            "stored_codepoints": 4,
+            "displayed_feature": "ABLE"
+          },
+          {
+            "stored_feature": "CABL",
+            "stored_codepoints": 4,
+            "displayed_feature": "CABL"
+          }
+        ],
+        "distinct_displayed_labels": 8
+      },
+      {
+        "n": 5,
+        "rows": [
+          {
+            "stored_feature": " the ",
+            "stored_codepoints": 5,
+            "displayed_feature": "the"
+          },
+          {
+            "stored_feature": " THE ",
+            "stored_codepoints": 5,
+            "displayed_feature": "THE"
+          },
+          {
+            "stored_feature": " CABL",
+            "stored_codepoints": 5,
+            "displayed_feature": "CABL"
+          },
+          {
+            "stored_feature": "CABLE",
+            "stored_codepoints": 5,
+            "displayed_feature": "CABLE"
+          },
+          {
+            "stored_feature": "ould ",
+            "stored_codepoints": 5,
+            "displayed_feature": "ould"
+          },
+          {
+            "stored_feature": "OULD ",
+            "stored_codepoints": 5,
+            "displayed_feature": "OULD"
+          },
+          {
+            "stored_feature": "ABLE ",
+            "stored_codepoints": 5,
+            "displayed_feature": "ABLE"
+          },
+          {
+            "stored_feature": "E CAB",
+            "stored_codepoints": 5,
+            "displayed_feature": "E CAB"
+          },
+          {
+            "stored_feature": "HE CA",
+            "stored_codepoints": 5,
+            "displayed_feature": "HE CA"
+          },
+          {
+            "stored_feature": "THE C",
+            "stored_codepoints": 5,
+            "displayed_feature": "THE C"
+          }
+        ],
+        "distinct_displayed_labels": 10
+      }
+    ],
+    "source_location": "reporting.py:304 passes md_text(feature_id) to _table; Markdown table parser trims structural whitespace."
+  }
+}

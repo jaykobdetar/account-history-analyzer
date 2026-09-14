@@ -1,0 +1,27 @@
+{
+  "command": [
+    "env",
+    "PYTHONHASHSEED=991",
+    "TZ=Pacific/Kiritimati",
+    ".venv/bin/python",
+    "scripts/offline_exec.py",
+    ".venv/bin/python",
+    "-B",
+    "/home/jaykob/.codex/visualizations/2026/09/13/01a09a32-1ca6-7983-93da-5f7da689ab16/ahas-pilot2-20260914/scripts/run_pairs.py",
+    "--only",
+    "ApplyingToCollege.within_community.full.retained_prose_n4",
+    "--destination",
+    "outputs/replay-paired",
+    "--jobs",
+    "1"
+  ],
+  "cwd": "/home/jaykob/Downloads/Account_History_Analyzer_V1_Agent_Handoff/account_history_analyzer_v1",
+  "started_utc": "2026-09-14T19:42:28.497745+00:00",
+  "finished_utc": "2026-09-14T19:42:32.071337+00:00",
+  "exit_code": 0,
+  "wall_seconds": 3.5735898800194263,
+  "peak_rss_kib": 96692,
+  "measurement_scope": "this command and descendants; separate from canonical results",
+  "stdout_sha256": "1dd927c1afa7f8496d57cca8d504e8049d7f6de2a47ffb7540608410308c9494",
+  "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+}

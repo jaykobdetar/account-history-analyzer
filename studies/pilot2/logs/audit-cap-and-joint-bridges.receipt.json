@@ -1,0 +1,19 @@
+{
+  "command": [
+    ".venv/bin/python",
+    "scripts/offline_exec.py",
+    "/usr/bin/prlimit",
+    "--as=3221225472",
+    ".venv/bin/python",
+    "/home/jaykob/.codex/visualizations/2026/09/13/01a09a32-1ca6-7983-93da-5f7da689ab16/ahas-pilot2-20260914/scripts/verify_audit_cap_and_bridges.py"
+  ],
+  "cwd": "/home/jaykob/Downloads/Account_History_Analyzer_V1_Agent_Handoff/account_history_analyzer_v1",
+  "started_utc": "2026-09-14T19:33:34.991185+00:00",
+  "finished_utc": "2026-09-14T19:34:20.644868+00:00",
+  "exit_code": 0,
+  "wall_seconds": 45.65368596400367,
+  "peak_rss_kib": 989184,
+  "measurement_scope": "this command and descendants; separate from canonical results",
+  "stdout_sha256": "c34744460f8ffd2f9b494bcf6ca4db431d2531ca5b7e4c9354eb86e6db4c8c33",
+  "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+}

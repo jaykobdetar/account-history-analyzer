@@ -1,0 +1,14 @@
+{
+  "argv": [
+    ".venv/bin/python",
+    "scripts/browser_offline_exec.py",
+    "node",
+    "scripts/check_report_browser.cjs",
+    "output/rw001/synthetic/alternative_only/report.html",
+    "qa/rw001/synthetic-browser-changes.png",
+    "changes"
+  ],
+  "exit_code": 1,
+  "elapsed_seconds": 0.17358152600354515,
+  "scope": "Local browser safety/readability; internet sockets denied by inherited seccomp."
+}

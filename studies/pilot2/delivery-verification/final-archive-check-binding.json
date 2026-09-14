@@ -1,0 +1,27 @@
+{
+  "all_archive_members_match_checked_bytes": true,
+  "archive_bytes": 1109429,
+  "archive_file_count": 317,
+  "archive_hash_unchanged_across_check": true,
+  "archive_name": "AHAS_1.0.4_RW001_and_Pilot2_Review_20260914.zip",
+  "archive_sha256": "d3794079f8ee6b5b01f3ba12cbcefd30b6cbd6835dab2c1ccf353a2489a770a2",
+  "checker_proof_sha256": "08b89181c9734af4a5767f640f2ca40e0c65f106b469b0e642a16f2e822f0bc5",
+  "execution_receipt_sha256": "5bcd8c9ad5b9d71067f1fa01cbf9e9bb55ef338a57239e311a88b75d7e4d6dd0",
+  "exit_code": 0,
+  "frozen_file_count": 1448,
+  "no_archive_stage_or_frozen_file_modifications": true,
+  "pair_observations": 1152,
+  "paired_batches": 72,
+  "peak_rss_kib": 771128,
+  "privacy_checks": {
+    "active_markup_or_remote_resource_references": 0,
+    "handoff_file_count": 317,
+    "known_source_account_keys_checked": 188,
+    "privacy_check_limit": "Exact account-key and twelve-word source-sequence checks plus private-field/path exclusion; short generic phrases and unseen corpus text are not identifiable by this mechanical check.",
+    "public_private_field_leaks": 0,
+    "source_records_checked_for_twelve_word_excerpt_leaks": 35275
+  },
+  "status": "passed",
+  "stream_and_operational_slots": 60,
+  "wall_seconds": 20.962793479004176
+}

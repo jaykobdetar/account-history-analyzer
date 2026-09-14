@@ -1,0 +1,22 @@
+{
+  "command": [
+    ".venv/bin/python",
+    "scripts/offline_exec.py",
+    ".venv/bin/python",
+    "-m",
+    "pytest",
+    "-q",
+    "-p",
+    "no:cacheprovider",
+    "/home/jaykob/.codex/visualizations/2026/09/13/01a09a32-1ca6-7983-93da-5f7da689ab16/ahas-pilot2-20260914/tests/test_pair_scoring_gate.py"
+  ],
+  "cwd": "/home/jaykob/Downloads/Account_History_Analyzer_V1_Agent_Handoff/account_history_analyzer_v1",
+  "started_utc": "2026-09-14T19:26:32.257973+00:00",
+  "finished_utc": "2026-09-14T19:26:32.693894+00:00",
+  "exit_code": 0,
+  "wall_seconds": 0.43592682998860255,
+  "peak_rss_kib": 43772,
+  "measurement_scope": "this command and descendants; separate from canonical results",
+  "stdout_sha256": "48d1816a8c98ecd9e3f98e3b04c3072d9c5ba61a33bdda39d86d36a8edd4812b",
+  "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+}

@@ -1,0 +1,5 @@
+Using Python 3.12.3 environment at: ahas-audit-install
+Resolved 1 package in 1ms
+Prepared 1 package in 6ms
+Installed 1 package in 5ms
+ + account-history-analyzer==1.0.2 (from file:///home/jaykob/Downloads/Account_History_Analyzer_V1_Agent_Handoff/account_history_analyzer_v1/dist/account_history_analyzer-1.0.2-py3-none-any.whl)

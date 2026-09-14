@@ -1,0 +1,51 @@
+{
+  "fixtures": [
+    {
+      "byte_identical": true,
+      "compared_artifacts": [
+        "activity_daily.svg",
+        "activity_hourly.svg",
+        "adjacent_distances.svg",
+        "checksums.json",
+        "eligible_word_volume.svg",
+        "evidence.jsonl",
+        "method_registry.json",
+        "records_features.jsonl",
+        "report.html",
+        "report.md",
+        "resolved_config.json",
+        "results.json",
+        "surface_features.svg",
+        "windows.jsonl"
+      ],
+      "fixture": "arithmetic",
+      "implementation_fingerprint": "4ec887e4ecc344fbd9561c9cb3fc2fc9e95fe1f3a582409826d70ac5315f8a61",
+      "results_sha256": "ab7d48bad074e77bffacd7df9dee481f5df1fd761f90755ed83ef595cff2de96"
+    },
+    {
+      "byte_identical": true,
+      "compared_artifacts": [
+        "activity_daily.svg",
+        "activity_hourly.svg",
+        "adjacent_distances.svg",
+        "checksums.json",
+        "eligible_word_volume.svg",
+        "evidence.jsonl",
+        "method_registry.json",
+        "records_features.jsonl",
+        "report.html",
+        "report.md",
+        "resolved_config.json",
+        "results.json",
+        "surface_features.svg",
+        "windows.jsonl"
+      ],
+      "fixture": "constructed_style_shift",
+      "implementation_fingerprint": "4ec887e4ecc344fbd9561c9cb3fc2fc9e95fe1f3a582409826d70ac5315f8a61",
+      "results_sha256": "29619ed1c0ade6105c300af4ad168c967860bb83de22bec717a15c01961bcb0e"
+    }
+  ],
+  "initial_check_note": "An initial ad-hoc file inventory incorrectly included ingest_receipt.json. The corrected check selects canonical files from checksums.json, not a guessed receipt filename.",
+  "scope": "Checksummed artifacts plus checksums.json; operational receipts excluded",
+  "status": "passed"
+}

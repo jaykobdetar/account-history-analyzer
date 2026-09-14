@@ -1,0 +1,20 @@
+Building source distribution...
+Traceback (most recent call last):
+  File "<string>", line 8, in <module>
+ModuleNotFoundError: No module named 'hatchling'
+  × Failed to build
+  │ `/home/jaykob/Downloads/Account_History_Analyzer_V1_Agent_Handoff/account_history_analyzer_v1`
+  ├─▶ The build backend returned an error
+  ╰─▶ Call to `hatchling.build.build_sdist` failed (exit status: 1)
+
+      hint: This error likely indicates that `account-history-analyzer@1.0.1`
+      depends on `hatchling`, but doesn't declare it as a build dependency.
+      If `account-history-analyzer` is a first-party package, consider adding
+      `hatchling` to its `build-system.requires`. Otherwise, either add it to
+      your `pyproject.toml` under:
+
+      [tool.uv.extra-build-dependencies]
+      account-history-analyzer = ["hatchling"]
+
+      or `uv pip install hatchling` into the environment and re-run with
+      `--no-build-isolation`.

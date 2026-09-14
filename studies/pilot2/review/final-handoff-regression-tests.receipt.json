@@ -1,0 +1,23 @@
+{
+  "command": [
+    ".venv/bin/python",
+    "scripts/offline_exec.py",
+    ".venv/bin/python",
+    "-B",
+    "-m",
+    "pytest",
+    "-q",
+    "-p",
+    "no:cacheprovider",
+    "/home/jaykob/.codex/visualizations/2026/09/13/01a09a32-1ca6-7983-93da-5f7da689ab16/ahas-pilot2-20260914/review/test_postfreeze_review.py"
+  ],
+  "cwd": "/home/jaykob/Downloads/Account_History_Analyzer_V1_Agent_Handoff/account_history_analyzer_v1",
+  "started_utc": "2026-09-14T20:12:25.268494+00:00",
+  "finished_utc": "2026-09-14T20:12:25.647134+00:00",
+  "exit_code": 0,
+  "wall_seconds": 0.3786430320178624,
+  "peak_rss_kib": 43804,
+  "measurement_scope": "this command and descendants; separate from canonical results",
+  "stdout_sha256": "15bc76da47bdf8218f18fc8a7da65fafd841677d5f754b71a0c9f56e07d84c1b",
+  "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+}

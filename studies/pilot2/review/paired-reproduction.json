@@ -1,0 +1,49 @@
+{
+  "canonical_artifact_count": 3,
+  "command": [
+    "env",
+    "PYTHONHASHSEED=991",
+    "TZ=Pacific/Kiritimati",
+    ".venv/bin/python",
+    "scripts/offline_exec.py",
+    ".venv/bin/python",
+    "-B",
+    "/home/jaykob/.codex/visualizations/2026/09/13/01a09a32-1ca6-7983-93da-5f7da689ab16/ahas-pilot2-20260914/scripts/run_pairs.py",
+    "--only",
+    "ApplyingToCollege.within_community.full.retained_prose_n4",
+    "--destination",
+    "outputs/replay-paired",
+    "--jobs",
+    "1"
+  ],
+  "cross_platform_identity_claimed": false,
+  "execution_receipt": "review/paired-replay-run.receipt.json",
+  "exit_code": 0,
+  "files": {
+    "checksums.json": {
+      "byte_identical": true,
+      "bytes": 166,
+      "sha256": "fd44e75496ba95fdf8fb8386366c6c2257bb528c120b7eb6c6d204f36d872cdc"
+    },
+    "evaluation.json": {
+      "byte_identical": true,
+      "bytes": 25745,
+      "sha256": "13213ed933e320075a152bdd38d7bf7d988b47acec3a88f08b3c76140ab35009"
+    },
+    "report.md": {
+      "byte_identical": true,
+      "bytes": 49677,
+      "sha256": "46a7850322d5cc3bd14674265a3a48d3883a0c3e03f0811d3e2ce63102368048"
+    }
+  },
+  "network_isolation": "linux_seccomp_socket_denial",
+  "original_directory": "outputs/paired/ApplyingToCollege.within_community.full.retained_prose_n4",
+  "peak_rss_kib": 96692,
+  "receipts_excluded_from_canonical_comparison": true,
+  "replay_directory": "outputs/replay-paired/ApplyingToCollege.within_community.full.retained_prose_n4",
+  "seed": 991,
+  "separate_process_replay": true,
+  "status": "passed",
+  "timezone": "Pacific/Kiritimati",
+  "wall_seconds": 3.5735898800194263
+}

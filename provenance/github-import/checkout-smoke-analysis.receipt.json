@@ -1,0 +1,28 @@
+{
+  "command": [
+    "/home/jaykob/Downloads/Account_History_Analyzer_V1_Agent_Handoff/account_history_analyzer_v1/.venv/bin/python",
+    "scripts/offline_exec.py",
+    "env",
+    "PYTHONDONTWRITEBYTECODE=1",
+    "PYTHONPATH=/home/jaykob/.codex/visualizations/2026/09/13/01a09a32-1ca6-7983-93da-5f7da689ab16/ahas-github-20260914/account-history-analyzer/src",
+    "/home/jaykob/Downloads/Account_History_Analyzer_V1_Agent_Handoff/account_history_analyzer_v1/.venv/bin/python",
+    "-m",
+    "account_history_analyzer",
+    "analyze",
+    "--input",
+    "fixtures/arithmetic.jsonl",
+    "--manifest",
+    "fixtures/arithmetic.snapshot.json",
+    "--out",
+    "/home/jaykob/.codex/visualizations/2026/09/13/01a09a32-1ca6-7983-93da-5f7da689ab16/ahas-github-20260914/smoke-report"
+  ],
+  "cwd": "/home/jaykob/.codex/visualizations/2026/09/13/01a09a32-1ca6-7983-93da-5f7da689ab16/ahas-github-20260914/account-history-analyzer",
+  "started_utc": "2026-09-14T20:28:20.902914+00:00",
+  "finished_utc": "2026-09-14T20:28:22.683426+00:00",
+  "exit_code": 0,
+  "wall_seconds": 1.7805133810034022,
+  "peak_rss_kib": 113492,
+  "measurement_scope": "this command and descendants; separate from canonical results",
+  "stdout_sha256": "0f2f0437c39f367a02874a14b5d678b021562c3a1b2035cfdb24c23bed40ebf9",
+  "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+}

@@ -1,0 +1,29 @@
+{
+  "command": [
+    ".venv/bin/python",
+    "scripts/offline_exec.py",
+    ".venv/bin/python",
+    "-m",
+    "cProfile",
+    "-o",
+    "/home/jaykob/.codex/visualizations/2026/09/13/01a09a32-1ca6-7983-93da-5f7da689ab16/ahas-pilot2-20260914/resources/exposed-development.pstats",
+    "-m",
+    "account_history_analyzer",
+    "analyze",
+    "--input",
+    "/home/jaykob/.codex/visualizations/2026/09/13/01a09a32-1ca6-7983-93da-5f7da689ab16/ahas-realworld-review/inputs/public/accounts/cornell-6e9168d005b3c484038b.jsonl",
+    "--manifest",
+    "/home/jaykob/.codex/visualizations/2026/09/13/01a09a32-1ca6-7983-93da-5f7da689ab16/ahas-realworld-review/inputs/public/accounts/cornell-6e9168d005b3c484038b.snapshot.json",
+    "--out",
+    "/home/jaykob/.codex/visualizations/2026/09/13/01a09a32-1ca6-7983-93da-5f7da689ab16/ahas-pilot2-20260914/resources/exposed-development-report"
+  ],
+  "cwd": "/home/jaykob/Downloads/Account_History_Analyzer_V1_Agent_Handoff/account_history_analyzer_v1",
+  "started_utc": "2026-09-14T18:47:50.448286+00:00",
+  "finished_utc": "2026-09-14T18:51:06.441873+00:00",
+  "exit_code": 0,
+  "wall_seconds": 195.9935894740047,
+  "peak_rss_kib": 469944,
+  "measurement_scope": "this command and descendants; separate from canonical results",
+  "stdout_sha256": "51b1d2f2ace30cd7e7114cfdcb381b4f75f5bf02eb6445173de4b19e5ad76370",
+  "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+}

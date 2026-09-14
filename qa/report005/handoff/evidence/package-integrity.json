@@ -1,0 +1,276 @@
+{
+  "scope": "Independent package and checksum inspection, not independent execution of supplied release tests.",
+  "package": {
+    "fingerprint": "583043074c28db2c91b62c33dc0197a569e863f4c83a80197c509324d9cb4fac",
+    "fingerprint_files": 53,
+    "reference_fingerprint": "583043074c28db2c91b62c33dc0197a569e863f4c83a80197c509324d9cb4fac",
+    "wheel_sha256": "f0f1fdd9e07c29f35510d77a06fa8319ddd431d45accdfc380f587491e3b1eb6",
+    "wheel_package_files": 54,
+    "wheel_matches": {
+      "account_history_analyzer/__init__.py": true,
+      "account_history_analyzer/__main__.py": true,
+      "account_history_analyzer/activity.py": true,
+      "account_history_analyzer/artifact_io.py": true,
+      "account_history_analyzer/artifacts.py": true,
+      "account_history_analyzer/changepoints.py": true,
+      "account_history_analyzer/charts.py": true,
+      "account_history_analyzer/cli.py": true,
+      "account_history_analyzer/comparisons.py": true,
+      "account_history_analyzer/config.py": true,
+      "account_history_analyzer/errors.py": true,
+      "account_history_analyzer/evaluation_external.py": true,
+      "account_history_analyzer/evaluation_metrics.py": true,
+      "account_history_analyzer/evaluation_reporting.py": true,
+      "account_history_analyzer/evaluation_schemas.py": true,
+      "account_history_analyzer/evaluation_synthetic.py": true,
+      "account_history_analyzer/features.py": true,
+      "account_history_analyzer/findings.py": true,
+      "account_history_analyzer/interactions.py": true,
+      "account_history_analyzer/io.py": true,
+      "account_history_analyzer/links.py": true,
+      "account_history_analyzer/payload_schemas.py": true,
+      "account_history_analyzer/pipeline.py": true,
+      "account_history_analyzer/py.typed": true,
+      "account_history_analyzer/registry.py": true,
+      "account_history_analyzer/reporting.py": true,
+      "account_history_analyzer/reuse.py": true,
+      "account_history_analyzer/reuse_matching.py": true,
+      "account_history_analyzer/schemas.py": true,
+      "account_history_analyzer/sensitivity.py": true,
+      "account_history_analyzer/style.py": true,
+      "account_history_analyzer/text.py": true,
+      "account_history_analyzer/verification.py": true,
+      "account_history_analyzer/windows.py": true,
+      "account_history_analyzer/_vendor/__init__.py": true,
+      "account_history_analyzer/_vendor/ruptures_LICENSE.txt": true,
+      "account_history_analyzer/_vendor/ruptures_pr383.json": true,
+      "account_history_analyzer/_vendor/ruptures_pr383.py": true,
+      "account_history_analyzer/_vendor/ruptures_pr383_source.txt": true,
+      "account_history_analyzer/contracts/comparison.schema.json": true,
+      "account_history_analyzer/contracts/config.schema.json": true,
+      "account_history_analyzer/contracts/delta_reference.schema.json": true,
+      "account_history_analyzer/contracts/evaluation_account_stream.schema.json": true,
+      "account_history_analyzer/contracts/evaluation_paired_text.schema.json": true,
+      "account_history_analyzer/contracts/evaluation_synthetic.schema.json": true,
+      "account_history_analyzer/contracts/evidence.schema.json": true,
+      "account_history_analyzer/contracts/record.schema.json": true,
+      "account_history_analyzer/contracts/records_features.schema.json": true,
+      "account_history_analyzer/contracts/results.schema.json": true,
+      "account_history_analyzer/contracts/snapshot.schema.json": true,
+      "account_history_analyzer/contracts/windows.schema.json": true,
+      "account_history_analyzer/resources/contraction_pairs.json": true,
+      "account_history_analyzer/resources/default.toml": true,
+      "account_history_analyzer/resources/function_words_en_v1.txt": true
+    },
+    "changes_against_101": {
+      "__init__.py": "changed",
+      "artifact_io.py": "added",
+      "artifacts.py": "changed",
+      "cli.py": "changed",
+      "config.py": "changed",
+      "contracts/config.schema.json": "changed",
+      "contracts/results.schema.json": "changed",
+      "evaluation_reporting.py": "changed",
+      "io.py": "changed",
+      "payload_schemas.py": "changed",
+      "pipeline.py": "changed",
+      "registry.py": "changed",
+      "reporting.py": "changed",
+      "resources/default.toml": "changed",
+      "reuse.py": "changed",
+      "reuse_matching.py": "added",
+      "text.py": "changed",
+      "verification.py": "changed"
+    }
+  },
+  "bundles": {
+    "arithmetic": {
+      "file_count": 13,
+      "matches": {
+        "activity_daily.svg": true,
+        "activity_hourly.svg": true,
+        "adjacent_distances.svg": true,
+        "eligible_word_volume.svg": true,
+        "evidence.jsonl": true,
+        "method_registry.json": true,
+        "records_features.jsonl": true,
+        "report.html": true,
+        "report.md": true,
+        "resolved_config.json": true,
+        "results.json": true,
+        "surface_features.svg": true,
+        "windows.jsonl": true
+      },
+      "manifest_sha256": "2d811a97b0f247d1156aa5956b055d506a180d0ac4ebf025187d2e9bfbaadd90",
+      "results_bytes": 45189
+    },
+    "constructed_style_shift": {
+      "file_count": 13,
+      "matches": {
+        "activity_daily.svg": true,
+        "activity_hourly.svg": true,
+        "adjacent_distances.svg": true,
+        "eligible_word_volume.svg": true,
+        "evidence.jsonl": true,
+        "method_registry.json": true,
+        "records_features.jsonl": true,
+        "report.html": true,
+        "report.md": true,
+        "resolved_config.json": true,
+        "results.json": true,
+        "surface_features.svg": true,
+        "windows.jsonl": true
+      },
+      "manifest_sha256": "9f4643ea8f0f714cf4987286afad8aece0f47411aa0cbc4d8ac4d3a826037531",
+      "results_bytes": 32695380
+    },
+    "constructed_topic_shift": {
+      "file_count": 13,
+      "matches": {
+        "activity_daily.svg": true,
+        "activity_hourly.svg": true,
+        "adjacent_distances.svg": true,
+        "eligible_word_volume.svg": true,
+        "evidence.jsonl": true,
+        "method_registry.json": true,
+        "records_features.jsonl": true,
+        "report.html": true,
+        "report.md": true,
+        "resolved_config.json": true,
+        "results.json": true,
+        "surface_features.svg": true,
+        "windows.jsonl": true
+      },
+      "manifest_sha256": "3a88b5fde0f699047b7ab749f8bfe5e0429c9cc12ffaff0bf6b57fa4f3af6ce5",
+      "results_bytes": 30310647
+    },
+    "edge_cases": {
+      "file_count": 13,
+      "matches": {
+        "activity_daily.svg": true,
+        "activity_hourly.svg": true,
+        "adjacent_distances.svg": true,
+        "eligible_word_volume.svg": true,
+        "evidence.jsonl": true,
+        "method_registry.json": true,
+        "records_features.jsonl": true,
+        "report.html": true,
+        "report.md": true,
+        "resolved_config.json": true,
+        "results.json": true,
+        "surface_features.svg": true,
+        "windows.jsonl": true
+      },
+      "manifest_sha256": "416dbbfb4127ba6ebc4e6575d89c3fe1b03f7c0de33e76d46683d6bf525169cd",
+      "results_bytes": 42809
+    },
+    "empty": {
+      "file_count": 13,
+      "matches": {
+        "activity_daily.svg": true,
+        "activity_hourly.svg": true,
+        "adjacent_distances.svg": true,
+        "eligible_word_volume.svg": true,
+        "evidence.jsonl": true,
+        "method_registry.json": true,
+        "records_features.jsonl": true,
+        "report.html": true,
+        "report.md": true,
+        "resolved_config.json": true,
+        "results.json": true,
+        "surface_features.svg": true,
+        "windows.jsonl": true
+      },
+      "manifest_sha256": "21837bad11a233cac44950bab6c929f693741214e423c5db1774e215d1f3ce04",
+      "results_bytes": 39556
+    },
+    "stable_constructed_style": {
+      "file_count": 13,
+      "matches": {
+        "activity_daily.svg": true,
+        "activity_hourly.svg": true,
+        "adjacent_distances.svg": true,
+        "eligible_word_volume.svg": true,
+        "evidence.jsonl": true,
+        "method_registry.json": true,
+        "records_features.jsonl": true,
+        "report.html": true,
+        "report.md": true,
+        "resolved_config.json": true,
+        "results.json": true,
+        "surface_features.svg": true,
+        "windows.jsonl": true
+      },
+      "manifest_sha256": "a28b720b91bbc41c77e2a46f43b345433ff8b124215a67f4912f384edad1d30b",
+      "results_bytes": 29265069
+    },
+    "benchmark": {
+      "file_count": 13,
+      "matches": {
+        "activity_daily.svg": true,
+        "activity_hourly.svg": true,
+        "adjacent_distances.svg": true,
+        "eligible_word_volume.svg": true,
+        "evidence.jsonl": true,
+        "method_registry.json": true,
+        "records_features.jsonl": true,
+        "report.html": true,
+        "report.md": true,
+        "resolved_config.json": true,
+        "results.json": true,
+        "surface_features.svg": true,
+        "windows.jsonl": true
+      },
+      "manifest_sha256": "8c78f78ed9c91135781b048f623267b559d3f00abbb44f20e0e79aa0d2f14d1f",
+      "results_bytes": 92002224,
+      "all_16_file_sizes_match_receipt": {
+        "activity_daily.svg": true,
+        "activity_hourly.svg": true,
+        "adjacent_distances.svg": true,
+        "checksums.json": true,
+        "eligible_word_volume.svg": true,
+        "evidence.jsonl": true,
+        "ingest_receipt.json": true,
+        "method_registry.json": true,
+        "records_features.jsonl": true,
+        "report.html": true,
+        "report.md": true,
+        "resolved_config.json": true,
+        "results.json": true,
+        "run_receipt.json": true,
+        "surface_features.svg": true,
+        "windows.jsonl": true
+      },
+      "checksums_match_receipt": true,
+      "input_hash_matches_receipt": true,
+      "manifest_hash_matches_receipt": true,
+      "total_bytes": 119192853
+    }
+  },
+  "supplied_logs": {
+    "full-tests.log": {
+      "sha256": "a75d7bb9f0ef49c7b985878fe1338f3b5f7ddd19286e25763ae1839da998dbf7",
+      "summary": [
+        "553 passed, 1 skipped in 83.75s (0:01:23)"
+      ]
+    },
+    "container-tests.log": {
+      "sha256": "0cb5717bfb0617b8129025495f259fd26f4a4dcf75d19add9b093ceeba2f2194",
+      "summary": [
+        "553 passed, 1 skipped in 112.43s (0:01:52)"
+      ]
+    },
+    "browser-test.log": {
+      "sha256": "3a0934a0d39527281353ac978dced94348902349f24910579c52056fc7cb3187",
+      "summary": [
+        "1 passed in 2.06s"
+      ]
+    },
+    "supplied-regressions-after.log": {
+      "sha256": "f87658ba649a3a5d0a42c3840dd0dc124e9e99fbc02b719ad85f4d7ccb472e3a",
+      "summary": [
+        "3 passed in 160.78s (0:02:40)"
+      ]
+    }
+  }
+}

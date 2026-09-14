@@ -1,0 +1,27 @@
+.venv/
+.uv-cache/
+.pytest_cache/
+.hypothesis/
+__pycache__/
+*.pyc
+dist/
+release/
+benchmarks/*-report/
+
+# Local runs and real source data are never imported with source/documentation.
+.env
+.env.*
+!.env.example
+my-report*/
+my-comparison*/
+my-synthetic-evaluation*/
+local-data/
+raw-data/
+private-data/
+studies/**/data/
+studies/**/inputs/
+studies/**/private/
+studies/**/outputs/
+studies/**/results/
+studies/**/prepared/
+studies/**/__pycache__/

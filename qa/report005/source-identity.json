@@ -1,0 +1,11 @@
+{
+  "implementation_fingerprint": "c63f7130067baef0d8eeddcff30cf1c99ba31b8b69816ca843db03a917d9789a",
+  "reference_environment": "CPython-3.12.3;Linux;x86_64;numpy=2.4.2;scipy=1.17.1;ruptures=1.1.10;markdown-it-py=3.0.0;jsonschema=4.26.0",
+  "resource_sha256": {
+    "contraction_pairs.json": "f14da203d3a5965b5ea0982551dc9748c4a9655e7662cf8617ba58d86b805f34",
+    "default.toml": "b7147fe42aa43213cca289b263aa9e38889c0eb8dfbca43e7f710947331aa0a3",
+    "function_words_en_v1.txt": "f91c30201a636e7a9edd15166342afdcedae7fa34d7c7dd5c7352e49d4af2c9e",
+    "method_registry": "1b4d53b648303ea3b10f98e8dc40958b50587bd3c61c2262c83be7fb8a30da26",
+    "report_templates": "4e4e98b59a5017bbded50f2cca0c3b726369ec9349cdee9e234a59cb2a24b3a1"
+  }
+}

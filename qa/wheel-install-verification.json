@@ -1,0 +1,8 @@
+{
+  "checksummed_artifacts": 13,
+  "compared_files": 14,
+  "mismatches": [],
+  "result_sha256": "750b285a714d450bc8ce466388c872d4c5bddd0b505c86f48af9ab337ce6068d",
+  "setup": "fresh hash-locked dependencies, installed release wheel, unrelated /tmp working directory, kernel network denial",
+  "status": "passed"
+}

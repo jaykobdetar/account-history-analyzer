@@ -1,0 +1,66 @@
+........................................................................ [ 10%]
+........................................................................ [ 21%]
+.........F.............................................................. [ 32%]
+........................................................................ [ 43%]
+........................................................................ [ 54%]
+........................................................................ [ 65%]
+.........................................................s.............. [ 76%]
+..FF.................................................................... [ 87%]
+........................................................................ [ 98%]
+.........                                                                [100%]
+=================================== FAILURES ===================================
+_________ test_fix02_generator_is_byte_identical_in_separate_processes _________
+
+tmp_path = PosixPath('/tmp/pytest-of-jaykob/pytest-98/test_fix02_generator_is_byte_i0')
+
+    def test_fix02_generator_is_byte_identical_in_separate_processes(tmp_path):
+        originals = ROOT / "fixtures"
+        generated_names = {path.name for path in originals.glob("*.json*")}
+        for seed, timezone in (("1", "Pacific/Honolulu"), ("987654", "Europe/London")):
+            destination = tmp_path / f"generation-{seed}"
+            env = dict(os.environ, PYTHONHASHSEED=seed, TZ=timezone)
+            completed = subprocess.run(
+                [sys.executable, str(originals / "generate_fixtures.py"), "--out", str(destination)],
+                cwd=tmp_path, env=env, capture_output=True, check=False,
+            )
+            assert completed.returncode == 0, completed.stderr.decode("utf-8")
+>           assert {path.name for path in destination.iterdir()} == generated_names
+E           AssertionError: assert {'arithmetic....th.json', ...} == {'arithmetic....th.json', ...}
+E             
+E             Extra items in the right set:
+E             'rw001_report_cases.json'
+E             Use -v to get more diff
+
+tests/test_fixture_integrity.py:39: AssertionError
+_ test_primary_matching_details_and_additional_setting_candidate_both_survive __
+
+exported = ({'analysis': {'config_sha256': '8fd0239fe2f87c9f1506786ac36099fe996e00cc6e021b3ecc67fbb65cd2d925', 'implementation_fi...': 1024, ...}, 'first_record_id': 'r040', 'first_record_position': 40, 'first_utc': '2025-01-02T16:00:00Z', ...}, ...])
+
+>   ???
+E   AssertionError: assert [] == [['ok', '1', ...1', '1', '0']]
+E     
+E     Right contains 2 more items, first extra item: ['ok', '1', '1', '0']
+E     Use -v to get more diff
+
+tests/test_sensitivity_overview.py:183: AssertionError
+__________ test_executed_zero_insufficient_and_disabled_are_distinct ___________
+
+exported = ({'analysis': {'config_sha256': '8fd0239fe2f87c9f1506786ac36099fe996e00cc6e021b3ecc67fbb65cd2d925', 'implementation_fi...': 1024, ...}, 'first_record_id': 'r040', 'first_record_position': 40, 'first_utc': '2025-01-02T16:00:00Z', ...}, ...])
+
+        assert 'matched in 2 of 3 executed settings' in text
+        for result in report[0]['modules']['style']['payload']['sensitivity']['penalty_settings'][1]['results']:
+            assert str(result['boundaries'][1]['record_interval']) in text
+    
+    
+>   def test_executed_zero_insufficient_and_disabled_are_distinct(exported):
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+E   assert False
+E    +  where False = all(<generator object test_executed_zero_insufficient_and_disabled_are_distinct.<locals>.<genexpr> at 0x7431941d5c60>)
+
+tests/test_sensitivity_overview.py:195: AssertionError
+=========================== short test summary info ============================
+SKIPPED [1] tests/test_security.py:120: Analyzer seccomp forbids Chrome Unix IPC; run browser audit separately with browser_offline_exec.py
+FAILED tests/test_fixture_integrity.py::test_fix02_generator_is_byte_identical_in_separate_processes
+FAILED tests/test_sensitivity_overview.py::test_primary_matching_details_and_additional_setting_candidate_both_survive
+FAILED tests/test_sensitivity_overview.py::test_executed_zero_insufficient_and_disabled_are_distinct
+3 failed, 653 passed, 1 skipped in 108.26s (0:01:48)

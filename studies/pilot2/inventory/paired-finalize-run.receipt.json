@@ -1,0 +1,24 @@
+{
+  "command": [
+    ".venv/bin/python",
+    "scripts/offline_exec.py",
+    ".venv/bin/python",
+    "/home/jaykob/.codex/visualizations/2026/09/13/01a09a32-1ca6-7983-93da-5f7da689ab16/ahas-pilot2-20260914/scripts/prepare_pairs.py",
+    "finalize",
+    "--plan",
+    "/home/jaykob/.codex/visualizations/2026/09/13/01a09a32-1ca6-7983-93da-5f7da689ab16/ahas-pilot2-20260914/protocol/plan.json",
+    "--out",
+    "/home/jaykob/.codex/visualizations/2026/09/13/01a09a32-1ca6-7983-93da-5f7da689ab16/ahas-pilot2-20260914/prepared/paired",
+    "--audit",
+    "/home/jaykob/.codex/visualizations/2026/09/13/01a09a32-1ca6-7983-93da-5f7da689ab16/ahas-pilot2-20260914/prepared/paired/private/leakage-audit.json"
+  ],
+  "cwd": "/home/jaykob/Downloads/Account_History_Analyzer_V1_Agent_Handoff/account_history_analyzer_v1",
+  "started_utc": "2026-09-14T19:24:33.739112+00:00",
+  "finished_utc": "2026-09-14T19:24:33.908843+00:00",
+  "exit_code": 1,
+  "wall_seconds": 0.16973087799851783,
+  "peak_rss_kib": 30608,
+  "measurement_scope": "this command and descendants; separate from canonical results",
+  "stdout_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+  "stderr_sha256": "ad6a5256623f3d076602f0c44f854ac185e69d4787853bd8fbad143d5ccd9eeb"
+}

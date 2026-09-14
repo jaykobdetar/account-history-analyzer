@@ -1,0 +1,57 @@
+{
+  "canonical_comparison": {
+    "status": "pending_source_report"
+  },
+  "commands": [
+    {
+      "argv": [
+        "/home/jaykob/.local/bin/uv",
+        "build",
+        "/home/jaykob/Downloads/Account_History_Analyzer_V1_Agent_Handoff/account_history_analyzer_v1/dist/account_history_analyzer-1.0.1.tar.gz",
+        "--wheel",
+        "--out-dir",
+        "/home/jaykob/Downloads/Account_History_Analyzer_V1_Agent_Handoff/account_history_analyzer_v1/qa/pr383/wheel-build-a",
+        "--python",
+        "/home/jaykob/Downloads/Account_History_Analyzer_V1_Agent_Handoff/account_history_analyzer_v1/.venv/bin/python",
+        "--offline",
+        "--no-python-downloads",
+        "--cache-dir",
+        "/tmp/ahas-uv-cache",
+        "--build-constraints",
+        "/home/jaykob/Downloads/Account_History_Analyzer_V1_Agent_Handoff/account_history_analyzer_v1/containers/build-requirements.lock",
+        "--require-hashes",
+        "--link-mode",
+        "copy",
+        "--no-progress"
+      ],
+      "cwd": "/home/jaykob/Downloads/Account_History_Analyzer_V1_Agent_Handoff/account_history_analyzer_v1",
+      "elapsed_seconds": 0.011934875976294279,
+      "exit_code": 101,
+      "log_path": "/home/jaykob/Downloads/Account_History_Analyzer_V1_Agent_Handoff/account_history_analyzer_v1/qa/pr383/wheel-isolated-build-a.log",
+      "log_sha256": "c74e257c5fade870a3c88312567f34dad2e2c4dd68d46effda48e8ef71806ac6",
+      "name": "wheel-isolated-build-a"
+    }
+  ],
+  "error": "wheel-isolated-build-a failed; inspect /home/jaykob/Downloads/Account_History_Analyzer_V1_Agent_Handoff/account_history_analyzer_v1/qa/pr383/wheel-isolated-build-a.log",
+  "expected_implementation_fingerprint": "4ec887e4ecc344fbd9561c9cb3fc2fc9e95fe1f3a582409826d70ac5315f8a61",
+  "historical_artifacts": "No 1.0.0 distribution or historical receipt was modified.",
+  "invocation": [
+    "python3.12",
+    "/home/jaykob/Downloads/Account_History_Analyzer_V1_Agent_Handoff/account_history_analyzer_v1/scripts/offline_exec.py",
+    "python3.12",
+    "/home/jaykob/Downloads/Account_History_Analyzer_V1_Agent_Handoff/account_history_analyzer_v1/qa/pr383/run_wheel_validation.py"
+  ],
+  "network_isolation": "linux_seccomp_socket_denial",
+  "sdist": {
+    "bytes": 800160,
+    "path": "/home/jaykob/Downloads/Account_History_Analyzer_V1_Agent_Handoff/account_history_analyzer_v1/dist/account_history_analyzer-1.0.1.tar.gz",
+    "sha256": "8c00adaa93356938f2adf933d9efe9afc818090ee2576ceceacfa1c0ef0f55ba"
+  },
+  "status": "failed",
+  "suite_version": "1.0.1",
+  "wheel": {
+    "bytes": 185053,
+    "path": "/home/jaykob/Downloads/Account_History_Analyzer_V1_Agent_Handoff/account_history_analyzer_v1/dist/account_history_analyzer-1.0.1-py3-none-any.whl",
+    "sha256": "e439e8cc54943d1bbf7a3b54734c5cec3d4a78b732fe95b06a7ec9084374e7ba"
+  }
+}

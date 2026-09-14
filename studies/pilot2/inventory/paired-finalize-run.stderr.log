@@ -1,0 +1,9 @@
+Traceback (most recent call last):
+  File "/home/jaykob/.codex/visualizations/2026/09/13/01a09a32-1ca6-7983-93da-5f7da689ab16/ahas-pilot2-20260914/scripts/prepare_pairs.py", line 389, in <module>
+    if __name__=='__main__':main()
+                            ^^^^^^
+  File "/home/jaykob/.codex/visualizations/2026/09/13/01a09a32-1ca6-7983-93da-5f7da689ab16/ahas-pilot2-20260914/scripts/prepare_pairs.py", line 386, in main
+    finalize(plan,args.plan,args.out,args.audit)
+  File "/home/jaykob/.codex/visualizations/2026/09/13/01a09a32-1ca6-7983-93da-5f7da689ab16/ahas-pilot2-20260914/scripts/prepare_pairs.py", line 264, in finalize
+    raise ValueError('Plan changed after candidate preparation; preserve and explicitly rebuild candidates')
+ValueError: Plan changed after candidate preparation; preserve and explicitly rebuild candidates

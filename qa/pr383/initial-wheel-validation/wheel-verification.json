@@ -1,0 +1,444 @@
+{
+  "canonical_comparison": {
+    "compared_file_count": 14,
+    "excluded_receipts": [
+      "ingest_receipt.json",
+      "run_receipt.json"
+    ],
+    "exclusion_reason": "Operational paths, input-file receipts and run timing are outside canonical analytical identity.",
+    "files": [
+      {
+        "byte_identical": true,
+        "bytes": 1733,
+        "name": "activity_daily.svg",
+        "source_sha256": "52310bc1db65cc9718c6dc448e8088060cbb2351e059991754ad386435e6f8e7",
+        "wheel_sha256": "52310bc1db65cc9718c6dc448e8088060cbb2351e059991754ad386435e6f8e7"
+      },
+      {
+        "byte_identical": true,
+        "bytes": 6249,
+        "name": "activity_hourly.svg",
+        "source_sha256": "94b644bed6bcaeb5d1667d584bbe083ec8012f89147831ffc1b11c1000c85bf1",
+        "wheel_sha256": "94b644bed6bcaeb5d1667d584bbe083ec8012f89147831ffc1b11c1000c85bf1"
+      },
+      {
+        "byte_identical": true,
+        "bytes": 4308,
+        "name": "adjacent_distances.svg",
+        "source_sha256": "9dd9cad2dd9d67a2ce272b31d0a66fe25b10f0bc6c76477c5c4f88137c89086c",
+        "wheel_sha256": "9dd9cad2dd9d67a2ce272b31d0a66fe25b10f0bc6c76477c5c4f88137c89086c"
+      },
+      {
+        "byte_identical": true,
+        "bytes": 1136,
+        "name": "checksums.json",
+        "source_sha256": "deb19157c1ca6909969222554c10ad5e147ca49bef7dfae5ada21bf92f70dd8d",
+        "wheel_sha256": "deb19157c1ca6909969222554c10ad5e147ca49bef7dfae5ada21bf92f70dd8d"
+      },
+      {
+        "byte_identical": true,
+        "bytes": 1828,
+        "name": "eligible_word_volume.svg",
+        "source_sha256": "7fb386fd281533601e2902959982103951034aa1dba3320bb94d1590f93cc46b",
+        "wheel_sha256": "7fb386fd281533601e2902959982103951034aa1dba3320bb94d1590f93cc46b"
+      },
+      {
+        "byte_identical": true,
+        "bytes": 0,
+        "name": "evidence.jsonl",
+        "source_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "wheel_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      },
+      {
+        "byte_identical": true,
+        "bytes": 334561,
+        "name": "method_registry.json",
+        "source_sha256": "c1deab4ccec6067398abcc957d8cf06031975c80893e80d3e94e505e5bf2b6ae",
+        "wheel_sha256": "c1deab4ccec6067398abcc957d8cf06031975c80893e80d3e94e505e5bf2b6ae"
+      },
+      {
+        "byte_identical": true,
+        "bytes": 46362,
+        "name": "records_features.jsonl",
+        "source_sha256": "49c53bce59583c9db5d509d6b0bc07711beb74c89e25973160cbbf346cd04851",
+        "wheel_sha256": "49c53bce59583c9db5d509d6b0bc07711beb74c89e25973160cbbf346cd04851"
+      },
+      {
+        "byte_identical": true,
+        "bytes": 53004,
+        "name": "report.html",
+        "source_sha256": "0d97679d90bf6e7367fee337eec8fc3dd63f60c5eb14dc9f62a633b7470e81fd",
+        "wheel_sha256": "0d97679d90bf6e7367fee337eec8fc3dd63f60c5eb14dc9f62a633b7470e81fd"
+      },
+      {
+        "byte_identical": true,
+        "bytes": 26483,
+        "name": "report.md",
+        "source_sha256": "540ecdef35954b38d0f5832cfcf5ef8b3ce05b331f162a1704cb361d2b20fbc4",
+        "wheel_sha256": "540ecdef35954b38d0f5832cfcf5ef8b3ce05b331f162a1704cb361d2b20fbc4"
+      },
+      {
+        "byte_identical": true,
+        "bytes": 2089,
+        "name": "resolved_config.json",
+        "source_sha256": "6094552280274839bb5fd9c872def461dfd9ad311eb6cde28b4d9a342adf1e06",
+        "wheel_sha256": "6094552280274839bb5fd9c872def461dfd9ad311eb6cde28b4d9a342adf1e06"
+      },
+      {
+        "byte_identical": true,
+        "bytes": 44891,
+        "name": "results.json",
+        "source_sha256": "ab7d48bad074e77bffacd7df9dee481f5df1fd761f90755ed83ef595cff2de96",
+        "wheel_sha256": "ab7d48bad074e77bffacd7df9dee481f5df1fd761f90755ed83ef595cff2de96"
+      },
+      {
+        "byte_identical": true,
+        "bytes": 5162,
+        "name": "surface_features.svg",
+        "source_sha256": "2eb68ccb06db46cf5883dacaffdd9326d0e2645666de72456c522f1a7d0feaa4",
+        "wheel_sha256": "2eb68ccb06db46cf5883dacaffdd9326d0e2645666de72456c522f1a7d0feaa4"
+      },
+      {
+        "byte_identical": true,
+        "bytes": 0,
+        "name": "windows.jsonl",
+        "source_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "wheel_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      }
+    ],
+    "source_directory": "/home/jaykob/Downloads/Account_History_Analyzer_V1_Agent_Handoff/account_history_analyzer_v1/output/pr383/arithmetic",
+    "status": "passed",
+    "wheel_directory": "/home/jaykob/Downloads/Account_History_Analyzer_V1_Agent_Handoff/account_history_analyzer_v1/qa/pr383/wheel-output/arithmetic"
+  },
+  "commands": [
+    {
+      "argv": [
+        "/home/jaykob/.local/bin/uv",
+        "build",
+        "/home/jaykob/Downloads/Account_History_Analyzer_V1_Agent_Handoff/account_history_analyzer_v1/dist/account_history_analyzer-1.0.1.tar.gz",
+        "--wheel",
+        "--out-dir",
+        "/home/jaykob/Downloads/Account_History_Analyzer_V1_Agent_Handoff/account_history_analyzer_v1/qa/pr383/wheel-build-a",
+        "--python",
+        "/home/jaykob/Downloads/Account_History_Analyzer_V1_Agent_Handoff/account_history_analyzer_v1/.venv/bin/python",
+        "--offline",
+        "--no-python-downloads",
+        "--cache-dir",
+        "/tmp/ahas-uv-cache",
+        "--build-constraints",
+        "/home/jaykob/Downloads/Account_History_Analyzer_V1_Agent_Handoff/account_history_analyzer_v1/containers/build-requirements.lock",
+        "--require-hashes",
+        "--link-mode",
+        "copy",
+        "--no-progress"
+      ],
+      "cwd": "/home/jaykob/Downloads/Account_History_Analyzer_V1_Agent_Handoff/account_history_analyzer_v1",
+      "elapsed_seconds": 0.28111560698016547,
+      "exit_code": 0,
+      "log_path": "/home/jaykob/Downloads/Account_History_Analyzer_V1_Agent_Handoff/account_history_analyzer_v1/qa/pr383/wheel-isolated-build-a-offline.log",
+      "log_sha256": "b5097233403f072b95b2d9090023e5cc2d0b61ed7a0f7cdd2e57b2ad8f4c21d2",
+      "name": "wheel-isolated-build-a-offline"
+    },
+    {
+      "argv": [
+        "/home/jaykob/.local/bin/uv",
+        "build",
+        "/home/jaykob/Downloads/Account_History_Analyzer_V1_Agent_Handoff/account_history_analyzer_v1/dist/account_history_analyzer-1.0.1.tar.gz",
+        "--wheel",
+        "--out-dir",
+        "/home/jaykob/Downloads/Account_History_Analyzer_V1_Agent_Handoff/account_history_analyzer_v1/qa/pr383/wheel-build-b",
+        "--python",
+        "/home/jaykob/Downloads/Account_History_Analyzer_V1_Agent_Handoff/account_history_analyzer_v1/.venv/bin/python",
+        "--offline",
+        "--no-python-downloads",
+        "--cache-dir",
+        "/tmp/ahas-uv-cache",
+        "--build-constraints",
+        "/home/jaykob/Downloads/Account_History_Analyzer_V1_Agent_Handoff/account_history_analyzer_v1/containers/build-requirements.lock",
+        "--require-hashes",
+        "--link-mode",
+        "copy",
+        "--no-progress"
+      ],
+      "cwd": "/home/jaykob/Downloads/Account_History_Analyzer_V1_Agent_Handoff/account_history_analyzer_v1",
+      "elapsed_seconds": 0.28263925199280493,
+      "exit_code": 0,
+      "log_path": "/home/jaykob/Downloads/Account_History_Analyzer_V1_Agent_Handoff/account_history_analyzer_v1/qa/pr383/wheel-isolated-build-b-offline.log",
+      "log_sha256": "116767fb6f35b5cf8e03e5ded90cbcb906727c66e960eb455d356f33bb5992d6",
+      "name": "wheel-isolated-build-b-offline"
+    },
+    {
+      "argv": [
+        "/home/jaykob/.local/bin/uv",
+        "venv",
+        "/tmp/ahas-pr383-install",
+        "--python",
+        "/home/jaykob/Downloads/Account_History_Analyzer_V1_Agent_Handoff/account_history_analyzer_v1/.venv/bin/python",
+        "--offline",
+        "--no-python-downloads",
+        "--cache-dir",
+        "/tmp/ahas-uv-cache"
+      ],
+      "cwd": "/home/jaykob/Downloads/Account_History_Analyzer_V1_Agent_Handoff/account_history_analyzer_v1",
+      "elapsed_seconds": 0.030595578020438552,
+      "exit_code": 0,
+      "log_path": "/home/jaykob/Downloads/Account_History_Analyzer_V1_Agent_Handoff/account_history_analyzer_v1/qa/pr383/wheel-fresh-venv.log",
+      "log_sha256": "759247586834bea12e1a5bc2ee8edb9b38723390271e6e4f33d80e71bcaec730",
+      "name": "wheel-fresh-venv"
+    },
+    {
+      "argv": [
+        "/home/jaykob/.local/bin/uv",
+        "pip",
+        "install",
+        "--python",
+        "/tmp/ahas-pr383-install/bin/python",
+        "--offline",
+        "--require-hashes",
+        "--cache-dir",
+        "/tmp/ahas-uv-cache",
+        "--link-mode",
+        "copy",
+        "-r",
+        "/home/jaykob/Downloads/Account_History_Analyzer_V1_Agent_Handoff/account_history_analyzer_v1/requirements.lock.txt",
+        "-r",
+        "/home/jaykob/Downloads/Account_History_Analyzer_V1_Agent_Handoff/account_history_analyzer_v1/containers/build-requirements.lock"
+      ],
+      "cwd": "/home/jaykob/Downloads/Account_History_Analyzer_V1_Agent_Handoff/account_history_analyzer_v1",
+      "elapsed_seconds": 0.39923506797640584,
+      "exit_code": 0,
+      "log_path": "/home/jaykob/Downloads/Account_History_Analyzer_V1_Agent_Handoff/account_history_analyzer_v1/qa/pr383/wheel-locked-dependencies.log",
+      "log_sha256": "9d3333cda450be6900bdcfb64d254f3b957ba78955ec6f3afec88b23565ecf64",
+      "name": "wheel-locked-dependencies"
+    },
+    {
+      "argv": [
+        "/home/jaykob/.local/bin/uv",
+        "pip",
+        "install",
+        "--python",
+        "/tmp/ahas-pr383-install/bin/python",
+        "--offline",
+        "--require-hashes",
+        "--no-deps",
+        "--cache-dir",
+        "/tmp/ahas-uv-cache",
+        "--link-mode",
+        "copy",
+        "-r",
+        "/home/jaykob/Downloads/Account_History_Analyzer_V1_Agent_Handoff/account_history_analyzer_v1/qa/pr383/wheel-install.requirements.txt"
+      ],
+      "cwd": "/tmp",
+      "elapsed_seconds": 0.022603615012485534,
+      "exit_code": 0,
+      "log_path": "/home/jaykob/Downloads/Account_History_Analyzer_V1_Agent_Handoff/account_history_analyzer_v1/qa/pr383/wheel-package-install.log",
+      "log_sha256": "3d36a1f4673990f6a8d35f71e18d13f6bed30231741b5f23e8b55c282c434a5a",
+      "name": "wheel-package-install"
+    },
+    {
+      "argv": [
+        "python3.12",
+        "/home/jaykob/Downloads/Account_History_Analyzer_V1_Agent_Handoff/account_history_analyzer_v1/scripts/offline_exec.py",
+        "/tmp/ahas-pr383-install/bin/python",
+        "-c",
+        "import account_history_analyzer as a, importlib.metadata as m, json, pathlib, sys\nfrom account_history_analyzer.pipeline import implementation_identity\nfrom account_history_analyzer.changepoints import pelt_l2\npath=pathlib.Path(a.__file__).resolve()\nassert path.is_relative_to(pathlib.Path('/tmp/ahas-pr383-install/lib/python3.12/site-packages'))\nassert a.__version__=='1.0.1'\nfp,env,resources=implementation_identity()\nassert fp=='4ec887e4ecc344fbd9561c9cb3fc2fc9e95fe1f3a582409826d70ac5315f8a61'\nresult=pelt_l2([0,9,2,8,3,0,10],.1)\nassert result['internal_boundaries']==[3]\nprint(json.dumps({'module_file':str(path),'python':sys.version,'version':a.__version__,\n'implementation_fingerprint':fp,'reference_environment':env,'resource_sha256':resources,\n'installed_distributions':{d.metadata['Name']:d.version for d in m.distributions()},\n'optimizer_counterexample':result},sort_keys=True))"
+      ],
+      "cwd": "/tmp",
+      "elapsed_seconds": 1.8403632270055823,
+      "exit_code": 0,
+      "log_path": "/home/jaykob/Downloads/Account_History_Analyzer_V1_Agent_Handoff/account_history_analyzer_v1/qa/pr383/wheel-installed-probe.log",
+      "log_sha256": "e6cd091feed7710b3e3f4df84e36889fea01a2a2113d55d35d2ae0ee4fcf0719",
+      "name": "wheel-installed-probe"
+    },
+    {
+      "argv": [
+        "python3.12",
+        "/home/jaykob/Downloads/Account_History_Analyzer_V1_Agent_Handoff/account_history_analyzer_v1/scripts/offline_exec.py",
+        "/tmp/ahas-pr383-install/bin/ahas",
+        "analyze",
+        "--input",
+        "/home/jaykob/Downloads/Account_History_Analyzer_V1_Agent_Handoff/account_history_analyzer_v1/fixtures/arithmetic.jsonl",
+        "--manifest",
+        "/home/jaykob/Downloads/Account_History_Analyzer_V1_Agent_Handoff/account_history_analyzer_v1/fixtures/arithmetic.snapshot.json",
+        "--config",
+        "/home/jaykob/Downloads/Account_History_Analyzer_V1_Agent_Handoff/account_history_analyzer_v1/config/default.toml",
+        "--out",
+        "/home/jaykob/Downloads/Account_History_Analyzer_V1_Agent_Handoff/account_history_analyzer_v1/qa/pr383/wheel-output/arithmetic"
+      ],
+      "cwd": "/tmp",
+      "elapsed_seconds": 1.6469058670045342,
+      "exit_code": 0,
+      "log_path": "/home/jaykob/Downloads/Account_History_Analyzer_V1_Agent_Handoff/account_history_analyzer_v1/qa/pr383/wheel-installed-analyze.log",
+      "log_sha256": "bd63c672de9c3d1d62b3269462a13e7a2fec715134332c9268dcf0508feda6f1",
+      "name": "wheel-installed-analyze"
+    },
+    {
+      "argv": [
+        "python3.12",
+        "/home/jaykob/Downloads/Account_History_Analyzer_V1_Agent_Handoff/account_history_analyzer_v1/scripts/offline_exec.py",
+        "/tmp/ahas-pr383-install/bin/ahas",
+        "verify",
+        "--input",
+        "/home/jaykob/Downloads/Account_History_Analyzer_V1_Agent_Handoff/account_history_analyzer_v1/fixtures/arithmetic.jsonl",
+        "--manifest",
+        "/home/jaykob/Downloads/Account_History_Analyzer_V1_Agent_Handoff/account_history_analyzer_v1/fixtures/arithmetic.snapshot.json",
+        "--analysis-dir",
+        "/home/jaykob/Downloads/Account_History_Analyzer_V1_Agent_Handoff/account_history_analyzer_v1/qa/pr383/wheel-output/arithmetic",
+        "--recompute"
+      ],
+      "cwd": "/tmp",
+      "elapsed_seconds": 1.5767535470076837,
+      "exit_code": 0,
+      "log_path": "/home/jaykob/Downloads/Account_History_Analyzer_V1_Agent_Handoff/account_history_analyzer_v1/qa/pr383/wheel-installed-verify-recompute.log",
+      "log_sha256": "ca34cc63021e71d11474c9620de939fc38d4292adb93ca0c969be20cbe9d72f7",
+      "name": "wheel-installed-verify-recompute"
+    },
+    {
+      "argv": [
+        "python3.12",
+        "/home/jaykob/Downloads/Account_History_Analyzer_V1_Agent_Handoff/account_history_analyzer_v1/scripts/offline_exec.py",
+        "python3.12",
+        "/home/jaykob/Downloads/Account_History_Analyzer_V1_Agent_Handoff/account_history_analyzer_v1/qa/pr383/compare_wheel_outputs.py"
+      ],
+      "cwd": "/home/jaykob/Downloads/Account_History_Analyzer_V1_Agent_Handoff/account_history_analyzer_v1",
+      "exit_code": 0,
+      "log_path": "/home/jaykob/Downloads/Account_History_Analyzer_V1_Agent_Handoff/account_history_analyzer_v1/qa/pr383/wheel-canonical-comparison.log",
+      "name": "wheel-canonical-comparison"
+    }
+  ],
+  "expected_implementation_fingerprint": "4ec887e4ecc344fbd9561c9cb3fc2fc9e95fe1f3a582409826d70ac5315f8a61",
+  "historical_artifacts": "No 1.0.0 distribution or historical receipt was modified.",
+  "installed_probe": {
+    "implementation_fingerprint": "4ec887e4ecc344fbd9561c9cb3fc2fc9e95fe1f3a582409826d70ac5315f8a61",
+    "installed_distributions": {
+      "Pygments": "2.21.0",
+      "account-history-analyzer": "1.0.1",
+      "attrs": "26.1.0",
+      "hatchling": "1.29.0",
+      "hypothesis": "6.131.9",
+      "iniconfig": "2.3.0",
+      "jsonschema": "4.26.0",
+      "jsonschema-specifications": "2025.9.1",
+      "markdown-it-py": "3.0.0",
+      "mdurl": "0.1.2",
+      "numpy": "2.4.2",
+      "packaging": "26.3",
+      "pathspec": "1.1.1",
+      "pluggy": "1.6.0",
+      "pytest": "9.0.2",
+      "referencing": "0.37.0",
+      "rpds-py": "2026.6.3",
+      "ruptures": "1.1.10",
+      "scipy": "1.17.1",
+      "sortedcontainers": "2.4.0",
+      "trove-classifiers": "2026.6.1.19",
+      "typing_extensions": "4.16.0"
+    },
+    "module_file": "/tmp/ahas-pr383-install/lib/python3.12/site-packages/account_history_analyzer/__init__.py",
+    "optimizer_counterexample": {
+      "endpoints": [
+        3,
+        7
+      ],
+      "internal_boundaries": [
+        3
+      ],
+      "jump": 1,
+      "min_size": 3,
+      "objective": 107.51666666666667,
+      "optimizer": "ruptures_pelt_pr383_a28574d_v1",
+      "sse": 107.41666666666667
+    },
+    "python": "3.12.3 (main, Aug 31 2026, 10:18:26) [GCC 13.3.0]",
+    "reference_environment": "CPython-3.12.3;Linux;x86_64;numpy=2.4.2;scipy=1.17.1;ruptures=1.1.10;markdown-it-py=3.0.0;jsonschema=4.26.0",
+    "resource_sha256": {
+      "contraction_pairs.json": "f14da203d3a5965b5ea0982551dc9748c4a9655e7662cf8617ba58d86b805f34",
+      "default.toml": "e860a1d89ae4d65bc639b055c2320fa7f57a4cadacf693de2fc393dedd2d5608",
+      "function_words_en_v1.txt": "f91c30201a636e7a9edd15166342afdcedae7fa34d7c7dd5c7352e49d4af2c9e",
+      "method_registry": "c1deab4ccec6067398abcc957d8cf06031975c80893e80d3e94e505e5bf2b6ae",
+      "report_templates": "684c2aa9e6f386762bbcb04305a558b9d63cff67cc014d0467a8329fba8bdae5"
+    },
+    "version": "1.0.1"
+  },
+  "invocation": [
+    "python3.12",
+    "/home/jaykob/Downloads/Account_History_Analyzer_V1_Agent_Handoff/account_history_analyzer_v1/qa/pr383/run_wheel_validation.py"
+  ],
+  "network_isolation": {
+    "build_and_install": "uv --offline with hash-locked cached requirements",
+    "installed_analysis_and_verification": "linux_seccomp_socket_denial"
+  },
+  "prior_failed_attempt_receipt": "/home/jaykob/Downloads/Account_History_Analyzer_V1_Agent_Handoff/account_history_analyzer_v1/qa/pr383/wheel-verification-seccomp-attempt.json",
+  "rebuilt_wheels": [
+    {
+      "bytes": 185053,
+      "path": "/home/jaykob/Downloads/Account_History_Analyzer_V1_Agent_Handoff/account_history_analyzer_v1/qa/pr383/wheel-build-a/account_history_analyzer-1.0.1-py3-none-any.whl",
+      "sha256": "e439e8cc54943d1bbf7a3b54734c5cec3d4a78b732fe95b06a7ec9084374e7ba"
+    },
+    {
+      "bytes": 185053,
+      "path": "/home/jaykob/Downloads/Account_History_Analyzer_V1_Agent_Handoff/account_history_analyzer_v1/qa/pr383/wheel-build-b/account_history_analyzer-1.0.1-py3-none-any.whl",
+      "sha256": "e439e8cc54943d1bbf7a3b54734c5cec3d4a78b732fe95b06a7ec9084374e7ba"
+    }
+  ],
+  "sdist": {
+    "bytes": 800160,
+    "path": "/home/jaykob/Downloads/Account_History_Analyzer_V1_Agent_Handoff/account_history_analyzer_v1/dist/account_history_analyzer-1.0.1.tar.gz",
+    "sha256": "8c00adaa93356938f2adf933d9efe9afc818090ee2576ceceacfa1c0ef0f55ba"
+  },
+  "status": "passed",
+  "suite_version": "1.0.1",
+  "vendor_files": [
+    {
+      "bytes": 74,
+      "matches_sdist": true,
+      "matches_source_and_installed": true,
+      "sdist_member": "account_history_analyzer-1.0.1/src/account_history_analyzer/_vendor/__init__.py",
+      "sha256": "899d2a3ebba87a9f32ba6c87f30763dd4a36d0b152f5f8a77467bc49a99e12b2",
+      "wheel_member": "account_history_analyzer/_vendor/__init__.py"
+    },
+    {
+      "bytes": 3088,
+      "matches_sdist": true,
+      "matches_source_and_installed": true,
+      "sdist_member": "account_history_analyzer-1.0.1/src/account_history_analyzer/_vendor/ruptures_pr383.py",
+      "sha256": "7b94336b9bae20cab66965feaac873738eb49a33a871b79376a0b3733311625a",
+      "wheel_member": "account_history_analyzer/_vendor/ruptures_pr383.py"
+    },
+    {
+      "bytes": 915,
+      "matches_sdist": true,
+      "matches_source_and_installed": true,
+      "sdist_member": "account_history_analyzer-1.0.1/src/account_history_analyzer/_vendor/ruptures_pr383.json",
+      "sha256": "74ffcf877726d94ba15583beb7403e9af95f53b9a5e263fb24a167cf43a04fb4",
+      "wheel_member": "account_history_analyzer/_vendor/ruptures_pr383.json"
+    },
+    {
+      "bytes": 1332,
+      "matches_sdist": true,
+      "matches_source_and_installed": true,
+      "sdist_member": "account_history_analyzer-1.0.1/src/account_history_analyzer/_vendor/ruptures_LICENSE.txt",
+      "sha256": "f29c48be39fff974e2d631b2317c194409531cc86e16e05f3968ead0456bc920",
+      "wheel_member": "account_history_analyzer/_vendor/ruptures_LICENSE.txt"
+    },
+    {
+      "bytes": 6047,
+      "matches_sdist": true,
+      "matches_source_and_installed": true,
+      "sdist_member": "account_history_analyzer-1.0.1/src/account_history_analyzer/_vendor/ruptures_pr383_source.txt",
+      "sha256": "65f5ead7c29a9a23eb67c676dc02ab146316b0678f586697f4c5de754c40110a",
+      "wheel_member": "account_history_analyzer/_vendor/ruptures_pr383_source.txt"
+    }
+  ],
+  "verification": {
+    "checked_artifacts": 13,
+    "results_sha256": "ab7d48bad074e77bffacd7df9dee481f5df1fd761f90755ed83ef595cff2de96",
+    "status": "reproduced"
+  },
+  "wheel": {
+    "bytes": 185053,
+    "path": "/home/jaykob/Downloads/Account_History_Analyzer_V1_Agent_Handoff/account_history_analyzer_v1/dist/account_history_analyzer-1.0.1-py3-none-any.whl",
+    "sha256": "e439e8cc54943d1bbf7a3b54734c5cec3d4a78b732fe95b06a7ec9084374e7ba"
+  },
+  "wheel_bytes_identical": true
+}

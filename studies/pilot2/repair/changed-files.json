@@ -1,0 +1,74 @@
+[
+  {
+    "path": "README.md",
+    "status": "modified",
+    "old_sha256": "d04af5b5a8914c4718704b80e379c1daf5affac5ad9abc29b724ca8f4c6def32",
+    "new_sha256": "77a9995090209884a3bd5fd5b125a09d336df74bca56a6e3d87a78670c46b5e3"
+  },
+  {
+    "path": "docs/RW001.md",
+    "status": "added",
+    "old_sha256": null,
+    "new_sha256": "4219eb2843e2cd021deb652b240b24198005f5ed29d9d98b9db0bc41f74e2fd0"
+  },
+  {
+    "path": "pyproject.toml",
+    "status": "modified",
+    "old_sha256": "c65394bcb32e7d726bba5807eda3d348b4c4fece2c293f4449734fd9aa08ef43",
+    "new_sha256": "3b059c1ec33bd25319a886fb69bf14e9f69899c54d96e94f03a2f438947ce4ca"
+  },
+  {
+    "path": "uv.lock",
+    "status": "modified",
+    "old_sha256": "54891e21db4d0ff2a003e33d7d5a95b511c330632ad82a0daa7a68fba630e477",
+    "new_sha256": "cf21e62a0c0e8ed2ad3d2f27e33525a4170b5af0290421a2f8ad2a758dacc33a"
+  },
+  {
+    "path": "src/account_history_analyzer/__init__.py",
+    "status": "modified",
+    "old_sha256": "f04c13ee127ed17e18a35ef8d8b2604871144d080654c1fc95b98ebc40d20331",
+    "new_sha256": "24e10ba9ee1660b2ca536ab24f26c1b3f3ce417be5b7fb346dfce49d18d32585"
+  },
+  {
+    "path": "src/account_history_analyzer/payload_schemas.py",
+    "status": "modified",
+    "old_sha256": "afc7773d2859e0a1a9e6013f104aee06ace23604873ce0a2640772140add6b47",
+    "new_sha256": "1e2494ef32a246d80915a2be0b1521217e55919b1f0f0b66728f1971688658e2"
+  },
+  {
+    "path": "src/account_history_analyzer/reporting.py",
+    "status": "modified",
+    "old_sha256": "4e4e98b59a5017bbded50f2cca0c3b726369ec9349cdee9e234a59cb2a24b3a1",
+    "new_sha256": "c8aa520917dc68d8229495a28a4375ab9e95902fe226955e79cbd1143ea3956c"
+  },
+  {
+    "path": "schemas/results.schema.json",
+    "status": "modified",
+    "old_sha256": "6e16c89e8cd3ab6b7bdcdd045f520dbff76d88bf5a00b8c31a4baeaac4fc06a1",
+    "new_sha256": "8a6bc12a7c5851a7cd5ae8345332a31eabae8e133be8aee171922d9f135c2f18"
+  },
+  {
+    "path": "src/account_history_analyzer/contracts/results.schema.json",
+    "status": "modified",
+    "old_sha256": "6e16c89e8cd3ab6b7bdcdd045f520dbff76d88bf5a00b8c31a4baeaac4fc06a1",
+    "new_sha256": "8a6bc12a7c5851a7cd5ae8345332a31eabae8e133be8aee171922d9f135c2f18"
+  },
+  {
+    "path": "tests/test_rw001_metadata.py",
+    "status": "added",
+    "old_sha256": null,
+    "new_sha256": "51935954940303fdc8aa91b41dacdea05c0d0804379f5ebfe2bddf51b7e4313d"
+  },
+  {
+    "path": "tests/test_sensitivity_overview.py",
+    "status": "added",
+    "old_sha256": null,
+    "new_sha256": "9c81c0efcb7e3b90c1ce3c918dccc13491c602cde0295f9f85ef00b424b579b0"
+  },
+  {
+    "path": "fixtures/reporting/rw001_report_cases.json",
+    "status": "added",
+    "old_sha256": null,
+    "new_sha256": "9428b95d8cc602305ff905eba9b399ea27ad6a7f12d39af5809420707adefc34"
+  }
+]

@@ -1,0 +1,7 @@
+{
+  "checked_historical_files": 255,
+  "mismatches": [],
+  "original_archive_sha256": "4cc1b959445d3dc1a12a75c80bf2505bab017883f737ddb9a986f6d1e6335325",
+  "scope": "Pre-edit outputs, QA/evaluation/benchmark receipts and distribution/release artifacts; source implementation changes excluded",
+  "status": "passed"
+}

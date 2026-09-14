@@ -1,0 +1,24 @@
+{
+  "status": "passed",
+  "checks": [
+    "Every restricted frame key unique",
+    "All record/present/codepoint year sums equal account totals",
+    "Aggregate source counts reconcile with source-frame summary",
+    "Restricted frame SHA256 matches",
+    "Frame fields contain no prose or analytical scores",
+    "Restricted directory/file permissions are0700/0600"
+  ],
+  "frame_rows": 124695,
+  "source_counts": {
+    "ApplyingToCollege": 1027292,
+    "Cornell": 63723,
+    "college": 663790
+  },
+  "raw_spelling_groups_with_multiple_case_variants": 0,
+  "cornell_preprocessing_efficiency": {
+    "present_comment_count": 58737,
+    "preprocessing_seconds": 36.73351532543893,
+    "milliseconds_per_present_comment": 0.6253897087940979
+  },
+  "scope_note": "The earlier Cornell inventory is corpus-specific. The combined source-frame summary includes both newly authorized communities; read its inventory scope when assessing multi-community availability."
+}

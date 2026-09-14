@@ -1,0 +1,7 @@
+
+thread 'main2' (6) panicked at /root/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/tokio-1.47.1/src/signal/unix.rs:60:53:
+failed to create UnixStream: Os { code: 1, kind: PermissionDenied, message: "Operation not permitted" }
+note: run with `RUST_BACKTRACE=1` environment variable to display a backtrace
+
+thread 'main' (5) panicked at /home/runner/work/uv/uv/crates/uv/src/lib.rs:2543:10:
+Tokio executor failed, was there a panic?: Any { .. }

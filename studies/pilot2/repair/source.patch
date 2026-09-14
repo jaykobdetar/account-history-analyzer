@@ -1,0 +1,648 @@
+--- a/README.md
++++ b/README.md
+@@ -1,4 +1,6 @@
+-# Account History Analysis Suite (AHAS) 1.0.3
++# Account History Analysis Suite (AHAS) 1.0.4
++
++Version 1.0.4 repairs AHAS-RW-001: every stored penalty setting and stream has an explicit candidate/matching summary, including alternative-only intervals when the primary set is empty. The numerical baseline remains frozen. See [the narrow repair record](docs/RW001.md) for fresh evidence and limitations; earlier release receipts remain historical.
+ 
+ An implemented Python 3.12 library and `ahas` CLI for offline, deterministic measurements of supplied account histories. It reads local JSONL records and a snapshot manifest. It produces counts, source-linked reuse findings, descriptive style comparisons, activity/link/interaction summaries, change candidates, and static reports.
+ 
+--- /dev/null
++++ b/docs/RW001.md
+@@ -0,0 +1,79 @@
++# AHAS 1.0.4: stored sensitivity results remain visible
++
++This presentation release addresses AHAS-RW-001 from the independently reviewed 1.0.3 pilot. The accepted first pilot remains preliminary evidence. Its inputs, protocols, results, scores and receipts are historical and are not rewritten by this repair.
++
++## Milestone checklist
++
++- [x] Read the user's staged request and independent review; preserve the analytical baseline.
++- [x] Reproduce the missing public sensitivity overview before changing the renderer.
++- [x] Add stored per-setting/per-stream counts and inspectable candidate intervals.
++- [x] Pass synthetic and unchanged private regressions, safety, ordering and saved-JSON replay.
++- [x] Pass reference tests, original audit regressions and complete canonical recomputation.
++- [x] Generate separate corrected private presentations and a public synthetic report.
++- [x] Verify analytical preservation and installed production wheel.
++- [x] Verify final release archive.
++- [x] Close Stage A before freezing/scoring the next evaluation protocol.
++
++## Presentation contract
++
++The overview in `src/account_history_analyzer/reporting.py:render_markdown` traverses `style.streams` in exported list order, then `sensitivity.penalty_settings` in predefined list order. It joins stored change results and matching rows by stream/setting identifiers. Mapping insertion order has no meaning. The renderer does not call feature extraction, matching or optimization.
++
++Candidate count is the number of exported boundary objects. Primary-matched count is the number of stored one-to-one matching pairs. Unmatched-setting candidate count is the number of stored unmatched setting boundary indices. An executed `ok` or `no_measurable_variation` result can have zero candidates. A skipped/insufficient result shows unavailable counts; an executed setting with an unavailable primary shows not-comparable matching counts. Disabled alternative constructions retain their separate `not_run` status and `disabled_by_configuration` reason without inventing a new penalty-result enum.
++
++Each setting with candidates has a disclosure containing the stored original-record interval, source endpoint IDs, endpoint times and full adjacent window times. These intervals do not identify an exact event date, author change, significance or confidence. Existing primary matching details remain visible. Anchors combine the setting, stream and boundary IDs through a digest; source values use the existing inert text escaping. These details add no source prose excerpts. Both excerpt modes preserve the established n-gram disclosure rule and lossless label notation.
++
++RW-002 receives a small terminology clarification: the existing `unsafe_scheme` parser category includes unsupported/scheme-less destinations and does not establish maliciousness. RW-003 remains an explicit scope limit: body/title text does not include native post destination metadata outside the input contract. Neither the parser nor input model changes. RW-004 runtime/memory/output cost, stable-zero feature presentation and a shorter overview remain separate work.
++
++## Release identities and preservation
++
++Package/suite and report template versions become 1.0.4. The strict reuse-accounting release guard recognizes 1.0.4; legacy compatibility and all typed payload fields stay intact. The implementation fingerprint and report-template resource hash change transparently. Numerical source, default thresholds, method registry, feature definitions, evidence selection, pinned PR #383 optimizer and dependency/resource pins remain unchanged.
++
++Fresh analytical comparisons permit differences only at `analysis.suite_version`, `analysis.implementation_fingerprint` and `analysis.resource_sha256.report_templates`. All other stored measurements, findings and selected intervals must compare exactly. Corrected presentations of saved 1.0.3 JSON retain its analytical identity, with separate receipts identifying the 1.0.4 renderer. A saved-result rerender is not a numerical recomputation.
++
++## Evidence locations
++
++New public commands, raw logs and receipts use `qa/rw001/`. New public fixtures use `fixtures/reporting/rw001_report_cases.json` and synthetic source records created by the regression harness. These are explicit presentation constructions, not authorship truth or numerical oracles. No source record calculation reads scenario labels. Private corrected outputs, raw private command logs and original regression copies remain outside the source repository and public package.
++
++The production wheel/source distribution and complete source archive use new 1.0.4 destinations. Dependency locks and the digest-pinned reference-container recipe are included. No historical run is relabeled as executing this source. Actual completed commands and outcomes will be added below after their gates finish.
++
++Engineering correctness does not establish real-world authorship validity. `real_world_validation: not_established` remains unchanged.
++
++## Fresh execution results
++
++These are new 1.0.4 executions. Exact commands, timestamps, exit codes and raw stdout/stderr hashes are retained beside each receipt under `qa/rw001/`.
++
++| Check | Actual outcome | Receipt/log |
++| --- | --- | --- |
++| Full reference-host suite | 658 passed, 1 separate-browser skip; 110.50 s | `full-tests-final.*` |
++| RW-001 and original fixture-integrity focused gate | 15 passed; 13.72 s | `public-final.*` |
++| Original audit regressions plus adversarial reuse | 8 passed; 162.55 s, including the opt-in 1,000-record full artifact round trip | `original-audit-regressions.*` |
++| Independent reviewer component/label regressions | 24 passed; 3.16 s, including 3,000 substring-oracle comparisons | `reviewer-tests.*` |
++| Separate browser regression | 1 passed; 1.96 s | `browser-final.*` |
++| Actual synthetic HTML browser inspection | Four documents, two cases in both excerpt modes; zero remote requests or active content | `browser-review.json` |
++| Separate-process canonical replay | Six analyses: style-shift and edge fixtures under three hash seed/timezone/input-serialization settings; all 14 canonical artifacts byte-identical per fixture | `process-replay/reproduction.json` |
++| Numerical source/configuration/vendor/resource freeze | 100 existing scoped files checked, 93 byte-identical; seven exact documented metadata/template changes | `analytical-freeze.json` |
++| Historical file preservation | 890 existing archived files byte-identical, including 41 original test files, 285 old QA files and 409 old output files | `historical-preservation.json` |
++
++The public zero-primary/one-alternative regression failed before the change in both actual Markdown-to-HTML and native HTML paths because the overview was absent. The original private visibility regression is copied unchanged into the new private output tree and passes there; its historical failure receipt remains intact. The initial new public harness also had local-SVG expectations to correct. The first full run recorded three failures (the new sidecar's placement violated the original flat-fixture generator guard, and two in-flight new harness expectations were stale). The sidecar was moved to its own subdirectory and the new expectations finalized. Original tests/generator and runtime analysis were not relaxed. All failed attempts remain logged.
++
++The first build attempt used `uv build --offline` under the strict analyzer seccomp filter; uv's Unix signal socket was denied before any build. The completed build used the pinned Hatchling backend directly, under the same socket-denial filter: `.venv/bin/python scripts/offline_exec.py .venv/bin/python -m hatchling build`. This succeeded in 0.59 s. The browser's initial ambient-sandbox IPC failure is likewise retained; the successful browser run kept the dedicated internet-socket denial filter.
++
++The frozen 1.0.4 implementation fingerprint is `bfc989028bf2b47c506d1ba501287d4e362aadc25ca5c731c41e4b27a336e179`. Its report-template hash is `c8aa520917dc68d8229495a28a4375ab9e95902fe226955e79cbd1143ea3956c`. The reference identity remains `CPython-3.12.3;Linux;x86_64;numpy=2.4.2;scipy=1.17.1;ruptures=1.1.10;markdown-it-py=3.0.0;jsonschema=4.26.0`.
++
++Private current-source analysis completed in 22.32 s with 237.32 MiB peak RSS; full recomputation completed in 26.93 s with 237.91 MiB peak RSS and reproduced all 14 canonical artifacts. These are operational observations during concurrent QA, not comparative speed claims. Fresh and old analytical JSON differ at exactly the three allowed identity paths; all selected intervals and matching facts remain equal. Saved-result reports retain old analytical JSON bytes and have separately identified current renderer receipts. Public aggregate evidence omits private paths, source IDs, prose and account maps; full command logs stay beside the corrected private presentations.
++
++The actual production 1.0.4 wheel was force-installed without dependency resolution into the existing digest-identified reference image, running with `--pull never --network none`. The installed package path was checked to be `site-packages`, with the frozen current fingerprint. Its full suite passed **658 tests**, with one Chrome/Node-unavailable skip, in **144.96 s**. The separate host browser run above covers that skipped case. Installed-wheel arithmetic analysis and complete recomputation passed, and all **14 canonical artifacts** matched the source execution. See `qa/rw001/container-wheel/verification.json`, its raw per-command logs, and the outer container receipt. The old image supplies the frozen dependencies; these executions test the newly installed 1.0.4 wheel, not its bundled historical source.
++
++## Reproduce and obtain the repair
++
++```bash
++# After the exact hash-locked installation in README.md:
++python3.12 scripts/offline_exec.py .venv/bin/python -m pytest -q
++python3.12 scripts/offline_exec.py .venv/bin/python -m hatchling build
++python3.12 scripts/offline_exec.py .venv/bin/python scripts/render_rw001_fixture.py --out fresh-rw001-fixtures
++python3.12 scripts/offline_exec.py .venv/bin/python scripts/check_release_reproducibility.py fresh-rw001-replay
++```
++
++The production wheel is `dist/account_history_analyzer-1.0.4-py3-none-any.whl`; source distribution is `dist/account_history_analyzer-1.0.4.tar.gz`. The full working source, locked dependencies, public regression reports and raw repair logs are in `release/1.0.4/account-history-analyzer-1.0.4-source-and-reports.tar.gz`, with its manifest/checksums beside it. The focused source/test/documentation diff is `qa/rw001/source.patch`; supporting QA scripts and raw logs are supplied in the archive. Public synthetic reports are `output/rw001/synthetic/alternative_only/report.html` and `output/rw001/synthetic/matched_plus_extra/report.html`, each with an excerpt-omitting sibling.
++
++No private input, prose or account map is included in the repair archive. Corrected private presentations and exact private command logs are supplied separately in the private task workspace. Stage B uses a separate new directory, protocol and receipts; it cannot retroactively make this pilot untouched confirmation data.
+--- a/pyproject.toml
++++ b/pyproject.toml
+@@ -4,7 +4,7 @@
+ 
+ [project]
+ name = "account-history-analyzer"
+-version = "1.0.3"
++version = "1.0.4"
+ description = "Offline deterministic descriptive measurements of supplied account histories"
+ readme = "README.md"
+ requires-python = ">=3.12,<3.13"
+--- a/uv.lock
++++ b/uv.lock
+@@ -4,7 +4,7 @@
+ 
+ [[package]]
+ name = "account-history-analyzer"
+-version = "1.0.3"
++version = "1.0.4"
+ source = { editable = "." }
+ dependencies = [
+     { name = "jsonschema" },
+--- a/src/account_history_analyzer/__init__.py
++++ b/src/account_history_analyzer/__init__.py
+@@ -1,5 +1,5 @@
+ """Offline account-history measurements; no attribution or detection probabilities."""
+-__version__ = "1.0.3"
++__version__ = "1.0.4"
+ 
+ from .config import AnalysisConfig
+ from .io import Snapshot, load_snapshot
+--- a/src/account_history_analyzer/payload_schemas.py
++++ b/src/account_history_analyzer/payload_schemas.py
+@@ -636,7 +636,7 @@
+     # Old data stays readable. Current-version outputs must include the new
+     # complete resource accounting, not silently masquerade as legacy payloads.
+     result["allOf"] = [{
+-        "if": {"properties": {"analysis": {"properties": {"suite_version": {"enum": ["1.0.2", "1.0.3"]}}}}},
++        "if": {"properties": {"analysis": {"properties": {"suite_version": {"enum": ["1.0.2", "1.0.3", "1.0.4"]}}}}},
+         "then": {"properties": {"modules": {"properties": {"reuse": {"properties": {"payload": reuse_schema()}}}}}},
+     }]
+     return result
+--- a/src/account_history_analyzer/reporting.py
++++ b/src/account_history_analyzer/reporting.py
+@@ -8,7 +8,7 @@
+ import json
+ from typing import Any
+ 
+-TEMPLATE_VERSION = '1.0.3'
++TEMPLATE_VERSION = '1.0.4'
+ # Presentation order is a contract, independent of input mapping insertion.
+ TEXT_STATUS_ORDER = ('present', 'deleted', 'removed', 'unavailable')
+ LIMITATIONS = (
+@@ -347,6 +347,50 @@
+     if sensitivity:
+         lines.extend(['### Predefined sensitivity settings','',
+                       'Stability across settings is not confidence. Constant no-variation measurements count as executed settings; insufficient settings are excluded from the denominator. Different window constructions use original record-order intervals. Endpoint touching is distinguished from interior overlap.',''])
++        # Render the stored setting results independently of primary candidates.
++        # Lists define presentation order; identifiers join the stored matching
++        # facts. Counting exported objects is presentation, not a new matching run.
++        executed_statuses={'ok','no_measurable_variation'}
++        primary_by_stream={item['stream_id']:item for item in style.get('changes',[])}
++        matches={(row['stream_id'],setting['setting_id']):setting
++                 for row in sensitivity['same_window_stability'] for setting in row['settings']}
++        setting_results={(setting['setting_id'],item['stream_id']):item
++                         for setting in sensitivity['penalty_settings'] for item in setting['results']}
++        overview=[]
++        candidate_details=[]
++        for stream in streams:
++            stream_id=stream['stream_id']
++            for setting in sensitivity['penalty_settings']:
++                analysis=setting_results[(setting['setting_id'],stream_id)]
++                matching=matches[(stream_id,setting['setting_id'])]
++                executed=analysis['status'] in executed_statuses
++                comparable=executed and primary_by_stream[stream_id]['status'] in executed_statuses
++                overview.append([md_text(stream_names[stream_id]),number(setting['penalty_lambda']),
++                                 md_text(analysis['status']),str(len(analysis['boundaries'])) if executed else 'unavailable',
++                                 str(len(matching['matched_pairs'])) if comparable else 'not comparable' if executed else 'unavailable',
++                                 str(len(matching['unmatched_setting_boundaries'])) if comparable else 'not comparable' if executed else 'unavailable'])
++                if analysis['boundaries']:
++                    candidate_details.append((setting,analysis,matching))
++        lines.extend(['#### Penalty-setting overview','',
++                      'Every predefined penalty setting is listed for each pooled and community stream. Counts use stored candidate and one-to-one matching results. Zero means an executed setting produced no candidates; unavailable means it did not execute. Matching is not comparable when the primary result is unavailable.','',
++                      'Primary setting: '+', '.join('λ='+number(setting['penalty_lambda']) for setting in sensitivity['penalty_settings'] if setting['is_primary'])+'.',''])
++        lines.extend(_table(['Stream','Setting λ','Status','Candidate count','Primary-matched count','Unmatched-setting candidate count'],overview))
++        for setting,analysis,matching in candidate_details:
++            stream_id=analysis['stream_id']
++            lines.extend([f'<details><summary>Stored candidates: {md_text(stream_names[stream_id])}, λ={number(setting["penalty_lambda"])}'+(' (primary)' if setting['is_primary'] else ' (alternative)')+'</summary>','',
++                          f"This setting has {len(analysis['boundaries'])} "+('candidate.' if len(analysis['boundaries'])==1 else 'candidates.'),
++                          'These are stored descriptive boundary intervals. They do not identify an exact event date, a change of author, statistical significance or confidence.',''])
++            for boundary in analysis['boundaries']:
++                identity=json_text([setting['setting_id'],stream_id,boundary['boundary_id']])
++                relation=('not comparable' if primary_by_stream[stream_id]['status'] not in executed_statuses else
++                          'unmatched setting candidate' if boundary['window_index'] in matching['unmatched_setting_boundaries'] else 'primary-matched candidate')
++                lines.extend([f'<a id="{_anchor("setting-boundary",identity)}"></a>',
++                              f"Candidate between windows {boundary['window_index']} and {boundary['window_index']+1}: {relation}.",
++                              f"Original zero-based record-order boundary interval: {md_text(boundary['record_interval'])}.",
++                              f"Last eligible left record: {source(boundary['left_record_id'])}, {_utc(boundary['left_utc'])}. First eligible right record: {source(boundary['right_record_id'])}, {_utc(boundary['right_utc'])}.",
++                              f"Full left window: {_utc(boundary['left_window_first_utc'])}–{_utc(boundary['left_window_last_utc'])}; full right window: {_utc(boundary['right_window_first_utc'])}–{_utc(boundary['right_window_last_utc'])}.",
++                              'Missing collection intervals limit the timing interpretation.',''])
++            lines.extend(['</details>',''])
+         for row in sensitivity['same_window_stability']:
+             lines.append(f"- {md_text(stream_names.get(row['stream_id'],row['stream_id']))}: {row['executed_setting_count']} settings executed, {row['skipped_setting_count']} skipped.")
+             for boundary in row['boundaries']:
+@@ -369,7 +413,8 @@
+     if summary:
+         lines.extend([f"Detected link occurrences: {summary['total_link_occurrences']}; valid HTTP(S): {summary['valid_http_occurrences']}; malformed: {summary['malformed_occurrences']}; unsafe schemes: {summary['unsafe_scheme_occurrences']}.",
+                       f"Records with a valid link: {summary['records_with_valid_links']} of {summary['record_count']} ({number(summary['share_records_with_valid_links'])} fraction). Distinct normalized hosts: {summary['distinct_hosts']}.",
+-                      'Hostnames are parsed locally, with no fetching or DNS. They are not registrable domains. Link repetition does not establish advertising, payment or intent.',''])
++                      'Hostnames are parsed locally, with no fetching or DNS. They are not registrable domains. Link repetition does not establish advertising, payment or intent.',
++                      'Unsafe schemes is the parser category for unsupported destinations, including scheme-less targets; it does not establish maliciousness. This module measures supplied body/title text. Native post destination fields outside the input contract are not included.',''])
+         lines.extend(_table(['Hostname','Occurrences','Records with host / supplied records','Fraction of records','Fraction of valid HTTP(S) links','Sources'],[
+             [md_text(row['hostname']),str(row['occurrences']),f"{row['record_count']} / {summary['record_count']}",number(row['share_of_records']),
+              number(row['share_of_valid_http_links']),source_list(row['source_record_ids'],8)] for row in summary['hosts']]))
+--- a/schemas/results.schema.json
++++ b/schemas/results.schema.json
+@@ -16805,7 +16805,8 @@
+               "suite_version": {
+                 "enum": [
+                   "1.0.2",
+-                  "1.0.3"
++                  "1.0.3",
++                  "1.0.4"
+                 ]
+               }
+             }
+--- a/src/account_history_analyzer/contracts/results.schema.json
++++ b/src/account_history_analyzer/contracts/results.schema.json
+@@ -16805,7 +16805,8 @@
+               "suite_version": {
+                 "enum": [
+                   "1.0.2",
+-                  "1.0.3"
++                  "1.0.3",
++                  "1.0.4"
+                 ]
+               }
+             }
+--- /dev/null
++++ b/tests/test_rw001_metadata.py
+@@ -0,0 +1,70 @@
++"""RW-001 presentation release keeps reuse accounting strict and legacy data readable."""
++from __future__ import annotations
++
++from copy import deepcopy
++from pathlib import Path
++import tomllib
++
++import pytest
++
++from account_history_analyzer import __version__
++from account_history_analyzer.errors import InputError
++from account_history_analyzer.io import load_snapshot, thaw
++from account_history_analyzer.pipeline import analyze
++from account_history_analyzer.schemas import validate
++
++
++ROOT = Path(__file__).resolve().parents[1]
++RESOURCE_FIELDS = ('resource_usage', 'resource_limits', 'resource_limit_reason')
++ACCOUNTING_VERSIONS = ('1.0.2', '1.0.3', '1.0.4')
++
++
++@pytest.fixture(scope='module')
++def arithmetic_result():
++    snapshot = load_snapshot(ROOT / 'fixtures/arithmetic.jsonl',
++                             ROOT / 'fixtures/arithmetic.snapshot.json')
++    return thaw(analyze(snapshot).results)
++
++
++def test_RW001_META_01_project_and_lock_identify_the_running_package():
++    project = tomllib.loads((ROOT / 'pyproject.toml').read_text(encoding='utf-8'))
++    lock = tomllib.loads((ROOT / 'uv.lock').read_text(encoding='utf-8'))
++    local_packages = [package for package in lock['package']
++                      if package['name'] == project['project']['name']]
++    assert len(local_packages) == 1
++    assert project['project']['version'] == local_packages[0]['version'] == __version__
++
++
++@pytest.mark.parametrize('version', ACCOUNTING_VERSIONS)
++def test_RW001_META_02_complete_resource_accounting_accepted(arithmetic_result, version):
++    candidate = deepcopy(arithmetic_result)
++    candidate['analysis']['suite_version'] = version
++    assert set(RESOURCE_FIELDS) <= candidate['modules']['reuse']['payload'].keys()
++    validate(candidate, 'results')
++
++
++@pytest.mark.parametrize('version', ACCOUNTING_VERSIONS)
++@pytest.mark.parametrize('removed', [(name,) for name in RESOURCE_FIELDS] + [RESOURCE_FIELDS])
++def test_RW001_META_03_current_accounting_cannot_fall_back_to_legacy(arithmetic_result, version, removed):
++    candidate = deepcopy(arithmetic_result)
++    candidate['analysis']['suite_version'] = version
++    for name in removed:
++        del candidate['modules']['reuse']['payload'][name]
++    with pytest.raises(InputError):
++        validate(candidate, 'results')
++
++
++def test_RW001_META_04_historical_101_payload_remains_typed(arithmetic_result):
++    candidate = deepcopy(arithmetic_result)
++    candidate['analysis']['suite_version'] = '1.0.1'
++    for name in RESOURCE_FIELDS:
++        del candidate['modules']['reuse']['payload'][name]
++    validate(candidate, 'results')
++    candidate['modules']['reuse']['payload']['unregistered_measurement'] = 0
++    with pytest.raises(InputError):
++        validate(candidate, 'results')
++
++
++def test_RW001_META_05_source_and_packaged_result_contracts_are_identical():
++    assert (ROOT / 'schemas/results.schema.json').read_bytes() == (
++        ROOT / 'src/account_history_analyzer/contracts/results.schema.json').read_bytes()
+--- /dev/null
++++ b/tests/test_sensitivity_overview.py
+@@ -0,0 +1,322 @@
++"""RW-001 public presentation regressions; never use private pilot source text.
++
++Source records are independently generated artificial prose. The case sidecar
++substitutes explicitly constructed *exported presentation facts* only after the
++analysis returns. It is never passed to feature extraction or optimization.
++"""
++from __future__ import annotations
++
++from copy import deepcopy
++from datetime import datetime, timedelta, timezone
++from html.parser import HTMLParser
++import json
++from pathlib import Path
++
++from markdown_it import MarkdownIt
++import pytest
++
++from account_history_analyzer.io import canonical_bytes, load_snapshot, thaw
++from account_history_analyzer.pipeline import analyze
++from account_history_analyzer.reporting import render_html, render_markdown
++
++ROOT = Path(__file__).resolve().parents[1]
++HEADERS = ['Stream', 'Setting λ', 'Status', 'Candidate count',
++           'Primary-matched count', 'Unmatched-setting candidate count']
++EXECUTED = {'ok', 'no_measurable_variation'}
++
++
++class Parsed(HTMLParser):
++    """Inspect the actual final HTML, including native details and table cells."""
++    def __init__(self, source):
++        super().__init__(convert_charrefs=True)
++        self.tables=[]; self.text=[]; self.tags=[]; self.attrs=[]
++        self.ids=[]; self.fragments=[]; self.table=None; self.row=None; self.cell=None
++        self.feed(source); self.close()
++
++    def handle_starttag(self, tag, attrs):
++        self.tags.append(tag); self.attrs.extend((tag,key,value) for key,value in attrs)
++        values=dict(attrs)
++        if 'id' in values: self.ids.append(values['id'])
++        if values.get('href','').startswith('#'): self.fragments.append(values['href'][1:])
++        if tag=='table': self.table=[]
++        if tag=='tr': self.row=[]
++        if tag in {'th','td'}: self.cell=[]
++
++    def handle_data(self, value):
++        self.text.append(value)
++        if self.cell is not None: self.cell.append(value)
++
++    def handle_endtag(self, tag):
++        if tag in {'th','td'} and self.cell is not None:
++            self.row.append(''.join(self.cell)); self.cell=None
++        if tag=='tr' and self.row is not None:
++            if self.table is not None: self.table.append(self.row)
++            self.row=None
++        if tag=='table' and self.table is not None:
++            self.tables.append(self.table); self.table=None
++
++
++def native(report, *, excerpts='included', output='html'):
++    results,evidence,windows=report
++    if output=='html':
++        return render_html(results,evidence,windows=windows,excerpts=excerpts)
++    markdown=render_markdown(results,evidence,windows=windows,excerpts=excerpts)
++    return MarkdownIt('commonmark',{'html':True}).enable('table').render(markdown)
++
++
++def overview(parsed):
++    tables=[table for table in parsed.tables if table and table[0]==HEADERS]
++    assert len(tables)==1, 'Every penalty setting/stream requires one inspectable sensitivity overview'
++    return tables[0][1:]
++
++
++@pytest.fixture(scope='module')
++def exported(tmp_path_factory):
++    """Small real pipeline output with legal primary memberships and evidence."""
++    return build_exported_report(tmp_path_factory.mktemp('rw001-public'))
++
++
++def build_exported_report(root):
++    """Generate public source data for tests and the review-only sample report."""
++    root=Path(root); root.mkdir(parents=True,exist_ok=True)
++    records=[]
++    for i in range(96):
++        # Different lexical tokens avoid cross-record reuse while keeping each
++        # source record over the fixed eligible-word guard; no case labels enter.
++        word='token'+chr(97+i//26)+chr(97+i%26)
++        text=' '.join(['the',word,'is',word,'and',word,'to',word]*16)+'.'
++        if i>=48: text=text.upper().replace('.', ';')
++        records.append({'schema_version':'1.0.0','id':f'r{i:03d}','account_id':'public-fixture',
++            'kind':'comment','text':text,'status':'present','title':None,'subreddit':'synthetic_context',
++            'created_utc':(datetime(2025,1,1,tzinfo=timezone.utc)+timedelta(hours=i)).isoformat().replace('+00:00','Z')})
++    source=root/'records.jsonl'; manifest=root/'snapshot.json'
++    source.write_bytes(b''.join(canonical_bytes(row) for row in records))
++    metadata=json.loads((ROOT/'fixtures/arithmetic.snapshot.json').read_bytes())
++    metadata.update(account_id='public-fixture',snapshot_id='public-report-fixture',text_format='plain')
++    metadata['coverage'].update(start_utc=records[0]['created_utc'],end_utc=records[-1]['created_utc'])
++    manifest.write_bytes(canonical_bytes(metadata))
++    result=analyze(load_snapshot(source,manifest))
++    assert result.exit_code==0
++    return (thaw(result.results),
++            [json.loads(line) for line in result.files['evidence.jsonl'].splitlines()],
++            [json.loads(line) for line in result.files['windows.jsonl'].splitlines()])
++
++
++def constructed(exported, case='alternative_only'):
++    """Explicitly replace stored presentation observations, never rerun methods."""
++    results,evidence,windows=deepcopy(exported)
++    facts=json.loads((ROOT/'fixtures/reporting/rw001_report_cases.json').read_bytes())['cases'][case]
++    style=results['modules']['style']['payload']; sensitivity=style['sensitivity']
++    streams=[s for s in style['streams'] if s['kind']=='comment']
++    assert len(streams)==2 and {s['scope_type'] for s in streams}=={'pooled','community'}
++    by_window={w['window_id']:w for w in windows}
++    by_change={change['stream_id']:change for change in style['changes']}
++    style['streams']=streams
++    # Primary findings belong to the genuine pipeline run. They are deliberately
++    # omitted from the constructed presentation fixture rather than relabeled.
++    results['findings']=[]
++    style['changes']=[]; sensitivity['penalty_settings']=[]; sensitivity['same_window_stability']=[]
++    parameters=[('primary',1.0,'ok'),('alternative',0.5,'ok'),
++                ('constant',2.0,'no_measurable_variation'),('insufficient',4.0,'insufficient_data')]
++    for name,value,status in parameters:
++        sensitivity['penalty_settings'].append({'setting_id':name,'penalty_lambda':value,
++            'is_primary':name=='primary','results':[]})
++    for stream in streams:
++        identifier=stream['stream_id']; original=by_change[identifier]
++        assert len(original['window_ids'])>=10
++        def boundary(index,setting):
++            left=by_window[original['window_ids'][index-1]];right=by_window[original['window_ids'][index]]
++            return {'boundary_id':f'public-{identifier}-{setting}-{index}','window_index':index,
++                'left_window_id':left['window_id'],'right_window_id':right['window_id'],
++                'left_record_id':left['record_ids'][-1],'right_record_id':right['record_ids'][0],
++                'left_utc':left['last_utc'],'right_utc':right['first_utc'],
++                'left_window_first_utc':left['first_utc'],'left_window_last_utc':left['last_utc'],
++                'right_window_first_utc':right['first_utc'],'right_window_last_utc':right['last_utc'],
++                'record_interval':[left['last_record_position'],right['first_record_position']],
++                'left_window_record_ids':left['record_ids'],'right_window_record_ids':right['record_ids']}
++        setting_rows=[]
++        for setting in sensitivity['penalty_settings']:
++            name=setting['setting_id'];status=next(status for n,_,status in parameters if n==name)
++            indices=facts[name] if name in {'primary','alternative'} else []
++            result={**deepcopy(original),'penalty_lambda':setting['penalty_lambda'],'status':status,
++                'internal_boundaries':indices,'boundaries':[boundary(i,name) for i in indices],
++                'reason_codes':['fewer_than_required_qualified_windows'] if status=='insufficient_data' else []}
++            if status=='insufficient_data':
++                result.update(window_ids=original['window_ids'][:2],scaling=None,penalty_beta=None,objective=None,sse=None)
++            elif status=='no_measurable_variation': result.update(objective=None,sse=None)
++            setting['results'].append(result)
++            if name=='primary': style['changes'].append(deepcopy(result))
++            pairs=([[i,i] for i in facts['primary']] if name=='primary' else facts['matched_pairs'] if name=='alternative' else [])
++            unmatched=(facts['unmatched_setting'] if name=='alternative' else [])
++            setting_rows.append({'setting_id':name,'penalty_lambda':setting['penalty_lambda'],'status':status,
++                'reason_codes':result['reason_codes'],'matched_pairs':pairs,
++                'unmatched_primary_boundaries':[i for i in facts['primary'] if i not in {p[0] for p in pairs}],
++                'unmatched_setting_boundaries':unmatched})
++        sensitivity['same_window_stability'].append({'stream_id':identifier,'executed_setting_count':3,
++            'skipped_setting_count':1,'settings':setting_rows,
++            'boundaries':[{'primary_window_index':i,'matched_in_k_of_m_executed_settings':2,
++                'executed_setting_count':3,'matched_setting_ids':['primary','alternative']} for i in facts['primary']]})
++    # The actual supported disabled state is a construction result; penalty
++    # change schemas deliberately have no invented disabled enum.
++    disabled=next(s for s in sensitivity['construction_settings'] if s['setting_type']=='repeat_reduced_near')
++    assert disabled['status']=='not_run' and disabled['reason_codes']==['disabled_by_configuration']
++    sensitivity['construction_settings']=[disabled]
++    return results,evidence,windows
++
++
++@pytest.mark.parametrize('output',['html','markdown'])
++def test_zero_primary_does_not_erase_alternative_only_candidate(exported,output):
++    report=constructed(exported)
++    parsed=Parsed(native(report,output=output)); rows=overview(parsed)
++    assert len(rows)==8
++    for row in rows:
++        if row[1]=='0.5': assert row[2:]==['ok','1','0','1']
++        if row[1]=='1': assert row[2:]==['ok','0','0','0']
++    text=' '.join(parsed.text)
++    alternate=report[0]['modules']['style']['payload']['sensitivity']['penalty_settings'][1]
++    for result in alternate['results']:
++        for boundary in result['boundaries']:
++            assert str(boundary['record_interval']) in text
++            assert boundary['left_record_id'] in text and boundary['right_record_id'] in text
++    assert 'not confidence' in text
++
++
++def test_primary_matching_details_and_additional_setting_candidate_both_survive(exported):
++    report=constructed(exported,'matched_plus_extra'); parsed=Parsed(native(report))
++    rows=overview(parsed)
++    assert [row[2:] for row in rows if row[1]=='0.5']==[['ok','2','1','1']]*2
++    assert [row[2:] for row in rows if row[1]=='1']==[['ok','1','1','0']]*2
++    text=' '.join(parsed.text)
++    assert 'matched in 2 of 3 executed settings' in text
++    for result in report[0]['modules']['style']['payload']['sensitivity']['penalty_settings'][1]['results']:
++        assert str(result['boundaries'][1]['record_interval']) in text
++
++
++def test_executed_zero_insufficient_and_disabled_are_distinct(exported):
++    parsed=Parsed(native(constructed(exported))); rows=overview(parsed)
++    assert [row[2:] for row in rows if row[1]=='2']==[['no_measurable_variation','0','0','0']]*2
++    skipped=[row[2:] for row in rows if row[1]=='4']
++    assert len(skipped)==2
++    assert all(row[0]=='insufficient_data' and all(cell=='unavailable' for cell in row[1:]) for row in skipped)
++    text=' '.join(parsed.text)
++    assert 'not_run' in text and 'disabled_by_configuration' in text
++
++
++def test_unavailable_primary_does_not_turn_matching_into_a_reassuring_zero(exported):
++    """Render explicit stored availability; do not infer it from another row."""
++    report=constructed(exported);style=report[0]['modules']['style']['payload'];sensitivity=style['sensitivity']
++    primary=next(setting for setting in sensitivity['penalty_settings'] if setting['is_primary'])
++    for result in [*style['changes'],*primary['results']]:
++        result.update(status='insufficient_data',reason_codes=['fewer_than_required_qualified_windows'],
++                      scaling=None,penalty_beta=None,objective=None,sse=None,window_ids=result['window_ids'][:2])
++    for stream in sensitivity['same_window_stability']:
++        stream.update(executed_setting_count=2,skipped_setting_count=2)
++        row=next(row for row in stream['settings'] if row['setting_id']=='primary')
++        row.update(status='insufficient_data',reason_codes=['fewer_than_required_qualified_windows'])
++    rows=overview(Parsed(native(report)))
++    assert [row[2:] for row in rows if row[1]=='0.5']==[['ok','1','not comparable','not comparable']]*2
++    assert [row[2:] for row in rows if row[1]=='1']==[['insufficient_data','unavailable','unavailable','unavailable']]*2
++
++
++def reversed_maps(value):
++    if isinstance(value,dict):return {key:reversed_maps(item) for key,item in reversed(list(value.items()))}
++    if isinstance(value,list):return [reversed_maps(item) for item in value]
++    return value
++
++
++def test_key_permutations_are_inert_and_stream_setting_lists_keep_their_order(exported):
++    report=constructed(exported,'matched_plus_extra')
++    # Different stream counts make a positional-zip join observably wrong.
++    sensitivity=report[0]['modules']['style']['payload']['sensitivity']
++    community=report[0]['modules']['style']['payload']['streams'][1]['stream_id']
++    alternate=next(setting for setting in sensitivity['penalty_settings'] if setting['setting_id']=='alternative')
++    change=next(row for row in alternate['results'] if row['stream_id']==community)
++    change['boundaries']=change['boundaries'][1:]; change['internal_boundaries']=[7]
++    stability=next(row for row in sensitivity['same_window_stability'] if row['stream_id']==community)
++    match=next(row for row in stability['settings'] if row['setting_id']=='alternative')
++    match.update(matched_pairs=[],unmatched_primary_boundaries=[3],unmatched_setting_boundaries=[7])
++    stability['boundaries'][0].update(matched_in_k_of_m_executed_settings=1,matched_setting_ids=['primary'])
++    original=native(report)
++    assert native(tuple(reversed_maps(item) for item in report))==original
++    baseline=overview(Parsed(original)); assert len(baseline)==8
++    # The renderer must join metadata by identifiers. Reordering unrelated join
++    # inputs must not change rows or silently associate counts to another stream.
++    joined=deepcopy(report); sensitivity=joined[0]['modules']['style']['payload']['sensitivity']
++    sensitivity['same_window_stability'].reverse()
++    for row in sensitivity['same_window_stability']: row['settings'].reverse()
++    for setting in sensitivity['penalty_settings']: setting['results'].reverse()
++    assert overview(Parsed(native(joined)))==baseline
++    reordered=deepcopy(report); style=reordered[0]['modules']['style']['payload']
++    style['streams'].reverse(); style['sensitivity']['penalty_settings'].reverse()
++    changed=overview(Parsed(native(reordered)))
++    assert changed==list(reversed(baseline))
++
++
++@pytest.mark.parametrize('excerpts',['included','none'])
++@pytest.mark.parametrize('output',['html','markdown'])
++def test_source_safety_excerpt_omission_and_lossless_ngram_labels(exported,excerpts,output):
++    report=constructed(exported,'matched_plus_extra'); results,evidence,_=report
++    hostile='<script>fixture_only()</script><img src="https://invalid.test/x" onerror="x()"> [x](javascript:x)'
++    evidence[0]['text']=hostile
++    style=results['modules']['style']['payload']
++    style['streams'][1]['subreddit']=hostile
++    # Source identifiers appear in both new candidate details and the shared
++    # source catalogue. They must become inert text with digest-only anchors.
++    alternate=style['sensitivity']['penalty_settings'][1]['results'][0]['boundaries'][0]
++    alternate['left_record_id']='left-'+hostile
++    alternate['right_record_id']='right-'+hostile
++    alternate['boundary_id']='boundary-'+hostile
++    labels=[' a  b ','\\u0020','\t\n','<tag>','a|b','\u00a0']
++    distance=next(d for c in style['comparisons'] for d in c['distances'] if d['method_id']=='cosine_distance_v1' and len(d['contributions'])>=len(labels))
++    for row,label in zip(distance['contributions'],labels):row['feature_id']=label
++    parsed=Parsed(native(report,excerpts=excerpts,output=output))
++    assert not set(parsed.tags)&{'script','iframe','object','embed'}
++    assert not any(key.startswith('on') or key in {'srcdoc','srcset'} for _,key,_ in parsed.attrs)
++    sources=[value for _,key,value in parsed.attrs if key=='src']
++    if output=='html': assert sources==[] and 'img' not in parsed.tags
++    else:
++        assert sorted(sources)==sorted(['activity_daily.svg','activity_hourly.svg','eligible_word_volume.svg',
++                                        'surface_features.svg','adjacent_distances.svg'])
++    assert not any((value or '').lower().startswith(('javascript:','data:','vbscript:'))
++                   for _,key,value in parsed.attrs if key in {'href','src'})
++    assert len(parsed.ids)==len(set(parsed.ids))
++    assert set(parsed.fragments)<=set(parsed.ids)
++    contribution_labels=[row[0] for table in parsed.tables if table and table[0][:2]==['Feature','Left rate'] for row in table[1:]]
++    decoded=[]
++    for label in contribution_labels:
++        if label.startswith('"'):decoded.append(json.loads(label))
++    if excerpts=='included':
++        assert all(label in decoded for label in labels)
++        assert hostile in ''.join(parsed.text)
++    else:
++        # Hostile subreddit metadata remains inert, but source excerpt and
++        # character-ngram example disclosure is disabled.
++        assert decoded==[]
++        assert not any(tag=='pre' and key=='class' and 'source-excerpt' in (value or '') for tag,key,value in parsed.attrs)
++    assert len(overview(parsed))==8
++
++
++@pytest.mark.parametrize('excerpts',['included','none'])
++def test_saved_json_replay_and_render_do_not_mutate_any_stored_measurements(exported,tmp_path,excerpts):
++    report=constructed(exported,'matched_plus_extra')
++    before=canonical_bytes(report)
++    paths=[]
++    for name,value in zip(('results','evidence','windows'),report):
++        path=tmp_path/(name+'.json');path.write_bytes(canonical_bytes(value));paths.append(path)
++    loaded=tuple(json.loads(path.read_bytes()) for path in paths)
++    for renderer in (render_html,render_markdown):
++        actual=renderer(report[0],report[1],windows=report[2],excerpts=excerpts)
++        replay=renderer(loaded[0],loaded[1],windows=loaded[2],excerpts=excerpts)
++        assert actual==replay
++    assert canonical_bytes(report)==before
++
++
++def test_render_uses_stored_candidates_and_matches_without_running_methods(exported,monkeypatch):
++    from account_history_analyzer import changepoints,sensitivity,style
++    report=constructed(exported,'matched_plus_extra')
++    def unexpected(*args,**kwargs):
++        raise AssertionError('The renderer must not run an analytical method')
++    monkeypatch.setattr(changepoints,'analyze_changes',unexpected)
++    monkeypatch.setattr(sensitivity,'maximum_boundary_matching',unexpected)
++    monkeypatch.setattr(style,'compare_features',unexpected)
++    assert len(overview(Parsed(native(report))))==8
+--- /dev/null
++++ b/fixtures/reporting/rw001_report_cases.json
+@@ -0,0 +1,17 @@
++{
++  "purpose": "Public presentation-only regression constructions. These stored result cases are not numerical oracles or authorship truth. All source records are artificial and generated independently of these case labels.",
++  "cases": {
++    "alternative_only": {
++      "primary": [],
++      "alternative": [3],
++      "matched_pairs": [],
++      "unmatched_setting": [3]
++    },
++    "matched_plus_extra": {
++      "primary": [3],
++      "alternative": [3, 7],
++      "matched_pairs": [[3, 3]],
++      "unmatched_setting": [7]
++    }
++  }
++}

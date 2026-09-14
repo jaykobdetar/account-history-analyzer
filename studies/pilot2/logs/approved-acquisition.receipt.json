@@ -1,0 +1,15 @@
+{
+  "command": [
+    ".venv/bin/python",
+    "/home/jaykob/.codex/visualizations/2026/09/13/01a09a32-1ca6-7983-93da-5f7da689ab16/ahas-pilot2-20260914/scripts/acquire_corpora.py"
+  ],
+  "cwd": "/home/jaykob/Downloads/Account_History_Analyzer_V1_Agent_Handoff/account_history_analyzer_v1",
+  "started_utc": "2026-09-14T18:45:36.775561+00:00",
+  "finished_utc": "2026-09-14T18:45:36.835079+00:00",
+  "exit_code": 1,
+  "wall_seconds": 0.05951771099353209,
+  "peak_rss_kib": 22428,
+  "measurement_scope": "this command and descendants; separate from canonical results",
+  "stdout_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+  "stderr_sha256": "0d62973466b27ae96441e6ce4a6497d89c87c90cb673cc87e308add1877956ca"
+}

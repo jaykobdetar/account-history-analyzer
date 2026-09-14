@@ -1,0 +1,13 @@
+{
+  "browser": "Chrome/150.0.7871.128",
+  "isolation": "linux_seccomp_nonunix_socket_denial",
+  "remoteRequests": [],
+  "dialogs": [],
+  "activeElements": [],
+  "eventHandlers": [],
+  "unsafeLinks": [],
+  "sourceExecuted": false,
+  "title": "Supplied account-history measurements",
+  "documentURL": "file:///tmp/ahas-frozen-hostile-4h0n0jfh/report/report.html",
+  "bodyTextLength": 19381
+}

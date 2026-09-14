@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 325" role="img" aria-labelledby="eligible-word-volume-title">
+<title id="eligible-word-volume-title">Eligible writing volume in primary windows</title>
+<rect width="100%" height="100%" fill="#ffffff"/>
+<g font-family="system-ui, sans-serif" fill="#253347">
+<text x="20" y="30" font-size="21" font-weight="600">Eligible writing volume in primary windows</text>
+<text x="20" y="66" font-size="16" font-weight="600">Pooled comments</text>
+<text x="20" y="84" font-size="11" fill="#526274">retained word tokens per whole-record window; x = window ordinal</text>
+<metadata>{&quot;boundaries&quot;:[],&quot;labels&quot;:[&quot;1&quot;,&quot;2&quot;,&quot;3&quot;,&quot;4&quot;,&quot;5&quot;,&quot;6&quot;,&quot;7&quot;,&quot;8&quot;,&quot;9&quot;,&quot;10&quot;,&quot;11&quot;,&quot;12&quot;],&quot;title&quot;:&quot;Pooled comments&quot;,&quot;unit&quot;:&quot;retained word tokens per whole-record window; x = window ordinal&quot;,&quot;values&quot;:[1024,1024,1024,1024,1024,1024,1024,1024,1024,1024,1024,1024]}</metadata>
+<line x1="76.0" y1="222" x2="926.0" y2="222" stroke="#dbe2ea"/>
+<text x="68.0" y="226" text-anchor="end" font-size="11">0</text>
+<line x1="76.0" y1="162" x2="926.0" y2="162" stroke="#dbe2ea"/>
+<text x="68.0" y="166" text-anchor="end" font-size="11">552.96</text>
+<line x1="76.0" y1="102" x2="926.0" y2="102" stroke="#dbe2ea"/>
+<text x="68.0" y="106" text-anchor="end" font-size="11">1105.92</text>
+<rect x="85.9167" y="110.889" width="51" height="111.111" fill="#296589" data-value="1024"><title>1: 1024 retained word tokens per whole-record window; x = window ordinal</title></rect>
+<rect x="156.75" y="110.889" width="51" height="111.111" fill="#296589" data-value="1024"><title>2: 1024 retained word tokens per whole-record window; x = window ordinal</title></rect>
+<rect x="227.583" y="110.889" width="51" height="111.111" fill="#296589" data-value="1024"><title>3: 1024 retained word tokens per whole-record window; x = window ordinal</title></rect>
+<rect x="298.417" y="110.889" width="51" height="111.111" fill="#296589" data-value="1024"><title>4: 1024 retained word tokens per whole-record window; x = window ordinal</title></rect>
+<rect x="369.25" y="110.889" width="51" height="111.111" fill="#296589" data-value="1024"><title>5: 1024 retained word tokens per whole-record window; x = window ordinal</title></rect>
+<rect x="440.083" y="110.889" width="51" height="111.111" fill="#296589" data-value="1024"><title>6: 1024 retained word tokens per whole-record window; x = window ordinal</title></rect>
+<rect x="510.917" y="110.889" width="51" height="111.111" fill="#296589" data-value="1024"><title>7: 1024 retained word tokens per whole-record window; x = window ordinal</title></rect>
+<rect x="581.75" y="110.889" width="51" height="111.111" fill="#296589" data-value="1024"><title>8: 1024 retained word tokens per whole-record window; x = window ordinal</title></rect>
+<rect x="652.583" y="110.889" width="51" height="111.111" fill="#296589" data-value="1024"><title>9: 1024 retained word tokens per whole-record window; x = window ordinal</title></rect>
+<rect x="723.417" y="110.889" width="51" height="111.111" fill="#296589" data-value="1024"><title>10: 1024 retained word tokens per whole-record window; x = window ordinal</title></rect>
+<rect x="794.25" y="110.889" width="51" height="111.111" fill="#296589" data-value="1024"><title>11: 1024 retained word tokens per whole-record window; x = window ordinal</title></rect>
+<rect x="865.083" y="110.889" width="51" height="111.111" fill="#296589" data-value="1024"><title>12: 1024 retained word tokens per whole-record window; x = window ordinal</title></rect>
+<text x="111.417" y="242.0" text-anchor="middle" font-size="10">1</text>
+<text x="253.083" y="242.0" text-anchor="middle" font-size="10">3</text>
+<text x="394.75" y="242.0" text-anchor="middle" font-size="10">5</text>
+<text x="607.25" y="242.0" text-anchor="middle" font-size="10">8</text>
+<text x="748.917" y="242.0" text-anchor="middle" font-size="10">10</text>
+<text x="890.583" y="242.0" text-anchor="middle" font-size="10">12</text>
+<text x="20" y="280" font-size="11" fill="#526274">Blue: qualified window; gray: visible short remainder. Dashed red: descriptive candidate boundary.</text>
+<text x="20" y="300" font-size="11" fill="#526274">Pooled scopes only. Separate community streams have overlapping membership; counts are not added.</text>
+</g>
+</svg>

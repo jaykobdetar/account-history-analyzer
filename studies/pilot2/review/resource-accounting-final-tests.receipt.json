@@ -1,0 +1,21 @@
+{
+  "command": [
+    ".venv/bin/python",
+    "-B",
+    "-m",
+    "pytest",
+    "-p",
+    "no:cacheprovider",
+    "-q",
+    "/home/jaykob/.codex/visualizations/2026/09/13/01a09a32-1ca6-7983-93da-5f7da689ab16/ahas-pilot2-20260914/review/test_resource_cost_report.py"
+  ],
+  "cwd": "/home/jaykob/Downloads/Account_History_Analyzer_V1_Agent_Handoff/account_history_analyzer_v1",
+  "started_utc": "2026-09-14T20:00:37.582230+00:00",
+  "finished_utc": "2026-09-14T20:00:37.927605+00:00",
+  "exit_code": 0,
+  "wall_seconds": 0.3453769879997708,
+  "peak_rss_kib": 44112,
+  "measurement_scope": "this command and descendants; separate from canonical results",
+  "stdout_sha256": "ed12499504fb433a657b31ced875e7369343bf9696d2544d97d223e4f49c7d34",
+  "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+}

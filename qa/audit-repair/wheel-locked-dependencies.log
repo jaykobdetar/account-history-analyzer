@@ -1,0 +1,24 @@
+Using Python 3.12.3 environment at: /tmp/ahas-audit-install
+Resolved 21 packages in 8ms
+Installed 21 packages in 190ms
+ + attrs==26.1.0
+ + hatchling==1.29.0
+ + hypothesis==6.131.9
+ + iniconfig==2.3.0
+ + jsonschema==4.26.0
+ + jsonschema-specifications==2025.9.1
+ + markdown-it-py==3.0.0
+ + mdurl==0.1.2
+ + numpy==2.4.2
+ + packaging==26.3
+ + pathspec==1.1.1
+ + pluggy==1.6.0
+ + pygments==2.21.0
+ + pytest==9.0.2
+ + referencing==0.37.0
+ + rpds-py==2026.6.3
+ + ruptures==1.1.10
+ + scipy==1.17.1
+ + sortedcontainers==2.4.0
+ + trove-classifiers==2026.6.1.19
+ + typing-extensions==4.16.0

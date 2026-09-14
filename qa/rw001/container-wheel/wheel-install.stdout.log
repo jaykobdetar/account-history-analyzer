@@ -1,0 +1,7 @@
+Processing /review/dist/account_history_analyzer-1.0.4-py3-none-any.whl
+Installing collected packages: account-history-analyzer
+  Attempting uninstall: account-history-analyzer
+    Found existing installation: account-history-analyzer 1.0.3
+    Uninstalling account-history-analyzer-1.0.3:
+      Successfully uninstalled account-history-analyzer-1.0.3
+Successfully installed account-history-analyzer-1.0.4

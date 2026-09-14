@@ -1,0 +1,56 @@
+{
+  "community": "ApplyingToCollege",
+  "url": "https://zissou.infosci.cornell.edu/convokit/datasets/subreddit-corpus/corpus-zipped/AnythingGoesPic~-~ApplyingToCollege/ApplyingToCollege.corpus.zip",
+  "expected_bytes_from_official_index": 155300755,
+  "resolved_url": "https://zissou.infosci.cornell.edu/convokit/datasets/subreddit-corpus/corpus-zipped/AnythingGoesPic~-~ApplyingToCollege/ApplyingToCollege.corpus.zip",
+  "http_headers": {
+    "Server": "nginx/1.18.0 (Ubuntu)",
+    "Date": "Mon, 14 Sep 2026 18:45:56 GMT",
+    "Content-Type": "application/zip",
+    "Content-Length": "155300755",
+    "Last-Modified": "Wed, 30 Oct 2019 09:35:09 GMT",
+    "Connection": "close",
+    "ETag": "\"5db9594d-941b393\"",
+    "Strict-Transport-Security": "max-age=31536000; includeSubDomains; preload",
+    "Accept-Ranges": "bytes"
+  },
+  "started_utc": "2026-09-14T18:45:56.369922+00:00",
+  "finished_utc": "2026-09-14T18:46:10.352007+00:00",
+  "elapsed_seconds": 13.982094307983061,
+  "actual_bytes": 155300755,
+  "sha256": "046d9d2566b03dfbaa17d7d62f4311083a39897d2e35d170043e3be2e6a242e5",
+  "members": [
+    {
+      "name": "users.json",
+      "bytes": 1026088,
+      "compressed_bytes": 428908,
+      "crc32": 2885402906
+    },
+    {
+      "name": "conversations.json",
+      "bytes": 32461688,
+      "compressed_bytes": 4548136,
+      "crc32": 1828804628
+    },
+    {
+      "name": "corpus.json",
+      "bytes": 99,
+      "compressed_bytes": 84,
+      "crc32": 3981850534
+    },
+    {
+      "name": "index.json",
+      "bytes": 836,
+      "compressed_bytes": 231,
+      "crc32": 952343535
+    },
+    {
+      "name": "utterances.jsonl",
+      "bytes": 671970272,
+      "compressed_bytes": 150322864,
+      "crc32": 1905940589
+    }
+  ],
+  "status": "acquired",
+  "analysis_executed": false
+}

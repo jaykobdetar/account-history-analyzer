@@ -1,0 +1,166 @@
+{
+  "resource_version": "1.0.0",
+  "note": "Literal alternatives only; not contextually verified paraphrases. Count within segments with normalized tokens.",
+  "pairs": [
+    {
+      "id": "dont_do_not",
+      "contracted": [
+        "don't"
+      ],
+      "expanded": [
+        "do",
+        "not"
+      ]
+    },
+    {
+      "id": "doesnt_does_not",
+      "contracted": [
+        "doesn't"
+      ],
+      "expanded": [
+        "does",
+        "not"
+      ]
+    },
+    {
+      "id": "didnt_did_not",
+      "contracted": [
+        "didn't"
+      ],
+      "expanded": [
+        "did",
+        "not"
+      ]
+    },
+    {
+      "id": "isnt_is_not",
+      "contracted": [
+        "isn't"
+      ],
+      "expanded": [
+        "is",
+        "not"
+      ]
+    },
+    {
+      "id": "arent_are_not",
+      "contracted": [
+        "aren't"
+      ],
+      "expanded": [
+        "are",
+        "not"
+      ]
+    },
+    {
+      "id": "wasnt_was_not",
+      "contracted": [
+        "wasn't"
+      ],
+      "expanded": [
+        "was",
+        "not"
+      ]
+    },
+    {
+      "id": "werent_were_not",
+      "contracted": [
+        "weren't"
+      ],
+      "expanded": [
+        "were",
+        "not"
+      ]
+    },
+    {
+      "id": "couldnt_could_not",
+      "contracted": [
+        "couldn't"
+      ],
+      "expanded": [
+        "could",
+        "not"
+      ]
+    },
+    {
+      "id": "shouldnt_should_not",
+      "contracted": [
+        "shouldn't"
+      ],
+      "expanded": [
+        "should",
+        "not"
+      ]
+    },
+    {
+      "id": "wouldnt_would_not",
+      "contracted": [
+        "wouldn't"
+      ],
+      "expanded": [
+        "would",
+        "not"
+      ]
+    },
+    {
+      "id": "wont_will_not",
+      "contracted": [
+        "won't"
+      ],
+      "expanded": [
+        "will",
+        "not"
+      ]
+    },
+    {
+      "id": "im_i_am",
+      "contracted": [
+        "i'm"
+      ],
+      "expanded": [
+        "i",
+        "am"
+      ]
+    },
+    {
+      "id": "ive_i_have",
+      "contracted": [
+        "i've"
+      ],
+      "expanded": [
+        "i",
+        "have"
+      ]
+    },
+    {
+      "id": "youre_you_are",
+      "contracted": [
+        "you're"
+      ],
+      "expanded": [
+        "you",
+        "are"
+      ]
+    },
+    {
+      "id": "were_we_are",
+      "contracted": [
+        "we're"
+      ],
+      "expanded": [
+        "we",
+        "are"
+      ]
+    },
+    {
+      "id": "theyre_they_are",
+      "contracted": [
+        "they're"
+      ],
+      "expanded": [
+        "they",
+        "are"
+      ]
+    }
+  ]
+}

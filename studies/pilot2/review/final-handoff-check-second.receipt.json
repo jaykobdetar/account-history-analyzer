@@ -1,0 +1,22 @@
+{
+  "command": [
+    ".venv/bin/python",
+    "scripts/offline_exec.py",
+    ".venv/bin/python",
+    "-B",
+    "/home/jaykob/.codex/visualizations/2026/09/13/01a09a32-1ca6-7983-93da-5f7da689ab16/ahas-pilot2-20260914/review/check_final_handoff.py",
+    "--handoff",
+    "/home/jaykob/.codex/visualizations/2026/09/13/01a09a32-1ca6-7983-93da-5f7da689ab16/ahas-pilot2-20260914/public-handoff",
+    "--out",
+    "/home/jaykob/.codex/visualizations/2026/09/13/01a09a32-1ca6-7983-93da-5f7da689ab16/ahas-pilot2-20260914/review/final-handoff-check-second.json"
+  ],
+  "cwd": "/home/jaykob/Downloads/Account_History_Analyzer_V1_Agent_Handoff/account_history_analyzer_v1",
+  "started_utc": "2026-09-14T20:12:25.775431+00:00",
+  "finished_utc": "2026-09-14T20:12:46.551895+00:00",
+  "exit_code": 0,
+  "wall_seconds": 20.776334697991842,
+  "peak_rss_kib": 770932,
+  "measurement_scope": "this command and descendants; separate from canonical results",
+  "stdout_sha256": "13cc14a146f35b474c228b590f3065c29628c257abb514cdec27930d2ded34ce",
+  "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+}

@@ -1,0 +1,30 @@
+{
+  "status": "registered",
+  "scoring_authorized": false,
+  "registered_utc": "2026-09-14T19:11:48.324571+00:00",
+  "protocol_id": "ahas-reddit-pilot2-20260914-v1",
+  "phase": "Protocol-definition freeze before new candidate comparisons, duplicate audit or performance scores. Existing oldpilot resourceprofile is exposed development evidence.",
+  "files": {
+    "protocol/plan.json": "26f4d551b4557886c6f67fe7484cd3d139b301ea68fa911a25f4c020f0ab82d8",
+    "protocol/PROTOCOL.md": "6c56d6800af86d95d0ecff3d74bba293fcc68fbfe6424016ecaa9c7fd374e3ad",
+    "protocol/measurement-baseline.json": "ab1408d1db01740da10bc681c4409ae9f84b2da253693cdd07e5513d01bc957d",
+    "protocol/resolved_config.json": "8fd0239fe2f87c9f1506786ac36099fe996e00cc6e021b3ecc67fbb65cd2d925"
+  },
+  "source_archives": {
+    "ApplyingToCollege": {
+      "path": "data/ApplyingToCollege.corpus.zip",
+      "sha256": "046d9d2566b03dfbaa17d7d62f4311083a39897d2e35d170043e3be2e6a242e5"
+    },
+    "Cornell": {
+      "path": "../ahas-realworld-review/inputs/Cornell.corpus.zip",
+      "sha256": "f153a56a343e6d9568d90b635d44d1ccca71479ac19cd28e075587485bad715d"
+    },
+    "college": {
+      "path": "data/college.corpus.zip",
+      "sha256": "31a124155a303bdb3e0e91a1a97c48964ccfffa14585b5088b94935660722aa9"
+    }
+  },
+  "later_required_gate": "scoring-freeze.json binds tested implementation, selectedcases,groupaudits and prepared datasetfiles. No score until gate passes.",
+  "new_performance_scores_computed_before_registration": false,
+  "historical_pilot_relabelled": false
+}

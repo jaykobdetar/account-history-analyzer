@@ -1,0 +1,20 @@
+{
+  "command": [
+    "/usr/local/bin/python",
+    "-m",
+    "account_history_analyzer",
+    "analyze",
+    "--input",
+    "/review/fixtures/arithmetic.jsonl",
+    "--manifest",
+    "/review/fixtures/arithmetic.snapshot.json",
+    "--out",
+    "/tmp/rw001-wheel-arithmetic"
+  ],
+  "cwd": "/tmp",
+  "exit_code": 0,
+  "wall_seconds": 2.2545268590038177,
+  "stdout_sha256": "0f2f0437c39f367a02874a14b5d678b021562c3a1b2035cfdb24c23bed40ebf9",
+  "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+  "network_isolation": "docker_network_none"
+}

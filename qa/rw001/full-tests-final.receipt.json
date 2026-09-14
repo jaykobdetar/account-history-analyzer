@@ -1,0 +1,20 @@
+{
+  "command": [
+    ".venv/bin/python",
+    "scripts/offline_exec.py",
+    ".venv/bin/python",
+    "-m",
+    "pytest",
+    "-q",
+    "--junitxml=qa/rw001/full-tests-final.xml"
+  ],
+  "cwd": "/home/jaykob/Downloads/Account_History_Analyzer_V1_Agent_Handoff/account_history_analyzer_v1",
+  "started_utc": "2026-09-14T18:33:30.439313+00:00",
+  "finished_utc": "2026-09-14T18:35:21.677815+00:00",
+  "exit_code": 0,
+  "wall_seconds": 111.23850222499459,
+  "peak_rss_kib": 324792,
+  "measurement_scope": "this command and descendants; separate from canonical results",
+  "stdout_sha256": "6eaf9da3552eb116cd97b99f93ed7f7a468a09d91074b40619769ae4a1612d7d",
+  "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+}

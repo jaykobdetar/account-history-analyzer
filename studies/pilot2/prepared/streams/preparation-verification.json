@@ -1,0 +1,117 @@
+{
+  "cornell_exclusion_reasons": {
+    "thread_overlaps_confirmation": 7
+  },
+  "formed_source_pairs": 4,
+  "group_audit_sha256": "0839233137ec2f199bb9fe234dd41e25ee769deb8030d8fcd84d90021fe794f4",
+  "implementation_fingerprint": "bfc989028bf2b47c506d1ba501287d4e362aadc25ca5c731c41e4b27a336e179",
+  "joint_audit": {
+    "candidate_pair_cap": 2000000,
+    "candidate_pair_count": 384533,
+    "complete": true,
+    "definition_sha256": "d777c6164446005babd167e91234c4bb646cbb24a4cf6f6f569e58495b6461c6",
+    "record_count": 35275,
+    "status": "audited"
+  },
+  "limitations": [
+    "Cornell has no accepted chronological source account: all7 metadata candidates overlapped selected confirmation threads; four author and two pair slots remain unfilled.",
+    "Chronological cases are exploratory account-ID construction/control proxies, not independent held-out human-authorship truth.",
+    "All groups share the three ConvoKit/Pushshift source archives, and paired/control/omission/natural-view records are dependent.",
+    "Unavailable source prose, absent thread metadata and unmarked quotation remain unknown; observed grouping checks are not proof of full independence.",
+    "No output grid, optimizer, distance, new held-out score or decision threshold was computed during preparation."
+  ],
+  "operational_case_status_counts": {
+    "unfilled_slot": 3,
+    "unknown_truth": 6
+  },
+  "planned_additional_operational_slots": 9,
+  "planned_scientific_case_slots": 51,
+  "preserved_failed_attempt": {
+    "exit_code": 1,
+    "reason": "Operational runpy launch omitted the neighboring script directory from sys.path; stopped before related audit/scoring.",
+    "receipt_sha256": "50beeb23d09cba8b413ccec82ea5986cb7d516e61792338da1e63e9092ab42ed",
+    "resolution": "RLIMIT_AS followed by ordinary Python os.execv; 21 capped launch/helper/guard tests passed."
+  },
+  "protocol_plan_sha256_at_preparation": "26f4d551b4557886c6f67fe7484cd3d139b301ea68fa911a25f4c020f0ab82d8",
+  "resources": {
+    "independent_artifact_checks_peak_rss_kib": 79148,
+    "independent_artifact_checks_wall_seconds": 15.500327051006025,
+    "operational_address_space_cap_bytes": 3221225472,
+    "preparation_peak_rss_kib": 1778116,
+    "preparation_wall_seconds": 104.15351053100312
+  },
+  "scientific_case_status_counts": {
+    "account_id_continuity_proxy": 16,
+    "labeled_construction": 16,
+    "unfilled_slot": 17,
+    "unknown_truth": 2
+  },
+  "scientific_execution_mode_counts": {
+    "None": 17,
+    "analyze_unknown_truth": 2,
+    "evaluate": 32
+  },
+  "scoring_executed": false,
+  "selected_source_accounts": 8,
+  "selection_reason_counts": {
+    "below_8000_eligible_retained_words": 1,
+    "home_slots_filled_by_earlier_hash_rank": 175,
+    "thread_overlaps_confirmation": 226
+  },
+  "selection_status_counts": {
+    "excluded": 227,
+    "not_selected": 175,
+    "selected": 8
+  },
+  "source_receipt": {
+    "actual_inputs_independently_pass_new_pool_binding": true,
+    "executed_preparation_script_sha256": "664b58939bc8b03c656a58b0c4767f26cc5aacdae545f711acdc2de39de70a8a",
+    "final_driver_script_sha256": "f91d5336912c14127c8a3a08e4df2f326e1c00b9350369a137cfe2f3909e8d9f",
+    "guard_only_diff_sha256": "9b02cf24b63c7b88a5db86631ad84a4333191396a5a98c81f81ba733b9e42c0c",
+    "post_run_change": "Approved input-pool completeness hash and whole-freeze-file read guards only; no sampling, text, input, selection, grouping or numerical method changes."
+  },
+  "status": "verified_prepared_not_scored",
+  "stream_plan_sha256": "07e90b945b04517b6b359c19188c0d15700b6170227d80af7b988645c1b099c0",
+  "tests": {
+    "actual_checks": [
+      "All three archives re-read to verify complete selected available comment histories.",
+      "Present source text, original IDs, actual timestamp instants, statuses and reference metadata preserved.",
+      "All fixed omission survivors and ordinal mappings verified.",
+      "Whole-history union-median cuts checked independently.",
+      "Full selected paired-pool hash bound; all frozen prepared input hashes checked.",
+      "Selected authors disjoint from all36 paired accounts; retained chronological IDs excluded from confirmation-related components."
+    ],
+    "all_passed": true,
+    "helper_and_guard_tests": 21,
+    "independent_actual_prepared_artifact_tests": 5
+  },
+  "unfilled_slots": [
+    {
+      "formed_pairs": 2,
+      "home_community": "ApplyingToCollege",
+      "planned_authors": 4,
+      "planned_source_pairs": 2,
+      "selected_authors": 4,
+      "unfilled_author_slots": 0,
+      "unpaired_selected_author_count": 0
+    },
+    {
+      "formed_pairs": 0,
+      "home_community": "Cornell",
+      "planned_authors": 4,
+      "planned_source_pairs": 2,
+      "selected_authors": 0,
+      "unfilled_author_slots": 4,
+      "unpaired_selected_author_count": 0
+    },
+    {
+      "formed_pairs": 2,
+      "home_community": "college",
+      "planned_authors": 4,
+      "planned_source_pairs": 2,
+      "selected_authors": 4,
+      "unfilled_author_slots": 0,
+      "unpaired_selected_author_count": 0
+    }
+  ]
+}

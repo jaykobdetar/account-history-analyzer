@@ -1,0 +1,425 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "AHAS V1 local evaluation_paired_text",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "schema_version",
+    "dataset_id",
+    "provenance",
+    "label_definition",
+    "format",
+    "protocol",
+    "texts",
+    "pairs"
+  ],
+  "properties": {
+    "schema_version": {
+      "const": "1.0.0"
+    },
+    "dataset_id": {
+      "type": "string",
+      "minLength": 1,
+      "maxLength": 256
+    },
+    "provenance": {
+      "type": "string",
+      "minLength": 1,
+      "maxLength": 4096
+    },
+    "label_definition": {
+      "type": "string",
+      "minLength": 1,
+      "maxLength": 4096
+    },
+    "format": {
+      "const": "paired_text"
+    },
+    "protocol": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "analysis_config_sha256",
+        "registered_before_evaluation",
+        "preregistration_provenance",
+        "distance",
+        "frozen_threshold"
+      ],
+      "properties": {
+        "analysis_config_sha256": {
+          "type": "string",
+          "pattern": "^[0-9a-f]{64}$"
+        },
+        "registered_before_evaluation": {
+          "const": true
+        },
+        "preregistration_provenance": {
+          "type": "string",
+          "minLength": 1,
+          "maxLength": 4096
+        },
+        "distance": {
+          "oneOf": [
+            {
+              "type": "object",
+              "additionalProperties": false,
+              "required": [
+                "method_id",
+                "view",
+                "n"
+              ],
+              "properties": {
+                "method_id": {
+                  "const": "cosine_distance_v1"
+                },
+                "view": {
+                  "enum": [
+                    "retained_prose",
+                    "function_mask_v1"
+                  ]
+                },
+                "n": {
+                  "enum": [
+                    3,
+                    4,
+                    5
+                  ]
+                }
+              }
+            },
+            {
+              "type": "object",
+              "additionalProperties": false,
+              "required": [
+                "method_id",
+                "view",
+                "n"
+              ],
+              "properties": {
+                "method_id": {
+                  "enum": [
+                    "function_word_js_v1",
+                    "classic_delta_v1"
+                  ]
+                },
+                "view": {
+                  "const": "lexical_tokens"
+                },
+                "n": {
+                  "type": "null"
+                }
+              }
+            }
+          ]
+        },
+        "frozen_threshold": {
+          "oneOf": [
+            {
+              "type": "null"
+            },
+            {
+              "type": "object",
+              "additionalProperties": false,
+              "required": [
+                "value",
+                "positive_label",
+                "operator",
+                "selected_on",
+                "development_pair_ids",
+                "development_dataset_sha256",
+                "analysis_config_sha256",
+                "method_sha256",
+                "distance",
+                "selection_rule",
+                "provenance"
+              ],
+              "properties": {
+                "value": {
+                  "type": "number",
+                  "minimum": 0
+                },
+                "positive_label": {
+                  "const": "different_author"
+                },
+                "operator": {
+                  "const": ">="
+                },
+                "selected_on": {
+                  "const": "development"
+                },
+                "development_pair_ids": {
+                  "type": "array",
+                  "items": {
+                    "type": "string",
+                    "minLength": 1,
+                    "maxLength": 256
+                  },
+                  "uniqueItems": true,
+                  "minItems": 1
+                },
+                "development_dataset_sha256": {
+                  "type": "string",
+                  "pattern": "^[0-9a-f]{64}$"
+                },
+                "analysis_config_sha256": {
+                  "type": "string",
+                  "pattern": "^[0-9a-f]{64}$"
+                },
+                "method_sha256": {
+                  "type": "string",
+                  "pattern": "^[0-9a-f]{64}$"
+                },
+                "distance": {
+                  "oneOf": [
+                    {
+                      "type": "object",
+                      "additionalProperties": false,
+                      "required": [
+                        "method_id",
+                        "view",
+                        "n"
+                      ],
+                      "properties": {
+                        "method_id": {
+                          "const": "cosine_distance_v1"
+                        },
+                        "view": {
+                          "enum": [
+                            "retained_prose",
+                            "function_mask_v1"
+                          ]
+                        },
+                        "n": {
+                          "enum": [
+                            3,
+                            4,
+                            5
+                          ]
+                        }
+                      }
+                    },
+                    {
+                      "type": "object",
+                      "additionalProperties": false,
+                      "required": [
+                        "method_id",
+                        "view",
+                        "n"
+                      ],
+                      "properties": {
+                        "method_id": {
+                          "enum": [
+                            "function_word_js_v1",
+                            "classic_delta_v1"
+                          ]
+                        },
+                        "view": {
+                          "const": "lexical_tokens"
+                        },
+                        "n": {
+                          "type": "null"
+                        }
+                      }
+                    }
+                  ]
+                },
+                "selection_rule": {
+                  "type": "string",
+                  "minLength": 1,
+                  "maxLength": 4096
+                },
+                "provenance": {
+                  "type": "string",
+                  "minLength": 1,
+                  "maxLength": 4096
+                }
+              }
+            }
+          ]
+        }
+      }
+    },
+    "texts": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": [
+          "text_id",
+          "input",
+          "manifest"
+        ],
+        "properties": {
+          "text_id": {
+            "type": "string",
+            "minLength": 1,
+            "maxLength": 256
+          },
+          "input": {
+            "type": "string",
+            "minLength": 1,
+            "maxLength": 4096
+          },
+          "manifest": {
+            "type": "string",
+            "minLength": 1,
+            "maxLength": 4096
+          },
+          "selector": {
+            "type": "object",
+            "additionalProperties": false,
+            "properties": {
+              "start_utc": {
+                "type": [
+                  "string",
+                  "null"
+                ],
+                "pattern": "^\\d{4}-\\d{2}-\\d{2}T\\d{2}:\\d{2}:\\d{2}(?:\\.\\d{1,6})?Z$",
+                "format": "date-time",
+                "default": null
+              },
+              "end_utc": {
+                "type": [
+                  "string",
+                  "null"
+                ],
+                "pattern": "^\\d{4}-\\d{2}-\\d{2}T\\d{2}:\\d{2}:\\d{2}(?:\\.\\d{1,6})?Z$",
+                "format": "date-time",
+                "default": null
+              },
+              "ids": {
+                "type": [
+                  "array",
+                  "null"
+                ],
+                "items": {
+                  "type": "string"
+                },
+                "uniqueItems": true,
+                "default": null
+              },
+              "kind": {
+                "enum": [
+                  "comment",
+                  "submission",
+                  null
+                ],
+                "default": null
+              },
+              "subreddit": {
+                "type": [
+                  "string",
+                  "null"
+                ],
+                "maxLength": 256,
+                "default": null
+              }
+            }
+          },
+          "groups": {
+            "type": "object",
+            "additionalProperties": false,
+            "required": [],
+            "properties": {
+              "author": {
+                "type": "array",
+                "items": {
+                  "type": "string",
+                  "minLength": 1,
+                  "maxLength": 256
+                },
+                "minItems": 1,
+                "uniqueItems": true
+              },
+              "thread": {
+                "type": "array",
+                "items": {
+                  "type": "string",
+                  "minLength": 1,
+                  "maxLength": 256
+                },
+                "minItems": 1,
+                "uniqueItems": true
+              },
+              "source_document": {
+                "type": "array",
+                "items": {
+                  "type": "string",
+                  "minLength": 1,
+                  "maxLength": 256
+                },
+                "minItems": 1,
+                "uniqueItems": true
+              },
+              "near_duplicate_cluster": {
+                "type": "array",
+                "items": {
+                  "type": "string",
+                  "minLength": 1,
+                  "maxLength": 256
+                },
+                "minItems": 1,
+                "uniqueItems": true
+              },
+              "related_sample": {
+                "type": "array",
+                "items": {
+                  "type": "string",
+                  "minLength": 1,
+                  "maxLength": 256
+                },
+                "minItems": 1,
+                "uniqueItems": true
+              }
+            }
+          }
+        }
+      },
+      "maxItems": 1000
+    },
+    "pairs": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": [
+          "pair_id",
+          "left_text_id",
+          "right_text_id",
+          "split",
+          "label"
+        ],
+        "properties": {
+          "pair_id": {
+            "type": "string",
+            "minLength": 1,
+            "maxLength": 256
+          },
+          "left_text_id": {
+            "type": "string",
+            "minLength": 1,
+            "maxLength": 256
+          },
+          "right_text_id": {
+            "type": "string",
+            "minLength": 1,
+            "maxLength": 256
+          },
+          "split": {
+            "enum": [
+              "development",
+              "evaluation"
+            ]
+          },
+          "label": {
+            "enum": [
+              "same_author",
+              "different_author"
+            ]
+          }
+        }
+      },
+      "maxItems": 10000
+    }
+  }
+}

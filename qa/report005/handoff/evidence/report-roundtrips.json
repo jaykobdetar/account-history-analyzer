@@ -1,0 +1,143 @@
+{
+  "scope": "Rendering saved analytical values, not recomputing numerical analysis. Actual unmodified modules under local nonreference environment.",
+  "fixtures": {
+    "arithmetic": {
+      "published_rerender_equal": {
+        "report.md": true,
+        "report.html": true,
+        "activity_daily.svg": true,
+        "activity_hourly.svg": true,
+        "eligible_word_volume.svg": true,
+        "surface_features.svg": true,
+        "adjacent_distances.svg": true
+      },
+      "recursive_mapping_reversal": {
+        "included": {
+          "markdown": true,
+          "html": true
+        },
+        "none": {
+          "markdown": true,
+          "html": true
+        }
+      },
+      "input_result_unchanged": true,
+      "canonical_map_reversal_equal": true
+    },
+    "constructed_style_shift": {
+      "published_rerender_equal": {
+        "report.md": true,
+        "report.html": true,
+        "activity_daily.svg": true,
+        "activity_hourly.svg": true,
+        "eligible_word_volume.svg": true,
+        "surface_features.svg": true,
+        "adjacent_distances.svg": true
+      },
+      "recursive_mapping_reversal": {
+        "included": {
+          "markdown": true,
+          "html": true
+        },
+        "none": {
+          "markdown": true,
+          "html": true
+        }
+      },
+      "input_result_unchanged": true,
+      "canonical_map_reversal_equal": true
+    },
+    "constructed_topic_shift": {
+      "published_rerender_equal": {
+        "report.md": true,
+        "report.html": true,
+        "activity_daily.svg": true,
+        "activity_hourly.svg": true,
+        "eligible_word_volume.svg": true,
+        "surface_features.svg": true,
+        "adjacent_distances.svg": true
+      },
+      "recursive_mapping_reversal": {
+        "included": {
+          "markdown": true,
+          "html": true
+        },
+        "none": {
+          "markdown": true,
+          "html": true
+        }
+      },
+      "input_result_unchanged": true,
+      "canonical_map_reversal_equal": true
+    },
+    "edge_cases": {
+      "published_rerender_equal": {
+        "report.md": true,
+        "report.html": true,
+        "activity_daily.svg": true,
+        "activity_hourly.svg": true,
+        "eligible_word_volume.svg": true,
+        "surface_features.svg": true,
+        "adjacent_distances.svg": true
+      },
+      "recursive_mapping_reversal": {
+        "included": {
+          "markdown": true,
+          "html": true
+        },
+        "none": {
+          "markdown": true,
+          "html": true
+        }
+      },
+      "input_result_unchanged": true,
+      "canonical_map_reversal_equal": true
+    },
+    "empty": {
+      "published_rerender_equal": {
+        "report.md": true,
+        "report.html": true,
+        "activity_daily.svg": true,
+        "activity_hourly.svg": true,
+        "eligible_word_volume.svg": true,
+        "surface_features.svg": true,
+        "adjacent_distances.svg": true
+      },
+      "recursive_mapping_reversal": {
+        "included": {
+          "markdown": true,
+          "html": true
+        },
+        "none": {
+          "markdown": true,
+          "html": true
+        }
+      },
+      "input_result_unchanged": true,
+      "canonical_map_reversal_equal": true
+    },
+    "stable_constructed_style": {
+      "published_rerender_equal": {
+        "report.md": true,
+        "report.html": true,
+        "activity_daily.svg": true,
+        "activity_hourly.svg": true,
+        "eligible_word_volume.svg": true,
+        "surface_features.svg": true,
+        "adjacent_distances.svg": true
+      },
+      "recursive_mapping_reversal": {
+        "included": {
+          "markdown": true,
+          "html": true
+        },
+        "none": {
+          "markdown": true,
+          "html": true
+        }
+      },
+      "input_result_unchanged": true,
+      "canonical_map_reversal_equal": true
+    }
+  }
+}

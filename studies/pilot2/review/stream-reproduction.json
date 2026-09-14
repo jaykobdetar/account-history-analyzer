@@ -1,0 +1,35 @@
+{
+  "status": "passed",
+  "splice_canonical_sha256": {
+    "evaluation.json": "c4f5017a039b9cbb386502fb367144abcbff18fa29d810c401ffd98e8905dc0c",
+    "report.md": "a35b5737e5853e207c2a374498f052e4f47f6b19e35b4f62fdb3e836bf1de301",
+    "checksums.json": "06e31b5ce899b148310a9c24e7e3ee4c6522eaf9a1a85d749857073c68911a69"
+  },
+  "splice_grid_diagnostic_byte_identical": true,
+  "natural_verification": {
+    "checked_artifacts": 13,
+    "reproduced_artifacts": [
+      "activity_daily.svg",
+      "activity_hourly.svg",
+      "adjacent_distances.svg",
+      "checksums.json",
+      "eligible_word_volume.svg",
+      "evidence.jsonl",
+      "method_registry.json",
+      "records_features.jsonl",
+      "report.html",
+      "report.md",
+      "resolved_config.json",
+      "results.json",
+      "surface_features.svg",
+      "windows.jsonl"
+    ],
+    "results_sha256": "d7e72942f8cd23794475548a8825bb821d662629290e3f6b9d16a07d282200e8",
+    "status": "reproduced",
+    "verification_scope": "all_canonical_artifacts"
+  },
+  "splice_receipt": "logs/splice-canonical-replay.receipt.json",
+  "natural_receipt": "logs/natural-canonical-recompute.receipt.json",
+  "receipts_excluded_from_canonical_identity": true,
+  "cross_platform_byte_identity_claimed": false
+}

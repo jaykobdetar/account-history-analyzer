@@ -1,0 +1,32 @@
+{
+  "earlier_check_harness_failures": [
+    "Initial read-only predicate expected execution_status unfilled; stored vocabulary is not_executed with preparation_status unfilled_slot.",
+    "Initial grid predicate did not handle stored null diagnostics for unfilled slots. Corrected to preserve null semantics. Neither failure changed artifacts."
+  ],
+  "executed_full_splices_matched": 3,
+  "executed_full_splices_without_candidate": 1,
+  "executed_stream_slots": 40,
+  "main_metric_rows_verified_in_markdown_and_html": 9,
+  "main_review_sha256": "0256ca8acee3e916f4030077c195369820ece87eccd533be9d7e657b5326a416",
+  "new_analyses_executed": 0,
+  "pair_observations": 1152,
+  "paired_batches": 72,
+  "promised_companion_files_present": [
+    "review/PAIRED_OUTCOMES.html",
+    "review/STREAM_OUTCOMES.html",
+    "review/PREPARATION_REVIEW.md",
+    "review/RESOURCE_COST.md",
+    "review/COMMANDS.md",
+    "protocol/PROTOCOL.md",
+    "review/paired-metrics.csv",
+    "review/pair-observations.json",
+    "review/paired-outcomes.json",
+    "review/stream-outcomes.json",
+    "repair/source-release-verification.json"
+  ],
+  "required_local_corpora_explicitly_excluded_from_sanitized_bundle": true,
+  "separate_source_release_explicitly_identified_by_sha256": true,
+  "status": "passed",
+  "stream_slots": 60,
+  "unfilled_stream_slots": 20
+}

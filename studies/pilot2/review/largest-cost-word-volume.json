@@ -1,0 +1,31 @@
+{
+  "case_id": "chrono-college-pair2-splice-drop_Cornell",
+  "eligible_style_records": 303,
+  "eligible_style_words": 30524,
+  "implementation_fingerprint": "bfc989028bf2b47c506d1ba501287d4e362aadc25ca5c731c41e4b27a336e179",
+  "language_counts": {
+    "en": 434
+  },
+  "largest_single_record_retained_words": 629,
+  "manifest_sha256": "aa7c12fc8bc5d6754b22755f5061f97c1967948cf7ebfc863c82ee2575c46a5e",
+  "network_isolation": "linux_seccomp_socket_denial",
+  "new_analysis_pipeline_invocations": 0,
+  "optimizer_calls": 0,
+  "outer_peak_rss_kib": 1707808,
+  "preprocessor_calls": 434,
+  "record_count": 434,
+  "reference_environment": "CPython-3.12.3;Linux;x86_64;numpy=2.4.2;scipy=1.17.1;ruptures=1.1.10;markdown-it-py=3.0.0;jsonschema=4.26.0",
+  "retained_body_words": 31847,
+  "review_script_sha256": "0ba22cb9ccb242fab4b92ac9b35c54147fdcbb593abe683ac12d2bf1570772ff",
+  "scope": "post_score_operational_characterization_not_selection_or_scientific_outcome",
+  "scoring_freeze_sha256": "fba67a5a1c8ddc51c66cbe67c0ff02c317a776df382d5cd3c412d858e7de8df5",
+  "selection_rule": "highest_recorded_outer_peak_rss_among_executed_splices_ties_case_id",
+  "snapshot_sha256": "eddc99908347ec31f374a3c7eeb88984df11a4159c19929e876ac4d0cf41649e",
+  "source_and_existing_result_bytes_unchanged": true,
+  "source_input_sha256": "04b9a2206a8e7cb8dd6abb9411d18984881d6debbbfc05ac02b37ff986de5f02",
+  "status_counts": {
+    "present": 434
+  },
+  "style_distance_calls": 0,
+  "usable_body_records": 434
+}

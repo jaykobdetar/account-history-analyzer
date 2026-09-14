@@ -1,0 +1,26 @@
+{
+  "command": [
+    ".venv/bin/python",
+    "scripts/offline_exec.py",
+    "env",
+    "PYTHONHASHSEED=17",
+    "TZ=Pacific/Kiritimati",
+    ".venv/bin/python",
+    "/home/jaykob/.codex/visualizations/2026/09/13/01a09a32-1ca6-7983-93da-5f7da689ab16/ahas-pilot2-20260914/scripts/run_stream_batch.py",
+    "--jobs",
+    "1",
+    "--only",
+    "chrono-ApplyingToCollege-pair1-splice-full",
+    "--destination",
+    "outputs/replay-splice"
+  ],
+  "cwd": "/home/jaykob/Downloads/Account_History_Analyzer_V1_Agent_Handoff/account_history_analyzer_v1",
+  "started_utc": "2026-09-14T19:53:20.616871+00:00",
+  "finished_utc": "2026-09-14T19:54:02.058017+00:00",
+  "exit_code": 0,
+  "wall_seconds": 41.44115023201448,
+  "peak_rss_kib": 742592,
+  "measurement_scope": "this command and descendants; separate from canonical results",
+  "stdout_sha256": "efda270cab8372a2f44b9aa42470ec65d60c4f3de5737d79a0f99ac6fa31dd81",
+  "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+}

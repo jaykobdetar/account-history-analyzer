@@ -1,0 +1,69 @@
+{
+  "network_isolation": "linux_seccomp_socket_denial",
+  "command": [
+    "python3.12",
+    "scripts/offline_exec.py",
+    ".venv/bin/python",
+    "-"
+  ],
+  "rows": [
+    {
+      "configuration": "current_default",
+      "snapshot_sha256": "f424d715c02bc152b18aa355d4f8f35b579b383563fbe05c96792cd97f187967",
+      "unique_records": 1000,
+      "runtime_seconds": 3.234062309988076,
+      "near_status": "resource_limit",
+      "resource_limit_reason": "max_work_units",
+      "candidate_pair_count": 499500,
+      "candidate_count_is_lower_bound": false,
+      "qualifying_pairs": 0,
+      "exact_groups": 0,
+      "resource_usage": {
+        "method": "reuse_work_units_v1",
+        "work_units": 12583549,
+        "index_postings": 70977,
+        "evidence_tokens": 0,
+        "evidence_codepoints": 0
+      },
+      "resource_limits": {
+        "max_work_units": 20000000,
+        "max_index_postings": 2000000,
+        "max_evidence_tokens": 2000000,
+        "max_evidence_codepoints": 8000000
+      }
+    },
+    {
+      "configuration": "measurement_capacity",
+      "snapshot_sha256": "f424d715c02bc152b18aa355d4f8f35b579b383563fbe05c96792cd97f187967",
+      "unique_records": 1000,
+      "runtime_seconds": 6.165296077990206,
+      "near_status": "ok",
+      "resource_limit_reason": null,
+      "candidate_pair_count": 499500,
+      "candidate_count_is_lower_bound": false,
+      "qualifying_pairs": 0,
+      "exact_groups": 0,
+      "resource_usage": {
+        "method": "reuse_work_units_v1",
+        "work_units": 209280929,
+        "index_postings": 70977,
+        "evidence_tokens": 0,
+        "evidence_codepoints": 0
+      },
+      "resource_limits": {
+        "max_work_units": 1000000000,
+        "max_index_postings": 2000000,
+        "max_evidence_tokens": 2000000,
+        "max_evidence_codepoints": 8000000
+      }
+    }
+  ],
+  "stdin_source_path": "qa/audit-repair/reuse-independent-benchmark.py",
+  "stdin_source_sha256": "05095e310666eedcf6e86c5db52a540bf466d6c72ac2ed27b8bc9a5492802f4b",
+  "exit_code": 0,
+  "cwd": "/home/jaykob/Downloads/Account_History_Analyzer_V1_Agent_Handoff/account_history_analyzer_v1",
+  "timing_scope": "analyze_reuse only; snapshot loading and feature extraction excluded",
+  "timing_isolation": "exploratory; exclusive CPU access was not asserted",
+  "configuration_note": "current_default captured the then-current 20,000,000-unit cap; each row records its actual resource limits. Subsequent defaults may differ.",
+  "provenance_note": "Source saved from the actual completed stdin probe after execution; this JSON adds exact argv/source provenance to its original measurements without rerunning the probe."
+}

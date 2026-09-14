@@ -1,0 +1,11 @@
+{
+  "label_scope": "Proposed candidate formula plus actual md_text and pinned Markdown-to-HTML pipeline",
+  "distinct_unicode_scalar_strings_roundtripped": 965,
+  "label_roundtrip": "passed",
+  "only_expected_table_tags_and_no_attributes": true,
+  "omission_scope": "Actual full report render from supplied 1.0.2 style-shift measurements; no analysis recomputation",
+  "replaced_cosine_feature_labels": 124714,
+  "replaced_evidence_texts": 1187,
+  "excerpt_none_markdown_byte_identity": "passed",
+  "excerpt_none_html_byte_identity": "passed"
+}

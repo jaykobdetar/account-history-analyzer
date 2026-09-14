@@ -1,0 +1,1303 @@
+{
+  "status": "passed",
+  "checks": "Brute positive-negative AUC and exact rational whole-tie AP; null/coverage/threshold contracts.",
+  "partition_count": 144,
+  "rows": [
+    {
+      "dataset": "scored/datasets/ApplyingToCollege.cross_community.drop_Cornell.retained_prose_n4.json",
+      "partition": "development",
+      "roc_auc": null,
+      "average_precision": null,
+      "scored": 0,
+      "total": 8,
+      "abstained": 8
+    },
+    {
+      "dataset": "scored/datasets/ApplyingToCollege.cross_community.drop_Cornell.retained_prose_n4.json",
+      "partition": "evaluation",
+      "roc_auc": null,
+      "average_precision": null,
+      "scored": 0,
+      "total": 8,
+      "abstained": 8
+    },
+    {
+      "dataset": "scored/datasets/ApplyingToCollege.cross_community.drop_Cornell.function_mask_n4.json",
+      "partition": "development",
+      "roc_auc": null,
+      "average_precision": null,
+      "scored": 0,
+      "total": 8,
+      "abstained": 8
+    },
+    {
+      "dataset": "scored/datasets/ApplyingToCollege.cross_community.drop_Cornell.function_mask_n4.json",
+      "partition": "evaluation",
+      "roc_auc": null,
+      "average_precision": null,
+      "scored": 0,
+      "total": 8,
+      "abstained": 8
+    },
+    {
+      "dataset": "scored/datasets/ApplyingToCollege.cross_community.drop_Cornell.function_word_js.json",
+      "partition": "development",
+      "roc_auc": null,
+      "average_precision": null,
+      "scored": 0,
+      "total": 8,
+      "abstained": 8
+    },
+    {
+      "dataset": "scored/datasets/ApplyingToCollege.cross_community.drop_Cornell.function_word_js.json",
+      "partition": "evaluation",
+      "roc_auc": null,
+      "average_precision": null,
+      "scored": 0,
+      "total": 8,
+      "abstained": 8
+    },
+    {
+      "dataset": "scored/datasets/ApplyingToCollege.cross_community.full.retained_prose_n4.json",
+      "partition": "development",
+      "roc_auc": null,
+      "average_precision": null,
+      "scored": 0,
+      "total": 8,
+      "abstained": 8
+    },
+    {
+      "dataset": "scored/datasets/ApplyingToCollege.cross_community.full.retained_prose_n4.json",
+      "partition": "evaluation",
+      "roc_auc": null,
+      "average_precision": null,
+      "scored": 0,
+      "total": 8,
+      "abstained": 8
+    },
+    {
+      "dataset": "scored/datasets/ApplyingToCollege.cross_community.full.function_mask_n4.json",
+      "partition": "development",
+      "roc_auc": null,
+      "average_precision": null,
+      "scored": 0,
+      "total": 8,
+      "abstained": 8
+    },
+    {
+      "dataset": "scored/datasets/ApplyingToCollege.cross_community.full.function_mask_n4.json",
+      "partition": "evaluation",
+      "roc_auc": null,
+      "average_precision": null,
+      "scored": 0,
+      "total": 8,
+      "abstained": 8
+    },
+    {
+      "dataset": "scored/datasets/ApplyingToCollege.cross_community.full.function_word_js.json",
+      "partition": "development",
+      "roc_auc": null,
+      "average_precision": null,
+      "scored": 0,
+      "total": 8,
+      "abstained": 8
+    },
+    {
+      "dataset": "scored/datasets/ApplyingToCollege.cross_community.full.function_word_js.json",
+      "partition": "evaluation",
+      "roc_auc": null,
+      "average_precision": null,
+      "scored": 0,
+      "total": 8,
+      "abstained": 8
+    },
+    {
+      "dataset": "scored/datasets/ApplyingToCollege.cross_community.hash50.retained_prose_n4.json",
+      "partition": "development",
+      "roc_auc": null,
+      "average_precision": null,
+      "scored": 0,
+      "total": 8,
+      "abstained": 8
+    },
+    {
+      "dataset": "scored/datasets/ApplyingToCollege.cross_community.hash50.retained_prose_n4.json",
+      "partition": "evaluation",
+      "roc_auc": null,
+      "average_precision": null,
+      "scored": 0,
+      "total": 8,
+      "abstained": 8
+    },
+    {
+      "dataset": "scored/datasets/ApplyingToCollege.cross_community.hash50.function_mask_n4.json",
+      "partition": "development",
+      "roc_auc": null,
+      "average_precision": null,
+      "scored": 0,
+      "total": 8,
+      "abstained": 8
+    },
+    {
+      "dataset": "scored/datasets/ApplyingToCollege.cross_community.hash50.function_mask_n4.json",
+      "partition": "evaluation",
+      "roc_auc": null,
+      "average_precision": null,
+      "scored": 0,
+      "total": 8,
+      "abstained": 8
+    },
+    {
+      "dataset": "scored/datasets/ApplyingToCollege.cross_community.hash50.function_word_js.json",
+      "partition": "development",
+      "roc_auc": null,
+      "average_precision": null,
+      "scored": 0,
+      "total": 8,
+      "abstained": 8
+    },
+    {
+      "dataset": "scored/datasets/ApplyingToCollege.cross_community.hash50.function_word_js.json",
+      "partition": "evaluation",
+      "roc_auc": null,
+      "average_precision": null,
+      "scored": 0,
+      "total": 8,
+      "abstained": 8
+    },
+    {
+      "dataset": "scored/datasets/ApplyingToCollege.cross_community.middle50.retained_prose_n4.json",
+      "partition": "development",
+      "roc_auc": null,
+      "average_precision": null,
+      "scored": 0,
+      "total": 8,
+      "abstained": 8
+    },
+    {
+      "dataset": "scored/datasets/ApplyingToCollege.cross_community.middle50.retained_prose_n4.json",
+      "partition": "evaluation",
+      "roc_auc": null,
+      "average_precision": null,
+      "scored": 0,
+      "total": 8,
+      "abstained": 8
+    },
+    {
+      "dataset": "scored/datasets/ApplyingToCollege.cross_community.middle50.function_mask_n4.json",
+      "partition": "development",
+      "roc_auc": null,
+      "average_precision": null,
+      "scored": 0,
+      "total": 8,
+      "abstained": 8
+    },
+    {
+      "dataset": "scored/datasets/ApplyingToCollege.cross_community.middle50.function_mask_n4.json",
+      "partition": "evaluation",
+      "roc_auc": null,
+      "average_precision": null,
+      "scored": 0,
+      "total": 8,
+      "abstained": 8
+    },
+    {
+      "dataset": "scored/datasets/ApplyingToCollege.cross_community.middle50.function_word_js.json",
+      "partition": "development",
+      "roc_auc": null,
+      "average_precision": null,
+      "scored": 0,
+      "total": 8,
+      "abstained": 8
+    },
+    {
+      "dataset": "scored/datasets/ApplyingToCollege.cross_community.middle50.function_word_js.json",
+      "partition": "evaluation",
+      "roc_auc": null,
+      "average_precision": null,
+      "scored": 0,
+      "total": 8,
+      "abstained": 8
+    },
+    {
+      "dataset": "scored/datasets/ApplyingToCollege.within_community.drop_Cornell.retained_prose_n4.json",
+      "partition": "development",
+      "roc_auc": 0.875,
+      "average_precision": 0.9166666666666666,
+      "scored": 8,
+      "total": 8,
+      "abstained": 0
+    },
+    {
+      "dataset": "scored/datasets/ApplyingToCollege.within_community.drop_Cornell.retained_prose_n4.json",
+      "partition": "evaluation",
+      "roc_auc": 1.0,
+      "average_precision": 1.0,
+      "scored": 8,
+      "total": 8,
+      "abstained": 0
+    },
+    {
+      "dataset": "scored/datasets/ApplyingToCollege.within_community.drop_Cornell.function_mask_n4.json",
+      "partition": "development",
+      "roc_auc": 0.75,
+      "average_precision": 0.8303571428571429,
+      "scored": 8,
+      "total": 8,
+      "abstained": 0
+    },
+    {
+      "dataset": "scored/datasets/ApplyingToCollege.within_community.drop_Cornell.function_mask_n4.json",
+      "partition": "evaluation",
+      "roc_auc": 0.625,
+      "average_precision": 0.6083333333333333,
+      "scored": 8,
+      "total": 8,
+      "abstained": 0
+    },
+    {
+      "dataset": "scored/datasets/ApplyingToCollege.within_community.drop_Cornell.function_word_js.json",
+      "partition": "development",
+      "roc_auc": 0.875,
+      "average_precision": 0.8875,
+      "scored": 8,
+      "total": 8,
+      "abstained": 0
+    },
+    {
+      "dataset": "scored/datasets/ApplyingToCollege.within_community.drop_Cornell.function_word_js.json",
+      "partition": "evaluation",
+      "roc_auc": 1.0,
+      "average_precision": 1.0,
+      "scored": 8,
+      "total": 8,
+      "abstained": 0
+    },
+    {
+      "dataset": "scored/datasets/ApplyingToCollege.within_community.full.retained_prose_n4.json",
+      "partition": "development",
+      "roc_auc": 0.875,
+      "average_precision": 0.9166666666666666,
+      "scored": 8,
+      "total": 8,
+      "abstained": 0
+    },
+    {
+      "dataset": "scored/datasets/ApplyingToCollege.within_community.full.retained_prose_n4.json",
+      "partition": "evaluation",
+      "roc_auc": 1.0,
+      "average_precision": 1.0,
+      "scored": 8,
+      "total": 8,
+      "abstained": 0
+    },
+    {
+      "dataset": "scored/datasets/ApplyingToCollege.within_community.full.function_mask_n4.json",
+      "partition": "development",
+      "roc_auc": 0.75,
+      "average_precision": 0.8303571428571429,
+      "scored": 8,
+      "total": 8,
+      "abstained": 0
+    },
+    {
+      "dataset": "scored/datasets/ApplyingToCollege.within_community.full.function_mask_n4.json",
+      "partition": "evaluation",
+      "roc_auc": 0.625,
+      "average_precision": 0.6083333333333333,
+      "scored": 8,
+      "total": 8,
+      "abstained": 0
+    },
+    {
+      "dataset": "scored/datasets/ApplyingToCollege.within_community.full.function_word_js.json",
+      "partition": "development",
+      "roc_auc": 0.875,
+      "average_precision": 0.8875,
+      "scored": 8,
+      "total": 8,
+      "abstained": 0
+    },
+    {
+      "dataset": "scored/datasets/ApplyingToCollege.within_community.full.function_word_js.json",
+      "partition": "evaluation",
+      "roc_auc": 1.0,
+      "average_precision": 1.0,
+      "scored": 8,
+      "total": 8,
+      "abstained": 0
+    },
+    {
+      "dataset": "scored/datasets/ApplyingToCollege.within_community.hash50.retained_prose_n4.json",
+      "partition": "development",
+      "roc_auc": 0.875,
+      "average_precision": 0.9166666666666666,
+      "scored": 8,
+      "total": 8,
+      "abstained": 0
+    },
+    {
+      "dataset": "scored/datasets/ApplyingToCollege.within_community.hash50.retained_prose_n4.json",
+      "partition": "evaluation",
+      "roc_auc": 0.7777777777777778,
+      "average_precision": 0.8666666666666667,
+      "scored": 6,
+      "total": 8,
+      "abstained": 2
+    },
+    {
+      "dataset": "scored/datasets/ApplyingToCollege.within_community.hash50.function_mask_n4.json",
+      "partition": "development",
+      "roc_auc": 0.8125,
+      "average_precision": 0.8928571428571429,
+      "scored": 8,
+      "total": 8,
+      "abstained": 0
+    },
+    {
+      "dataset": "scored/datasets/ApplyingToCollege.within_community.hash50.function_mask_n4.json",
+      "partition": "evaluation",
+      "roc_auc": 0.6666666666666666,
+      "average_precision": 0.7555555555555555,
+      "scored": 6,
+      "total": 8,
+      "abstained": 2
+    },
+    {
+      "dataset": "scored/datasets/ApplyingToCollege.within_community.hash50.function_word_js.json",
+      "partition": "development",
+      "roc_auc": 0.8125,
+      "average_precision": 0.8541666666666666,
+      "scored": 8,
+      "total": 8,
+      "abstained": 0
+    },
+    {
+      "dataset": "scored/datasets/ApplyingToCollege.within_community.hash50.function_word_js.json",
+      "partition": "evaluation",
+      "roc_auc": 0.7777777777777778,
+      "average_precision": 0.8055555555555556,
+      "scored": 6,
+      "total": 8,
+      "abstained": 2
+    },
+    {
+      "dataset": "scored/datasets/ApplyingToCollege.within_community.middle50.retained_prose_n4.json",
+      "partition": "development",
+      "roc_auc": 0.75,
+      "average_precision": 0.7708333333333334,
+      "scored": 8,
+      "total": 8,
+      "abstained": 0
+    },
+    {
+      "dataset": "scored/datasets/ApplyingToCollege.within_community.middle50.retained_prose_n4.json",
+      "partition": "evaluation",
+      "roc_auc": 0.75,
+      "average_precision": 0.8166666666666667,
+      "scored": 8,
+      "total": 8,
+      "abstained": 0
+    },
+    {
+      "dataset": "scored/datasets/ApplyingToCollege.within_community.middle50.function_mask_n4.json",
+      "partition": "development",
+      "roc_auc": 0.75,
+      "average_precision": 0.8303571428571429,
+      "scored": 8,
+      "total": 8,
+      "abstained": 0
+    },
+    {
+      "dataset": "scored/datasets/ApplyingToCollege.within_community.middle50.function_mask_n4.json",
+      "partition": "evaluation",
+      "roc_auc": 0.625,
+      "average_precision": 0.6220238095238095,
+      "scored": 8,
+      "total": 8,
+      "abstained": 0
+    },
+    {
+      "dataset": "scored/datasets/ApplyingToCollege.within_community.middle50.function_word_js.json",
+      "partition": "development",
+      "roc_auc": 0.8125,
+      "average_precision": 0.8041666666666667,
+      "scored": 8,
+      "total": 8,
+      "abstained": 0
+    },
+    {
+      "dataset": "scored/datasets/ApplyingToCollege.within_community.middle50.function_word_js.json",
+      "partition": "evaluation",
+      "roc_auc": 1.0,
+      "average_precision": 1.0,
+      "scored": 8,
+      "total": 8,
+      "abstained": 0
+    },
+    {
+      "dataset": "scored/datasets/Cornell.cross_community.drop_Cornell.retained_prose_n4.json",
+      "partition": "development",
+      "roc_auc": null,
+      "average_precision": null,
+      "scored": 0,
+      "total": 8,
+      "abstained": 8
+    },
+    {
+      "dataset": "scored/datasets/Cornell.cross_community.drop_Cornell.retained_prose_n4.json",
+      "partition": "evaluation",
+      "roc_auc": null,
+      "average_precision": null,
+      "scored": 0,
+      "total": 8,
+      "abstained": 8
+    },
+    {
+      "dataset": "scored/datasets/Cornell.cross_community.drop_Cornell.function_mask_n4.json",
+      "partition": "development",
+      "roc_auc": null,
+      "average_precision": null,
+      "scored": 0,
+      "total": 8,
+      "abstained": 8
+    },
+    {
+      "dataset": "scored/datasets/Cornell.cross_community.drop_Cornell.function_mask_n4.json",
+      "partition": "evaluation",
+      "roc_auc": null,
+      "average_precision": null,
+      "scored": 0,
+      "total": 8,
+      "abstained": 8
+    },
+    {
+      "dataset": "scored/datasets/Cornell.cross_community.drop_Cornell.function_word_js.json",
+      "partition": "development",
+      "roc_auc": null,
+      "average_precision": null,
+      "scored": 0,
+      "total": 8,
+      "abstained": 8
+    },
+    {
+      "dataset": "scored/datasets/Cornell.cross_community.drop_Cornell.function_word_js.json",
+      "partition": "evaluation",
+      "roc_auc": null,
+      "average_precision": null,
+      "scored": 0,
+      "total": 8,
+      "abstained": 8
+    },
+    {
+      "dataset": "scored/datasets/Cornell.cross_community.full.retained_prose_n4.json",
+      "partition": "development",
+      "roc_auc": null,
+      "average_precision": null,
+      "scored": 0,
+      "total": 8,
+      "abstained": 8
+    },
+    {
+      "dataset": "scored/datasets/Cornell.cross_community.full.retained_prose_n4.json",
+      "partition": "evaluation",
+      "roc_auc": null,
+      "average_precision": null,
+      "scored": 0,
+      "total": 8,
+      "abstained": 8
+    },
+    {
+      "dataset": "scored/datasets/Cornell.cross_community.full.function_mask_n4.json",
+      "partition": "development",
+      "roc_auc": null,
+      "average_precision": null,
+      "scored": 0,
+      "total": 8,
+      "abstained": 8
+    },
+    {
+      "dataset": "scored/datasets/Cornell.cross_community.full.function_mask_n4.json",
+      "partition": "evaluation",
+      "roc_auc": null,
+      "average_precision": null,
+      "scored": 0,
+      "total": 8,
+      "abstained": 8
+    },
+    {
+      "dataset": "scored/datasets/Cornell.cross_community.full.function_word_js.json",
+      "partition": "development",
+      "roc_auc": null,
+      "average_precision": null,
+      "scored": 0,
+      "total": 8,
+      "abstained": 8
+    },
+    {
+      "dataset": "scored/datasets/Cornell.cross_community.full.function_word_js.json",
+      "partition": "evaluation",
+      "roc_auc": null,
+      "average_precision": null,
+      "scored": 0,
+      "total": 8,
+      "abstained": 8
+    },
+    {
+      "dataset": "scored/datasets/Cornell.cross_community.hash50.retained_prose_n4.json",
+      "partition": "development",
+      "roc_auc": null,
+      "average_precision": null,
+      "scored": 0,
+      "total": 8,
+      "abstained": 8
+    },
+    {
+      "dataset": "scored/datasets/Cornell.cross_community.hash50.retained_prose_n4.json",
+      "partition": "evaluation",
+      "roc_auc": null,
+      "average_precision": null,
+      "scored": 0,
+      "total": 8,
+      "abstained": 8
+    },
+    {
+      "dataset": "scored/datasets/Cornell.cross_community.hash50.function_mask_n4.json",
+      "partition": "development",
+      "roc_auc": null,
+      "average_precision": null,
+      "scored": 0,
+      "total": 8,
+      "abstained": 8
+    },
+    {
+      "dataset": "scored/datasets/Cornell.cross_community.hash50.function_mask_n4.json",
+      "partition": "evaluation",
+      "roc_auc": null,
+      "average_precision": null,
+      "scored": 0,
+      "total": 8,
+      "abstained": 8
+    },
+    {
+      "dataset": "scored/datasets/Cornell.cross_community.hash50.function_word_js.json",
+      "partition": "development",
+      "roc_auc": null,
+      "average_precision": null,
+      "scored": 0,
+      "total": 8,
+      "abstained": 8
+    },
+    {
+      "dataset": "scored/datasets/Cornell.cross_community.hash50.function_word_js.json",
+      "partition": "evaluation",
+      "roc_auc": null,
+      "average_precision": null,
+      "scored": 0,
+      "total": 8,
+      "abstained": 8
+    },
+    {
+      "dataset": "scored/datasets/Cornell.cross_community.middle50.retained_prose_n4.json",
+      "partition": "development",
+      "roc_auc": null,
+      "average_precision": null,
+      "scored": 0,
+      "total": 8,
+      "abstained": 8
+    },
+    {
+      "dataset": "scored/datasets/Cornell.cross_community.middle50.retained_prose_n4.json",
+      "partition": "evaluation",
+      "roc_auc": null,
+      "average_precision": null,
+      "scored": 0,
+      "total": 8,
+      "abstained": 8
+    },
+    {
+      "dataset": "scored/datasets/Cornell.cross_community.middle50.function_mask_n4.json",
+      "partition": "development",
+      "roc_auc": null,
+      "average_precision": null,
+      "scored": 0,
+      "total": 8,
+      "abstained": 8
+    },
+    {
+      "dataset": "scored/datasets/Cornell.cross_community.middle50.function_mask_n4.json",
+      "partition": "evaluation",
+      "roc_auc": null,
+      "average_precision": null,
+      "scored": 0,
+      "total": 8,
+      "abstained": 8
+    },
+    {
+      "dataset": "scored/datasets/Cornell.cross_community.middle50.function_word_js.json",
+      "partition": "development",
+      "roc_auc": null,
+      "average_precision": null,
+      "scored": 0,
+      "total": 8,
+      "abstained": 8
+    },
+    {
+      "dataset": "scored/datasets/Cornell.cross_community.middle50.function_word_js.json",
+      "partition": "evaluation",
+      "roc_auc": null,
+      "average_precision": null,
+      "scored": 0,
+      "total": 8,
+      "abstained": 8
+    },
+    {
+      "dataset": "scored/datasets/Cornell.within_community.drop_Cornell.retained_prose_n4.json",
+      "partition": "development",
+      "roc_auc": null,
+      "average_precision": null,
+      "scored": 0,
+      "total": 8,
+      "abstained": 8
+    },
+    {
+      "dataset": "scored/datasets/Cornell.within_community.drop_Cornell.retained_prose_n4.json",
+      "partition": "evaluation",
+      "roc_auc": null,
+      "average_precision": null,
+      "scored": 0,
+      "total": 8,
+      "abstained": 8
+    },
+    {
+      "dataset": "scored/datasets/Cornell.within_community.drop_Cornell.function_mask_n4.json",
+      "partition": "development",
+      "roc_auc": null,
+      "average_precision": null,
+      "scored": 0,
+      "total": 8,
+      "abstained": 8
+    },
+    {
+      "dataset": "scored/datasets/Cornell.within_community.drop_Cornell.function_mask_n4.json",
+      "partition": "evaluation",
+      "roc_auc": null,
+      "average_precision": null,
+      "scored": 0,
+      "total": 8,
+      "abstained": 8
+    },
+    {
+      "dataset": "scored/datasets/Cornell.within_community.drop_Cornell.function_word_js.json",
+      "partition": "development",
+      "roc_auc": null,
+      "average_precision": null,
+      "scored": 0,
+      "total": 8,
+      "abstained": 8
+    },
+    {
+      "dataset": "scored/datasets/Cornell.within_community.drop_Cornell.function_word_js.json",
+      "partition": "evaluation",
+      "roc_auc": null,
+      "average_precision": null,
+      "scored": 0,
+      "total": 8,
+      "abstained": 8
+    },
+    {
+      "dataset": "scored/datasets/Cornell.within_community.full.retained_prose_n4.json",
+      "partition": "development",
+      "roc_auc": 0.875,
+      "average_precision": 0.8875,
+      "scored": 8,
+      "total": 8,
+      "abstained": 0
+    },
+    {
+      "dataset": "scored/datasets/Cornell.within_community.full.retained_prose_n4.json",
+      "partition": "evaluation",
+      "roc_auc": 0.75,
+      "average_precision": 0.8333333333333334,
+      "scored": 4,
+      "total": 8,
+      "abstained": 4
+    },
+    {
+      "dataset": "scored/datasets/Cornell.within_community.full.function_mask_n4.json",
+      "partition": "development",
+      "roc_auc": 0.875,
+      "average_precision": 0.9166666666666666,
+      "scored": 8,
+      "total": 8,
+      "abstained": 0
+    },
+    {
+      "dataset": "scored/datasets/Cornell.within_community.full.function_mask_n4.json",
+      "partition": "evaluation",
+      "roc_auc": 0.75,
+      "average_precision": 0.8333333333333334,
+      "scored": 4,
+      "total": 8,
+      "abstained": 4
+    },
+    {
+      "dataset": "scored/datasets/Cornell.within_community.full.function_word_js.json",
+      "partition": "development",
+      "roc_auc": 0.9375,
+      "average_precision": 0.95,
+      "scored": 8,
+      "total": 8,
+      "abstained": 0
+    },
+    {
+      "dataset": "scored/datasets/Cornell.within_community.full.function_word_js.json",
+      "partition": "evaluation",
+      "roc_auc": 0.5,
+      "average_precision": 0.75,
+      "scored": 4,
+      "total": 8,
+      "abstained": 4
+    },
+    {
+      "dataset": "scored/datasets/Cornell.within_community.hash50.retained_prose_n4.json",
+      "partition": "development",
+      "roc_auc": 1.0,
+      "average_precision": 1.0,
+      "scored": 2,
+      "total": 8,
+      "abstained": 6
+    },
+    {
+      "dataset": "scored/datasets/Cornell.within_community.hash50.retained_prose_n4.json",
+      "partition": "evaluation",
+      "roc_auc": null,
+      "average_precision": null,
+      "scored": 0,
+      "total": 8,
+      "abstained": 8
+    },
+    {
+      "dataset": "scored/datasets/Cornell.within_community.hash50.function_mask_n4.json",
+      "partition": "development",
+      "roc_auc": 1.0,
+      "average_precision": 1.0,
+      "scored": 2,
+      "total": 8,
+      "abstained": 6
+    },
+    {
+      "dataset": "scored/datasets/Cornell.within_community.hash50.function_mask_n4.json",
+      "partition": "evaluation",
+      "roc_auc": null,
+      "average_precision": null,
+      "scored": 0,
+      "total": 8,
+      "abstained": 8
+    },
+    {
+      "dataset": "scored/datasets/Cornell.within_community.hash50.function_word_js.json",
+      "partition": "development",
+      "roc_auc": 1.0,
+      "average_precision": 1.0,
+      "scored": 2,
+      "total": 8,
+      "abstained": 6
+    },
+    {
+      "dataset": "scored/datasets/Cornell.within_community.hash50.function_word_js.json",
+      "partition": "evaluation",
+      "roc_auc": null,
+      "average_precision": null,
+      "scored": 0,
+      "total": 8,
+      "abstained": 8
+    },
+    {
+      "dataset": "scored/datasets/Cornell.within_community.middle50.retained_prose_n4.json",
+      "partition": "development",
+      "roc_auc": 1.0,
+      "average_precision": 1.0,
+      "scored": 5,
+      "total": 8,
+      "abstained": 3
+    },
+    {
+      "dataset": "scored/datasets/Cornell.within_community.middle50.retained_prose_n4.json",
+      "partition": "evaluation",
+      "roc_auc": null,
+      "average_precision": null,
+      "scored": 0,
+      "total": 8,
+      "abstained": 8
+    },
+    {
+      "dataset": "scored/datasets/Cornell.within_community.middle50.function_mask_n4.json",
+      "partition": "development",
+      "roc_auc": 0.6666666666666666,
+      "average_precision": 0.8666666666666667,
+      "scored": 5,
+      "total": 8,
+      "abstained": 3
+    },
+    {
+      "dataset": "scored/datasets/Cornell.within_community.middle50.function_mask_n4.json",
+      "partition": "evaluation",
+      "roc_auc": null,
+      "average_precision": null,
+      "scored": 0,
+      "total": 8,
+      "abstained": 8
+    },
+    {
+      "dataset": "scored/datasets/Cornell.within_community.middle50.function_word_js.json",
+      "partition": "development",
+      "roc_auc": 0.6666666666666666,
+      "average_precision": 0.8055555555555556,
+      "scored": 5,
+      "total": 8,
+      "abstained": 3
+    },
+    {
+      "dataset": "scored/datasets/Cornell.within_community.middle50.function_word_js.json",
+      "partition": "evaluation",
+      "roc_auc": null,
+      "average_precision": null,
+      "scored": 0,
+      "total": 8,
+      "abstained": 8
+    },
+    {
+      "dataset": "scored/datasets/college.cross_community.drop_Cornell.retained_prose_n4.json",
+      "partition": "development",
+      "roc_auc": 1.0,
+      "average_precision": 1.0,
+      "scored": 2,
+      "total": 8,
+      "abstained": 6
+    },
+    {
+      "dataset": "scored/datasets/college.cross_community.drop_Cornell.retained_prose_n4.json",
+      "partition": "evaluation",
+      "roc_auc": 1.0,
+      "average_precision": 1.0,
+      "scored": 2,
+      "total": 8,
+      "abstained": 6
+    },
+    {
+      "dataset": "scored/datasets/college.cross_community.drop_Cornell.function_mask_n4.json",
+      "partition": "development",
+      "roc_auc": 0.0,
+      "average_precision": 0.5,
+      "scored": 2,
+      "total": 8,
+      "abstained": 6
+    },
+    {
+      "dataset": "scored/datasets/college.cross_community.drop_Cornell.function_mask_n4.json",
+      "partition": "evaluation",
+      "roc_auc": 1.0,
+      "average_precision": 1.0,
+      "scored": 2,
+      "total": 8,
+      "abstained": 6
+    },
+    {
+      "dataset": "scored/datasets/college.cross_community.drop_Cornell.function_word_js.json",
+      "partition": "development",
+      "roc_auc": 0.0,
+      "average_precision": 0.5,
+      "scored": 2,
+      "total": 8,
+      "abstained": 6
+    },
+    {
+      "dataset": "scored/datasets/college.cross_community.drop_Cornell.function_word_js.json",
+      "partition": "evaluation",
+      "roc_auc": 0.0,
+      "average_precision": 0.5,
+      "scored": 2,
+      "total": 8,
+      "abstained": 6
+    },
+    {
+      "dataset": "scored/datasets/college.cross_community.full.retained_prose_n4.json",
+      "partition": "development",
+      "roc_auc": 1.0,
+      "average_precision": 1.0,
+      "scored": 2,
+      "total": 8,
+      "abstained": 6
+    },
+    {
+      "dataset": "scored/datasets/college.cross_community.full.retained_prose_n4.json",
+      "partition": "evaluation",
+      "roc_auc": 1.0,
+      "average_precision": 1.0,
+      "scored": 2,
+      "total": 8,
+      "abstained": 6
+    },
+    {
+      "dataset": "scored/datasets/college.cross_community.full.function_mask_n4.json",
+      "partition": "development",
+      "roc_auc": 0.0,
+      "average_precision": 0.5,
+      "scored": 2,
+      "total": 8,
+      "abstained": 6
+    },
+    {
+      "dataset": "scored/datasets/college.cross_community.full.function_mask_n4.json",
+      "partition": "evaluation",
+      "roc_auc": 1.0,
+      "average_precision": 1.0,
+      "scored": 2,
+      "total": 8,
+      "abstained": 6
+    },
+    {
+      "dataset": "scored/datasets/college.cross_community.full.function_word_js.json",
+      "partition": "development",
+      "roc_auc": 0.0,
+      "average_precision": 0.5,
+      "scored": 2,
+      "total": 8,
+      "abstained": 6
+    },
+    {
+      "dataset": "scored/datasets/college.cross_community.full.function_word_js.json",
+      "partition": "evaluation",
+      "roc_auc": 0.0,
+      "average_precision": 0.5,
+      "scored": 2,
+      "total": 8,
+      "abstained": 6
+    },
+    {
+      "dataset": "scored/datasets/college.cross_community.hash50.retained_prose_n4.json",
+      "partition": "development",
+      "roc_auc": null,
+      "average_precision": null,
+      "scored": 0,
+      "total": 8,
+      "abstained": 8
+    },
+    {
+      "dataset": "scored/datasets/college.cross_community.hash50.retained_prose_n4.json",
+      "partition": "evaluation",
+      "roc_auc": null,
+      "average_precision": null,
+      "scored": 0,
+      "total": 8,
+      "abstained": 8
+    },
+    {
+      "dataset": "scored/datasets/college.cross_community.hash50.function_mask_n4.json",
+      "partition": "development",
+      "roc_auc": null,
+      "average_precision": null,
+      "scored": 0,
+      "total": 8,
+      "abstained": 8
+    },
+    {
+      "dataset": "scored/datasets/college.cross_community.hash50.function_mask_n4.json",
+      "partition": "evaluation",
+      "roc_auc": null,
+      "average_precision": null,
+      "scored": 0,
+      "total": 8,
+      "abstained": 8
+    },
+    {
+      "dataset": "scored/datasets/college.cross_community.hash50.function_word_js.json",
+      "partition": "development",
+      "roc_auc": null,
+      "average_precision": null,
+      "scored": 0,
+      "total": 8,
+      "abstained": 8
+    },
+    {
+      "dataset": "scored/datasets/college.cross_community.hash50.function_word_js.json",
+      "partition": "evaluation",
+      "roc_auc": null,
+      "average_precision": null,
+      "scored": 0,
+      "total": 8,
+      "abstained": 8
+    },
+    {
+      "dataset": "scored/datasets/college.cross_community.middle50.retained_prose_n4.json",
+      "partition": "development",
+      "roc_auc": null,
+      "average_precision": null,
+      "scored": 0,
+      "total": 8,
+      "abstained": 8
+    },
+    {
+      "dataset": "scored/datasets/college.cross_community.middle50.retained_prose_n4.json",
+      "partition": "evaluation",
+      "roc_auc": null,
+      "average_precision": null,
+      "scored": 0,
+      "total": 8,
+      "abstained": 8
+    },
+    {
+      "dataset": "scored/datasets/college.cross_community.middle50.function_mask_n4.json",
+      "partition": "development",
+      "roc_auc": null,
+      "average_precision": null,
+      "scored": 0,
+      "total": 8,
+      "abstained": 8
+    },
+    {
+      "dataset": "scored/datasets/college.cross_community.middle50.function_mask_n4.json",
+      "partition": "evaluation",
+      "roc_auc": null,
+      "average_precision": null,
+      "scored": 0,
+      "total": 8,
+      "abstained": 8
+    },
+    {
+      "dataset": "scored/datasets/college.cross_community.middle50.function_word_js.json",
+      "partition": "development",
+      "roc_auc": null,
+      "average_precision": null,
+      "scored": 0,
+      "total": 8,
+      "abstained": 8
+    },
+    {
+      "dataset": "scored/datasets/college.cross_community.middle50.function_word_js.json",
+      "partition": "evaluation",
+      "roc_auc": null,
+      "average_precision": null,
+      "scored": 0,
+      "total": 8,
+      "abstained": 8
+    },
+    {
+      "dataset": "scored/datasets/college.within_community.drop_Cornell.retained_prose_n4.json",
+      "partition": "development",
+      "roc_auc": 1.0,
+      "average_precision": 1.0,
+      "scored": 8,
+      "total": 8,
+      "abstained": 0
+    },
+    {
+      "dataset": "scored/datasets/college.within_community.drop_Cornell.retained_prose_n4.json",
+      "partition": "evaluation",
+      "roc_auc": 0.875,
+      "average_precision": 0.8875,
+      "scored": 8,
+      "total": 8,
+      "abstained": 0
+    },
+    {
+      "dataset": "scored/datasets/college.within_community.drop_Cornell.function_mask_n4.json",
+      "partition": "development",
+      "roc_auc": 0.75,
+      "average_precision": 0.8166666666666667,
+      "scored": 8,
+      "total": 8,
+      "abstained": 0
+    },
+    {
+      "dataset": "scored/datasets/college.within_community.drop_Cornell.function_mask_n4.json",
+      "partition": "evaluation",
+      "roc_auc": 0.875,
+      "average_precision": 0.8875,
+      "scored": 8,
+      "total": 8,
+      "abstained": 0
+    },
+    {
+      "dataset": "scored/datasets/college.within_community.drop_Cornell.function_word_js.json",
+      "partition": "development",
+      "roc_auc": 0.875,
+      "average_precision": 0.8875,
+      "scored": 8,
+      "total": 8,
+      "abstained": 0
+    },
+    {
+      "dataset": "scored/datasets/college.within_community.drop_Cornell.function_word_js.json",
+      "partition": "evaluation",
+      "roc_auc": 0.875,
+      "average_precision": 0.9166666666666666,
+      "scored": 8,
+      "total": 8,
+      "abstained": 0
+    },
+    {
+      "dataset": "scored/datasets/college.within_community.full.retained_prose_n4.json",
+      "partition": "development",
+      "roc_auc": 1.0,
+      "average_precision": 1.0,
+      "scored": 8,
+      "total": 8,
+      "abstained": 0
+    },
+    {
+      "dataset": "scored/datasets/college.within_community.full.retained_prose_n4.json",
+      "partition": "evaluation",
+      "roc_auc": 0.875,
+      "average_precision": 0.8875,
+      "scored": 8,
+      "total": 8,
+      "abstained": 0
+    },
+    {
+      "dataset": "scored/datasets/college.within_community.full.function_mask_n4.json",
+      "partition": "development",
+      "roc_auc": 0.75,
+      "average_precision": 0.8166666666666667,
+      "scored": 8,
+      "total": 8,
+      "abstained": 0
+    },
+    {
+      "dataset": "scored/datasets/college.within_community.full.function_mask_n4.json",
+      "partition": "evaluation",
+      "roc_auc": 0.875,
+      "average_precision": 0.8875,
+      "scored": 8,
+      "total": 8,
+      "abstained": 0
+    },
+    {
+      "dataset": "scored/datasets/college.within_community.full.function_word_js.json",
+      "partition": "development",
+      "roc_auc": 0.875,
+      "average_precision": 0.8875,
+      "scored": 8,
+      "total": 8,
+      "abstained": 0
+    },
+    {
+      "dataset": "scored/datasets/college.within_community.full.function_word_js.json",
+      "partition": "evaluation",
+      "roc_auc": 0.875,
+      "average_precision": 0.9166666666666666,
+      "scored": 8,
+      "total": 8,
+      "abstained": 0
+    },
+    {
+      "dataset": "scored/datasets/college.within_community.hash50.retained_prose_n4.json",
+      "partition": "development",
+      "roc_auc": 0.7777777777777778,
+      "average_precision": 0.8055555555555556,
+      "scored": 6,
+      "total": 8,
+      "abstained": 2
+    },
+    {
+      "dataset": "scored/datasets/college.within_community.hash50.retained_prose_n4.json",
+      "partition": "evaluation",
+      "roc_auc": 0.875,
+      "average_precision": 0.8875,
+      "scored": 8,
+      "total": 8,
+      "abstained": 0
+    },
+    {
+      "dataset": "scored/datasets/college.within_community.hash50.function_mask_n4.json",
+      "partition": "development",
+      "roc_auc": 0.7777777777777778,
+      "average_precision": 0.8055555555555556,
+      "scored": 6,
+      "total": 8,
+      "abstained": 2
+    },
+    {
+      "dataset": "scored/datasets/college.within_community.hash50.function_mask_n4.json",
+      "partition": "evaluation",
+      "roc_auc": 0.9375,
+      "average_precision": 0.95,
+      "scored": 8,
+      "total": 8,
+      "abstained": 0
+    },
+    {
+      "dataset": "scored/datasets/college.within_community.hash50.function_word_js.json",
+      "partition": "development",
+      "roc_auc": 0.7777777777777778,
+      "average_precision": 0.8666666666666667,
+      "scored": 6,
+      "total": 8,
+      "abstained": 2
+    },
+    {
+      "dataset": "scored/datasets/college.within_community.hash50.function_word_js.json",
+      "partition": "evaluation",
+      "roc_auc": 0.8125,
+      "average_precision": 0.8041666666666667,
+      "scored": 8,
+      "total": 8,
+      "abstained": 0
+    },
+    {
+      "dataset": "scored/datasets/college.within_community.middle50.retained_prose_n4.json",
+      "partition": "development",
+      "roc_auc": 1.0,
+      "average_precision": 1.0,
+      "scored": 6,
+      "total": 8,
+      "abstained": 2
+    },
+    {
+      "dataset": "scored/datasets/college.within_community.middle50.retained_prose_n4.json",
+      "partition": "evaluation",
+      "roc_auc": 0.875,
+      "average_precision": 0.8875,
+      "scored": 8,
+      "total": 8,
+      "abstained": 0
+    },
+    {
+      "dataset": "scored/datasets/college.within_community.middle50.function_mask_n4.json",
+      "partition": "development",
+      "roc_auc": 0.5555555555555556,
+      "average_precision": 0.7,
+      "scored": 6,
+      "total": 8,
+      "abstained": 2
+    },
+    {
+      "dataset": "scored/datasets/college.within_community.middle50.function_mask_n4.json",
+      "partition": "evaluation",
+      "roc_auc": 0.625,
+      "average_precision": 0.6083333333333333,
+      "scored": 8,
+      "total": 8,
+      "abstained": 0
+    },
+    {
+      "dataset": "scored/datasets/college.within_community.middle50.function_word_js.json",
+      "partition": "development",
+      "roc_auc": 0.3333333333333333,
+      "average_precision": 0.6333333333333333,
+      "scored": 6,
+      "total": 8,
+      "abstained": 2
+    },
+    {
+      "dataset": "scored/datasets/college.within_community.middle50.function_word_js.json",
+      "partition": "evaluation",
+      "roc_auc": 0.9375,
+      "average_precision": 0.95,
+      "scored": 8,
+      "total": 8,
+      "abstained": 0
+    }
+  ]
+}

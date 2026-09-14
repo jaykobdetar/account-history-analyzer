@@ -1,0 +1,20 @@
+{
+  "command": [
+    ".venv/bin/python",
+    "-B",
+    "/home/jaykob/.codex/visualizations/2026/09/13/01a09a32-1ca6-7983-93da-5f7da689ab16/ahas-pilot2-20260914/review/characterize_largest_cost_case.py",
+    "--root",
+    "/home/jaykob/.codex/visualizations/2026/09/13/01a09a32-1ca6-7983-93da-5f7da689ab16/ahas-pilot2-20260914",
+    "--out",
+    "/home/jaykob/.codex/visualizations/2026/09/13/01a09a32-1ca6-7983-93da-5f7da689ab16/ahas-pilot2-20260914/review/largest-cost-word-volume.json"
+  ],
+  "cwd": "/home/jaykob/Downloads/Account_History_Analyzer_V1_Agent_Handoff/account_history_analyzer_v1",
+  "started_utc": "2026-09-14T19:58:09.655787+00:00",
+  "finished_utc": "2026-09-14T19:58:10.343721+00:00",
+  "exit_code": 0,
+  "wall_seconds": 0.6879358439764474,
+  "peak_rss_kib": 33932,
+  "measurement_scope": "this command and descendants; separate from canonical results",
+  "stdout_sha256": "5fba9d69579f30e71cee6876a25c2646583e9de1984d40095952879a2f0b65a4",
+  "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+}

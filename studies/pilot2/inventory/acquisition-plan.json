@@ -1,0 +1,20 @@
+{
+  "authorization": "User explicitly approved downloading whatever dataset is needed on 2026-09-14, before this acquisition.",
+  "scope": "Two bounded existing ConvoKit subreddit archives for local evaluation alongside existing Cornell corpus; no live Reddit collection.",
+  "planned_bytes": 288965136,
+  "sources": [
+    {
+      "community": "ApplyingToCollege",
+      "url": "https://zissou.infosci.cornell.edu/convokit/datasets/subreddit-corpus/corpus-zipped/AnythingGoesPic~-~ApplyingToCollege/ApplyingToCollege.corpus.zip",
+      "expected_bytes_from_official_index": 155300755
+    },
+    {
+      "community": "college",
+      "url": "https://zissou.infosci.cornell.edu/convokit/datasets/subreddit-corpus/corpus-zipped/cock4brains~-~coloringpages/college.corpus.zip",
+      "expected_bytes_from_official_index": 133664381
+    }
+  ],
+  "selection_rationale": "Related education communities with anticipated overlapping accounts; community is context, not exact topic or authorship truth.",
+  "provenance_documentation": "https://convokit.cornell.edu/documentation/subreddit.html",
+  "license_status": "No corpus-specific redistribution license established from linked documentation; raw corpora kept local, never included in public repair release."
+}

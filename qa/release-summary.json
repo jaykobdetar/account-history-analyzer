@@ -1,0 +1,40 @@
+{
+  "browser_skip_covered_separately": true,
+  "container_tests": {
+    "passed": 360,
+    "seconds": 52.77,
+    "skipped": 1
+  },
+  "engineering_status": "complete",
+  "external_corpus_evaluation": "not_evaluated_missing_data",
+  "host_tests": {
+    "passed": 360,
+    "seconds": 38.68,
+    "skipped": 1
+  },
+  "implementation_fingerprint": "e4c53004244b72b117d1ad900a3b76afa1ecc5a0f4b0a5fa62930e92a04f83a0",
+  "performance": {
+    "peak_process_rss_kib_including_publication": 707636,
+    "records": 1000,
+    "retained_words": 94000,
+    "wall_seconds_including_publication": 51.13
+  },
+  "real_world_validation": "not_established",
+  "reproduction": "byte_identical_canonical_exports_MD_HTML_SVG_in_tested_host_processes_and_two_container_fixtures",
+  "separate_browser_test": {
+    "passed": 1,
+    "seconds": 2.36
+  },
+  "synthetic_checks": {
+    "failed": 0,
+    "not_evaluated": 0,
+    "passed": 67
+  },
+  "untested": [
+    "Windows",
+    "macOS",
+    "other_Python_versions",
+    "other_CPU_architectures",
+    "worst_case_500000_word_workload"
+  ]
+}

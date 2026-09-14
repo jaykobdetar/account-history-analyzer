@@ -1,0 +1,13 @@
+{
+  "actual_distance_qualified_counts_null": true,
+  "all_markdown_local_links_exist": true,
+  "coverage_rows": 72,
+  "json_sha256": "17774c36bccf13a78709c82522d62ede6428bda8df0d93f2ac7f93be94fdb75e",
+  "markdown_sha256": "6cb568049c336b6d123749878784ff0d627742c779ff960f7bac495529779d5b",
+  "preparation_inputs_unchanged": true,
+  "proxy_pair_slots_all_splits": 576,
+  "raw_account_record_text_identifier_fields_absent": true,
+  "scored_pair_slots_before_method_repetition": 384,
+  "status": "passed",
+  "unit_slots": 576
+}

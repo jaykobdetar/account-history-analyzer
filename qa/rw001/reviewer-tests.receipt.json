@@ -1,0 +1,24 @@
+{
+  "command": [
+    ".venv/bin/python",
+    "scripts/offline_exec.py",
+    "env",
+    "AHAS_SOURCE_ROOT=.",
+    ".venv/bin/python",
+    "-m",
+    "pytest",
+    "--noconftest",
+    "-q",
+    "qa/report005/handoff/scripts/test_independent_repairs.py",
+    "qa/report005/handoff/scripts/test_ngram_label_contract.py"
+  ],
+  "cwd": "/home/jaykob/Downloads/Account_History_Analyzer_V1_Agent_Handoff/account_history_analyzer_v1",
+  "started_utc": "2026-09-14T18:33:52.326228+00:00",
+  "finished_utc": "2026-09-14T18:33:55.697582+00:00",
+  "exit_code": 0,
+  "wall_seconds": 3.3713556980073918,
+  "peak_rss_kib": 170000,
+  "measurement_scope": "this command and descendants; separate from canonical results",
+  "stdout_sha256": "bd31489ad83f18cc70b9c7c8c7cc5a891585d57132e28d888ae390cb89df59e7",
+  "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+}

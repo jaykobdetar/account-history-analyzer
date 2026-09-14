@@ -1,0 +1,197 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "AHAS V1 supplied record",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "schema_version",
+    "id",
+    "account_id",
+    "kind",
+    "text",
+    "status"
+  ],
+  "properties": {
+    "schema_version": {
+      "const": "1.0.0"
+    },
+    "id": {
+      "type": "string",
+      "minLength": 1,
+      "maxLength": 256
+    },
+    "account_id": {
+      "type": "string",
+      "minLength": 1,
+      "maxLength": 256
+    },
+    "kind": {
+      "enum": [
+        "comment",
+        "submission"
+      ]
+    },
+    "text": {
+      "type": [
+        "string",
+        "null"
+      ],
+      "maxLength": 200000
+    },
+    "status": {
+      "enum": [
+        "present",
+        "deleted",
+        "removed",
+        "unavailable"
+      ]
+    },
+    "created_utc": {
+      "type": [
+        "string",
+        "null"
+      ],
+      "pattern": "^\\d{4}-\\d{2}-\\d{2}T\\d{2}:\\d{2}:\\d{2}(?:\\.\\d{1,6})?Z$",
+      "format": "date-time",
+      "default": null
+    },
+    "subreddit": {
+      "type": [
+        "string",
+        "null"
+      ],
+      "maxLength": 256,
+      "default": null
+    },
+    "language": {
+      "type": [
+        "string",
+        "null"
+      ],
+      "pattern": "^[a-z]{2,3}(?:-[A-Za-z0-9]{2,8})*$",
+      "default": null
+    },
+    "edit_state": {
+      "enum": [
+        "unknown",
+        "not_edited",
+        "edited"
+      ],
+      "default": "unknown"
+    },
+    "edited_utc": {
+      "type": [
+        "string",
+        "null"
+      ],
+      "pattern": "^\\d{4}-\\d{2}-\\d{2}T\\d{2}:\\d{2}:\\d{2}(?:\\.\\d{1,6})?Z$",
+      "format": "date-time",
+      "default": null
+    },
+    "title": {
+      "type": [
+        "string",
+        "null"
+      ],
+      "maxLength": 20000,
+      "default": null
+    },
+    "parent_id": {
+      "type": [
+        "string",
+        "null"
+      ],
+      "maxLength": 256,
+      "default": null
+    },
+    "thread_id": {
+      "type": [
+        "string",
+        "null"
+      ],
+      "maxLength": 256,
+      "default": null
+    },
+    "parent_created_utc": {
+      "type": [
+        "string",
+        "null"
+      ],
+      "pattern": "^\\d{4}-\\d{2}-\\d{2}T\\d{2}:\\d{2}:\\d{2}(?:\\.\\d{1,6})?Z$",
+      "format": "date-time",
+      "default": null
+    },
+    "permalink": {
+      "type": [
+        "string",
+        "null"
+      ],
+      "maxLength": 4096,
+      "default": null
+    }
+  },
+  "allOf": [
+    {
+      "if": {
+        "properties": {
+          "status": {
+            "const": "present"
+          }
+        }
+      },
+      "then": {
+        "properties": {
+          "text": {
+            "type": "string"
+          }
+        }
+      },
+      "else": {
+        "properties": {
+          "text": {
+            "type": "null"
+          }
+        }
+      }
+    },
+    {
+      "if": {
+        "properties": {
+          "kind": {
+            "const": "comment"
+          }
+        }
+      },
+      "then": {
+        "properties": {
+          "title": {
+            "type": "null"
+          }
+        }
+      }
+    },
+    {
+      "if": {
+        "required": [
+          "edited_utc"
+        ],
+        "properties": {
+          "edited_utc": {
+            "type": "string"
+          }
+        }
+      },
+      "then": {
+        "required": [
+          "edit_state"
+        ],
+        "properties": {
+          "edit_state": {
+            "const": "edited"
+          }
+        }
+      }
+    }
+  ],
+  "$comment": "Default annotations are not automatic field insertion. The implementation must expand defaults, reject duplicate JSON keys, and apply semantic validation."
+}

@@ -1,0 +1,91 @@
+{
+  "adjacent_window_words": [
+    1044,
+    1056
+  ],
+  "all_finding_evidence_references_resolve": true,
+  "all_html_internal_anchors_resolve": true,
+  "beta": 3.367295829986474,
+  "boundary": {
+    "boundary_id": "boundary_17e2c107014612bbeb4bc22b",
+    "left_record_id": "constructed_style_shift_165",
+    "left_utc": "2025-01-21T12:00:00Z",
+    "left_window_first_utc": "2025-01-20T06:00:00Z",
+    "left_window_id": "window_63a4f3055fe917cea9b5efcc",
+    "left_window_last_utc": "2025-01-21T12:00:00Z",
+    "left_window_record_ids": [
+      "constructed_style_shift_155",
+      "constructed_style_shift_156",
+      "constructed_style_shift_157",
+      "constructed_style_shift_158",
+      "constructed_style_shift_159",
+      "constructed_style_shift_160",
+      "constructed_style_shift_161",
+      "constructed_style_shift_162",
+      "constructed_style_shift_163",
+      "constructed_style_shift_164",
+      "constructed_style_shift_165"
+    ],
+    "record_interval": [
+      164,
+      165
+    ],
+    "right_record_id": "constructed_style_shift_166",
+    "right_utc": "2025-01-21T15:00:00Z",
+    "right_window_first_utc": "2025-01-21T15:00:00Z",
+    "right_window_id": "window_fde10c315ea10e6fa1e5eaef",
+    "right_window_last_utc": "2025-01-22T21:00:00Z",
+    "right_window_record_ids": [
+      "constructed_style_shift_166",
+      "constructed_style_shift_167",
+      "constructed_style_shift_168",
+      "constructed_style_shift_169",
+      "constructed_style_shift_170",
+      "constructed_style_shift_171",
+      "constructed_style_shift_172",
+      "constructed_style_shift_173",
+      "constructed_style_shift_174",
+      "constructed_style_shift_175",
+      "constructed_style_shift_176"
+    ],
+    "window_index": 15
+  },
+  "independent_numerical_checks": [
+    {
+      "exported": 0.37449014446822915,
+      "independent_scipy": 0.37449014446822915,
+      "method": "cosine_4",
+      "view": "retained_prose"
+    },
+    {
+      "exported": 0.05792072408657245,
+      "independent_scipy": 0.05792072408657256,
+      "method": "cosine_4",
+      "view": "function_mask_v1"
+    },
+    {
+      "exported": 0.04342964020726491,
+      "independent_scipy": 0.04342964020726433,
+      "method": "function_word_js_base2"
+    }
+  ],
+  "manual_browser_review": {
+    "active_elements": [],
+    "browser": "Chrome/150.0.7871.128",
+    "network_isolation": "linux_seccomp_nonunix_socket_denial",
+    "readability": "Candidate window numbers, UTC interval, source IDs, status/reasons, representation distances, and feature-table heading visible without overlap at 1440px.",
+    "remote_requests": [],
+    "screenshot": "style-candidates-browser.png",
+    "source_executed": false,
+    "unsafe_links": []
+  },
+  "objective": 4.183359912439892,
+  "qualified_window_count": 29,
+  "report_sha256": "f000eca02c27caa5fe37a16bd7c28238cff91972cb75f36cf118c81d6951dcd6",
+  "scientific_interpretation": "The report presents descriptive candidates and four-of-four parameter matching; neither is an authorship probability or confidence statement.",
+  "source_record_count": 320,
+  "sse": 0.8160640824534182,
+  "status": "passed",
+  "unique_html_anchors": 1292,
+  "verified_source_evidence_slices": 1187
+}

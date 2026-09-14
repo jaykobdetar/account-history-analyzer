@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 1900" role="img" aria-labelledby="surface-features-title">
+<title id="surface-features-title">Selected observed feature trajectories</title>
+<rect width="100%" height="100%" fill="#ffffff"/>
+<g font-family="system-ui, sans-serif" fill="#253347">
+<text x="20" y="30" font-size="21" font-weight="600">Selected observed feature trajectories</text>
+<text x="20" y="66" font-size="16" font-weight="600">Pooled comments — Comma rate</text>
+<text x="20" y="84" font-size="11" fill="#526274">per_1000_word_tokens; x = window ordinal</text>
+<metadata>{&quot;boundaries&quot;:[],&quot;labels&quot;:[],&quot;title&quot;:&quot;Pooled comments — Comma rate&quot;,&quot;unit&quot;:&quot;per_1000_word_tokens; x = window ordinal&quot;,&quot;values&quot;:[]}</metadata>
+<text x="76.0" y="142" font-size="13" fill="#526274">No computable observations in this scope.</text>
+<text x="20" y="291" font-size="16" font-weight="600">Pooled comments — Semicolon rate</text>
+<text x="20" y="309" font-size="11" fill="#526274">per_1000_word_tokens; x = window ordinal</text>
+<metadata>{&quot;boundaries&quot;:[],&quot;labels&quot;:[],&quot;title&quot;:&quot;Pooled comments — Semicolon rate&quot;,&quot;unit&quot;:&quot;per_1000_word_tokens; x = window ordinal&quot;,&quot;values&quot;:[]}</metadata>
+<text x="76.0" y="367" font-size="13" fill="#526274">No computable observations in this scope.</text>
+<text x="20" y="516" font-size="16" font-weight="600">Pooled comments — Uppercase fraction</text>
+<text x="20" y="534" font-size="11" fill="#526274">uppercase / cased code points; x = window ordinal</text>
+<metadata>{&quot;boundaries&quot;:[],&quot;labels&quot;:[],&quot;title&quot;:&quot;Pooled comments — Uppercase fraction&quot;,&quot;unit&quot;:&quot;uppercase / cased code points; x = window ordinal&quot;,&quot;values&quot;:[]}</metadata>
+<text x="76.0" y="592" font-size="13" fill="#526274">No computable observations in this scope.</text>
+<text x="20" y="741" font-size="16" font-weight="600">Pooled comments — Mean word length</text>
+<text x="20" y="759" font-size="11" fill="#526274">alphabetic code points / retained word token; x = window ordinal</text>
+<metadata>{&quot;boundaries&quot;:[],&quot;labels&quot;:[],&quot;title&quot;:&quot;Pooled comments — Mean word length&quot;,&quot;unit&quot;:&quot;alphabetic code points / retained word token; x = window ordinal&quot;,&quot;values&quot;:[]}</metadata>
+<text x="76.0" y="817" font-size="13" fill="#526274">No computable observations in this scope.</text>
+<text x="20" y="966" font-size="16" font-weight="600">Pooled submission bodies — Comma rate</text>
+<text x="20" y="984" font-size="11" fill="#526274">per_1000_word_tokens; x = window ordinal</text>
+<metadata>{&quot;boundaries&quot;:[],&quot;labels&quot;:[],&quot;title&quot;:&quot;Pooled submission bodies — Comma rate&quot;,&quot;unit&quot;:&quot;per_1000_word_tokens; x = window ordinal&quot;,&quot;values&quot;:[]}</metadata>
+<text x="76.0" y="1042" font-size="13" fill="#526274">No computable observations in this scope.</text>
+<text x="20" y="1191" font-size="16" font-weight="600">Pooled submission bodies — Semicolon rate</text>
+<text x="20" y="1209" font-size="11" fill="#526274">per_1000_word_tokens; x = window ordinal</text>
+<metadata>{&quot;boundaries&quot;:[],&quot;labels&quot;:[],&quot;title&quot;:&quot;Pooled submission bodies — Semicolon rate&quot;,&quot;unit&quot;:&quot;per_1000_word_tokens; x = window ordinal&quot;,&quot;values&quot;:[]}</metadata>
+<text x="76.0" y="1267" font-size="13" fill="#526274">No computable observations in this scope.</text>
+<text x="20" y="1416" font-size="16" font-weight="600">Pooled submission bodies — Uppercase fraction</text>
+<text x="20" y="1434" font-size="11" fill="#526274">uppercase / cased code points; x = window ordinal</text>
+<metadata>{&quot;boundaries&quot;:[],&quot;labels&quot;:[],&quot;title&quot;:&quot;Pooled submission bodies — Uppercase fraction&quot;,&quot;unit&quot;:&quot;uppercase / cased code points; x = window ordinal&quot;,&quot;values&quot;:[]}</metadata>
+<text x="76.0" y="1492" font-size="13" fill="#526274">No computable observations in this scope.</text>
+<text x="20" y="1641" font-size="16" font-weight="600">Pooled submission bodies — Mean word length</text>
+<text x="20" y="1659" font-size="11" fill="#526274">alphabetic code points / retained word token; x = window ordinal</text>
+<metadata>{&quot;boundaries&quot;:[],&quot;labels&quot;:[],&quot;title&quot;:&quot;Pooled submission bodies — Mean word length&quot;,&quot;unit&quot;:&quot;alphabetic code points / retained word token; x = window ordinal&quot;,&quot;values&quot;:[]}</metadata>
+<text x="76.0" y="1717" font-size="13" fill="#526274">No computable observations in this scope.</text>
+<text x="20" y="1855" font-size="11" fill="#526274">Lines connect observed windows in order; horizontal spacing is not elapsed time. Missing values break lines.</text>
+<text x="20" y="1875" font-size="11" fill="#526274">Dashed red marks a descriptive candidate. Measurements do not establish cause or a change of author.</text>
+</g>
+</svg>

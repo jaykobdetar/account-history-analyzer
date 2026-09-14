@@ -1,0 +1,15 @@
+{
+  "base_commit": "ee1c8ff8a548d54c641b2bb471562165931f31c7",
+  "commit": "a28574d9e63b0c2a966e176a1d049d3c9deaaaaf",
+  "integration": "Verbatim _seg override in private PeltMinSize subclass of locked ruptures 1.1.10; no global monkeypatch.",
+  "license": "BSD-2-Clause",
+  "license_sha256": "f29c48be39fff974e2d631b2317c194409531cc86e16e05f3968ead0456bc920",
+  "method": "Pelt._seg",
+  "method_sha256": "62e14dbcc61613c8549c9dd9fdcf5510d436a3c140be3bcc6324d4deee12fdeb",
+  "pull_request": "https://github.com/deepcharles/ruptures/pull/383",
+  "repository": "https://github.com/deepcharles/ruptures",
+  "scope": "AHAS calls this implementation only with the L2 cost and jump=1.",
+  "source_path": "src/ruptures/detection/pelt.py",
+  "source_sha256": "65f5ead7c29a9a23eb67c676dc02ab146316b0678f586697f4c5de754c40110a",
+  "upstream_tests_sha256": "34ec901b052ae51b7c9003b22504f43b208b340ed3acad5999a133cfa96489c2"
+}

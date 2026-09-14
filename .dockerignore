@@ -1,0 +1,12 @@
+.venv
+.uv-cache
+.git
+.pytest_cache
+.hypothesis
+**/__pycache__
+output
+benchmarks
+qa
+dist
+release
+evaluation

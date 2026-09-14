@@ -1,0 +1,33 @@
+{
+  "scope": "Actual local Chrome safety/readability of final RW-001 public presentation fixtures; no private inputs.",
+  "browser": "Chrome/150.0.7871.128",
+  "network_isolation": "linux_seccomp_nonunix_socket_denial",
+  "standalone_browser_regression": {
+    "outcome": "passed",
+    "passed": 1,
+    "pytest_seconds": 1.96,
+    "log": "browser-final-0.stdout.log"
+  },
+  "four_document_audits": "passed: both cases in included and omitted excerpt modes; each showed all eight overview rows and no remote request/dialog/active element/event handler/unsafe link/source execution",
+  "visually_inspected": [
+    "alternative_only-included-browser.png",
+    "matched_plus_extra-none-browser.png"
+  ],
+  "visual_observations": [
+    "All six overview columns are visible at 1440px with no clipping or overlap.",
+    "Executed zero and unavailable counts are visibly distinct in pooled and community rows.",
+    "The zero-primary case exposes the alternative candidate interval [23, 24] and source links inside an open native details block.",
+    "The primary-plus-extra case shows 2 candidate / 1 matched / 1 unmatched counts for lambda 0.5; primary and alternative detail blocks remain separate.",
+    "Candidate prose explicitly excludes exact-event, author-change, statistical-significance and confidence interpretations."
+  ],
+  "source_or_test_edits_during_browser_qa": false,
+  "qa_only_browser_derivative": "check_sensitivity_browser.cjs copies the existing runner and adds DOM observations, native-details opening, and overview scrolling only; existing network and active-content checks remain.",
+  "ambient_sandbox_failure_preserved": "browser-sandbox.json: Chrome crashpad Unix-IPC EPERM; retry outside ambient sandbox kept kernel internet socket denial.",
+  "artifacts": {
+    "check_sensitivity_browser.cjs": "b7710f43e379290dc8d96890beebd69ee6b243bbdba6d72bed0b52dba8fbc00c",
+    "alternative_only-included-browser.png": "0cec2323fe4a47b55f01dce4db8830ab17c4c60b948c74ccc1b61c562f577db5",
+    "alternative_only-none-browser.png": "f4b145d0d892c7f3fb003e51eb44907386272483a75b9f050b36fa947d3b02f9",
+    "matched_plus_extra-included-browser.png": "531d4697a8498259494225fdccd84230f99d79fc2b0b364e3b2018a76d7a59c5",
+    "matched_plus_extra-none-browser.png": "be31c5e039d7ad973157f2da8b420a9fa5464eb16c909c2abb22dd49749d5515"
+  }
+}

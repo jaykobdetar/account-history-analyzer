@@ -1,0 +1,19 @@
+{
+  "command": [
+    "python3.12",
+    "scripts/offline_exec.py",
+    ".venv/bin/python",
+    "-m",
+    "pytest",
+    "-q",
+    "tests/test_link_labels.py",
+    "tests/test_text.py",
+    "tests/test_text_resources.py",
+    "tests/test_links_interactions.py"
+  ],
+  "cwd": "/home/jaykob/Downloads/Account_History_Analyzer_V1_Agent_Handoff/account_history_analyzer_v1",
+  "exit_code": 0,
+  "elapsed_seconds": 1.0052887850033585,
+  "network_isolation": "linux_seccomp_socket_denial",
+  "initial_failures": "Test construction errors: counted five retained words as six and requested measured title counts from unmeasured title view; corrected tests, no associated production regression."
+}

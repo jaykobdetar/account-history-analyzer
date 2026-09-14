@@ -1,0 +1,76 @@
+{
+  "runs": [
+    {
+      "argv": [
+        ".venv/bin/python",
+        "scripts/browser_offline_exec.py",
+        "env",
+        "AHAS_RUN_BROWSER_AUDIT=1",
+        ".venv/bin/python",
+        "-m",
+        "pytest",
+        "-p",
+        "no:cacheprovider",
+        "tests/test_security.py::test_out04_real_browser_remote_requests_intercepted",
+        "-q"
+      ],
+      "exit_code": 0,
+      "elapsed_seconds": 2.362945832021069
+    },
+    {
+      "argv": [
+        ".venv/bin/python",
+        "scripts/browser_offline_exec.py",
+        "node",
+        "qa/rw001/check_sensitivity_browser.cjs",
+        "output/rw001/synthetic/alternative_only/report.html",
+        "qa/rw001/alternative_only-included-browser.png",
+        "rw001-overview"
+      ],
+      "exit_code": 0,
+      "elapsed_seconds": 0.5513404789962806
+    },
+    {
+      "argv": [
+        ".venv/bin/python",
+        "scripts/browser_offline_exec.py",
+        "node",
+        "qa/rw001/check_sensitivity_browser.cjs",
+        "output/rw001/synthetic/alternative_only/report.no-excerpts.html",
+        "qa/rw001/alternative_only-none-browser.png",
+        "rw001-overview"
+      ],
+      "exit_code": 0,
+      "elapsed_seconds": 0.47873115801485255
+    },
+    {
+      "argv": [
+        ".venv/bin/python",
+        "scripts/browser_offline_exec.py",
+        "node",
+        "qa/rw001/check_sensitivity_browser.cjs",
+        "output/rw001/synthetic/matched_plus_extra/report.html",
+        "qa/rw001/matched_plus_extra-included-browser.png",
+        "rw001-overview"
+      ],
+      "exit_code": 0,
+      "elapsed_seconds": 0.5718389469839167
+    },
+    {
+      "argv": [
+        ".venv/bin/python",
+        "scripts/browser_offline_exec.py",
+        "node",
+        "qa/rw001/check_sensitivity_browser.cjs",
+        "output/rw001/synthetic/matched_plus_extra/report.no-excerpts.html",
+        "qa/rw001/matched_plus_extra-none-browser.png",
+        "rw001-overview"
+      ],
+      "exit_code": 0,
+      "elapsed_seconds": 0.47737852099817246
+    }
+  ],
+  "reporting_source_sha256": "c8aa520917dc68d8229495a28a4375ab9e95902fe226955e79cbd1143ea3956c",
+  "qa_browser_script_sha256": "b7710f43e379290dc8d96890beebd69ee6b243bbdba6d72bed0b52dba8fbc00c",
+  "scope": "Chrome local IPC allowed outside ambient sandbox; kernel internet-socket denial and CDP offline interception retained."
+}

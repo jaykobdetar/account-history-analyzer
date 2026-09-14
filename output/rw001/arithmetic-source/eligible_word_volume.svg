@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 550" role="img" aria-labelledby="eligible-word-volume-title">
+<title id="eligible-word-volume-title">Eligible writing volume in primary windows</title>
+<rect width="100%" height="100%" fill="#ffffff"/>
+<g font-family="system-ui, sans-serif" fill="#253347">
+<text x="20" y="30" font-size="21" font-weight="600">Eligible writing volume in primary windows</text>
+<text x="20" y="66" font-size="16" font-weight="600">Pooled comments</text>
+<text x="20" y="84" font-size="11" fill="#526274">retained word tokens per whole-record window; x = window ordinal</text>
+<metadata>{&quot;boundaries&quot;:[],&quot;labels&quot;:[],&quot;title&quot;:&quot;Pooled comments&quot;,&quot;unit&quot;:&quot;retained word tokens per whole-record window; x = window ordinal&quot;,&quot;values&quot;:[]}</metadata>
+<text x="76.0" y="142" font-size="13" fill="#526274">No computable observations in this scope.</text>
+<text x="20" y="291" font-size="16" font-weight="600">Pooled submission bodies</text>
+<text x="20" y="309" font-size="11" fill="#526274">retained word tokens per whole-record window; x = window ordinal</text>
+<metadata>{&quot;boundaries&quot;:[],&quot;labels&quot;:[],&quot;title&quot;:&quot;Pooled submission bodies&quot;,&quot;unit&quot;:&quot;retained word tokens per whole-record window; x = window ordinal&quot;,&quot;values&quot;:[]}</metadata>
+<text x="76.0" y="367" font-size="13" fill="#526274">No computable observations in this scope.</text>
+<text x="20" y="505" font-size="11" fill="#526274">Blue: qualified window; gray: visible short remainder. Dashed red: descriptive candidate boundary.</text>
+<text x="20" y="525" font-size="11" fill="#526274">Pooled scopes only. Separate community streams have overlapping membership; counts are not added.</text>
+</g>
+</svg>

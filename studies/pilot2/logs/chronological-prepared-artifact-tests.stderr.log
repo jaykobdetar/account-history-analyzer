@@ -1,0 +1,10 @@
+test_all_arms_survive_unchanged_and_truth_is_not_fabricated (__main__.PreparedChecks.test_all_arms_survive_unchanged_and_truth_is_not_fabricated) ... ok
+test_author_confirmation_components_and_slots (__main__.PreparedChecks.test_author_confirmation_components_and_slots) ... ok
+test_complete_available_source_histories_preserve_text_ids_times_status (__main__.PreparedChecks.test_complete_available_source_histories_preserve_text_ids_times_status) ... ok
+test_complete_pool_and_all_prepared_hash_bindings (__main__.PreparedChecks.test_complete_pool_and_all_prepared_hash_bindings) ... ok
+test_splices_use_fixed_actual_union_median_and_complete_halves (__main__.PreparedChecks.test_splices_use_fixed_actual_union_median_and_complete_halves) ... ok
+
+----------------------------------------------------------------------
+Ran 5 tests in 15.344s
+
+OK

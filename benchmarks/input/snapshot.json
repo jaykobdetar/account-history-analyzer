@@ -1,0 +1,17 @@
+{
+  "account_id": "performance_workload",
+  "capture_utc": "2025-03-01T00:00:00Z",
+  "coverage": {
+    "end_utc": "2025-01-04T11:15:00Z",
+    "known_gaps": [],
+    "notes": "Complete for this constructed workload only.",
+    "start_utc": "2025-01-01T00:00:00Z",
+    "status": "complete_for_declared_scope"
+  },
+  "default_language": "en",
+  "schema_version": "1.0.0",
+  "snapshot_id": "performance_workload_v1",
+  "source_category": "synthetic",
+  "source_notes": "Fixed 1000-record workload from the shipped synthetic_text constructor; no real person.",
+  "text_format": "markdown"
+}

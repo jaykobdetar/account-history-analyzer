@@ -1,0 +1,17 @@
+{
+  "command": [
+    ".venv/bin/python",
+    "scripts/offline_exec.py",
+    ".venv/bin/python",
+    "qa/rw001/check_historical_files.py"
+  ],
+  "cwd": "/home/jaykob/Downloads/Account_History_Analyzer_V1_Agent_Handoff/account_history_analyzer_v1",
+  "started_utc": "2026-09-14T18:37:41.093371+00:00",
+  "finished_utc": "2026-09-14T18:37:42.498150+00:00",
+  "exit_code": 0,
+  "wall_seconds": 1.4047894710092805,
+  "peak_rss_kib": 58004,
+  "measurement_scope": "this command and descendants; separate from canonical results",
+  "stdout_sha256": "b5ce26c161d56273a0a6fe634ae09508ee33304b4442d418e3aa129f34b57950",
+  "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+}

@@ -1,0 +1,8 @@
+$ .venv/bin/python scripts/offline_exec.py .venv/bin/python -m pytest tests/test_render_order.py tests/test_reporting.py tests/test_security.py tests/test_evaluation_cli.py -q
+................................s..                                      [100%]
+=========================== short test summary info ============================
+SKIPPED [1] tests/test_security.py:120: Analyzer seccomp forbids Chrome Unix IPC; run browser audit separately with browser_offline_exec.py
+34 passed, 1 skipped in 35.37s
+
+Exit code: 0
+

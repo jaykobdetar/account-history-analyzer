@@ -1,0 +1,14 @@
+test_exact_word_and_record_thresholds (__main__.HandChecks.test_exact_word_and_record_thresholds) ... ok
+test_inclusive_interval_errors_and_tolerance (__main__.HandChecks.test_inclusive_interval_errors_and_tolerance) ... ok
+test_ineligible_gaps_preserve_original_ordinals (__main__.HandChecks.test_ineligible_gaps_preserve_original_ordinals) ... ok
+test_invalid_interval_rejected (__main__.HandChecks.test_invalid_interval_rejected) ... ok
+test_kinds_and_titles_do_not_join_body_budget (__main__.HandChecks.test_kinds_and_titles_do_not_join_body_budget) ... ok
+test_min_size_six_has_one_legal_split_five_has_none (__main__.HandChecks.test_min_size_six_has_one_legal_split_five_has_none) ... ok
+test_minimum_segment_edges_and_remainder (__main__.HandChecks.test_minimum_segment_edges_and_remainder) ... ok
+test_record_guard_prevents_giant_record_closing (__main__.HandChecks.test_record_guard_prevents_giant_record_closing) ... ok
+test_word_guard_whole_record_overshoot (__main__.HandChecks.test_word_guard_whole_record_overshoot) ... ok
+
+----------------------------------------------------------------------
+Ran 9 tests in 0.000s
+
+OK

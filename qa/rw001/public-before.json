@@ -1,0 +1,17 @@
+{
+  "argv": [
+    ".venv/bin/python",
+    "scripts/offline_exec.py",
+    ".venv/bin/python",
+    "-m",
+    "pytest",
+    "-p",
+    "no:cacheprovider",
+    "tests/test_sensitivity_overview.py",
+    "-q"
+  ],
+  "exit_code": 1,
+  "elapsed_seconds": 11.554336275992682,
+  "reporting_source_sha256": "4e4e98b59a5017bbded50f2cca0c3b726369ec9349cdee9e234a59cb2a24b3a1",
+  "scope": "Public synthetic full-render regression; expected old-renderer failures, not a product correctness pass."
+}

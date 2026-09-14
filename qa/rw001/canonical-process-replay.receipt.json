@@ -1,0 +1,18 @@
+{
+  "command": [
+    ".venv/bin/python",
+    "scripts/offline_exec.py",
+    ".venv/bin/python",
+    "scripts/check_release_reproducibility.py",
+    "qa/rw001/process-replay"
+  ],
+  "cwd": "/home/jaykob/Downloads/Account_History_Analyzer_V1_Agent_Handoff/account_history_analyzer_v1",
+  "started_utc": "2026-09-14T18:34:27.806102+00:00",
+  "finished_utc": "2026-09-14T18:35:50.394475+00:00",
+  "exit_code": 0,
+  "wall_seconds": 82.58837252898957,
+  "peak_rss_kib": 312592,
+  "measurement_scope": "this command and descendants; separate from canonical results",
+  "stdout_sha256": "2493e66c94e16ef39c28be28adecd052e11862b5146ae744fc92722a672efa79",
+  "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+}

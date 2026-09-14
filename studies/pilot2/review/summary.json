@@ -1,0 +1,21 @@
+{
+  "engineering_release": "AHAS 1.0.4 RW-001 complete; original analytical baseline preserved",
+  "real_world_validation": "not_established",
+  "confirmation_scored": false,
+  "paired_batches": 72,
+  "paired_batches_by_method": {
+    "retained_prose_n4": 24,
+    "function_mask_n4": 24,
+    "function_word_js": 24
+  },
+  "chronological_source_accounts": 8,
+  "chronological_formed_pairs": 4,
+  "planned_stream_and_operational_slots": 60,
+  "execution_counts": {
+    "executed": 40,
+    "not_executed": 20
+  },
+  "implementation_fingerprint": "bfc989028bf2b47c506d1ba501287d4e362aadc25ca5c731c41e4b27a336e179",
+  "scoring_freeze_sha256": "fba67a5a1c8ddc51c66cbe67c0ff02c317a776df382d5cd3c412d858e7de8df5",
+  "scope": "Account-ID comparison proxies, descriptive natural-history measurements and explicitly constructed source-account transitions."
+}

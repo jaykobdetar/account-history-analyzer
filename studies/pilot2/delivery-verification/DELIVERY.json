@@ -1,0 +1,53 @@
+{
+  "artifacts": {
+    "review_handoff": {
+      "path": "/home/jaykob/.codex/visualizations/2026/09/13/01a09a32-1ca6-7983-93da-5f7da689ab16/ahas-pilot2-20260914/deliverables/AHAS_1.0.4_RW001_and_Pilot2_Review_20260914.zip",
+      "bytes": 1109429,
+      "sha256": "d3794079f8ee6b5b01f3ba12cbcefd30b6cbd6835dab2c1ccf353a2489a770a2"
+    },
+    "production_source": {
+      "path": "/home/jaykob/Downloads/Account_History_Analyzer_V1_Agent_Handoff/account_history_analyzer_v1/release/1.0.4/account-history-analyzer-1.0.4-source-and-reports.tar.gz",
+      "bytes": 34439072,
+      "sha256": "c1f4985fb484698e055a8ee045b42b5ecfb7377b7958bfa2778a7b6e639564cb"
+    },
+    "production_wheel": {
+      "path": "/home/jaykob/Downloads/Account_History_Analyzer_V1_Agent_Handoff/account_history_analyzer_v1/dist/account_history_analyzer-1.0.4-py3-none-any.whl",
+      "bytes": 198224,
+      "sha256": "dd92aa29bfdf8631a8ac2a37948edcd573b31872cf97b49d43fc2930a3b43b51"
+    },
+    "archive_verification": {
+      "path": "/home/jaykob/.codex/visualizations/2026/09/13/01a09a32-1ca6-7983-93da-5f7da689ab16/ahas-pilot2-20260914/deliverables/archive-verification.json",
+      "bytes": 735,
+      "sha256": "87afcfd95e0bf5b21da13490efe4608f4b24ea152b8b90f31115ec3c0121ebd4"
+    },
+    "independent_final_check": {
+      "path": "/home/jaykob/.codex/visualizations/2026/09/13/01a09a32-1ca6-7983-93da-5f7da689ab16/ahas-pilot2-20260914/deliverables/final-archive-independent-check.json",
+      "bytes": 54912,
+      "sha256": "08b89181c9734af4a5767f640f2ca40e0c65f106b469b0e642a16f2e822f0bc5"
+    },
+    "independent_final_check_receipt": {
+      "path": "/home/jaykob/.codex/visualizations/2026/09/13/01a09a32-1ca6-7983-93da-5f7da689ab16/ahas-pilot2-20260914/deliverables/final-archive-independent-check.receipt.json",
+      "bytes": 1171,
+      "sha256": "5bcd8c9ad5b9d71067f1fa01cbf9e9bb55ef338a57239e311a88b75d7e4d6dd0"
+    },
+    "portable_link_check": {
+      "path": "/home/jaykob/.codex/visualizations/2026/09/13/01a09a32-1ca6-7983-93da-5f7da689ab16/ahas-pilot2-20260914/deliverables/final-portable-links.json",
+      "bytes": 22249,
+      "sha256": "d3630f4b065a5c2aec3f9b67fdee60b7532c99b2f6d1e997f31ff1c0573dd3b0"
+    },
+    "final_archive_check_binding": {
+      "path": "/home/jaykob/.codex/visualizations/2026/09/13/01a09a32-1ca6-7983-93da-5f7da689ab16/ahas-pilot2-20260914/deliverables/final-archive-check-binding.json",
+      "bytes": 1263,
+      "sha256": "2fca9d9fe3cdc1f46f8ce61607b8ed01be8cd47ecf010fa3bdb1d64bf4323dd2"
+    },
+    "independent_factual_check": {
+      "path": "/home/jaykob/.codex/visualizations/2026/09/13/01a09a32-1ca6-7983-93da-5f7da689ab16/ahas-pilot2-20260914/deliverables/handoff-factual-check.json",
+      "bytes": 1338,
+      "sha256": "53a5f1ac96f52cf34371267f15dd44c8d33a47ca3a738a3c0be254edf152d01c"
+    }
+  },
+  "real_world_validation": "not_established",
+  "confirmation_scored": false,
+  "frozen_files_verified": 1448,
+  "review_archive_files_verified": 317
+}

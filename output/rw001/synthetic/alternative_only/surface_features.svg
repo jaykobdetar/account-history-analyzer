@@ -1,0 +1,121 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 1000" role="img" aria-labelledby="surface-features-title">
+<title id="surface-features-title">Selected observed feature trajectories</title>
+<rect width="100%" height="100%" fill="#ffffff"/>
+<g font-family="system-ui, sans-serif" fill="#253347">
+<text x="20" y="30" font-size="21" font-weight="600">Selected observed feature trajectories</text>
+<text x="20" y="66" font-size="16" font-weight="600">Pooled comments — Comma rate</text>
+<text x="20" y="84" font-size="11" fill="#526274">per_1000_word_tokens; x = window ordinal</text>
+<metadata>{&quot;boundaries&quot;:[],&quot;labels&quot;:[&quot;1&quot;,&quot;2&quot;,&quot;3&quot;,&quot;4&quot;,&quot;5&quot;,&quot;6&quot;,&quot;7&quot;,&quot;8&quot;,&quot;9&quot;,&quot;10&quot;,&quot;11&quot;,&quot;12&quot;],&quot;title&quot;:&quot;Pooled comments — Comma rate&quot;,&quot;unit&quot;:&quot;per_1000_word_tokens; x = window ordinal&quot;,&quot;values&quot;:[0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0]}</metadata>
+<line x1="76.0" y1="222" x2="926.0" y2="222" stroke="#dbe2ea"/>
+<text x="68.0" y="226" text-anchor="end" font-size="11">0</text>
+<line x1="76.0" y1="162" x2="926.0" y2="162" stroke="#dbe2ea"/>
+<text x="68.0" y="166" text-anchor="end" font-size="11">0.5</text>
+<line x1="76.0" y1="102" x2="926.0" y2="102" stroke="#dbe2ea"/>
+<text x="68.0" y="106" text-anchor="end" font-size="11">1</text>
+<polyline fill="none" stroke="#296589" stroke-width="2" points="111.417,222 182.25,222 253.083,222 323.917,222 394.75,222 465.583,222 536.417,222 607.25,222 678.083,222 748.917,222 819.75,222 890.583,222"/>
+<circle cx="111.417" cy="222" r="3" fill="#296589" data-value="0.0"><title>1: 0 per_1000_word_tokens; x = window ordinal</title></circle>
+<circle cx="182.25" cy="222" r="3" fill="#296589" data-value="0.0"><title>2: 0 per_1000_word_tokens; x = window ordinal</title></circle>
+<circle cx="253.083" cy="222" r="3" fill="#296589" data-value="0.0"><title>3: 0 per_1000_word_tokens; x = window ordinal</title></circle>
+<circle cx="323.917" cy="222" r="3" fill="#296589" data-value="0.0"><title>4: 0 per_1000_word_tokens; x = window ordinal</title></circle>
+<circle cx="394.75" cy="222" r="3" fill="#296589" data-value="0.0"><title>5: 0 per_1000_word_tokens; x = window ordinal</title></circle>
+<circle cx="465.583" cy="222" r="3" fill="#296589" data-value="0.0"><title>6: 0 per_1000_word_tokens; x = window ordinal</title></circle>
+<circle cx="536.417" cy="222" r="3" fill="#296589" data-value="0.0"><title>7: 0 per_1000_word_tokens; x = window ordinal</title></circle>
+<circle cx="607.25" cy="222" r="3" fill="#296589" data-value="0.0"><title>8: 0 per_1000_word_tokens; x = window ordinal</title></circle>
+<circle cx="678.083" cy="222" r="3" fill="#296589" data-value="0.0"><title>9: 0 per_1000_word_tokens; x = window ordinal</title></circle>
+<circle cx="748.917" cy="222" r="3" fill="#296589" data-value="0.0"><title>10: 0 per_1000_word_tokens; x = window ordinal</title></circle>
+<circle cx="819.75" cy="222" r="3" fill="#296589" data-value="0.0"><title>11: 0 per_1000_word_tokens; x = window ordinal</title></circle>
+<circle cx="890.583" cy="222" r="3" fill="#296589" data-value="0.0"><title>12: 0 per_1000_word_tokens; x = window ordinal</title></circle>
+<text x="111.417" y="242.0" text-anchor="middle" font-size="10">1</text>
+<text x="253.083" y="242.0" text-anchor="middle" font-size="10">3</text>
+<text x="394.75" y="242.0" text-anchor="middle" font-size="10">5</text>
+<text x="607.25" y="242.0" text-anchor="middle" font-size="10">8</text>
+<text x="748.917" y="242.0" text-anchor="middle" font-size="10">10</text>
+<text x="890.583" y="242.0" text-anchor="middle" font-size="10">12</text>
+<text x="20" y="291" font-size="16" font-weight="600">Pooled comments — Semicolon rate</text>
+<text x="20" y="309" font-size="11" fill="#526274">per_1000_word_tokens; x = window ordinal</text>
+<metadata>{&quot;boundaries&quot;:[],&quot;labels&quot;:[&quot;1&quot;,&quot;2&quot;,&quot;3&quot;,&quot;4&quot;,&quot;5&quot;,&quot;6&quot;,&quot;7&quot;,&quot;8&quot;,&quot;9&quot;,&quot;10&quot;,&quot;11&quot;,&quot;12&quot;],&quot;title&quot;:&quot;Pooled comments — Semicolon rate&quot;,&quot;unit&quot;:&quot;per_1000_word_tokens; x = window ordinal&quot;,&quot;values&quot;:[0.0,0.0,0.0,0.0,0.0,0.0,7.8125,7.8125,7.8125,7.8125,7.8125,7.8125]}</metadata>
+<line x1="76.0" y1="447" x2="926.0" y2="447" stroke="#dbe2ea"/>
+<text x="68.0" y="451" text-anchor="end" font-size="11">0</text>
+<line x1="76.0" y1="387" x2="926.0" y2="387" stroke="#dbe2ea"/>
+<text x="68.0" y="391" text-anchor="end" font-size="11">4.21875</text>
+<line x1="76.0" y1="327" x2="926.0" y2="327" stroke="#dbe2ea"/>
+<text x="68.0" y="331" text-anchor="end" font-size="11">8.4375</text>
+<polyline fill="none" stroke="#296589" stroke-width="2" points="111.417,447 182.25,447 253.083,447 323.917,447 394.75,447 465.583,447 536.417,335.889 607.25,335.889 678.083,335.889 748.917,335.889 819.75,335.889 890.583,335.889"/>
+<circle cx="111.417" cy="447" r="3" fill="#296589" data-value="0.0"><title>1: 0 per_1000_word_tokens; x = window ordinal</title></circle>
+<circle cx="182.25" cy="447" r="3" fill="#296589" data-value="0.0"><title>2: 0 per_1000_word_tokens; x = window ordinal</title></circle>
+<circle cx="253.083" cy="447" r="3" fill="#296589" data-value="0.0"><title>3: 0 per_1000_word_tokens; x = window ordinal</title></circle>
+<circle cx="323.917" cy="447" r="3" fill="#296589" data-value="0.0"><title>4: 0 per_1000_word_tokens; x = window ordinal</title></circle>
+<circle cx="394.75" cy="447" r="3" fill="#296589" data-value="0.0"><title>5: 0 per_1000_word_tokens; x = window ordinal</title></circle>
+<circle cx="465.583" cy="447" r="3" fill="#296589" data-value="0.0"><title>6: 0 per_1000_word_tokens; x = window ordinal</title></circle>
+<circle cx="536.417" cy="335.889" r="3" fill="#296589" data-value="7.8125"><title>7: 7.8125 per_1000_word_tokens; x = window ordinal</title></circle>
+<circle cx="607.25" cy="335.889" r="3" fill="#296589" data-value="7.8125"><title>8: 7.8125 per_1000_word_tokens; x = window ordinal</title></circle>
+<circle cx="678.083" cy="335.889" r="3" fill="#296589" data-value="7.8125"><title>9: 7.8125 per_1000_word_tokens; x = window ordinal</title></circle>
+<circle cx="748.917" cy="335.889" r="3" fill="#296589" data-value="7.8125"><title>10: 7.8125 per_1000_word_tokens; x = window ordinal</title></circle>
+<circle cx="819.75" cy="335.889" r="3" fill="#296589" data-value="7.8125"><title>11: 7.8125 per_1000_word_tokens; x = window ordinal</title></circle>
+<circle cx="890.583" cy="335.889" r="3" fill="#296589" data-value="7.8125"><title>12: 7.8125 per_1000_word_tokens; x = window ordinal</title></circle>
+<text x="111.417" y="467.0" text-anchor="middle" font-size="10">1</text>
+<text x="253.083" y="467.0" text-anchor="middle" font-size="10">3</text>
+<text x="394.75" y="467.0" text-anchor="middle" font-size="10">5</text>
+<text x="607.25" y="467.0" text-anchor="middle" font-size="10">8</text>
+<text x="748.917" y="467.0" text-anchor="middle" font-size="10">10</text>
+<text x="890.583" y="467.0" text-anchor="middle" font-size="10">12</text>
+<text x="20" y="516" font-size="16" font-weight="600">Pooled comments — Uppercase fraction</text>
+<text x="20" y="534" font-size="11" fill="#526274">uppercase / cased code points; x = window ordinal</text>
+<metadata>{&quot;boundaries&quot;:[],&quot;labels&quot;:[&quot;1&quot;,&quot;2&quot;,&quot;3&quot;,&quot;4&quot;,&quot;5&quot;,&quot;6&quot;,&quot;7&quot;,&quot;8&quot;,&quot;9&quot;,&quot;10&quot;,&quot;11&quot;,&quot;12&quot;],&quot;title&quot;:&quot;Pooled comments — Uppercase fraction&quot;,&quot;unit&quot;:&quot;uppercase / cased code points; x = window ordinal&quot;,&quot;values&quot;:[0.0,0.0,0.0,0.0,0.0,0.0,1.0,1.0,1.0,1.0,1.0,1.0]}</metadata>
+<line x1="76.0" y1="672" x2="926.0" y2="672" stroke="#dbe2ea"/>
+<text x="68.0" y="676" text-anchor="end" font-size="11">0</text>
+<line x1="76.0" y1="612" x2="926.0" y2="612" stroke="#dbe2ea"/>
+<text x="68.0" y="616" text-anchor="end" font-size="11">0.54</text>
+<line x1="76.0" y1="552" x2="926.0" y2="552" stroke="#dbe2ea"/>
+<text x="68.0" y="556" text-anchor="end" font-size="11">1.08</text>
+<polyline fill="none" stroke="#296589" stroke-width="2" points="111.417,672 182.25,672 253.083,672 323.917,672 394.75,672 465.583,672 536.417,560.889 607.25,560.889 678.083,560.889 748.917,560.889 819.75,560.889 890.583,560.889"/>
+<circle cx="111.417" cy="672" r="3" fill="#296589" data-value="0.0"><title>1: 0 uppercase / cased code points; x = window ordinal</title></circle>
+<circle cx="182.25" cy="672" r="3" fill="#296589" data-value="0.0"><title>2: 0 uppercase / cased code points; x = window ordinal</title></circle>
+<circle cx="253.083" cy="672" r="3" fill="#296589" data-value="0.0"><title>3: 0 uppercase / cased code points; x = window ordinal</title></circle>
+<circle cx="323.917" cy="672" r="3" fill="#296589" data-value="0.0"><title>4: 0 uppercase / cased code points; x = window ordinal</title></circle>
+<circle cx="394.75" cy="672" r="3" fill="#296589" data-value="0.0"><title>5: 0 uppercase / cased code points; x = window ordinal</title></circle>
+<circle cx="465.583" cy="672" r="3" fill="#296589" data-value="0.0"><title>6: 0 uppercase / cased code points; x = window ordinal</title></circle>
+<circle cx="536.417" cy="560.889" r="3" fill="#296589" data-value="1.0"><title>7: 1 uppercase / cased code points; x = window ordinal</title></circle>
+<circle cx="607.25" cy="560.889" r="3" fill="#296589" data-value="1.0"><title>8: 1 uppercase / cased code points; x = window ordinal</title></circle>
+<circle cx="678.083" cy="560.889" r="3" fill="#296589" data-value="1.0"><title>9: 1 uppercase / cased code points; x = window ordinal</title></circle>
+<circle cx="748.917" cy="560.889" r="3" fill="#296589" data-value="1.0"><title>10: 1 uppercase / cased code points; x = window ordinal</title></circle>
+<circle cx="819.75" cy="560.889" r="3" fill="#296589" data-value="1.0"><title>11: 1 uppercase / cased code points; x = window ordinal</title></circle>
+<circle cx="890.583" cy="560.889" r="3" fill="#296589" data-value="1.0"><title>12: 1 uppercase / cased code points; x = window ordinal</title></circle>
+<text x="111.417" y="692.0" text-anchor="middle" font-size="10">1</text>
+<text x="253.083" y="692.0" text-anchor="middle" font-size="10">3</text>
+<text x="394.75" y="692.0" text-anchor="middle" font-size="10">5</text>
+<text x="607.25" y="692.0" text-anchor="middle" font-size="10">8</text>
+<text x="748.917" y="692.0" text-anchor="middle" font-size="10">10</text>
+<text x="890.583" y="692.0" text-anchor="middle" font-size="10">12</text>
+<text x="20" y="741" font-size="16" font-weight="600">Pooled comments — Mean word length</text>
+<text x="20" y="759" font-size="11" fill="#526274">alphabetic code points / retained word token; x = window ordinal</text>
+<metadata>{&quot;boundaries&quot;:[],&quot;labels&quot;:[&quot;1&quot;,&quot;2&quot;,&quot;3&quot;,&quot;4&quot;,&quot;5&quot;,&quot;6&quot;,&quot;7&quot;,&quot;8&quot;,&quot;9&quot;,&quot;10&quot;,&quot;11&quot;,&quot;12&quot;],&quot;title&quot;:&quot;Pooled comments — Mean word length&quot;,&quot;unit&quot;:&quot;alphabetic code points / retained word token; x = window ordinal&quot;,&quot;values&quot;:[4.75,4.75,4.75,4.75,4.75,4.75,4.75,4.75,4.75,4.75,4.75,4.75]}</metadata>
+<line x1="76.0" y1="897" x2="926.0" y2="897" stroke="#dbe2ea"/>
+<text x="68.0" y="901" text-anchor="end" font-size="11">0</text>
+<line x1="76.0" y1="837" x2="926.0" y2="837" stroke="#dbe2ea"/>
+<text x="68.0" y="841" text-anchor="end" font-size="11">2.565</text>
+<line x1="76.0" y1="777" x2="926.0" y2="777" stroke="#dbe2ea"/>
+<text x="68.0" y="781" text-anchor="end" font-size="11">5.13</text>
+<polyline fill="none" stroke="#296589" stroke-width="2" points="111.417,785.889 182.25,785.889 253.083,785.889 323.917,785.889 394.75,785.889 465.583,785.889 536.417,785.889 607.25,785.889 678.083,785.889 748.917,785.889 819.75,785.889 890.583,785.889"/>
+<circle cx="111.417" cy="785.889" r="3" fill="#296589" data-value="4.75"><title>1: 4.75 alphabetic code points / retained word token; x = window ordinal</title></circle>
+<circle cx="182.25" cy="785.889" r="3" fill="#296589" data-value="4.75"><title>2: 4.75 alphabetic code points / retained word token; x = window ordinal</title></circle>
+<circle cx="253.083" cy="785.889" r="3" fill="#296589" data-value="4.75"><title>3: 4.75 alphabetic code points / retained word token; x = window ordinal</title></circle>
+<circle cx="323.917" cy="785.889" r="3" fill="#296589" data-value="4.75"><title>4: 4.75 alphabetic code points / retained word token; x = window ordinal</title></circle>
+<circle cx="394.75" cy="785.889" r="3" fill="#296589" data-value="4.75"><title>5: 4.75 alphabetic code points / retained word token; x = window ordinal</title></circle>
+<circle cx="465.583" cy="785.889" r="3" fill="#296589" data-value="4.75"><title>6: 4.75 alphabetic code points / retained word token; x = window ordinal</title></circle>
+<circle cx="536.417" cy="785.889" r="3" fill="#296589" data-value="4.75"><title>7: 4.75 alphabetic code points / retained word token; x = window ordinal</title></circle>
+<circle cx="607.25" cy="785.889" r="3" fill="#296589" data-value="4.75"><title>8: 4.75 alphabetic code points / retained word token; x = window ordinal</title></circle>
+<circle cx="678.083" cy="785.889" r="3" fill="#296589" data-value="4.75"><title>9: 4.75 alphabetic code points / retained word token; x = window ordinal</title></circle>
+<circle cx="748.917" cy="785.889" r="3" fill="#296589" data-value="4.75"><title>10: 4.75 alphabetic code points / retained word token; x = window ordinal</title></circle>
+<circle cx="819.75" cy="785.889" r="3" fill="#296589" data-value="4.75"><title>11: 4.75 alphabetic code points / retained word token; x = window ordinal</title></circle>
+<circle cx="890.583" cy="785.889" r="3" fill="#296589" data-value="4.75"><title>12: 4.75 alphabetic code points / retained word token; x = window ordinal</title></circle>
+<text x="111.417" y="917.0" text-anchor="middle" font-size="10">1</text>
+<text x="253.083" y="917.0" text-anchor="middle" font-size="10">3</text>
+<text x="394.75" y="917.0" text-anchor="middle" font-size="10">5</text>
+<text x="607.25" y="917.0" text-anchor="middle" font-size="10">8</text>
+<text x="748.917" y="917.0" text-anchor="middle" font-size="10">10</text>
+<text x="890.583" y="917.0" text-anchor="middle" font-size="10">12</text>
+<text x="20" y="955" font-size="11" fill="#526274">Lines connect observed windows in order; horizontal spacing is not elapsed time. Missing values break lines.</text>
+<text x="20" y="975" font-size="11" fill="#526274">Dashed red marks a descriptive candidate. Measurements do not establish cause or a change of author.</text>
+</g>
+</svg>

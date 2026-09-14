@@ -1,0 +1,12 @@
+{
+  "command": [
+    "python3.12",
+    "scripts/offline_exec.py",
+    ".venv/bin/python",
+    "qa/report005/independent-label-probe.py"
+  ],
+  "cwd": "/home/jaykob/Downloads/Account_History_Analyzer_V1_Agent_Handoff/account_history_analyzer_v1",
+  "exit_code": 0,
+  "elapsed_seconds": 2.868239123985404,
+  "network_isolation": "linux_seccomp_socket_denial"
+}

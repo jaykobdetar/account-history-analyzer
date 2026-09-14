@@ -1,0 +1,95 @@
+{
+  "commands": [
+    {
+      "argv": [
+        "/usr/bin/python3.12",
+        "/home/jaykob/Downloads/Account_History_Analyzer_V1_Agent_Handoff/account_history_analyzer_v1/scripts/offline_exec.py",
+        "/home/jaykob/Downloads/Account_History_Analyzer_V1_Agent_Handoff/account_history_analyzer_v1/.venv/bin/python",
+        "-B",
+        "/home/jaykob/.codex/visualizations/2026/09/13/01a09a32-1ca6-7983-93da-5f7da689ab16/ahas-pilot2-20260914/scripts/check_old_grid.py",
+        "--self-test"
+      ],
+      "cwd": "/home/jaykob/.codex/visualizations/2026/09/13/01a09a32-1ca6-7983-93da-5f7da689ab16/ahas-pilot2-20260914/diagnostics",
+      "exit_code": 0,
+      "measurement": {
+        "elapsed_seconds": 0.17,
+        "exit_code": 0,
+        "peak_rss_kib": 41764,
+        "system_seconds": 0.04,
+        "user_seconds": 0.12
+      },
+      "measurement_argv": [
+        "/usr/bin/time",
+        "-f",
+        "{\"elapsed_seconds\":%e,\"peak_rss_kib\":%M,\"user_seconds\":%U,\"system_seconds\":%S,\"exit_code\":%x}",
+        "-o",
+        "/home/jaykob/.codex/visualizations/2026/09/13/01a09a32-1ca6-7983-93da-5f7da689ab16/ahas-pilot2-20260914/diagnostics/logs/hand-checkable-tests.time.json",
+        "/usr/bin/python3.12",
+        "/home/jaykob/Downloads/Account_History_Analyzer_V1_Agent_Handoff/account_history_analyzer_v1/scripts/offline_exec.py",
+        "/home/jaykob/Downloads/Account_History_Analyzer_V1_Agent_Handoff/account_history_analyzer_v1/.venv/bin/python",
+        "-B",
+        "/home/jaykob/.codex/visualizations/2026/09/13/01a09a32-1ca6-7983-93da-5f7da689ab16/ahas-pilot2-20260914/scripts/check_old_grid.py",
+        "--self-test"
+      ],
+      "stage": "hand-checkable-tests",
+      "stderr_sha256": "1584ba9efb1dce1ec6635f70dfc75e3d50a75addcac48208955d520a7787ac16",
+      "stdout_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "wall_clock_seconds": 0.17469625399098732
+    },
+    {
+      "argv": [
+        "/usr/bin/python3.12",
+        "/home/jaykob/Downloads/Account_History_Analyzer_V1_Agent_Handoff/account_history_analyzer_v1/scripts/offline_exec.py",
+        "/home/jaykob/Downloads/Account_History_Analyzer_V1_Agent_Handoff/account_history_analyzer_v1/.venv/bin/python",
+        "-B",
+        "/home/jaykob/.codex/visualizations/2026/09/13/01a09a32-1ca6-7983-93da-5f7da689ab16/ahas-pilot2-20260914/scripts/check_old_grid.py",
+        "--study",
+        "/home/jaykob/.codex/visualizations/2026/09/13/01a09a32-1ca6-7983-93da-5f7da689ab16/ahas-realworld-review",
+        "--review-zip",
+        "/home/jaykob/Downloads/AHAS_1.0.3_Independent_Pilot_Review_and_Next_Steps.zip",
+        "--out",
+        "/home/jaykob/.codex/visualizations/2026/09/13/01a09a32-1ca6-7983-93da-5f7da689ab16/ahas-pilot2-20260914/diagnostics"
+      ],
+      "cwd": "/home/jaykob/.codex/visualizations/2026/09/13/01a09a32-1ca6-7983-93da-5f7da689ab16/ahas-pilot2-20260914/diagnostics",
+      "exit_code": 0,
+      "measurement": {
+        "elapsed_seconds": 5.87,
+        "exit_code": 0,
+        "peak_rss_kib": 103588,
+        "system_seconds": 0.16,
+        "user_seconds": 5.71
+      },
+      "measurement_argv": [
+        "/usr/bin/time",
+        "-f",
+        "{\"elapsed_seconds\":%e,\"peak_rss_kib\":%M,\"user_seconds\":%U,\"system_seconds\":%S,\"exit_code\":%x}",
+        "-o",
+        "/home/jaykob/.codex/visualizations/2026/09/13/01a09a32-1ca6-7983-93da-5f7da689ab16/ahas-pilot2-20260914/diagnostics/logs/actual-grid-check.time.json",
+        "/usr/bin/python3.12",
+        "/home/jaykob/Downloads/Account_History_Analyzer_V1_Agent_Handoff/account_history_analyzer_v1/scripts/offline_exec.py",
+        "/home/jaykob/Downloads/Account_History_Analyzer_V1_Agent_Handoff/account_history_analyzer_v1/.venv/bin/python",
+        "-B",
+        "/home/jaykob/.codex/visualizations/2026/09/13/01a09a32-1ca6-7983-93da-5f7da689ab16/ahas-pilot2-20260914/scripts/check_old_grid.py",
+        "--study",
+        "/home/jaykob/.codex/visualizations/2026/09/13/01a09a32-1ca6-7983-93da-5f7da689ab16/ahas-realworld-review",
+        "--review-zip",
+        "/home/jaykob/Downloads/AHAS_1.0.3_Independent_Pilot_Review_and_Next_Steps.zip",
+        "--out",
+        "/home/jaykob/.codex/visualizations/2026/09/13/01a09a32-1ca6-7983-93da-5f7da689ab16/ahas-pilot2-20260914/diagnostics"
+      ],
+      "stage": "actual-grid-check",
+      "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "stdout_sha256": "b6e29746d93d7a23c776ee0b3e6976b5f4b465d72dc15cb8bb1f4d137bf050a2",
+      "wall_clock_seconds": 5.878901563992258
+    }
+  ],
+  "environment_overrides": {
+    "PYTHONDONTWRITEBYTECODE": "1",
+    "PYTHONHASHSEED": "19217",
+    "PYTHONHOME": "removed",
+    "PYTHONPATH": "removed",
+    "TZ": "UTC"
+  },
+  "network_isolation": "linux_seccomp_socket_denial",
+  "status": "passed"
+}

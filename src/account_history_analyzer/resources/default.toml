@@ -1,0 +1,101 @@
+# AHAS V1 expanded defaults for the implemented offline analyzer.
+# All thresholds below are unvalidated engineering defaults, not bot/human cutoffs.
+schema_version = "1.0.0"
+
+[input]
+max_unique_records = 10000
+max_text_codepoints = 200000
+max_input_bytes = 52428800
+strict = true
+
+[artifacts]
+# Bounded analytical outputs, separate from the 50 MiB source-input limit.
+# Overrides may tighten these release ceilings; incomplete publication is refused.
+max_file_bytes = 268435456
+max_total_bytes = 536870912
+max_files = 32
+
+[text]
+normalization = "NFC"
+parser_profile = "commonmark_v1"
+tokenizer = "lexical_regex_v1"
+function_words_resource = "function_words_en_v1.txt"
+contraction_pairs_resource = "contraction_pairs.json"
+# Resources are resolved from the installed package, not by fetching URLs.
+
+[style]
+language = "en"
+minimum_record_words = 20
+minimum_comparison_words_per_side = 1000
+minimum_comparison_records_per_side = 8
+ngram_lengths = [3, 4, 5]
+views = ["retained_prose", "function_mask_v1"]
+# Reserved cap for optional all-pair heatmaps, which are not implemented in V1.
+max_all_pairs_windows = 100
+contraction_minimum_opportunities = 10
+
+[windows]
+target_words = 1000
+minimum_records = 8
+separate_kinds = true
+max_community_streams = 10
+single_record_dominance_fraction = 0.50
+sensitivity_targets = [500, 2000]
+
+[changes]
+method = "pelt_l2_v1"
+minimum_windows = 8
+minimum_segment_windows = 3
+jump = 1
+primary_lambda = 1.0
+sensitivity_lambdas = [0.5, 2.0, 4.0]
+scale_ddof = 0
+scale_epsilon = 0.000000000001
+same_window_boundary_tolerance = 1
+
+[reuse]
+shingle_tokens = 5
+minimum_near_duplicate_words = 20
+minimum_containment_shorter_words = 50
+# Threshold fractions are exact rational decisions; use cross-multiplication.
+near_threshold_numerator = 80
+near_threshold_denominator = 100
+containment_threshold_numerator = 90
+containment_threshold_denominator = 100
+max_candidate_pairs = 2000000
+max_index_postings = 2000000
+max_work_units = 250000000
+max_evidence_tokens = 2000000
+max_evidence_codepoints = 8000000
+repeat_reduced_exact_sensitivity = true
+repeat_reduced_near_sensitivity = false
+
+[activity]
+# Explicit resource bound for complete UTC calendar-bin expansion; no truncation.
+max_calendar_days = 366000
+timezone = "UTC"
+burst_duration_seconds = 30
+burst_minimum_events = 3
+sliding_window_seconds = [30, 120, 3600]
+
+[sensitivity]
+exclude_known_edited = true
+within_community = true
+
+[delta]
+enabled_when_reference_supplied = true
+# Empty means no reference; this is a normal not-run result.
+reference_path = ""
+allow_toy_reference = false
+
+[report]
+# V1 analyses always export all three required formats. Use render --format for derivatives.
+formats = ["json", "markdown", "html"]
+maximum_feature_explanations = 10
+examples_per_side_per_feature = 2
+excerpts = "included"
+remote_assets = false
+
+[ai_text_detection]
+enabled = false
+status_reason = "not_implemented_in_v1"

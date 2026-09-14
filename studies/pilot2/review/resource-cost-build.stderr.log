@@ -1,0 +1,9 @@
+Traceback (most recent call last):
+  File "/home/jaykob/.codex/visualizations/2026/09/13/01a09a32-1ca6-7983-93da-5f7da689ab16/ahas-pilot2-20260914/review/build_resource_cost_report.py", line 437, in <module>
+    main()
+  File "/home/jaykob/.codex/visualizations/2026/09/13/01a09a32-1ca6-7983-93da-5f7da689ab16/ahas-pilot2-20260914/review/build_resource_cost_report.py", line 427, in main
+    report = build(args.root.resolve(), args.old_study.resolve(), args.repo.resolve())
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/jaykob/.codex/visualizations/2026/09/13/01a09a32-1ca6-7983-93da-5f7da689ab16/ahas-pilot2-20260914/review/build_resource_cost_report.py", line 350, in build
+    raise ValueError('An immutable source/baseline/historical binding changed')
+ValueError: An immutable source/baseline/historical binding changed

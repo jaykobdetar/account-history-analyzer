@@ -1,0 +1,45 @@
+FFs                                                                      [100%]
+=================================== FAILURES ===================================
+____________ test_render_does_not_depend_on_mapping_insertion_order ____________
+
+    def test_render_does_not_depend_on_mapping_insertion_order():
+        from account_history_analyzer.reporting import render_markdown, render_html
+        from account_history_analyzer.io import canonical_bytes
+        directory = ROOT / 'output/arithmetic'
+        result = json.loads((directory/'results.json').read_bytes())
+        evidence = [json.loads(line) for line in (directory/'evidence.jsonl').read_text().splitlines()]
+        windows = [json.loads(line) for line in (directory/'windows.jsonl').read_text().splitlines()]
+        reordered = _reverse_mapping_order(result)
+        assert canonical_bytes(result) == canonical_bytes(reordered)
+>       assert render_markdown(result, evidence, windows=windows) == render_markdown(reordered, evidence, windows=windows)
+E       AssertionError: assert '# Supplied a...n</details>\n' == '# Supplied a...n</details>\n'
+E         
+E         Skipping 1280 identical leading characters in diff, use -v to show
+E         Skipping 21491 identical trailing characters in diff, use -v to show
+E           | --- |
+E         + | deleted | 0 |
+E         + | present | 6 |
+E         + | removed | 0 |...
+E         
+E         ...Full output truncated (119 lines hidden), use '-vv' to show
+
+qa/audit-repair/supplied-probes/test_review_regressions.py:33: AssertionError
+____________ test_one_hyperlink_with_a_mixed_url_label_counts_once _____________
+
+    def test_one_hyperlink_with_a_mixed_url_label_counts_once():
+        from account_history_analyzer.config import AnalysisConfig
+        from account_history_analyzer.text import preprocess
+        record = {'id': 'review-link', 'kind': 'comment', 'status': 'present',
+                  'text': '[Read https://example.org for details](https://example.org)'}
+        manifest = {'text_format': 'markdown', 'default_language': 'en'}
+        result = preprocess(record, manifest, AnalysisConfig.from_toml())
+>       assert len(result['links']) == 1
+E       AssertionError: assert 2 == 1
+E        +  where 2 = len((mappingproxy({'url': 'https://example.org', 'hostname': 'example.org', 'status': 'ok', 'source_field': 'text', 'sourc...https://example.org', 'hostname': 'example.org', 'status': 'ok', 'source_field': 'text', 'source_line_range': (1, 1)})))
+
+qa/audit-repair/supplied-probes/test_review_regressions.py:44: AssertionError
+=========================== short test summary info ============================
+SKIPPED [1] qa/audit-repair/supplied-probes/test_review_regressions.py:48: Opt-in full-pipeline benchmark; requires the pinned Python 3.12 environment
+FAILED qa/audit-repair/supplied-probes/test_review_regressions.py::test_render_does_not_depend_on_mapping_insertion_order
+FAILED qa/audit-repair/supplied-probes/test_review_regressions.py::test_one_hyperlink_with_a_mixed_url_label_counts_once
+2 failed, 1 skipped in 0.50s

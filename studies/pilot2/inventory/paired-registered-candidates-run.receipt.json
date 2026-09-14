@@ -1,0 +1,22 @@
+{
+  "command": [
+    ".venv/bin/python",
+    "scripts/offline_exec.py",
+    ".venv/bin/python",
+    "/home/jaykob/.codex/visualizations/2026/09/13/01a09a32-1ca6-7983-93da-5f7da689ab16/ahas-pilot2-20260914/scripts/prepare_pairs.py",
+    "candidates",
+    "--plan",
+    "/home/jaykob/.codex/visualizations/2026/09/13/01a09a32-1ca6-7983-93da-5f7da689ab16/ahas-pilot2-20260914/protocol/plan.json",
+    "--out",
+    "/home/jaykob/.codex/visualizations/2026/09/13/01a09a32-1ca6-7983-93da-5f7da689ab16/ahas-pilot2-20260914/prepared/paired-registered"
+  ],
+  "cwd": "/home/jaykob/Downloads/Account_History_Analyzer_V1_Agent_Handoff/account_history_analyzer_v1",
+  "started_utc": "2026-09-14T19:27:28.603163+00:00",
+  "finished_utc": "2026-09-14T19:29:11.060007+00:00",
+  "exit_code": 0,
+  "wall_seconds": 102.45684467098908,
+  "peak_rss_kib": 472748,
+  "measurement_scope": "this command and descendants; separate from canonical results",
+  "stdout_sha256": "4cc0dca0cc0c9e8ccb9d53394695f825aa1782868d455b78d0cba002ba9fd940",
+  "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+}

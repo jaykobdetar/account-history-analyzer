@@ -1,0 +1,23 @@
+{
+  "command": [
+    ".venv/bin/python",
+    "scripts/offline_exec.py",
+    "/usr/bin/prlimit",
+    "--as=3221225472",
+    ".venv/bin/python",
+    "/home/jaykob/.codex/visualizations/2026/09/13/01a09a32-1ca6-7983-93da-5f7da689ab16/ahas-pilot2-20260914/scripts/leakage_audit.py",
+    "--candidate-pool",
+    "/home/jaykob/.codex/visualizations/2026/09/13/01a09a32-1ca6-7983-93da-5f7da689ab16/ahas-pilot2-20260914/prepared/paired/private/candidate-pool.jsonl",
+    "--out",
+    "/home/jaykob/.codex/visualizations/2026/09/13/01a09a32-1ca6-7983-93da-5f7da689ab16/ahas-pilot2-20260914/prepared/paired/private/leakage-audit.json"
+  ],
+  "cwd": "/home/jaykob/Downloads/Account_History_Analyzer_V1_Agent_Handoff/account_history_analyzer_v1",
+  "started_utc": "2026-09-14T19:22:21.853846+00:00",
+  "finished_utc": "2026-09-14T19:23:23.439402+00:00",
+  "exit_code": 0,
+  "wall_seconds": 61.585553626995534,
+  "peak_rss_kib": 1651692,
+  "measurement_scope": "this command and descendants; separate from canonical results",
+  "stdout_sha256": "d71c417357c32f3a26d0f4f098f2de06d442ba6ea0be5a975c8dde5dc35a3c23",
+  "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+}

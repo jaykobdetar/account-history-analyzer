@@ -1,0 +1,47 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 305" role="img" aria-labelledby="activity-hourly-title">
+<title id="activity-hourly-title">UTC hour histogram across supplied dates</title>
+<rect width="100%" height="100%" fill="#ffffff"/>
+<g font-family="system-ui, sans-serif" fill="#253347">
+<text x="20" y="30" font-size="21" font-weight="600">UTC hour histogram across supplied dates</text>
+<text x="20" y="66" font-size="16" font-weight="600">Distinct timed supplied events</text>
+<text x="20" y="84" font-size="11" fill="#526274">events aggregated across all dates in each UTC hour</text>
+<metadata>{&quot;boundaries&quot;:[],&quot;labels&quot;:[&quot;00:00&quot;,&quot;01:00&quot;,&quot;02:00&quot;,&quot;03:00&quot;,&quot;04:00&quot;,&quot;05:00&quot;,&quot;06:00&quot;,&quot;07:00&quot;,&quot;08:00&quot;,&quot;09:00&quot;,&quot;10:00&quot;,&quot;11:00&quot;,&quot;12:00&quot;,&quot;13:00&quot;,&quot;14:00&quot;,&quot;15:00&quot;,&quot;16:00&quot;,&quot;17:00&quot;,&quot;18:00&quot;,&quot;19:00&quot;,&quot;20:00&quot;,&quot;21:00&quot;,&quot;22:00&quot;,&quot;23:00&quot;],&quot;title&quot;:&quot;Distinct timed supplied events&quot;,&quot;unit&quot;:&quot;events aggregated across all dates in each UTC hour&quot;,&quot;values&quot;:[6,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0]}</metadata>
+<line x1="76.0" y1="222" x2="926.0" y2="222" stroke="#dbe2ea"/>
+<text x="68.0" y="226" text-anchor="end" font-size="11">0</text>
+<line x1="76.0" y1="162" x2="926.0" y2="162" stroke="#dbe2ea"/>
+<text x="68.0" y="166" text-anchor="end" font-size="11">3.24</text>
+<line x1="76.0" y1="102" x2="926.0" y2="102" stroke="#dbe2ea"/>
+<text x="68.0" y="106" text-anchor="end" font-size="11">6.48</text>
+<rect x="80.9583" y="110.889" width="25.5" height="111.111" fill="#296589" data-value="6"><title>00:00: 6 events aggregated across all dates in each UTC hour</title></rect>
+<rect x="116.375" y="222" width="25.5" height="0" fill="#296589" data-value="0"><title>01:00: 0 events aggregated across all dates in each UTC hour</title></rect>
+<rect x="151.792" y="222" width="25.5" height="0" fill="#296589" data-value="0"><title>02:00: 0 events aggregated across all dates in each UTC hour</title></rect>
+<rect x="187.208" y="222" width="25.5" height="0" fill="#296589" data-value="0"><title>03:00: 0 events aggregated across all dates in each UTC hour</title></rect>
+<rect x="222.625" y="222" width="25.5" height="0" fill="#296589" data-value="0"><title>04:00: 0 events aggregated across all dates in each UTC hour</title></rect>
+<rect x="258.042" y="222" width="25.5" height="0" fill="#296589" data-value="0"><title>05:00: 0 events aggregated across all dates in each UTC hour</title></rect>
+<rect x="293.458" y="222" width="25.5" height="0" fill="#296589" data-value="0"><title>06:00: 0 events aggregated across all dates in each UTC hour</title></rect>
+<rect x="328.875" y="222" width="25.5" height="0" fill="#296589" data-value="0"><title>07:00: 0 events aggregated across all dates in each UTC hour</title></rect>
+<rect x="364.292" y="222" width="25.5" height="0" fill="#296589" data-value="0"><title>08:00: 0 events aggregated across all dates in each UTC hour</title></rect>
+<rect x="399.708" y="222" width="25.5" height="0" fill="#296589" data-value="0"><title>09:00: 0 events aggregated across all dates in each UTC hour</title></rect>
+<rect x="435.125" y="222" width="25.5" height="0" fill="#296589" data-value="0"><title>10:00: 0 events aggregated across all dates in each UTC hour</title></rect>
+<rect x="470.542" y="222" width="25.5" height="0" fill="#296589" data-value="0"><title>11:00: 0 events aggregated across all dates in each UTC hour</title></rect>
+<rect x="505.958" y="222" width="25.5" height="0" fill="#296589" data-value="0"><title>12:00: 0 events aggregated across all dates in each UTC hour</title></rect>
+<rect x="541.375" y="222" width="25.5" height="0" fill="#296589" data-value="0"><title>13:00: 0 events aggregated across all dates in each UTC hour</title></rect>
+<rect x="576.792" y="222" width="25.5" height="0" fill="#296589" data-value="0"><title>14:00: 0 events aggregated across all dates in each UTC hour</title></rect>
+<rect x="612.208" y="222" width="25.5" height="0" fill="#296589" data-value="0"><title>15:00: 0 events aggregated across all dates in each UTC hour</title></rect>
+<rect x="647.625" y="222" width="25.5" height="0" fill="#296589" data-value="0"><title>16:00: 0 events aggregated across all dates in each UTC hour</title></rect>
+<rect x="683.042" y="222" width="25.5" height="0" fill="#296589" data-value="0"><title>17:00: 0 events aggregated across all dates in each UTC hour</title></rect>
+<rect x="718.458" y="222" width="25.5" height="0" fill="#296589" data-value="0"><title>18:00: 0 events aggregated across all dates in each UTC hour</title></rect>
+<rect x="753.875" y="222" width="25.5" height="0" fill="#296589" data-value="0"><title>19:00: 0 events aggregated across all dates in each UTC hour</title></rect>
+<rect x="789.292" y="222" width="25.5" height="0" fill="#296589" data-value="0"><title>20:00: 0 events aggregated across all dates in each UTC hour</title></rect>
+<rect x="824.708" y="222" width="25.5" height="0" fill="#296589" data-value="0"><title>21:00: 0 events aggregated across all dates in each UTC hour</title></rect>
+<rect x="860.125" y="222" width="25.5" height="0" fill="#296589" data-value="0"><title>22:00: 0 events aggregated across all dates in each UTC hour</title></rect>
+<rect x="895.542" y="222" width="25.5" height="0" fill="#296589" data-value="0"><title>23:00: 0 events aggregated across all dates in each UTC hour</title></rect>
+<text x="93.7083" y="242.0" text-anchor="middle" font-size="10">00:00</text>
+<text x="270.792" y="242.0" text-anchor="middle" font-size="10">05:00</text>
+<text x="412.458" y="242.0" text-anchor="middle" font-size="10">09:00</text>
+<text x="589.542" y="242.0" text-anchor="middle" font-size="10">14:00</text>
+<text x="731.208" y="242.0" text-anchor="middle" font-size="10">18:00</text>
+<text x="908.292" y="242.0" text-anchor="middle" font-size="10">23:00</text>
+<text x="20" y="280" font-size="11" fill="#526274">Hour bins aggregate dates. Activity in all bins does not establish uninterrupted use.</text>
+</g>
+</svg>

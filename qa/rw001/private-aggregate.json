@@ -1,0 +1,143 @@
+{
+  "actual_report_checks": {
+    "all_source_and_setting_anchor_references_resolve": true,
+    "all_stored_candidate_intervals_and_source_endpoints_present": true,
+    "excerpt_modes_checked": [
+      "included",
+      "none"
+    ],
+    "overview_rows_per_report": 88,
+    "overview_status_counts": {
+      "insufficient_data": 84,
+      "ok": 4
+    },
+    "penalty_settings": 4,
+    "reports_checked": 5,
+    "status": "passed",
+    "stored_alternative_candidate_count": 1,
+    "stored_primary_candidate_count": 0,
+    "streams": 22
+  },
+  "analytical_freeze": {
+    "analytical_values_sha256": "b08749376c7e20de35c9e56485f1194fc753ebccddd149d4783facc82c3dc2ac",
+    "exact_changed_json_paths": [
+      "/analysis/implementation_fingerprint",
+      "/analysis/resource_sha256/report_templates",
+      "/analysis/suite_version"
+    ],
+    "fresh_analysis_projection_matches_historical": true,
+    "fresh_results_sha256": "c775a1ada90e6c5adadfdbd103d2380eec2d494baff855e5118493a1cb36a3c1",
+    "historical_results_sha256": "282012ecf9d4690f3d69eee70dc9231f6cbdb95613aba9a692ac88b0f6b480d0",
+    "selected_intervals_and_matches_sha256": "71e709bf5af829baf35865d1e0f9b44adf4589eeff6970758ed6b1b1dd19720a",
+    "status": "passed",
+    "stored_result_bytes_preserved_in_presentation_copy": true,
+    "unchanged_non_report_canonical_artifact_count": 11
+  },
+  "historical_preservation": {
+    "all_file_bytes_unchanged": true,
+    "file_count_after": 465,
+    "file_count_before": 465,
+    "inventory_sha256_after": "12959f47fb922a2b8ab5c9055e041ce0ebc82f295aec5b5971896f5e9489d3ef",
+    "inventory_sha256_before": "12959f47fb922a2b8ab5c9055e041ce0ebc82f295aec5b5971896f5e9489d3ef",
+    "original_regression_source_sha256": "3fbaf68551f2303e7cd03caa626b59659c2ea0334f7eae43d92092f27aa6f710",
+    "original_regression_source_unchanged": true,
+    "status": "passed"
+  },
+  "limitations": [
+    "Only the tested pinned Linux environment was checked for byte identity.",
+    "This verifies reporting completeness and analytical invariance; it does not validate candidate causes, authorship or real-world classification accuracy.",
+    "Diagnostic Stage B has not been started."
+  ],
+  "network_isolation": "linux_seccomp_socket_denial",
+  "privacy": "Aggregate counts, method identities, status and hashes only. Exact commands and raw logs are retained exclusively in the private validation destination.",
+  "receipt_version": "1",
+  "regression_outcomes": {
+    "new_corrected_presentation_run": {
+      "actual_test_outcome": "1 passed",
+      "elapsed_seconds": 0.675255989015568,
+      "exit_code": 0,
+      "regression_source_unchanged": true,
+      "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "stdout_sha256": "91ac28e87543203edb8fac4612b815f59bf36ac9a72ab315b86b2e36637fba30"
+    },
+    "preserved_historical_run": {
+      "actual_test_outcome": "1 failed",
+      "exit_code": 1,
+      "receipt_sha256": "23b7b68e9b4ac83b0ec344b62518f31b10977043f2949f81588886688b470d5e",
+      "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "stdout_sha256": "0b189aa50e8e503ec740cf70dfcb03b8a5405eaa32edfa42c35a3569476d5453"
+    }
+  },
+  "reproducibility": {
+    "canonical_artifact_count": 14,
+    "canonical_artifacts": [
+      "activity_daily.svg",
+      "activity_hourly.svg",
+      "adjacent_distances.svg",
+      "checksums.json",
+      "eligible_word_volume.svg",
+      "evidence.jsonl",
+      "method_registry.json",
+      "records_features.jsonl",
+      "report.html",
+      "report.md",
+      "resolved_config.json",
+      "results.json",
+      "surface_features.svg",
+      "windows.jsonl"
+    ],
+    "full_fresh_replay_scope": "all_canonical_artifacts",
+    "full_fresh_replay_status": "reproduced",
+    "saved_json_separate_process_agreement": {
+      "included": {
+        "all_byte_identical": true,
+        "compared_artifact_count": 9
+      },
+      "none": {
+        "all_byte_identical": true,
+        "compared_artifact_count": 9
+      }
+    }
+  },
+  "resource_measurements": [
+    {
+      "elapsed_seconds": 22.32,
+      "exit_code": 0,
+      "peak_rss_kib": 243020,
+      "stage": "fresh-analyze",
+      "system_seconds": 0.32,
+      "user_seconds": 21.93
+    },
+    {
+      "elapsed_seconds": 26.93,
+      "exit_code": 0,
+      "peak_rss_kib": 243624,
+      "stage": "fresh-verify-recompute",
+      "system_seconds": 0.32,
+      "user_seconds": 26.55
+    },
+    {
+      "elapsed_seconds": 61.47,
+      "exit_code": 0,
+      "peak_rss_kib": 312540,
+      "stage": "saved-private-presentations",
+      "system_seconds": 0.84,
+      "user_seconds": 60.56
+    }
+  ],
+  "scope": "RW001 Stage A private presentation repair verification; no scientific validation claim",
+  "source_identity": {
+    "current": {
+      "implementation_fingerprint": "bfc989028bf2b47c506d1ba501287d4e362aadc25ca5c731c41e4b27a336e179",
+      "report_template_sha256": "c8aa520917dc68d8229495a28a4375ab9e95902fe226955e79cbd1143ea3956c",
+      "suite_version": "1.0.4",
+      "template_version": "1.0.4"
+    },
+    "historical": {
+      "implementation_fingerprint": "c63f7130067baef0d8eeddcff30cf1c99ba31b8b69816ca843db03a917d9789a",
+      "report_template_sha256": "4e4e98b59a5017bbded50f2cca0c3b726369ec9349cdee9e234a59cb2a24b3a1",
+      "suite_version": "1.0.3"
+    }
+  },
+  "status": "passed"
+}

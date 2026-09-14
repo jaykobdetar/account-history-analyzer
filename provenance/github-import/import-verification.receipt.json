@@ -1,0 +1,19 @@
+{
+  "command": [
+    "/home/jaykob/Downloads/Account_History_Analyzer_V1_Agent_Handoff/account_history_analyzer_v1/.venv/bin/python",
+    "scripts/offline_exec.py",
+    "env",
+    "PYTHONDONTWRITEBYTECODE=1",
+    "/home/jaykob/Downloads/Account_History_Analyzer_V1_Agent_Handoff/account_history_analyzer_v1/.venv/bin/python",
+    "/home/jaykob/.codex/visualizations/2026/09/13/01a09a32-1ca6-7983-93da-5f7da689ab16/ahas-github-20260914/verify_import.py"
+  ],
+  "cwd": "/home/jaykob/.codex/visualizations/2026/09/13/01a09a32-1ca6-7983-93da-5f7da689ab16/ahas-github-20260914/account-history-analyzer",
+  "started_utc": "2026-09-14T20:28:06.961993+00:00",
+  "finished_utc": "2026-09-14T20:28:07.268411+00:00",
+  "exit_code": 0,
+  "wall_seconds": 0.30643108501681127,
+  "peak_rss_kib": 32620,
+  "measurement_scope": "this command and descendants; separate from canonical results",
+  "stdout_sha256": "1d10cfd0df564dda9831ad7721c0bd8d2df4c6ac20ae3114e0d7326e1fb92b2a",
+  "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+}

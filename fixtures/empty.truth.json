@@ -1,0 +1,8 @@
+{
+  "case": "empty",
+  "expected_analysis": "Coverage present; analysis modules show appropriate insufficient-data/not-run states, never a human/bot verdict.",
+  "fixture_version": "1.0.0",
+  "human_bot_or_ai_ground_truth": "not_applicable",
+  "label_type": "construction_operations_only",
+  "record_count": 0
+}

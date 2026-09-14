@@ -1,0 +1,18 @@
+{
+  "environment": "CPython3.12.3 Linux x86_64; native host and pinned slim-bookworm Docker image",
+  "fixtures": [
+    {
+      "compared_files": 14,
+      "fixture": "arithmetic",
+      "mismatches": [],
+      "results_sha256": "750b285a714d450bc8ce466388c872d4c5bddd0b505c86f48af9ab337ce6068d"
+    },
+    {
+      "compared_files": 14,
+      "fixture": "constructed_style_shift",
+      "mismatches": [],
+      "results_sha256": "5dcebc85038ce97271e436e7209e25914f5deaa64df25767bbed9e1333160575"
+    }
+  ],
+  "status": "passed"
+}

@@ -1,0 +1,12 @@
+Generating, recomputing, and rerendering arithmetic
+arithmetic: passed
+Generating, recomputing, and rerendering constructed_style_shift
+constructed_style_shift: passed
+Generating, recomputing, and rerendering constructed_topic_shift
+constructed_topic_shift: passed
+Generating, recomputing, and rerendering edge_cases
+edge_cases: passed
+Generating, recomputing, and rerendering empty
+empty: passed
+Generating, recomputing, and rerendering stable_constructed_style
+stable_constructed_style: passed

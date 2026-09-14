@@ -1,0 +1,117 @@
+{
+  "command": ".venv/bin/python scripts/offline_exec.py /tmp/ahas-pr383-install/bin/python - < AUD-002 baseline probe",
+  "fresh_publication_round_trip": {
+    "html_equal": false,
+    "markdown_equal": false
+  },
+  "frozen_reports": [
+    {
+      "canonical_input_equal": true,
+      "case": "arithmetic",
+      "charts_permutation_equal": true,
+      "excerpts": {
+        "included": {
+          "html_permutation_equal": false,
+          "markdown_permutation_equal": false
+        },
+        "none": {
+          "html_permutation_equal": false,
+          "markdown_permutation_equal": false
+        }
+      },
+      "saved_html_reproduced": false,
+      "saved_markdown_reproduced": false
+    },
+    {
+      "canonical_input_equal": true,
+      "case": "constructed_style_shift",
+      "charts_permutation_equal": true,
+      "excerpts": {
+        "included": {
+          "html_permutation_equal": false,
+          "markdown_permutation_equal": false
+        },
+        "none": {
+          "html_permutation_equal": false,
+          "markdown_permutation_equal": false
+        }
+      },
+      "saved_html_reproduced": false,
+      "saved_markdown_reproduced": false
+    },
+    {
+      "canonical_input_equal": true,
+      "case": "constructed_topic_shift",
+      "charts_permutation_equal": true,
+      "excerpts": {
+        "included": {
+          "html_permutation_equal": false,
+          "markdown_permutation_equal": false
+        },
+        "none": {
+          "html_permutation_equal": false,
+          "markdown_permutation_equal": false
+        }
+      },
+      "saved_html_reproduced": false,
+      "saved_markdown_reproduced": false
+    },
+    {
+      "canonical_input_equal": true,
+      "case": "edge_cases",
+      "charts_permutation_equal": true,
+      "excerpts": {
+        "included": {
+          "html_permutation_equal": false,
+          "markdown_permutation_equal": false
+        },
+        "none": {
+          "html_permutation_equal": false,
+          "markdown_permutation_equal": false
+        }
+      },
+      "saved_html_reproduced": false,
+      "saved_markdown_reproduced": false
+    },
+    {
+      "canonical_input_equal": true,
+      "case": "empty",
+      "charts_permutation_equal": true,
+      "excerpts": {
+        "included": {
+          "html_permutation_equal": false,
+          "markdown_permutation_equal": false
+        },
+        "none": {
+          "html_permutation_equal": false,
+          "markdown_permutation_equal": false
+        }
+      },
+      "saved_html_reproduced": false,
+      "saved_markdown_reproduced": false
+    },
+    {
+      "canonical_input_equal": true,
+      "case": "stable_constructed_style",
+      "charts_permutation_equal": true,
+      "excerpts": {
+        "included": {
+          "html_permutation_equal": false,
+          "markdown_permutation_equal": false
+        },
+        "none": {
+          "html_permutation_equal": false,
+          "markdown_permutation_equal": false
+        }
+      },
+      "saved_html_reproduced": false,
+      "saved_markdown_reproduced": false
+    }
+  ],
+  "network_isolation": "linux_seccomp_socket_denial",
+  "package_file": "/tmp/ahas-pr383-install/lib/python3.12/site-packages/account_history_analyzer/__init__.py",
+  "package_version": "1.0.1",
+  "python": "3.12.3",
+  "scope": "Pinned 1.0.1 baseline; no source modifications or historical output writes",
+  "synthetic_structured_value_mapping_permutation_equal": false
+}

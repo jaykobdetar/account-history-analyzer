@@ -1,0 +1,16 @@
+{
+  "base_commit": "ee1c8ff8a548d54c641b2bb471562165931f31c7",
+  "downloaded_files_sha256": {
+    "LICENSE": "f29c48be39fff974e2d631b2317c194409531cc86e16e05f3968ead0456bc920",
+    "commit.patch": "8a287892fdaeb09b8620e8eec048d81e45ff0baed69da16538a65c5e6b630ad3",
+    "pelt.py": "65f5ead7c29a9a23eb67c676dc02ab146316b0678f586697f4c5de754c40110a",
+    "pyproject.toml": "653ec807a69dcf8ca75b49eea80cc7d951765cc58a3d1c9816799fef0caea805",
+    "test_pelt_min_size.py": "34ec901b052ae51b7c9003b22504f43b208b340ed3acad5999a133cfa96489c2"
+  },
+  "head_commit": "a28574d9e63b0c2a966e176a1d049d3c9deaaaaf",
+  "html_url": "https://github.com/deepcharles/ruptures/pull/383",
+  "merged": false,
+  "retrieved_utc": "2026-09-14T08:03:03.807724+00:00",
+  "state": "open",
+  "updated_at": "2026-09-14T05:35:17Z"
+}

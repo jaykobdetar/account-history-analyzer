@@ -1,0 +1,466 @@
+[
+  {
+    "case_id": "chrono-ApplyingToCollege-pair1-unknown-natural-full",
+    "module": "activity",
+    "status": "ok",
+    "reason_codes": [],
+    "truth_status": "unknown; operational availability only"
+  },
+  {
+    "case_id": "chrono-ApplyingToCollege-pair1-unknown-natural-full",
+    "module": "ai_text_detection",
+    "status": "not_run",
+    "reason_codes": [
+      "not_implemented_in_v1"
+    ],
+    "truth_status": "unknown; operational availability only"
+  },
+  {
+    "case_id": "chrono-ApplyingToCollege-pair1-unknown-natural-full",
+    "module": "coverage",
+    "status": "ok",
+    "reason_codes": [],
+    "truth_status": "unknown; operational availability only"
+  },
+  {
+    "case_id": "chrono-ApplyingToCollege-pair1-unknown-natural-full",
+    "module": "interactions",
+    "status": "ok",
+    "reason_codes": [],
+    "truth_status": "unknown; operational availability only"
+  },
+  {
+    "case_id": "chrono-ApplyingToCollege-pair1-unknown-natural-full",
+    "module": "links",
+    "status": "ok",
+    "reason_codes": [],
+    "truth_status": "unknown; operational availability only"
+  },
+  {
+    "case_id": "chrono-ApplyingToCollege-pair1-unknown-natural-full",
+    "module": "reuse",
+    "status": "ok",
+    "reason_codes": [],
+    "truth_status": "unknown; operational availability only"
+  },
+  {
+    "case_id": "chrono-ApplyingToCollege-pair1-unknown-natural-full",
+    "module": "style",
+    "status": "ok",
+    "reason_codes": [],
+    "truth_status": "unknown; operational availability only"
+  },
+  {
+    "case_id": "chrono-ApplyingToCollege-pair1-unknown-natural-full",
+    "module": "text",
+    "status": "ok",
+    "reason_codes": [],
+    "truth_status": "unknown; operational availability only"
+  },
+  {
+    "case_id": "chrono-college-pair1-unknown-natural-full",
+    "module": "activity",
+    "status": "ok",
+    "reason_codes": [],
+    "truth_status": "unknown; operational availability only"
+  },
+  {
+    "case_id": "chrono-college-pair1-unknown-natural-full",
+    "module": "ai_text_detection",
+    "status": "not_run",
+    "reason_codes": [
+      "not_implemented_in_v1"
+    ],
+    "truth_status": "unknown; operational availability only"
+  },
+  {
+    "case_id": "chrono-college-pair1-unknown-natural-full",
+    "module": "coverage",
+    "status": "ok",
+    "reason_codes": [],
+    "truth_status": "unknown; operational availability only"
+  },
+  {
+    "case_id": "chrono-college-pair1-unknown-natural-full",
+    "module": "interactions",
+    "status": "ok",
+    "reason_codes": [],
+    "truth_status": "unknown; operational availability only"
+  },
+  {
+    "case_id": "chrono-college-pair1-unknown-natural-full",
+    "module": "links",
+    "status": "ok",
+    "reason_codes": [],
+    "truth_status": "unknown; operational availability only"
+  },
+  {
+    "case_id": "chrono-college-pair1-unknown-natural-full",
+    "module": "reuse",
+    "status": "ok",
+    "reason_codes": [],
+    "truth_status": "unknown; operational availability only"
+  },
+  {
+    "case_id": "chrono-college-pair1-unknown-natural-full",
+    "module": "style",
+    "status": "ok",
+    "reason_codes": [],
+    "truth_status": "unknown; operational availability only"
+  },
+  {
+    "case_id": "chrono-college-pair1-unknown-natural-full",
+    "module": "text",
+    "status": "ok",
+    "reason_codes": [],
+    "truth_status": "unknown; operational availability only"
+  },
+  {
+    "case_id": "chrono-ApplyingToCollege-pair1-operational-availability-hash50",
+    "module": "activity",
+    "status": "ok",
+    "reason_codes": [],
+    "truth_status": "unknown; operational availability only"
+  },
+  {
+    "case_id": "chrono-ApplyingToCollege-pair1-operational-availability-hash50",
+    "module": "ai_text_detection",
+    "status": "not_run",
+    "reason_codes": [
+      "not_implemented_in_v1"
+    ],
+    "truth_status": "unknown; operational availability only"
+  },
+  {
+    "case_id": "chrono-ApplyingToCollege-pair1-operational-availability-hash50",
+    "module": "coverage",
+    "status": "ok",
+    "reason_codes": [],
+    "truth_status": "unknown; operational availability only"
+  },
+  {
+    "case_id": "chrono-ApplyingToCollege-pair1-operational-availability-hash50",
+    "module": "interactions",
+    "status": "ok",
+    "reason_codes": [],
+    "truth_status": "unknown; operational availability only"
+  },
+  {
+    "case_id": "chrono-ApplyingToCollege-pair1-operational-availability-hash50",
+    "module": "links",
+    "status": "ok",
+    "reason_codes": [],
+    "truth_status": "unknown; operational availability only"
+  },
+  {
+    "case_id": "chrono-ApplyingToCollege-pair1-operational-availability-hash50",
+    "module": "reuse",
+    "status": "ok",
+    "reason_codes": [],
+    "truth_status": "unknown; operational availability only"
+  },
+  {
+    "case_id": "chrono-ApplyingToCollege-pair1-operational-availability-hash50",
+    "module": "style",
+    "status": "ok",
+    "reason_codes": [],
+    "truth_status": "unknown; operational availability only"
+  },
+  {
+    "case_id": "chrono-ApplyingToCollege-pair1-operational-availability-hash50",
+    "module": "text",
+    "status": "ok",
+    "reason_codes": [],
+    "truth_status": "unknown; operational availability only"
+  },
+  {
+    "case_id": "chrono-ApplyingToCollege-pair1-operational-availability-middle50",
+    "module": "activity",
+    "status": "ok",
+    "reason_codes": [],
+    "truth_status": "unknown; operational availability only"
+  },
+  {
+    "case_id": "chrono-ApplyingToCollege-pair1-operational-availability-middle50",
+    "module": "ai_text_detection",
+    "status": "not_run",
+    "reason_codes": [
+      "not_implemented_in_v1"
+    ],
+    "truth_status": "unknown; operational availability only"
+  },
+  {
+    "case_id": "chrono-ApplyingToCollege-pair1-operational-availability-middle50",
+    "module": "coverage",
+    "status": "ok",
+    "reason_codes": [],
+    "truth_status": "unknown; operational availability only"
+  },
+  {
+    "case_id": "chrono-ApplyingToCollege-pair1-operational-availability-middle50",
+    "module": "interactions",
+    "status": "ok",
+    "reason_codes": [],
+    "truth_status": "unknown; operational availability only"
+  },
+  {
+    "case_id": "chrono-ApplyingToCollege-pair1-operational-availability-middle50",
+    "module": "links",
+    "status": "ok",
+    "reason_codes": [],
+    "truth_status": "unknown; operational availability only"
+  },
+  {
+    "case_id": "chrono-ApplyingToCollege-pair1-operational-availability-middle50",
+    "module": "reuse",
+    "status": "ok",
+    "reason_codes": [],
+    "truth_status": "unknown; operational availability only"
+  },
+  {
+    "case_id": "chrono-ApplyingToCollege-pair1-operational-availability-middle50",
+    "module": "style",
+    "status": "ok",
+    "reason_codes": [],
+    "truth_status": "unknown; operational availability only"
+  },
+  {
+    "case_id": "chrono-ApplyingToCollege-pair1-operational-availability-middle50",
+    "module": "text",
+    "status": "ok",
+    "reason_codes": [],
+    "truth_status": "unknown; operational availability only"
+  },
+  {
+    "case_id": "chrono-ApplyingToCollege-pair1-operational-availability-drop_Cornell",
+    "module": "activity",
+    "status": "ok",
+    "reason_codes": [],
+    "truth_status": "unknown; operational availability only"
+  },
+  {
+    "case_id": "chrono-ApplyingToCollege-pair1-operational-availability-drop_Cornell",
+    "module": "ai_text_detection",
+    "status": "not_run",
+    "reason_codes": [
+      "not_implemented_in_v1"
+    ],
+    "truth_status": "unknown; operational availability only"
+  },
+  {
+    "case_id": "chrono-ApplyingToCollege-pair1-operational-availability-drop_Cornell",
+    "module": "coverage",
+    "status": "ok",
+    "reason_codes": [],
+    "truth_status": "unknown; operational availability only"
+  },
+  {
+    "case_id": "chrono-ApplyingToCollege-pair1-operational-availability-drop_Cornell",
+    "module": "interactions",
+    "status": "ok",
+    "reason_codes": [],
+    "truth_status": "unknown; operational availability only"
+  },
+  {
+    "case_id": "chrono-ApplyingToCollege-pair1-operational-availability-drop_Cornell",
+    "module": "links",
+    "status": "ok",
+    "reason_codes": [],
+    "truth_status": "unknown; operational availability only"
+  },
+  {
+    "case_id": "chrono-ApplyingToCollege-pair1-operational-availability-drop_Cornell",
+    "module": "reuse",
+    "status": "ok",
+    "reason_codes": [],
+    "truth_status": "unknown; operational availability only"
+  },
+  {
+    "case_id": "chrono-ApplyingToCollege-pair1-operational-availability-drop_Cornell",
+    "module": "style",
+    "status": "ok",
+    "reason_codes": [],
+    "truth_status": "unknown; operational availability only"
+  },
+  {
+    "case_id": "chrono-ApplyingToCollege-pair1-operational-availability-drop_Cornell",
+    "module": "text",
+    "status": "ok",
+    "reason_codes": [],
+    "truth_status": "unknown; operational availability only"
+  },
+  {
+    "case_id": "chrono-college-pair1-operational-availability-hash50",
+    "module": "activity",
+    "status": "ok",
+    "reason_codes": [],
+    "truth_status": "unknown; operational availability only"
+  },
+  {
+    "case_id": "chrono-college-pair1-operational-availability-hash50",
+    "module": "ai_text_detection",
+    "status": "not_run",
+    "reason_codes": [
+      "not_implemented_in_v1"
+    ],
+    "truth_status": "unknown; operational availability only"
+  },
+  {
+    "case_id": "chrono-college-pair1-operational-availability-hash50",
+    "module": "coverage",
+    "status": "ok",
+    "reason_codes": [],
+    "truth_status": "unknown; operational availability only"
+  },
+  {
+    "case_id": "chrono-college-pair1-operational-availability-hash50",
+    "module": "interactions",
+    "status": "ok",
+    "reason_codes": [],
+    "truth_status": "unknown; operational availability only"
+  },
+  {
+    "case_id": "chrono-college-pair1-operational-availability-hash50",
+    "module": "links",
+    "status": "ok",
+    "reason_codes": [],
+    "truth_status": "unknown; operational availability only"
+  },
+  {
+    "case_id": "chrono-college-pair1-operational-availability-hash50",
+    "module": "reuse",
+    "status": "ok",
+    "reason_codes": [],
+    "truth_status": "unknown; operational availability only"
+  },
+  {
+    "case_id": "chrono-college-pair1-operational-availability-hash50",
+    "module": "style",
+    "status": "ok",
+    "reason_codes": [],
+    "truth_status": "unknown; operational availability only"
+  },
+  {
+    "case_id": "chrono-college-pair1-operational-availability-hash50",
+    "module": "text",
+    "status": "ok",
+    "reason_codes": [],
+    "truth_status": "unknown; operational availability only"
+  },
+  {
+    "case_id": "chrono-college-pair1-operational-availability-middle50",
+    "module": "activity",
+    "status": "ok",
+    "reason_codes": [],
+    "truth_status": "unknown; operational availability only"
+  },
+  {
+    "case_id": "chrono-college-pair1-operational-availability-middle50",
+    "module": "ai_text_detection",
+    "status": "not_run",
+    "reason_codes": [
+      "not_implemented_in_v1"
+    ],
+    "truth_status": "unknown; operational availability only"
+  },
+  {
+    "case_id": "chrono-college-pair1-operational-availability-middle50",
+    "module": "coverage",
+    "status": "ok",
+    "reason_codes": [],
+    "truth_status": "unknown; operational availability only"
+  },
+  {
+    "case_id": "chrono-college-pair1-operational-availability-middle50",
+    "module": "interactions",
+    "status": "ok",
+    "reason_codes": [],
+    "truth_status": "unknown; operational availability only"
+  },
+  {
+    "case_id": "chrono-college-pair1-operational-availability-middle50",
+    "module": "links",
+    "status": "ok",
+    "reason_codes": [],
+    "truth_status": "unknown; operational availability only"
+  },
+  {
+    "case_id": "chrono-college-pair1-operational-availability-middle50",
+    "module": "reuse",
+    "status": "ok",
+    "reason_codes": [],
+    "truth_status": "unknown; operational availability only"
+  },
+  {
+    "case_id": "chrono-college-pair1-operational-availability-middle50",
+    "module": "style",
+    "status": "ok",
+    "reason_codes": [],
+    "truth_status": "unknown; operational availability only"
+  },
+  {
+    "case_id": "chrono-college-pair1-operational-availability-middle50",
+    "module": "text",
+    "status": "ok",
+    "reason_codes": [],
+    "truth_status": "unknown; operational availability only"
+  },
+  {
+    "case_id": "chrono-college-pair1-operational-availability-drop_Cornell",
+    "module": "activity",
+    "status": "ok",
+    "reason_codes": [],
+    "truth_status": "unknown; operational availability only"
+  },
+  {
+    "case_id": "chrono-college-pair1-operational-availability-drop_Cornell",
+    "module": "ai_text_detection",
+    "status": "not_run",
+    "reason_codes": [
+      "not_implemented_in_v1"
+    ],
+    "truth_status": "unknown; operational availability only"
+  },
+  {
+    "case_id": "chrono-college-pair1-operational-availability-drop_Cornell",
+    "module": "coverage",
+    "status": "ok",
+    "reason_codes": [],
+    "truth_status": "unknown; operational availability only"
+  },
+  {
+    "case_id": "chrono-college-pair1-operational-availability-drop_Cornell",
+    "module": "interactions",
+    "status": "ok",
+    "reason_codes": [],
+    "truth_status": "unknown; operational availability only"
+  },
+  {
+    "case_id": "chrono-college-pair1-operational-availability-drop_Cornell",
+    "module": "links",
+    "status": "ok",
+    "reason_codes": [],
+    "truth_status": "unknown; operational availability only"
+  },
+  {
+    "case_id": "chrono-college-pair1-operational-availability-drop_Cornell",
+    "module": "reuse",
+    "status": "ok",
+    "reason_codes": [],
+    "truth_status": "unknown; operational availability only"
+  },
+  {
+    "case_id": "chrono-college-pair1-operational-availability-drop_Cornell",
+    "module": "style",
+    "status": "ok",
+    "reason_codes": [],
+    "truth_status": "unknown; operational availability only"
+  },
+  {
+    "case_id": "chrono-college-pair1-operational-availability-drop_Cornell",
+    "module": "text",
+    "status": "ok",
+    "reason_codes": [],
+    "truth_status": "unknown; operational availability only"
+  }
+]

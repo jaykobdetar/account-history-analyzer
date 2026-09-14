@@ -1,0 +1,12 @@
+Traceback (most recent call last):
+  File "/home/jaykob/.codex/visualizations/2026/09/13/01a09a32-1ca6-7983-93da-5f7da689ab16/ahas-pilot2-20260914/review/check_final_handoff.py", line 331, in <module>
+    main()
+  File "/home/jaykob/.codex/visualizations/2026/09/13/01a09a32-1ca6-7983-93da-5f7da689ab16/ahas-pilot2-20260914/review/check_final_handoff.py", line 323, in main
+    safety = safety_check(args.handoff)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/jaykob/.codex/visualizations/2026/09/13/01a09a32-1ca6-7983-93da-5f7da689ab16/ahas-pilot2-20260914/review/check_final_handoff.py", line 275, in safety_check
+    visible_texts.extend(strings(json.loads(value)))
+  File "/home/jaykob/.codex/visualizations/2026/09/13/01a09a32-1ca6-7983-93da-5f7da689ab16/ahas-pilot2-20260914/review/check_final_handoff.py", line 218, in strings
+    assert not set(value) & forbidden, 'Private source field in sanitized JSON'
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: Private source field in sanitized JSON

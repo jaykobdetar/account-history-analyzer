@@ -1,0 +1,30 @@
+[build-system]
+requires = ["hatchling==1.29.0"]
+build-backend = "hatchling.build"
+
+[project]
+name = "account-history-analyzer"
+version = "1.0.4"
+description = "Offline deterministic descriptive measurements of supplied account histories"
+readme = "README.md"
+requires-python = ">=3.12,<3.13"
+dependencies = [
+  "numpy==2.4.2", "scipy==1.17.1", "markdown-it-py==3.0.0",
+  "jsonschema==4.26.0", "ruptures==1.1.10",
+]
+
+[project.scripts]
+ahas = "account_history_analyzer.cli:main"
+
+[dependency-groups]
+dev = ["pytest==9.0.2", "hypothesis==6.131.9"]
+
+[tool.hatch.build.targets.wheel]
+packages = ["src/account_history_analyzer"]
+
+[tool.hatch.build.targets.sdist]
+include = ["src", "tests", "schemas", "config", "fixtures", "design_examples", "resources", "docs", "containers", "scripts", "*.md", "LICENSE", "pyproject.toml", "uv.lock", "requirements.lock.txt", "SHA256SUMS.txt", ".dockerignore"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+addopts = "-ra"

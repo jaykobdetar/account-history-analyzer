@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 325" role="img" aria-labelledby="activity-daily-title">
+<title id="activity-daily-title">Observed supplied events by UTC date</title>
+<rect width="100%" height="100%" fill="#ffffff"/>
+<g font-family="system-ui, sans-serif" fill="#253347">
+<text x="20" y="30" font-size="21" font-weight="600">Observed supplied events by UTC date</text>
+<text x="20" y="66" font-size="16" font-weight="600">All distinct timed supplied events</text>
+<text x="20" y="84" font-size="11" fill="#526274">events per UTC calendar date</text>
+<metadata>{&quot;boundaries&quot;:[],&quot;labels&quot;:[&quot;2025-01-01&quot;],&quot;title&quot;:&quot;All distinct timed supplied events&quot;,&quot;unit&quot;:&quot;events per UTC calendar date&quot;,&quot;values&quot;:[6]}</metadata>
+<line x1="76.0" y1="222" x2="926.0" y2="222" stroke="#dbe2ea"/>
+<text x="68.0" y="226" text-anchor="end" font-size="11">0</text>
+<line x1="76.0" y1="162" x2="926.0" y2="162" stroke="#dbe2ea"/>
+<text x="68.0" y="166" text-anchor="end" font-size="11">3.24</text>
+<line x1="76.0" y1="102" x2="926.0" y2="102" stroke="#dbe2ea"/>
+<text x="68.0" y="106" text-anchor="end" font-size="11">6.48</text>
+<rect x="135.5" y="110.889" width="306" height="111.111" fill="#748594" data-value="6"><title>2025-01-01: 6 events per UTC calendar date</title></rect>
+<text x="288.5" y="242.0" text-anchor="middle" font-size="10">2025-01-01</text>
+<text x="20" y="280" font-size="11" fill="#526274">Amber: declared collection gap; gray: incomplete edge day. Zero bars mean no supplied events.</text>
+<text x="20" y="300" font-size="11" fill="#526274">Every exported daily bin is plotted; coverage is a supplier declaration.</text>
+</g>
+</svg>

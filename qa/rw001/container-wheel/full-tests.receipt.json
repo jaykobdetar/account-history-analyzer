@@ -1,0 +1,19 @@
+{
+  "command": [
+    "/usr/local/bin/python",
+    "-m",
+    "pytest",
+    "-q",
+    "-p",
+    "no:cacheprovider",
+    "--basetemp=/tmp/rw001-pytest",
+    "--junitxml=/receipts/full-tests.xml",
+    "tests"
+  ],
+  "cwd": "/review",
+  "exit_code": 0,
+  "wall_seconds": 145.9963125679933,
+  "stdout_sha256": "db43795da8d0c3f557a57fab97c7bc0d64051a1e2edf01fbd27b034b5ff03828",
+  "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+  "network_isolation": "docker_network_none"
+}

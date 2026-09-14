@@ -1,0 +1,17 @@
+{
+  "argv": [
+    ".venv/bin/python",
+    "scripts/offline_exec.py",
+    ".venv/bin/python",
+    "-m",
+    "pytest",
+    "-p",
+    "no:cacheprovider",
+    "tests/test_sensitivity_overview.py",
+    "tests/test_fixture_integrity.py",
+    "-q"
+  ],
+  "exit_code": 0,
+  "elapsed_seconds": 14.247272353997687,
+  "reporting_source_sha256": "c8aa520917dc68d8229495a28a4375ab9e95902fe226955e79cbd1143ea3956c"
+}

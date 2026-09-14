@@ -1,0 +1,425 @@
+{
+  "type": "object",
+  "additionalProperties": false,
+  "properties": {
+    "schema_version": {
+      "type": "string",
+      "const": "1.0.0"
+    },
+    "input": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "max_unique_records": {
+          "type": "integer",
+          "exclusiveMinimum": 0
+        },
+        "max_text_codepoints": {
+          "type": "integer",
+          "exclusiveMinimum": 0
+        },
+        "max_input_bytes": {
+          "type": "integer",
+          "exclusiveMinimum": 0
+        },
+        "strict": {
+          "type": "boolean",
+          "const": true
+        }
+      }
+    },
+    "text": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "normalization": {
+          "type": "string",
+          "const": "NFC"
+        },
+        "parser_profile": {
+          "type": "string",
+          "const": "commonmark_v1"
+        },
+        "tokenizer": {
+          "type": "string",
+          "const": "lexical_regex_v1"
+        },
+        "function_words_resource": {
+          "type": "string",
+          "const": "function_words_en_v1.txt"
+        },
+        "contraction_pairs_resource": {
+          "type": "string",
+          "const": "contraction_pairs.json"
+        }
+      }
+    },
+    "style": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "language": {
+          "type": "string",
+          "const": "en"
+        },
+        "minimum_record_words": {
+          "type": "integer",
+          "exclusiveMinimum": 0
+        },
+        "minimum_comparison_words_per_side": {
+          "type": "integer",
+          "exclusiveMinimum": 0
+        },
+        "minimum_comparison_records_per_side": {
+          "type": "integer",
+          "exclusiveMinimum": 0
+        },
+        "ngram_lengths": {
+          "type": "array",
+          "items": {
+            "type": "integer",
+            "exclusiveMinimum": 0
+          },
+          "minItems": 1,
+          "uniqueItems": true,
+          "enum": [
+            [
+              3
+            ],
+            [
+              4
+            ],
+            [
+              5
+            ],
+            [
+              3,
+              4
+            ],
+            [
+              3,
+              5
+            ],
+            [
+              4,
+              5
+            ],
+            [
+              3,
+              4,
+              5
+            ]
+          ]
+        },
+        "views": {
+          "type": "array",
+          "items": {
+            "type": "string",
+            "enum": [
+              "retained_prose",
+              "function_mask_v1"
+            ]
+          },
+          "minItems": 1,
+          "uniqueItems": true
+        },
+        "max_all_pairs_windows": {
+          "type": "integer",
+          "exclusiveMinimum": 0,
+          "maximum": 100
+        },
+        "contraction_minimum_opportunities": {
+          "type": "integer",
+          "exclusiveMinimum": 0
+        }
+      }
+    },
+    "windows": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "target_words": {
+          "type": "integer",
+          "exclusiveMinimum": 0
+        },
+        "minimum_records": {
+          "type": "integer",
+          "exclusiveMinimum": 0
+        },
+        "separate_kinds": {
+          "type": "boolean",
+          "const": true
+        },
+        "max_community_streams": {
+          "type": "integer",
+          "exclusiveMinimum": 0,
+          "maximum": 10
+        },
+        "single_record_dominance_fraction": {
+          "type": "number",
+          "exclusiveMinimum": 0,
+          "maximum": 1
+        },
+        "sensitivity_targets": {
+          "type": "array",
+          "items": {
+            "type": "integer",
+            "exclusiveMinimum": 0
+          },
+          "minItems": 1,
+          "uniqueItems": true
+        }
+      }
+    },
+    "changes": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "method": {
+          "type": "string",
+          "const": "pelt_l2_v1"
+        },
+        "minimum_windows": {
+          "type": "integer",
+          "exclusiveMinimum": 0,
+          "minimum": 8
+        },
+        "minimum_segment_windows": {
+          "type": "integer",
+          "exclusiveMinimum": 0
+        },
+        "jump": {
+          "type": "integer",
+          "exclusiveMinimum": 0,
+          "const": 1
+        },
+        "primary_lambda": {
+          "type": "number",
+          "exclusiveMinimum": 0
+        },
+        "sensitivity_lambdas": {
+          "type": "array",
+          "items": {
+            "type": "number",
+            "exclusiveMinimum": 0
+          },
+          "minItems": 1,
+          "uniqueItems": true
+        },
+        "scale_ddof": {
+          "type": "integer",
+          "minimum": 0,
+          "const": 0
+        },
+        "scale_epsilon": {
+          "type": "number",
+          "exclusiveMinimum": 0
+        },
+        "same_window_boundary_tolerance": {
+          "type": "integer",
+          "minimum": 0
+        }
+      }
+    },
+    "reuse": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "shingle_tokens": {
+          "type": "integer",
+          "exclusiveMinimum": 0
+        },
+        "minimum_near_duplicate_words": {
+          "type": "integer",
+          "exclusiveMinimum": 0
+        },
+        "minimum_containment_shorter_words": {
+          "type": "integer",
+          "exclusiveMinimum": 0
+        },
+        "near_threshold_numerator": {
+          "type": "integer",
+          "minimum": 0
+        },
+        "near_threshold_denominator": {
+          "type": "integer",
+          "exclusiveMinimum": 0
+        },
+        "containment_threshold_numerator": {
+          "type": "integer",
+          "minimum": 0
+        },
+        "containment_threshold_denominator": {
+          "type": "integer",
+          "exclusiveMinimum": 0
+        },
+        "max_candidate_pairs": {
+          "type": "integer",
+          "minimum": 0
+        },
+        "repeat_reduced_exact_sensitivity": {
+          "type": "boolean"
+        },
+        "repeat_reduced_near_sensitivity": {
+          "type": "boolean"
+        },
+        "max_index_postings": {
+          "type": "integer",
+          "minimum": 0
+        },
+        "max_work_units": {
+          "type": "integer",
+          "minimum": 0
+        },
+        "max_evidence_tokens": {
+          "type": "integer",
+          "minimum": 0
+        },
+        "max_evidence_codepoints": {
+          "type": "integer",
+          "minimum": 0
+        }
+      }
+    },
+    "activity": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "timezone": {
+          "type": "string",
+          "const": "UTC"
+        },
+        "burst_duration_seconds": {
+          "type": "integer",
+          "exclusiveMinimum": 0
+        },
+        "burst_minimum_events": {
+          "type": "integer",
+          "exclusiveMinimum": 0
+        },
+        "sliding_window_seconds": {
+          "type": "array",
+          "items": {
+            "type": "integer",
+            "exclusiveMinimum": 0
+          },
+          "minItems": 1,
+          "uniqueItems": true
+        },
+        "max_calendar_days": {
+          "type": "integer",
+          "exclusiveMinimum": 0
+        }
+      }
+    },
+    "sensitivity": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "exclude_known_edited": {
+          "type": "boolean"
+        },
+        "within_community": {
+          "type": "boolean"
+        }
+      }
+    },
+    "delta": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "enabled_when_reference_supplied": {
+          "type": "boolean"
+        },
+        "reference_path": {
+          "type": "string"
+        },
+        "allow_toy_reference": {
+          "type": "boolean"
+        }
+      }
+    },
+    "report": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "formats": {
+          "type": "array",
+          "items": {
+            "type": "string",
+            "enum": [
+              "json",
+              "markdown",
+              "html"
+            ]
+          },
+          "minItems": 1,
+          "uniqueItems": true,
+          "const": [
+            "json",
+            "markdown",
+            "html"
+          ]
+        },
+        "maximum_feature_explanations": {
+          "type": "integer",
+          "exclusiveMinimum": 0,
+          "maximum": 10
+        },
+        "examples_per_side_per_feature": {
+          "type": "integer",
+          "exclusiveMinimum": 0,
+          "maximum": 2
+        },
+        "excerpts": {
+          "type": "string",
+          "enum": [
+            "included",
+            "none"
+          ]
+        },
+        "remote_assets": {
+          "type": "boolean",
+          "const": false
+        }
+      }
+    },
+    "ai_text_detection": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "enabled": {
+          "type": "boolean",
+          "const": false
+        },
+        "status_reason": {
+          "type": "string",
+          "const": "not_implemented_in_v1"
+        }
+      }
+    },
+    "artifacts": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "max_file_bytes": {
+          "type": "integer",
+          "maximum": 268435456,
+          "exclusiveMinimum": 0
+        },
+        "max_total_bytes": {
+          "type": "integer",
+          "maximum": 536870912,
+          "exclusiveMinimum": 0
+        },
+        "max_files": {
+          "type": "integer",
+          "maximum": 32,
+          "exclusiveMinimum": 0
+        }
+      }
+    }
+  },
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$comment": "Optional input overrides; all defaults expanded explicitly, then semantic validation applies."
+}

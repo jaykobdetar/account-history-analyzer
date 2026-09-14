@@ -1,0 +1,206 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "AHAS V1 local evaluation_account_stream",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "schema_version",
+    "dataset_id",
+    "provenance",
+    "label_definition",
+    "format",
+    "protocol",
+    "streams"
+  ],
+  "properties": {
+    "schema_version": {
+      "const": "1.0.0"
+    },
+    "dataset_id": {
+      "type": "string",
+      "minLength": 1,
+      "maxLength": 256
+    },
+    "provenance": {
+      "type": "string",
+      "minLength": 1,
+      "maxLength": 4096
+    },
+    "label_definition": {
+      "type": "string",
+      "minLength": 1,
+      "maxLength": 4096
+    },
+    "format": {
+      "const": "account_stream"
+    },
+    "protocol": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "analysis_config_sha256",
+        "registered_before_evaluation",
+        "preregistration_provenance",
+        "boundary_tolerance_records"
+      ],
+      "properties": {
+        "analysis_config_sha256": {
+          "type": "string",
+          "pattern": "^[0-9a-f]{64}$"
+        },
+        "registered_before_evaluation": {
+          "const": true
+        },
+        "preregistration_provenance": {
+          "type": "string",
+          "minLength": 1,
+          "maxLength": 4096
+        },
+        "boundary_tolerance_records": {
+          "type": "integer",
+          "minimum": 0
+        }
+      }
+    },
+    "streams": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": [
+          "stream_id",
+          "input",
+          "manifest",
+          "split",
+          "scope",
+          "truth_boundaries",
+          "annotation_provenance"
+        ],
+        "properties": {
+          "stream_id": {
+            "type": "string",
+            "minLength": 1,
+            "maxLength": 256
+          },
+          "input": {
+            "type": "string",
+            "minLength": 1,
+            "maxLength": 4096
+          },
+          "manifest": {
+            "type": "string",
+            "minLength": 1,
+            "maxLength": 4096
+          },
+          "split": {
+            "enum": [
+              "development",
+              "evaluation"
+            ]
+          },
+          "groups": {
+            "type": "object",
+            "additionalProperties": false,
+            "required": [],
+            "properties": {
+              "author": {
+                "type": "array",
+                "items": {
+                  "type": "string",
+                  "minLength": 1,
+                  "maxLength": 256
+                },
+                "minItems": 1,
+                "uniqueItems": true
+              },
+              "thread": {
+                "type": "array",
+                "items": {
+                  "type": "string",
+                  "minLength": 1,
+                  "maxLength": 256
+                },
+                "minItems": 1,
+                "uniqueItems": true
+              },
+              "source_document": {
+                "type": "array",
+                "items": {
+                  "type": "string",
+                  "minLength": 1,
+                  "maxLength": 256
+                },
+                "minItems": 1,
+                "uniqueItems": true
+              },
+              "near_duplicate_cluster": {
+                "type": "array",
+                "items": {
+                  "type": "string",
+                  "minLength": 1,
+                  "maxLength": 256
+                },
+                "minItems": 1,
+                "uniqueItems": true
+              },
+              "related_sample": {
+                "type": "array",
+                "items": {
+                  "type": "string",
+                  "minLength": 1,
+                  "maxLength": 256
+                },
+                "minItems": 1,
+                "uniqueItems": true
+              }
+            }
+          },
+          "scope": {
+            "type": "object",
+            "additionalProperties": false,
+            "required": [
+              "scope_type",
+              "kind",
+              "subreddit"
+            ],
+            "properties": {
+              "scope_type": {
+                "enum": [
+                  "pooled",
+                  "community"
+                ]
+              },
+              "kind": {
+                "enum": [
+                  "comment",
+                  "submission"
+                ]
+              },
+              "subreddit": {
+                "type": [
+                  "string",
+                  "null"
+                ],
+                "maxLength": 256
+              }
+            }
+          },
+          "truth_boundaries": {
+            "type": "array",
+            "items": {
+              "type": "integer",
+              "minimum": 1
+            },
+            "uniqueItems": true
+          },
+          "annotation_provenance": {
+            "type": "string",
+            "minLength": 1,
+            "maxLength": 4096
+          }
+        }
+      },
+      "maxItems": 1000
+    }
+  }
+}

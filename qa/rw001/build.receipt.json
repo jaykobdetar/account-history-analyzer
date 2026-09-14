@@ -1,0 +1,23 @@
+{
+  "command": [
+    ".venv/bin/python",
+    "scripts/offline_exec.py",
+    "/home/jaykob/.local/bin/uv",
+    "build",
+    "--offline",
+    "--no-build-isolation",
+    "--python",
+    ".venv/bin/python",
+    "--out-dir",
+    "dist"
+  ],
+  "cwd": "/home/jaykob/Downloads/Account_History_Analyzer_V1_Agent_Handoff/account_history_analyzer_v1",
+  "started_utc": "2026-09-14T18:33:30.274879+00:00",
+  "finished_utc": "2026-09-14T18:33:30.304541+00:00",
+  "exit_code": 101,
+  "wall_seconds": 0.029661019012564793,
+  "peak_rss_kib": 16160,
+  "measurement_scope": "this command and descendants; separate from canonical results",
+  "stdout_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+  "stderr_sha256": "f59b23cc50b62b66e702945afbaa2a05af6b1e63f297ac7b97e1fa43d88ab9a8"
+}

@@ -1,0 +1,24 @@
+test_community_omission_is_exact_label_and_preserves_nonpresent (__main__.PreparationChecks.test_community_omission_is_exact_label_and_preserves_nonpresent) ... ok
+test_confirmation_component_rejects_whole_author_not_development_peer (__main__.PreparationChecks.test_confirmation_component_rejects_whole_author_not_development_peer) ... ok
+test_disappearing_source_side_is_not_unchanged_truth (__main__.PreparationChecks.test_disappearing_source_side_is_not_unchanged_truth) ... ok
+test_eligibility_uses_actual_feature_contract_and_source_statuses (__main__.PreparationChecks.test_eligibility_uses_actual_feature_contract_and_source_statuses) ... ok
+test_empty_omission_manifest_preserves_source_account_alias (__main__.PreparationChecks.test_empty_omission_manifest_preserves_source_account_alias) ... ok
+test_freeze_is_explicit_and_fails_before_scoring_or_plan_reads (__main__.PreparationChecks.test_freeze_is_explicit_and_fails_before_scoring_or_plan_reads) ... ok
+test_hash50_matches_frozen_modulo_rule_and_preserves_survivors (__main__.PreparationChecks.test_hash50_matches_frozen_modulo_rule_and_preserves_survivors) ... ok
+test_incomplete_related_audit_rejects_all_provisional_authors (__main__.PreparationChecks.test_incomplete_related_audit_rejects_all_provisional_authors) ... ok
+test_metadata_combines_cross_corpus_casefolded_authors (__main__.PreparationChecks.test_metadata_combines_cross_corpus_casefolded_authors) ... ok
+test_middle50_uses_registered_floor_indices_for_odd_lengths (__main__.PreparationChecks.test_middle50_uses_registered_floor_indices_for_odd_lengths) ... ok
+test_missing_timestamp_abstains_without_discarding_record (__main__.PreparationChecks.test_missing_timestamp_abstains_without_discarding_record) ... ok
+test_null_nonpresent_and_timestamp_conversion_preserved (__main__.PreparationChecks.test_null_nonpresent_and_timestamp_conversion_preserved) ... ok
+test_pairing_uses_medians_and_never_reuses_author (__main__.PreparationChecks.test_pairing_uses_medians_and_never_reuses_author) ... ok
+test_prepared_path_escape_and_symlink_are_rejected (__main__.PreparationChecks.test_prepared_path_escape_and_symlink_are_rejected) ... ok
+test_registered_candidate_order_salt (__main__.PreparationChecks.test_registered_candidate_order_salt) ... ok
+test_shared_audit_import_resolves_normal_neighbor_module (__main__.PreparationChecks.test_shared_audit_import_resolves_normal_neighbor_module) ... ok
+test_timestamp_ties_go_to_right_source_only (__main__.PreparationChecks.test_timestamp_ties_go_to_right_source_only) ... ok
+test_truth_maps_to_surviving_full_snapshot_ordinals (__main__.PreparationChecks.test_truth_maps_to_surviving_full_snapshot_ordinals) ... ok
+test_union_median_cut_uses_all_supplied_timestamps (__main__.PreparationChecks.test_union_median_cut_uses_all_supplied_timestamps) ... ok
+
+----------------------------------------------------------------------
+Ran 19 tests in 0.090s
+
+OK

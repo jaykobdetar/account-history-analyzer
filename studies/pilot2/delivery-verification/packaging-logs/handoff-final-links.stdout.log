@@ -1,0 +1,1 @@
+{"status": "passed", "documents_checked": 23, "before_counts": {"local_ok": 111, "external_not_requested": 4}, "after_counts": {"local_ok": 111, "external_not_requested": 4}, "originals_unchanged": true, "requires_staging_manifest_refresh": false}

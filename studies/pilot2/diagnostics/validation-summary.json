@@ -1,0 +1,67 @@
+{
+  "analytical_components_identical_to_frozen_1_0_3": true,
+  "artifact_sha256": {
+    "GRID_DIAGNOSTICS.md": "65298e183c839e915f8900671d6cd4a1b245930591bac3d1918ed5374a01c232",
+    "grid-diagnostics.json": "c44df9821a0b440774d25834528e49d08a5c709c149cb8d5fb041444e7486154",
+    "source-identity.json": "8ead5fdfb8e5e0a4d8bad2501ba97b20f6799d362f7278f4bbfb63aaa13377e7"
+  },
+  "case_count": 4,
+  "expected_error_pairs_confirmed": [
+    [
+      22,
+      5
+    ],
+    [
+      11,
+      11
+    ],
+    [
+      9,
+      9
+    ],
+    [
+      null,
+      9
+    ]
+  ],
+  "hand_checkable_tests": {
+    "executed": 9,
+    "failed": 0,
+    "passed": 9,
+    "runner": "unittest; actual separate offline process"
+  },
+  "historical_files_unchanged": 465,
+  "historical_inventory_sha256": "12959f47fb922a2b8ab5c9055e041ce0ebc82f295aec5b5971896f5e9489d3ef",
+  "historical_natural_primary_windows_checked": 28,
+  "historical_natural_reports_checked": 2,
+  "historical_tolerance_records_unchanged": 10,
+  "implementation_fingerprint": "bfc989028bf2b47c506d1ba501287d4e362aadc25ca5c731c41e4b27a336e179",
+  "no_optimizer_invoked": true,
+  "qualified_window_counts": [
+    23,
+    12,
+    35,
+    18
+  ],
+  "resource_measurements": [
+    {
+      "elapsed_seconds": 0.17,
+      "exit_code": 0,
+      "peak_rss_kib": 41764,
+      "stage": "hand-checkable-tests",
+      "system_seconds": 0.04,
+      "user_seconds": 0.12
+    },
+    {
+      "elapsed_seconds": 5.87,
+      "exit_code": 0,
+      "peak_rss_kib": 103588,
+      "stage": "actual-grid-check",
+      "system_seconds": 0.16,
+      "user_seconds": 5.71
+    }
+  ],
+  "source_version": "1.0.4",
+  "status": "passed",
+  "total_new_exported_splice_windows_checked": 92
+}

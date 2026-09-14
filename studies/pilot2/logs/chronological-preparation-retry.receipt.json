@@ -1,0 +1,27 @@
+{
+  "command": [
+    "python3.12",
+    "scripts/offline_exec.py",
+    ".venv/bin/python",
+    "-B",
+    "-c",
+    "import os,resource,sys; resource.setrlimit(resource.RLIMIT_AS,(3*1024**3,3*1024**3)); os.execv(sys.executable,[sys.executable,\"-B\",*sys.argv[1:]])",
+    "/home/jaykob/.codex/visualizations/2026/09/13/01a09a32-1ca6-7983-93da-5f7da689ab16/ahas-pilot2-20260914/scripts/prepare_streams.py",
+    "prepare",
+    "--root",
+    "/home/jaykob/.codex/visualizations/2026/09/13/01a09a32-1ca6-7983-93da-5f7da689ab16/ahas-pilot2-20260914",
+    "--exclude-cohort",
+    "/home/jaykob/.codex/visualizations/2026/09/13/01a09a32-1ca6-7983-93da-5f7da689ab16/ahas-pilot2-20260914/prepared/paired/private/selection.json",
+    "--paired-pool",
+    "/home/jaykob/.codex/visualizations/2026/09/13/01a09a32-1ca6-7983-93da-5f7da689ab16/ahas-pilot2-20260914/prepared/paired/private/candidate-pool.jsonl"
+  ],
+  "cwd": "/home/jaykob/Downloads/Account_History_Analyzer_V1_Agent_Handoff/account_history_analyzer_v1",
+  "started_utc": "2026-09-14T19:28:02.130093+00:00",
+  "finished_utc": "2026-09-14T19:29:46.283600+00:00",
+  "exit_code": 0,
+  "wall_seconds": 104.15351053100312,
+  "peak_rss_kib": 1778116,
+  "measurement_scope": "this command and descendants; separate from canonical results",
+  "stdout_sha256": "da28b45990916db34c5a487ce956daacc5725022d9599b92b82e5d87c41368a3",
+  "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+}

@@ -1,0 +1,478 @@
+{
+  "scope": "Previously exposed originalpilot400comment history, explicitly development-only resourceprobe. cProfile timing includes instrumentation overhead, not ordinary throughput.",
+  "implementation_fingerprint": "bfc989028bf2b47c506d1ba501287d4e362aadc25ca5c731c41e4b27a336e179",
+  "output_bytes": {
+    "run_receipt.json": 2528,
+    "report.html": 1248884,
+    "evidence.jsonl": 274441,
+    "activity_hourly.svg": 6510,
+    "activity_daily.svg": 239008,
+    "records_features.jsonl": 4552361,
+    "eligible_word_volume.svg": 5498,
+    "adjacent_distances.svg": 15687,
+    "method_registry.json": 336157,
+    "report.md": 862011,
+    "ingest_receipt.json": 674,
+    "windows.jsonl": 508295,
+    "results.json": 98663593,
+    "surface_features.svg": 20134,
+    "checksums.json": 1136,
+    "resolved_config.json": 2293
+  },
+  "total_output_bytes": 106739210,
+  "top_cumulative_functions": [
+    {
+      "path": "__main__.py",
+      "line": 1,
+      "function": "<module>",
+      "primitive_calls": 1,
+      "total_calls": 1,
+      "self_seconds": 0.07100208200000001,
+      "cumulative_seconds": 195.771158326
+    },
+    {
+      "path": "cli.py",
+      "line": 22,
+      "function": "main",
+      "primitive_calls": 1,
+      "total_calls": 1,
+      "self_seconds": 0.09435686900000001,
+      "cumulative_seconds": 195.699219784
+    },
+    {
+      "path": "io.py",
+      "line": 66,
+      "function": "canonical_chunks",
+      "primitive_calls": 3014,
+      "total_calls": 3014,
+      "self_seconds": 27.569447207000003,
+      "cumulative_seconds": 115.53576527300001
+    },
+    {
+      "path": "pipeline.py",
+      "line": 36,
+      "function": "analyze",
+      "primitive_calls": 1,
+      "total_calls": 1,
+      "self_seconds": 0.0011973110000000002,
+      "cumulative_seconds": 78.066852708
+    },
+    {
+      "path": "io.py",
+      "line": 76,
+      "function": "tokens",
+      "primitive_calls": 29223014,
+      "total_calls": 305074852,
+      "self_seconds": 37.565998596,
+      "cumulative_seconds": 72.863599115
+    },
+    {
+      "path": "schemas.py",
+      "line": 64,
+      "function": "validate",
+      "primitive_calls": 403,
+      "total_calls": 403,
+      "self_seconds": 0.00115719,
+      "cumulative_seconds": 63.212989091000004
+    },
+    {
+      "path": "/home/jaykob/Downloads/Account_History_Analyzer_V1_Agent_Handoff/account_history_analyzer_v1/.venv/lib/python3.12/site-packages/jsonschema/validators.py",
+      "line": 349,
+      "function": "iter_errors",
+      "primitive_calls": 407,
+      "total_calls": 2262,
+      "self_seconds": 0.002947931,
+      "cumulative_seconds": 59.639821592000004
+    },
+    {
+      "path": "/home/jaykob/Downloads/Account_History_Analyzer_V1_Agent_Handoff/account_history_analyzer_v1/.venv/lib/python3.12/site-packages/jsonschema/validators.py",
+      "line": 396,
+      "function": "descend",
+      "primitive_calls": 7646,
+      "total_calls": 6164162,
+      "self_seconds": 10.215451077,
+      "cumulative_seconds": 59.629850768000004
+    },
+    {
+      "path": "/home/jaykob/Downloads/Account_History_Analyzer_V1_Agent_Handoff/account_history_analyzer_v1/.venv/lib/python3.12/site-packages/jsonschema/_keywords.py",
+      "line": 290,
+      "function": "properties",
+      "primitive_calls": 2837,
+      "total_calls": 469575,
+      "self_seconds": 1.82153925,
+      "cumulative_seconds": 59.60970462
+    },
+    {
+      "path": "artifacts.py",
+      "line": 112,
+      "function": "write_artifacts",
+      "primitive_calls": 1,
+      "total_calls": 1,
+      "self_seconds": 0.00058387,
+      "cumulative_seconds": 59.470872238000005
+    },
+    {
+      "path": "/home/jaykob/Downloads/Account_History_Analyzer_V1_Agent_Handoff/account_history_analyzer_v1/.venv/lib/python3.12/site-packages/jsonschema/_keywords.py",
+      "line": 59,
+      "function": "items",
+      "primitive_calls": 1138,
+      "total_calls": 4340,
+      "self_seconds": 0.239223608,
+      "cumulative_seconds": 58.62844363600001
+    },
+    {
+      "path": "artifacts.py",
+      "line": 39,
+      "function": "publish_files",
+      "primitive_calls": 1,
+      "total_calls": 1,
+      "self_seconds": 0.00010974,
+      "cumulative_seconds": 57.99207878000001
+    },
+    {
+      "path": "artifacts.py",
+      "line": 69,
+      "function": "write",
+      "primitive_calls": 16,
+      "total_calls": 16,
+      "self_seconds": 0.007116386000000001,
+      "cumulative_seconds": 57.991079799000005
+    },
+    {
+      "path": "io.py",
+      "line": 116,
+      "function": "canonical_digest",
+      "primitive_calls": 1,
+      "total_calls": 1,
+      "self_seconds": 0.001159492,
+      "cumulative_seconds": 57.734986349
+    },
+    {
+      "path": "/home/jaykob/Downloads/Account_History_Analyzer_V1_Agent_Handoff/account_history_analyzer_v1/.venv/lib/python3.12/site-packages/jsonschema/_keywords.py",
+      "line": 337,
+      "function": "anyOf",
+      "primitive_calls": 1284675,
+      "total_calls": 1285039,
+      "self_seconds": 1.37534738,
+      "cumulative_seconds": 21.680907392
+    },
+    {
+      "path": "/home/jaykob/Downloads/Account_History_Analyzer_V1_Agent_Handoff/account_history_analyzer_v1/.venv/lib/python3.12/site-packages/jsonschema/validators.py",
+      "line": 339,
+      "function": "evolve",
+      "primitive_calls": 5745706,
+      "total_calls": 5745706,
+      "self_seconds": 7.621255232,
+      "cumulative_seconds": 16.351500824000002
+    },
+    {
+      "path": "/home/jaykob/Downloads/Account_History_Analyzer_V1_Agent_Handoff/account_history_analyzer_v1/.venv/lib/python3.12/site-packages/jsonschema/_keywords.py",
+      "line": 282,
+      "function": "type",
+      "primitive_calls": 4821855,
+      "total_calls": 4821855,
+      "self_seconds": 2.834782162,
+      "cumulative_seconds": 12.679785352000001
+    },
+    {
+      "path": "/home/jaykob/Downloads/Account_History_Analyzer_V1_Agent_Handoff/account_history_analyzer_v1/.venv/lib/python3.12/site-packages/jsonschema/validators.py",
+      "line": 452,
+      "function": "is_type",
+      "primitive_calls": 7034990,
+      "total_calls": 7034990,
+      "self_seconds": 1.552019405,
+      "cumulative_seconds": 8.779961595000001
+    },
+    {
+      "path": "comparisons.py",
+      "line": 18,
+      "function": "analyze_comparisons",
+      "primitive_calls": 1,
+      "total_calls": 1,
+      "self_seconds": 0.000990882,
+      "cumulative_seconds": 7.621799258
+    },
+    {
+      "path": "/home/jaykob/Downloads/Account_History_Analyzer_V1_Agent_Handoff/account_history_analyzer_v1/.venv/lib/python3.12/site-packages/jsonschema/_types.py",
+      "line": 94,
+      "function": "is_type",
+      "primitive_calls": 7034990,
+      "total_calls": 7034990,
+      "self_seconds": 3.411784143,
+      "cumulative_seconds": 7.22794219
+    },
+    {
+      "path": "/home/jaykob/Downloads/Account_History_Analyzer_V1_Agent_Handoff/account_history_analyzer_v1/.venv/lib/python3.12/site-packages/jsonschema/_keywords.py",
+      "line": 285,
+      "function": "<genexpr>",
+      "primitive_calls": 4825272,
+      "total_calls": 4825272,
+      "self_seconds": 0.9938166920000001,
+      "cumulative_seconds": 6.819661957
+    },
+    {
+      "path": "io.py",
+      "line": 60,
+      "function": "canonical_bytes",
+      "primitive_calls": 2234,
+      "total_calls": 2234,
+      "self_seconds": 0.049682006,
+      "cumulative_seconds": 6.6448931490000005
+    },
+    {
+      "path": "io.py",
+      "line": 129,
+      "function": "digest",
+      "primitive_calls": 1263,
+      "total_calls": 1263,
+      "self_seconds": 0.0024104210000000003,
+      "cumulative_seconds": 6.150636379000001
+    },
+    {
+      "path": "io.py",
+      "line": 46,
+      "function": "_canonical_value",
+      "primitive_calls": 2234,
+      "total_calls": 4231366,
+      "self_seconds": 2.266330752,
+      "cumulative_seconds": 5.616009588000001
+    },
+    {
+      "path": "/home/jaykob/Downloads/Account_History_Analyzer_V1_Agent_Handoff/account_history_analyzer_v1/.venv/lib/python3.12/site-packages/referencing/_core.py",
+      "line": 700,
+      "function": "in_subresource",
+      "primitive_calls": 5713163,
+      "total_calls": 5713163,
+      "self_seconds": 1.105185875,
+      "cumulative_seconds": 5.1601692880000005
+    },
+    {
+      "path": "io.py",
+      "line": 28,
+      "function": "freeze",
+      "primitive_calls": 18140,
+      "total_calls": 4622499,
+      "self_seconds": 2.262023457,
+      "cumulative_seconds": 4.716025957
+    },
+    {
+      "path": "/home/jaykob/Downloads/Account_History_Analyzer_V1_Agent_Handoff/account_history_analyzer_v1/.venv/lib/python3.12/site-packages/referencing/_core.py",
+      "line": 165,
+      "function": "create_resource",
+      "primitive_calls": 5713850,
+      "total_calls": 5713850,
+      "self_seconds": 2.386839315,
+      "cumulative_seconds": 4.498867195
+    },
+    {
+      "path": "io.py",
+      "line": 33,
+      "function": "<genexpr>",
+      "primitive_calls": 29734,
+      "total_calls": 651306,
+      "self_seconds": 0.14091709600000002,
+      "cumulative_seconds": 4.423356007000001
+    },
+    {
+      "path": "/home/jaykob/Downloads/Account_History_Analyzer_V1_Agent_Handoff/account_history_analyzer_v1/.venv/lib/python3.12/site-packages/jsonschema/validators.py",
+      "line": 282,
+      "function": "__attrs_post_init__",
+      "primitive_calls": 5746113,
+      "total_calls": 5746113,
+      "self_seconds": 3.8562330800000004,
+      "cumulative_seconds": 4.380345994000001
+    },
+    {
+      "path": "/home/jaykob/Downloads/Account_History_Analyzer_V1_Agent_Handoff/account_history_analyzer_v1/.venv/lib/python3.12/site-packages/referencing/_core.py",
+      "line": 227,
+      "function": "id",
+      "primitive_calls": 5714019,
+      "total_calls": 5714019,
+      "self_seconds": 1.23668269,
+      "cumulative_seconds": 4.00176756
+    }
+  ],
+  "top_self_functions": [
+    {
+      "path": "io.py",
+      "line": 76,
+      "function": "tokens",
+      "primitive_calls": 29223014,
+      "total_calls": 305074852,
+      "self_seconds": 37.565998596,
+      "cumulative_seconds": 72.863599115
+    },
+    {
+      "path": "io.py",
+      "line": 66,
+      "function": "canonical_chunks",
+      "primitive_calls": 3014,
+      "total_calls": 3014,
+      "self_seconds": 27.569447207000003,
+      "cumulative_seconds": 115.53576527300001
+    },
+    {
+      "path": "/home/jaykob/Downloads/Account_History_Analyzer_V1_Agent_Handoff/account_history_analyzer_v1/.venv/lib/python3.12/site-packages/jsonschema/validators.py",
+      "line": 396,
+      "function": "descend",
+      "primitive_calls": 7646,
+      "total_calls": 6164162,
+      "self_seconds": 10.215451077,
+      "cumulative_seconds": 59.629850768000004
+    },
+    {
+      "path": "/home/jaykob/Downloads/Account_History_Analyzer_V1_Agent_Handoff/account_history_analyzer_v1/.venv/lib/python3.12/site-packages/jsonschema/validators.py",
+      "line": 339,
+      "function": "evolve",
+      "primitive_calls": 5745706,
+      "total_calls": 5745706,
+      "self_seconds": 7.621255232,
+      "cumulative_seconds": 16.351500824000002
+    },
+    {
+      "path": "/home/jaykob/Downloads/Account_History_Analyzer_V1_Agent_Handoff/account_history_analyzer_v1/.venv/lib/python3.12/site-packages/jsonschema/validators.py",
+      "line": 282,
+      "function": "__attrs_post_init__",
+      "primitive_calls": 5746113,
+      "total_calls": 5746113,
+      "self_seconds": 3.8562330800000004,
+      "cumulative_seconds": 4.380345994000001
+    },
+    {
+      "path": "/home/jaykob/Downloads/Account_History_Analyzer_V1_Agent_Handoff/account_history_analyzer_v1/.venv/lib/python3.12/site-packages/jsonschema/_types.py",
+      "line": 94,
+      "function": "is_type",
+      "primitive_calls": 7034990,
+      "total_calls": 7034990,
+      "self_seconds": 3.411784143,
+      "cumulative_seconds": 7.22794219
+    },
+    {
+      "path": "/home/jaykob/Downloads/Account_History_Analyzer_V1_Agent_Handoff/account_history_analyzer_v1/.venv/lib/python3.12/site-packages/jsonschema/_keywords.py",
+      "line": 282,
+      "function": "type",
+      "primitive_calls": 4821855,
+      "total_calls": 4821855,
+      "self_seconds": 2.834782162,
+      "cumulative_seconds": 12.679785352000001
+    },
+    {
+      "path": "/home/jaykob/Downloads/Account_History_Analyzer_V1_Agent_Handoff/account_history_analyzer_v1/.venv/lib/python3.12/site-packages/referencing/_core.py",
+      "line": 165,
+      "function": "create_resource",
+      "primitive_calls": 5713850,
+      "total_calls": 5713850,
+      "self_seconds": 2.386839315,
+      "cumulative_seconds": 4.498867195
+    },
+    {
+      "path": "io.py",
+      "line": 46,
+      "function": "_canonical_value",
+      "primitive_calls": 2234,
+      "total_calls": 4231366,
+      "self_seconds": 2.266330752,
+      "cumulative_seconds": 5.616009588000001
+    },
+    {
+      "path": "io.py",
+      "line": 28,
+      "function": "freeze",
+      "primitive_calls": 18140,
+      "total_calls": 4622499,
+      "self_seconds": 2.262023457,
+      "cumulative_seconds": 4.716025957
+    },
+    {
+      "path": "/home/jaykob/Downloads/Account_History_Analyzer_V1_Agent_Handoff/account_history_analyzer_v1/.venv/lib/python3.12/site-packages/jsonschema/_keywords.py",
+      "line": 290,
+      "function": "properties",
+      "primitive_calls": 2837,
+      "total_calls": 469575,
+      "self_seconds": 1.82153925,
+      "cumulative_seconds": 59.60970462
+    },
+    {
+      "path": "/home/jaykob/Downloads/Account_History_Analyzer_V1_Agent_Handoff/account_history_analyzer_v1/.venv/lib/python3.12/site-packages/referencing/jsonschema.py",
+      "line": 47,
+      "function": "_dollar_id",
+      "primitive_calls": 5713793,
+      "total_calls": 5713793,
+      "self_seconds": 1.604356284,
+      "cumulative_seconds": 2.7644473900000004
+    },
+    {
+      "path": "schemas.py",
+      "line": 56,
+      "function": "_plain",
+      "primitive_calls": 403,
+      "total_calls": 3891816,
+      "self_seconds": 1.596768946,
+      "cumulative_seconds": 3.502776089
+    },
+    {
+      "path": "/home/jaykob/Downloads/Account_History_Analyzer_V1_Agent_Handoff/account_history_analyzer_v1/.venv/lib/python3.12/site-packages/jsonschema/validators.py",
+      "line": 452,
+      "function": "is_type",
+      "primitive_calls": 7034990,
+      "total_calls": 7034990,
+      "self_seconds": 1.552019405,
+      "cumulative_seconds": 8.779961595000001
+    },
+    {
+      "path": "/home/jaykob/Downloads/Account_History_Analyzer_V1_Agent_Handoff/account_history_analyzer_v1/.venv/lib/python3.12/site-packages/jsonschema/_keywords.py",
+      "line": 337,
+      "function": "anyOf",
+      "primitive_calls": 1284675,
+      "total_calls": 1285039,
+      "self_seconds": 1.37534738,
+      "cumulative_seconds": 21.680907392
+    },
+    {
+      "path": "/home/jaykob/Downloads/Account_History_Analyzer_V1_Agent_Handoff/account_history_analyzer_v1/.venv/lib/python3.12/site-packages/referencing/_core.py",
+      "line": 227,
+      "function": "id",
+      "primitive_calls": 5714019,
+      "total_calls": 5714019,
+      "self_seconds": 1.23668269,
+      "cumulative_seconds": 4.00176756
+    },
+    {
+      "path": "/home/jaykob/Downloads/Account_History_Analyzer_V1_Agent_Handoff/account_history_analyzer_v1/.venv/lib/python3.12/site-packages/referencing/_core.py",
+      "line": 700,
+      "function": "in_subresource",
+      "primitive_calls": 5713163,
+      "total_calls": 5713163,
+      "self_seconds": 1.105185875,
+      "cumulative_seconds": 5.1601692880000005
+    },
+    {
+      "path": "/home/jaykob/Downloads/Account_History_Analyzer_V1_Agent_Handoff/account_history_analyzer_v1/.venv/lib/python3.12/site-packages/jsonschema/_keywords.py",
+      "line": 285,
+      "function": "<genexpr>",
+      "primitive_calls": 4825272,
+      "total_calls": 4825272,
+      "self_seconds": 0.9938166920000001,
+      "cumulative_seconds": 6.819661957
+    },
+    {
+      "path": "io.py",
+      "line": 78,
+      "function": "<genexpr>",
+      "primitive_calls": 7700578,
+      "total_calls": 7700578,
+      "self_seconds": 0.9914930350000001,
+      "cumulative_seconds": 1.360174943
+    },
+    {
+      "path": "/home/jaykob/Downloads/Account_History_Analyzer_V1_Agent_Handoff/account_history_analyzer_v1/.venv/lib/python3.12/site-packages/jsonschema/_utils.py",
+      "line": 95,
+      "function": "ensure_list",
+      "primitive_calls": 4402119,
+      "total_calls": 4402119,
+      "self_seconds": 0.808239389,
+      "cumulative_seconds": 1.16020078
+    }
+  ],
+  "optimization_performed": false
+}

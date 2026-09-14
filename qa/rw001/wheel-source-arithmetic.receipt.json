@@ -1,0 +1,25 @@
+{
+  "command": [
+    ".venv/bin/python",
+    "scripts/offline_exec.py",
+    ".venv/bin/python",
+    "-m",
+    "account_history_analyzer",
+    "analyze",
+    "--input",
+    "fixtures/arithmetic.jsonl",
+    "--manifest",
+    "fixtures/arithmetic.snapshot.json",
+    "--out",
+    "output/rw001/arithmetic-source"
+  ],
+  "cwd": "/home/jaykob/Downloads/Account_History_Analyzer_V1_Agent_Handoff/account_history_analyzer_v1",
+  "started_utc": "2026-09-14T18:35:15.957390+00:00",
+  "finished_utc": "2026-09-14T18:35:17.740662+00:00",
+  "exit_code": 0,
+  "wall_seconds": 1.7832731630187482,
+  "peak_rss_kib": 110312,
+  "measurement_scope": "this command and descendants; separate from canonical results",
+  "stdout_sha256": "0f2f0437c39f367a02874a14b5d678b021562c3a1b2035cfdb24c23bed40ebf9",
+  "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+}

@@ -1,0 +1,25 @@
+{
+  "command": [
+    ".venv/bin/python",
+    "scripts/offline_exec.py",
+    "env",
+    "AHAS_RUN_LARGE_ROUNDTRIP=1",
+    "AHAS_REPO=.",
+    ".venv/bin/python",
+    "-m",
+    "pytest",
+    "-q",
+    "qa/audit-repair/supplied-probes/test_review_regressions.py",
+    "tests/test_reuse_adversarial_review.py",
+    "--junitxml=qa/rw001/original-audit-regressions.xml"
+  ],
+  "cwd": "/home/jaykob/Downloads/Account_History_Analyzer_V1_Agent_Handoff/account_history_analyzer_v1",
+  "started_utc": "2026-09-14T18:30:27.573487+00:00",
+  "finished_utc": "2026-09-14T18:33:10.615426+00:00",
+  "exit_code": 0,
+  "wall_seconds": 163.04194088399527,
+  "peak_rss_kib": 768044,
+  "measurement_scope": "this command and descendants; separate from canonical results",
+  "stdout_sha256": "0afc2f63867edc6c78460896a175f61646b42095ae93367e8094e353d5cbf3f5",
+  "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+}

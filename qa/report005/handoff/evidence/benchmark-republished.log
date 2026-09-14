@@ -1,0 +1,28 @@
+{
+  "scope": "Republish saved analytical values through actual write_artifacts, then compare and verify. No numerical recomputation.",
+  "canonical_matches": {
+    "activity_daily.svg": true,
+    "activity_hourly.svg": true,
+    "adjacent_distances.svg": true,
+    "eligible_word_volume.svg": true,
+    "evidence.jsonl": true,
+    "method_registry.json": true,
+    "records_features.jsonl": true,
+    "report.html": true,
+    "report.md": true,
+    "resolved_config.json": true,
+    "results.json": true,
+    "surface_features.svg": true,
+    "windows.jsonl": true,
+    "checksums.json": true
+  },
+  "integrity": {
+    "status": "integrity_only",
+    "checked_artifacts": 13,
+    "results_sha256": "f2c8f0f9f3ecd3c583b09dde27cf922713d80b332ddee2cfd120188e7fa8c6ab",
+    "verification_scope": "artifact_checksums_and_supplied_identities"
+  },
+  "wall_seconds": 48.57015696600001,
+  "peak_rss_kib": 532636
+}
+

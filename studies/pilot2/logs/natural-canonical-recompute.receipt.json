@@ -1,0 +1,29 @@
+{
+  "command": [
+    ".venv/bin/python",
+    "scripts/offline_exec.py",
+    "env",
+    "PYTHONHASHSEED=2027",
+    "TZ=America/Los_Angeles",
+    ".venv/bin/python",
+    "-m",
+    "account_history_analyzer",
+    "verify",
+    "--input",
+    "/home/jaykob/.codex/visualizations/2026/09/13/01a09a32-1ca6-7983-93da-5f7da689ab16/ahas-pilot2-20260914/prepared/streams/accounts/chrono-6344efa4ef2577e2eb36.jsonl",
+    "--manifest",
+    "/home/jaykob/.codex/visualizations/2026/09/13/01a09a32-1ca6-7983-93da-5f7da689ab16/ahas-pilot2-20260914/prepared/streams/accounts/chrono-6344efa4ef2577e2eb36.snapshot.json",
+    "--analysis-dir",
+    "/home/jaykob/.codex/visualizations/2026/09/13/01a09a32-1ca6-7983-93da-5f7da689ab16/ahas-pilot2-20260914/outputs/streams/chrono-ApplyingToCollege-pair1-unknown-natural-full",
+    "--recompute"
+  ],
+  "cwd": "/home/jaykob/Downloads/Account_History_Analyzer_V1_Agent_Handoff/account_history_analyzer_v1",
+  "started_utc": "2026-09-14T19:53:20.574872+00:00",
+  "finished_utc": "2026-09-14T19:54:20.120197+00:00",
+  "exit_code": 0,
+  "wall_seconds": 59.54532668198226,
+  "peak_rss_kib": 386408,
+  "measurement_scope": "this command and descendants; separate from canonical results",
+  "stdout_sha256": "e5b32b2d6746aff6298bd1f6a9a30f3b9f6df41abb78ca4d9be3efeb3569a001",
+  "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+}

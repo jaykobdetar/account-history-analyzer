@@ -1,0 +1,16 @@
+{
+  "accepted_audit_implementations_changed": false,
+  "baseline_files_checked": 2579,
+  "changed_existing_files": [
+    "schemas/results.schema.json",
+    "src/account_history_analyzer/__init__.py",
+    "src/account_history_analyzer/contracts/results.schema.json",
+    "src/account_history_analyzer/payload_schemas.py",
+    "src/account_history_analyzer/reporting.py"
+  ],
+  "existing_tests_changed": false,
+  "historical_reports_receipts_and_archives_changed": false,
+  "missing_files": [],
+  "optimizer_or_dependency_code_changed": false,
+  "status": "passed"
+}

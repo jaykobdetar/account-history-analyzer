@@ -1,0 +1,62 @@
+{
+  "after_label_regression": {
+    "exit_code": 0,
+    "log": "label-after.log",
+    "passed": 1,
+    "seconds": 2.63
+  },
+  "before_label_regression": {
+    "exit_code": 1,
+    "failed": 1,
+    "log": "label-before.log",
+    "seconds": 2.58
+  },
+  "container_full_suite": {
+    "log": "container-tests.log",
+    "passed": 627,
+    "seconds": 145.74,
+    "skip_reason": "Chrome and Node absent; separate host browser run passed",
+    "skipped": 1
+  },
+  "fresh_reference_runs": [
+    {
+      "errors": "0",
+      "failures": "0",
+      "hostname": "jaykob-MS-7B93",
+      "name": "pytest",
+      "skipped": "1",
+      "tests": "628",
+      "time": "97.042",
+      "timestamp": "2026-09-14T06:50:02.892233-04:00",
+      "xml": "qa/report005/full-tests.xml"
+    },
+    {
+      "errors": "0",
+      "failures": "0",
+      "hostname": "jaykob-MS-7B93",
+      "name": "pytest",
+      "skipped": "0",
+      "tests": "3",
+      "time": "164.573",
+      "timestamp": "2026-09-14T06:50:02.849788-04:00",
+      "xml": "qa/report005/original-audit-tests.xml"
+    },
+    {
+      "errors": "0",
+      "failures": "0",
+      "hostname": "jaykob-MS-7B93",
+      "name": "pytest",
+      "skipped": "0",
+      "tests": "24",
+      "time": "2.919",
+      "timestamp": "2026-09-14T06:47:20.374010-04:00",
+      "xml": "qa/report005/reviewer-after.xml"
+    }
+  ],
+  "historical_results_relabelled": false,
+  "separate_browser_test": {
+    "log": "browser-test.log",
+    "passed": 1,
+    "seconds": 2.12
+  }
+}

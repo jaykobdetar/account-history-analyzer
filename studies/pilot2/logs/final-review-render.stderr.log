@@ -1,0 +1,8 @@
+Traceback (most recent call last):
+  File "/home/jaykob/.codex/visualizations/2026/09/13/01a09a32-1ca6-7983-93da-5f7da689ab16/ahas-pilot2-20260914/review/build_final_review.py", line 125, in <module>
+    if __name__=='__main__':main()
+                            ^^^^^^
+  File "/home/jaykob/.codex/visualizations/2026/09/13/01a09a32-1ca6-7983-93da-5f7da689ab16/ahas-pilot2-20260914/review/build_final_review.py", line 40, in main
+    'chronological_source_accounts':len(plan['final_source_accounts']),
+                                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: object of type 'int' has no len()

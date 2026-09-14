@@ -1,0 +1,73 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "AHAS V1 frozen Delta reference",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "schema_version",
+    "reference_id",
+    "reference_kind",
+    "method_id",
+    "frequency_unit",
+    "vocabulary",
+    "means",
+    "standard_deviations",
+    "fitting_description",
+    "source_provenance"
+  ],
+  "properties": {
+    "schema_version": {
+      "const": "1.0.0"
+    },
+    "reference_id": {
+      "type": "string",
+      "minLength": 1
+    },
+    "reference_kind": {
+      "enum": [
+        "toy",
+        "research"
+      ]
+    },
+    "method_id": {
+      "const": "classic_delta_v1"
+    },
+    "frequency_unit": {
+      "const": "per_1000_word_tokens"
+    },
+    "vocabulary": {
+      "type": "array",
+      "items": {
+        "type": "string",
+        "minLength": 1
+      },
+      "minItems": 1,
+      "uniqueItems": true
+    },
+    "means": {
+      "type": "array",
+      "items": {
+        "type": "number",
+        "minimum": 0
+      },
+      "minItems": 1
+    },
+    "standard_deviations": {
+      "type": "array",
+      "items": {
+        "type": "number",
+        "minimum": 0
+      },
+      "minItems": 1
+    },
+    "fitting_description": {
+      "type": "string",
+      "minLength": 1
+    },
+    "source_provenance": {
+      "type": "string",
+      "minLength": 1
+    }
+  },
+  "$comment": "Validate array-length equality, vocabulary compatibility, finite values, and the toy-reference runtime guard in application code."
+}

@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 1450" role="img" aria-labelledby="adjacent-distances-title">
+<title id="adjacent-distances-title">Adjacent primary-window representation distances</title>
+<rect width="100%" height="100%" fill="#ffffff"/>
+<g font-family="system-ui, sans-serif" fill="#253347">
+<text x="20" y="30" font-size="21" font-weight="600">Adjacent primary-window representation distances</text>
+<text x="20" y="66" font-size="16" font-weight="600">Pooled comments — Raw 4-gram cosine</text>
+<text x="20" y="84" font-size="11" fill="#526274">distance in the named representation; x = adjacent window pair</text>
+<metadata>{&quot;boundaries&quot;:[],&quot;labels&quot;:[],&quot;title&quot;:&quot;Pooled comments — Raw 4-gram cosine&quot;,&quot;unit&quot;:&quot;distance in the named representation; x = adjacent window pair&quot;,&quot;values&quot;:[]}</metadata>
+<text x="76.0" y="142" font-size="13" fill="#526274">No computable observations in this scope.</text>
+<text x="20" y="291" font-size="16" font-weight="600">Pooled comments — Masked 4-gram cosine</text>
+<text x="20" y="309" font-size="11" fill="#526274">distance in the named representation; x = adjacent window pair</text>
+<metadata>{&quot;boundaries&quot;:[],&quot;labels&quot;:[],&quot;title&quot;:&quot;Pooled comments — Masked 4-gram cosine&quot;,&quot;unit&quot;:&quot;distance in the named representation; x = adjacent window pair&quot;,&quot;values&quot;:[]}</metadata>
+<text x="76.0" y="367" font-size="13" fill="#526274">No computable observations in this scope.</text>
+<text x="20" y="516" font-size="16" font-weight="600">Pooled comments — Function-word base-2 JS</text>
+<text x="20" y="534" font-size="11" fill="#526274">distance in the named representation; x = adjacent window pair</text>
+<metadata>{&quot;boundaries&quot;:[],&quot;labels&quot;:[],&quot;title&quot;:&quot;Pooled comments — Function-word base-2 JS&quot;,&quot;unit&quot;:&quot;distance in the named representation; x = adjacent window pair&quot;,&quot;values&quot;:[]}</metadata>
+<text x="76.0" y="592" font-size="13" fill="#526274">No computable observations in this scope.</text>
+<text x="20" y="741" font-size="16" font-weight="600">Pooled submission bodies — Raw 4-gram cosine</text>
+<text x="20" y="759" font-size="11" fill="#526274">distance in the named representation; x = adjacent window pair</text>
+<metadata>{&quot;boundaries&quot;:[],&quot;labels&quot;:[],&quot;title&quot;:&quot;Pooled submission bodies — Raw 4-gram cosine&quot;,&quot;unit&quot;:&quot;distance in the named representation; x = adjacent window pair&quot;,&quot;values&quot;:[]}</metadata>
+<text x="76.0" y="817" font-size="13" fill="#526274">No computable observations in this scope.</text>
+<text x="20" y="966" font-size="16" font-weight="600">Pooled submission bodies — Masked 4-gram cosine</text>
+<text x="20" y="984" font-size="11" fill="#526274">distance in the named representation; x = adjacent window pair</text>
+<metadata>{&quot;boundaries&quot;:[],&quot;labels&quot;:[],&quot;title&quot;:&quot;Pooled submission bodies — Masked 4-gram cosine&quot;,&quot;unit&quot;:&quot;distance in the named representation; x = adjacent window pair&quot;,&quot;values&quot;:[]}</metadata>
+<text x="76.0" y="1042" font-size="13" fill="#526274">No computable observations in this scope.</text>
+<text x="20" y="1191" font-size="16" font-weight="600">Pooled submission bodies — Function-word base-2 JS</text>
+<text x="20" y="1209" font-size="11" fill="#526274">distance in the named representation; x = adjacent window pair</text>
+<metadata>{&quot;boundaries&quot;:[],&quot;labels&quot;:[],&quot;title&quot;:&quot;Pooled submission bodies — Function-word base-2 JS&quot;,&quot;unit&quot;:&quot;distance in the named representation; x = adjacent window pair&quot;,&quot;values&quot;:[]}</metadata>
+<text x="76.0" y="1267" font-size="13" fill="#526274">No computable observations in this scope.</text>
+<text x="20" y="1405" font-size="11" fill="#526274">Representations have different distance distributions and are not interchangeable probability scales.</text>
+<text x="20" y="1425" font-size="11" fill="#526274">Missing comparisons break lines. Dashed red marks descriptive candidates; no author probability is implied.</text>
+</g>
+</svg>

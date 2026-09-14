@@ -1,0 +1,72 @@
+{
+  "case": "arithmetic",
+  "default_style_eligible_records": 0,
+  "do_not_occurrences": 1,
+  "dont_occurrences": 2,
+  "event_offsets_seconds": [
+    0,
+    10,
+    20,
+    60,
+    120,
+    180
+  ],
+  "fixture_version": "1.0.0",
+  "gap_coefficient_of_variation": 0.6236095644623236,
+  "gap_mean_seconds": 36,
+  "gap_population_variance_seconds_squared": 504,
+  "gap_quantiles_seconds": {
+    "0.25": 10,
+    "0.5": 40,
+    "0.75": 60
+  },
+  "greedy_30_second_3_event_bursts": [
+    [
+      "arithmetic_001",
+      "arithmetic_002",
+      "arithmetic_003"
+    ]
+  ],
+  "human_bot_or_ai_ground_truth": "not_applicable",
+  "ingestion_duplicate_records": 1,
+  "inter_event_gaps_seconds": [
+    10,
+    10,
+    40,
+    60,
+    60
+  ],
+  "label_type": "construction_operations_only",
+  "links": {
+    "example.test": {
+      "occurrences": 2,
+      "records_with_host": 1
+    }
+  },
+  "literal_dont_preference_raw_fraction": {
+    "denominator": 3,
+    "numerator": 2
+  },
+  "max_events_in_sliding_windows": {
+    "120": 5,
+    "30": 3,
+    "3600": 6
+  },
+  "normalized_prose_identical_group": [
+    "arithmetic_001",
+    "arithmetic_002"
+  ],
+  "notes": "URL destination strings, explicit blockquote text, and code are excluded from retained word counts. These values are expected arithmetic, not measured analyzer outputs.",
+  "qualified_contraction_preference_status": "insufficient_opportunities",
+  "raw_input_lines": 7,
+  "retained_word_count_total": 36,
+  "retained_word_counts_by_unique_record": {
+    "arithmetic_001": 8,
+    "arithmetic_002": 8,
+    "arithmetic_003": 9,
+    "arithmetic_004": 4,
+    "arithmetic_005": 4,
+    "arithmetic_006": 3
+  },
+  "unique_events": 6
+}

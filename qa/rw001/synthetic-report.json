@@ -1,0 +1,13 @@
+{
+  "argv": [
+    ".venv/bin/python",
+    "scripts/offline_exec.py",
+    ".venv/bin/python",
+    "scripts/render_rw001_fixture.py",
+    "--out",
+    "output/rw001/synthetic"
+  ],
+  "exit_code": 0,
+  "elapsed_seconds": 5.5981283739965875,
+  "scope": "Public synthetic presentation fixture generation; substituted boundary facts are not optimizer validation."
+}

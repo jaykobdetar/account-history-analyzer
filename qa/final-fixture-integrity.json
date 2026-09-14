@@ -1,0 +1,41 @@
+{
+  "reports": [
+    {
+      "checked_artifacts": 13,
+      "fixture": "arithmetic",
+      "results_sha256": "750b285a714d450bc8ce466388c872d4c5bddd0b505c86f48af9ab337ce6068d",
+      "status": "integrity_only"
+    },
+    {
+      "checked_artifacts": 13,
+      "fixture": "constructed_style_shift",
+      "results_sha256": "5dcebc85038ce97271e436e7209e25914f5deaa64df25767bbed9e1333160575",
+      "status": "integrity_only"
+    },
+    {
+      "checked_artifacts": 13,
+      "fixture": "constructed_topic_shift",
+      "results_sha256": "a68d5bbd083065c90b4679cb3425578e3a56f27d683ce97cbad4cfe5699960eb",
+      "status": "integrity_only"
+    },
+    {
+      "checked_artifacts": 13,
+      "fixture": "edge_cases",
+      "results_sha256": "4ee4cf9d5662ba6d74218d00330ec01c65f9bdc173ed76da91ba0ccdab623e09",
+      "status": "integrity_only"
+    },
+    {
+      "checked_artifacts": 13,
+      "fixture": "empty",
+      "results_sha256": "44e9761f4a080412b2f3d6a39fc86e35e1a5bd2f1a633d725853387abf9e6686",
+      "status": "integrity_only"
+    },
+    {
+      "checked_artifacts": 13,
+      "fixture": "stable_constructed_style",
+      "results_sha256": "11cda7c52d3fb550b242abf710d2cd91e690a1d403411f644c6c169b9bb7a6a5",
+      "status": "integrity_only"
+    }
+  ],
+  "status": "passed"
+}

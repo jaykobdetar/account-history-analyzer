@@ -1,0 +1,19 @@
+{
+  "command": [
+    "docker",
+    "image",
+    "inspect",
+    "ahas-reference:1.0.3",
+    "--format",
+    "{{.Id}}"
+  ],
+  "cwd": "/home/jaykob/Downloads/Account_History_Analyzer_V1_Agent_Handoff/account_history_analyzer_v1",
+  "started_utc": "2026-09-14T18:37:27.519989+00:00",
+  "finished_utc": "2026-09-14T18:37:27.532914+00:00",
+  "exit_code": 0,
+  "wall_seconds": 0.01292544900206849,
+  "peak_rss_kib": 26948,
+  "measurement_scope": "this command and descendants; separate from canonical results",
+  "stdout_sha256": "54ac06d6e951d3ff46c4d18ccba4868023103472d2135382daa749802bacfa7d",
+  "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+}

@@ -1,0 +1,11 @@
+{
+  "acceptance_scope": "Test operational measurements and controlled feature changes only; no real-world detection-accuracy claim.",
+  "activity_note": "An exact three-hour artificial timestamp interval is a construction convenience, not a human baseline.",
+  "case": "stable_constructed_style",
+  "construction": "Fixed lowercase template with hash-selected equal-length content words and a unique numeric case marker.",
+  "fixture_version": "1.0.0",
+  "human_bot_or_ai_ground_truth": "not_applicable",
+  "label_type": "construction_operations_only",
+  "record_count": 320,
+  "transformation_starts_at_zero_based_record": null
+}

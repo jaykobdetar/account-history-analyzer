@@ -1,0 +1,5142 @@
+[
+  {
+    "case_id": "chrono-ApplyingToCollege-pair1-splice-full",
+    "preparation_status": "labeled_construction",
+    "preparation_reasons": [],
+    "driver_exit_code": 0,
+    "execution_status": "executed",
+    "grid_diagnostic": {
+      "adequate_no_candidate": true,
+      "analysis_scope_status": "ok",
+      "best_legal_grid_error": 5,
+      "candidate_errors_original_ordinals": [],
+      "candidate_intervals": [],
+      "candidate_measurement_available": true,
+      "case_id": "chrono-ApplyingToCollege-pair1-splice-full",
+      "change_status": "ok",
+      "coordinate_definition": "Inclusive split interval [last eligible left original ordinal + 1, first eligible right original ordinal] in each surviving canonical snapshot.",
+      "excess_error_over_grid": null,
+      "grid_unattainable": false,
+      "has_candidate": false,
+      "independent_vs_production_window_memberships": "passed",
+      "input_adequate": true,
+      "insufficient_input": false,
+      "label_note": "Source-account construction or continuity proxy only. Unknown truth is not changed to an empty truth array.",
+      "legal_boundaries": [
+        {
+          "split_interval": [
+            49,
+            51
+          ],
+          "window_index": 3
+        },
+        {
+          "split_interval": [
+            78,
+            78
+          ],
+          "window_index": 4
+        },
+        {
+          "split_interval": [
+            104,
+            104
+          ],
+          "window_index": 5
+        },
+        {
+          "split_interval": [
+            123,
+            123
+          ],
+          "window_index": 6
+        },
+        {
+          "split_interval": [
+            140,
+            140
+          ],
+          "window_index": 7
+        },
+        {
+          "split_interval": [
+            151,
+            151
+          ],
+          "window_index": 8
+        },
+        {
+          "split_interval": [
+            173,
+            173
+          ],
+          "window_index": 9
+        },
+        {
+          "split_interval": [
+            202,
+            202
+          ],
+          "window_index": 10
+        },
+        {
+          "split_interval": [
+            235,
+            235
+          ],
+          "window_index": 11
+        },
+        {
+          "split_interval": [
+            256,
+            257
+          ],
+          "window_index": 12
+        },
+        {
+          "split_interval": [
+            286,
+            286
+          ],
+          "window_index": 13
+        }
+      ],
+      "matched_at_original_tolerance": false,
+      "nearest_candidate_error_original_ordinals": null,
+      "off_target_candidate": false,
+      "qualified_windows": 16,
+      "registered_tolerance_records": 10,
+      "tolerance_attainable": true,
+      "truth_boundaries": [
+        135
+      ]
+    },
+    "native_observation": [
+      {
+        "analysis_results_sha256": "61dafa4f2e71d686145a01bcc27ed8715cafe8cd4a15b32aad7eb03ef78ecf3e",
+        "candidate_intervals": [],
+        "change_status": "ok",
+        "declared_coverage": {
+          "end_utc": "2016-07-27T05:12:45Z",
+          "known_gaps": [],
+          "notes": "Available historical corpus comments only; omissions are not verified absence of activity.",
+          "start_utc": "2013-10-04T21:21:03Z",
+          "status": "sampled"
+        },
+        "metrics": {
+          "candidate_count": 0,
+          "coordinate_definition": "Split k precedes zero-based canonical record ordinal k; inclusive candidate split intervals",
+          "matched_count": 0,
+          "matches": [],
+          "matching_rule": "Maximum count, minimum total interval distance, lexicographic interval/truth-position pairs",
+          "maximum_location_error_records": null,
+          "mean_location_error_records": {
+            "denominator": 0,
+            "numerator": 0,
+            "reason_codes": [
+              "no_matched_boundaries"
+            ],
+            "status": "not_computable",
+            "value": null
+          },
+          "precision": {
+            "denominator": 0,
+            "numerator": 0,
+            "reason_codes": [
+              "no_candidate_boundaries"
+            ],
+            "status": "not_computable",
+            "value": null
+          },
+          "recall": {
+            "denominator": 1,
+            "numerator": 0,
+            "reason_codes": [],
+            "status": "ok",
+            "value": 0.0
+          },
+          "tolerance_records": 10,
+          "truth_count": 1,
+          "unmatched_candidate_count": 0,
+          "unmatched_candidate_indices": [],
+          "unmatched_truth_count": 1,
+          "unmatched_truth_indices": [
+            0
+          ]
+        },
+        "missing_timestamps": 0,
+        "reason_codes": [],
+        "record_count": 348,
+        "scope": {
+          "kind": "comment",
+          "scope_type": "pooled",
+          "subreddit": null
+        },
+        "snapshot_sha256": "0545cbd45b53c28cc01d1e054aeaf83f49f19f232e4b6d5f8d43fd57ee024729",
+        "split": "development",
+        "status": "ok",
+        "stream_id": "chrono-ApplyingToCollege-pair1-splice-full",
+        "truth_boundaries": [
+          135
+        ]
+      }
+    ]
+  },
+  {
+    "case_id": "chrono-ApplyingToCollege-pair1-splice-hash50",
+    "preparation_status": "labeled_construction",
+    "preparation_reasons": [],
+    "driver_exit_code": 0,
+    "execution_status": "executed",
+    "grid_diagnostic": {
+      "adequate_no_candidate": false,
+      "analysis_scope_status": "ok",
+      "best_legal_grid_error": 2,
+      "candidate_errors_original_ordinals": [
+        2
+      ],
+      "candidate_intervals": [
+        [
+          70,
+          70
+        ]
+      ],
+      "candidate_measurement_available": true,
+      "case_id": "chrono-ApplyingToCollege-pair1-splice-hash50",
+      "change_status": "ok",
+      "coordinate_definition": "Inclusive split interval [last eligible left original ordinal + 1, first eligible right original ordinal] in each surviving canonical snapshot.",
+      "excess_error_over_grid": 0,
+      "grid_unattainable": false,
+      "has_candidate": true,
+      "independent_vs_production_window_memberships": "passed",
+      "input_adequate": true,
+      "insufficient_input": false,
+      "label_note": "Source-account construction or continuity proxy only. Unknown truth is not changed to an empty truth array.",
+      "legal_boundaries": [
+        {
+          "split_interval": [
+            45,
+            45
+          ],
+          "window_index": 3
+        },
+        {
+          "split_interval": [
+            70,
+            70
+          ],
+          "window_index": 4
+        },
+        {
+          "split_interval": [
+            99,
+            99
+          ],
+          "window_index": 5
+        }
+      ],
+      "matched_at_original_tolerance": true,
+      "nearest_candidate_error_original_ordinals": 2,
+      "off_target_candidate": false,
+      "qualified_windows": 8,
+      "registered_tolerance_records": 10,
+      "tolerance_attainable": true,
+      "truth_boundaries": [
+        68
+      ]
+    },
+    "native_observation": [
+      {
+        "analysis_results_sha256": "fa8562d3f6082613aaa01b889a1e7e671ed2ca86222827cad6195963b8b1e616",
+        "candidate_intervals": [
+          [
+            70,
+            70
+          ]
+        ],
+        "change_status": "ok",
+        "declared_coverage": {
+          "end_utc": "2016-07-27T05:12:45Z",
+          "known_gaps": [],
+          "notes": "Available historical corpus comments only; omissions are not verified absence of activity.",
+          "start_utc": "2013-10-07T13:20:37Z",
+          "status": "sampled"
+        },
+        "metrics": {
+          "candidate_count": 1,
+          "coordinate_definition": "Split k precedes zero-based canonical record ordinal k; inclusive candidate split intervals",
+          "matched_count": 1,
+          "matches": [
+            {
+              "candidate_index": 0,
+              "candidate_interval": [
+                70,
+                70
+              ],
+              "location_error_records": 2,
+              "truth_index": 0,
+              "truth_position": 68
+            }
+          ],
+          "matching_rule": "Maximum count, minimum total interval distance, lexicographic interval/truth-position pairs",
+          "maximum_location_error_records": 2,
+          "mean_location_error_records": {
+            "denominator": 1,
+            "numerator": 2,
+            "reason_codes": [],
+            "status": "ok",
+            "value": 2.0
+          },
+          "precision": {
+            "denominator": 1,
+            "numerator": 1,
+            "reason_codes": [],
+            "status": "ok",
+            "value": 1.0
+          },
+          "recall": {
+            "denominator": 1,
+            "numerator": 1,
+            "reason_codes": [],
+            "status": "ok",
+            "value": 1.0
+          },
+          "tolerance_records": 10,
+          "truth_count": 1,
+          "unmatched_candidate_count": 0,
+          "unmatched_candidate_indices": [],
+          "unmatched_truth_count": 0,
+          "unmatched_truth_indices": []
+        },
+        "missing_timestamps": 0,
+        "reason_codes": [],
+        "record_count": 165,
+        "scope": {
+          "kind": "comment",
+          "scope_type": "pooled",
+          "subreddit": null
+        },
+        "snapshot_sha256": "8be67b11220982eec37042b29de808762d9adc6c1e05e88ce43b80e949298d15",
+        "split": "development",
+        "status": "ok",
+        "stream_id": "chrono-ApplyingToCollege-pair1-splice-hash50",
+        "truth_boundaries": [
+          68
+        ]
+      }
+    ]
+  },
+  {
+    "case_id": "chrono-ApplyingToCollege-pair1-splice-middle50",
+    "preparation_status": "labeled_construction",
+    "preparation_reasons": [],
+    "driver_exit_code": 0,
+    "execution_status": "executed",
+    "grid_diagnostic": {
+      "adequate_no_candidate": true,
+      "analysis_scope_status": "ok",
+      "best_legal_grid_error": 9,
+      "candidate_errors_original_ordinals": [],
+      "candidate_intervals": [],
+      "candidate_measurement_available": true,
+      "case_id": "chrono-ApplyingToCollege-pair1-splice-middle50",
+      "change_status": "ok",
+      "coordinate_definition": "Inclusive split interval [last eligible left original ordinal + 1, first eligible right original ordinal] in each surviving canonical snapshot.",
+      "excess_error_over_grid": null,
+      "grid_unattainable": false,
+      "has_candidate": false,
+      "independent_vs_production_window_memberships": "passed",
+      "input_adequate": true,
+      "insufficient_input": false,
+      "label_note": "Source-account construction or continuity proxy only. Unknown truth is not changed to an empty truth array.",
+      "legal_boundaries": [
+        {
+          "split_interval": [
+            49,
+            51
+          ],
+          "window_index": 3
+        },
+        {
+          "split_interval": [
+            78,
+            78
+          ],
+          "window_index": 4
+        },
+        {
+          "split_interval": [
+            110,
+            110
+          ],
+          "window_index": 5
+        }
+      ],
+      "matched_at_original_tolerance": false,
+      "nearest_candidate_error_original_ordinals": null,
+      "off_target_candidate": false,
+      "qualified_windows": 8,
+      "registered_tolerance_records": 10,
+      "tolerance_attainable": true,
+      "truth_boundaries": [
+        87
+      ]
+    },
+    "native_observation": [
+      {
+        "analysis_results_sha256": "e1d8f80109edc919b1c58834cb1c4c0a12eca34f84f5765825e5c58cc76b94a4",
+        "candidate_intervals": [],
+        "change_status": "ok",
+        "declared_coverage": {
+          "end_utc": "2016-07-27T05:12:45Z",
+          "known_gaps": [],
+          "notes": "Available historical corpus comments only; omissions are not verified absence of activity.",
+          "start_utc": "2013-10-04T21:21:03Z",
+          "status": "sampled"
+        },
+        "metrics": {
+          "candidate_count": 0,
+          "coordinate_definition": "Split k precedes zero-based canonical record ordinal k; inclusive candidate split intervals",
+          "matched_count": 0,
+          "matches": [],
+          "matching_rule": "Maximum count, minimum total interval distance, lexicographic interval/truth-position pairs",
+          "maximum_location_error_records": null,
+          "mean_location_error_records": {
+            "denominator": 0,
+            "numerator": 0,
+            "reason_codes": [
+              "no_matched_boundaries"
+            ],
+            "status": "not_computable",
+            "value": null
+          },
+          "precision": {
+            "denominator": 0,
+            "numerator": 0,
+            "reason_codes": [
+              "no_candidate_boundaries"
+            ],
+            "status": "not_computable",
+            "value": null
+          },
+          "recall": {
+            "denominator": 1,
+            "numerator": 0,
+            "reason_codes": [],
+            "status": "ok",
+            "value": 0.0
+          },
+          "tolerance_records": 10,
+          "truth_count": 1,
+          "unmatched_candidate_count": 0,
+          "unmatched_candidate_indices": [],
+          "unmatched_truth_count": 1,
+          "unmatched_truth_indices": [
+            0
+          ]
+        },
+        "missing_timestamps": 0,
+        "reason_codes": [],
+        "record_count": 174,
+        "scope": {
+          "kind": "comment",
+          "scope_type": "pooled",
+          "subreddit": null
+        },
+        "snapshot_sha256": "b6571fdf252cd92533e76968c50d7f98de9ed4ed2a621b3bc5275b0b4552b58e",
+        "split": "development",
+        "status": "ok",
+        "stream_id": "chrono-ApplyingToCollege-pair1-splice-middle50",
+        "truth_boundaries": [
+          87
+        ]
+      }
+    ]
+  },
+  {
+    "case_id": "chrono-ApplyingToCollege-pair1-splice-drop_Cornell",
+    "preparation_status": "labeled_construction",
+    "preparation_reasons": [],
+    "driver_exit_code": 0,
+    "execution_status": "executed",
+    "grid_diagnostic": {
+      "adequate_no_candidate": true,
+      "analysis_scope_status": "ok",
+      "best_legal_grid_error": 5,
+      "candidate_errors_original_ordinals": [],
+      "candidate_intervals": [],
+      "candidate_measurement_available": true,
+      "case_id": "chrono-ApplyingToCollege-pair1-splice-drop_Cornell",
+      "change_status": "ok",
+      "coordinate_definition": "Inclusive split interval [last eligible left original ordinal + 1, first eligible right original ordinal] in each surviving canonical snapshot.",
+      "excess_error_over_grid": null,
+      "grid_unattainable": false,
+      "has_candidate": false,
+      "independent_vs_production_window_memberships": "passed",
+      "input_adequate": true,
+      "insufficient_input": false,
+      "label_note": "Source-account construction or continuity proxy only. Unknown truth is not changed to an empty truth array.",
+      "legal_boundaries": [
+        {
+          "split_interval": [
+            49,
+            51
+          ],
+          "window_index": 3
+        },
+        {
+          "split_interval": [
+            78,
+            78
+          ],
+          "window_index": 4
+        },
+        {
+          "split_interval": [
+            104,
+            104
+          ],
+          "window_index": 5
+        },
+        {
+          "split_interval": [
+            123,
+            123
+          ],
+          "window_index": 6
+        },
+        {
+          "split_interval": [
+            140,
+            140
+          ],
+          "window_index": 7
+        },
+        {
+          "split_interval": [
+            151,
+            151
+          ],
+          "window_index": 8
+        },
+        {
+          "split_interval": [
+            173,
+            173
+          ],
+          "window_index": 9
+        },
+        {
+          "split_interval": [
+            202,
+            202
+          ],
+          "window_index": 10
+        },
+        {
+          "split_interval": [
+            235,
+            235
+          ],
+          "window_index": 11
+        },
+        {
+          "split_interval": [
+            256,
+            257
+          ],
+          "window_index": 12
+        },
+        {
+          "split_interval": [
+            286,
+            286
+          ],
+          "window_index": 13
+        }
+      ],
+      "matched_at_original_tolerance": false,
+      "nearest_candidate_error_original_ordinals": null,
+      "off_target_candidate": false,
+      "qualified_windows": 16,
+      "registered_tolerance_records": 10,
+      "tolerance_attainable": true,
+      "truth_boundaries": [
+        135
+      ]
+    },
+    "native_observation": [
+      {
+        "analysis_results_sha256": "61dafa4f2e71d686145a01bcc27ed8715cafe8cd4a15b32aad7eb03ef78ecf3e",
+        "candidate_intervals": [],
+        "change_status": "ok",
+        "declared_coverage": {
+          "end_utc": "2016-07-27T05:12:45Z",
+          "known_gaps": [],
+          "notes": "Available historical corpus comments only; omissions are not verified absence of activity.",
+          "start_utc": "2013-10-04T21:21:03Z",
+          "status": "sampled"
+        },
+        "metrics": {
+          "candidate_count": 0,
+          "coordinate_definition": "Split k precedes zero-based canonical record ordinal k; inclusive candidate split intervals",
+          "matched_count": 0,
+          "matches": [],
+          "matching_rule": "Maximum count, minimum total interval distance, lexicographic interval/truth-position pairs",
+          "maximum_location_error_records": null,
+          "mean_location_error_records": {
+            "denominator": 0,
+            "numerator": 0,
+            "reason_codes": [
+              "no_matched_boundaries"
+            ],
+            "status": "not_computable",
+            "value": null
+          },
+          "precision": {
+            "denominator": 0,
+            "numerator": 0,
+            "reason_codes": [
+              "no_candidate_boundaries"
+            ],
+            "status": "not_computable",
+            "value": null
+          },
+          "recall": {
+            "denominator": 1,
+            "numerator": 0,
+            "reason_codes": [],
+            "status": "ok",
+            "value": 0.0
+          },
+          "tolerance_records": 10,
+          "truth_count": 1,
+          "unmatched_candidate_count": 0,
+          "unmatched_candidate_indices": [],
+          "unmatched_truth_count": 1,
+          "unmatched_truth_indices": [
+            0
+          ]
+        },
+        "missing_timestamps": 0,
+        "reason_codes": [],
+        "record_count": 348,
+        "scope": {
+          "kind": "comment",
+          "scope_type": "pooled",
+          "subreddit": null
+        },
+        "snapshot_sha256": "0545cbd45b53c28cc01d1e054aeaf83f49f19f232e4b6d5f8d43fd57ee024729",
+        "split": "development",
+        "status": "ok",
+        "stream_id": "chrono-ApplyingToCollege-pair1-splice-drop_Cornell",
+        "truth_boundaries": [
+          135
+        ]
+      }
+    ]
+  },
+  {
+    "case_id": "chrono-ApplyingToCollege-pair1-continuity_proxy-full",
+    "preparation_status": "account_id_continuity_proxy",
+    "preparation_reasons": [],
+    "driver_exit_code": 0,
+    "execution_status": "executed",
+    "grid_diagnostic": {
+      "adequate_no_candidate": true,
+      "analysis_scope_status": "ok",
+      "best_legal_grid_error": null,
+      "candidate_intervals": [],
+      "candidate_measurement_available": true,
+      "case_id": "chrono-ApplyingToCollege-pair1-continuity_proxy-full",
+      "change_status": "ok",
+      "coordinate_definition": "Inclusive split interval [last eligible left original ordinal + 1, first eligible right original ordinal] in each surviving canonical snapshot.",
+      "excess_error_over_grid": null,
+      "grid_unattainable": null,
+      "has_candidate": false,
+      "independent_vs_production_window_memberships": "passed",
+      "input_adequate": true,
+      "insufficient_input": false,
+      "label_note": "Source-account construction or continuity proxy only. Unknown truth is not changed to an empty truth array.",
+      "legal_boundaries": [
+        {
+          "split_interval": [
+            49,
+            51
+          ],
+          "window_index": 3
+        },
+        {
+          "split_interval": [
+            78,
+            78
+          ],
+          "window_index": 4
+        },
+        {
+          "split_interval": [
+            104,
+            104
+          ],
+          "window_index": 5
+        },
+        {
+          "split_interval": [
+            123,
+            123
+          ],
+          "window_index": 6
+        },
+        {
+          "split_interval": [
+            149,
+            149
+          ],
+          "window_index": 7
+        },
+        {
+          "split_interval": [
+            167,
+            167
+          ],
+          "window_index": 8
+        }
+      ],
+      "matched_at_original_tolerance": null,
+      "nearest_candidate_error_original_ordinals": null,
+      "off_target_candidate": null,
+      "qualified_windows": 11,
+      "registered_tolerance_records": 10,
+      "tolerance_attainable": null,
+      "truth_boundaries": []
+    },
+    "native_observation": [
+      {
+        "analysis_results_sha256": "d7e72942f8cd23794475548a8825bb821d662629290e3f6b9d16a07d282200e8",
+        "candidate_intervals": [],
+        "change_status": "ok",
+        "declared_coverage": {
+          "end_utc": "2017-06-13T16:43:06Z",
+          "known_gaps": [],
+          "notes": "Available historical corpus comments only; omissions are not verified absence of activity.",
+          "start_utc": "2013-10-04T21:21:03Z",
+          "status": "sampled"
+        },
+        "metrics": {
+          "candidate_count": 0,
+          "coordinate_definition": "Split k precedes zero-based canonical record ordinal k; inclusive candidate split intervals",
+          "matched_count": 0,
+          "matches": [],
+          "matching_rule": "Maximum count, minimum total interval distance, lexicographic interval/truth-position pairs",
+          "maximum_location_error_records": null,
+          "mean_location_error_records": {
+            "denominator": 0,
+            "numerator": 0,
+            "reason_codes": [
+              "no_matched_boundaries"
+            ],
+            "status": "not_computable",
+            "value": null
+          },
+          "precision": {
+            "denominator": 0,
+            "numerator": 0,
+            "reason_codes": [
+              "no_candidate_boundaries"
+            ],
+            "status": "not_computable",
+            "value": null
+          },
+          "recall": {
+            "denominator": 0,
+            "numerator": 0,
+            "reason_codes": [
+              "no_annotated_boundaries"
+            ],
+            "status": "not_computable",
+            "value": null
+          },
+          "tolerance_records": 10,
+          "truth_count": 0,
+          "unmatched_candidate_count": 0,
+          "unmatched_candidate_indices": [],
+          "unmatched_truth_count": 0,
+          "unmatched_truth_indices": []
+        },
+        "missing_timestamps": 0,
+        "reason_codes": [],
+        "record_count": 241,
+        "scope": {
+          "kind": "comment",
+          "scope_type": "pooled",
+          "subreddit": null
+        },
+        "snapshot_sha256": "0f52efc579d5d64de5c61e31cff4654aeef277efe65138e93b3e47d80f890513",
+        "split": "development",
+        "status": "ok",
+        "stream_id": "chrono-ApplyingToCollege-pair1-continuity_proxy-full",
+        "truth_boundaries": []
+      }
+    ]
+  },
+  {
+    "case_id": "chrono-ApplyingToCollege-pair1-continuity_proxy-hash50",
+    "preparation_status": "account_id_continuity_proxy",
+    "preparation_reasons": [],
+    "driver_exit_code": 0,
+    "execution_status": "executed",
+    "grid_diagnostic": {
+      "adequate_no_candidate": false,
+      "analysis_scope_status": "abstained",
+      "best_legal_grid_error": null,
+      "candidate_intervals": null,
+      "candidate_measurement_available": false,
+      "case_id": "chrono-ApplyingToCollege-pair1-continuity_proxy-hash50",
+      "change_status": "insufficient_data",
+      "coordinate_definition": "Inclusive split interval [last eligible left original ordinal + 1, first eligible right original ordinal] in each surviving canonical snapshot.",
+      "excess_error_over_grid": null,
+      "grid_unattainable": null,
+      "has_candidate": null,
+      "independent_vs_production_window_memberships": "passed",
+      "input_adequate": false,
+      "insufficient_input": true,
+      "label_note": "Source-account construction or continuity proxy only. Unknown truth is not changed to an empty truth array.",
+      "legal_boundaries": [],
+      "matched_at_original_tolerance": null,
+      "nearest_candidate_error_original_ordinals": null,
+      "off_target_candidate": null,
+      "qualified_windows": 6,
+      "registered_tolerance_records": 10,
+      "tolerance_attainable": null,
+      "truth_boundaries": []
+    },
+    "native_observation": [
+      {
+        "analysis_results_sha256": "98f252162dca189e5619606e4009b829a1a08c755b0fb81b0ecdcc44db3a6f29",
+        "candidate_intervals": [],
+        "change_status": "insufficient_data",
+        "declared_coverage": {
+          "end_utc": "2017-06-13T16:43:06Z",
+          "known_gaps": [],
+          "notes": "Available historical corpus comments only; omissions are not verified absence of activity.",
+          "start_utc": "2013-10-07T13:20:37Z",
+          "status": "sampled"
+        },
+        "metrics": null,
+        "missing_timestamps": 0,
+        "reason_codes": [
+          "fewer_than_required_qualified_windows",
+          "insufficient_data"
+        ],
+        "record_count": 121,
+        "scope": {
+          "kind": "comment",
+          "scope_type": "pooled",
+          "subreddit": null
+        },
+        "snapshot_sha256": "c4ff8607aa3d6f28cca2f780427498a0254b8a935fe347630f986ce391abb9ba",
+        "split": "development",
+        "status": "abstained",
+        "stream_id": "chrono-ApplyingToCollege-pair1-continuity_proxy-hash50",
+        "truth_boundaries": []
+      }
+    ]
+  },
+  {
+    "case_id": "chrono-ApplyingToCollege-pair1-continuity_proxy-middle50",
+    "preparation_status": "account_id_continuity_proxy",
+    "preparation_reasons": [],
+    "driver_exit_code": 0,
+    "execution_status": "executed",
+    "grid_diagnostic": {
+      "adequate_no_candidate": false,
+      "analysis_scope_status": "abstained",
+      "best_legal_grid_error": null,
+      "candidate_intervals": null,
+      "candidate_measurement_available": false,
+      "case_id": "chrono-ApplyingToCollege-pair1-continuity_proxy-middle50",
+      "change_status": "insufficient_data",
+      "coordinate_definition": "Inclusive split interval [last eligible left original ordinal + 1, first eligible right original ordinal] in each surviving canonical snapshot.",
+      "excess_error_over_grid": null,
+      "grid_unattainable": null,
+      "has_candidate": null,
+      "independent_vs_production_window_memberships": "passed",
+      "input_adequate": false,
+      "insufficient_input": true,
+      "label_note": "Source-account construction or continuity proxy only. Unknown truth is not changed to an empty truth array.",
+      "legal_boundaries": [],
+      "matched_at_original_tolerance": null,
+      "nearest_candidate_error_original_ordinals": null,
+      "off_target_candidate": null,
+      "qualified_windows": 6,
+      "registered_tolerance_records": 10,
+      "tolerance_attainable": null,
+      "truth_boundaries": []
+    },
+    "native_observation": [
+      {
+        "analysis_results_sha256": "e497abf782d5c59b8ac97b3a5a505089cfc43c3768da8c63270a148616c95ae3",
+        "candidate_intervals": [],
+        "change_status": "insufficient_data",
+        "declared_coverage": {
+          "end_utc": "2017-06-13T16:43:06Z",
+          "known_gaps": [],
+          "notes": "Available historical corpus comments only; omissions are not verified absence of activity.",
+          "start_utc": "2013-10-04T21:21:03Z",
+          "status": "sampled"
+        },
+        "metrics": null,
+        "missing_timestamps": 0,
+        "reason_codes": [
+          "fewer_than_required_qualified_windows",
+          "insufficient_data"
+        ],
+        "record_count": 121,
+        "scope": {
+          "kind": "comment",
+          "scope_type": "pooled",
+          "subreddit": null
+        },
+        "snapshot_sha256": "932f204693be4791d6f9d0b4db45bf1e96b5a8cfdd530b39952a2a24b9070feb",
+        "split": "development",
+        "status": "abstained",
+        "stream_id": "chrono-ApplyingToCollege-pair1-continuity_proxy-middle50",
+        "truth_boundaries": []
+      }
+    ]
+  },
+  {
+    "case_id": "chrono-ApplyingToCollege-pair1-continuity_proxy-drop_Cornell",
+    "preparation_status": "account_id_continuity_proxy",
+    "preparation_reasons": [],
+    "driver_exit_code": 0,
+    "execution_status": "executed",
+    "grid_diagnostic": {
+      "adequate_no_candidate": true,
+      "analysis_scope_status": "ok",
+      "best_legal_grid_error": null,
+      "candidate_intervals": [],
+      "candidate_measurement_available": true,
+      "case_id": "chrono-ApplyingToCollege-pair1-continuity_proxy-drop_Cornell",
+      "change_status": "ok",
+      "coordinate_definition": "Inclusive split interval [last eligible left original ordinal + 1, first eligible right original ordinal] in each surviving canonical snapshot.",
+      "excess_error_over_grid": null,
+      "grid_unattainable": null,
+      "has_candidate": false,
+      "independent_vs_production_window_memberships": "passed",
+      "input_adequate": true,
+      "insufficient_input": false,
+      "label_note": "Source-account construction or continuity proxy only. Unknown truth is not changed to an empty truth array.",
+      "legal_boundaries": [
+        {
+          "split_interval": [
+            49,
+            51
+          ],
+          "window_index": 3
+        },
+        {
+          "split_interval": [
+            78,
+            78
+          ],
+          "window_index": 4
+        },
+        {
+          "split_interval": [
+            104,
+            104
+          ],
+          "window_index": 5
+        },
+        {
+          "split_interval": [
+            123,
+            123
+          ],
+          "window_index": 6
+        },
+        {
+          "split_interval": [
+            149,
+            149
+          ],
+          "window_index": 7
+        },
+        {
+          "split_interval": [
+            167,
+            167
+          ],
+          "window_index": 8
+        }
+      ],
+      "matched_at_original_tolerance": null,
+      "nearest_candidate_error_original_ordinals": null,
+      "off_target_candidate": null,
+      "qualified_windows": 11,
+      "registered_tolerance_records": 10,
+      "tolerance_attainable": null,
+      "truth_boundaries": []
+    },
+    "native_observation": [
+      {
+        "analysis_results_sha256": "d7e72942f8cd23794475548a8825bb821d662629290e3f6b9d16a07d282200e8",
+        "candidate_intervals": [],
+        "change_status": "ok",
+        "declared_coverage": {
+          "end_utc": "2017-06-13T16:43:06Z",
+          "known_gaps": [],
+          "notes": "Available historical corpus comments only; omissions are not verified absence of activity.",
+          "start_utc": "2013-10-04T21:21:03Z",
+          "status": "sampled"
+        },
+        "metrics": {
+          "candidate_count": 0,
+          "coordinate_definition": "Split k precedes zero-based canonical record ordinal k; inclusive candidate split intervals",
+          "matched_count": 0,
+          "matches": [],
+          "matching_rule": "Maximum count, minimum total interval distance, lexicographic interval/truth-position pairs",
+          "maximum_location_error_records": null,
+          "mean_location_error_records": {
+            "denominator": 0,
+            "numerator": 0,
+            "reason_codes": [
+              "no_matched_boundaries"
+            ],
+            "status": "not_computable",
+            "value": null
+          },
+          "precision": {
+            "denominator": 0,
+            "numerator": 0,
+            "reason_codes": [
+              "no_candidate_boundaries"
+            ],
+            "status": "not_computable",
+            "value": null
+          },
+          "recall": {
+            "denominator": 0,
+            "numerator": 0,
+            "reason_codes": [
+              "no_annotated_boundaries"
+            ],
+            "status": "not_computable",
+            "value": null
+          },
+          "tolerance_records": 10,
+          "truth_count": 0,
+          "unmatched_candidate_count": 0,
+          "unmatched_candidate_indices": [],
+          "unmatched_truth_count": 0,
+          "unmatched_truth_indices": []
+        },
+        "missing_timestamps": 0,
+        "reason_codes": [],
+        "record_count": 241,
+        "scope": {
+          "kind": "comment",
+          "scope_type": "pooled",
+          "subreddit": null
+        },
+        "snapshot_sha256": "0f52efc579d5d64de5c61e31cff4654aeef277efe65138e93b3e47d80f890513",
+        "split": "development",
+        "status": "ok",
+        "stream_id": "chrono-ApplyingToCollege-pair1-continuity_proxy-drop_Cornell",
+        "truth_boundaries": []
+      }
+    ]
+  },
+  {
+    "case_id": "chrono-ApplyingToCollege-pair1-unknown-natural-full",
+    "preparation_status": "unknown_truth",
+    "preparation_reasons": [],
+    "driver_exit_code": 0,
+    "execution_status": "executed",
+    "grid_diagnostic": {
+      "adequate_no_candidate": true,
+      "analysis_scope_status": "ok",
+      "best_legal_grid_error": null,
+      "candidate_intervals": [],
+      "candidate_measurement_available": true,
+      "case_id": "chrono-ApplyingToCollege-pair1-unknown-natural-full",
+      "change_status": "ok",
+      "coordinate_definition": "Inclusive split interval [last eligible left original ordinal + 1, first eligible right original ordinal] in each surviving canonical snapshot.",
+      "excess_error_over_grid": null,
+      "grid_unattainable": null,
+      "has_candidate": false,
+      "independent_vs_production_window_memberships": "passed",
+      "input_adequate": true,
+      "insufficient_input": false,
+      "label_note": "Source-account construction or continuity proxy only. Unknown truth is not changed to an empty truth array.",
+      "legal_boundaries": [
+        {
+          "split_interval": [
+            49,
+            51
+          ],
+          "window_index": 3
+        },
+        {
+          "split_interval": [
+            78,
+            78
+          ],
+          "window_index": 4
+        },
+        {
+          "split_interval": [
+            104,
+            104
+          ],
+          "window_index": 5
+        },
+        {
+          "split_interval": [
+            123,
+            123
+          ],
+          "window_index": 6
+        },
+        {
+          "split_interval": [
+            149,
+            149
+          ],
+          "window_index": 7
+        },
+        {
+          "split_interval": [
+            167,
+            167
+          ],
+          "window_index": 8
+        }
+      ],
+      "matched_at_original_tolerance": null,
+      "nearest_candidate_error_original_ordinals": null,
+      "off_target_candidate": null,
+      "qualified_windows": 11,
+      "registered_tolerance_records": 10,
+      "tolerance_attainable": null,
+      "truth_boundaries": null
+    },
+    "native_observation": null
+  },
+  {
+    "case_id": "chrono-ApplyingToCollege-pair2-splice-full",
+    "preparation_status": "labeled_construction",
+    "preparation_reasons": [],
+    "driver_exit_code": 0,
+    "execution_status": "executed",
+    "grid_diagnostic": {
+      "adequate_no_candidate": false,
+      "analysis_scope_status": "ok",
+      "best_legal_grid_error": 5,
+      "candidate_errors_original_ordinals": [
+        10
+      ],
+      "candidate_intervals": [
+        [
+          161,
+          166
+        ]
+      ],
+      "candidate_measurement_available": true,
+      "case_id": "chrono-ApplyingToCollege-pair2-splice-full",
+      "change_status": "ok",
+      "coordinate_definition": "Inclusive split interval [last eligible left original ordinal + 1, first eligible right original ordinal] in each surviving canonical snapshot.",
+      "excess_error_over_grid": 5,
+      "grid_unattainable": false,
+      "has_candidate": true,
+      "independent_vs_production_window_memberships": "passed",
+      "input_adequate": true,
+      "insufficient_input": false,
+      "label_note": "Source-account construction or continuity proxy only. Unknown truth is not changed to an empty truth array.",
+      "legal_boundaries": [
+        {
+          "split_interval": [
+            105,
+            105
+          ],
+          "window_index": 3
+        },
+        {
+          "split_interval": [
+            123,
+            123
+          ],
+          "window_index": 4
+        },
+        {
+          "split_interval": [
+            146,
+            146
+          ],
+          "window_index": 5
+        },
+        {
+          "split_interval": [
+            161,
+            166
+          ],
+          "window_index": 6
+        },
+        {
+          "split_interval": [
+            210,
+            212
+          ],
+          "window_index": 7
+        },
+        {
+          "split_interval": [
+            260,
+            262
+          ],
+          "window_index": 8
+        }
+      ],
+      "matched_at_original_tolerance": true,
+      "nearest_candidate_error_original_ordinals": 10,
+      "off_target_candidate": false,
+      "qualified_windows": 11,
+      "registered_tolerance_records": 10,
+      "tolerance_attainable": true,
+      "truth_boundaries": [
+        151
+      ]
+    },
+    "native_observation": [
+      {
+        "analysis_results_sha256": "6d9565225b5289ba2a28d67aad3bae5854396a7a415db419da5eaa22d9dd7940",
+        "candidate_intervals": [
+          [
+            161,
+            166
+          ]
+        ],
+        "change_status": "ok",
+        "declared_coverage": {
+          "end_utc": "2016-10-05T04:55:26Z",
+          "known_gaps": [],
+          "notes": "Available historical corpus comments only; omissions are not verified absence of activity.",
+          "start_utc": "2014-11-09T22:59:47Z",
+          "status": "sampled"
+        },
+        "metrics": {
+          "candidate_count": 1,
+          "coordinate_definition": "Split k precedes zero-based canonical record ordinal k; inclusive candidate split intervals",
+          "matched_count": 1,
+          "matches": [
+            {
+              "candidate_index": 0,
+              "candidate_interval": [
+                161,
+                166
+              ],
+              "location_error_records": 10,
+              "truth_index": 0,
+              "truth_position": 151
+            }
+          ],
+          "matching_rule": "Maximum count, minimum total interval distance, lexicographic interval/truth-position pairs",
+          "maximum_location_error_records": 10,
+          "mean_location_error_records": {
+            "denominator": 1,
+            "numerator": 10,
+            "reason_codes": [],
+            "status": "ok",
+            "value": 10.0
+          },
+          "precision": {
+            "denominator": 1,
+            "numerator": 1,
+            "reason_codes": [],
+            "status": "ok",
+            "value": 1.0
+          },
+          "recall": {
+            "denominator": 1,
+            "numerator": 1,
+            "reason_codes": [],
+            "status": "ok",
+            "value": 1.0
+          },
+          "tolerance_records": 10,
+          "truth_count": 1,
+          "unmatched_candidate_count": 0,
+          "unmatched_candidate_indices": [],
+          "unmatched_truth_count": 0,
+          "unmatched_truth_indices": []
+        },
+        "missing_timestamps": 0,
+        "reason_codes": [],
+        "record_count": 325,
+        "scope": {
+          "kind": "comment",
+          "scope_type": "pooled",
+          "subreddit": null
+        },
+        "snapshot_sha256": "aba712c1f2790f1d19aeb7ef961af9b63cb88c0cfb71c6250bfae107fe273d75",
+        "split": "development",
+        "status": "ok",
+        "stream_id": "chrono-ApplyingToCollege-pair2-splice-full",
+        "truth_boundaries": [
+          151
+        ]
+      }
+    ]
+  },
+  {
+    "case_id": "chrono-ApplyingToCollege-pair2-splice-hash50",
+    "preparation_status": "labeled_construction",
+    "preparation_reasons": [],
+    "driver_exit_code": 0,
+    "execution_status": "executed",
+    "grid_diagnostic": {
+      "adequate_no_candidate": false,
+      "analysis_scope_status": "abstained",
+      "best_legal_grid_error": null,
+      "candidate_errors_original_ordinals": null,
+      "candidate_intervals": null,
+      "candidate_measurement_available": false,
+      "case_id": "chrono-ApplyingToCollege-pair2-splice-hash50",
+      "change_status": "insufficient_data",
+      "coordinate_definition": "Inclusive split interval [last eligible left original ordinal + 1, first eligible right original ordinal] in each surviving canonical snapshot.",
+      "excess_error_over_grid": null,
+      "grid_unattainable": null,
+      "has_candidate": null,
+      "independent_vs_production_window_memberships": "passed",
+      "input_adequate": false,
+      "insufficient_input": true,
+      "label_note": "Source-account construction or continuity proxy only. Unknown truth is not changed to an empty truth array.",
+      "legal_boundaries": [],
+      "matched_at_original_tolerance": null,
+      "nearest_candidate_error_original_ordinals": null,
+      "off_target_candidate": null,
+      "qualified_windows": 6,
+      "registered_tolerance_records": 10,
+      "tolerance_attainable": null,
+      "truth_boundaries": [
+        78
+      ]
+    },
+    "native_observation": [
+      {
+        "analysis_results_sha256": "b0639d8a5cb19e100fa9e599f2e0162717b48ad331dae95902e1b7a2c13bec3e",
+        "candidate_intervals": [],
+        "change_status": "insufficient_data",
+        "declared_coverage": {
+          "end_utc": "2016-09-14T15:05:23Z",
+          "known_gaps": [],
+          "notes": "Available historical corpus comments only; omissions are not verified absence of activity.",
+          "start_utc": "2014-11-17T03:35:08Z",
+          "status": "sampled"
+        },
+        "metrics": null,
+        "missing_timestamps": 0,
+        "reason_codes": [
+          "fewer_than_required_qualified_windows",
+          "insufficient_data"
+        ],
+        "record_count": 147,
+        "scope": {
+          "kind": "comment",
+          "scope_type": "pooled",
+          "subreddit": null
+        },
+        "snapshot_sha256": "dde744f8d9d8544c2811d9a04ea79a7f421c713a47e196d10318f1363153ca4d",
+        "split": "development",
+        "status": "abstained",
+        "stream_id": "chrono-ApplyingToCollege-pair2-splice-hash50",
+        "truth_boundaries": [
+          78
+        ]
+      }
+    ]
+  },
+  {
+    "case_id": "chrono-ApplyingToCollege-pair2-splice-middle50",
+    "preparation_status": "labeled_construction",
+    "preparation_reasons": [],
+    "driver_exit_code": 0,
+    "execution_status": "executed",
+    "grid_diagnostic": {
+      "adequate_no_candidate": false,
+      "analysis_scope_status": "abstained",
+      "best_legal_grid_error": null,
+      "candidate_errors_original_ordinals": null,
+      "candidate_intervals": null,
+      "candidate_measurement_available": false,
+      "case_id": "chrono-ApplyingToCollege-pair2-splice-middle50",
+      "change_status": "insufficient_data",
+      "coordinate_definition": "Inclusive split interval [last eligible left original ordinal + 1, first eligible right original ordinal] in each surviving canonical snapshot.",
+      "excess_error_over_grid": null,
+      "grid_unattainable": null,
+      "has_candidate": null,
+      "independent_vs_production_window_memberships": "passed",
+      "input_adequate": false,
+      "insufficient_input": true,
+      "label_note": "Source-account construction or continuity proxy only. Unknown truth is not changed to an empty truth array.",
+      "legal_boundaries": [],
+      "matched_at_original_tolerance": null,
+      "nearest_candidate_error_original_ordinals": null,
+      "off_target_candidate": null,
+      "qualified_windows": 6,
+      "registered_tolerance_records": 10,
+      "tolerance_attainable": null,
+      "truth_boundaries": [
+        81
+      ]
+    },
+    "native_observation": [
+      {
+        "analysis_results_sha256": "90aaac67c65c468d56b3a440652cf496bf14fd54765534d05334b8de5bace448",
+        "candidate_intervals": [],
+        "change_status": "insufficient_data",
+        "declared_coverage": {
+          "end_utc": "2016-10-05T04:55:26Z",
+          "known_gaps": [],
+          "notes": "Available historical corpus comments only; omissions are not verified absence of activity.",
+          "start_utc": "2014-11-09T22:59:47Z",
+          "status": "sampled"
+        },
+        "metrics": null,
+        "missing_timestamps": 0,
+        "reason_codes": [
+          "fewer_than_required_qualified_windows",
+          "insufficient_data"
+        ],
+        "record_count": 163,
+        "scope": {
+          "kind": "comment",
+          "scope_type": "pooled",
+          "subreddit": null
+        },
+        "snapshot_sha256": "4ac6f6cd85d11d7756f3c39388dd3067cf0ff90c12708124876dc89941904d74",
+        "split": "development",
+        "status": "abstained",
+        "stream_id": "chrono-ApplyingToCollege-pair2-splice-middle50",
+        "truth_boundaries": [
+          81
+        ]
+      }
+    ]
+  },
+  {
+    "case_id": "chrono-ApplyingToCollege-pair2-splice-drop_Cornell",
+    "preparation_status": "labeled_construction",
+    "preparation_reasons": [],
+    "driver_exit_code": 0,
+    "execution_status": "executed",
+    "grid_diagnostic": {
+      "adequate_no_candidate": false,
+      "analysis_scope_status": "ok",
+      "best_legal_grid_error": 5,
+      "candidate_errors_original_ordinals": [
+        10
+      ],
+      "candidate_intervals": [
+        [
+          161,
+          166
+        ]
+      ],
+      "candidate_measurement_available": true,
+      "case_id": "chrono-ApplyingToCollege-pair2-splice-drop_Cornell",
+      "change_status": "ok",
+      "coordinate_definition": "Inclusive split interval [last eligible left original ordinal + 1, first eligible right original ordinal] in each surviving canonical snapshot.",
+      "excess_error_over_grid": 5,
+      "grid_unattainable": false,
+      "has_candidate": true,
+      "independent_vs_production_window_memberships": "passed",
+      "input_adequate": true,
+      "insufficient_input": false,
+      "label_note": "Source-account construction or continuity proxy only. Unknown truth is not changed to an empty truth array.",
+      "legal_boundaries": [
+        {
+          "split_interval": [
+            105,
+            105
+          ],
+          "window_index": 3
+        },
+        {
+          "split_interval": [
+            123,
+            123
+          ],
+          "window_index": 4
+        },
+        {
+          "split_interval": [
+            146,
+            146
+          ],
+          "window_index": 5
+        },
+        {
+          "split_interval": [
+            161,
+            166
+          ],
+          "window_index": 6
+        },
+        {
+          "split_interval": [
+            210,
+            212
+          ],
+          "window_index": 7
+        },
+        {
+          "split_interval": [
+            260,
+            262
+          ],
+          "window_index": 8
+        }
+      ],
+      "matched_at_original_tolerance": true,
+      "nearest_candidate_error_original_ordinals": 10,
+      "off_target_candidate": false,
+      "qualified_windows": 11,
+      "registered_tolerance_records": 10,
+      "tolerance_attainable": true,
+      "truth_boundaries": [
+        151
+      ]
+    },
+    "native_observation": [
+      {
+        "analysis_results_sha256": "6d9565225b5289ba2a28d67aad3bae5854396a7a415db419da5eaa22d9dd7940",
+        "candidate_intervals": [
+          [
+            161,
+            166
+          ]
+        ],
+        "change_status": "ok",
+        "declared_coverage": {
+          "end_utc": "2016-10-05T04:55:26Z",
+          "known_gaps": [],
+          "notes": "Available historical corpus comments only; omissions are not verified absence of activity.",
+          "start_utc": "2014-11-09T22:59:47Z",
+          "status": "sampled"
+        },
+        "metrics": {
+          "candidate_count": 1,
+          "coordinate_definition": "Split k precedes zero-based canonical record ordinal k; inclusive candidate split intervals",
+          "matched_count": 1,
+          "matches": [
+            {
+              "candidate_index": 0,
+              "candidate_interval": [
+                161,
+                166
+              ],
+              "location_error_records": 10,
+              "truth_index": 0,
+              "truth_position": 151
+            }
+          ],
+          "matching_rule": "Maximum count, minimum total interval distance, lexicographic interval/truth-position pairs",
+          "maximum_location_error_records": 10,
+          "mean_location_error_records": {
+            "denominator": 1,
+            "numerator": 10,
+            "reason_codes": [],
+            "status": "ok",
+            "value": 10.0
+          },
+          "precision": {
+            "denominator": 1,
+            "numerator": 1,
+            "reason_codes": [],
+            "status": "ok",
+            "value": 1.0
+          },
+          "recall": {
+            "denominator": 1,
+            "numerator": 1,
+            "reason_codes": [],
+            "status": "ok",
+            "value": 1.0
+          },
+          "tolerance_records": 10,
+          "truth_count": 1,
+          "unmatched_candidate_count": 0,
+          "unmatched_candidate_indices": [],
+          "unmatched_truth_count": 0,
+          "unmatched_truth_indices": []
+        },
+        "missing_timestamps": 0,
+        "reason_codes": [],
+        "record_count": 325,
+        "scope": {
+          "kind": "comment",
+          "scope_type": "pooled",
+          "subreddit": null
+        },
+        "snapshot_sha256": "aba712c1f2790f1d19aeb7ef961af9b63cb88c0cfb71c6250bfae107fe273d75",
+        "split": "development",
+        "status": "ok",
+        "stream_id": "chrono-ApplyingToCollege-pair2-splice-drop_Cornell",
+        "truth_boundaries": [
+          151
+        ]
+      }
+    ]
+  },
+  {
+    "case_id": "chrono-ApplyingToCollege-pair2-continuity_proxy-full",
+    "preparation_status": "account_id_continuity_proxy",
+    "preparation_reasons": [],
+    "driver_exit_code": 0,
+    "execution_status": "executed",
+    "grid_diagnostic": {
+      "adequate_no_candidate": false,
+      "analysis_scope_status": "abstained",
+      "best_legal_grid_error": null,
+      "candidate_intervals": null,
+      "candidate_measurement_available": false,
+      "case_id": "chrono-ApplyingToCollege-pair2-continuity_proxy-full",
+      "change_status": "insufficient_data",
+      "coordinate_definition": "Inclusive split interval [last eligible left original ordinal + 1, first eligible right original ordinal] in each surviving canonical snapshot.",
+      "excess_error_over_grid": null,
+      "grid_unattainable": null,
+      "has_candidate": null,
+      "independent_vs_production_window_memberships": "passed",
+      "input_adequate": false,
+      "insufficient_input": true,
+      "label_note": "Source-account construction or continuity proxy only. Unknown truth is not changed to an empty truth array.",
+      "legal_boundaries": [],
+      "matched_at_original_tolerance": null,
+      "nearest_candidate_error_original_ordinals": null,
+      "off_target_candidate": null,
+      "qualified_windows": 7,
+      "registered_tolerance_records": 10,
+      "tolerance_attainable": null,
+      "truth_boundaries": []
+    },
+    "native_observation": [
+      {
+        "analysis_results_sha256": "a6991237c334c7448b85c8614fa371b5d069a95b472cf65c6d78bc78af8f3432",
+        "candidate_intervals": [],
+        "change_status": "insufficient_data",
+        "declared_coverage": {
+          "end_utc": "2016-05-26T14:41:58Z",
+          "known_gaps": [],
+          "notes": "Available historical corpus comments only; omissions are not verified absence of activity.",
+          "start_utc": "2014-11-09T22:59:47Z",
+          "status": "sampled"
+        },
+        "metrics": null,
+        "missing_timestamps": 0,
+        "reason_codes": [
+          "fewer_than_required_qualified_windows",
+          "insufficient_data"
+        ],
+        "record_count": 249,
+        "scope": {
+          "kind": "comment",
+          "scope_type": "pooled",
+          "subreddit": null
+        },
+        "snapshot_sha256": "7cad14ddf91df0c58ca236f9aee102ea2c0e25a40c4348510c1f03c0fd760a68",
+        "split": "development",
+        "status": "abstained",
+        "stream_id": "chrono-ApplyingToCollege-pair2-continuity_proxy-full",
+        "truth_boundaries": []
+      }
+    ]
+  },
+  {
+    "case_id": "chrono-ApplyingToCollege-pair2-continuity_proxy-hash50",
+    "preparation_status": "account_id_continuity_proxy",
+    "preparation_reasons": [],
+    "driver_exit_code": 0,
+    "execution_status": "executed",
+    "grid_diagnostic": {
+      "adequate_no_candidate": false,
+      "analysis_scope_status": "abstained",
+      "best_legal_grid_error": null,
+      "candidate_intervals": null,
+      "candidate_measurement_available": false,
+      "case_id": "chrono-ApplyingToCollege-pair2-continuity_proxy-hash50",
+      "change_status": "insufficient_data",
+      "coordinate_definition": "Inclusive split interval [last eligible left original ordinal + 1, first eligible right original ordinal] in each surviving canonical snapshot.",
+      "excess_error_over_grid": null,
+      "grid_unattainable": null,
+      "has_candidate": null,
+      "independent_vs_production_window_memberships": "passed",
+      "input_adequate": false,
+      "insufficient_input": true,
+      "label_note": "Source-account construction or continuity proxy only. Unknown truth is not changed to an empty truth array.",
+      "legal_boundaries": [],
+      "matched_at_original_tolerance": null,
+      "nearest_candidate_error_original_ordinals": null,
+      "off_target_candidate": null,
+      "qualified_windows": 4,
+      "registered_tolerance_records": 10,
+      "tolerance_attainable": null,
+      "truth_boundaries": []
+    },
+    "native_observation": [
+      {
+        "analysis_results_sha256": "d2c955fbbf00590ba16627c3544bd46578399f0de003311733f923662ca90002",
+        "candidate_intervals": [],
+        "change_status": "insufficient_data",
+        "declared_coverage": {
+          "end_utc": "2016-05-26T14:41:58Z",
+          "known_gaps": [],
+          "notes": "Available historical corpus comments only; omissions are not verified absence of activity.",
+          "start_utc": "2014-11-17T03:35:08Z",
+          "status": "sampled"
+        },
+        "metrics": null,
+        "missing_timestamps": 0,
+        "reason_codes": [
+          "fewer_than_required_qualified_windows",
+          "insufficient_data"
+        ],
+        "record_count": 134,
+        "scope": {
+          "kind": "comment",
+          "scope_type": "pooled",
+          "subreddit": null
+        },
+        "snapshot_sha256": "115aafa379e8729472be170e8505bdca3a94925fc57ef6ce6d52b7756d01f217",
+        "split": "development",
+        "status": "abstained",
+        "stream_id": "chrono-ApplyingToCollege-pair2-continuity_proxy-hash50",
+        "truth_boundaries": []
+      }
+    ]
+  },
+  {
+    "case_id": "chrono-ApplyingToCollege-pair2-continuity_proxy-middle50",
+    "preparation_status": "account_id_continuity_proxy",
+    "preparation_reasons": [],
+    "driver_exit_code": 0,
+    "execution_status": "executed",
+    "grid_diagnostic": {
+      "adequate_no_candidate": false,
+      "analysis_scope_status": "abstained",
+      "best_legal_grid_error": null,
+      "candidate_intervals": null,
+      "candidate_measurement_available": false,
+      "case_id": "chrono-ApplyingToCollege-pair2-continuity_proxy-middle50",
+      "change_status": "insufficient_data",
+      "coordinate_definition": "Inclusive split interval [last eligible left original ordinal + 1, first eligible right original ordinal] in each surviving canonical snapshot.",
+      "excess_error_over_grid": null,
+      "grid_unattainable": null,
+      "has_candidate": null,
+      "independent_vs_production_window_memberships": "passed",
+      "input_adequate": false,
+      "insufficient_input": true,
+      "label_note": "Source-account construction or continuity proxy only. Unknown truth is not changed to an empty truth array.",
+      "legal_boundaries": [],
+      "matched_at_original_tolerance": null,
+      "nearest_candidate_error_original_ordinals": null,
+      "off_target_candidate": null,
+      "qualified_windows": 2,
+      "registered_tolerance_records": 10,
+      "tolerance_attainable": null,
+      "truth_boundaries": []
+    },
+    "native_observation": [
+      {
+        "analysis_results_sha256": "b18083eb068e91fb35c3b6cbeb97d3ffe808def9842c2f30692508a7e6342012",
+        "candidate_intervals": [],
+        "change_status": "insufficient_data",
+        "declared_coverage": {
+          "end_utc": "2016-05-26T14:41:58Z",
+          "known_gaps": [],
+          "notes": "Available historical corpus comments only; omissions are not verified absence of activity.",
+          "start_utc": "2014-11-09T22:59:47Z",
+          "status": "sampled"
+        },
+        "metrics": null,
+        "missing_timestamps": 0,
+        "reason_codes": [
+          "fewer_than_required_qualified_windows",
+          "insufficient_data"
+        ],
+        "record_count": 125,
+        "scope": {
+          "kind": "comment",
+          "scope_type": "pooled",
+          "subreddit": null
+        },
+        "snapshot_sha256": "da1b5d0b44ecc6c35c5f46c169401a2cd14ad7e896b21716f9583109d1869c8e",
+        "split": "development",
+        "status": "abstained",
+        "stream_id": "chrono-ApplyingToCollege-pair2-continuity_proxy-middle50",
+        "truth_boundaries": []
+      }
+    ]
+  },
+  {
+    "case_id": "chrono-ApplyingToCollege-pair2-continuity_proxy-drop_Cornell",
+    "preparation_status": "account_id_continuity_proxy",
+    "preparation_reasons": [],
+    "driver_exit_code": 0,
+    "execution_status": "executed",
+    "grid_diagnostic": {
+      "adequate_no_candidate": false,
+      "analysis_scope_status": "abstained",
+      "best_legal_grid_error": null,
+      "candidate_intervals": null,
+      "candidate_measurement_available": false,
+      "case_id": "chrono-ApplyingToCollege-pair2-continuity_proxy-drop_Cornell",
+      "change_status": "insufficient_data",
+      "coordinate_definition": "Inclusive split interval [last eligible left original ordinal + 1, first eligible right original ordinal] in each surviving canonical snapshot.",
+      "excess_error_over_grid": null,
+      "grid_unattainable": null,
+      "has_candidate": null,
+      "independent_vs_production_window_memberships": "passed",
+      "input_adequate": false,
+      "insufficient_input": true,
+      "label_note": "Source-account construction or continuity proxy only. Unknown truth is not changed to an empty truth array.",
+      "legal_boundaries": [],
+      "matched_at_original_tolerance": null,
+      "nearest_candidate_error_original_ordinals": null,
+      "off_target_candidate": null,
+      "qualified_windows": 7,
+      "registered_tolerance_records": 10,
+      "tolerance_attainable": null,
+      "truth_boundaries": []
+    },
+    "native_observation": [
+      {
+        "analysis_results_sha256": "a6991237c334c7448b85c8614fa371b5d069a95b472cf65c6d78bc78af8f3432",
+        "candidate_intervals": [],
+        "change_status": "insufficient_data",
+        "declared_coverage": {
+          "end_utc": "2016-05-26T14:41:58Z",
+          "known_gaps": [],
+          "notes": "Available historical corpus comments only; omissions are not verified absence of activity.",
+          "start_utc": "2014-11-09T22:59:47Z",
+          "status": "sampled"
+        },
+        "metrics": null,
+        "missing_timestamps": 0,
+        "reason_codes": [
+          "fewer_than_required_qualified_windows",
+          "insufficient_data"
+        ],
+        "record_count": 249,
+        "scope": {
+          "kind": "comment",
+          "scope_type": "pooled",
+          "subreddit": null
+        },
+        "snapshot_sha256": "7cad14ddf91df0c58ca236f9aee102ea2c0e25a40c4348510c1f03c0fd760a68",
+        "split": "development",
+        "status": "abstained",
+        "stream_id": "chrono-ApplyingToCollege-pair2-continuity_proxy-drop_Cornell",
+        "truth_boundaries": []
+      }
+    ]
+  },
+  {
+    "case_id": "chrono-Cornell-pair1-splice-full",
+    "preparation_status": "unfilled_slot",
+    "preparation_reasons": [
+      "insufficient_selected_disjoint_source_accounts"
+    ],
+    "driver_exit_code": 0,
+    "execution_status": "not_executed",
+    "grid_diagnostic": null,
+    "native_observation": null
+  },
+  {
+    "case_id": "chrono-Cornell-pair1-splice-hash50",
+    "preparation_status": "unfilled_slot",
+    "preparation_reasons": [
+      "insufficient_selected_disjoint_source_accounts"
+    ],
+    "driver_exit_code": 0,
+    "execution_status": "not_executed",
+    "grid_diagnostic": null,
+    "native_observation": null
+  },
+  {
+    "case_id": "chrono-Cornell-pair1-splice-middle50",
+    "preparation_status": "unfilled_slot",
+    "preparation_reasons": [
+      "insufficient_selected_disjoint_source_accounts"
+    ],
+    "driver_exit_code": 0,
+    "execution_status": "not_executed",
+    "grid_diagnostic": null,
+    "native_observation": null
+  },
+  {
+    "case_id": "chrono-Cornell-pair1-splice-drop_Cornell",
+    "preparation_status": "unfilled_slot",
+    "preparation_reasons": [
+      "insufficient_selected_disjoint_source_accounts"
+    ],
+    "driver_exit_code": 0,
+    "execution_status": "not_executed",
+    "grid_diagnostic": null,
+    "native_observation": null
+  },
+  {
+    "case_id": "chrono-Cornell-pair1-continuity_proxy-full",
+    "preparation_status": "unfilled_slot",
+    "preparation_reasons": [
+      "insufficient_selected_disjoint_source_accounts"
+    ],
+    "driver_exit_code": 0,
+    "execution_status": "not_executed",
+    "grid_diagnostic": null,
+    "native_observation": null
+  },
+  {
+    "case_id": "chrono-Cornell-pair1-continuity_proxy-hash50",
+    "preparation_status": "unfilled_slot",
+    "preparation_reasons": [
+      "insufficient_selected_disjoint_source_accounts"
+    ],
+    "driver_exit_code": 0,
+    "execution_status": "not_executed",
+    "grid_diagnostic": null,
+    "native_observation": null
+  },
+  {
+    "case_id": "chrono-Cornell-pair1-continuity_proxy-middle50",
+    "preparation_status": "unfilled_slot",
+    "preparation_reasons": [
+      "insufficient_selected_disjoint_source_accounts"
+    ],
+    "driver_exit_code": 0,
+    "execution_status": "not_executed",
+    "grid_diagnostic": null,
+    "native_observation": null
+  },
+  {
+    "case_id": "chrono-Cornell-pair1-continuity_proxy-drop_Cornell",
+    "preparation_status": "unfilled_slot",
+    "preparation_reasons": [
+      "insufficient_selected_disjoint_source_accounts"
+    ],
+    "driver_exit_code": 0,
+    "execution_status": "not_executed",
+    "grid_diagnostic": null,
+    "native_observation": null
+  },
+  {
+    "case_id": "chrono-Cornell-pair2-splice-full",
+    "preparation_status": "unfilled_slot",
+    "preparation_reasons": [
+      "insufficient_selected_disjoint_source_accounts"
+    ],
+    "driver_exit_code": 0,
+    "execution_status": "not_executed",
+    "grid_diagnostic": null,
+    "native_observation": null
+  },
+  {
+    "case_id": "chrono-Cornell-pair2-splice-hash50",
+    "preparation_status": "unfilled_slot",
+    "preparation_reasons": [
+      "insufficient_selected_disjoint_source_accounts"
+    ],
+    "driver_exit_code": 0,
+    "execution_status": "not_executed",
+    "grid_diagnostic": null,
+    "native_observation": null
+  },
+  {
+    "case_id": "chrono-Cornell-pair2-splice-middle50",
+    "preparation_status": "unfilled_slot",
+    "preparation_reasons": [
+      "insufficient_selected_disjoint_source_accounts"
+    ],
+    "driver_exit_code": 0,
+    "execution_status": "not_executed",
+    "grid_diagnostic": null,
+    "native_observation": null
+  },
+  {
+    "case_id": "chrono-Cornell-pair2-splice-drop_Cornell",
+    "preparation_status": "unfilled_slot",
+    "preparation_reasons": [
+      "insufficient_selected_disjoint_source_accounts"
+    ],
+    "driver_exit_code": 0,
+    "execution_status": "not_executed",
+    "grid_diagnostic": null,
+    "native_observation": null
+  },
+  {
+    "case_id": "chrono-Cornell-pair2-continuity_proxy-full",
+    "preparation_status": "unfilled_slot",
+    "preparation_reasons": [
+      "insufficient_selected_disjoint_source_accounts"
+    ],
+    "driver_exit_code": 0,
+    "execution_status": "not_executed",
+    "grid_diagnostic": null,
+    "native_observation": null
+  },
+  {
+    "case_id": "chrono-Cornell-pair2-continuity_proxy-hash50",
+    "preparation_status": "unfilled_slot",
+    "preparation_reasons": [
+      "insufficient_selected_disjoint_source_accounts"
+    ],
+    "driver_exit_code": 0,
+    "execution_status": "not_executed",
+    "grid_diagnostic": null,
+    "native_observation": null
+  },
+  {
+    "case_id": "chrono-Cornell-pair2-continuity_proxy-middle50",
+    "preparation_status": "unfilled_slot",
+    "preparation_reasons": [
+      "insufficient_selected_disjoint_source_accounts"
+    ],
+    "driver_exit_code": 0,
+    "execution_status": "not_executed",
+    "grid_diagnostic": null,
+    "native_observation": null
+  },
+  {
+    "case_id": "chrono-Cornell-pair2-continuity_proxy-drop_Cornell",
+    "preparation_status": "unfilled_slot",
+    "preparation_reasons": [
+      "insufficient_selected_disjoint_source_accounts"
+    ],
+    "driver_exit_code": 0,
+    "execution_status": "not_executed",
+    "grid_diagnostic": null,
+    "native_observation": null
+  },
+  {
+    "case_id": "chrono-Cornell-unknown-natural-full",
+    "preparation_status": "unfilled_slot",
+    "preparation_reasons": [
+      "no_A_control_available"
+    ],
+    "driver_exit_code": 0,
+    "execution_status": "not_executed",
+    "grid_diagnostic": null,
+    "native_observation": null
+  },
+  {
+    "case_id": "chrono-college-pair1-splice-full",
+    "preparation_status": "labeled_construction",
+    "preparation_reasons": [],
+    "driver_exit_code": 0,
+    "execution_status": "executed",
+    "grid_diagnostic": {
+      "adequate_no_candidate": false,
+      "analysis_scope_status": "ok",
+      "best_legal_grid_error": 5,
+      "candidate_errors_original_ordinals": [
+        5
+      ],
+      "candidate_intervals": [
+        [
+          123,
+          123
+        ]
+      ],
+      "candidate_measurement_available": true,
+      "case_id": "chrono-college-pair1-splice-full",
+      "change_status": "ok",
+      "coordinate_definition": "Inclusive split interval [last eligible left original ordinal + 1, first eligible right original ordinal] in each surviving canonical snapshot.",
+      "excess_error_over_grid": 0,
+      "grid_unattainable": false,
+      "has_candidate": true,
+      "independent_vs_production_window_memberships": "passed",
+      "input_adequate": true,
+      "insufficient_input": false,
+      "label_note": "Source-account construction or continuity proxy only. Unknown truth is not changed to an empty truth array.",
+      "legal_boundaries": [
+        {
+          "split_interval": [
+            33,
+            33
+          ],
+          "window_index": 3
+        },
+        {
+          "split_interval": [
+            41,
+            41
+          ],
+          "window_index": 4
+        },
+        {
+          "split_interval": [
+            55,
+            55
+          ],
+          "window_index": 5
+        },
+        {
+          "split_interval": [
+            68,
+            68
+          ],
+          "window_index": 6
+        },
+        {
+          "split_interval": [
+            82,
+            83
+          ],
+          "window_index": 7
+        },
+        {
+          "split_interval": [
+            93,
+            93
+          ],
+          "window_index": 8
+        },
+        {
+          "split_interval": [
+            103,
+            103
+          ],
+          "window_index": 9
+        },
+        {
+          "split_interval": [
+            114,
+            114
+          ],
+          "window_index": 10
+        },
+        {
+          "split_interval": [
+            123,
+            123
+          ],
+          "window_index": 11
+        },
+        {
+          "split_interval": [
+            140,
+            140
+          ],
+          "window_index": 12
+        },
+        {
+          "split_interval": [
+            159,
+            159
+          ],
+          "window_index": 13
+        },
+        {
+          "split_interval": [
+            188,
+            188
+          ],
+          "window_index": 14
+        }
+      ],
+      "matched_at_original_tolerance": true,
+      "nearest_candidate_error_original_ordinals": 5,
+      "off_target_candidate": false,
+      "qualified_windows": 17,
+      "registered_tolerance_records": 10,
+      "tolerance_attainable": true,
+      "truth_boundaries": [
+        128
+      ]
+    },
+    "native_observation": [
+      {
+        "analysis_results_sha256": "b975d64ec24fd1096babba685a2671c8c1622fd223448ee3319341029f0c4d34",
+        "candidate_intervals": [
+          [
+            123,
+            123
+          ]
+        ],
+        "change_status": "ok",
+        "declared_coverage": {
+          "end_utc": "2018-01-21T19:58:58Z",
+          "known_gaps": [],
+          "notes": "Available historical corpus comments only; omissions are not verified absence of activity.",
+          "start_utc": "2014-11-09T20:52:28Z",
+          "status": "sampled"
+        },
+        "metrics": {
+          "candidate_count": 1,
+          "coordinate_definition": "Split k precedes zero-based canonical record ordinal k; inclusive candidate split intervals",
+          "matched_count": 1,
+          "matches": [
+            {
+              "candidate_index": 0,
+              "candidate_interval": [
+                123,
+                123
+              ],
+              "location_error_records": 5,
+              "truth_index": 0,
+              "truth_position": 128
+            }
+          ],
+          "matching_rule": "Maximum count, minimum total interval distance, lexicographic interval/truth-position pairs",
+          "maximum_location_error_records": 5,
+          "mean_location_error_records": {
+            "denominator": 1,
+            "numerator": 5,
+            "reason_codes": [],
+            "status": "ok",
+            "value": 5.0
+          },
+          "precision": {
+            "denominator": 1,
+            "numerator": 1,
+            "reason_codes": [],
+            "status": "ok",
+            "value": 1.0
+          },
+          "recall": {
+            "denominator": 1,
+            "numerator": 1,
+            "reason_codes": [],
+            "status": "ok",
+            "value": 1.0
+          },
+          "tolerance_records": 10,
+          "truth_count": 1,
+          "unmatched_candidate_count": 0,
+          "unmatched_candidate_indices": [],
+          "unmatched_truth_count": 0,
+          "unmatched_truth_indices": []
+        },
+        "missing_timestamps": 0,
+        "reason_codes": [],
+        "record_count": 280,
+        "scope": {
+          "kind": "comment",
+          "scope_type": "pooled",
+          "subreddit": null
+        },
+        "snapshot_sha256": "ea7b5005c481cdc66528de288823e18db0a1b1e424cc62f41c2289ca49387218",
+        "split": "development",
+        "status": "ok",
+        "stream_id": "chrono-college-pair1-splice-full",
+        "truth_boundaries": [
+          128
+        ]
+      }
+    ]
+  },
+  {
+    "case_id": "chrono-college-pair1-splice-hash50",
+    "preparation_status": "labeled_construction",
+    "preparation_reasons": [],
+    "driver_exit_code": 0,
+    "execution_status": "executed",
+    "grid_diagnostic": {
+      "adequate_no_candidate": false,
+      "analysis_scope_status": "ok",
+      "best_legal_grid_error": 6,
+      "candidate_errors_original_ordinals": [
+        6
+      ],
+      "candidate_intervals": [
+        [
+          62,
+          62
+        ]
+      ],
+      "candidate_measurement_available": true,
+      "case_id": "chrono-college-pair1-splice-hash50",
+      "change_status": "ok",
+      "coordinate_definition": "Inclusive split interval [last eligible left original ordinal + 1, first eligible right original ordinal] in each surviving canonical snapshot.",
+      "excess_error_over_grid": 0,
+      "grid_unattainable": false,
+      "has_candidate": true,
+      "independent_vs_production_window_memberships": "passed",
+      "input_adequate": true,
+      "insufficient_input": false,
+      "label_note": "Source-account construction or continuity proxy only. Unknown truth is not changed to an empty truth array.",
+      "legal_boundaries": [
+        {
+          "split_interval": [
+            27,
+            27
+          ],
+          "window_index": 3
+        },
+        {
+          "split_interval": [
+            37,
+            37
+          ],
+          "window_index": 4
+        },
+        {
+          "split_interval": [
+            50,
+            51
+          ],
+          "window_index": 5
+        },
+        {
+          "split_interval": [
+            62,
+            62
+          ],
+          "window_index": 6
+        }
+      ],
+      "matched_at_original_tolerance": true,
+      "nearest_candidate_error_original_ordinals": 6,
+      "off_target_candidate": false,
+      "qualified_windows": 9,
+      "registered_tolerance_records": 10,
+      "tolerance_attainable": true,
+      "truth_boundaries": [
+        68
+      ]
+    },
+    "native_observation": [
+      {
+        "analysis_results_sha256": "a776b6673a44a2873df32163d1c540aa9460c0491ca98768694362a97580e1d4",
+        "candidate_intervals": [
+          [
+            62,
+            62
+          ]
+        ],
+        "change_status": "ok",
+        "declared_coverage": {
+          "end_utc": "2018-01-21T19:58:58Z",
+          "known_gaps": [],
+          "notes": "Available historical corpus comments only; omissions are not verified absence of activity.",
+          "start_utc": "2014-11-19T02:48:09Z",
+          "status": "sampled"
+        },
+        "metrics": {
+          "candidate_count": 1,
+          "coordinate_definition": "Split k precedes zero-based canonical record ordinal k; inclusive candidate split intervals",
+          "matched_count": 1,
+          "matches": [
+            {
+              "candidate_index": 0,
+              "candidate_interval": [
+                62,
+                62
+              ],
+              "location_error_records": 6,
+              "truth_index": 0,
+              "truth_position": 68
+            }
+          ],
+          "matching_rule": "Maximum count, minimum total interval distance, lexicographic interval/truth-position pairs",
+          "maximum_location_error_records": 6,
+          "mean_location_error_records": {
+            "denominator": 1,
+            "numerator": 6,
+            "reason_codes": [],
+            "status": "ok",
+            "value": 6.0
+          },
+          "precision": {
+            "denominator": 1,
+            "numerator": 1,
+            "reason_codes": [],
+            "status": "ok",
+            "value": 1.0
+          },
+          "recall": {
+            "denominator": 1,
+            "numerator": 1,
+            "reason_codes": [],
+            "status": "ok",
+            "value": 1.0
+          },
+          "tolerance_records": 10,
+          "truth_count": 1,
+          "unmatched_candidate_count": 0,
+          "unmatched_candidate_indices": [],
+          "unmatched_truth_count": 0,
+          "unmatched_truth_indices": []
+        },
+        "missing_timestamps": 0,
+        "reason_codes": [],
+        "record_count": 150,
+        "scope": {
+          "kind": "comment",
+          "scope_type": "pooled",
+          "subreddit": null
+        },
+        "snapshot_sha256": "f8f354b034399f985b795d046cbe2f19b2822b5151c229a3b98fa3a175f169fb",
+        "split": "development",
+        "status": "ok",
+        "stream_id": "chrono-college-pair1-splice-hash50",
+        "truth_boundaries": [
+          68
+        ]
+      }
+    ]
+  },
+  {
+    "case_id": "chrono-college-pair1-splice-middle50",
+    "preparation_status": "labeled_construction",
+    "preparation_reasons": [],
+    "driver_exit_code": 0,
+    "execution_status": "executed",
+    "grid_diagnostic": {
+      "adequate_no_candidate": true,
+      "analysis_scope_status": "ok",
+      "best_legal_grid_error": 15,
+      "candidate_errors_original_ordinals": [],
+      "candidate_intervals": [],
+      "candidate_measurement_available": true,
+      "case_id": "chrono-college-pair1-splice-middle50",
+      "change_status": "ok",
+      "coordinate_definition": "Inclusive split interval [last eligible left original ordinal + 1, first eligible right original ordinal] in each surviving canonical snapshot.",
+      "excess_error_over_grid": null,
+      "grid_unattainable": true,
+      "has_candidate": false,
+      "independent_vs_production_window_memberships": "passed",
+      "input_adequate": true,
+      "insufficient_input": false,
+      "label_note": "Source-account construction or continuity proxy only. Unknown truth is not changed to an empty truth array.",
+      "legal_boundaries": [
+        {
+          "split_interval": [
+            33,
+            33
+          ],
+          "window_index": 3
+        },
+        {
+          "split_interval": [
+            41,
+            41
+          ],
+          "window_index": 4
+        },
+        {
+          "split_interval": [
+            55,
+            55
+          ],
+          "window_index": 5
+        }
+      ],
+      "matched_at_original_tolerance": false,
+      "nearest_candidate_error_original_ordinals": null,
+      "off_target_candidate": false,
+      "qualified_windows": 8,
+      "registered_tolerance_records": 10,
+      "tolerance_attainable": false,
+      "truth_boundaries": [
+        70
+      ]
+    },
+    "native_observation": [
+      {
+        "analysis_results_sha256": "b72ba662819bf39dc62b949776e9c77c5e81acc711fb388491fee1f8e4bdc0ad",
+        "candidate_intervals": [],
+        "change_status": "ok",
+        "declared_coverage": {
+          "end_utc": "2018-01-21T19:58:58Z",
+          "known_gaps": [],
+          "notes": "Available historical corpus comments only; omissions are not verified absence of activity.",
+          "start_utc": "2014-11-09T20:52:28Z",
+          "status": "sampled"
+        },
+        "metrics": {
+          "candidate_count": 0,
+          "coordinate_definition": "Split k precedes zero-based canonical record ordinal k; inclusive candidate split intervals",
+          "matched_count": 0,
+          "matches": [],
+          "matching_rule": "Maximum count, minimum total interval distance, lexicographic interval/truth-position pairs",
+          "maximum_location_error_records": null,
+          "mean_location_error_records": {
+            "denominator": 0,
+            "numerator": 0,
+            "reason_codes": [
+              "no_matched_boundaries"
+            ],
+            "status": "not_computable",
+            "value": null
+          },
+          "precision": {
+            "denominator": 0,
+            "numerator": 0,
+            "reason_codes": [
+              "no_candidate_boundaries"
+            ],
+            "status": "not_computable",
+            "value": null
+          },
+          "recall": {
+            "denominator": 1,
+            "numerator": 0,
+            "reason_codes": [],
+            "status": "ok",
+            "value": 0.0
+          },
+          "tolerance_records": 10,
+          "truth_count": 1,
+          "unmatched_candidate_count": 0,
+          "unmatched_candidate_indices": [],
+          "unmatched_truth_count": 1,
+          "unmatched_truth_indices": [
+            0
+          ]
+        },
+        "missing_timestamps": 0,
+        "reason_codes": [],
+        "record_count": 140,
+        "scope": {
+          "kind": "comment",
+          "scope_type": "pooled",
+          "subreddit": null
+        },
+        "snapshot_sha256": "0cb29e6ee21c4f8383a369189e1b9afaf15b58b47f7fea05bb93c169ce98742a",
+        "split": "development",
+        "status": "ok",
+        "stream_id": "chrono-college-pair1-splice-middle50",
+        "truth_boundaries": [
+          70
+        ]
+      }
+    ]
+  },
+  {
+    "case_id": "chrono-college-pair1-splice-drop_Cornell",
+    "preparation_status": "labeled_construction",
+    "preparation_reasons": [],
+    "driver_exit_code": 0,
+    "execution_status": "executed",
+    "grid_diagnostic": {
+      "adequate_no_candidate": false,
+      "analysis_scope_status": "ok",
+      "best_legal_grid_error": 5,
+      "candidate_errors_original_ordinals": [
+        5
+      ],
+      "candidate_intervals": [
+        [
+          123,
+          123
+        ]
+      ],
+      "candidate_measurement_available": true,
+      "case_id": "chrono-college-pair1-splice-drop_Cornell",
+      "change_status": "ok",
+      "coordinate_definition": "Inclusive split interval [last eligible left original ordinal + 1, first eligible right original ordinal] in each surviving canonical snapshot.",
+      "excess_error_over_grid": 0,
+      "grid_unattainable": false,
+      "has_candidate": true,
+      "independent_vs_production_window_memberships": "passed",
+      "input_adequate": true,
+      "insufficient_input": false,
+      "label_note": "Source-account construction or continuity proxy only. Unknown truth is not changed to an empty truth array.",
+      "legal_boundaries": [
+        {
+          "split_interval": [
+            33,
+            33
+          ],
+          "window_index": 3
+        },
+        {
+          "split_interval": [
+            41,
+            41
+          ],
+          "window_index": 4
+        },
+        {
+          "split_interval": [
+            55,
+            55
+          ],
+          "window_index": 5
+        },
+        {
+          "split_interval": [
+            68,
+            68
+          ],
+          "window_index": 6
+        },
+        {
+          "split_interval": [
+            82,
+            83
+          ],
+          "window_index": 7
+        },
+        {
+          "split_interval": [
+            93,
+            93
+          ],
+          "window_index": 8
+        },
+        {
+          "split_interval": [
+            103,
+            103
+          ],
+          "window_index": 9
+        },
+        {
+          "split_interval": [
+            114,
+            114
+          ],
+          "window_index": 10
+        },
+        {
+          "split_interval": [
+            123,
+            123
+          ],
+          "window_index": 11
+        },
+        {
+          "split_interval": [
+            140,
+            140
+          ],
+          "window_index": 12
+        },
+        {
+          "split_interval": [
+            159,
+            159
+          ],
+          "window_index": 13
+        },
+        {
+          "split_interval": [
+            188,
+            188
+          ],
+          "window_index": 14
+        }
+      ],
+      "matched_at_original_tolerance": true,
+      "nearest_candidate_error_original_ordinals": 5,
+      "off_target_candidate": false,
+      "qualified_windows": 17,
+      "registered_tolerance_records": 10,
+      "tolerance_attainable": true,
+      "truth_boundaries": [
+        128
+      ]
+    },
+    "native_observation": [
+      {
+        "analysis_results_sha256": "b975d64ec24fd1096babba685a2671c8c1622fd223448ee3319341029f0c4d34",
+        "candidate_intervals": [
+          [
+            123,
+            123
+          ]
+        ],
+        "change_status": "ok",
+        "declared_coverage": {
+          "end_utc": "2018-01-21T19:58:58Z",
+          "known_gaps": [],
+          "notes": "Available historical corpus comments only; omissions are not verified absence of activity.",
+          "start_utc": "2014-11-09T20:52:28Z",
+          "status": "sampled"
+        },
+        "metrics": {
+          "candidate_count": 1,
+          "coordinate_definition": "Split k precedes zero-based canonical record ordinal k; inclusive candidate split intervals",
+          "matched_count": 1,
+          "matches": [
+            {
+              "candidate_index": 0,
+              "candidate_interval": [
+                123,
+                123
+              ],
+              "location_error_records": 5,
+              "truth_index": 0,
+              "truth_position": 128
+            }
+          ],
+          "matching_rule": "Maximum count, minimum total interval distance, lexicographic interval/truth-position pairs",
+          "maximum_location_error_records": 5,
+          "mean_location_error_records": {
+            "denominator": 1,
+            "numerator": 5,
+            "reason_codes": [],
+            "status": "ok",
+            "value": 5.0
+          },
+          "precision": {
+            "denominator": 1,
+            "numerator": 1,
+            "reason_codes": [],
+            "status": "ok",
+            "value": 1.0
+          },
+          "recall": {
+            "denominator": 1,
+            "numerator": 1,
+            "reason_codes": [],
+            "status": "ok",
+            "value": 1.0
+          },
+          "tolerance_records": 10,
+          "truth_count": 1,
+          "unmatched_candidate_count": 0,
+          "unmatched_candidate_indices": [],
+          "unmatched_truth_count": 0,
+          "unmatched_truth_indices": []
+        },
+        "missing_timestamps": 0,
+        "reason_codes": [],
+        "record_count": 280,
+        "scope": {
+          "kind": "comment",
+          "scope_type": "pooled",
+          "subreddit": null
+        },
+        "snapshot_sha256": "ea7b5005c481cdc66528de288823e18db0a1b1e424cc62f41c2289ca49387218",
+        "split": "development",
+        "status": "ok",
+        "stream_id": "chrono-college-pair1-splice-drop_Cornell",
+        "truth_boundaries": [
+          128
+        ]
+      }
+    ]
+  },
+  {
+    "case_id": "chrono-college-pair1-continuity_proxy-full",
+    "preparation_status": "account_id_continuity_proxy",
+    "preparation_reasons": [],
+    "driver_exit_code": 0,
+    "execution_status": "executed",
+    "grid_diagnostic": {
+      "adequate_no_candidate": true,
+      "analysis_scope_status": "ok",
+      "best_legal_grid_error": null,
+      "candidate_intervals": [],
+      "candidate_measurement_available": true,
+      "case_id": "chrono-college-pair1-continuity_proxy-full",
+      "change_status": "ok",
+      "coordinate_definition": "Inclusive split interval [last eligible left original ordinal + 1, first eligible right original ordinal] in each surviving canonical snapshot.",
+      "excess_error_over_grid": null,
+      "grid_unattainable": null,
+      "has_candidate": false,
+      "independent_vs_production_window_memberships": "passed",
+      "input_adequate": true,
+      "insufficient_input": false,
+      "label_note": "Source-account construction or continuity proxy only. Unknown truth is not changed to an empty truth array.",
+      "legal_boundaries": [
+        {
+          "split_interval": [
+            33,
+            33
+          ],
+          "window_index": 3
+        },
+        {
+          "split_interval": [
+            41,
+            41
+          ],
+          "window_index": 4
+        },
+        {
+          "split_interval": [
+            55,
+            55
+          ],
+          "window_index": 5
+        },
+        {
+          "split_interval": [
+            68,
+            68
+          ],
+          "window_index": 6
+        },
+        {
+          "split_interval": [
+            82,
+            83
+          ],
+          "window_index": 7
+        },
+        {
+          "split_interval": [
+            93,
+            93
+          ],
+          "window_index": 8
+        },
+        {
+          "split_interval": [
+            103,
+            103
+          ],
+          "window_index": 9
+        },
+        {
+          "split_interval": [
+            114,
+            114
+          ],
+          "window_index": 10
+        },
+        {
+          "split_interval": [
+            123,
+            123
+          ],
+          "window_index": 11
+        },
+        {
+          "split_interval": [
+            131,
+            131
+          ],
+          "window_index": 12
+        },
+        {
+          "split_interval": [
+            148,
+            148
+          ],
+          "window_index": 13
+        },
+        {
+          "split_interval": [
+            158,
+            158
+          ],
+          "window_index": 14
+        },
+        {
+          "split_interval": [
+            168,
+            168
+          ],
+          "window_index": 15
+        }
+      ],
+      "matched_at_original_tolerance": null,
+      "nearest_candidate_error_original_ordinals": null,
+      "off_target_candidate": null,
+      "qualified_windows": 18,
+      "registered_tolerance_records": 10,
+      "tolerance_attainable": null,
+      "truth_boundaries": []
+    },
+    "native_observation": [
+      {
+        "analysis_results_sha256": "03eecf3213dfa329ba84dff700286d553e58722999be141ca48d30617587ed04",
+        "candidate_intervals": [],
+        "change_status": "ok",
+        "declared_coverage": {
+          "end_utc": "2015-07-28T18:30:32Z",
+          "known_gaps": [],
+          "notes": "Available historical corpus comments only; omissions are not verified absence of activity.",
+          "start_utc": "2014-11-09T20:52:28Z",
+          "status": "sampled"
+        },
+        "metrics": {
+          "candidate_count": 0,
+          "coordinate_definition": "Split k precedes zero-based canonical record ordinal k; inclusive candidate split intervals",
+          "matched_count": 0,
+          "matches": [],
+          "matching_rule": "Maximum count, minimum total interval distance, lexicographic interval/truth-position pairs",
+          "maximum_location_error_records": null,
+          "mean_location_error_records": {
+            "denominator": 0,
+            "numerator": 0,
+            "reason_codes": [
+              "no_matched_boundaries"
+            ],
+            "status": "not_computable",
+            "value": null
+          },
+          "precision": {
+            "denominator": 0,
+            "numerator": 0,
+            "reason_codes": [
+              "no_candidate_boundaries"
+            ],
+            "status": "not_computable",
+            "value": null
+          },
+          "recall": {
+            "denominator": 0,
+            "numerator": 0,
+            "reason_codes": [
+              "no_annotated_boundaries"
+            ],
+            "status": "not_computable",
+            "value": null
+          },
+          "tolerance_records": 10,
+          "truth_count": 0,
+          "unmatched_candidate_count": 0,
+          "unmatched_candidate_indices": [],
+          "unmatched_truth_count": 0,
+          "unmatched_truth_indices": []
+        },
+        "missing_timestamps": 0,
+        "reason_codes": [],
+        "record_count": 207,
+        "scope": {
+          "kind": "comment",
+          "scope_type": "pooled",
+          "subreddit": null
+        },
+        "snapshot_sha256": "a313d37af86acf14d3b8e0b5b38ea33709593c8ea9554459cd92a5030779b20e",
+        "split": "development",
+        "status": "ok",
+        "stream_id": "chrono-college-pair1-continuity_proxy-full",
+        "truth_boundaries": []
+      }
+    ]
+  },
+  {
+    "case_id": "chrono-college-pair1-continuity_proxy-hash50",
+    "preparation_status": "account_id_continuity_proxy",
+    "preparation_reasons": [],
+    "driver_exit_code": 0,
+    "execution_status": "executed",
+    "grid_diagnostic": {
+      "adequate_no_candidate": true,
+      "analysis_scope_status": "ok",
+      "best_legal_grid_error": null,
+      "candidate_intervals": [],
+      "candidate_measurement_available": true,
+      "case_id": "chrono-college-pair1-continuity_proxy-hash50",
+      "change_status": "ok",
+      "coordinate_definition": "Inclusive split interval [last eligible left original ordinal + 1, first eligible right original ordinal] in each surviving canonical snapshot.",
+      "excess_error_over_grid": null,
+      "grid_unattainable": null,
+      "has_candidate": false,
+      "independent_vs_production_window_memberships": "passed",
+      "input_adequate": true,
+      "insufficient_input": false,
+      "label_note": "Source-account construction or continuity proxy only. Unknown truth is not changed to an empty truth array.",
+      "legal_boundaries": [
+        {
+          "split_interval": [
+            27,
+            27
+          ],
+          "window_index": 3
+        },
+        {
+          "split_interval": [
+            37,
+            37
+          ],
+          "window_index": 4
+        },
+        {
+          "split_interval": [
+            50,
+            51
+          ],
+          "window_index": 5
+        },
+        {
+          "split_interval": [
+            62,
+            62
+          ],
+          "window_index": 6
+        }
+      ],
+      "matched_at_original_tolerance": null,
+      "nearest_candidate_error_original_ordinals": null,
+      "off_target_candidate": null,
+      "qualified_windows": 9,
+      "registered_tolerance_records": 10,
+      "tolerance_attainable": null,
+      "truth_boundaries": []
+    },
+    "native_observation": [
+      {
+        "analysis_results_sha256": "c5b5012847a53ec1ccd0cd8cf8d9080eafc2f3142cefa96a8d9c1cba43446fb7",
+        "candidate_intervals": [],
+        "change_status": "ok",
+        "declared_coverage": {
+          "end_utc": "2015-06-24T18:51:27Z",
+          "known_gaps": [],
+          "notes": "Available historical corpus comments only; omissions are not verified absence of activity.",
+          "start_utc": "2014-11-19T02:48:09Z",
+          "status": "sampled"
+        },
+        "metrics": {
+          "candidate_count": 0,
+          "coordinate_definition": "Split k precedes zero-based canonical record ordinal k; inclusive candidate split intervals",
+          "matched_count": 0,
+          "matches": [],
+          "matching_rule": "Maximum count, minimum total interval distance, lexicographic interval/truth-position pairs",
+          "maximum_location_error_records": null,
+          "mean_location_error_records": {
+            "denominator": 0,
+            "numerator": 0,
+            "reason_codes": [
+              "no_matched_boundaries"
+            ],
+            "status": "not_computable",
+            "value": null
+          },
+          "precision": {
+            "denominator": 0,
+            "numerator": 0,
+            "reason_codes": [
+              "no_candidate_boundaries"
+            ],
+            "status": "not_computable",
+            "value": null
+          },
+          "recall": {
+            "denominator": 0,
+            "numerator": 0,
+            "reason_codes": [
+              "no_annotated_boundaries"
+            ],
+            "status": "not_computable",
+            "value": null
+          },
+          "tolerance_records": 10,
+          "truth_count": 0,
+          "unmatched_candidate_count": 0,
+          "unmatched_candidate_indices": [],
+          "unmatched_truth_count": 0,
+          "unmatched_truth_indices": []
+        },
+        "missing_timestamps": 0,
+        "reason_codes": [],
+        "record_count": 101,
+        "scope": {
+          "kind": "comment",
+          "scope_type": "pooled",
+          "subreddit": null
+        },
+        "snapshot_sha256": "01592ac24efe473e7e453237846d7f03e5acf6b80b00471276798ea8ab05eb22",
+        "split": "development",
+        "status": "ok",
+        "stream_id": "chrono-college-pair1-continuity_proxy-hash50",
+        "truth_boundaries": []
+      }
+    ]
+  },
+  {
+    "case_id": "chrono-college-pair1-continuity_proxy-middle50",
+    "preparation_status": "account_id_continuity_proxy",
+    "preparation_reasons": [],
+    "driver_exit_code": 0,
+    "execution_status": "executed",
+    "grid_diagnostic": {
+      "adequate_no_candidate": true,
+      "analysis_scope_status": "ok",
+      "best_legal_grid_error": null,
+      "candidate_intervals": [],
+      "candidate_measurement_available": true,
+      "case_id": "chrono-college-pair1-continuity_proxy-middle50",
+      "change_status": "ok",
+      "coordinate_definition": "Inclusive split interval [last eligible left original ordinal + 1, first eligible right original ordinal] in each surviving canonical snapshot.",
+      "excess_error_over_grid": null,
+      "grid_unattainable": null,
+      "has_candidate": false,
+      "independent_vs_production_window_memberships": "passed",
+      "input_adequate": true,
+      "insufficient_input": false,
+      "label_note": "Source-account construction or continuity proxy only. Unknown truth is not changed to an empty truth array.",
+      "legal_boundaries": [
+        {
+          "split_interval": [
+            33,
+            33
+          ],
+          "window_index": 3
+        },
+        {
+          "split_interval": [
+            41,
+            41
+          ],
+          "window_index": 4
+        },
+        {
+          "split_interval": [
+            54,
+            54
+          ],
+          "window_index": 5
+        },
+        {
+          "split_interval": [
+            64,
+            64
+          ],
+          "window_index": 6
+        }
+      ],
+      "matched_at_original_tolerance": null,
+      "nearest_candidate_error_original_ordinals": null,
+      "off_target_candidate": null,
+      "qualified_windows": 9,
+      "registered_tolerance_records": 10,
+      "tolerance_attainable": null,
+      "truth_boundaries": []
+    },
+    "native_observation": [
+      {
+        "analysis_results_sha256": "7e5a0066e5377faa478b3bd3f9209a59a773419f77c41a278d3430417419ca68",
+        "candidate_intervals": [],
+        "change_status": "ok",
+        "declared_coverage": {
+          "end_utc": "2015-07-28T18:30:32Z",
+          "known_gaps": [],
+          "notes": "Available historical corpus comments only; omissions are not verified absence of activity.",
+          "start_utc": "2014-11-09T20:52:28Z",
+          "status": "sampled"
+        },
+        "metrics": {
+          "candidate_count": 0,
+          "coordinate_definition": "Split k precedes zero-based canonical record ordinal k; inclusive candidate split intervals",
+          "matched_count": 0,
+          "matches": [],
+          "matching_rule": "Maximum count, minimum total interval distance, lexicographic interval/truth-position pairs",
+          "maximum_location_error_records": null,
+          "mean_location_error_records": {
+            "denominator": 0,
+            "numerator": 0,
+            "reason_codes": [
+              "no_matched_boundaries"
+            ],
+            "status": "not_computable",
+            "value": null
+          },
+          "precision": {
+            "denominator": 0,
+            "numerator": 0,
+            "reason_codes": [
+              "no_candidate_boundaries"
+            ],
+            "status": "not_computable",
+            "value": null
+          },
+          "recall": {
+            "denominator": 0,
+            "numerator": 0,
+            "reason_codes": [
+              "no_annotated_boundaries"
+            ],
+            "status": "not_computable",
+            "value": null
+          },
+          "tolerance_records": 10,
+          "truth_count": 0,
+          "unmatched_candidate_count": 0,
+          "unmatched_candidate_indices": [],
+          "unmatched_truth_count": 0,
+          "unmatched_truth_indices": []
+        },
+        "missing_timestamps": 0,
+        "reason_codes": [],
+        "record_count": 103,
+        "scope": {
+          "kind": "comment",
+          "scope_type": "pooled",
+          "subreddit": null
+        },
+        "snapshot_sha256": "c5b9acdf432eea7f60bd6327f55f002d9fe7c2c237b3d091d34c634f1f32840a",
+        "split": "development",
+        "status": "ok",
+        "stream_id": "chrono-college-pair1-continuity_proxy-middle50",
+        "truth_boundaries": []
+      }
+    ]
+  },
+  {
+    "case_id": "chrono-college-pair1-continuity_proxy-drop_Cornell",
+    "preparation_status": "account_id_continuity_proxy",
+    "preparation_reasons": [],
+    "driver_exit_code": 0,
+    "execution_status": "executed",
+    "grid_diagnostic": {
+      "adequate_no_candidate": true,
+      "analysis_scope_status": "ok",
+      "best_legal_grid_error": null,
+      "candidate_intervals": [],
+      "candidate_measurement_available": true,
+      "case_id": "chrono-college-pair1-continuity_proxy-drop_Cornell",
+      "change_status": "ok",
+      "coordinate_definition": "Inclusive split interval [last eligible left original ordinal + 1, first eligible right original ordinal] in each surviving canonical snapshot.",
+      "excess_error_over_grid": null,
+      "grid_unattainable": null,
+      "has_candidate": false,
+      "independent_vs_production_window_memberships": "passed",
+      "input_adequate": true,
+      "insufficient_input": false,
+      "label_note": "Source-account construction or continuity proxy only. Unknown truth is not changed to an empty truth array.",
+      "legal_boundaries": [
+        {
+          "split_interval": [
+            33,
+            33
+          ],
+          "window_index": 3
+        },
+        {
+          "split_interval": [
+            41,
+            41
+          ],
+          "window_index": 4
+        },
+        {
+          "split_interval": [
+            55,
+            55
+          ],
+          "window_index": 5
+        },
+        {
+          "split_interval": [
+            68,
+            68
+          ],
+          "window_index": 6
+        },
+        {
+          "split_interval": [
+            82,
+            83
+          ],
+          "window_index": 7
+        },
+        {
+          "split_interval": [
+            93,
+            93
+          ],
+          "window_index": 8
+        },
+        {
+          "split_interval": [
+            103,
+            103
+          ],
+          "window_index": 9
+        },
+        {
+          "split_interval": [
+            114,
+            114
+          ],
+          "window_index": 10
+        },
+        {
+          "split_interval": [
+            123,
+            123
+          ],
+          "window_index": 11
+        },
+        {
+          "split_interval": [
+            131,
+            131
+          ],
+          "window_index": 12
+        },
+        {
+          "split_interval": [
+            148,
+            148
+          ],
+          "window_index": 13
+        },
+        {
+          "split_interval": [
+            158,
+            158
+          ],
+          "window_index": 14
+        },
+        {
+          "split_interval": [
+            168,
+            168
+          ],
+          "window_index": 15
+        }
+      ],
+      "matched_at_original_tolerance": null,
+      "nearest_candidate_error_original_ordinals": null,
+      "off_target_candidate": null,
+      "qualified_windows": 18,
+      "registered_tolerance_records": 10,
+      "tolerance_attainable": null,
+      "truth_boundaries": []
+    },
+    "native_observation": [
+      {
+        "analysis_results_sha256": "03eecf3213dfa329ba84dff700286d553e58722999be141ca48d30617587ed04",
+        "candidate_intervals": [],
+        "change_status": "ok",
+        "declared_coverage": {
+          "end_utc": "2015-07-28T18:30:32Z",
+          "known_gaps": [],
+          "notes": "Available historical corpus comments only; omissions are not verified absence of activity.",
+          "start_utc": "2014-11-09T20:52:28Z",
+          "status": "sampled"
+        },
+        "metrics": {
+          "candidate_count": 0,
+          "coordinate_definition": "Split k precedes zero-based canonical record ordinal k; inclusive candidate split intervals",
+          "matched_count": 0,
+          "matches": [],
+          "matching_rule": "Maximum count, minimum total interval distance, lexicographic interval/truth-position pairs",
+          "maximum_location_error_records": null,
+          "mean_location_error_records": {
+            "denominator": 0,
+            "numerator": 0,
+            "reason_codes": [
+              "no_matched_boundaries"
+            ],
+            "status": "not_computable",
+            "value": null
+          },
+          "precision": {
+            "denominator": 0,
+            "numerator": 0,
+            "reason_codes": [
+              "no_candidate_boundaries"
+            ],
+            "status": "not_computable",
+            "value": null
+          },
+          "recall": {
+            "denominator": 0,
+            "numerator": 0,
+            "reason_codes": [
+              "no_annotated_boundaries"
+            ],
+            "status": "not_computable",
+            "value": null
+          },
+          "tolerance_records": 10,
+          "truth_count": 0,
+          "unmatched_candidate_count": 0,
+          "unmatched_candidate_indices": [],
+          "unmatched_truth_count": 0,
+          "unmatched_truth_indices": []
+        },
+        "missing_timestamps": 0,
+        "reason_codes": [],
+        "record_count": 207,
+        "scope": {
+          "kind": "comment",
+          "scope_type": "pooled",
+          "subreddit": null
+        },
+        "snapshot_sha256": "a313d37af86acf14d3b8e0b5b38ea33709593c8ea9554459cd92a5030779b20e",
+        "split": "development",
+        "status": "ok",
+        "stream_id": "chrono-college-pair1-continuity_proxy-drop_Cornell",
+        "truth_boundaries": []
+      }
+    ]
+  },
+  {
+    "case_id": "chrono-college-pair1-unknown-natural-full",
+    "preparation_status": "unknown_truth",
+    "preparation_reasons": [],
+    "driver_exit_code": 0,
+    "execution_status": "executed",
+    "grid_diagnostic": {
+      "adequate_no_candidate": true,
+      "analysis_scope_status": "ok",
+      "best_legal_grid_error": null,
+      "candidate_intervals": [],
+      "candidate_measurement_available": true,
+      "case_id": "chrono-college-pair1-unknown-natural-full",
+      "change_status": "ok",
+      "coordinate_definition": "Inclusive split interval [last eligible left original ordinal + 1, first eligible right original ordinal] in each surviving canonical snapshot.",
+      "excess_error_over_grid": null,
+      "grid_unattainable": null,
+      "has_candidate": false,
+      "independent_vs_production_window_memberships": "passed",
+      "input_adequate": true,
+      "insufficient_input": false,
+      "label_note": "Source-account construction or continuity proxy only. Unknown truth is not changed to an empty truth array.",
+      "legal_boundaries": [
+        {
+          "split_interval": [
+            33,
+            33
+          ],
+          "window_index": 3
+        },
+        {
+          "split_interval": [
+            41,
+            41
+          ],
+          "window_index": 4
+        },
+        {
+          "split_interval": [
+            55,
+            55
+          ],
+          "window_index": 5
+        },
+        {
+          "split_interval": [
+            68,
+            68
+          ],
+          "window_index": 6
+        },
+        {
+          "split_interval": [
+            82,
+            83
+          ],
+          "window_index": 7
+        },
+        {
+          "split_interval": [
+            93,
+            93
+          ],
+          "window_index": 8
+        },
+        {
+          "split_interval": [
+            103,
+            103
+          ],
+          "window_index": 9
+        },
+        {
+          "split_interval": [
+            114,
+            114
+          ],
+          "window_index": 10
+        },
+        {
+          "split_interval": [
+            123,
+            123
+          ],
+          "window_index": 11
+        },
+        {
+          "split_interval": [
+            131,
+            131
+          ],
+          "window_index": 12
+        },
+        {
+          "split_interval": [
+            148,
+            148
+          ],
+          "window_index": 13
+        },
+        {
+          "split_interval": [
+            158,
+            158
+          ],
+          "window_index": 14
+        },
+        {
+          "split_interval": [
+            168,
+            168
+          ],
+          "window_index": 15
+        }
+      ],
+      "matched_at_original_tolerance": null,
+      "nearest_candidate_error_original_ordinals": null,
+      "off_target_candidate": null,
+      "qualified_windows": 18,
+      "registered_tolerance_records": 10,
+      "tolerance_attainable": null,
+      "truth_boundaries": null
+    },
+    "native_observation": null
+  },
+  {
+    "case_id": "chrono-college-pair2-splice-full",
+    "preparation_status": "labeled_construction",
+    "preparation_reasons": [],
+    "driver_exit_code": 0,
+    "execution_status": "executed",
+    "grid_diagnostic": {
+      "adequate_no_candidate": false,
+      "analysis_scope_status": "ok",
+      "best_legal_grid_error": 0,
+      "candidate_errors_original_ordinals": [
+        0
+      ],
+      "candidate_intervals": [
+        [
+          211,
+          212
+        ]
+      ],
+      "candidate_measurement_available": true,
+      "case_id": "chrono-college-pair2-splice-full",
+      "change_status": "ok",
+      "coordinate_definition": "Inclusive split interval [last eligible left original ordinal + 1, first eligible right original ordinal] in each surviving canonical snapshot.",
+      "excess_error_over_grid": 0,
+      "grid_unattainable": false,
+      "has_candidate": true,
+      "independent_vs_production_window_memberships": "passed",
+      "input_adequate": true,
+      "insufficient_input": false,
+      "label_note": "Source-account construction or continuity proxy only. Unknown truth is not changed to an empty truth array.",
+      "legal_boundaries": [
+        {
+          "split_interval": [
+            61,
+            61
+          ],
+          "window_index": 3
+        },
+        {
+          "split_interval": [
+            85,
+            85
+          ],
+          "window_index": 4
+        },
+        {
+          "split_interval": [
+            101,
+            102
+          ],
+          "window_index": 5
+        },
+        {
+          "split_interval": [
+            130,
+            130
+          ],
+          "window_index": 6
+        },
+        {
+          "split_interval": [
+            164,
+            164
+          ],
+          "window_index": 7
+        },
+        {
+          "split_interval": [
+            211,
+            212
+          ],
+          "window_index": 8
+        },
+        {
+          "split_interval": [
+            228,
+            228
+          ],
+          "window_index": 9
+        },
+        {
+          "split_interval": [
+            238,
+            238
+          ],
+          "window_index": 10
+        },
+        {
+          "split_interval": [
+            248,
+            248
+          ],
+          "window_index": 11
+        },
+        {
+          "split_interval": [
+            257,
+            257
+          ],
+          "window_index": 12
+        },
+        {
+          "split_interval": [
+            269,
+            270
+          ],
+          "window_index": 13
+        },
+        {
+          "split_interval": [
+            289,
+            289
+          ],
+          "window_index": 14
+        },
+        {
+          "split_interval": [
+            307,
+            307
+          ],
+          "window_index": 15
+        },
+        {
+          "split_interval": [
+            319,
+            319
+          ],
+          "window_index": 16
+        },
+        {
+          "split_interval": [
+            328,
+            331
+          ],
+          "window_index": 17
+        },
+        {
+          "split_interval": [
+            340,
+            343
+          ],
+          "window_index": 18
+        },
+        {
+          "split_interval": [
+            352,
+            352
+          ],
+          "window_index": 19
+        },
+        {
+          "split_interval": [
+            366,
+            366
+          ],
+          "window_index": 20
+        },
+        {
+          "split_interval": [
+            379,
+            380
+          ],
+          "window_index": 21
+        },
+        {
+          "split_interval": [
+            393,
+            393
+          ],
+          "window_index": 22
+        }
+      ],
+      "matched_at_original_tolerance": true,
+      "nearest_candidate_error_original_ordinals": 0,
+      "off_target_candidate": false,
+      "qualified_windows": 25,
+      "registered_tolerance_records": 10,
+      "tolerance_attainable": true,
+      "truth_boundaries": [
+        212
+      ]
+    },
+    "native_observation": [
+      {
+        "analysis_results_sha256": "8c035a6ae87f2406286e959608001cfc6ab1df805c22fd17c3b0a6c9d01d0ac4",
+        "candidate_intervals": [
+          [
+            211,
+            212
+          ]
+        ],
+        "change_status": "ok",
+        "declared_coverage": {
+          "end_utc": "2015-06-06T03:17:33Z",
+          "known_gaps": [],
+          "notes": "Available historical corpus comments only; omissions are not verified absence of activity.",
+          "start_utc": "2011-04-04T22:58:07Z",
+          "status": "sampled"
+        },
+        "metrics": {
+          "candidate_count": 1,
+          "coordinate_definition": "Split k precedes zero-based canonical record ordinal k; inclusive candidate split intervals",
+          "matched_count": 1,
+          "matches": [
+            {
+              "candidate_index": 0,
+              "candidate_interval": [
+                211,
+                212
+              ],
+              "location_error_records": 0,
+              "truth_index": 0,
+              "truth_position": 212
+            }
+          ],
+          "matching_rule": "Maximum count, minimum total interval distance, lexicographic interval/truth-position pairs",
+          "maximum_location_error_records": 0,
+          "mean_location_error_records": {
+            "denominator": 1,
+            "numerator": 0,
+            "reason_codes": [],
+            "status": "ok",
+            "value": 0.0
+          },
+          "precision": {
+            "denominator": 1,
+            "numerator": 1,
+            "reason_codes": [],
+            "status": "ok",
+            "value": 1.0
+          },
+          "recall": {
+            "denominator": 1,
+            "numerator": 1,
+            "reason_codes": [],
+            "status": "ok",
+            "value": 1.0
+          },
+          "tolerance_records": 10,
+          "truth_count": 1,
+          "unmatched_candidate_count": 0,
+          "unmatched_candidate_indices": [],
+          "unmatched_truth_count": 0,
+          "unmatched_truth_indices": []
+        },
+        "missing_timestamps": 0,
+        "reason_codes": [],
+        "record_count": 434,
+        "scope": {
+          "kind": "comment",
+          "scope_type": "pooled",
+          "subreddit": null
+        },
+        "snapshot_sha256": "eddc99908347ec31f374a3c7eeb88984df11a4159c19929e876ac4d0cf41649e",
+        "split": "development",
+        "status": "ok",
+        "stream_id": "chrono-college-pair2-splice-full",
+        "truth_boundaries": [
+          212
+        ]
+      }
+    ]
+  },
+  {
+    "case_id": "chrono-college-pair2-splice-hash50",
+    "preparation_status": "labeled_construction",
+    "preparation_reasons": [],
+    "driver_exit_code": 0,
+    "execution_status": "executed",
+    "grid_diagnostic": {
+      "adequate_no_candidate": true,
+      "analysis_scope_status": "ok",
+      "best_legal_grid_error": 7,
+      "candidate_errors_original_ordinals": [],
+      "candidate_intervals": [],
+      "candidate_measurement_available": true,
+      "case_id": "chrono-college-pair2-splice-hash50",
+      "change_status": "ok",
+      "coordinate_definition": "Inclusive split interval [last eligible left original ordinal + 1, first eligible right original ordinal] in each surviving canonical snapshot.",
+      "excess_error_over_grid": null,
+      "grid_unattainable": false,
+      "has_candidate": false,
+      "independent_vs_production_window_memberships": "passed",
+      "input_adequate": true,
+      "insufficient_input": false,
+      "label_note": "Source-account construction or continuity proxy only. Unknown truth is not changed to an empty truth array.",
+      "legal_boundaries": [
+        {
+          "split_interval": [
+            66,
+            66
+          ],
+          "window_index": 3
+        },
+        {
+          "split_interval": [
+            93,
+            98
+          ],
+          "window_index": 4
+        },
+        {
+          "split_interval": [
+            121,
+            121
+          ],
+          "window_index": 5
+        },
+        {
+          "split_interval": [
+            132,
+            132
+          ],
+          "window_index": 6
+        },
+        {
+          "split_interval": [
+            141,
+            141
+          ],
+          "window_index": 7
+        },
+        {
+          "split_interval": [
+            158,
+            158
+          ],
+          "window_index": 8
+        },
+        {
+          "split_interval": [
+            170,
+            171
+          ],
+          "window_index": 9
+        },
+        {
+          "split_interval": [
+            181,
+            181
+          ],
+          "window_index": 10
+        }
+      ],
+      "matched_at_original_tolerance": false,
+      "nearest_candidate_error_original_ordinals": null,
+      "off_target_candidate": false,
+      "qualified_windows": 13,
+      "registered_tolerance_records": 10,
+      "tolerance_attainable": true,
+      "truth_boundaries": [
+        114
+      ]
+    },
+    "native_observation": [
+      {
+        "analysis_results_sha256": "032dd28262c528c93adcee2ca5a98c6d6f6c4da02996d02f8707334f1e236a33",
+        "candidate_intervals": [],
+        "change_status": "ok",
+        "declared_coverage": {
+          "end_utc": "2015-04-11T18:03:56Z",
+          "known_gaps": [],
+          "notes": "Available historical corpus comments only; omissions are not verified absence of activity.",
+          "start_utc": "2011-04-08T02:25:39Z",
+          "status": "sampled"
+        },
+        "metrics": {
+          "candidate_count": 0,
+          "coordinate_definition": "Split k precedes zero-based canonical record ordinal k; inclusive candidate split intervals",
+          "matched_count": 0,
+          "matches": [],
+          "matching_rule": "Maximum count, minimum total interval distance, lexicographic interval/truth-position pairs",
+          "maximum_location_error_records": null,
+          "mean_location_error_records": {
+            "denominator": 0,
+            "numerator": 0,
+            "reason_codes": [
+              "no_matched_boundaries"
+            ],
+            "status": "not_computable",
+            "value": null
+          },
+          "precision": {
+            "denominator": 0,
+            "numerator": 0,
+            "reason_codes": [
+              "no_candidate_boundaries"
+            ],
+            "status": "not_computable",
+            "value": null
+          },
+          "recall": {
+            "denominator": 1,
+            "numerator": 0,
+            "reason_codes": [],
+            "status": "ok",
+            "value": 0.0
+          },
+          "tolerance_records": 10,
+          "truth_count": 1,
+          "unmatched_candidate_count": 0,
+          "unmatched_candidate_indices": [],
+          "unmatched_truth_count": 1,
+          "unmatched_truth_indices": [
+            0
+          ]
+        },
+        "missing_timestamps": 0,
+        "reason_codes": [],
+        "record_count": 222,
+        "scope": {
+          "kind": "comment",
+          "scope_type": "pooled",
+          "subreddit": null
+        },
+        "snapshot_sha256": "ec3f4e70be6616c51721b7e63ed583ce0797626b5c0aa8f3cbdfa2eed1129380",
+        "split": "development",
+        "status": "ok",
+        "stream_id": "chrono-college-pair2-splice-hash50",
+        "truth_boundaries": [
+          114
+        ]
+      }
+    ]
+  },
+  {
+    "case_id": "chrono-college-pair2-splice-middle50",
+    "preparation_status": "labeled_construction",
+    "preparation_reasons": [],
+    "driver_exit_code": 0,
+    "execution_status": "executed",
+    "grid_diagnostic": {
+      "adequate_no_candidate": true,
+      "analysis_scope_status": "ok",
+      "best_legal_grid_error": 6,
+      "candidate_errors_original_ordinals": [],
+      "candidate_intervals": [],
+      "candidate_measurement_available": true,
+      "case_id": "chrono-college-pair2-splice-middle50",
+      "change_status": "ok",
+      "coordinate_definition": "Inclusive split interval [last eligible left original ordinal + 1, first eligible right original ordinal] in each surviving canonical snapshot.",
+      "excess_error_over_grid": null,
+      "grid_unattainable": false,
+      "has_candidate": false,
+      "independent_vs_production_window_memberships": "passed",
+      "input_adequate": true,
+      "insufficient_input": false,
+      "label_note": "Source-account construction or continuity proxy only. Unknown truth is not changed to an empty truth array.",
+      "legal_boundaries": [
+        {
+          "split_interval": [
+            61,
+            61
+          ],
+          "window_index": 3
+        },
+        {
+          "split_interval": [
+            85,
+            85
+          ],
+          "window_index": 4
+        },
+        {
+          "split_interval": [
+            101,
+            102
+          ],
+          "window_index": 5
+        },
+        {
+          "split_interval": [
+            120,
+            120
+          ],
+          "window_index": 6
+        },
+        {
+          "split_interval": [
+            131,
+            131
+          ],
+          "window_index": 7
+        },
+        {
+          "split_interval": [
+            140,
+            140
+          ],
+          "window_index": 8
+        },
+        {
+          "split_interval": [
+            157,
+            157
+          ],
+          "window_index": 9
+        },
+        {
+          "split_interval": [
+            173,
+            173
+          ],
+          "window_index": 10
+        },
+        {
+          "split_interval": [
+            181,
+            181
+          ],
+          "window_index": 11
+        }
+      ],
+      "matched_at_original_tolerance": false,
+      "nearest_candidate_error_original_ordinals": null,
+      "off_target_candidate": false,
+      "qualified_windows": 14,
+      "registered_tolerance_records": 10,
+      "tolerance_attainable": true,
+      "truth_boundaries": [
+        108
+      ]
+    },
+    "native_observation": [
+      {
+        "analysis_results_sha256": "83ffd9fc67c95759d881e9c063c03ac5e3b618940911c98ca4f320ac67cfbea8",
+        "candidate_intervals": [],
+        "change_status": "ok",
+        "declared_coverage": {
+          "end_utc": "2015-06-06T03:17:33Z",
+          "known_gaps": [],
+          "notes": "Available historical corpus comments only; omissions are not verified absence of activity.",
+          "start_utc": "2011-04-04T22:58:07Z",
+          "status": "sampled"
+        },
+        "metrics": {
+          "candidate_count": 0,
+          "coordinate_definition": "Split k precedes zero-based canonical record ordinal k; inclusive candidate split intervals",
+          "matched_count": 0,
+          "matches": [],
+          "matching_rule": "Maximum count, minimum total interval distance, lexicographic interval/truth-position pairs",
+          "maximum_location_error_records": null,
+          "mean_location_error_records": {
+            "denominator": 0,
+            "numerator": 0,
+            "reason_codes": [
+              "no_matched_boundaries"
+            ],
+            "status": "not_computable",
+            "value": null
+          },
+          "precision": {
+            "denominator": 0,
+            "numerator": 0,
+            "reason_codes": [
+              "no_candidate_boundaries"
+            ],
+            "status": "not_computable",
+            "value": null
+          },
+          "recall": {
+            "denominator": 1,
+            "numerator": 0,
+            "reason_codes": [],
+            "status": "ok",
+            "value": 0.0
+          },
+          "tolerance_records": 10,
+          "truth_count": 1,
+          "unmatched_candidate_count": 0,
+          "unmatched_candidate_indices": [],
+          "unmatched_truth_count": 1,
+          "unmatched_truth_indices": [
+            0
+          ]
+        },
+        "missing_timestamps": 0,
+        "reason_codes": [],
+        "record_count": 217,
+        "scope": {
+          "kind": "comment",
+          "scope_type": "pooled",
+          "subreddit": null
+        },
+        "snapshot_sha256": "be9676f40946b1868b4f6777675c243989182bbd9e9462d486055d093150885e",
+        "split": "development",
+        "status": "ok",
+        "stream_id": "chrono-college-pair2-splice-middle50",
+        "truth_boundaries": [
+          108
+        ]
+      }
+    ]
+  },
+  {
+    "case_id": "chrono-college-pair2-splice-drop_Cornell",
+    "preparation_status": "labeled_construction",
+    "preparation_reasons": [],
+    "driver_exit_code": 0,
+    "execution_status": "executed",
+    "grid_diagnostic": {
+      "adequate_no_candidate": false,
+      "analysis_scope_status": "ok",
+      "best_legal_grid_error": 0,
+      "candidate_errors_original_ordinals": [
+        0
+      ],
+      "candidate_intervals": [
+        [
+          211,
+          212
+        ]
+      ],
+      "candidate_measurement_available": true,
+      "case_id": "chrono-college-pair2-splice-drop_Cornell",
+      "change_status": "ok",
+      "coordinate_definition": "Inclusive split interval [last eligible left original ordinal + 1, first eligible right original ordinal] in each surviving canonical snapshot.",
+      "excess_error_over_grid": 0,
+      "grid_unattainable": false,
+      "has_candidate": true,
+      "independent_vs_production_window_memberships": "passed",
+      "input_adequate": true,
+      "insufficient_input": false,
+      "label_note": "Source-account construction or continuity proxy only. Unknown truth is not changed to an empty truth array.",
+      "legal_boundaries": [
+        {
+          "split_interval": [
+            61,
+            61
+          ],
+          "window_index": 3
+        },
+        {
+          "split_interval": [
+            85,
+            85
+          ],
+          "window_index": 4
+        },
+        {
+          "split_interval": [
+            101,
+            102
+          ],
+          "window_index": 5
+        },
+        {
+          "split_interval": [
+            130,
+            130
+          ],
+          "window_index": 6
+        },
+        {
+          "split_interval": [
+            164,
+            164
+          ],
+          "window_index": 7
+        },
+        {
+          "split_interval": [
+            211,
+            212
+          ],
+          "window_index": 8
+        },
+        {
+          "split_interval": [
+            228,
+            228
+          ],
+          "window_index": 9
+        },
+        {
+          "split_interval": [
+            238,
+            238
+          ],
+          "window_index": 10
+        },
+        {
+          "split_interval": [
+            248,
+            248
+          ],
+          "window_index": 11
+        },
+        {
+          "split_interval": [
+            257,
+            257
+          ],
+          "window_index": 12
+        },
+        {
+          "split_interval": [
+            269,
+            270
+          ],
+          "window_index": 13
+        },
+        {
+          "split_interval": [
+            289,
+            289
+          ],
+          "window_index": 14
+        },
+        {
+          "split_interval": [
+            307,
+            307
+          ],
+          "window_index": 15
+        },
+        {
+          "split_interval": [
+            319,
+            319
+          ],
+          "window_index": 16
+        },
+        {
+          "split_interval": [
+            328,
+            331
+          ],
+          "window_index": 17
+        },
+        {
+          "split_interval": [
+            340,
+            343
+          ],
+          "window_index": 18
+        },
+        {
+          "split_interval": [
+            352,
+            352
+          ],
+          "window_index": 19
+        },
+        {
+          "split_interval": [
+            366,
+            366
+          ],
+          "window_index": 20
+        },
+        {
+          "split_interval": [
+            379,
+            380
+          ],
+          "window_index": 21
+        },
+        {
+          "split_interval": [
+            393,
+            393
+          ],
+          "window_index": 22
+        }
+      ],
+      "matched_at_original_tolerance": true,
+      "nearest_candidate_error_original_ordinals": 0,
+      "off_target_candidate": false,
+      "qualified_windows": 25,
+      "registered_tolerance_records": 10,
+      "tolerance_attainable": true,
+      "truth_boundaries": [
+        212
+      ]
+    },
+    "native_observation": [
+      {
+        "analysis_results_sha256": "8c035a6ae87f2406286e959608001cfc6ab1df805c22fd17c3b0a6c9d01d0ac4",
+        "candidate_intervals": [
+          [
+            211,
+            212
+          ]
+        ],
+        "change_status": "ok",
+        "declared_coverage": {
+          "end_utc": "2015-06-06T03:17:33Z",
+          "known_gaps": [],
+          "notes": "Available historical corpus comments only; omissions are not verified absence of activity.",
+          "start_utc": "2011-04-04T22:58:07Z",
+          "status": "sampled"
+        },
+        "metrics": {
+          "candidate_count": 1,
+          "coordinate_definition": "Split k precedes zero-based canonical record ordinal k; inclusive candidate split intervals",
+          "matched_count": 1,
+          "matches": [
+            {
+              "candidate_index": 0,
+              "candidate_interval": [
+                211,
+                212
+              ],
+              "location_error_records": 0,
+              "truth_index": 0,
+              "truth_position": 212
+            }
+          ],
+          "matching_rule": "Maximum count, minimum total interval distance, lexicographic interval/truth-position pairs",
+          "maximum_location_error_records": 0,
+          "mean_location_error_records": {
+            "denominator": 1,
+            "numerator": 0,
+            "reason_codes": [],
+            "status": "ok",
+            "value": 0.0
+          },
+          "precision": {
+            "denominator": 1,
+            "numerator": 1,
+            "reason_codes": [],
+            "status": "ok",
+            "value": 1.0
+          },
+          "recall": {
+            "denominator": 1,
+            "numerator": 1,
+            "reason_codes": [],
+            "status": "ok",
+            "value": 1.0
+          },
+          "tolerance_records": 10,
+          "truth_count": 1,
+          "unmatched_candidate_count": 0,
+          "unmatched_candidate_indices": [],
+          "unmatched_truth_count": 0,
+          "unmatched_truth_indices": []
+        },
+        "missing_timestamps": 0,
+        "reason_codes": [],
+        "record_count": 434,
+        "scope": {
+          "kind": "comment",
+          "scope_type": "pooled",
+          "subreddit": null
+        },
+        "snapshot_sha256": "eddc99908347ec31f374a3c7eeb88984df11a4159c19929e876ac4d0cf41649e",
+        "split": "development",
+        "status": "ok",
+        "stream_id": "chrono-college-pair2-splice-drop_Cornell",
+        "truth_boundaries": [
+          212
+        ]
+      }
+    ]
+  },
+  {
+    "case_id": "chrono-college-pair2-continuity_proxy-full",
+    "preparation_status": "account_id_continuity_proxy",
+    "preparation_reasons": [],
+    "driver_exit_code": 0,
+    "execution_status": "executed",
+    "grid_diagnostic": {
+      "adequate_no_candidate": true,
+      "analysis_scope_status": "ok",
+      "best_legal_grid_error": null,
+      "candidate_intervals": [],
+      "candidate_measurement_available": true,
+      "case_id": "chrono-college-pair2-continuity_proxy-full",
+      "change_status": "ok",
+      "coordinate_definition": "Inclusive split interval [last eligible left original ordinal + 1, first eligible right original ordinal] in each surviving canonical snapshot.",
+      "excess_error_over_grid": null,
+      "grid_unattainable": null,
+      "has_candidate": false,
+      "independent_vs_production_window_memberships": "passed",
+      "input_adequate": true,
+      "insufficient_input": false,
+      "label_note": "Source-account construction or continuity proxy only. Unknown truth is not changed to an empty truth array.",
+      "legal_boundaries": [
+        {
+          "split_interval": [
+            61,
+            61
+          ],
+          "window_index": 3
+        },
+        {
+          "split_interval": [
+            85,
+            85
+          ],
+          "window_index": 4
+        },
+        {
+          "split_interval": [
+            101,
+            102
+          ],
+          "window_index": 5
+        }
+      ],
+      "matched_at_original_tolerance": null,
+      "nearest_candidate_error_original_ordinals": null,
+      "off_target_candidate": null,
+      "qualified_windows": 8,
+      "registered_tolerance_records": 10,
+      "tolerance_attainable": null,
+      "truth_boundaries": []
+    },
+    "native_observation": [
+      {
+        "analysis_results_sha256": "1929d9289d2e6553557a8917cb90f6d54ba763fec2648a3401801e26d83a86a4",
+        "candidate_intervals": [],
+        "change_status": "ok",
+        "declared_coverage": {
+          "end_utc": "2014-01-18T08:13:42Z",
+          "known_gaps": [],
+          "notes": "Available historical corpus comments only; omissions are not verified absence of activity.",
+          "start_utc": "2011-04-04T22:58:07Z",
+          "status": "sampled"
+        },
+        "metrics": {
+          "candidate_count": 0,
+          "coordinate_definition": "Split k precedes zero-based canonical record ordinal k; inclusive candidate split intervals",
+          "matched_count": 0,
+          "matches": [],
+          "matching_rule": "Maximum count, minimum total interval distance, lexicographic interval/truth-position pairs",
+          "maximum_location_error_records": null,
+          "mean_location_error_records": {
+            "denominator": 0,
+            "numerator": 0,
+            "reason_codes": [
+              "no_matched_boundaries"
+            ],
+            "status": "not_computable",
+            "value": null
+          },
+          "precision": {
+            "denominator": 0,
+            "numerator": 0,
+            "reason_codes": [
+              "no_candidate_boundaries"
+            ],
+            "status": "not_computable",
+            "value": null
+          },
+          "recall": {
+            "denominator": 0,
+            "numerator": 0,
+            "reason_codes": [
+              "no_annotated_boundaries"
+            ],
+            "status": "not_computable",
+            "value": null
+          },
+          "tolerance_records": 10,
+          "truth_count": 0,
+          "unmatched_candidate_count": 0,
+          "unmatched_candidate_indices": [],
+          "unmatched_truth_count": 0,
+          "unmatched_truth_indices": []
+        },
+        "missing_timestamps": 0,
+        "reason_codes": [],
+        "record_count": 212,
+        "scope": {
+          "kind": "comment",
+          "scope_type": "pooled",
+          "subreddit": null
+        },
+        "snapshot_sha256": "e0dac0a9fb42864acadbce66c460d1e4e6e63562c4cd9c9538bf17dbd29267ad",
+        "split": "development",
+        "status": "ok",
+        "stream_id": "chrono-college-pair2-continuity_proxy-full",
+        "truth_boundaries": []
+      }
+    ]
+  },
+  {
+    "case_id": "chrono-college-pair2-continuity_proxy-hash50",
+    "preparation_status": "account_id_continuity_proxy",
+    "preparation_reasons": [],
+    "driver_exit_code": 0,
+    "execution_status": "executed",
+    "grid_diagnostic": {
+      "adequate_no_candidate": false,
+      "analysis_scope_status": "abstained",
+      "best_legal_grid_error": null,
+      "candidate_intervals": null,
+      "candidate_measurement_available": false,
+      "case_id": "chrono-college-pair2-continuity_proxy-hash50",
+      "change_status": "insufficient_data",
+      "coordinate_definition": "Inclusive split interval [last eligible left original ordinal + 1, first eligible right original ordinal] in each surviving canonical snapshot.",
+      "excess_error_over_grid": null,
+      "grid_unattainable": null,
+      "has_candidate": null,
+      "independent_vs_production_window_memberships": "passed",
+      "input_adequate": false,
+      "insufficient_input": true,
+      "label_note": "Source-account construction or continuity proxy only. Unknown truth is not changed to an empty truth array.",
+      "legal_boundaries": [],
+      "matched_at_original_tolerance": null,
+      "nearest_candidate_error_original_ordinals": null,
+      "off_target_candidate": null,
+      "qualified_windows": 4,
+      "registered_tolerance_records": 10,
+      "tolerance_attainable": null,
+      "truth_boundaries": []
+    },
+    "native_observation": [
+      {
+        "analysis_results_sha256": "a8bead8e788e4d389b9a97a019295e2141945d211e9a5a910bd5d70ef20cce5d",
+        "candidate_intervals": [],
+        "change_status": "insufficient_data",
+        "declared_coverage": {
+          "end_utc": "2013-12-28T11:34:28Z",
+          "known_gaps": [],
+          "notes": "Available historical corpus comments only; omissions are not verified absence of activity.",
+          "start_utc": "2011-04-08T02:25:39Z",
+          "status": "sampled"
+        },
+        "metrics": null,
+        "missing_timestamps": 0,
+        "reason_codes": [
+          "fewer_than_required_qualified_windows",
+          "insufficient_data"
+        ],
+        "record_count": 114,
+        "scope": {
+          "kind": "comment",
+          "scope_type": "pooled",
+          "subreddit": null
+        },
+        "snapshot_sha256": "766a14333be494d2112cded3f237bed63326e4042658d225a299a1341c830645",
+        "split": "development",
+        "status": "abstained",
+        "stream_id": "chrono-college-pair2-continuity_proxy-hash50",
+        "truth_boundaries": []
+      }
+    ]
+  },
+  {
+    "case_id": "chrono-college-pair2-continuity_proxy-middle50",
+    "preparation_status": "account_id_continuity_proxy",
+    "preparation_reasons": [],
+    "driver_exit_code": 0,
+    "execution_status": "executed",
+    "grid_diagnostic": {
+      "adequate_no_candidate": false,
+      "analysis_scope_status": "abstained",
+      "best_legal_grid_error": null,
+      "candidate_intervals": null,
+      "candidate_measurement_available": false,
+      "case_id": "chrono-college-pair2-continuity_proxy-middle50",
+      "change_status": "insufficient_data",
+      "coordinate_definition": "Inclusive split interval [last eligible left original ordinal + 1, first eligible right original ordinal] in each surviving canonical snapshot.",
+      "excess_error_over_grid": null,
+      "grid_unattainable": null,
+      "has_candidate": null,
+      "independent_vs_production_window_memberships": "passed",
+      "input_adequate": false,
+      "insufficient_input": true,
+      "label_note": "Source-account construction or continuity proxy only. Unknown truth is not changed to an empty truth array.",
+      "legal_boundaries": [],
+      "matched_at_original_tolerance": null,
+      "nearest_candidate_error_original_ordinals": null,
+      "off_target_candidate": null,
+      "qualified_windows": 3,
+      "registered_tolerance_records": 10,
+      "tolerance_attainable": null,
+      "truth_boundaries": []
+    },
+    "native_observation": [
+      {
+        "analysis_results_sha256": "a729e8f2a4bdae991d9941bcab910eb32f75b0232c095a16a4135239536510fe",
+        "candidate_intervals": [],
+        "change_status": "insufficient_data",
+        "declared_coverage": {
+          "end_utc": "2014-01-18T08:13:42Z",
+          "known_gaps": [],
+          "notes": "Available historical corpus comments only; omissions are not verified absence of activity.",
+          "start_utc": "2011-04-04T22:58:07Z",
+          "status": "sampled"
+        },
+        "metrics": null,
+        "missing_timestamps": 0,
+        "reason_codes": [
+          "fewer_than_required_qualified_windows",
+          "insufficient_data"
+        ],
+        "record_count": 106,
+        "scope": {
+          "kind": "comment",
+          "scope_type": "pooled",
+          "subreddit": null
+        },
+        "snapshot_sha256": "ed8442213d27be164f243dcbf8ed162029f32b8aac65c544fccbf608676faa76",
+        "split": "development",
+        "status": "abstained",
+        "stream_id": "chrono-college-pair2-continuity_proxy-middle50",
+        "truth_boundaries": []
+      }
+    ]
+  },
+  {
+    "case_id": "chrono-college-pair2-continuity_proxy-drop_Cornell",
+    "preparation_status": "account_id_continuity_proxy",
+    "preparation_reasons": [],
+    "driver_exit_code": 0,
+    "execution_status": "executed",
+    "grid_diagnostic": {
+      "adequate_no_candidate": true,
+      "analysis_scope_status": "ok",
+      "best_legal_grid_error": null,
+      "candidate_intervals": [],
+      "candidate_measurement_available": true,
+      "case_id": "chrono-college-pair2-continuity_proxy-drop_Cornell",
+      "change_status": "ok",
+      "coordinate_definition": "Inclusive split interval [last eligible left original ordinal + 1, first eligible right original ordinal] in each surviving canonical snapshot.",
+      "excess_error_over_grid": null,
+      "grid_unattainable": null,
+      "has_candidate": false,
+      "independent_vs_production_window_memberships": "passed",
+      "input_adequate": true,
+      "insufficient_input": false,
+      "label_note": "Source-account construction or continuity proxy only. Unknown truth is not changed to an empty truth array.",
+      "legal_boundaries": [
+        {
+          "split_interval": [
+            61,
+            61
+          ],
+          "window_index": 3
+        },
+        {
+          "split_interval": [
+            85,
+            85
+          ],
+          "window_index": 4
+        },
+        {
+          "split_interval": [
+            101,
+            102
+          ],
+          "window_index": 5
+        }
+      ],
+      "matched_at_original_tolerance": null,
+      "nearest_candidate_error_original_ordinals": null,
+      "off_target_candidate": null,
+      "qualified_windows": 8,
+      "registered_tolerance_records": 10,
+      "tolerance_attainable": null,
+      "truth_boundaries": []
+    },
+    "native_observation": [
+      {
+        "analysis_results_sha256": "1929d9289d2e6553557a8917cb90f6d54ba763fec2648a3401801e26d83a86a4",
+        "candidate_intervals": [],
+        "change_status": "ok",
+        "declared_coverage": {
+          "end_utc": "2014-01-18T08:13:42Z",
+          "known_gaps": [],
+          "notes": "Available historical corpus comments only; omissions are not verified absence of activity.",
+          "start_utc": "2011-04-04T22:58:07Z",
+          "status": "sampled"
+        },
+        "metrics": {
+          "candidate_count": 0,
+          "coordinate_definition": "Split k precedes zero-based canonical record ordinal k; inclusive candidate split intervals",
+          "matched_count": 0,
+          "matches": [],
+          "matching_rule": "Maximum count, minimum total interval distance, lexicographic interval/truth-position pairs",
+          "maximum_location_error_records": null,
+          "mean_location_error_records": {
+            "denominator": 0,
+            "numerator": 0,
+            "reason_codes": [
+              "no_matched_boundaries"
+            ],
+            "status": "not_computable",
+            "value": null
+          },
+          "precision": {
+            "denominator": 0,
+            "numerator": 0,
+            "reason_codes": [
+              "no_candidate_boundaries"
+            ],
+            "status": "not_computable",
+            "value": null
+          },
+          "recall": {
+            "denominator": 0,
+            "numerator": 0,
+            "reason_codes": [
+              "no_annotated_boundaries"
+            ],
+            "status": "not_computable",
+            "value": null
+          },
+          "tolerance_records": 10,
+          "truth_count": 0,
+          "unmatched_candidate_count": 0,
+          "unmatched_candidate_indices": [],
+          "unmatched_truth_count": 0,
+          "unmatched_truth_indices": []
+        },
+        "missing_timestamps": 0,
+        "reason_codes": [],
+        "record_count": 212,
+        "scope": {
+          "kind": "comment",
+          "scope_type": "pooled",
+          "subreddit": null
+        },
+        "snapshot_sha256": "e0dac0a9fb42864acadbce66c460d1e4e6e63562c4cd9c9538bf17dbd29267ad",
+        "split": "development",
+        "status": "ok",
+        "stream_id": "chrono-college-pair2-continuity_proxy-drop_Cornell",
+        "truth_boundaries": []
+      }
+    ]
+  },
+  {
+    "case_id": "chrono-ApplyingToCollege-pair1-operational-availability-hash50",
+    "preparation_status": "unknown_truth",
+    "preparation_reasons": [],
+    "driver_exit_code": 0,
+    "execution_status": "executed",
+    "grid_diagnostic": {
+      "adequate_no_candidate": false,
+      "analysis_scope_status": "insufficient_data",
+      "best_legal_grid_error": null,
+      "candidate_intervals": null,
+      "candidate_measurement_available": false,
+      "case_id": "chrono-ApplyingToCollege-pair1-operational-availability-hash50",
+      "change_status": "insufficient_data",
+      "coordinate_definition": "Inclusive split interval [last eligible left original ordinal + 1, first eligible right original ordinal] in each surviving canonical snapshot.",
+      "excess_error_over_grid": null,
+      "grid_unattainable": null,
+      "has_candidate": null,
+      "independent_vs_production_window_memberships": "passed",
+      "input_adequate": false,
+      "insufficient_input": true,
+      "label_note": "Source-account construction or continuity proxy only. Unknown truth is not changed to an empty truth array.",
+      "legal_boundaries": [],
+      "matched_at_original_tolerance": null,
+      "nearest_candidate_error_original_ordinals": null,
+      "off_target_candidate": null,
+      "qualified_windows": 6,
+      "registered_tolerance_records": 10,
+      "tolerance_attainable": null,
+      "truth_boundaries": null
+    },
+    "native_observation": null
+  },
+  {
+    "case_id": "chrono-ApplyingToCollege-pair1-operational-availability-middle50",
+    "preparation_status": "unknown_truth",
+    "preparation_reasons": [],
+    "driver_exit_code": 0,
+    "execution_status": "executed",
+    "grid_diagnostic": {
+      "adequate_no_candidate": false,
+      "analysis_scope_status": "insufficient_data",
+      "best_legal_grid_error": null,
+      "candidate_intervals": null,
+      "candidate_measurement_available": false,
+      "case_id": "chrono-ApplyingToCollege-pair1-operational-availability-middle50",
+      "change_status": "insufficient_data",
+      "coordinate_definition": "Inclusive split interval [last eligible left original ordinal + 1, first eligible right original ordinal] in each surviving canonical snapshot.",
+      "excess_error_over_grid": null,
+      "grid_unattainable": null,
+      "has_candidate": null,
+      "independent_vs_production_window_memberships": "passed",
+      "input_adequate": false,
+      "insufficient_input": true,
+      "label_note": "Source-account construction or continuity proxy only. Unknown truth is not changed to an empty truth array.",
+      "legal_boundaries": [],
+      "matched_at_original_tolerance": null,
+      "nearest_candidate_error_original_ordinals": null,
+      "off_target_candidate": null,
+      "qualified_windows": 6,
+      "registered_tolerance_records": 10,
+      "tolerance_attainable": null,
+      "truth_boundaries": null
+    },
+    "native_observation": null
+  },
+  {
+    "case_id": "chrono-ApplyingToCollege-pair1-operational-availability-drop_Cornell",
+    "preparation_status": "unknown_truth",
+    "preparation_reasons": [],
+    "driver_exit_code": 0,
+    "execution_status": "executed",
+    "grid_diagnostic": {
+      "adequate_no_candidate": true,
+      "analysis_scope_status": "ok",
+      "best_legal_grid_error": null,
+      "candidate_intervals": [],
+      "candidate_measurement_available": true,
+      "case_id": "chrono-ApplyingToCollege-pair1-operational-availability-drop_Cornell",
+      "change_status": "ok",
+      "coordinate_definition": "Inclusive split interval [last eligible left original ordinal + 1, first eligible right original ordinal] in each surviving canonical snapshot.",
+      "excess_error_over_grid": null,
+      "grid_unattainable": null,
+      "has_candidate": false,
+      "independent_vs_production_window_memberships": "passed",
+      "input_adequate": true,
+      "insufficient_input": false,
+      "label_note": "Source-account construction or continuity proxy only. Unknown truth is not changed to an empty truth array.",
+      "legal_boundaries": [
+        {
+          "split_interval": [
+            49,
+            51
+          ],
+          "window_index": 3
+        },
+        {
+          "split_interval": [
+            78,
+            78
+          ],
+          "window_index": 4
+        },
+        {
+          "split_interval": [
+            104,
+            104
+          ],
+          "window_index": 5
+        },
+        {
+          "split_interval": [
+            123,
+            123
+          ],
+          "window_index": 6
+        },
+        {
+          "split_interval": [
+            149,
+            149
+          ],
+          "window_index": 7
+        },
+        {
+          "split_interval": [
+            167,
+            167
+          ],
+          "window_index": 8
+        }
+      ],
+      "matched_at_original_tolerance": null,
+      "nearest_candidate_error_original_ordinals": null,
+      "off_target_candidate": null,
+      "qualified_windows": 11,
+      "registered_tolerance_records": 10,
+      "tolerance_attainable": null,
+      "truth_boundaries": null
+    },
+    "native_observation": null
+  },
+  {
+    "case_id": "chrono-Cornell-operational-availability-hash50",
+    "preparation_status": "unfilled_slot",
+    "preparation_reasons": [
+      "no_A_control_available"
+    ],
+    "driver_exit_code": 0,
+    "execution_status": "not_executed",
+    "grid_diagnostic": null,
+    "native_observation": null
+  },
+  {
+    "case_id": "chrono-Cornell-operational-availability-middle50",
+    "preparation_status": "unfilled_slot",
+    "preparation_reasons": [
+      "no_A_control_available"
+    ],
+    "driver_exit_code": 0,
+    "execution_status": "not_executed",
+    "grid_diagnostic": null,
+    "native_observation": null
+  },
+  {
+    "case_id": "chrono-Cornell-operational-availability-drop_Cornell",
+    "preparation_status": "unfilled_slot",
+    "preparation_reasons": [
+      "no_A_control_available"
+    ],
+    "driver_exit_code": 0,
+    "execution_status": "not_executed",
+    "grid_diagnostic": null,
+    "native_observation": null
+  },
+  {
+    "case_id": "chrono-college-pair1-operational-availability-hash50",
+    "preparation_status": "unknown_truth",
+    "preparation_reasons": [],
+    "driver_exit_code": 0,
+    "execution_status": "executed",
+    "grid_diagnostic": {
+      "adequate_no_candidate": true,
+      "analysis_scope_status": "ok",
+      "best_legal_grid_error": null,
+      "candidate_intervals": [],
+      "candidate_measurement_available": true,
+      "case_id": "chrono-college-pair1-operational-availability-hash50",
+      "change_status": "ok",
+      "coordinate_definition": "Inclusive split interval [last eligible left original ordinal + 1, first eligible right original ordinal] in each surviving canonical snapshot.",
+      "excess_error_over_grid": null,
+      "grid_unattainable": null,
+      "has_candidate": false,
+      "independent_vs_production_window_memberships": "passed",
+      "input_adequate": true,
+      "insufficient_input": false,
+      "label_note": "Source-account construction or continuity proxy only. Unknown truth is not changed to an empty truth array.",
+      "legal_boundaries": [
+        {
+          "split_interval": [
+            27,
+            27
+          ],
+          "window_index": 3
+        },
+        {
+          "split_interval": [
+            37,
+            37
+          ],
+          "window_index": 4
+        },
+        {
+          "split_interval": [
+            50,
+            51
+          ],
+          "window_index": 5
+        },
+        {
+          "split_interval": [
+            62,
+            62
+          ],
+          "window_index": 6
+        }
+      ],
+      "matched_at_original_tolerance": null,
+      "nearest_candidate_error_original_ordinals": null,
+      "off_target_candidate": null,
+      "qualified_windows": 9,
+      "registered_tolerance_records": 10,
+      "tolerance_attainable": null,
+      "truth_boundaries": null
+    },
+    "native_observation": null
+  },
+  {
+    "case_id": "chrono-college-pair1-operational-availability-middle50",
+    "preparation_status": "unknown_truth",
+    "preparation_reasons": [],
+    "driver_exit_code": 0,
+    "execution_status": "executed",
+    "grid_diagnostic": {
+      "adequate_no_candidate": true,
+      "analysis_scope_status": "ok",
+      "best_legal_grid_error": null,
+      "candidate_intervals": [],
+      "candidate_measurement_available": true,
+      "case_id": "chrono-college-pair1-operational-availability-middle50",
+      "change_status": "ok",
+      "coordinate_definition": "Inclusive split interval [last eligible left original ordinal + 1, first eligible right original ordinal] in each surviving canonical snapshot.",
+      "excess_error_over_grid": null,
+      "grid_unattainable": null,
+      "has_candidate": false,
+      "independent_vs_production_window_memberships": "passed",
+      "input_adequate": true,
+      "insufficient_input": false,
+      "label_note": "Source-account construction or continuity proxy only. Unknown truth is not changed to an empty truth array.",
+      "legal_boundaries": [
+        {
+          "split_interval": [
+            33,
+            33
+          ],
+          "window_index": 3
+        },
+        {
+          "split_interval": [
+            41,
+            41
+          ],
+          "window_index": 4
+        },
+        {
+          "split_interval": [
+            54,
+            54
+          ],
+          "window_index": 5
+        },
+        {
+          "split_interval": [
+            64,
+            64
+          ],
+          "window_index": 6
+        }
+      ],
+      "matched_at_original_tolerance": null,
+      "nearest_candidate_error_original_ordinals": null,
+      "off_target_candidate": null,
+      "qualified_windows": 9,
+      "registered_tolerance_records": 10,
+      "tolerance_attainable": null,
+      "truth_boundaries": null
+    },
+    "native_observation": null
+  },
+  {
+    "case_id": "chrono-college-pair1-operational-availability-drop_Cornell",
+    "preparation_status": "unknown_truth",
+    "preparation_reasons": [],
+    "driver_exit_code": 0,
+    "execution_status": "executed",
+    "grid_diagnostic": {
+      "adequate_no_candidate": true,
+      "analysis_scope_status": "ok",
+      "best_legal_grid_error": null,
+      "candidate_intervals": [],
+      "candidate_measurement_available": true,
+      "case_id": "chrono-college-pair1-operational-availability-drop_Cornell",
+      "change_status": "ok",
+      "coordinate_definition": "Inclusive split interval [last eligible left original ordinal + 1, first eligible right original ordinal] in each surviving canonical snapshot.",
+      "excess_error_over_grid": null,
+      "grid_unattainable": null,
+      "has_candidate": false,
+      "independent_vs_production_window_memberships": "passed",
+      "input_adequate": true,
+      "insufficient_input": false,
+      "label_note": "Source-account construction or continuity proxy only. Unknown truth is not changed to an empty truth array.",
+      "legal_boundaries": [
+        {
+          "split_interval": [
+            33,
+            33
+          ],
+          "window_index": 3
+        },
+        {
+          "split_interval": [
+            41,
+            41
+          ],
+          "window_index": 4
+        },
+        {
+          "split_interval": [
+            55,
+            55
+          ],
+          "window_index": 5
+        },
+        {
+          "split_interval": [
+            68,
+            68
+          ],
+          "window_index": 6
+        },
+        {
+          "split_interval": [
+            82,
+            83
+          ],
+          "window_index": 7
+        },
+        {
+          "split_interval": [
+            93,
+            93
+          ],
+          "window_index": 8
+        },
+        {
+          "split_interval": [
+            103,
+            103
+          ],
+          "window_index": 9
+        },
+        {
+          "split_interval": [
+            114,
+            114
+          ],
+          "window_index": 10
+        },
+        {
+          "split_interval": [
+            123,
+            123
+          ],
+          "window_index": 11
+        },
+        {
+          "split_interval": [
+            131,
+            131
+          ],
+          "window_index": 12
+        },
+        {
+          "split_interval": [
+            148,
+            148
+          ],
+          "window_index": 13
+        },
+        {
+          "split_interval": [
+            158,
+            158
+          ],
+          "window_index": 14
+        },
+        {
+          "split_interval": [
+            168,
+            168
+          ],
+          "window_index": 15
+        }
+      ],
+      "matched_at_original_tolerance": null,
+      "nearest_candidate_error_original_ordinals": null,
+      "off_target_candidate": null,
+      "qualified_windows": 18,
+      "registered_tolerance_records": 10,
+      "tolerance_attainable": null,
+      "truth_boundaries": null
+    },
+    "native_observation": null
+  }
+]

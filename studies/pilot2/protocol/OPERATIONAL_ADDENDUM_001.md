@@ -1,0 +1,7 @@
+# Operational addendum 001: module availability views
+
+This pre-score addendum leaves the registered sampling, analytical methods, defaults, labels, primary outcomes and 51 planned chronological scientific slots unchanged. The original registration and protocol remain historical, immutable files.
+
+The existing account-stream evaluation interface runs all modules but exports only the requested stream and change-point status. It cannot by itself supply the requested module-level missingness table. Accordingly, ordinary `analyze` will also run the three fixed omission arms on each of the three already-planned unknown-truth natural histories. The full natural analyses are reused. This creates nine additional operational runs, for twelve availability views of three source histories, not twelve additional subjects. Where a registered history slot is unfilled, all its operational views remain unfilled. No account replacement is allowed.
+
+These operational outputs describe module execution status, reason codes, runtime, peak RAM and output size. They provide no new authorship labels or accuracy observations. They use the same unchanged surviving records and fixed omission rules as the scientific preparation. They are gated by the same final scoring freeze and run with networking denied. All commands and failures are retained. No numerical or report implementation change accompanies this addendum.

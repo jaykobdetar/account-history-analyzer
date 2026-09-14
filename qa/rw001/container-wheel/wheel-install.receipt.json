@@ -1,0 +1,18 @@
+{
+  "command": [
+    "/usr/local/bin/python",
+    "-m",
+    "pip",
+    "install",
+    "--no-index",
+    "--no-deps",
+    "--force-reinstall",
+    "/review/dist/account_history_analyzer-1.0.4-py3-none-any.whl"
+  ],
+  "cwd": "/tmp",
+  "exit_code": 0,
+  "wall_seconds": 0.5316225290007424,
+  "stdout_sha256": "e92e0afaf3397782d0eed1e4263c0f3c2f7199fd042832c3146d409dfbb72f3b",
+  "stderr_sha256": "dcc9222a436f58f9034575d59c4ed29b4b67185d929247d7b6bd57ade91bc928",
+  "network_isolation": "docker_network_none"
+}

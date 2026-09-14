@@ -1,0 +1,48 @@
+.........................................................FF....          [100%]
+=================================== FAILURES ===================================
+_ test_full_saved_report_retains_ngram_labels_and_existing_preview_order[markdown] _
+
+saved_style_report = ({'analysis': {'config_sha256': '8fd0239fe2f87c9f1506786ac36099fe996e00cc6e021b3ecc67fbb65cd2d925', 'implementation_fi...ecord_id': 'constructed_style_shift_056', 'first_record_position': 55, 'first_utc': '2025-01-07T21:00:00Z', ...}, ...])
+output = 'markdown'
+
+    @pytest.mark.parametrize('output', ['markdown', 'html'])
+    def test_full_saved_report_retains_ngram_labels_and_existing_preview_order(saved_style_report, output):
+        results, _, _ = saved_style_report
+        before = canonical_digest(results)
+        _, document = full_document(saved_style_report, output, excerpts='included')
+        actual = contribution_tables(parse_html(document))
+        comparisons = {item['comparison_id']: item for item in results['modules']['style']['payload']['comparisons']}
+        cosine_rows = 0
+        non_cosine_rows = 0
+        for (comparison_id, method, view, n), rows in actual.items():
+            comparison = comparisons[comparison_id]
+>           distance = next(item for item in comparison['distances']
+                            if (item['method_id'], item['view'], item['n']) == (method, view, n))
+E           StopIteration
+
+tests/test_ngram_labels.py:224: StopIteration
+_ test_full_saved_report_retains_ngram_labels_and_existing_preview_order[html] _
+
+saved_style_report = ({'analysis': {'config_sha256': '8fd0239fe2f87c9f1506786ac36099fe996e00cc6e021b3ecc67fbb65cd2d925', 'implementation_fi...ecord_id': 'constructed_style_shift_056', 'first_record_position': 55, 'first_utc': '2025-01-07T21:00:00Z', ...}, ...])
+output = 'html'
+
+    @pytest.mark.parametrize('output', ['markdown', 'html'])
+    def test_full_saved_report_retains_ngram_labels_and_existing_preview_order(saved_style_report, output):
+        results, _, _ = saved_style_report
+        before = canonical_digest(results)
+        _, document = full_document(saved_style_report, output, excerpts='included')
+        actual = contribution_tables(parse_html(document))
+        comparisons = {item['comparison_id']: item for item in results['modules']['style']['payload']['comparisons']}
+        cosine_rows = 0
+        non_cosine_rows = 0
+        for (comparison_id, method, view, n), rows in actual.items():
+            comparison = comparisons[comparison_id]
+>           distance = next(item for item in comparison['distances']
+                            if (item['method_id'], item['view'], item['n']) == (method, view, n))
+E           StopIteration
+
+tests/test_ngram_labels.py:224: StopIteration
+=========================== short test summary info ============================
+FAILED tests/test_ngram_labels.py::test_full_saved_report_retains_ngram_labels_and_existing_preview_order[markdown]
+FAILED tests/test_ngram_labels.py::test_full_saved_report_retains_ngram_labels_and_existing_preview_order[html]
+2 failed, 61 passed in 58.83s

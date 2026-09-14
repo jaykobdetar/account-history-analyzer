@@ -1,0 +1,21 @@
+{
+  "schema_version": "1.0.0",
+  "reference_id": "toy_arithmetic_only_v1",
+  "reference_kind": "toy",
+  "method_id": "classic_delta_v1",
+  "frequency_unit": "per_1000_word_tokens",
+  "vocabulary": [
+    "the",
+    "and"
+  ],
+  "means": [
+    50,
+    100
+  ],
+  "standard_deviations": [
+    10,
+    20
+  ],
+  "fitting_description": "Hand-selected numbers for an arithmetic test. No corpus was fitted.",
+  "source_provenance": "Synthetic test-only reference. Not validated or appropriate for account interpretation."
+}

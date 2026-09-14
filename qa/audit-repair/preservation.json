@@ -1,0 +1,17 @@
+{
+  "changed_historical_files": [],
+  "dependency_and_vendor_equivalence": {
+    "containers/build-requirements.lock": true,
+    "pyproject.toml": true,
+    "requirements.lock.txt": true,
+    "src/account_history_analyzer/_vendor/__init__.py": true,
+    "src/account_history_analyzer/_vendor/ruptures_LICENSE.txt": true,
+    "src/account_history_analyzer/_vendor/ruptures_pr383.json": true,
+    "src/account_history_analyzer/_vendor/ruptures_pr383.py": true,
+    "src/account_history_analyzer/_vendor/ruptures_pr383_source.txt": true,
+    "uv.lock": true
+  },
+  "historical_files_checked": 777,
+  "project_metadata_version_normalized_for_comparison": true,
+  "status": "passed"
+}

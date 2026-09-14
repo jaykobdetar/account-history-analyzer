@@ -1,0 +1,48 @@
+{
+  "comparisons": [
+    {
+      "compared_artifacts": 14,
+      "exact_byte_equal": {
+        "activity_daily.svg": true,
+        "activity_hourly.svg": true,
+        "adjacent_distances.svg": true,
+        "checksums.json": true,
+        "eligible_word_volume.svg": true,
+        "evidence.jsonl": true,
+        "method_registry.json": true,
+        "records_features.jsonl": true,
+        "report.html": true,
+        "report.md": true,
+        "resolved_config.json": true,
+        "results.json": true,
+        "surface_features.svg": true,
+        "windows.jsonl": true
+      },
+      "fixture": "arithmetic",
+      "status": "passed"
+    },
+    {
+      "compared_artifacts": 14,
+      "exact_byte_equal": {
+        "activity_daily.svg": true,
+        "activity_hourly.svg": true,
+        "adjacent_distances.svg": true,
+        "checksums.json": true,
+        "eligible_word_volume.svg": true,
+        "evidence.jsonl": true,
+        "method_registry.json": true,
+        "records_features.jsonl": true,
+        "report.html": true,
+        "report.md": true,
+        "resolved_config.json": true,
+        "results.json": true,
+        "surface_features.svg": true,
+        "windows.jsonl": true
+      },
+      "fixture": "constructed_style_shift",
+      "status": "passed"
+    }
+  ],
+  "scope": "Tested Linux x86_64 CPython3.12.3 host and digest-pinned container only; receipts excluded",
+  "status": "passed"
+}

@@ -1,0 +1,17 @@
+test_community_omission_is_exact_label_and_preserves_nonpresent (__main__.PreparationChecks.test_community_omission_is_exact_label_and_preserves_nonpresent) ... ok
+test_disappearing_source_side_is_not_unchanged_truth (__main__.PreparationChecks.test_disappearing_source_side_is_not_unchanged_truth) ... ok
+test_hash50_matches_frozen_modulo_rule_and_preserves_survivors (__main__.PreparationChecks.test_hash50_matches_frozen_modulo_rule_and_preserves_survivors) ... ok
+test_metadata_combines_cross_corpus_casefolded_authors (__main__.PreparationChecks.test_metadata_combines_cross_corpus_casefolded_authors) ... ok
+test_middle50_uses_registered_floor_indices_for_odd_lengths (__main__.PreparationChecks.test_middle50_uses_registered_floor_indices_for_odd_lengths) ... ok
+test_missing_timestamp_abstains_without_discarding_record (__main__.PreparationChecks.test_missing_timestamp_abstains_without_discarding_record) ... ok
+test_null_nonpresent_and_timestamp_conversion_preserved (__main__.PreparationChecks.test_null_nonpresent_and_timestamp_conversion_preserved) ... ok
+test_pairing_uses_medians_and_never_reuses_author (__main__.PreparationChecks.test_pairing_uses_medians_and_never_reuses_author) ... ok
+test_registered_candidate_order_salt (__main__.PreparationChecks.test_registered_candidate_order_salt) ... ok
+test_timestamp_ties_go_to_right_source_only (__main__.PreparationChecks.test_timestamp_ties_go_to_right_source_only) ... ok
+test_truth_maps_to_surviving_full_snapshot_ordinals (__main__.PreparationChecks.test_truth_maps_to_surviving_full_snapshot_ordinals) ... ok
+test_union_median_cut_uses_all_supplied_timestamps (__main__.PreparationChecks.test_union_median_cut_uses_all_supplied_timestamps) ... ok
+
+----------------------------------------------------------------------
+Ran 12 tests in 0.010s
+
+OK

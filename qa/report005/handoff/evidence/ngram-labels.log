@@ -1,0 +1,177 @@
+{
+  "scope": "Actual rendering and supplied JSON inspected; calculations not rerun here.",
+  "regenerated_html_matches_supplied": true,
+  "checked_exported_ngram_coordinates": 124714,
+  "wrong_length_in_json": 0,
+  "examples": [
+    {
+      "n": 3,
+      "rows": [
+        {
+          "stored_feature": " th",
+          "stored_codepoints": 3,
+          "displayed_feature": "th"
+        },
+        {
+          "stored_feature": " TH",
+          "stored_codepoints": 3,
+          "displayed_feature": "TH"
+        },
+        {
+          "stored_feature": "he ",
+          "stored_codepoints": 3,
+          "displayed_feature": "he"
+        },
+        {
+          "stored_feature": "the",
+          "stored_codepoints": 3,
+          "displayed_feature": "the"
+        },
+        {
+          "stored_feature": "HE ",
+          "stored_codepoints": 3,
+          "displayed_feature": "HE"
+        },
+        {
+          "stored_feature": "THE",
+          "stored_codepoints": 3,
+          "displayed_feature": "THE"
+        },
+        {
+          "stored_feature": "E S",
+          "stored_codepoints": 3,
+          "displayed_feature": "E S"
+        },
+        {
+          "stored_feature": " CA",
+          "stored_codepoints": 3,
+          "displayed_feature": "CA"
+        },
+        {
+          "stored_feature": "e s",
+          "stored_codepoints": 3,
+          "displayed_feature": "e s"
+        },
+        {
+          "stored_feature": " SH",
+          "stored_codepoints": 3,
+          "displayed_feature": "SH"
+        }
+      ],
+      "distinct_displayed_labels": 10
+    },
+    {
+      "n": 4,
+      "rows": [
+        {
+          "stored_feature": "the ",
+          "stored_codepoints": 4,
+          "displayed_feature": "the"
+        },
+        {
+          "stored_feature": "THE ",
+          "stored_codepoints": 4,
+          "displayed_feature": "THE"
+        },
+        {
+          "stored_feature": " the",
+          "stored_codepoints": 4,
+          "displayed_feature": "the"
+        },
+        {
+          "stored_feature": " THE",
+          "stored_codepoints": 4,
+          "displayed_feature": "THE"
+        },
+        {
+          "stored_feature": "E SH",
+          "stored_codepoints": 4,
+          "displayed_feature": "E SH"
+        },
+        {
+          "stored_feature": " is ",
+          "stored_codepoints": 4,
+          "displayed_feature": "is"
+        },
+        {
+          "stored_feature": " IS ",
+          "stored_codepoints": 4,
+          "displayed_feature": "IS"
+        },
+        {
+          "stored_feature": " CAB",
+          "stored_codepoints": 4,
+          "displayed_feature": "CAB"
+        },
+        {
+          "stored_feature": "ABLE",
+          "stored_codepoints": 4,
+          "displayed_feature": "ABLE"
+        },
+        {
+          "stored_feature": "CABL",
+          "stored_codepoints": 4,
+          "displayed_feature": "CABL"
+        }
+      ],
+      "distinct_displayed_labels": 8
+    },
+    {
+      "n": 5,
+      "rows": [
+        {
+          "stored_feature": " the ",
+          "stored_codepoints": 5,
+          "displayed_feature": "the"
+        },
+        {
+          "stored_feature": " THE ",
+          "stored_codepoints": 5,
+          "displayed_feature": "THE"
+        },
+        {
+          "stored_feature": " CABL",
+          "stored_codepoints": 5,
+          "displayed_feature": "CABL"
+        },
+        {
+          "stored_feature": "CABLE",
+          "stored_codepoints": 5,
+          "displayed_feature": "CABLE"
+        },
+        {
+          "stored_feature": "ould ",
+          "stored_codepoints": 5,
+          "displayed_feature": "ould"
+        },
+        {
+          "stored_feature": "OULD ",
+          "stored_codepoints": 5,
+          "displayed_feature": "OULD"
+        },
+        {
+          "stored_feature": "ABLE ",
+          "stored_codepoints": 5,
+          "displayed_feature": "ABLE"
+        },
+        {
+          "stored_feature": "E CAB",
+          "stored_codepoints": 5,
+          "displayed_feature": "E CAB"
+        },
+        {
+          "stored_feature": "HE CA",
+          "stored_codepoints": 5,
+          "displayed_feature": "HE CA"
+        },
+        {
+          "stored_feature": "THE C",
+          "stored_codepoints": 5,
+          "displayed_feature": "THE C"
+        }
+      ],
+      "distinct_displayed_labels": 10
+    }
+  ],
+  "source_location": "reporting.py:304 passes md_text(feature_id) to _table; Markdown table parser trims structural whitespace."
+}

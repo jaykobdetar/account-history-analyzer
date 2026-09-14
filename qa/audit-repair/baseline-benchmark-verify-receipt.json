@@ -1,0 +1,18 @@
+{
+  "argv": [
+    "/tmp/ahas-pr383-install/bin/ahas",
+    "verify",
+    "--input",
+    "benchmarks/input/records.jsonl",
+    "--manifest",
+    "benchmarks/input/snapshot.json",
+    "--analysis-dir",
+    "benchmarks/audit-baseline-report",
+    "--recompute"
+  ],
+  "exit_code": 4,
+  "network_isolation": "linux_seccomp_socket_denial",
+  "results_bytes": 92001915,
+  "stderr": "benchmarks/audit-baseline-report/results.json: input_byte_limit: Input exceeds available byte budget 52428800\n",
+  "stdout": ""
+}

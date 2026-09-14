@@ -1,0 +1,11 @@
+{
+  "case": "edge_cases",
+  "fixture_version": "1.0.0",
+  "human_bot_or_ai_ground_truth": "not_applicable",
+  "label_type": "construction_operations_only",
+  "notes": "Valid input exercising missingness, supplied language, unsafe HTML/URLs, and pathlike IDs. Never execute or fetch any source content.",
+  "present_deleted_sentinel_records": 1,
+  "record_count": 6,
+  "removed_records": 1,
+  "valid_timestamp_count": 5
+}

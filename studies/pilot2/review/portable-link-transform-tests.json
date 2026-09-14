@@ -1,0 +1,803 @@
+{
+  "after_counts": {
+    "external_not_requested": 4,
+    "local_ok": 94
+  },
+  "before_counts": {
+    "external_not_requested": 4,
+    "local_ok": 79,
+    "outside_bundle": 13
+  },
+  "bundle": "/tmp/ahas-handoff-link-qa-gl009h0h/public-handoff-test",
+  "checked_links": [
+    {
+      "attribute": "href",
+      "document": "README.md",
+      "status": "local_ok",
+      "tag": "a",
+      "target": "review/REVIEW.html"
+    },
+    {
+      "attribute": "href",
+      "document": "README.md",
+      "status": "local_ok",
+      "tag": "a",
+      "target": "review/PAIRED_OUTCOMES.html"
+    },
+    {
+      "attribute": "href",
+      "document": "README.md",
+      "status": "local_ok",
+      "tag": "a",
+      "target": "review/STREAM_OUTCOMES.html"
+    },
+    {
+      "attribute": "href",
+      "document": "README.md",
+      "status": "local_ok",
+      "tag": "a",
+      "target": "review/PREPARATION_REVIEW.md"
+    },
+    {
+      "attribute": "href",
+      "document": "README.md",
+      "status": "local_ok",
+      "tag": "a",
+      "target": "review/RESOURCE_COST.md"
+    },
+    {
+      "attribute": "href",
+      "document": "README.md",
+      "status": "local_ok",
+      "tag": "a",
+      "target": "review/COMMANDS.md"
+    },
+    {
+      "attribute": "href",
+      "document": "README.md",
+      "status": "local_ok",
+      "tag": "a",
+      "target": "protocol/PROTOCOL.md"
+    },
+    {
+      "attribute": "href",
+      "document": "protocol/PROTOCOL.md",
+      "status": "external_not_requested",
+      "tag": "a",
+      "target": "https://convokit.cornell.edu/documentation/subreddit.html"
+    },
+    {
+      "attribute": "href",
+      "document": "protocol/PROTOCOL.md",
+      "status": "external_not_requested",
+      "tag": "a",
+      "target": "https://zissou.infosci.cornell.edu/convokit/datasets/subreddit-corpus/corpus-zipped/"
+    },
+    {
+      "attribute": "href",
+      "document": "review/COMMANDS.md",
+      "status": "local_ok",
+      "tag": "a",
+      "target": "../logs/approved-acquisition-network.receipt.json"
+    },
+    {
+      "attribute": "href",
+      "document": "review/COMMANDS.md",
+      "status": "local_ok",
+      "tag": "a",
+      "target": "../logs/approved-acquisition.receipt.json"
+    },
+    {
+      "attribute": "href",
+      "document": "review/COMMANDS.md",
+      "status": "local_ok",
+      "tag": "a",
+      "target": "../logs/audit-cap-and-joint-bridges.receipt.json"
+    },
+    {
+      "attribute": "href",
+      "document": "review/COMMANDS.md",
+      "status": "local_ok",
+      "tag": "a",
+      "target": "../logs/candidate-fidelity.receipt.json"
+    },
+    {
+      "attribute": "href",
+      "document": "review/COMMANDS.md",
+      "status": "local_ok",
+      "tag": "a",
+      "target": "../logs/chronological-capped-launch-regression.receipt.json"
+    },
+    {
+      "attribute": "href",
+      "document": "review/COMMANDS.md",
+      "status": "local_ok",
+      "tag": "a",
+      "target": "../logs/chronological-driver-tests.receipt.json"
+    },
+    {
+      "attribute": "href",
+      "document": "review/COMMANDS.md",
+      "status": "local_ok",
+      "tag": "a",
+      "target": "../logs/chronological-feature-contract-tests.receipt.json"
+    },
+    {
+      "attribute": "href",
+      "document": "review/COMMANDS.md",
+      "status": "local_ok",
+      "tag": "a",
+      "target": "../logs/chronological-final-guard-tests.receipt.json"
+    },
+    {
+      "attribute": "href",
+      "document": "review/COMMANDS.md",
+      "status": "local_ok",
+      "tag": "a",
+      "target": "../logs/chronological-final-preparation-tests.receipt.json"
+    },
+    {
+      "attribute": "href",
+      "document": "review/COMMANDS.md",
+      "status": "local_ok",
+      "tag": "a",
+      "target": "../logs/chronological-preparation-preflight-tests.receipt.json"
+    },
+    {
+      "attribute": "href",
+      "document": "review/COMMANDS.md",
+      "status": "local_ok",
+      "tag": "a",
+      "target": "../logs/chronological-preparation-retry.receipt.json"
+    },
+    {
+      "attribute": "href",
+      "document": "review/COMMANDS.md",
+      "status": "local_ok",
+      "tag": "a",
+      "target": "../logs/chronological-preparation.receipt.json"
+    },
+    {
+      "attribute": "href",
+      "document": "review/COMMANDS.md",
+      "status": "local_ok",
+      "tag": "a",
+      "target": "../logs/chronological-prepared-artifact-tests.receipt.json"
+    },
+    {
+      "attribute": "href",
+      "document": "review/COMMANDS.md",
+      "status": "local_ok",
+      "tag": "a",
+      "target": "../logs/chronological-pure-tests.receipt.json"
+    },
+    {
+      "attribute": "href",
+      "document": "review/COMMANDS.md",
+      "status": "local_ok",
+      "tag": "a",
+      "target": "../logs/exposed-development-profile.receipt.json"
+    },
+    {
+      "attribute": "href",
+      "document": "review/COMMANDS.md",
+      "status": "local_ok",
+      "tag": "a",
+      "target": "../logs/exposed-development-recompute.receipt.json"
+    },
+    {
+      "attribute": "href",
+      "document": "review/COMMANDS.md",
+      "status": "local_ok",
+      "tag": "a",
+      "target": "../logs/final-review-render.receipt.json"
+    },
+    {
+      "attribute": "href",
+      "document": "review/COMMANDS.md",
+      "status": "local_ok",
+      "tag": "a",
+      "target": "../logs/independent-pair-metrics.receipt.json"
+    },
+    {
+      "attribute": "href",
+      "document": "review/COMMANDS.md",
+      "status": "local_ok",
+      "tag": "a",
+      "target": "../logs/leakage-audit-tests-final.receipt.json"
+    },
+    {
+      "attribute": "href",
+      "document": "review/COMMANDS.md",
+      "status": "local_ok",
+      "tag": "a",
+      "target": "../logs/leakage-audit-tests-initial.receipt.json"
+    },
+    {
+      "attribute": "href",
+      "document": "review/COMMANDS.md",
+      "status": "local_ok",
+      "tag": "a",
+      "target": "../logs/leakage-audit-tests-memory-reporting.receipt.json"
+    },
+    {
+      "attribute": "href",
+      "document": "review/COMMANDS.md",
+      "status": "local_ok",
+      "tag": "a",
+      "target": "../logs/metric-oracle-tests.receipt.json"
+    },
+    {
+      "attribute": "href",
+      "document": "review/COMMANDS.md",
+      "status": "local_ok",
+      "tag": "a",
+      "target": "../logs/natural-canonical-recompute.receipt.json"
+    },
+    {
+      "attribute": "href",
+      "document": "review/COMMANDS.md",
+      "status": "local_ok",
+      "tag": "a",
+      "target": "../logs/paired-batch.receipt.json"
+    },
+    {
+      "attribute": "href",
+      "document": "review/COMMANDS.md",
+      "status": "local_ok",
+      "tag": "a",
+      "target": "../logs/paired-leakage-audit.receipt.json"
+    },
+    {
+      "attribute": "href",
+      "document": "review/COMMANDS.md",
+      "status": "local_ok",
+      "tag": "a",
+      "target": "../logs/paired-leakage-independent-check.receipt.json"
+    },
+    {
+      "attribute": "href",
+      "document": "review/COMMANDS.md",
+      "status": "local_ok",
+      "tag": "a",
+      "target": "../logs/paired-scoring-gate-directory-tests.receipt.json"
+    },
+    {
+      "attribute": "href",
+      "document": "review/COMMANDS.md",
+      "status": "local_ok",
+      "tag": "a",
+      "target": "../logs/paired-scoring-gate-tests.receipt.json"
+    },
+    {
+      "attribute": "href",
+      "document": "review/COMMANDS.md",
+      "status": "local_ok",
+      "tag": "a",
+      "target": "../logs/reproduction-comparison.receipt.json"
+    },
+    {
+      "attribute": "href",
+      "document": "review/COMMANDS.md",
+      "status": "local_ok",
+      "tag": "a",
+      "target": "../logs/saved-outcome-summary.receipt.json"
+    },
+    {
+      "attribute": "href",
+      "document": "review/COMMANDS.md",
+      "status": "local_ok",
+      "tag": "a",
+      "target": "../logs/scoring-freeze.receipt.json"
+    },
+    {
+      "attribute": "href",
+      "document": "review/COMMANDS.md",
+      "status": "local_ok",
+      "tag": "a",
+      "target": "../logs/splice-canonical-replay.receipt.json"
+    },
+    {
+      "attribute": "href",
+      "document": "review/COMMANDS.md",
+      "status": "local_ok",
+      "tag": "a",
+      "target": "../logs/stream-batch.receipt.json"
+    },
+    {
+      "attribute": "href",
+      "document": "review/COMMANDS.md",
+      "status": "local_ok",
+      "tag": "a",
+      "target": "../logs/study-tests-combined.receipt.json"
+    },
+    {
+      "attribute": "href",
+      "document": "review/COMMANDS.md",
+      "status": "local_ok",
+      "tag": "a",
+      "target": "../inventory/cornell-inventory.receipt.json"
+    },
+    {
+      "attribute": "href",
+      "document": "review/COMMANDS.md",
+      "status": "local_ok",
+      "tag": "a",
+      "target": "../inventory/paired-adapter-final-tests.receipt.json"
+    },
+    {
+      "attribute": "href",
+      "document": "review/COMMANDS.md",
+      "status": "local_ok",
+      "tag": "a",
+      "target": "../inventory/paired-adapter-tests.receipt.json"
+    },
+    {
+      "attribute": "href",
+      "document": "review/COMMANDS.md",
+      "status": "local_ok",
+      "tag": "a",
+      "target": "../inventory/paired-candidates.receipt.json"
+    },
+    {
+      "attribute": "href",
+      "document": "review/COMMANDS.md",
+      "status": "local_ok",
+      "tag": "a",
+      "target": "../inventory/paired-finalize-run.receipt.json"
+    },
+    {
+      "attribute": "href",
+      "document": "review/COMMANDS.md",
+      "status": "local_ok",
+      "tag": "a",
+      "target": "../inventory/paired-preflight-run.receipt.json"
+    },
+    {
+      "attribute": "href",
+      "document": "review/COMMANDS.md",
+      "status": "local_ok",
+      "tag": "a",
+      "target": "../inventory/paired-prepared-check-run.receipt.json"
+    },
+    {
+      "attribute": "href",
+      "document": "review/COMMANDS.md",
+      "status": "local_ok",
+      "tag": "a",
+      "target": "../inventory/paired-registered-candidates-run.receipt.json"
+    },
+    {
+      "attribute": "href",
+      "document": "review/COMMANDS.md",
+      "status": "local_ok",
+      "tag": "a",
+      "target": "../inventory/paired-registered-finalize-run.receipt.json"
+    },
+    {
+      "attribute": "href",
+      "document": "review/COMMANDS.md",
+      "status": "local_ok",
+      "tag": "a",
+      "target": "../inventory/paired-registered-replay-check-run.receipt.json"
+    },
+    {
+      "attribute": "href",
+      "document": "review/COMMANDS.md",
+      "status": "local_ok",
+      "tag": "a",
+      "target": "../inventory/source-frame-run.receipt.json"
+    },
+    {
+      "attribute": "href",
+      "document": "review/COMMANDS.md",
+      "status": "local_ok",
+      "tag": "a",
+      "target": "../review/paired-replay-run.receipt.json"
+    },
+    {
+      "attribute": "href",
+      "document": "review/COMMANDS.md",
+      "status": "local_ok",
+      "tag": "a",
+      "target": "../review/postfreeze-manifest-check.receipt.json"
+    },
+    {
+      "attribute": "href",
+      "document": "review/COMMANDS.md",
+      "status": "local_ok",
+      "tag": "a",
+      "target": "../review/postfreeze-review-tests-final.receipt.json"
+    },
+    {
+      "attribute": "href",
+      "document": "review/COMMANDS.md",
+      "status": "local_ok",
+      "tag": "a",
+      "target": "../review/postfreeze-review-tests.receipt.json"
+    },
+    {
+      "attribute": "href",
+      "document": "review/COMMANDS.md",
+      "status": "local_ok",
+      "tag": "a",
+      "target": "../review/preparation-review-build.receipt.json"
+    },
+    {
+      "attribute": "href",
+      "document": "review/PAIRED_OUTCOMES.html",
+      "status": "local_ok",
+      "tag": "a",
+      "target": "pair-observations.json"
+    },
+    {
+      "attribute": "href",
+      "document": "review/PAIRED_OUTCOMES.html",
+      "status": "local_ok",
+      "tag": "a",
+      "target": "paired-outcomes.json"
+    },
+    {
+      "attribute": "href",
+      "document": "review/PAIRED_OUTCOMES.html",
+      "status": "local_ok",
+      "tag": "a",
+      "target": "paired-metrics.csv"
+    },
+    {
+      "attribute": "href",
+      "document": "review/PAIRED_OUTCOMES.md",
+      "status": "local_ok",
+      "tag": "a",
+      "target": "pair-observations.json"
+    },
+    {
+      "attribute": "href",
+      "document": "review/PAIRED_OUTCOMES.md",
+      "status": "local_ok",
+      "tag": "a",
+      "target": "paired-outcomes.json"
+    },
+    {
+      "attribute": "href",
+      "document": "review/PAIRED_OUTCOMES.md",
+      "status": "local_ok",
+      "tag": "a",
+      "target": "paired-metrics.csv"
+    },
+    {
+      "attribute": "href",
+      "document": "review/PREPARATION_REVIEW.md",
+      "status": "local_ok",
+      "tag": "a",
+      "target": "../protocol/registration.json"
+    },
+    {
+      "attribute": "href",
+      "document": "review/PREPARATION_REVIEW.md",
+      "status": "local_ok",
+      "tag": "a",
+      "target": "preparation-coverage.json"
+    },
+    {
+      "attribute": "href",
+      "document": "review/PREPARATION_REVIEW.md",
+      "status": "local_ok",
+      "tag": "a",
+      "target": "../inventory/paired-registered-replay.json"
+    },
+    {
+      "attribute": "href",
+      "document": "review/PREPARATION_REVIEW.md",
+      "status": "local_ok",
+      "tag": "a",
+      "target": "../inventory/paired-adapter-final-tests.receipt.json"
+    },
+    {
+      "attribute": "href",
+      "document": "review/PREPARATION_REVIEW.md",
+      "status": "local_ok",
+      "tag": "a",
+      "target": "../inventory/paired-preflight-run.receipt.json"
+    },
+    {
+      "attribute": "href",
+      "document": "review/PREPARATION_REVIEW.md",
+      "status": "local_ok",
+      "tag": "a",
+      "target": "../logs/candidate-fidelity.receipt.json"
+    },
+    {
+      "attribute": "href",
+      "document": "review/PREPARATION_REVIEW.md",
+      "status": "local_ok",
+      "tag": "a",
+      "target": "../inventory/paired-candidates.receipt.json"
+    },
+    {
+      "attribute": "href",
+      "document": "review/PREPARATION_REVIEW.md",
+      "status": "local_ok",
+      "tag": "a",
+      "target": "../inventory/paired-finalize-run.receipt.json"
+    },
+    {
+      "attribute": "href",
+      "document": "review/PREPARATION_REVIEW.md",
+      "status": "local_ok",
+      "tag": "a",
+      "target": "../inventory/paired-registered-candidates-run.receipt.json"
+    },
+    {
+      "attribute": "href",
+      "document": "review/PREPARATION_REVIEW.md",
+      "status": "local_ok",
+      "tag": "a",
+      "target": "../inventory/paired-registered-replay-check-run.receipt.json"
+    },
+    {
+      "attribute": "href",
+      "document": "review/PREPARATION_REVIEW.md",
+      "status": "local_ok",
+      "tag": "a",
+      "target": "../logs/paired-leakage-audit.receipt.json"
+    },
+    {
+      "attribute": "href",
+      "document": "review/PREPARATION_REVIEW.md",
+      "status": "local_ok",
+      "tag": "a",
+      "target": "../inventory/paired-registered-finalize-run.receipt.json"
+    },
+    {
+      "attribute": "href",
+      "document": "review/PREPARATION_REVIEW.md",
+      "status": "local_ok",
+      "tag": "a",
+      "target": "../inventory/paired-prepared-check-run.receipt.json"
+    },
+    {
+      "attribute": "href",
+      "document": "review/REVIEW.html",
+      "status": "local_ok",
+      "tag": "a",
+      "target": "PAIRED_OUTCOMES.html"
+    },
+    {
+      "attribute": "href",
+      "document": "review/REVIEW.html",
+      "status": "local_ok",
+      "tag": "a",
+      "target": "STREAM_OUTCOMES.html"
+    },
+    {
+      "attribute": "href",
+      "document": "review/REVIEW.html",
+      "status": "local_ok",
+      "tag": "a",
+      "target": "../diagnostics/GRID_DIAGNOSTICS.md"
+    },
+    {
+      "attribute": "href",
+      "document": "review/REVIEW.html",
+      "status": "external_not_requested",
+      "tag": "a",
+      "target": "https://convokit.cornell.edu/documentation/subreddit.html"
+    },
+    {
+      "attribute": "href",
+      "document": "review/REVIEW.html",
+      "status": "local_ok",
+      "tag": "a",
+      "target": "PREPARATION_REVIEW.md"
+    },
+    {
+      "attribute": "href",
+      "document": "review/REVIEW.html",
+      "status": "local_ok",
+      "tag": "a",
+      "target": "../protocol/PROTOCOL.md"
+    },
+    {
+      "attribute": "href",
+      "document": "review/REVIEW.html",
+      "status": "local_ok",
+      "tag": "a",
+      "target": "paired-leakage-review.md"
+    },
+    {
+      "attribute": "href",
+      "document": "review/REVIEW.html",
+      "status": "local_ok",
+      "tag": "a",
+      "target": "COMMANDS.md"
+    },
+    {
+      "attribute": "href",
+      "document": "review/REVIEW.html",
+      "status": "local_ok",
+      "tag": "a",
+      "target": "RESOURCE_COST.md"
+    },
+    {
+      "attribute": "href",
+      "document": "review/REVIEW.html",
+      "status": "local_ok",
+      "tag": "a",
+      "target": "../resources/RESOURCE_REVIEW.md"
+    },
+    {
+      "attribute": "href",
+      "document": "review/REVIEW.md",
+      "status": "local_ok",
+      "tag": "a",
+      "target": "PAIRED_OUTCOMES.html"
+    },
+    {
+      "attribute": "href",
+      "document": "review/REVIEW.md",
+      "status": "local_ok",
+      "tag": "a",
+      "target": "STREAM_OUTCOMES.html"
+    },
+    {
+      "attribute": "href",
+      "document": "review/REVIEW.md",
+      "status": "local_ok",
+      "tag": "a",
+      "target": "../diagnostics/GRID_DIAGNOSTICS.md"
+    },
+    {
+      "attribute": "href",
+      "document": "review/REVIEW.md",
+      "status": "external_not_requested",
+      "tag": "a",
+      "target": "https://convokit.cornell.edu/documentation/subreddit.html"
+    },
+    {
+      "attribute": "href",
+      "document": "review/REVIEW.md",
+      "status": "local_ok",
+      "tag": "a",
+      "target": "PREPARATION_REVIEW.md"
+    },
+    {
+      "attribute": "href",
+      "document": "review/REVIEW.md",
+      "status": "local_ok",
+      "tag": "a",
+      "target": "../protocol/PROTOCOL.md"
+    },
+    {
+      "attribute": "href",
+      "document": "review/REVIEW.md",
+      "status": "local_ok",
+      "tag": "a",
+      "target": "paired-leakage-review.md"
+    },
+    {
+      "attribute": "href",
+      "document": "review/REVIEW.md",
+      "status": "local_ok",
+      "tag": "a",
+      "target": "COMMANDS.md"
+    },
+    {
+      "attribute": "href",
+      "document": "review/REVIEW.md",
+      "status": "local_ok",
+      "tag": "a",
+      "target": "RESOURCE_COST.md"
+    },
+    {
+      "attribute": "href",
+      "document": "review/REVIEW.md",
+      "status": "local_ok",
+      "tag": "a",
+      "target": "../resources/RESOURCE_REVIEW.md"
+    }
+  ],
+  "documents_checked": 21,
+  "failures": [],
+  "frozen_numerical_or_source_files_edited": false,
+  "helper_sha256": "d4a71cb7d651d0750a0ccce9c79f8c730a0eaaf7f9ac4a5a4543657b02adea0e",
+  "mode": "staging_only_rewrite",
+  "modified_staging_files": [
+    {
+      "after_sha256": "4eb3d1699ba46106317a948a52d51798be2226f8292a0ea53e840eef65b705ab",
+      "before_sha256": "6cb568049c336b6d123749878784ff0d627742c779ff960f7bac495529779d5b",
+      "replacements": [
+        {
+          "new_target": "../protocol/registration.json",
+          "old_target": "/home/jaykob/.codex/visualizations/2026/09/13/01a09a32-1ca6-7983-93da-5f7da689ab16/ahas-pilot2-20260914/protocol/registration.json"
+        },
+        {
+          "new_target": "preparation-coverage.json",
+          "old_target": "/home/jaykob/.codex/visualizations/2026/09/13/01a09a32-1ca6-7983-93da-5f7da689ab16/ahas-pilot2-20260914/review/preparation-coverage.json"
+        },
+        {
+          "new_target": "../inventory/paired-registered-replay.json",
+          "old_target": "/home/jaykob/.codex/visualizations/2026/09/13/01a09a32-1ca6-7983-93da-5f7da689ab16/ahas-pilot2-20260914/inventory/paired-registered-replay.json"
+        },
+        {
+          "new_target": "../inventory/paired-adapter-final-tests.receipt.json",
+          "old_target": "/home/jaykob/.codex/visualizations/2026/09/13/01a09a32-1ca6-7983-93da-5f7da689ab16/ahas-pilot2-20260914/inventory/paired-adapter-final-tests.receipt.json"
+        },
+        {
+          "new_target": "../inventory/paired-preflight-run.receipt.json",
+          "old_target": "/home/jaykob/.codex/visualizations/2026/09/13/01a09a32-1ca6-7983-93da-5f7da689ab16/ahas-pilot2-20260914/inventory/paired-preflight-run.receipt.json"
+        },
+        {
+          "new_target": "../logs/candidate-fidelity.receipt.json",
+          "old_target": "/home/jaykob/.codex/visualizations/2026/09/13/01a09a32-1ca6-7983-93da-5f7da689ab16/ahas-pilot2-20260914/logs/candidate-fidelity.receipt.json"
+        },
+        {
+          "new_target": "../inventory/paired-candidates.receipt.json",
+          "old_target": "/home/jaykob/.codex/visualizations/2026/09/13/01a09a32-1ca6-7983-93da-5f7da689ab16/ahas-pilot2-20260914/inventory/paired-candidates.receipt.json"
+        },
+        {
+          "new_target": "../inventory/paired-finalize-run.receipt.json",
+          "old_target": "/home/jaykob/.codex/visualizations/2026/09/13/01a09a32-1ca6-7983-93da-5f7da689ab16/ahas-pilot2-20260914/inventory/paired-finalize-run.receipt.json"
+        },
+        {
+          "new_target": "../inventory/paired-registered-candidates-run.receipt.json",
+          "old_target": "/home/jaykob/.codex/visualizations/2026/09/13/01a09a32-1ca6-7983-93da-5f7da689ab16/ahas-pilot2-20260914/inventory/paired-registered-candidates-run.receipt.json"
+        },
+        {
+          "new_target": "../inventory/paired-registered-replay-check-run.receipt.json",
+          "old_target": "/home/jaykob/.codex/visualizations/2026/09/13/01a09a32-1ca6-7983-93da-5f7da689ab16/ahas-pilot2-20260914/inventory/paired-registered-replay-check-run.receipt.json"
+        },
+        {
+          "new_target": "../logs/paired-leakage-audit.receipt.json",
+          "old_target": "/home/jaykob/.codex/visualizations/2026/09/13/01a09a32-1ca6-7983-93da-5f7da689ab16/ahas-pilot2-20260914/logs/paired-leakage-audit.receipt.json"
+        },
+        {
+          "new_target": "../inventory/paired-registered-finalize-run.receipt.json",
+          "old_target": "/home/jaykob/.codex/visualizations/2026/09/13/01a09a32-1ca6-7983-93da-5f7da689ab16/ahas-pilot2-20260914/inventory/paired-registered-finalize-run.receipt.json"
+        },
+        {
+          "new_target": "../inventory/paired-prepared-check-run.receipt.json",
+          "old_target": "/home/jaykob/.codex/visualizations/2026/09/13/01a09a32-1ca6-7983-93da-5f7da689ab16/ahas-pilot2-20260914/inventory/paired-prepared-check-run.receipt.json"
+        }
+      ],
+      "staged_document": "review/PREPARATION_REVIEW.md"
+    },
+    {
+      "after_sha256": "25823c94718c4d7e9f4c44e29f0451e00fd45d4d032473fe61277790091f10bf",
+      "before_sha256": "163fd57326c42ed1400a5bddd9b72f8692eee6c89e82b02c2392e1cc7d8a29e9",
+      "reason": "Expose existing CSV promised by the main review; data unchanged",
+      "replacements": [
+        {
+          "new_text": "[paired-outcomes.json](paired-outcomes.json). Tabular ranking metrics are also available as [paired-metrics.csv](paired-metrics.csv).",
+          "old_text": "[paired-outcomes.json](paired-outcomes.json)."
+        }
+      ],
+      "staged_document": "review/PAIRED_OUTCOMES.md"
+    },
+    {
+      "after_sha256": "eaa9faaed56292c938ae971541b34d2511b1bd687c38d1ee0587c5b59795e4ec",
+      "before_sha256": "73490b46d692b5a1d5ebd845f013c078677923c9f2b09872372b3dd062eb17da",
+      "reason": "Expose existing CSV promised by the main review; data unchanged",
+      "replacements": [
+        {
+          "new_text": "<a href=\"paired-outcomes.json\">paired-outcomes.json</a>. Tabular ranking metrics are also available as <a href=\"paired-metrics.csv\">paired-metrics.csv</a>.",
+          "old_text": "<a href=\"paired-outcomes.json\">paired-outcomes.json</a>."
+        }
+      ],
+      "staged_document": "review/PAIRED_OUTCOMES.html"
+    }
+  ],
+  "network_used": false,
+  "originals_unchanged": true,
+  "requires_staging_manifest_refresh": true,
+  "status": "passed",
+  "temporary_test_bundle_removed": true,
+  "tests": {
+    "existing_csv_exposed_in_markdown_and_html": true,
+    "expected13absolute_links_rewritten": true,
+    "idempotence": true,
+    "no_missing_artifacts_or_fragments_after_transform": true,
+    "only_three_staged_documents_changed": true,
+    "original_staging_and_source_files_unchanged": true
+  }
+}

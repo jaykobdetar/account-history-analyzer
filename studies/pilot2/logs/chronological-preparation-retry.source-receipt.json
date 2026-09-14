@@ -1,0 +1,6 @@
+{
+  "actual_preparation_receipt_sha256": "a9f83b1272c8bed8759de791b001da9fceb86bba9e4b32eae47e16d5d739a4f6",
+  "executed_script_sha256": "664b58939bc8b03c656a58b0c4767f26cc5aacdae545f711acdc2de39de70a8a",
+  "prepared_inputs_or_selection_changed": false,
+  "status": "captured_after_success_before_guard_only_edit"
+}

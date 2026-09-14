@@ -1,0 +1,13 @@
+{
+  "final_sdist_sha256": "c8e5edda60430c4f305b863a727e55d65a2cb48d1dfb60fc9c1dc695c8eb3376",
+  "final_wheel_hashes": {
+    "dist/account_history_analyzer-1.0.2-py3-none-any.whl": "f0f1fdd9e07c29f35510d77a06fa8319ddd431d45accdfc380f587491e3b1eb6",
+    "qa/audit-repair/wheel-build-final/account_history_analyzer-1.0.2-py3-none-any.whl": "f0f1fdd9e07c29f35510d77a06fa8319ddd431d45accdfc380f587491e3b1eb6"
+  },
+  "implementation_fingerprint": "583043074c28db2c91b62c33dc0197a569e863f4c83a80197c509324d9cb4fac",
+  "matches_fresh_installed_tested_wheel": true,
+  "note": "Final documentation and validation scripts rebuilt into sdist; resulting wheel equals the independently installed and tested wheel. No additional numerical test run implied.",
+  "reference_environment": "CPython-3.12.3;Linux;x86_64;numpy=2.4.2;scipy=1.17.1;ruptures=1.1.10;markdown-it-py=3.0.0;jsonschema=4.26.0",
+  "sdist_source_files_compared": 209,
+  "status": "passed"
+}

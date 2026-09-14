@@ -1,0 +1,11 @@
+{
+  "status": "passed",
+  "archive_sha256": "c1f4985fb484698e055a8ee045b42b5ecfb7377b7958bfa2778a7b6e639564cb",
+  "archive_bytes": 34439072,
+  "members_checked": 1054,
+  "all_members_match_manifest": true,
+  "tested_production_wheel_sha256": "dd92aa29bfdf8631a8ac2a37948edcd573b31872cf97b49d43fc2930a3b43b51",
+  "private_input_or_map_paths_present": [],
+  "privacy_scope": "Package member-path and known private-dataset exclusion checks; private QA data resides outside repository",
+  "source_identity": "bfc989028bf2b47c506d1ba501287d4e362aadc25ca5c731c41e4b27a336e179"
+}

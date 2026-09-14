@@ -1,0 +1,20 @@
+{
+  "command": [
+    ".venv/bin/python",
+    "scripts/offline_exec.py",
+    ".venv/bin/python",
+    "/home/jaykob/.codex/visualizations/2026/09/13/01a09a32-1ca6-7983-93da-5f7da689ab16/ahas-pilot2-20260914/review/package_handoff.py",
+    "/home/jaykob/.codex/visualizations/2026/09/13/01a09a32-1ca6-7983-93da-5f7da689ab16/ahas-pilot2-20260914/public-handoff-final",
+    "/home/jaykob/.codex/visualizations/2026/09/13/01a09a32-1ca6-7983-93da-5f7da689ab16/ahas-pilot2-20260914/deliverables/AHAS_1.0.4_RW001_and_Pilot2_Review_20260914.zip",
+    "/home/jaykob/.codex/visualizations/2026/09/13/01a09a32-1ca6-7983-93da-5f7da689ab16/ahas-pilot2-20260914/deliverables/archive-verification.json"
+  ],
+  "cwd": "/home/jaykob/Downloads/Account_History_Analyzer_V1_Agent_Handoff/account_history_analyzer_v1",
+  "started_utc": "2026-09-14T20:15:14.397657+00:00",
+  "finished_utc": "2026-09-14T20:15:14.666377+00:00",
+  "exit_code": 0,
+  "wall_seconds": 0.268716279999353,
+  "peak_rss_kib": 29356,
+  "measurement_scope": "this command and descendants; separate from canonical results",
+  "stdout_sha256": "5b40ad49f6bd3a0677f0987235548cc04169b923182296aa580d434643469173",
+  "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+}

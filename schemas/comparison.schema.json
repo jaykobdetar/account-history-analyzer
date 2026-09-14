@@ -1,0 +1,123 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "AHAS V1 manual comparison",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "schema_version",
+    "left",
+    "right"
+  ],
+  "properties": {
+    "schema_version": {
+      "const": "1.0.0"
+    },
+    "left": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "start_utc": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "pattern": "^\\d{4}-\\d{2}-\\d{2}T\\d{2}:\\d{2}:\\d{2}(?:\\.\\d{1,6})?Z$",
+          "format": "date-time",
+          "default": null
+        },
+        "end_utc": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "pattern": "^\\d{4}-\\d{2}-\\d{2}T\\d{2}:\\d{2}:\\d{2}(?:\\.\\d{1,6})?Z$",
+          "format": "date-time",
+          "default": null
+        },
+        "ids": {
+          "type": [
+            "array",
+            "null"
+          ],
+          "items": {
+            "type": "string"
+          },
+          "uniqueItems": true,
+          "default": null
+        },
+        "kind": {
+          "enum": [
+            "comment",
+            "submission",
+            null
+          ],
+          "default": null
+        },
+        "subreddit": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "maxLength": 256,
+          "default": null
+        }
+      }
+    },
+    "right": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "start_utc": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "pattern": "^\\d{4}-\\d{2}-\\d{2}T\\d{2}:\\d{2}:\\d{2}(?:\\.\\d{1,6})?Z$",
+          "format": "date-time",
+          "default": null
+        },
+        "end_utc": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "pattern": "^\\d{4}-\\d{2}-\\d{2}T\\d{2}:\\d{2}:\\d{2}(?:\\.\\d{1,6})?Z$",
+          "format": "date-time",
+          "default": null
+        },
+        "ids": {
+          "type": [
+            "array",
+            "null"
+          ],
+          "items": {
+            "type": "string"
+          },
+          "uniqueItems": true,
+          "default": null
+        },
+        "kind": {
+          "enum": [
+            "comment",
+            "submission",
+            null
+          ],
+          "default": null
+        },
+        "subreddit": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "maxLength": 256,
+          "default": null
+        }
+      }
+    },
+    "allow_overlap": {
+      "type": "boolean",
+      "default": false
+    }
+  },
+  "$comment": "Selector fields intersect. Start is inclusive and end exclusive. Null means no filter. Validate interval order and overlap in code."
+}

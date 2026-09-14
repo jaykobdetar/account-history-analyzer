@@ -1,0 +1,30 @@
+{
+  "candidate_pool_sha256": "b498a3f7cd9c11c05abc8cc998e37d02a12a535edeba48a4dc13ee4a2eee78a6",
+  "candidate_summary_byte_identical": true,
+  "exact_plan_delta": [
+    {
+      "new_present": true,
+      "new_value": "Explicit non-presenttextNone contributes no observedtokens; annotate content-unobservable and available-retainedtext-only audit scope. A singleton does not prove missingtext independent. Missingbody without explicit nonpresentstatus is not_auditable.",
+      "old_present": false,
+      "old_value": null,
+      "path": "leakage.missing_content"
+    }
+  ],
+  "existing_audit_sha256": "726dcb928ec318b7af921d66fe5a64ab53a1d1c64cae666f532918fbcf886c85",
+  "failed_finalize_receipt_sha256": "15139c618b7f1b33e4cdbdc7bad85b6337156390a7f7d3c802c7351b2561ed49",
+  "historical_plan_identity_note": "The original selection plan_sha256 read the path at run completion; private/preparation-plan.json preserves the actual earlier in-memory plan. Only this preserved copy is used to identify that earlier plan.",
+  "historical_run_relabelled": false,
+  "historical_saved_plan_sha256": "7b7424bc80bc47abeee5f0d71db68ae2043d042c696abf342673b959d1f8450c",
+  "independent_preflight_sha256": "64cf7cdfac5d6116893b27f6c1da91415f08601c9462c305d52e7234db99af3a",
+  "old_candidate_started_utc": "2026-09-14T19:11:44.582168+00:00",
+  "old_directory": "prepared/paired",
+  "reason_for_new_directory": "Original finalize rejected a plan mismatch before writing units. Fresh replay uses the registered plan and preserves every earlier receipt and candidate file.",
+  "registered_plan_file_sha256": "26f4d551b4557886c6f67fe7484cd3d139b301ea68fa911a25f4c020f0ab82d8",
+  "registered_replay_directory": "prepared/paired-registered",
+  "registered_replay_started_utc": "2026-09-14T19:27:28.603163+00:00",
+  "registered_saved_plan_sha256": "43bb8b97ede53047b3a028531c6e24f5723c03fb7faeb4aa039465f7700221c3",
+  "registered_utc": "2026-09-14T19:11:48.324571+00:00",
+  "scores_computed": false,
+  "selected_metadata_and_ranks_exactly_equal": true,
+  "status": "passed"
+}

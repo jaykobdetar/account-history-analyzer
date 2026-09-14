@@ -1,0 +1,132 @@
+{
+  "cosine": [
+    {
+      "expected_distance": 0,
+      "x": [
+        1,
+        0
+      ],
+      "y": [
+        1,
+        0
+      ]
+    },
+    {
+      "expected_distance": 1,
+      "x": [
+        1,
+        0
+      ],
+      "y": [
+        0,
+        1
+      ]
+    },
+    {
+      "expected_distance": 0.29289321881345254,
+      "x": [
+        1,
+        0
+      ],
+      "y": [
+        1,
+        1
+      ]
+    }
+  ],
+  "delta": {
+    "expected_delta": 2,
+    "frequency_a": [
+      40,
+      140
+    ],
+    "frequency_b": [
+      60,
+      100
+    ],
+    "means": [
+      50,
+      100
+    ],
+    "stds": [
+      10,
+      20
+    ],
+    "vocabulary": [
+      "the",
+      "and"
+    ]
+  },
+  "jensen_shannon_base_2_distance": [
+    {
+      "expected_distance": 0,
+      "p": [
+        1,
+        0
+      ],
+      "q": [
+        1,
+        0
+      ]
+    },
+    {
+      "expected_distance": 1,
+      "p": [
+        1,
+        0
+      ],
+      "q": [
+        0,
+        1
+      ]
+    }
+  ],
+  "pelt_unscaled_l2": {
+    "expected_internal_boundaries": [
+      4
+    ],
+    "minimum_segment_size": 3,
+    "no_change_objective": 200,
+    "optimal_objective": 1,
+    "penalty_per_internal_change": 1,
+    "series": [
+      0,
+      0,
+      0,
+      0,
+      10,
+      10,
+      10,
+      10
+    ]
+  },
+  "purpose": "Hand-checkable expected values for low-level functions, below product minimum-text gates.",
+  "shingles": {
+    "containment_a_in_b": 0.6666666666666666,
+    "containment_b_in_a": 0.6666666666666666,
+    "intersection": 2,
+    "jaccard": 0.5,
+    "n": 5,
+    "set_size_a": 3,
+    "set_size_b": 3,
+    "tokens_a": [
+      "one",
+      "two",
+      "three",
+      "four",
+      "five",
+      "six",
+      "seven"
+    ],
+    "tokens_b": [
+      "one",
+      "two",
+      "three",
+      "four",
+      "five",
+      "six",
+      "eight"
+    ],
+    "union": 4
+  }
+}

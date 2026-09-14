@@ -1,0 +1,366 @@
+{
+  "cases": [
+    {
+      "links": [
+        {
+          "hostname": "example.org",
+          "source_field": "text",
+          "source_line_range": [
+            1,
+            1
+          ],
+          "status": "ok",
+          "url": "https://example.org"
+        },
+        {
+          "hostname": "example.org",
+          "source_field": "text",
+          "source_line_range": [
+            1,
+            1
+          ],
+          "status": "ok",
+          "url": "https://example.org"
+        }
+      ],
+      "name": "mixed_same_host",
+      "segments": [
+        {
+          "normalized_end": 4,
+          "normalized_start": 0,
+          "source_field": "text",
+          "source_line_range": [
+            1,
+            1
+          ],
+          "source_record_id": "r",
+          "text": "Read"
+        },
+        {
+          "normalized_end": 11,
+          "normalized_start": 0,
+          "source_field": "text",
+          "source_line_range": [
+            1,
+            1
+          ],
+          "source_record_id": "r",
+          "text": "for details"
+        }
+      ],
+      "source": "[Read https://example.org for details](https://example.org)",
+      "structure": {
+        "headings": 0,
+        "links": 2,
+        "list_items": 0,
+        "mentions": 0,
+        "paragraphs": 1,
+        "removed_code_spans": 0,
+        "removed_quote_spans": 0,
+        "removed_url_spans": 1
+      }
+    },
+    {
+      "links": [
+        {
+          "hostname": "destination.test",
+          "source_field": "text",
+          "source_line_range": [
+            1,
+            1
+          ],
+          "status": "ok",
+          "url": "https://destination.test"
+        },
+        {
+          "hostname": "label.test",
+          "source_field": "text",
+          "source_line_range": [
+            1,
+            1
+          ],
+          "status": "ok",
+          "url": "https://label.test"
+        }
+      ],
+      "name": "mixed_different_host",
+      "segments": [
+        {
+          "normalized_end": 4,
+          "normalized_start": 0,
+          "source_field": "text",
+          "source_line_range": [
+            1,
+            1
+          ],
+          "source_record_id": "r",
+          "text": "Read"
+        },
+        {
+          "normalized_end": 11,
+          "normalized_start": 0,
+          "source_field": "text",
+          "source_line_range": [
+            1,
+            1
+          ],
+          "source_record_id": "r",
+          "text": "for details"
+        }
+      ],
+      "source": "[Read https://label.test for details](https://destination.test)",
+      "structure": {
+        "headings": 0,
+        "links": 2,
+        "list_items": 0,
+        "mentions": 0,
+        "paragraphs": 1,
+        "removed_code_spans": 0,
+        "removed_quote_spans": 0,
+        "removed_url_spans": 1
+      }
+    },
+    {
+      "links": [
+        {
+          "hostname": "example.org",
+          "source_field": "text",
+          "source_line_range": [
+            1,
+            1
+          ],
+          "status": "ok",
+          "url": "https://example.org"
+        },
+        {
+          "hostname": "example.org",
+          "source_field": "text",
+          "source_line_range": [
+            1,
+            1
+          ],
+          "status": "ok",
+          "url": "https://example.org"
+        }
+      ],
+      "name": "formatted_label",
+      "segments": [
+        {
+          "normalized_end": 4,
+          "normalized_start": 0,
+          "source_field": "text",
+          "source_line_range": [
+            1,
+            1
+          ],
+          "source_record_id": "r",
+          "text": "Read"
+        },
+        {
+          "normalized_end": 11,
+          "normalized_start": 0,
+          "source_field": "text",
+          "source_line_range": [
+            1,
+            1
+          ],
+          "source_record_id": "r",
+          "text": "for details"
+        }
+      ],
+      "source": "[**Read** https://example.org for _details_](https://example.org)",
+      "structure": {
+        "headings": 0,
+        "links": 2,
+        "list_items": 0,
+        "mentions": 0,
+        "paragraphs": 1,
+        "removed_code_spans": 0,
+        "removed_quote_spans": 0,
+        "removed_url_spans": 1
+      }
+    },
+    {
+      "links": [
+        {
+          "hostname": "destination.test",
+          "source_field": "text",
+          "source_line_range": [
+            1,
+            1
+          ],
+          "status": "ok",
+          "url": "https://destination.test"
+        },
+        {
+          "hostname": "label.test",
+          "source_field": "text",
+          "source_line_range": [
+            1,
+            1
+          ],
+          "status": "ok",
+          "url": "https://label.test"
+        }
+      ],
+      "name": "code_label",
+      "segments": [
+        {
+          "normalized_end": 4,
+          "normalized_start": 0,
+          "source_field": "text",
+          "source_line_range": [
+            1,
+            1
+          ],
+          "source_record_id": "r",
+          "text": "Read"
+        },
+        {
+          "normalized_end": 11,
+          "normalized_start": 0,
+          "source_field": "text",
+          "source_line_range": [
+            1,
+            1
+          ],
+          "source_record_id": "r",
+          "text": "for details"
+        }
+      ],
+      "source": "[Read `https://label.test` for details](https://destination.test)",
+      "structure": {
+        "headings": 0,
+        "links": 2,
+        "list_items": 0,
+        "mentions": 0,
+        "paragraphs": 1,
+        "removed_code_spans": 1,
+        "removed_quote_spans": 0,
+        "removed_url_spans": 0
+      }
+    },
+    {
+      "links": [
+        {
+          "hostname": "example.org",
+          "source_field": "text",
+          "source_line_range": [
+            1,
+            1
+          ],
+          "status": "ok",
+          "url": "https://example.org"
+        }
+      ],
+      "name": "quote_label",
+      "segments": [],
+      "source": "> [Read https://example.org for details](https://example.org)",
+      "structure": {
+        "headings": 0,
+        "links": 1,
+        "list_items": 0,
+        "mentions": 0,
+        "paragraphs": 0,
+        "removed_code_spans": 0,
+        "removed_quote_spans": 1,
+        "removed_url_spans": 0
+      }
+    },
+    {
+      "links": [
+        {
+          "hostname": "example.org",
+          "source_field": "text",
+          "source_line_range": [
+            1,
+            1
+          ],
+          "status": "ok",
+          "url": "https://example.org"
+        },
+        {
+          "hostname": "example.org",
+          "source_field": "text",
+          "source_line_range": [
+            1,
+            1
+          ],
+          "status": "ok",
+          "url": "https://example.org"
+        },
+        {
+          "hostname": "example.org",
+          "source_field": "text",
+          "source_line_range": [
+            1,
+            1
+          ],
+          "status": "ok",
+          "url": "https://example.org"
+        },
+        {
+          "hostname": "example.org",
+          "source_field": "text",
+          "source_line_range": [
+            1,
+            1
+          ],
+          "status": "ok",
+          "url": "https://example.org"
+        }
+      ],
+      "name": "independent_links",
+      "segments": [
+        {
+          "normalized_end": 3,
+          "normalized_start": 0,
+          "source_field": "text",
+          "source_line_range": [
+            1,
+            1
+          ],
+          "source_record_id": "r",
+          "text": "One"
+        },
+        {
+          "normalized_end": 9,
+          "normalized_start": 0,
+          "source_field": "text",
+          "source_line_range": [
+            1,
+            1
+          ],
+          "source_record_id": "r",
+          "text": "label Two"
+        },
+        {
+          "normalized_end": 6,
+          "normalized_start": 0,
+          "source_field": "text",
+          "source_line_range": [
+            1,
+            1
+          ],
+          "source_record_id": "r",
+          "text": "labels"
+        }
+      ],
+      "source": "[One https://example.org label](https://example.org) [Two https://example.org labels](https://example.org)",
+      "structure": {
+        "headings": 0,
+        "links": 4,
+        "list_items": 0,
+        "mentions": 0,
+        "paragraphs": 1,
+        "removed_code_spans": 0,
+        "removed_quote_spans": 0,
+        "removed_url_spans": 2
+      }
+    }
+  ],
+  "markdown_it_py": "3.0.0",
+  "module_file": "/tmp/ahas-pr383-install/lib/python3.12/site-packages/account_history_analyzer/__init__.py",
+  "package_version": "1.0.1",
+  "python": "3.12.3 (main, Aug 31 2026, 10:18:26) [GCC 13.3.0]"
+}

@@ -1,0 +1,17 @@
+{
+  "purpose": "Public presentation-only regression constructions. These stored result cases are not numerical oracles or authorship truth. All source records are artificial and generated independently of these case labels.",
+  "cases": {
+    "alternative_only": {
+      "primary": [],
+      "alternative": [3],
+      "matched_pairs": [],
+      "unmatched_setting": [3]
+    },
+    "matched_plus_extra": {
+      "primary": [3],
+      "alternative": [3, 7],
+      "matched_pairs": [[3, 3]],
+      "unmatched_setting": [7]
+    }
+  }
+}

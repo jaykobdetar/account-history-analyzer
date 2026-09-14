@@ -1,0 +1,100 @@
+{
+  "files": [
+    {
+      "bytes": 2863,
+      "file": "arithmetic.jsonl",
+      "sha256": "6d3ff72d10382dd80d04d8a9e8dde3d6efd4c1bc6d6812c661cd75b9442c345b"
+    },
+    {
+      "bytes": 715,
+      "file": "arithmetic.snapshot.json",
+      "sha256": "20d1b82e0cd67e472f606e9ceb94e4f7faf1f6606dfb8efca381c230759dad82"
+    },
+    {
+      "bytes": 1677,
+      "file": "arithmetic.truth.json",
+      "sha256": "7771d2ff8c546e914d10b755a76238918813ae0b44b81b3efa928d42c374c229"
+    },
+    {
+      "bytes": 280640,
+      "file": "constructed_style_shift.jsonl",
+      "sha256": "d35cd0bb385d35987ec01db5fcd2766faa083cb05d886d8b51457ac513e57e62"
+    },
+    {
+      "bytes": 738,
+      "file": "constructed_style_shift.snapshot.json",
+      "sha256": "5ac6a55a78672357b1588f1b1e8bb864a5b0602d6b480a6ebee79ed63c00976e"
+    },
+    {
+      "bytes": 614,
+      "file": "constructed_style_shift.truth.json",
+      "sha256": "6e83311597cb6736075e9317f050508d106fbcb487518fd249f18630b5de4c4a"
+    },
+    {
+      "bytes": 280320,
+      "file": "constructed_topic_shift.jsonl",
+      "sha256": "1bd2a2ecb036e970a015b83821fcd8d18beb2e50461213380554b81b4e0869c4"
+    },
+    {
+      "bytes": 738,
+      "file": "constructed_topic_shift.snapshot.json",
+      "sha256": "dab434ae59b950aa6949feb3b6a1f4a3299a69957d17996c3d5ac8598ca428ff"
+    },
+    {
+      "bytes": 668,
+      "file": "constructed_topic_shift.truth.json",
+      "sha256": "83d4380d50305d0aab3150c4e9bb09af9dbbe7998dbd6acb328c813231415e53"
+    },
+    {
+      "bytes": 2427,
+      "file": "edge_cases.jsonl",
+      "sha256": "6a81a7fb1dd1bab8bae31e8b64bd4a4813887d42227a24872c3fcbc95ba600e5"
+    },
+    {
+      "bytes": 715,
+      "file": "edge_cases.snapshot.json",
+      "sha256": "73b5034785b6d8b607cad4f9fdb680f3725a9bdb6ddd765de9515d4b03bab2bf"
+    },
+    {
+      "bytes": 421,
+      "file": "edge_cases.truth.json",
+      "sha256": "3eb47708bd6f7dcb5f2584b904e3de238d2c2963a11a064d14e9959372411f36"
+    },
+    {
+      "bytes": 0,
+      "file": "empty.jsonl",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "bytes": 666,
+      "file": "empty.snapshot.json",
+      "sha256": "411fad8d19b2c120881ff1f15ac0f60203190788a598b721f719888c19243ce0"
+    },
+    {
+      "bytes": 312,
+      "file": "empty.truth.json",
+      "sha256": "24f82ceeeb0f38030f3254bfe941ffebdd9d283b91d6cf78e5d0806189d8699b"
+    },
+    {
+      "bytes": 1874,
+      "file": "numerical_oracles.json",
+      "sha256": "424108b1720868026d41ae889fa0b0cf8373681b1e7217215db43171e279dc58"
+    },
+    {
+      "bytes": 281280,
+      "file": "stable_constructed_style.jsonl",
+      "sha256": "eab5e7534d2fa7cc761f3685cdb77f50c89346d7f68eb81ef79e568de49ebc0f"
+    },
+    {
+      "bytes": 740,
+      "file": "stable_constructed_style.snapshot.json",
+      "sha256": "a4390151cef666ae8252c69ad338e2bdccfa2426e966bb362dc9179f4bc8507c"
+    },
+    {
+      "bytes": 631,
+      "file": "stable_constructed_style.truth.json",
+      "sha256": "837e10bbbae568ea5c66e4d49b9ce4e9473c9d7b1cbcf8137f61880b38318d43"
+    }
+  ],
+  "fixture_version": "1.0.0"
+}
