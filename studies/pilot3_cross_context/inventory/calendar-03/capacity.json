@@ -1,0 +1,454 @@
+{
+  "disjoint_capacity": {
+    "assignment_role": "capacity_witness_not_final_cohort_selection",
+    "quota_counts": {
+      "ApplyingToCollege / college": 12,
+      "AskAcademia / GradSchool": 20,
+      "AskPhysics / Physics": 20
+    },
+    "tie_rule": "maximum_accounts_then_leximin_quotas_then_sorted_stratum_quotas",
+    "total_accounts": 52,
+    "total_blocks": 26
+  },
+  "eligible_metadata_rows": 364018,
+  "final_cohort_selected": false,
+  "full_target_feasible_triple_count": 0,
+  "gate_a_status": "failed_capacity",
+  "leakage_audit_status": "not_run; capacities precede contamination filtering",
+  "metadata_rows_read": 525505,
+  "pair_capacities": {
+    "ApplyingToCollege / AskAcademia": {
+      "chosen_calendar_scheme": {
+        "early": [
+          "2008-01-01",
+          "2018-05-22"
+        ],
+        "id": "utc_midnight_2018-05-22",
+        "late": [
+          "2018-05-22",
+          "2018-11-01"
+        ]
+      },
+      "maximum_four_cell_accounts": 3,
+      "prior_capacity_inspected_accounts": 3
+    },
+    "ApplyingToCollege / AskPhysics": {
+      "chosen_calendar_scheme": {
+        "early": [
+          "2008-01-01",
+          "2018-02-09"
+        ],
+        "id": "utc_midnight_2018-02-09",
+        "late": [
+          "2018-02-09",
+          "2018-11-01"
+        ]
+      },
+      "maximum_four_cell_accounts": 3,
+      "prior_capacity_inspected_accounts": 2
+    },
+    "ApplyingToCollege / Cornell": {
+      "chosen_calendar_scheme": {
+        "early": [
+          "2008-01-01",
+          "2017-06-21"
+        ],
+        "id": "utc_midnight_2017-06-21",
+        "late": [
+          "2017-06-21",
+          "2018-11-01"
+        ]
+      },
+      "maximum_four_cell_accounts": 1,
+      "prior_capacity_inspected_accounts": 1
+    },
+    "ApplyingToCollege / GradSchool": {
+      "chosen_calendar_scheme": {
+        "early": [
+          "2008-01-01",
+          "2017-12-23"
+        ],
+        "id": "utc_midnight_2017-12-23",
+        "late": [
+          "2017-12-23",
+          "2018-11-01"
+        ]
+      },
+      "maximum_four_cell_accounts": 2,
+      "prior_capacity_inspected_accounts": 2
+    },
+    "ApplyingToCollege / PhD": {
+      "chosen_calendar_scheme": {
+        "early": [
+          "2008-01-01",
+          "2013-06-01"
+        ],
+        "id": "utc_midnight_2013-06-01",
+        "late": [
+          "2013-06-01",
+          "2018-11-01"
+        ]
+      },
+      "maximum_four_cell_accounts": 0,
+      "prior_capacity_inspected_accounts": 0
+    },
+    "ApplyingToCollege / Physics": {
+      "chosen_calendar_scheme": {
+        "early": [
+          "2008-01-01",
+          "2017-12-13"
+        ],
+        "id": "utc_midnight_2017-12-13",
+        "late": [
+          "2017-12-13",
+          "2018-11-01"
+        ]
+      },
+      "maximum_four_cell_accounts": 2,
+      "prior_capacity_inspected_accounts": 2
+    },
+    "ApplyingToCollege / college": {
+      "chosen_calendar_scheme": {
+        "early": [
+          "2008-01-01",
+          "2017-05-05"
+        ],
+        "id": "utc_midnight_2017-05-05",
+        "late": [
+          "2017-05-05",
+          "2018-11-01"
+        ]
+      },
+      "maximum_four_cell_accounts": 12,
+      "prior_capacity_inspected_accounts": 3
+    },
+    "AskAcademia / AskPhysics": {
+      "chosen_calendar_scheme": {
+        "early": [
+          "2008-01-01",
+          "2014-12-23"
+        ],
+        "id": "utc_midnight_2014-12-23",
+        "late": [
+          "2014-12-23",
+          "2018-11-01"
+        ]
+      },
+      "maximum_four_cell_accounts": 5,
+      "prior_capacity_inspected_accounts": 0
+    },
+    "AskAcademia / Cornell": {
+      "chosen_calendar_scheme": {
+        "early": [
+          "2008-01-01",
+          "2013-06-01"
+        ],
+        "id": "utc_midnight_2013-06-01",
+        "late": [
+          "2013-06-01",
+          "2018-11-01"
+        ]
+      },
+      "maximum_four_cell_accounts": 0,
+      "prior_capacity_inspected_accounts": 0
+    },
+    "AskAcademia / GradSchool": {
+      "chosen_calendar_scheme": {
+        "early": [
+          "2008-01-01",
+          "2015-10-06"
+        ],
+        "id": "utc_midnight_2015-10-06",
+        "late": [
+          "2015-10-06",
+          "2018-11-01"
+        ]
+      },
+      "maximum_four_cell_accounts": 39,
+      "prior_capacity_inspected_accounts": 1
+    },
+    "AskAcademia / PhD": {
+      "chosen_calendar_scheme": {
+        "early": [
+          "2008-01-01",
+          "2017-02-03"
+        ],
+        "id": "utc_midnight_2017-02-03",
+        "late": [
+          "2017-02-03",
+          "2018-11-01"
+        ]
+      },
+      "maximum_four_cell_accounts": 2,
+      "prior_capacity_inspected_accounts": 0
+    },
+    "AskAcademia / Physics": {
+      "chosen_calendar_scheme": {
+        "early": [
+          "2008-01-01",
+          "2015-02-17"
+        ],
+        "id": "utc_midnight_2015-02-17",
+        "late": [
+          "2015-02-17",
+          "2018-11-01"
+        ]
+      },
+      "maximum_four_cell_accounts": 6,
+      "prior_capacity_inspected_accounts": 0
+    },
+    "AskAcademia / college": {
+      "chosen_calendar_scheme": {
+        "early": [
+          "2008-01-01",
+          "2015-12-01"
+        ],
+        "id": "utc_midnight_2015-12-01",
+        "late": [
+          "2015-12-01",
+          "2018-11-01"
+        ]
+      },
+      "maximum_four_cell_accounts": 6,
+      "prior_capacity_inspected_accounts": 2
+    },
+    "AskPhysics / Cornell": {
+      "chosen_calendar_scheme": {
+        "early": [
+          "2008-01-01",
+          "2013-06-01"
+        ],
+        "id": "utc_midnight_2013-06-01",
+        "late": [
+          "2013-06-01",
+          "2018-11-01"
+        ]
+      },
+      "maximum_four_cell_accounts": 0,
+      "prior_capacity_inspected_accounts": 0
+    },
+    "AskPhysics / GradSchool": {
+      "chosen_calendar_scheme": {
+        "early": [
+          "2008-01-01",
+          "2015-10-08"
+        ],
+        "id": "utc_midnight_2015-10-08",
+        "late": [
+          "2015-10-08",
+          "2018-11-01"
+        ]
+      },
+      "maximum_four_cell_accounts": 2,
+      "prior_capacity_inspected_accounts": 0
+    },
+    "AskPhysics / PhD": {
+      "chosen_calendar_scheme": {
+        "early": [
+          "2008-01-01",
+          "2013-06-01"
+        ],
+        "id": "utc_midnight_2013-06-01",
+        "late": [
+          "2013-06-01",
+          "2018-11-01"
+        ]
+      },
+      "maximum_four_cell_accounts": 0,
+      "prior_capacity_inspected_accounts": 0
+    },
+    "AskPhysics / Physics": {
+      "chosen_calendar_scheme": {
+        "early": [
+          "2008-01-01",
+          "2015-09-20"
+        ],
+        "id": "utc_midnight_2015-09-20",
+        "late": [
+          "2015-09-20",
+          "2018-11-01"
+        ]
+      },
+      "maximum_four_cell_accounts": 36,
+      "prior_capacity_inspected_accounts": 0
+    },
+    "AskPhysics / college": {
+      "chosen_calendar_scheme": {
+        "early": [
+          "2008-01-01",
+          "2017-12-28"
+        ],
+        "id": "utc_midnight_2017-12-28",
+        "late": [
+          "2017-12-28",
+          "2018-11-01"
+        ]
+      },
+      "maximum_four_cell_accounts": 2,
+      "prior_capacity_inspected_accounts": 2
+    },
+    "Cornell / GradSchool": {
+      "chosen_calendar_scheme": {
+        "early": [
+          "2008-01-01",
+          "2013-06-01"
+        ],
+        "id": "utc_midnight_2013-06-01",
+        "late": [
+          "2013-06-01",
+          "2018-11-01"
+        ]
+      },
+      "maximum_four_cell_accounts": 0,
+      "prior_capacity_inspected_accounts": 0
+    },
+    "Cornell / PhD": {
+      "chosen_calendar_scheme": {
+        "early": [
+          "2008-01-01",
+          "2013-06-01"
+        ],
+        "id": "utc_midnight_2013-06-01",
+        "late": [
+          "2013-06-01",
+          "2018-11-01"
+        ]
+      },
+      "maximum_four_cell_accounts": 0,
+      "prior_capacity_inspected_accounts": 0
+    },
+    "Cornell / Physics": {
+      "chosen_calendar_scheme": {
+        "early": [
+          "2008-01-01",
+          "2013-06-01"
+        ],
+        "id": "utc_midnight_2013-06-01",
+        "late": [
+          "2013-06-01",
+          "2018-11-01"
+        ]
+      },
+      "maximum_four_cell_accounts": 0,
+      "prior_capacity_inspected_accounts": 0
+    },
+    "Cornell / college": {
+      "chosen_calendar_scheme": {
+        "early": [
+          "2008-01-01",
+          "2013-06-01"
+        ],
+        "id": "utc_midnight_2013-06-01",
+        "late": [
+          "2013-06-01",
+          "2018-11-01"
+        ]
+      },
+      "maximum_four_cell_accounts": 0,
+      "prior_capacity_inspected_accounts": 0
+    },
+    "GradSchool / PhD": {
+      "chosen_calendar_scheme": {
+        "early": [
+          "2008-01-01",
+          "2016-12-19"
+        ],
+        "id": "utc_midnight_2016-12-19",
+        "late": [
+          "2016-12-19",
+          "2018-11-01"
+        ]
+      },
+      "maximum_four_cell_accounts": 4,
+      "prior_capacity_inspected_accounts": 0
+    },
+    "GradSchool / Physics": {
+      "chosen_calendar_scheme": {
+        "early": [
+          "2008-01-01",
+          "2014-04-29"
+        ],
+        "id": "utc_midnight_2014-04-29",
+        "late": [
+          "2014-04-29",
+          "2018-11-01"
+        ]
+      },
+      "maximum_four_cell_accounts": 5,
+      "prior_capacity_inspected_accounts": 0
+    },
+    "GradSchool / college": {
+      "chosen_calendar_scheme": {
+        "early": [
+          "2008-01-01",
+          "2015-04-29"
+        ],
+        "id": "utc_midnight_2015-04-29",
+        "late": [
+          "2015-04-29",
+          "2018-11-01"
+        ]
+      },
+      "maximum_four_cell_accounts": 6,
+      "prior_capacity_inspected_accounts": 1
+    },
+    "PhD / Physics": {
+      "chosen_calendar_scheme": {
+        "early": [
+          "2008-01-01",
+          "2013-06-01"
+        ],
+        "id": "utc_midnight_2013-06-01",
+        "late": [
+          "2013-06-01",
+          "2018-11-01"
+        ]
+      },
+      "maximum_four_cell_accounts": 0,
+      "prior_capacity_inspected_accounts": 0
+    },
+    "PhD / college": {
+      "chosen_calendar_scheme": {
+        "early": [
+          "2008-01-01",
+          "2013-06-01"
+        ],
+        "id": "utc_midnight_2013-06-01",
+        "late": [
+          "2013-06-01",
+          "2018-11-01"
+        ]
+      },
+      "maximum_four_cell_accounts": 0,
+      "prior_capacity_inspected_accounts": 0
+    },
+    "Physics / college": {
+      "chosen_calendar_scheme": {
+        "early": [
+          "2008-01-01",
+          "2017-12-13"
+        ],
+        "id": "utc_midnight_2017-12-13",
+        "late": [
+          "2017-12-13",
+          "2018-11-01"
+        ]
+      },
+      "maximum_four_cell_accounts": 2,
+      "prior_capacity_inspected_accounts": 2
+    }
+  },
+  "phase": "metadata_only_calendar_refinement",
+  "planned_accounts": 60,
+  "planned_blocks": 30,
+  "preprocessing_calls": 0,
+  "scope": "All shared UTC midnight cuts inside [2008-01-01,2018-11-01); whole records and unchanged2000word/eightrecord fourcell guards.",
+  "selected_pair_strata": [
+    "ApplyingToCollege / college",
+    "AskAcademia / GradSchool",
+    "AskPhysics / Physics"
+  ],
+  "selection_reason": "full_target_infeasible_reduced_capacity_proposal_only",
+  "source_prose_reads": 0,
+  "style_scores_computed": 0
+}

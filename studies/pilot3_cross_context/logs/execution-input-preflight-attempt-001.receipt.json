@@ -1,0 +1,26 @@
+{
+  "argv": [
+    "env",
+    "PYTHONPATH=<PINNED_INSTALL>",
+    ".venv/bin/python",
+    "-c",
+    "import json,sys; from pathlib import Path; sys.path.insert(0,\"studies/pilot3_cross_context/scripts\"); import run_scoring as r; p=Path(\"<PRIVATE_STUDY>/prepared-01\"); before=r.sha(r.__file__); index=json.loads((p/\"batch-index.json\").read_bytes()); strata=r.validate_batches(p,index); counts=[sum(row[\"stratum_id\"]==s for row in index) for s in strata]; assert counts==[120,120,120]; assert len({row[\"batch_id\"] for row in index})==360; assert before==r.sha(r.__file__); print(json.dumps({\"status\":\"all_frozen_input_hashes_and_batch_design_verified\",\"batches\":len(index),\"strata\":len(strata),\"batches_per_stratum\":counts,\"fixed_first_stratum_replay_batches\":counts[0],\"unique_referenced_files\":len({k for row in index for k in row[\"input_hashes\"]}),\"batch_index_sha256\":r.sha(p/\"batch-index.json\"),\"reviewed_runner_sha256\":before,\"evaluator_invocations\":0,\"new_preprocessing_calls\":0,\"source_prose_displayed\":False},sort_keys=True))"
+  ],
+  "cwd": "<WORKSPACE>",
+  "started_utc": "2026-09-14T22:18:21.666087+00:00",
+  "finished_utc": "2026-09-14T22:18:23.698321+00:00",
+  "exit_code": 0,
+  "wall_seconds": 2.032236519997241,
+  "child_peak_rss_mib": 30.9140625,
+  "runner_sha256": "4d94adb7a06ec38cc6f5b4fe55f801e87bbdcff712139146d53f55a2928eb2a4",
+  "outputs": {
+    "stdout.log": {
+      "bytes": 484,
+      "sha256": "b2691ad82e029d8d65159528c6f93ac75e687bcf344b94a6c6cb13e6fe378cc7"
+    },
+    "stderr.log": {
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    }
+  }
+}

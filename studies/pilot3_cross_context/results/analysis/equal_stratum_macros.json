@@ -1,0 +1,290 @@
+[
+  {
+    "arm": "full",
+    "method_id": "cosine_distance_v1",
+    "n": 4,
+    "paired_context_change_equal_stratum_macro": {
+      "available_strata": 3,
+      "missing_strata": [],
+      "planned_strata": 3,
+      "reason": null,
+      "value": -0.05
+    },
+    "primary_cross_equal_stratum_macro": {
+      "available_strata": 3,
+      "missing_strata": [],
+      "planned_strata": 3,
+      "reason": null,
+      "value": 0.7916666666666666
+    },
+    "view": "retained_prose"
+  },
+  {
+    "arm": "hash75",
+    "method_id": "cosine_distance_v1",
+    "n": 4,
+    "paired_context_change_equal_stratum_macro": {
+      "available_strata": 3,
+      "missing_strata": [],
+      "planned_strata": 3,
+      "reason": null,
+      "value": -0.060515873015873016
+    },
+    "primary_cross_equal_stratum_macro": {
+      "available_strata": 3,
+      "missing_strata": [],
+      "planned_strata": 3,
+      "reason": null,
+      "value": 0.746031746031746
+    },
+    "view": "retained_prose"
+  },
+  {
+    "arm": "hash50",
+    "method_id": "cosine_distance_v1",
+    "n": 4,
+    "paired_context_change_equal_stratum_macro": {
+      "available_strata": 0,
+      "missing_strata": [
+        "stratum-01",
+        "stratum-02",
+        "stratum-03"
+      ],
+      "planned_strata": 3,
+      "reason": "planned_strata_missing",
+      "value": null
+    },
+    "primary_cross_equal_stratum_macro": {
+      "available_strata": 0,
+      "missing_strata": [
+        "stratum-01",
+        "stratum-02",
+        "stratum-03"
+      ],
+      "planned_strata": 3,
+      "reason": "planned_strata_missing",
+      "value": null
+    },
+    "view": "retained_prose"
+  },
+  {
+    "arm": "middle50",
+    "method_id": "cosine_distance_v1",
+    "n": 4,
+    "paired_context_change_equal_stratum_macro": {
+      "available_strata": 0,
+      "missing_strata": [
+        "stratum-01",
+        "stratum-02",
+        "stratum-03"
+      ],
+      "planned_strata": 3,
+      "reason": "planned_strata_missing",
+      "value": null
+    },
+    "primary_cross_equal_stratum_macro": {
+      "available_strata": 0,
+      "missing_strata": [
+        "stratum-01",
+        "stratum-02",
+        "stratum-03"
+      ],
+      "planned_strata": 3,
+      "reason": "planned_strata_missing",
+      "value": null
+    },
+    "view": "retained_prose"
+  },
+  {
+    "arm": "full",
+    "method_id": "cosine_distance_v1",
+    "n": 4,
+    "paired_context_change_equal_stratum_macro": {
+      "available_strata": 3,
+      "missing_strata": [],
+      "planned_strata": 3,
+      "reason": null,
+      "value": -0.058333333333333334
+    },
+    "primary_cross_equal_stratum_macro": {
+      "available_strata": 3,
+      "missing_strata": [],
+      "planned_strata": 3,
+      "reason": null,
+      "value": 0.775
+    },
+    "view": "function_mask_v1"
+  },
+  {
+    "arm": "hash75",
+    "method_id": "cosine_distance_v1",
+    "n": 4,
+    "paired_context_change_equal_stratum_macro": {
+      "available_strata": 3,
+      "missing_strata": [],
+      "planned_strata": 3,
+      "reason": null,
+      "value": -0.04017857142857143
+    },
+    "primary_cross_equal_stratum_macro": {
+      "available_strata": 3,
+      "missing_strata": [],
+      "planned_strata": 3,
+      "reason": null,
+      "value": 0.7271825396825397
+    },
+    "view": "function_mask_v1"
+  },
+  {
+    "arm": "hash50",
+    "method_id": "cosine_distance_v1",
+    "n": 4,
+    "paired_context_change_equal_stratum_macro": {
+      "available_strata": 0,
+      "missing_strata": [
+        "stratum-01",
+        "stratum-02",
+        "stratum-03"
+      ],
+      "planned_strata": 3,
+      "reason": "planned_strata_missing",
+      "value": null
+    },
+    "primary_cross_equal_stratum_macro": {
+      "available_strata": 0,
+      "missing_strata": [
+        "stratum-01",
+        "stratum-02",
+        "stratum-03"
+      ],
+      "planned_strata": 3,
+      "reason": "planned_strata_missing",
+      "value": null
+    },
+    "view": "function_mask_v1"
+  },
+  {
+    "arm": "middle50",
+    "method_id": "cosine_distance_v1",
+    "n": 4,
+    "paired_context_change_equal_stratum_macro": {
+      "available_strata": 0,
+      "missing_strata": [
+        "stratum-01",
+        "stratum-02",
+        "stratum-03"
+      ],
+      "planned_strata": 3,
+      "reason": "planned_strata_missing",
+      "value": null
+    },
+    "primary_cross_equal_stratum_macro": {
+      "available_strata": 0,
+      "missing_strata": [
+        "stratum-01",
+        "stratum-02",
+        "stratum-03"
+      ],
+      "planned_strata": 3,
+      "reason": "planned_strata_missing",
+      "value": null
+    },
+    "view": "function_mask_v1"
+  },
+  {
+    "arm": "full",
+    "method_id": "function_word_js_v1",
+    "n": null,
+    "paired_context_change_equal_stratum_macro": {
+      "available_strata": 3,
+      "missing_strata": [],
+      "planned_strata": 3,
+      "reason": null,
+      "value": -0.08333333333333334
+    },
+    "primary_cross_equal_stratum_macro": {
+      "available_strata": 3,
+      "missing_strata": [],
+      "planned_strata": 3,
+      "reason": null,
+      "value": 0.7666666666666666
+    },
+    "view": "lexical_tokens"
+  },
+  {
+    "arm": "hash75",
+    "method_id": "function_word_js_v1",
+    "n": null,
+    "paired_context_change_equal_stratum_macro": {
+      "available_strata": 3,
+      "missing_strata": [],
+      "planned_strata": 3,
+      "reason": null,
+      "value": -0.10515873015873016
+    },
+    "primary_cross_equal_stratum_macro": {
+      "available_strata": 3,
+      "missing_strata": [],
+      "planned_strata": 3,
+      "reason": null,
+      "value": 0.7400793650793651
+    },
+    "view": "lexical_tokens"
+  },
+  {
+    "arm": "hash50",
+    "method_id": "function_word_js_v1",
+    "n": null,
+    "paired_context_change_equal_stratum_macro": {
+      "available_strata": 0,
+      "missing_strata": [
+        "stratum-01",
+        "stratum-02",
+        "stratum-03"
+      ],
+      "planned_strata": 3,
+      "reason": "planned_strata_missing",
+      "value": null
+    },
+    "primary_cross_equal_stratum_macro": {
+      "available_strata": 0,
+      "missing_strata": [
+        "stratum-01",
+        "stratum-02",
+        "stratum-03"
+      ],
+      "planned_strata": 3,
+      "reason": "planned_strata_missing",
+      "value": null
+    },
+    "view": "lexical_tokens"
+  },
+  {
+    "arm": "middle50",
+    "method_id": "function_word_js_v1",
+    "n": null,
+    "paired_context_change_equal_stratum_macro": {
+      "available_strata": 0,
+      "missing_strata": [
+        "stratum-01",
+        "stratum-02",
+        "stratum-03"
+      ],
+      "planned_strata": 3,
+      "reason": "planned_strata_missing",
+      "value": null
+    },
+    "primary_cross_equal_stratum_macro": {
+      "available_strata": 0,
+      "missing_strata": [
+        "stratum-01",
+        "stratum-02",
+        "stratum-03"
+      ],
+      "planned_strata": 3,
+      "reason": "planned_strata_missing",
+      "value": null
+    },
+    "view": "lexical_tokens"
+  }
+]

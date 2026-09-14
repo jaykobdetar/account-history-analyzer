@@ -1,0 +1,2896 @@
+{
+  "canonical_artifact_comparisons": 360,
+  "checker_sha256": "6705be147b2ea92d746ea41441ad7a429ab64615c32e19fdd4c3019dff2ff413",
+  "comparisons": [
+    {
+      "artifact": "checksums.json",
+      "batch_id": "stratum-01-block-01-full-method-01",
+      "byte_identical": true,
+      "primary_sha256": "0d2483d48ed2cfd595d95abf1c2a881abdb0a0b18f9d4352af5b253dc95a56b4",
+      "recorded_output_binding_matches": true,
+      "replay_sha256": "0d2483d48ed2cfd595d95abf1c2a881abdb0a0b18f9d4352af5b253dc95a56b4"
+    },
+    {
+      "artifact": "evaluation.json",
+      "batch_id": "stratum-01-block-01-full-method-01",
+      "byte_identical": true,
+      "primary_sha256": "8e3d957baa695aae093e0538630acabcd2a90d5e8c261b45a5ed2312c857c5a4",
+      "recorded_output_binding_matches": true,
+      "replay_sha256": "8e3d957baa695aae093e0538630acabcd2a90d5e8c261b45a5ed2312c857c5a4"
+    },
+    {
+      "artifact": "report.md",
+      "batch_id": "stratum-01-block-01-full-method-01",
+      "byte_identical": true,
+      "primary_sha256": "7eb3d073f0f8e5c2effb474896d66ba6332b1e8e815ab44a7660ff55f3f2c6b6",
+      "recorded_output_binding_matches": true,
+      "replay_sha256": "7eb3d073f0f8e5c2effb474896d66ba6332b1e8e815ab44a7660ff55f3f2c6b6"
+    },
+    {
+      "artifact": "checksums.json",
+      "batch_id": "stratum-01-block-01-full-method-02",
+      "byte_identical": true,
+      "primary_sha256": "57b70f12d4740b12ebf0b484198f142a7559a3271fbd21a1fcc5d8edb092ecfa",
+      "recorded_output_binding_matches": true,
+      "replay_sha256": "57b70f12d4740b12ebf0b484198f142a7559a3271fbd21a1fcc5d8edb092ecfa"
+    },
+    {
+      "artifact": "evaluation.json",
+      "batch_id": "stratum-01-block-01-full-method-02",
+      "byte_identical": true,
+      "primary_sha256": "f7c78836b6c0816705a360984b11828c392160a33db436ab3ee344a2734e74dc",
+      "recorded_output_binding_matches": true,
+      "replay_sha256": "f7c78836b6c0816705a360984b11828c392160a33db436ab3ee344a2734e74dc"
+    },
+    {
+      "artifact": "report.md",
+      "batch_id": "stratum-01-block-01-full-method-02",
+      "byte_identical": true,
+      "primary_sha256": "3a03a0b7b4d2371f3a58c73e0412f99b4bd60c42ab6dd65d6925ac9b15c690b7",
+      "recorded_output_binding_matches": true,
+      "replay_sha256": "3a03a0b7b4d2371f3a58c73e0412f99b4bd60c42ab6dd65d6925ac9b15c690b7"
+    },
+    {
+      "artifact": "checksums.json",
+      "batch_id": "stratum-01-block-01-full-method-03",
+      "byte_identical": true,
+      "primary_sha256": "044b8883ed5c96189a06883a55a53abd43a5a05ee9a0ef9a6cfde9a67f54d041",
+      "recorded_output_binding_matches": true,
+      "replay_sha256": "044b8883ed5c96189a06883a55a53abd43a5a05ee9a0ef9a6cfde9a67f54d041"
+    },
+    {
+      "artifact": "evaluation.json",
+      "batch_id": "stratum-01-block-01-full-method-03",
+      "byte_identical": true,
+      "primary_sha256": "766c5d5d66b3007a80f98d6d40c2c83d017819cb2b89ac91c4587cd0871fbbb3",
+      "recorded_output_binding_matches": true,
+      "replay_sha256": "766c5d5d66b3007a80f98d6d40c2c83d017819cb2b89ac91c4587cd0871fbbb3"
+    },
+    {
+      "artifact": "report.md",
+      "batch_id": "stratum-01-block-01-full-method-03",
+      "byte_identical": true,
+      "primary_sha256": "5e716402c6518bab4a8d59e2fdd7e3aed71b8d9c0dd749a6f72f258dc7048cea",
+      "recorded_output_binding_matches": true,
+      "replay_sha256": "5e716402c6518bab4a8d59e2fdd7e3aed71b8d9c0dd749a6f72f258dc7048cea"
+    },
+    {
+      "artifact": "checksums.json",
+      "batch_id": "stratum-01-block-01-hash50-method-01",
+      "byte_identical": true,
+      "primary_sha256": "22d8f69c33f484c7c8fc579c28cd4617d92677f2655c144b64d52a70fcd9a3dd",
+      "recorded_output_binding_matches": true,
+      "replay_sha256": "22d8f69c33f484c7c8fc579c28cd4617d92677f2655c144b64d52a70fcd9a3dd"
+    },
+    {
+      "artifact": "evaluation.json",
+      "batch_id": "stratum-01-block-01-hash50-method-01",
+      "byte_identical": true,
+      "primary_sha256": "439c4e72390d38e11cbedf7aadb5c2461cb9772326b68f66c674f4ea312c22d3",
+      "recorded_output_binding_matches": true,
+      "replay_sha256": "439c4e72390d38e11cbedf7aadb5c2461cb9772326b68f66c674f4ea312c22d3"
+    },
+    {
+      "artifact": "report.md",
+      "batch_id": "stratum-01-block-01-hash50-method-01",
+      "byte_identical": true,
+      "primary_sha256": "0323f44eae19e7fcc14ee4f21310569c0a057852e57e5fe3f1fe43ae2f991036",
+      "recorded_output_binding_matches": true,
+      "replay_sha256": "0323f44eae19e7fcc14ee4f21310569c0a057852e57e5fe3f1fe43ae2f991036"
+    },
+    {
+      "artifact": "checksums.json",
+      "batch_id": "stratum-01-block-01-hash50-method-02",
+      "byte_identical": true,
+      "primary_sha256": "42c70a23e4f8ab66126e428d4157aad7f58828dbffbeae78ca0f37a96a2ff974",
+      "recorded_output_binding_matches": true,
+      "replay_sha256": "42c70a23e4f8ab66126e428d4157aad7f58828dbffbeae78ca0f37a96a2ff974"
+    },
+    {
+      "artifact": "evaluation.json",
+      "batch_id": "stratum-01-block-01-hash50-method-02",
+      "byte_identical": true,
+      "primary_sha256": "e343aaa48729f5defffe11501fd79a49371df5b0c93782206877ef61f66f8e75",
+      "recorded_output_binding_matches": true,
+      "replay_sha256": "e343aaa48729f5defffe11501fd79a49371df5b0c93782206877ef61f66f8e75"
+    },
+    {
+      "artifact": "report.md",
+      "batch_id": "stratum-01-block-01-hash50-method-02",
+      "byte_identical": true,
+      "primary_sha256": "dcaed6e20516cf2f4fda564015850fbb71c53ac5b00eb3078a8963a1e0334002",
+      "recorded_output_binding_matches": true,
+      "replay_sha256": "dcaed6e20516cf2f4fda564015850fbb71c53ac5b00eb3078a8963a1e0334002"
+    },
+    {
+      "artifact": "checksums.json",
+      "batch_id": "stratum-01-block-01-hash50-method-03",
+      "byte_identical": true,
+      "primary_sha256": "77925aee36329ecccb080c5a8d417014c243ce6ccccdbc303d55faecc2d51f33",
+      "recorded_output_binding_matches": true,
+      "replay_sha256": "77925aee36329ecccb080c5a8d417014c243ce6ccccdbc303d55faecc2d51f33"
+    },
+    {
+      "artifact": "evaluation.json",
+      "batch_id": "stratum-01-block-01-hash50-method-03",
+      "byte_identical": true,
+      "primary_sha256": "c377b9e1413a1770b7f935ac7b1323ec396858bfecc1d605bd6e09eb91985149",
+      "recorded_output_binding_matches": true,
+      "replay_sha256": "c377b9e1413a1770b7f935ac7b1323ec396858bfecc1d605bd6e09eb91985149"
+    },
+    {
+      "artifact": "report.md",
+      "batch_id": "stratum-01-block-01-hash50-method-03",
+      "byte_identical": true,
+      "primary_sha256": "7ae96abd3fa69b24ef49a66fb048818940c5e3bd82c1ec24a1c7b9fdb0ca842f",
+      "recorded_output_binding_matches": true,
+      "replay_sha256": "7ae96abd3fa69b24ef49a66fb048818940c5e3bd82c1ec24a1c7b9fdb0ca842f"
+    },
+    {
+      "artifact": "checksums.json",
+      "batch_id": "stratum-01-block-01-hash75-method-01",
+      "byte_identical": true,
+      "primary_sha256": "a0b6e52dc8d47048cb244b7fcf3d6cbf32cf0c0c1dabe3f1e4b388456730246c",
+      "recorded_output_binding_matches": true,
+      "replay_sha256": "a0b6e52dc8d47048cb244b7fcf3d6cbf32cf0c0c1dabe3f1e4b388456730246c"
+    },
+    {
+      "artifact": "evaluation.json",
+      "batch_id": "stratum-01-block-01-hash75-method-01",
+      "byte_identical": true,
+      "primary_sha256": "8ddb975b32eb8bb80b9d9cd1e89599e6172038ea6e9c8df37919822c4d4b5406",
+      "recorded_output_binding_matches": true,
+      "replay_sha256": "8ddb975b32eb8bb80b9d9cd1e89599e6172038ea6e9c8df37919822c4d4b5406"
+    },
+    {
+      "artifact": "report.md",
+      "batch_id": "stratum-01-block-01-hash75-method-01",
+      "byte_identical": true,
+      "primary_sha256": "3c93028d5184b7628907e293093449f28029bc0187ab13990121d567b36b488a",
+      "recorded_output_binding_matches": true,
+      "replay_sha256": "3c93028d5184b7628907e293093449f28029bc0187ab13990121d567b36b488a"
+    },
+    {
+      "artifact": "checksums.json",
+      "batch_id": "stratum-01-block-01-hash75-method-02",
+      "byte_identical": true,
+      "primary_sha256": "9ccf2c1b58a716db87ed1b5ee62094c49a32c26cbc85c6ad0125bfb3ea17895a",
+      "recorded_output_binding_matches": true,
+      "replay_sha256": "9ccf2c1b58a716db87ed1b5ee62094c49a32c26cbc85c6ad0125bfb3ea17895a"
+    },
+    {
+      "artifact": "evaluation.json",
+      "batch_id": "stratum-01-block-01-hash75-method-02",
+      "byte_identical": true,
+      "primary_sha256": "c793aa915e38579abb816e5e7729cfe4f55239a05ae2b3c73d275325dbffe2fb",
+      "recorded_output_binding_matches": true,
+      "replay_sha256": "c793aa915e38579abb816e5e7729cfe4f55239a05ae2b3c73d275325dbffe2fb"
+    },
+    {
+      "artifact": "report.md",
+      "batch_id": "stratum-01-block-01-hash75-method-02",
+      "byte_identical": true,
+      "primary_sha256": "791a303d506a2b332b0b675ab8838a82db79805f34e28af092815946d0272d89",
+      "recorded_output_binding_matches": true,
+      "replay_sha256": "791a303d506a2b332b0b675ab8838a82db79805f34e28af092815946d0272d89"
+    },
+    {
+      "artifact": "checksums.json",
+      "batch_id": "stratum-01-block-01-hash75-method-03",
+      "byte_identical": true,
+      "primary_sha256": "e8847dc61514531297a3f1f8d6491a8d5cb9979e872ad01cb4f0f3d5404fdf4b",
+      "recorded_output_binding_matches": true,
+      "replay_sha256": "e8847dc61514531297a3f1f8d6491a8d5cb9979e872ad01cb4f0f3d5404fdf4b"
+    },
+    {
+      "artifact": "evaluation.json",
+      "batch_id": "stratum-01-block-01-hash75-method-03",
+      "byte_identical": true,
+      "primary_sha256": "c69ceca867db943069631ecfcf0f77abc949d41bbb70bd9f6db05c6f5ba8c7b7",
+      "recorded_output_binding_matches": true,
+      "replay_sha256": "c69ceca867db943069631ecfcf0f77abc949d41bbb70bd9f6db05c6f5ba8c7b7"
+    },
+    {
+      "artifact": "report.md",
+      "batch_id": "stratum-01-block-01-hash75-method-03",
+      "byte_identical": true,
+      "primary_sha256": "0eca18d8e2c789b0ca3cdeaedd2d2794829fb7f7da416219f1b8720357cfacfd",
+      "recorded_output_binding_matches": true,
+      "replay_sha256": "0eca18d8e2c789b0ca3cdeaedd2d2794829fb7f7da416219f1b8720357cfacfd"
+    },
+    {
+      "artifact": "checksums.json",
+      "batch_id": "stratum-01-block-01-middle50-method-01",
+      "byte_identical": true,
+      "primary_sha256": "c27b8959fa61e1ba6a29c38d75a1c22651cbbe4f82bf77b5d85ae117145ea3c1",
+      "recorded_output_binding_matches": true,
+      "replay_sha256": "c27b8959fa61e1ba6a29c38d75a1c22651cbbe4f82bf77b5d85ae117145ea3c1"
+    },
+    {
+      "artifact": "evaluation.json",
+      "batch_id": "stratum-01-block-01-middle50-method-01",
+      "byte_identical": true,
+      "primary_sha256": "e71a7b03933766235cbe1058eca4a026f279ec022ffd78cc7c6c37616bfa681a",
+      "recorded_output_binding_matches": true,
+      "replay_sha256": "e71a7b03933766235cbe1058eca4a026f279ec022ffd78cc7c6c37616bfa681a"
+    },
+    {
+      "artifact": "report.md",
+      "batch_id": "stratum-01-block-01-middle50-method-01",
+      "byte_identical": true,
+      "primary_sha256": "36ced795f32bfce3310a79101568cb12412d975534cc60ff4cb76a247763f1f5",
+      "recorded_output_binding_matches": true,
+      "replay_sha256": "36ced795f32bfce3310a79101568cb12412d975534cc60ff4cb76a247763f1f5"
+    },
+    {
+      "artifact": "checksums.json",
+      "batch_id": "stratum-01-block-01-middle50-method-02",
+      "byte_identical": true,
+      "primary_sha256": "395060b7eb91c219ebde0889537b0d77b9712744ab8dd3600b6238a9805383df",
+      "recorded_output_binding_matches": true,
+      "replay_sha256": "395060b7eb91c219ebde0889537b0d77b9712744ab8dd3600b6238a9805383df"
+    },
+    {
+      "artifact": "evaluation.json",
+      "batch_id": "stratum-01-block-01-middle50-method-02",
+      "byte_identical": true,
+      "primary_sha256": "75a3923184f482ce1a27a866a182c361d2668dce9c89202ebff0d5a195f47dd7",
+      "recorded_output_binding_matches": true,
+      "replay_sha256": "75a3923184f482ce1a27a866a182c361d2668dce9c89202ebff0d5a195f47dd7"
+    },
+    {
+      "artifact": "report.md",
+      "batch_id": "stratum-01-block-01-middle50-method-02",
+      "byte_identical": true,
+      "primary_sha256": "2f32912dcdbf4bb4ba5c7a190a8d9a2c67875434af7bce2b8d9e0ddba060d20d",
+      "recorded_output_binding_matches": true,
+      "replay_sha256": "2f32912dcdbf4bb4ba5c7a190a8d9a2c67875434af7bce2b8d9e0ddba060d20d"
+    },
+    {
+      "artifact": "checksums.json",
+      "batch_id": "stratum-01-block-01-middle50-method-03",
+      "byte_identical": true,
+      "primary_sha256": "da9720a3a4773e1fa661265302283a29c5d64adc3f6b1af01f16d756a6a30d67",
+      "recorded_output_binding_matches": true,
+      "replay_sha256": "da9720a3a4773e1fa661265302283a29c5d64adc3f6b1af01f16d756a6a30d67"
+    },
+    {
+      "artifact": "evaluation.json",
+      "batch_id": "stratum-01-block-01-middle50-method-03",
+      "byte_identical": true,
+      "primary_sha256": "3aaa0abbbb60b39e4c70ba5b8a6a25bb2809bc51e12ee66c6961a02739bc523b",
+      "recorded_output_binding_matches": true,
+      "replay_sha256": "3aaa0abbbb60b39e4c70ba5b8a6a25bb2809bc51e12ee66c6961a02739bc523b"
+    },
+    {
+      "artifact": "report.md",
+      "batch_id": "stratum-01-block-01-middle50-method-03",
+      "byte_identical": true,
+      "primary_sha256": "e335e09e1ce2d7960da67f271ad77315fb6d64656835c061af067d1a428b05f3",
+      "recorded_output_binding_matches": true,
+      "replay_sha256": "e335e09e1ce2d7960da67f271ad77315fb6d64656835c061af067d1a428b05f3"
+    },
+    {
+      "artifact": "checksums.json",
+      "batch_id": "stratum-01-block-02-full-method-01",
+      "byte_identical": true,
+      "primary_sha256": "d0a32fb5fb92285e905d4b8f415f64d379331c37867ecb4f4f797b1ea56bd76e",
+      "recorded_output_binding_matches": true,
+      "replay_sha256": "d0a32fb5fb92285e905d4b8f415f64d379331c37867ecb4f4f797b1ea56bd76e"
+    },
+    {
+      "artifact": "evaluation.json",
+      "batch_id": "stratum-01-block-02-full-method-01",
+      "byte_identical": true,
+      "primary_sha256": "b3a4a1994576f9b9317632e5c469670d9b2b4372ef7a708cb34c32be681b540a",
+      "recorded_output_binding_matches": true,
+      "replay_sha256": "b3a4a1994576f9b9317632e5c469670d9b2b4372ef7a708cb34c32be681b540a"
+    },
+    {
+      "artifact": "report.md",
+      "batch_id": "stratum-01-block-02-full-method-01",
+      "byte_identical": true,
+      "primary_sha256": "66dce66e1ab4d3711032bb2b4467b773ee9789634a407902eed1c5fe1aa1aae8",
+      "recorded_output_binding_matches": true,
+      "replay_sha256": "66dce66e1ab4d3711032bb2b4467b773ee9789634a407902eed1c5fe1aa1aae8"
+    },
+    {
+      "artifact": "checksums.json",
+      "batch_id": "stratum-01-block-02-full-method-02",
+      "byte_identical": true,
+      "primary_sha256": "34ab148d7fbebf74ad0ddc9ff2d613767ca4b5e28069cee0fe3055d517193c1f",
+      "recorded_output_binding_matches": true,
+      "replay_sha256": "34ab148d7fbebf74ad0ddc9ff2d613767ca4b5e28069cee0fe3055d517193c1f"
+    },
+    {
+      "artifact": "evaluation.json",
+      "batch_id": "stratum-01-block-02-full-method-02",
+      "byte_identical": true,
+      "primary_sha256": "671eff49a9e80b14c643a7a90375550aaa29a6cd7ddcec16730dabe71d6e6c06",
+      "recorded_output_binding_matches": true,
+      "replay_sha256": "671eff49a9e80b14c643a7a90375550aaa29a6cd7ddcec16730dabe71d6e6c06"
+    },
+    {
+      "artifact": "report.md",
+      "batch_id": "stratum-01-block-02-full-method-02",
+      "byte_identical": true,
+      "primary_sha256": "1bebc2ef1cd9ec54659bdc4e62e4fe16607f09451050d7d2929016f14ac42b7f",
+      "recorded_output_binding_matches": true,
+      "replay_sha256": "1bebc2ef1cd9ec54659bdc4e62e4fe16607f09451050d7d2929016f14ac42b7f"
+    },
+    {
+      "artifact": "checksums.json",
+      "batch_id": "stratum-01-block-02-full-method-03",
+      "byte_identical": true,
+      "primary_sha256": "51c2194673f1ce8ad85daaa3bd29e1779ab563359acbf6e256d01d929077ca44",
+      "recorded_output_binding_matches": true,
+      "replay_sha256": "51c2194673f1ce8ad85daaa3bd29e1779ab563359acbf6e256d01d929077ca44"
+    },
+    {
+      "artifact": "evaluation.json",
+      "batch_id": "stratum-01-block-02-full-method-03",
+      "byte_identical": true,
+      "primary_sha256": "f3422274d032ca8d1ea2bf36fc012183e669ebf98e22b42c9d7b9b9ab0ddff3c",
+      "recorded_output_binding_matches": true,
+      "replay_sha256": "f3422274d032ca8d1ea2bf36fc012183e669ebf98e22b42c9d7b9b9ab0ddff3c"
+    },
+    {
+      "artifact": "report.md",
+      "batch_id": "stratum-01-block-02-full-method-03",
+      "byte_identical": true,
+      "primary_sha256": "3c930ebaf0b98c3bdc9f808b7ee25a6943270e82be243716f65ac9b0f6e9b536",
+      "recorded_output_binding_matches": true,
+      "replay_sha256": "3c930ebaf0b98c3bdc9f808b7ee25a6943270e82be243716f65ac9b0f6e9b536"
+    },
+    {
+      "artifact": "checksums.json",
+      "batch_id": "stratum-01-block-02-hash50-method-01",
+      "byte_identical": true,
+      "primary_sha256": "201c6d7d10d2b311d09b1b6899e4528561e0e92775a9dc52398c813bcf67aae3",
+      "recorded_output_binding_matches": true,
+      "replay_sha256": "201c6d7d10d2b311d09b1b6899e4528561e0e92775a9dc52398c813bcf67aae3"
+    },
+    {
+      "artifact": "evaluation.json",
+      "batch_id": "stratum-01-block-02-hash50-method-01",
+      "byte_identical": true,
+      "primary_sha256": "ce4b45b2c629deced0e80c658fdbbb83ae929d7d290ff15e7aa7f069bc5fa912",
+      "recorded_output_binding_matches": true,
+      "replay_sha256": "ce4b45b2c629deced0e80c658fdbbb83ae929d7d290ff15e7aa7f069bc5fa912"
+    },
+    {
+      "artifact": "report.md",
+      "batch_id": "stratum-01-block-02-hash50-method-01",
+      "byte_identical": true,
+      "primary_sha256": "c9731dbccd83b4a06a7dc13eb1c6b7d133d85b2d4d1e9a4ba2e2cba8dbdb374c",
+      "recorded_output_binding_matches": true,
+      "replay_sha256": "c9731dbccd83b4a06a7dc13eb1c6b7d133d85b2d4d1e9a4ba2e2cba8dbdb374c"
+    },
+    {
+      "artifact": "checksums.json",
+      "batch_id": "stratum-01-block-02-hash50-method-02",
+      "byte_identical": true,
+      "primary_sha256": "269c0823db9fb8d17c1a68eeb995325f08d8358e4ff6e9aac877c94a86b19e5c",
+      "recorded_output_binding_matches": true,
+      "replay_sha256": "269c0823db9fb8d17c1a68eeb995325f08d8358e4ff6e9aac877c94a86b19e5c"
+    },
+    {
+      "artifact": "evaluation.json",
+      "batch_id": "stratum-01-block-02-hash50-method-02",
+      "byte_identical": true,
+      "primary_sha256": "a722980994f76acb75a972cfec04ffc3c91add46d5ae26175154012ae77409c1",
+      "recorded_output_binding_matches": true,
+      "replay_sha256": "a722980994f76acb75a972cfec04ffc3c91add46d5ae26175154012ae77409c1"
+    },
+    {
+      "artifact": "report.md",
+      "batch_id": "stratum-01-block-02-hash50-method-02",
+      "byte_identical": true,
+      "primary_sha256": "fd9c0a354afc09aa65e998b022b37944450e4a1e32447df9958ade9cc58af985",
+      "recorded_output_binding_matches": true,
+      "replay_sha256": "fd9c0a354afc09aa65e998b022b37944450e4a1e32447df9958ade9cc58af985"
+    },
+    {
+      "artifact": "checksums.json",
+      "batch_id": "stratum-01-block-02-hash50-method-03",
+      "byte_identical": true,
+      "primary_sha256": "d0e23b596c18746f22496fbacb335ed47858fc0196d5b0196eba151bf226c16a",
+      "recorded_output_binding_matches": true,
+      "replay_sha256": "d0e23b596c18746f22496fbacb335ed47858fc0196d5b0196eba151bf226c16a"
+    },
+    {
+      "artifact": "evaluation.json",
+      "batch_id": "stratum-01-block-02-hash50-method-03",
+      "byte_identical": true,
+      "primary_sha256": "4a6db3b8c4ff76631ab64d9f4f18bf2916d305133602584939ff45cb01932c31",
+      "recorded_output_binding_matches": true,
+      "replay_sha256": "4a6db3b8c4ff76631ab64d9f4f18bf2916d305133602584939ff45cb01932c31"
+    },
+    {
+      "artifact": "report.md",
+      "batch_id": "stratum-01-block-02-hash50-method-03",
+      "byte_identical": true,
+      "primary_sha256": "bdbe4051ff4db077c9a694d3b07299cf04f676391f959f38f4eeb2e8c23dcce4",
+      "recorded_output_binding_matches": true,
+      "replay_sha256": "bdbe4051ff4db077c9a694d3b07299cf04f676391f959f38f4eeb2e8c23dcce4"
+    },
+    {
+      "artifact": "checksums.json",
+      "batch_id": "stratum-01-block-02-hash75-method-01",
+      "byte_identical": true,
+      "primary_sha256": "2ec5eecf1c696d279caa394821ba8ca66c98a9662da983fe94e8e5e6ca87eacd",
+      "recorded_output_binding_matches": true,
+      "replay_sha256": "2ec5eecf1c696d279caa394821ba8ca66c98a9662da983fe94e8e5e6ca87eacd"
+    },
+    {
+      "artifact": "evaluation.json",
+      "batch_id": "stratum-01-block-02-hash75-method-01",
+      "byte_identical": true,
+      "primary_sha256": "81b6c817d81b9f113f373fadd6fd6180f017ba801cd105389cda1d4347817157",
+      "recorded_output_binding_matches": true,
+      "replay_sha256": "81b6c817d81b9f113f373fadd6fd6180f017ba801cd105389cda1d4347817157"
+    },
+    {
+      "artifact": "report.md",
+      "batch_id": "stratum-01-block-02-hash75-method-01",
+      "byte_identical": true,
+      "primary_sha256": "e4576fb2aa8f71a5e70bc6de4d929cf21995bac8e82f38f12c1c5d0f53c09d88",
+      "recorded_output_binding_matches": true,
+      "replay_sha256": "e4576fb2aa8f71a5e70bc6de4d929cf21995bac8e82f38f12c1c5d0f53c09d88"
+    },
+    {
+      "artifact": "checksums.json",
+      "batch_id": "stratum-01-block-02-hash75-method-02",
+      "byte_identical": true,
+      "primary_sha256": "9769d6492d99dfac7587fbd65f816f4e904d95b6356a4fe7432aec8dc5620db8",
+      "recorded_output_binding_matches": true,
+      "replay_sha256": "9769d6492d99dfac7587fbd65f816f4e904d95b6356a4fe7432aec8dc5620db8"
+    },
+    {
+      "artifact": "evaluation.json",
+      "batch_id": "stratum-01-block-02-hash75-method-02",
+      "byte_identical": true,
+      "primary_sha256": "7e1917c5e667d846ddc7fbeb933e47adbdec2a8b7e4de60519ba0f158b519076",
+      "recorded_output_binding_matches": true,
+      "replay_sha256": "7e1917c5e667d846ddc7fbeb933e47adbdec2a8b7e4de60519ba0f158b519076"
+    },
+    {
+      "artifact": "report.md",
+      "batch_id": "stratum-01-block-02-hash75-method-02",
+      "byte_identical": true,
+      "primary_sha256": "2556b2da6a97d84ba5e48fc96706a707ade53e52c2f60c92aa1f44d31c33a07d",
+      "recorded_output_binding_matches": true,
+      "replay_sha256": "2556b2da6a97d84ba5e48fc96706a707ade53e52c2f60c92aa1f44d31c33a07d"
+    },
+    {
+      "artifact": "checksums.json",
+      "batch_id": "stratum-01-block-02-hash75-method-03",
+      "byte_identical": true,
+      "primary_sha256": "150fe3c68f541fef3c26838bccdcd71979134a28a15b35fb8b9236427e69bba1",
+      "recorded_output_binding_matches": true,
+      "replay_sha256": "150fe3c68f541fef3c26838bccdcd71979134a28a15b35fb8b9236427e69bba1"
+    },
+    {
+      "artifact": "evaluation.json",
+      "batch_id": "stratum-01-block-02-hash75-method-03",
+      "byte_identical": true,
+      "primary_sha256": "ffe971c977f4386ff80c908f40c5f2896fe8bd326c48d67a6a7c97ba07512ff9",
+      "recorded_output_binding_matches": true,
+      "replay_sha256": "ffe971c977f4386ff80c908f40c5f2896fe8bd326c48d67a6a7c97ba07512ff9"
+    },
+    {
+      "artifact": "report.md",
+      "batch_id": "stratum-01-block-02-hash75-method-03",
+      "byte_identical": true,
+      "primary_sha256": "3ee11f832b2f82a2fb1dcefb7f5203cdeabd5cce5e02270459167765abe4af39",
+      "recorded_output_binding_matches": true,
+      "replay_sha256": "3ee11f832b2f82a2fb1dcefb7f5203cdeabd5cce5e02270459167765abe4af39"
+    },
+    {
+      "artifact": "checksums.json",
+      "batch_id": "stratum-01-block-02-middle50-method-01",
+      "byte_identical": true,
+      "primary_sha256": "58685cd6f7369e8335d314727e0e161a0dc674f64c75f3e89dc92fce9bb4aeba",
+      "recorded_output_binding_matches": true,
+      "replay_sha256": "58685cd6f7369e8335d314727e0e161a0dc674f64c75f3e89dc92fce9bb4aeba"
+    },
+    {
+      "artifact": "evaluation.json",
+      "batch_id": "stratum-01-block-02-middle50-method-01",
+      "byte_identical": true,
+      "primary_sha256": "46bfcbadbdf387ff65ee494a59af64b078358d44eed426d98a7f912d1efd21f8",
+      "recorded_output_binding_matches": true,
+      "replay_sha256": "46bfcbadbdf387ff65ee494a59af64b078358d44eed426d98a7f912d1efd21f8"
+    },
+    {
+      "artifact": "report.md",
+      "batch_id": "stratum-01-block-02-middle50-method-01",
+      "byte_identical": true,
+      "primary_sha256": "3a23b4854f931ca221280bce5e9a523d555ab29f56f0065dfc419c8faf13a6ec",
+      "recorded_output_binding_matches": true,
+      "replay_sha256": "3a23b4854f931ca221280bce5e9a523d555ab29f56f0065dfc419c8faf13a6ec"
+    },
+    {
+      "artifact": "checksums.json",
+      "batch_id": "stratum-01-block-02-middle50-method-02",
+      "byte_identical": true,
+      "primary_sha256": "1098684924ffb469077bd02e8146542e517043bf9d417ee8683300a7049c5e54",
+      "recorded_output_binding_matches": true,
+      "replay_sha256": "1098684924ffb469077bd02e8146542e517043bf9d417ee8683300a7049c5e54"
+    },
+    {
+      "artifact": "evaluation.json",
+      "batch_id": "stratum-01-block-02-middle50-method-02",
+      "byte_identical": true,
+      "primary_sha256": "4c1e482919c9a52d9489b8de0688368728a5a7aa81a2d5db8bc46012025a8ec9",
+      "recorded_output_binding_matches": true,
+      "replay_sha256": "4c1e482919c9a52d9489b8de0688368728a5a7aa81a2d5db8bc46012025a8ec9"
+    },
+    {
+      "artifact": "report.md",
+      "batch_id": "stratum-01-block-02-middle50-method-02",
+      "byte_identical": true,
+      "primary_sha256": "c8c439151c14d70c062d910cb8704615bd68a7f428a463c7daf7f0f9c3f3c2f6",
+      "recorded_output_binding_matches": true,
+      "replay_sha256": "c8c439151c14d70c062d910cb8704615bd68a7f428a463c7daf7f0f9c3f3c2f6"
+    },
+    {
+      "artifact": "checksums.json",
+      "batch_id": "stratum-01-block-02-middle50-method-03",
+      "byte_identical": true,
+      "primary_sha256": "a7f88d0a7df5d181ee7a14a3bcba0caa2aa5a521503837090f613ac0c415264a",
+      "recorded_output_binding_matches": true,
+      "replay_sha256": "a7f88d0a7df5d181ee7a14a3bcba0caa2aa5a521503837090f613ac0c415264a"
+    },
+    {
+      "artifact": "evaluation.json",
+      "batch_id": "stratum-01-block-02-middle50-method-03",
+      "byte_identical": true,
+      "primary_sha256": "cc369e9cdcd02b01ca740596b0817e5c364e97605556af7cf5d1676005fdff9d",
+      "recorded_output_binding_matches": true,
+      "replay_sha256": "cc369e9cdcd02b01ca740596b0817e5c364e97605556af7cf5d1676005fdff9d"
+    },
+    {
+      "artifact": "report.md",
+      "batch_id": "stratum-01-block-02-middle50-method-03",
+      "byte_identical": true,
+      "primary_sha256": "864994efd7941c3ff51f69306a7538871a2a7b2935b2b0c674825522def1f97d",
+      "recorded_output_binding_matches": true,
+      "replay_sha256": "864994efd7941c3ff51f69306a7538871a2a7b2935b2b0c674825522def1f97d"
+    },
+    {
+      "artifact": "checksums.json",
+      "batch_id": "stratum-01-block-03-full-method-01",
+      "byte_identical": true,
+      "primary_sha256": "b566ebb7cc46c1daac5938c7af345d8a481be2bedae34d4daec5ae2362075e3e",
+      "recorded_output_binding_matches": true,
+      "replay_sha256": "b566ebb7cc46c1daac5938c7af345d8a481be2bedae34d4daec5ae2362075e3e"
+    },
+    {
+      "artifact": "evaluation.json",
+      "batch_id": "stratum-01-block-03-full-method-01",
+      "byte_identical": true,
+      "primary_sha256": "c6a961c11a3f2016c2ffef3fb43b75190e34a2dc3c3f07e792810da587c583d6",
+      "recorded_output_binding_matches": true,
+      "replay_sha256": "c6a961c11a3f2016c2ffef3fb43b75190e34a2dc3c3f07e792810da587c583d6"
+    },
+    {
+      "artifact": "report.md",
+      "batch_id": "stratum-01-block-03-full-method-01",
+      "byte_identical": true,
+      "primary_sha256": "a84044999d1464589d6efbc3234765f8c01ca06b5e70acf6ea3043b13966a558",
+      "recorded_output_binding_matches": true,
+      "replay_sha256": "a84044999d1464589d6efbc3234765f8c01ca06b5e70acf6ea3043b13966a558"
+    },
+    {
+      "artifact": "checksums.json",
+      "batch_id": "stratum-01-block-03-full-method-02",
+      "byte_identical": true,
+      "primary_sha256": "c8146165eecf129f34ad087a3ad65be49f2331a83e9610620a84cac7ed4b55d4",
+      "recorded_output_binding_matches": true,
+      "replay_sha256": "c8146165eecf129f34ad087a3ad65be49f2331a83e9610620a84cac7ed4b55d4"
+    },
+    {
+      "artifact": "evaluation.json",
+      "batch_id": "stratum-01-block-03-full-method-02",
+      "byte_identical": true,
+      "primary_sha256": "be1f16dffd6d77af03e1fb87a9e8f9dd8e56facd442053f753d39dd7e40e9ab5",
+      "recorded_output_binding_matches": true,
+      "replay_sha256": "be1f16dffd6d77af03e1fb87a9e8f9dd8e56facd442053f753d39dd7e40e9ab5"
+    },
+    {
+      "artifact": "report.md",
+      "batch_id": "stratum-01-block-03-full-method-02",
+      "byte_identical": true,
+      "primary_sha256": "8d2c92bcc345c719bf2ada7ec7c66e0d023112310a8715dadad75eeb76381009",
+      "recorded_output_binding_matches": true,
+      "replay_sha256": "8d2c92bcc345c719bf2ada7ec7c66e0d023112310a8715dadad75eeb76381009"
+    },
+    {
+      "artifact": "checksums.json",
+      "batch_id": "stratum-01-block-03-full-method-03",
+      "byte_identical": true,
+      "primary_sha256": "ed3a4f5a702300c024b42b4b9c43f70ffbb27ab9934ec8a266abb523e6130cc2",
+      "recorded_output_binding_matches": true,
+      "replay_sha256": "ed3a4f5a702300c024b42b4b9c43f70ffbb27ab9934ec8a266abb523e6130cc2"
+    },
+    {
+      "artifact": "evaluation.json",
+      "batch_id": "stratum-01-block-03-full-method-03",
+      "byte_identical": true,
+      "primary_sha256": "7aa0a2d8a350dc0a8255e44139839ea64359269bbbb71fd29116d680dd6e0c0e",
+      "recorded_output_binding_matches": true,
+      "replay_sha256": "7aa0a2d8a350dc0a8255e44139839ea64359269bbbb71fd29116d680dd6e0c0e"
+    },
+    {
+      "artifact": "report.md",
+      "batch_id": "stratum-01-block-03-full-method-03",
+      "byte_identical": true,
+      "primary_sha256": "2b6b804b281962f14252ac360b2bc6b4883b79273cf327efdfbb8377e60ae645",
+      "recorded_output_binding_matches": true,
+      "replay_sha256": "2b6b804b281962f14252ac360b2bc6b4883b79273cf327efdfbb8377e60ae645"
+    },
+    {
+      "artifact": "checksums.json",
+      "batch_id": "stratum-01-block-03-hash50-method-01",
+      "byte_identical": true,
+      "primary_sha256": "2a1df8c6daa36c8ba455db0785a2d8e765746fcaba31294e4d0a965589fb3675",
+      "recorded_output_binding_matches": true,
+      "replay_sha256": "2a1df8c6daa36c8ba455db0785a2d8e765746fcaba31294e4d0a965589fb3675"
+    },
+    {
+      "artifact": "evaluation.json",
+      "batch_id": "stratum-01-block-03-hash50-method-01",
+      "byte_identical": true,
+      "primary_sha256": "2203aee7f00d053f9d09ad20dd12cccfe974f5de0d9cc8fad000f7dc9a0d59d1",
+      "recorded_output_binding_matches": true,
+      "replay_sha256": "2203aee7f00d053f9d09ad20dd12cccfe974f5de0d9cc8fad000f7dc9a0d59d1"
+    },
+    {
+      "artifact": "report.md",
+      "batch_id": "stratum-01-block-03-hash50-method-01",
+      "byte_identical": true,
+      "primary_sha256": "84744c21adeb834546ffa9ffba8a9974fb6d6e810953bc1a2f257e1e2b47513f",
+      "recorded_output_binding_matches": true,
+      "replay_sha256": "84744c21adeb834546ffa9ffba8a9974fb6d6e810953bc1a2f257e1e2b47513f"
+    },
+    {
+      "artifact": "checksums.json",
+      "batch_id": "stratum-01-block-03-hash50-method-02",
+      "byte_identical": true,
+      "primary_sha256": "4848bf1797c7fab3642990be55326f2b7f4d5156fa9581c2943a6e57fdebf76d",
+      "recorded_output_binding_matches": true,
+      "replay_sha256": "4848bf1797c7fab3642990be55326f2b7f4d5156fa9581c2943a6e57fdebf76d"
+    },
+    {
+      "artifact": "evaluation.json",
+      "batch_id": "stratum-01-block-03-hash50-method-02",
+      "byte_identical": true,
+      "primary_sha256": "8dfad45c9b0533ef18f0261206ddf074e2fedd052986788195656ca42a35cabd",
+      "recorded_output_binding_matches": true,
+      "replay_sha256": "8dfad45c9b0533ef18f0261206ddf074e2fedd052986788195656ca42a35cabd"
+    },
+    {
+      "artifact": "report.md",
+      "batch_id": "stratum-01-block-03-hash50-method-02",
+      "byte_identical": true,
+      "primary_sha256": "57fca24802abc668ed9974acd4b08de2b1bed7fcdbb6710c6b5da5401e4d1025",
+      "recorded_output_binding_matches": true,
+      "replay_sha256": "57fca24802abc668ed9974acd4b08de2b1bed7fcdbb6710c6b5da5401e4d1025"
+    },
+    {
+      "artifact": "checksums.json",
+      "batch_id": "stratum-01-block-03-hash50-method-03",
+      "byte_identical": true,
+      "primary_sha256": "d9cfa36d3797e3d337207788edffeb5f74af68a662da5388f467dd13d9eeb216",
+      "recorded_output_binding_matches": true,
+      "replay_sha256": "d9cfa36d3797e3d337207788edffeb5f74af68a662da5388f467dd13d9eeb216"
+    },
+    {
+      "artifact": "evaluation.json",
+      "batch_id": "stratum-01-block-03-hash50-method-03",
+      "byte_identical": true,
+      "primary_sha256": "f9dddf503fba7a8a7419fe3a3dfa753982256be8f98f9f804a293292f5608f55",
+      "recorded_output_binding_matches": true,
+      "replay_sha256": "f9dddf503fba7a8a7419fe3a3dfa753982256be8f98f9f804a293292f5608f55"
+    },
+    {
+      "artifact": "report.md",
+      "batch_id": "stratum-01-block-03-hash50-method-03",
+      "byte_identical": true,
+      "primary_sha256": "82322120145ab18a9dcecab22a1f53fbdd2b9e76e664c584d5b56f36ab00cdbe",
+      "recorded_output_binding_matches": true,
+      "replay_sha256": "82322120145ab18a9dcecab22a1f53fbdd2b9e76e664c584d5b56f36ab00cdbe"
+    },
+    {
+      "artifact": "checksums.json",
+      "batch_id": "stratum-01-block-03-hash75-method-01",
+      "byte_identical": true,
+      "primary_sha256": "8c9e6cf70361b12ac21a98b0b8d6421d1ff618bd4bbcf479085169794af5ec61",
+      "recorded_output_binding_matches": true,
+      "replay_sha256": "8c9e6cf70361b12ac21a98b0b8d6421d1ff618bd4bbcf479085169794af5ec61"
+    },
+    {
+      "artifact": "evaluation.json",
+      "batch_id": "stratum-01-block-03-hash75-method-01",
+      "byte_identical": true,
+      "primary_sha256": "c3262cde1562a541c52c608ec6bdcd8b87361e934beddcc58279f9dfb04799c2",
+      "recorded_output_binding_matches": true,
+      "replay_sha256": "c3262cde1562a541c52c608ec6bdcd8b87361e934beddcc58279f9dfb04799c2"
+    },
+    {
+      "artifact": "report.md",
+      "batch_id": "stratum-01-block-03-hash75-method-01",
+      "byte_identical": true,
+      "primary_sha256": "7d3b6eda56132214ab553f1afcb5914d3d0cc04874c96e9452c30b5a342a1eed",
+      "recorded_output_binding_matches": true,
+      "replay_sha256": "7d3b6eda56132214ab553f1afcb5914d3d0cc04874c96e9452c30b5a342a1eed"
+    },
+    {
+      "artifact": "checksums.json",
+      "batch_id": "stratum-01-block-03-hash75-method-02",
+      "byte_identical": true,
+      "primary_sha256": "683b1ede8bfe1b9ee5979451cdc4661ddac69b3637ed03edeb7d0b03b1c0e1b5",
+      "recorded_output_binding_matches": true,
+      "replay_sha256": "683b1ede8bfe1b9ee5979451cdc4661ddac69b3637ed03edeb7d0b03b1c0e1b5"
+    },
+    {
+      "artifact": "evaluation.json",
+      "batch_id": "stratum-01-block-03-hash75-method-02",
+      "byte_identical": true,
+      "primary_sha256": "b9fcc329abcdac59ef563619c7ada6c6b8d55a8521e9be110eb5ae46a413b30c",
+      "recorded_output_binding_matches": true,
+      "replay_sha256": "b9fcc329abcdac59ef563619c7ada6c6b8d55a8521e9be110eb5ae46a413b30c"
+    },
+    {
+      "artifact": "report.md",
+      "batch_id": "stratum-01-block-03-hash75-method-02",
+      "byte_identical": true,
+      "primary_sha256": "6f9e60c4dbc7af9279bfdea63e24a15a3186fe7e516f62133411f9689b665a1d",
+      "recorded_output_binding_matches": true,
+      "replay_sha256": "6f9e60c4dbc7af9279bfdea63e24a15a3186fe7e516f62133411f9689b665a1d"
+    },
+    {
+      "artifact": "checksums.json",
+      "batch_id": "stratum-01-block-03-hash75-method-03",
+      "byte_identical": true,
+      "primary_sha256": "36b50b5ce9b126da1caf76cd36a30caa8f1d103a6fdc007c408a0a5ce163c0dd",
+      "recorded_output_binding_matches": true,
+      "replay_sha256": "36b50b5ce9b126da1caf76cd36a30caa8f1d103a6fdc007c408a0a5ce163c0dd"
+    },
+    {
+      "artifact": "evaluation.json",
+      "batch_id": "stratum-01-block-03-hash75-method-03",
+      "byte_identical": true,
+      "primary_sha256": "b15362570de01a9987f333b49fdde70e45b4bb477921f9e874e641c93c2b56b3",
+      "recorded_output_binding_matches": true,
+      "replay_sha256": "b15362570de01a9987f333b49fdde70e45b4bb477921f9e874e641c93c2b56b3"
+    },
+    {
+      "artifact": "report.md",
+      "batch_id": "stratum-01-block-03-hash75-method-03",
+      "byte_identical": true,
+      "primary_sha256": "ba1ade67feaf1b01a035eac4d9d7fcbcc1d0601c9d050df1591d416ffc8f38d2",
+      "recorded_output_binding_matches": true,
+      "replay_sha256": "ba1ade67feaf1b01a035eac4d9d7fcbcc1d0601c9d050df1591d416ffc8f38d2"
+    },
+    {
+      "artifact": "checksums.json",
+      "batch_id": "stratum-01-block-03-middle50-method-01",
+      "byte_identical": true,
+      "primary_sha256": "d453f6bf8d1780bb12b1b20427de1ec3e604b77000ac3fc6c92a7cade4de6d42",
+      "recorded_output_binding_matches": true,
+      "replay_sha256": "d453f6bf8d1780bb12b1b20427de1ec3e604b77000ac3fc6c92a7cade4de6d42"
+    },
+    {
+      "artifact": "evaluation.json",
+      "batch_id": "stratum-01-block-03-middle50-method-01",
+      "byte_identical": true,
+      "primary_sha256": "9411e289bda309932fd684d8d8533a1659aaf548ed81780308e2c91595dcc9b5",
+      "recorded_output_binding_matches": true,
+      "replay_sha256": "9411e289bda309932fd684d8d8533a1659aaf548ed81780308e2c91595dcc9b5"
+    },
+    {
+      "artifact": "report.md",
+      "batch_id": "stratum-01-block-03-middle50-method-01",
+      "byte_identical": true,
+      "primary_sha256": "8bb53239c4eb1391afdac01e51d9b8721b473841c60a3b253f093b78d263dd30",
+      "recorded_output_binding_matches": true,
+      "replay_sha256": "8bb53239c4eb1391afdac01e51d9b8721b473841c60a3b253f093b78d263dd30"
+    },
+    {
+      "artifact": "checksums.json",
+      "batch_id": "stratum-01-block-03-middle50-method-02",
+      "byte_identical": true,
+      "primary_sha256": "42c7e5c95d2e24965628cabc4947b9ed547a19a0a768f7fb227e2a401b6b208b",
+      "recorded_output_binding_matches": true,
+      "replay_sha256": "42c7e5c95d2e24965628cabc4947b9ed547a19a0a768f7fb227e2a401b6b208b"
+    },
+    {
+      "artifact": "evaluation.json",
+      "batch_id": "stratum-01-block-03-middle50-method-02",
+      "byte_identical": true,
+      "primary_sha256": "401670c335e02d4253a3e2e1af534266300475ce736aa59d2df19d8214218d17",
+      "recorded_output_binding_matches": true,
+      "replay_sha256": "401670c335e02d4253a3e2e1af534266300475ce736aa59d2df19d8214218d17"
+    },
+    {
+      "artifact": "report.md",
+      "batch_id": "stratum-01-block-03-middle50-method-02",
+      "byte_identical": true,
+      "primary_sha256": "0e7afa2ae1c33e90a31daa8171ba1866da0c67bcbe8701dcaf2dbd2bdac662b9",
+      "recorded_output_binding_matches": true,
+      "replay_sha256": "0e7afa2ae1c33e90a31daa8171ba1866da0c67bcbe8701dcaf2dbd2bdac662b9"
+    },
+    {
+      "artifact": "checksums.json",
+      "batch_id": "stratum-01-block-03-middle50-method-03",
+      "byte_identical": true,
+      "primary_sha256": "4ceb1b288082811964b9b7935152fd9ebd61cb15c441b55c4f22a1e93cc27e95",
+      "recorded_output_binding_matches": true,
+      "replay_sha256": "4ceb1b288082811964b9b7935152fd9ebd61cb15c441b55c4f22a1e93cc27e95"
+    },
+    {
+      "artifact": "evaluation.json",
+      "batch_id": "stratum-01-block-03-middle50-method-03",
+      "byte_identical": true,
+      "primary_sha256": "ed6d71af1891d679824e172d50465d289c743adfcc2ddeed6ed4bbebd7de7f05",
+      "recorded_output_binding_matches": true,
+      "replay_sha256": "ed6d71af1891d679824e172d50465d289c743adfcc2ddeed6ed4bbebd7de7f05"
+    },
+    {
+      "artifact": "report.md",
+      "batch_id": "stratum-01-block-03-middle50-method-03",
+      "byte_identical": true,
+      "primary_sha256": "1ce97002f8b470c8e431ba52e7930c2ba0dbde9091697a073a9395cfad73aac2",
+      "recorded_output_binding_matches": true,
+      "replay_sha256": "1ce97002f8b470c8e431ba52e7930c2ba0dbde9091697a073a9395cfad73aac2"
+    },
+    {
+      "artifact": "checksums.json",
+      "batch_id": "stratum-01-block-04-full-method-01",
+      "byte_identical": true,
+      "primary_sha256": "abcc43e135d9824c1c772ecda1de6a713a567850c4ab17557e7a20a562539287",
+      "recorded_output_binding_matches": true,
+      "replay_sha256": "abcc43e135d9824c1c772ecda1de6a713a567850c4ab17557e7a20a562539287"
+    },
+    {
+      "artifact": "evaluation.json",
+      "batch_id": "stratum-01-block-04-full-method-01",
+      "byte_identical": true,
+      "primary_sha256": "de9f76813a25627dc50ff38649b70f07046d23e050a6979647b18610d7170092",
+      "recorded_output_binding_matches": true,
+      "replay_sha256": "de9f76813a25627dc50ff38649b70f07046d23e050a6979647b18610d7170092"
+    },
+    {
+      "artifact": "report.md",
+      "batch_id": "stratum-01-block-04-full-method-01",
+      "byte_identical": true,
+      "primary_sha256": "24cd0497afa90d2ba79ea81d13e59ea39d59a6bf2a3b526437484eb3e9b21964",
+      "recorded_output_binding_matches": true,
+      "replay_sha256": "24cd0497afa90d2ba79ea81d13e59ea39d59a6bf2a3b526437484eb3e9b21964"
+    },
+    {
+      "artifact": "checksums.json",
+      "batch_id": "stratum-01-block-04-full-method-02",
+      "byte_identical": true,
+      "primary_sha256": "6128389135232620d57f133210b4375fa893202fc572313fd6ba9ca1aa2b19c0",
+      "recorded_output_binding_matches": true,
+      "replay_sha256": "6128389135232620d57f133210b4375fa893202fc572313fd6ba9ca1aa2b19c0"
+    },
+    {
+      "artifact": "evaluation.json",
+      "batch_id": "stratum-01-block-04-full-method-02",
+      "byte_identical": true,
+      "primary_sha256": "4d1e3334a39069c64c5687c934b462a044cea7c0a3df9b16beae69e275478f04",
+      "recorded_output_binding_matches": true,
+      "replay_sha256": "4d1e3334a39069c64c5687c934b462a044cea7c0a3df9b16beae69e275478f04"
+    },
+    {
+      "artifact": "report.md",
+      "batch_id": "stratum-01-block-04-full-method-02",
+      "byte_identical": true,
+      "primary_sha256": "0fe5926c7745ef15aa095ece66c876245a098b9e5d23f3095b416f645b554c1e",
+      "recorded_output_binding_matches": true,
+      "replay_sha256": "0fe5926c7745ef15aa095ece66c876245a098b9e5d23f3095b416f645b554c1e"
+    },
+    {
+      "artifact": "checksums.json",
+      "batch_id": "stratum-01-block-04-full-method-03",
+      "byte_identical": true,
+      "primary_sha256": "08f8a485d7d2575280165cb34849101334fa7e3abca191c2cc2ad39067478d28",
+      "recorded_output_binding_matches": true,
+      "replay_sha256": "08f8a485d7d2575280165cb34849101334fa7e3abca191c2cc2ad39067478d28"
+    },
+    {
+      "artifact": "evaluation.json",
+      "batch_id": "stratum-01-block-04-full-method-03",
+      "byte_identical": true,
+      "primary_sha256": "83e5b8452cbde390a7dcbc852a593dab67e0af2267b36615db63ab9257d73854",
+      "recorded_output_binding_matches": true,
+      "replay_sha256": "83e5b8452cbde390a7dcbc852a593dab67e0af2267b36615db63ab9257d73854"
+    },
+    {
+      "artifact": "report.md",
+      "batch_id": "stratum-01-block-04-full-method-03",
+      "byte_identical": true,
+      "primary_sha256": "6d351bc0ade369ecc23f6379e2c558eccde534fa484ffdf00d52a0ddd38f7300",
+      "recorded_output_binding_matches": true,
+      "replay_sha256": "6d351bc0ade369ecc23f6379e2c558eccde534fa484ffdf00d52a0ddd38f7300"
+    },
+    {
+      "artifact": "checksums.json",
+      "batch_id": "stratum-01-block-04-hash50-method-01",
+      "byte_identical": true,
+      "primary_sha256": "326ae74a3643552dfecd790c89a3e6bfd12cf05d2b2ba0214dfec9b2e3d91bf6",
+      "recorded_output_binding_matches": true,
+      "replay_sha256": "326ae74a3643552dfecd790c89a3e6bfd12cf05d2b2ba0214dfec9b2e3d91bf6"
+    },
+    {
+      "artifact": "evaluation.json",
+      "batch_id": "stratum-01-block-04-hash50-method-01",
+      "byte_identical": true,
+      "primary_sha256": "ff295b898d68407f7c43eee794933faf47f4b6fb5cec449e8f606e5f747b5d1d",
+      "recorded_output_binding_matches": true,
+      "replay_sha256": "ff295b898d68407f7c43eee794933faf47f4b6fb5cec449e8f606e5f747b5d1d"
+    },
+    {
+      "artifact": "report.md",
+      "batch_id": "stratum-01-block-04-hash50-method-01",
+      "byte_identical": true,
+      "primary_sha256": "7bd1e299ee72cd2d90ca1626c8cbd932cd206f8cb2d25c1c60abfe6eb08f4b26",
+      "recorded_output_binding_matches": true,
+      "replay_sha256": "7bd1e299ee72cd2d90ca1626c8cbd932cd206f8cb2d25c1c60abfe6eb08f4b26"
+    },
+    {
+      "artifact": "checksums.json",
+      "batch_id": "stratum-01-block-04-hash50-method-02",
+      "byte_identical": true,
+      "primary_sha256": "6f1eee8700fc5b756de8aede07b9720d9f5849f5a9f53229c12716c606bdad74",
+      "recorded_output_binding_matches": true,
+      "replay_sha256": "6f1eee8700fc5b756de8aede07b9720d9f5849f5a9f53229c12716c606bdad74"
+    },
+    {
+      "artifact": "evaluation.json",
+      "batch_id": "stratum-01-block-04-hash50-method-02",
+      "byte_identical": true,
+      "primary_sha256": "d1f95e1add5145e2bafb57b014c2aa944417bd9645b31da0b214f2cc103e8144",
+      "recorded_output_binding_matches": true,
+      "replay_sha256": "d1f95e1add5145e2bafb57b014c2aa944417bd9645b31da0b214f2cc103e8144"
+    },
+    {
+      "artifact": "report.md",
+      "batch_id": "stratum-01-block-04-hash50-method-02",
+      "byte_identical": true,
+      "primary_sha256": "24ef8b6efcb0c4292dad501114142e249588f2b3e3ac0940427e10e7057c99a6",
+      "recorded_output_binding_matches": true,
+      "replay_sha256": "24ef8b6efcb0c4292dad501114142e249588f2b3e3ac0940427e10e7057c99a6"
+    },
+    {
+      "artifact": "checksums.json",
+      "batch_id": "stratum-01-block-04-hash50-method-03",
+      "byte_identical": true,
+      "primary_sha256": "89186a6fba4d03a989c9956b514f01300419f39daa259fd352156e0f1f1deedb",
+      "recorded_output_binding_matches": true,
+      "replay_sha256": "89186a6fba4d03a989c9956b514f01300419f39daa259fd352156e0f1f1deedb"
+    },
+    {
+      "artifact": "evaluation.json",
+      "batch_id": "stratum-01-block-04-hash50-method-03",
+      "byte_identical": true,
+      "primary_sha256": "3f0f0f02a034223fa25ac97a15e3fb5a045cd752651bbdcb396d24ee9ae1fecc",
+      "recorded_output_binding_matches": true,
+      "replay_sha256": "3f0f0f02a034223fa25ac97a15e3fb5a045cd752651bbdcb396d24ee9ae1fecc"
+    },
+    {
+      "artifact": "report.md",
+      "batch_id": "stratum-01-block-04-hash50-method-03",
+      "byte_identical": true,
+      "primary_sha256": "b69d88e722f1dc7e852c3d5f79fd452e4140a870ac6c78730e21660a0952efa4",
+      "recorded_output_binding_matches": true,
+      "replay_sha256": "b69d88e722f1dc7e852c3d5f79fd452e4140a870ac6c78730e21660a0952efa4"
+    },
+    {
+      "artifact": "checksums.json",
+      "batch_id": "stratum-01-block-04-hash75-method-01",
+      "byte_identical": true,
+      "primary_sha256": "b9784f59afdd2ea63e18217c447ee2bb73261ac3d6c2b0e2c7338bd3c0ebf53c",
+      "recorded_output_binding_matches": true,
+      "replay_sha256": "b9784f59afdd2ea63e18217c447ee2bb73261ac3d6c2b0e2c7338bd3c0ebf53c"
+    },
+    {
+      "artifact": "evaluation.json",
+      "batch_id": "stratum-01-block-04-hash75-method-01",
+      "byte_identical": true,
+      "primary_sha256": "0490fb76df46ead8d1c548f4ee89d706e8dca490c35dfcfdf099f41acf797530",
+      "recorded_output_binding_matches": true,
+      "replay_sha256": "0490fb76df46ead8d1c548f4ee89d706e8dca490c35dfcfdf099f41acf797530"
+    },
+    {
+      "artifact": "report.md",
+      "batch_id": "stratum-01-block-04-hash75-method-01",
+      "byte_identical": true,
+      "primary_sha256": "b82c3c451c8b824f62ab07aa7cf4cf15951d3711644eb55e0be37997addb4b28",
+      "recorded_output_binding_matches": true,
+      "replay_sha256": "b82c3c451c8b824f62ab07aa7cf4cf15951d3711644eb55e0be37997addb4b28"
+    },
+    {
+      "artifact": "checksums.json",
+      "batch_id": "stratum-01-block-04-hash75-method-02",
+      "byte_identical": true,
+      "primary_sha256": "e0d3ae0b6d536d6428187476c175e0f4d2ea995758dc10f24745718a74a26810",
+      "recorded_output_binding_matches": true,
+      "replay_sha256": "e0d3ae0b6d536d6428187476c175e0f4d2ea995758dc10f24745718a74a26810"
+    },
+    {
+      "artifact": "evaluation.json",
+      "batch_id": "stratum-01-block-04-hash75-method-02",
+      "byte_identical": true,
+      "primary_sha256": "cd41de06a0b5c18345991654df53748b23d180afe6b7e5b24b962047143cedc8",
+      "recorded_output_binding_matches": true,
+      "replay_sha256": "cd41de06a0b5c18345991654df53748b23d180afe6b7e5b24b962047143cedc8"
+    },
+    {
+      "artifact": "report.md",
+      "batch_id": "stratum-01-block-04-hash75-method-02",
+      "byte_identical": true,
+      "primary_sha256": "7fa857128e1bebd686e2a5d6440b8fabbb35332e27347d5c23964bad3a3ced40",
+      "recorded_output_binding_matches": true,
+      "replay_sha256": "7fa857128e1bebd686e2a5d6440b8fabbb35332e27347d5c23964bad3a3ced40"
+    },
+    {
+      "artifact": "checksums.json",
+      "batch_id": "stratum-01-block-04-hash75-method-03",
+      "byte_identical": true,
+      "primary_sha256": "19fe6a193c73b2b9c4c90971b698dac76594255f32240d4678a60f54ad150004",
+      "recorded_output_binding_matches": true,
+      "replay_sha256": "19fe6a193c73b2b9c4c90971b698dac76594255f32240d4678a60f54ad150004"
+    },
+    {
+      "artifact": "evaluation.json",
+      "batch_id": "stratum-01-block-04-hash75-method-03",
+      "byte_identical": true,
+      "primary_sha256": "dd522239426e97f45b8846093f31d860949d477ba7eae527a1d442a8d4065f4a",
+      "recorded_output_binding_matches": true,
+      "replay_sha256": "dd522239426e97f45b8846093f31d860949d477ba7eae527a1d442a8d4065f4a"
+    },
+    {
+      "artifact": "report.md",
+      "batch_id": "stratum-01-block-04-hash75-method-03",
+      "byte_identical": true,
+      "primary_sha256": "7bad5cdbef6ff0580167738bec12bac79cf44cb71af448cdd5861a48bce5e91e",
+      "recorded_output_binding_matches": true,
+      "replay_sha256": "7bad5cdbef6ff0580167738bec12bac79cf44cb71af448cdd5861a48bce5e91e"
+    },
+    {
+      "artifact": "checksums.json",
+      "batch_id": "stratum-01-block-04-middle50-method-01",
+      "byte_identical": true,
+      "primary_sha256": "f269b4d49015519c5062cd98b1ed8877dcb475dfd8fe62b2ccff214399b9da4a",
+      "recorded_output_binding_matches": true,
+      "replay_sha256": "f269b4d49015519c5062cd98b1ed8877dcb475dfd8fe62b2ccff214399b9da4a"
+    },
+    {
+      "artifact": "evaluation.json",
+      "batch_id": "stratum-01-block-04-middle50-method-01",
+      "byte_identical": true,
+      "primary_sha256": "d9696da4682de00710d2f9a42796a78563e16321ca47b157e3ac85b621f9a7ac",
+      "recorded_output_binding_matches": true,
+      "replay_sha256": "d9696da4682de00710d2f9a42796a78563e16321ca47b157e3ac85b621f9a7ac"
+    },
+    {
+      "artifact": "report.md",
+      "batch_id": "stratum-01-block-04-middle50-method-01",
+      "byte_identical": true,
+      "primary_sha256": "c83ff15cb18bcf6019f153d7b9a6606d859344d10bc3247aca4f8de0f1b15b2c",
+      "recorded_output_binding_matches": true,
+      "replay_sha256": "c83ff15cb18bcf6019f153d7b9a6606d859344d10bc3247aca4f8de0f1b15b2c"
+    },
+    {
+      "artifact": "checksums.json",
+      "batch_id": "stratum-01-block-04-middle50-method-02",
+      "byte_identical": true,
+      "primary_sha256": "fef1c2ac7c5dc06965af0c60bc2d7c56c2e15f8013829f53af9b8106a062f4e1",
+      "recorded_output_binding_matches": true,
+      "replay_sha256": "fef1c2ac7c5dc06965af0c60bc2d7c56c2e15f8013829f53af9b8106a062f4e1"
+    },
+    {
+      "artifact": "evaluation.json",
+      "batch_id": "stratum-01-block-04-middle50-method-02",
+      "byte_identical": true,
+      "primary_sha256": "c58a89265d3f645acaf0b64acef85aa8572d27ddbea3ef0ded61e3bce1de5c88",
+      "recorded_output_binding_matches": true,
+      "replay_sha256": "c58a89265d3f645acaf0b64acef85aa8572d27ddbea3ef0ded61e3bce1de5c88"
+    },
+    {
+      "artifact": "report.md",
+      "batch_id": "stratum-01-block-04-middle50-method-02",
+      "byte_identical": true,
+      "primary_sha256": "93a22f071f1d08bad1302a3e21bc9459daf1c84a97ee85813706647e933fbb0b",
+      "recorded_output_binding_matches": true,
+      "replay_sha256": "93a22f071f1d08bad1302a3e21bc9459daf1c84a97ee85813706647e933fbb0b"
+    },
+    {
+      "artifact": "checksums.json",
+      "batch_id": "stratum-01-block-04-middle50-method-03",
+      "byte_identical": true,
+      "primary_sha256": "c9cdee04a704639a10adf3b6e8511c9a5fba0f39afcea1459676d42fb956dc59",
+      "recorded_output_binding_matches": true,
+      "replay_sha256": "c9cdee04a704639a10adf3b6e8511c9a5fba0f39afcea1459676d42fb956dc59"
+    },
+    {
+      "artifact": "evaluation.json",
+      "batch_id": "stratum-01-block-04-middle50-method-03",
+      "byte_identical": true,
+      "primary_sha256": "ce6aca28dd3513425622d4631b5fcb623f39235cf0dc3daa2c85654657acf2a4",
+      "recorded_output_binding_matches": true,
+      "replay_sha256": "ce6aca28dd3513425622d4631b5fcb623f39235cf0dc3daa2c85654657acf2a4"
+    },
+    {
+      "artifact": "report.md",
+      "batch_id": "stratum-01-block-04-middle50-method-03",
+      "byte_identical": true,
+      "primary_sha256": "fa6f3ae9b2a53377e703ecd07bf76b0ad8dbd8c48761f1438519b13daa1d275b",
+      "recorded_output_binding_matches": true,
+      "replay_sha256": "fa6f3ae9b2a53377e703ecd07bf76b0ad8dbd8c48761f1438519b13daa1d275b"
+    },
+    {
+      "artifact": "checksums.json",
+      "batch_id": "stratum-01-block-05-full-method-01",
+      "byte_identical": true,
+      "primary_sha256": "d37a3f72a182d2fa322fa506348ae077c36a6ca2753da6d458fd630d1f77707b",
+      "recorded_output_binding_matches": true,
+      "replay_sha256": "d37a3f72a182d2fa322fa506348ae077c36a6ca2753da6d458fd630d1f77707b"
+    },
+    {
+      "artifact": "evaluation.json",
+      "batch_id": "stratum-01-block-05-full-method-01",
+      "byte_identical": true,
+      "primary_sha256": "f947587aba7c259f5144761bd85e406014910b4e72a88ad1884293100853e2c3",
+      "recorded_output_binding_matches": true,
+      "replay_sha256": "f947587aba7c259f5144761bd85e406014910b4e72a88ad1884293100853e2c3"
+    },
+    {
+      "artifact": "report.md",
+      "batch_id": "stratum-01-block-05-full-method-01",
+      "byte_identical": true,
+      "primary_sha256": "f333d17d553db298c52dbe19438edd4eb9b54747c592c1c73fb0a33a120b5a27",
+      "recorded_output_binding_matches": true,
+      "replay_sha256": "f333d17d553db298c52dbe19438edd4eb9b54747c592c1c73fb0a33a120b5a27"
+    },
+    {
+      "artifact": "checksums.json",
+      "batch_id": "stratum-01-block-05-full-method-02",
+      "byte_identical": true,
+      "primary_sha256": "7a634e9928cc4009c61ef618575f842611931672c92c70d008d5654b735802ba",
+      "recorded_output_binding_matches": true,
+      "replay_sha256": "7a634e9928cc4009c61ef618575f842611931672c92c70d008d5654b735802ba"
+    },
+    {
+      "artifact": "evaluation.json",
+      "batch_id": "stratum-01-block-05-full-method-02",
+      "byte_identical": true,
+      "primary_sha256": "772412929caa6b18e8c082ab7807dd40e3291e3379511e31ded85aca33caa069",
+      "recorded_output_binding_matches": true,
+      "replay_sha256": "772412929caa6b18e8c082ab7807dd40e3291e3379511e31ded85aca33caa069"
+    },
+    {
+      "artifact": "report.md",
+      "batch_id": "stratum-01-block-05-full-method-02",
+      "byte_identical": true,
+      "primary_sha256": "f07d3d7119d1a65f846d52e47d4226a7d66ed72f14db97065551db7d28499ab2",
+      "recorded_output_binding_matches": true,
+      "replay_sha256": "f07d3d7119d1a65f846d52e47d4226a7d66ed72f14db97065551db7d28499ab2"
+    },
+    {
+      "artifact": "checksums.json",
+      "batch_id": "stratum-01-block-05-full-method-03",
+      "byte_identical": true,
+      "primary_sha256": "d54fab5b58d6ca5fa0dcdf0a97725de2d71ad358ef61746bfdeef24ab69a95d6",
+      "recorded_output_binding_matches": true,
+      "replay_sha256": "d54fab5b58d6ca5fa0dcdf0a97725de2d71ad358ef61746bfdeef24ab69a95d6"
+    },
+    {
+      "artifact": "evaluation.json",
+      "batch_id": "stratum-01-block-05-full-method-03",
+      "byte_identical": true,
+      "primary_sha256": "aba44a2cc803e2aa2ecdffe6bdfc204b912df4ca95d87745cbe525ed7ec52c6d",
+      "recorded_output_binding_matches": true,
+      "replay_sha256": "aba44a2cc803e2aa2ecdffe6bdfc204b912df4ca95d87745cbe525ed7ec52c6d"
+    },
+    {
+      "artifact": "report.md",
+      "batch_id": "stratum-01-block-05-full-method-03",
+      "byte_identical": true,
+      "primary_sha256": "6623e6aaf184ac8f472cd4962fd8aef3532676b7c308d04198cabbe7c71790ef",
+      "recorded_output_binding_matches": true,
+      "replay_sha256": "6623e6aaf184ac8f472cd4962fd8aef3532676b7c308d04198cabbe7c71790ef"
+    },
+    {
+      "artifact": "checksums.json",
+      "batch_id": "stratum-01-block-05-hash50-method-01",
+      "byte_identical": true,
+      "primary_sha256": "2c33585ac671288a240eec628b3b3092bb68a9a25ce19fa42e728b07f4ae9240",
+      "recorded_output_binding_matches": true,
+      "replay_sha256": "2c33585ac671288a240eec628b3b3092bb68a9a25ce19fa42e728b07f4ae9240"
+    },
+    {
+      "artifact": "evaluation.json",
+      "batch_id": "stratum-01-block-05-hash50-method-01",
+      "byte_identical": true,
+      "primary_sha256": "7cfb6899f8f6035e335cf1a0366290303d3d34adb71efe53b664d8b7c6d971da",
+      "recorded_output_binding_matches": true,
+      "replay_sha256": "7cfb6899f8f6035e335cf1a0366290303d3d34adb71efe53b664d8b7c6d971da"
+    },
+    {
+      "artifact": "report.md",
+      "batch_id": "stratum-01-block-05-hash50-method-01",
+      "byte_identical": true,
+      "primary_sha256": "4b1ea0b940a2ae24028999f00c373a39360abaef968405c051176e721f295f10",
+      "recorded_output_binding_matches": true,
+      "replay_sha256": "4b1ea0b940a2ae24028999f00c373a39360abaef968405c051176e721f295f10"
+    },
+    {
+      "artifact": "checksums.json",
+      "batch_id": "stratum-01-block-05-hash50-method-02",
+      "byte_identical": true,
+      "primary_sha256": "aad6b9e6fcd7256a2937ea0fb681107e77690c3f0bba258fa6254172ff7cc196",
+      "recorded_output_binding_matches": true,
+      "replay_sha256": "aad6b9e6fcd7256a2937ea0fb681107e77690c3f0bba258fa6254172ff7cc196"
+    },
+    {
+      "artifact": "evaluation.json",
+      "batch_id": "stratum-01-block-05-hash50-method-02",
+      "byte_identical": true,
+      "primary_sha256": "1ee144304541c4d7a3f4a862334b3078e175719e6cf8c1062c37f163495b6395",
+      "recorded_output_binding_matches": true,
+      "replay_sha256": "1ee144304541c4d7a3f4a862334b3078e175719e6cf8c1062c37f163495b6395"
+    },
+    {
+      "artifact": "report.md",
+      "batch_id": "stratum-01-block-05-hash50-method-02",
+      "byte_identical": true,
+      "primary_sha256": "46a220ea003b09bbc9b3a3902f69cefe4054f29d62a8a15cab1dfcc4fee755d9",
+      "recorded_output_binding_matches": true,
+      "replay_sha256": "46a220ea003b09bbc9b3a3902f69cefe4054f29d62a8a15cab1dfcc4fee755d9"
+    },
+    {
+      "artifact": "checksums.json",
+      "batch_id": "stratum-01-block-05-hash50-method-03",
+      "byte_identical": true,
+      "primary_sha256": "80c4a8c0c0624458b890426621679f39534bcfcb38f2d452844f6d7e21b9b69b",
+      "recorded_output_binding_matches": true,
+      "replay_sha256": "80c4a8c0c0624458b890426621679f39534bcfcb38f2d452844f6d7e21b9b69b"
+    },
+    {
+      "artifact": "evaluation.json",
+      "batch_id": "stratum-01-block-05-hash50-method-03",
+      "byte_identical": true,
+      "primary_sha256": "b5bf447a785ecb86f474eb48ac2973239df01269221d2448d9c7b5aa98d1530e",
+      "recorded_output_binding_matches": true,
+      "replay_sha256": "b5bf447a785ecb86f474eb48ac2973239df01269221d2448d9c7b5aa98d1530e"
+    },
+    {
+      "artifact": "report.md",
+      "batch_id": "stratum-01-block-05-hash50-method-03",
+      "byte_identical": true,
+      "primary_sha256": "4d564dcc565abfbe9eadd34beb5f8a98f565959d50e3cd56317018869f934833",
+      "recorded_output_binding_matches": true,
+      "replay_sha256": "4d564dcc565abfbe9eadd34beb5f8a98f565959d50e3cd56317018869f934833"
+    },
+    {
+      "artifact": "checksums.json",
+      "batch_id": "stratum-01-block-05-hash75-method-01",
+      "byte_identical": true,
+      "primary_sha256": "e3d46530901738876c113a798467651a030d2c923e7a667c0bc1212737231f7c",
+      "recorded_output_binding_matches": true,
+      "replay_sha256": "e3d46530901738876c113a798467651a030d2c923e7a667c0bc1212737231f7c"
+    },
+    {
+      "artifact": "evaluation.json",
+      "batch_id": "stratum-01-block-05-hash75-method-01",
+      "byte_identical": true,
+      "primary_sha256": "8926c48339a1d558858878cc8d9a0a075daafe6e98089168a202b47b0eb6a0d4",
+      "recorded_output_binding_matches": true,
+      "replay_sha256": "8926c48339a1d558858878cc8d9a0a075daafe6e98089168a202b47b0eb6a0d4"
+    },
+    {
+      "artifact": "report.md",
+      "batch_id": "stratum-01-block-05-hash75-method-01",
+      "byte_identical": true,
+      "primary_sha256": "2eabd30deb86b381503cddfac0daa4e78202aeec7e7fa7967d320b2e61acc549",
+      "recorded_output_binding_matches": true,
+      "replay_sha256": "2eabd30deb86b381503cddfac0daa4e78202aeec7e7fa7967d320b2e61acc549"
+    },
+    {
+      "artifact": "checksums.json",
+      "batch_id": "stratum-01-block-05-hash75-method-02",
+      "byte_identical": true,
+      "primary_sha256": "5b1fc0c1afcd0d7c45ff455571e243b5774f53dd9a1a7e61d32f2e53f084f76f",
+      "recorded_output_binding_matches": true,
+      "replay_sha256": "5b1fc0c1afcd0d7c45ff455571e243b5774f53dd9a1a7e61d32f2e53f084f76f"
+    },
+    {
+      "artifact": "evaluation.json",
+      "batch_id": "stratum-01-block-05-hash75-method-02",
+      "byte_identical": true,
+      "primary_sha256": "aab30b2e2ca11b1803174a53befc53fc8d66c1f29dd309956bc2236b6add9f24",
+      "recorded_output_binding_matches": true,
+      "replay_sha256": "aab30b2e2ca11b1803174a53befc53fc8d66c1f29dd309956bc2236b6add9f24"
+    },
+    {
+      "artifact": "report.md",
+      "batch_id": "stratum-01-block-05-hash75-method-02",
+      "byte_identical": true,
+      "primary_sha256": "ca579c22f8d52b3d8c75951f9436bdabe7397c071de288226e23aa8afd21d4e2",
+      "recorded_output_binding_matches": true,
+      "replay_sha256": "ca579c22f8d52b3d8c75951f9436bdabe7397c071de288226e23aa8afd21d4e2"
+    },
+    {
+      "artifact": "checksums.json",
+      "batch_id": "stratum-01-block-05-hash75-method-03",
+      "byte_identical": true,
+      "primary_sha256": "cd36c741e3f09268f0bd187c3724f222f3ec21be7206c606a0a9142d97a64d80",
+      "recorded_output_binding_matches": true,
+      "replay_sha256": "cd36c741e3f09268f0bd187c3724f222f3ec21be7206c606a0a9142d97a64d80"
+    },
+    {
+      "artifact": "evaluation.json",
+      "batch_id": "stratum-01-block-05-hash75-method-03",
+      "byte_identical": true,
+      "primary_sha256": "27672e7452f2dbbc9a5f7de1d9a700ab54b91a2165b11f9ca9a0feafadc01169",
+      "recorded_output_binding_matches": true,
+      "replay_sha256": "27672e7452f2dbbc9a5f7de1d9a700ab54b91a2165b11f9ca9a0feafadc01169"
+    },
+    {
+      "artifact": "report.md",
+      "batch_id": "stratum-01-block-05-hash75-method-03",
+      "byte_identical": true,
+      "primary_sha256": "f75e554b40c65a43ad829741b14270111e8d991dff6c7ee3395149d45ad8b3b1",
+      "recorded_output_binding_matches": true,
+      "replay_sha256": "f75e554b40c65a43ad829741b14270111e8d991dff6c7ee3395149d45ad8b3b1"
+    },
+    {
+      "artifact": "checksums.json",
+      "batch_id": "stratum-01-block-05-middle50-method-01",
+      "byte_identical": true,
+      "primary_sha256": "4d442a9856fc271927bf00f7fc315fd9809336ed1f823f4bec5367bb4be79ea4",
+      "recorded_output_binding_matches": true,
+      "replay_sha256": "4d442a9856fc271927bf00f7fc315fd9809336ed1f823f4bec5367bb4be79ea4"
+    },
+    {
+      "artifact": "evaluation.json",
+      "batch_id": "stratum-01-block-05-middle50-method-01",
+      "byte_identical": true,
+      "primary_sha256": "56832172952c8e54a418c685f348b3912bc2cf64ef29e78104df09c3bb3836a8",
+      "recorded_output_binding_matches": true,
+      "replay_sha256": "56832172952c8e54a418c685f348b3912bc2cf64ef29e78104df09c3bb3836a8"
+    },
+    {
+      "artifact": "report.md",
+      "batch_id": "stratum-01-block-05-middle50-method-01",
+      "byte_identical": true,
+      "primary_sha256": "e71ac12fedab5b113ed38e416ab6ad8322f9530e042b8015df3450e8c39e4bca",
+      "recorded_output_binding_matches": true,
+      "replay_sha256": "e71ac12fedab5b113ed38e416ab6ad8322f9530e042b8015df3450e8c39e4bca"
+    },
+    {
+      "artifact": "checksums.json",
+      "batch_id": "stratum-01-block-05-middle50-method-02",
+      "byte_identical": true,
+      "primary_sha256": "4290b92ec6da1eced53c4f888d98bec7021dc465d6fd89fa838f1dd1958f1140",
+      "recorded_output_binding_matches": true,
+      "replay_sha256": "4290b92ec6da1eced53c4f888d98bec7021dc465d6fd89fa838f1dd1958f1140"
+    },
+    {
+      "artifact": "evaluation.json",
+      "batch_id": "stratum-01-block-05-middle50-method-02",
+      "byte_identical": true,
+      "primary_sha256": "a5776893fedd689b8d84c9045b90febb2e125a53878dfc07e694585a366e5b1c",
+      "recorded_output_binding_matches": true,
+      "replay_sha256": "a5776893fedd689b8d84c9045b90febb2e125a53878dfc07e694585a366e5b1c"
+    },
+    {
+      "artifact": "report.md",
+      "batch_id": "stratum-01-block-05-middle50-method-02",
+      "byte_identical": true,
+      "primary_sha256": "90a44f508617420421fbb83bf10698f85afd37a88e1e3a5b8a94b8e698de18db",
+      "recorded_output_binding_matches": true,
+      "replay_sha256": "90a44f508617420421fbb83bf10698f85afd37a88e1e3a5b8a94b8e698de18db"
+    },
+    {
+      "artifact": "checksums.json",
+      "batch_id": "stratum-01-block-05-middle50-method-03",
+      "byte_identical": true,
+      "primary_sha256": "58e8f26a857f58623273c3265efeb6dca6efcd30d16a28cb313e949fca6d127e",
+      "recorded_output_binding_matches": true,
+      "replay_sha256": "58e8f26a857f58623273c3265efeb6dca6efcd30d16a28cb313e949fca6d127e"
+    },
+    {
+      "artifact": "evaluation.json",
+      "batch_id": "stratum-01-block-05-middle50-method-03",
+      "byte_identical": true,
+      "primary_sha256": "aa53b56392f80baf7f2dd721de67172d06156a98d833c2de1e8f51421d199d57",
+      "recorded_output_binding_matches": true,
+      "replay_sha256": "aa53b56392f80baf7f2dd721de67172d06156a98d833c2de1e8f51421d199d57"
+    },
+    {
+      "artifact": "report.md",
+      "batch_id": "stratum-01-block-05-middle50-method-03",
+      "byte_identical": true,
+      "primary_sha256": "1bac78ee67fba2627fc5bcf0e5c933d07b474a8896c43a2dcd528e8ddb54ccde",
+      "recorded_output_binding_matches": true,
+      "replay_sha256": "1bac78ee67fba2627fc5bcf0e5c933d07b474a8896c43a2dcd528e8ddb54ccde"
+    },
+    {
+      "artifact": "checksums.json",
+      "batch_id": "stratum-01-block-06-full-method-01",
+      "byte_identical": true,
+      "primary_sha256": "7e967686b4e6419687cb7d436854d8a59ad65dda7722d7287f9f7e2da34095f4",
+      "recorded_output_binding_matches": true,
+      "replay_sha256": "7e967686b4e6419687cb7d436854d8a59ad65dda7722d7287f9f7e2da34095f4"
+    },
+    {
+      "artifact": "evaluation.json",
+      "batch_id": "stratum-01-block-06-full-method-01",
+      "byte_identical": true,
+      "primary_sha256": "e3abe5f12082462ef9317d4a725c91abd7c945f1932e495fecaec1a012e19426",
+      "recorded_output_binding_matches": true,
+      "replay_sha256": "e3abe5f12082462ef9317d4a725c91abd7c945f1932e495fecaec1a012e19426"
+    },
+    {
+      "artifact": "report.md",
+      "batch_id": "stratum-01-block-06-full-method-01",
+      "byte_identical": true,
+      "primary_sha256": "2fe487c0793fc286b2987719ef7820a427593c14284a5935a2d325d86132e6c5",
+      "recorded_output_binding_matches": true,
+      "replay_sha256": "2fe487c0793fc286b2987719ef7820a427593c14284a5935a2d325d86132e6c5"
+    },
+    {
+      "artifact": "checksums.json",
+      "batch_id": "stratum-01-block-06-full-method-02",
+      "byte_identical": true,
+      "primary_sha256": "f0cd4be28096bdd88825833820b8f6f196a6d75892687d4e7a6e1c4cffccc818",
+      "recorded_output_binding_matches": true,
+      "replay_sha256": "f0cd4be28096bdd88825833820b8f6f196a6d75892687d4e7a6e1c4cffccc818"
+    },
+    {
+      "artifact": "evaluation.json",
+      "batch_id": "stratum-01-block-06-full-method-02",
+      "byte_identical": true,
+      "primary_sha256": "06f3ffd3d20184fe2dc54365701405670c5b8829ee8894b5120505b26995735c",
+      "recorded_output_binding_matches": true,
+      "replay_sha256": "06f3ffd3d20184fe2dc54365701405670c5b8829ee8894b5120505b26995735c"
+    },
+    {
+      "artifact": "report.md",
+      "batch_id": "stratum-01-block-06-full-method-02",
+      "byte_identical": true,
+      "primary_sha256": "0374e15804958607c45908b46270ef7884db4ed6ef78afc34db7568e13b6e3f1",
+      "recorded_output_binding_matches": true,
+      "replay_sha256": "0374e15804958607c45908b46270ef7884db4ed6ef78afc34db7568e13b6e3f1"
+    },
+    {
+      "artifact": "checksums.json",
+      "batch_id": "stratum-01-block-06-full-method-03",
+      "byte_identical": true,
+      "primary_sha256": "4d8eb38acf555ceaffed6de0a192f88ed4a09b5a400b5c586bc7434802680a0d",
+      "recorded_output_binding_matches": true,
+      "replay_sha256": "4d8eb38acf555ceaffed6de0a192f88ed4a09b5a400b5c586bc7434802680a0d"
+    },
+    {
+      "artifact": "evaluation.json",
+      "batch_id": "stratum-01-block-06-full-method-03",
+      "byte_identical": true,
+      "primary_sha256": "1628d1e09398d633d2a8468a871551768af913acff7ed207690a58367bd30132",
+      "recorded_output_binding_matches": true,
+      "replay_sha256": "1628d1e09398d633d2a8468a871551768af913acff7ed207690a58367bd30132"
+    },
+    {
+      "artifact": "report.md",
+      "batch_id": "stratum-01-block-06-full-method-03",
+      "byte_identical": true,
+      "primary_sha256": "fceb6ea1b4013bf6943cb0cc24c68d4d0efd165b5509d91a79422bd8f215eccd",
+      "recorded_output_binding_matches": true,
+      "replay_sha256": "fceb6ea1b4013bf6943cb0cc24c68d4d0efd165b5509d91a79422bd8f215eccd"
+    },
+    {
+      "artifact": "checksums.json",
+      "batch_id": "stratum-01-block-06-hash50-method-01",
+      "byte_identical": true,
+      "primary_sha256": "99eb0605d2bbc3f695c6135d18aaa1a1a876c422f74bf58bb7e6a2e662dc85ac",
+      "recorded_output_binding_matches": true,
+      "replay_sha256": "99eb0605d2bbc3f695c6135d18aaa1a1a876c422f74bf58bb7e6a2e662dc85ac"
+    },
+    {
+      "artifact": "evaluation.json",
+      "batch_id": "stratum-01-block-06-hash50-method-01",
+      "byte_identical": true,
+      "primary_sha256": "a421bbc3c416ce4e5ca7884826f06a5b212f38b952e2ce6d53a1175e9c221bdc",
+      "recorded_output_binding_matches": true,
+      "replay_sha256": "a421bbc3c416ce4e5ca7884826f06a5b212f38b952e2ce6d53a1175e9c221bdc"
+    },
+    {
+      "artifact": "report.md",
+      "batch_id": "stratum-01-block-06-hash50-method-01",
+      "byte_identical": true,
+      "primary_sha256": "a9cead8023a756649dc3e9d61e2f40fb346d8bf776d032235d3b2c12c2624355",
+      "recorded_output_binding_matches": true,
+      "replay_sha256": "a9cead8023a756649dc3e9d61e2f40fb346d8bf776d032235d3b2c12c2624355"
+    },
+    {
+      "artifact": "checksums.json",
+      "batch_id": "stratum-01-block-06-hash50-method-02",
+      "byte_identical": true,
+      "primary_sha256": "6b936e64444b17ce6906502e46f8ceafcdbdc92f3f0ff5b59f1646cc58f101de",
+      "recorded_output_binding_matches": true,
+      "replay_sha256": "6b936e64444b17ce6906502e46f8ceafcdbdc92f3f0ff5b59f1646cc58f101de"
+    },
+    {
+      "artifact": "evaluation.json",
+      "batch_id": "stratum-01-block-06-hash50-method-02",
+      "byte_identical": true,
+      "primary_sha256": "1879a420e73d64a4dedfc964b710f9d7afb27f68a8140412daa6f1888d16c37f",
+      "recorded_output_binding_matches": true,
+      "replay_sha256": "1879a420e73d64a4dedfc964b710f9d7afb27f68a8140412daa6f1888d16c37f"
+    },
+    {
+      "artifact": "report.md",
+      "batch_id": "stratum-01-block-06-hash50-method-02",
+      "byte_identical": true,
+      "primary_sha256": "7464619329f7d56fa7685e51db462341ae840e110a69871f89edfd31cd00ba69",
+      "recorded_output_binding_matches": true,
+      "replay_sha256": "7464619329f7d56fa7685e51db462341ae840e110a69871f89edfd31cd00ba69"
+    },
+    {
+      "artifact": "checksums.json",
+      "batch_id": "stratum-01-block-06-hash50-method-03",
+      "byte_identical": true,
+      "primary_sha256": "251824164841c7c67cdb44066377840a5477283080224475a009e4ce3bd3c760",
+      "recorded_output_binding_matches": true,
+      "replay_sha256": "251824164841c7c67cdb44066377840a5477283080224475a009e4ce3bd3c760"
+    },
+    {
+      "artifact": "evaluation.json",
+      "batch_id": "stratum-01-block-06-hash50-method-03",
+      "byte_identical": true,
+      "primary_sha256": "a048d044cf00d58a95980b8966a8f559e9ea70ff68ebe698bd548ee881ac371d",
+      "recorded_output_binding_matches": true,
+      "replay_sha256": "a048d044cf00d58a95980b8966a8f559e9ea70ff68ebe698bd548ee881ac371d"
+    },
+    {
+      "artifact": "report.md",
+      "batch_id": "stratum-01-block-06-hash50-method-03",
+      "byte_identical": true,
+      "primary_sha256": "820c857b41dafe1fe55c046360b0b4dc7ddb6f3cb0b12e3d9c4f26936af3a569",
+      "recorded_output_binding_matches": true,
+      "replay_sha256": "820c857b41dafe1fe55c046360b0b4dc7ddb6f3cb0b12e3d9c4f26936af3a569"
+    },
+    {
+      "artifact": "checksums.json",
+      "batch_id": "stratum-01-block-06-hash75-method-01",
+      "byte_identical": true,
+      "primary_sha256": "2e51c0b99d9c67aea95f8233f833846f46eccc37e8f29e1e9a5bd96928a5cdc0",
+      "recorded_output_binding_matches": true,
+      "replay_sha256": "2e51c0b99d9c67aea95f8233f833846f46eccc37e8f29e1e9a5bd96928a5cdc0"
+    },
+    {
+      "artifact": "evaluation.json",
+      "batch_id": "stratum-01-block-06-hash75-method-01",
+      "byte_identical": true,
+      "primary_sha256": "c01c1a671ed9205ac3a48a130ed65cce959bafa8944e7fcc089843bee1d03f15",
+      "recorded_output_binding_matches": true,
+      "replay_sha256": "c01c1a671ed9205ac3a48a130ed65cce959bafa8944e7fcc089843bee1d03f15"
+    },
+    {
+      "artifact": "report.md",
+      "batch_id": "stratum-01-block-06-hash75-method-01",
+      "byte_identical": true,
+      "primary_sha256": "06ad1ffc27e275edfa09ce016bc9127bbd5b3dbe2c0dbc95bbada6aeab39fa2b",
+      "recorded_output_binding_matches": true,
+      "replay_sha256": "06ad1ffc27e275edfa09ce016bc9127bbd5b3dbe2c0dbc95bbada6aeab39fa2b"
+    },
+    {
+      "artifact": "checksums.json",
+      "batch_id": "stratum-01-block-06-hash75-method-02",
+      "byte_identical": true,
+      "primary_sha256": "9f3b012e2ae2d86302d9cdee1b5171041289f2c2fc1cc935c30a4bc5c0676cf4",
+      "recorded_output_binding_matches": true,
+      "replay_sha256": "9f3b012e2ae2d86302d9cdee1b5171041289f2c2fc1cc935c30a4bc5c0676cf4"
+    },
+    {
+      "artifact": "evaluation.json",
+      "batch_id": "stratum-01-block-06-hash75-method-02",
+      "byte_identical": true,
+      "primary_sha256": "0888c27b420e4cb5edb58166fdbe659a07eb57f89a22f5b4cad80503757c986f",
+      "recorded_output_binding_matches": true,
+      "replay_sha256": "0888c27b420e4cb5edb58166fdbe659a07eb57f89a22f5b4cad80503757c986f"
+    },
+    {
+      "artifact": "report.md",
+      "batch_id": "stratum-01-block-06-hash75-method-02",
+      "byte_identical": true,
+      "primary_sha256": "f829fadf045d1cda63825b37941d0ad1db7d1a7683485a7341556e3997e5103f",
+      "recorded_output_binding_matches": true,
+      "replay_sha256": "f829fadf045d1cda63825b37941d0ad1db7d1a7683485a7341556e3997e5103f"
+    },
+    {
+      "artifact": "checksums.json",
+      "batch_id": "stratum-01-block-06-hash75-method-03",
+      "byte_identical": true,
+      "primary_sha256": "4578532d27a7bff7196c4c5f11efd023f9b502af2706faa865006e7a47569553",
+      "recorded_output_binding_matches": true,
+      "replay_sha256": "4578532d27a7bff7196c4c5f11efd023f9b502af2706faa865006e7a47569553"
+    },
+    {
+      "artifact": "evaluation.json",
+      "batch_id": "stratum-01-block-06-hash75-method-03",
+      "byte_identical": true,
+      "primary_sha256": "7d1d7acd09b9f35c8e63eb527e56a24a2b0b487574ac2d1d588bba23809fc230",
+      "recorded_output_binding_matches": true,
+      "replay_sha256": "7d1d7acd09b9f35c8e63eb527e56a24a2b0b487574ac2d1d588bba23809fc230"
+    },
+    {
+      "artifact": "report.md",
+      "batch_id": "stratum-01-block-06-hash75-method-03",
+      "byte_identical": true,
+      "primary_sha256": "44778bdafd86bd996868a1e1b606790be0927bc3ecda67f00173d59c86430194",
+      "recorded_output_binding_matches": true,
+      "replay_sha256": "44778bdafd86bd996868a1e1b606790be0927bc3ecda67f00173d59c86430194"
+    },
+    {
+      "artifact": "checksums.json",
+      "batch_id": "stratum-01-block-06-middle50-method-01",
+      "byte_identical": true,
+      "primary_sha256": "0a11496261a6dc9f6ebca87b24f07477ae2e1ca53e94696f9a8d0d5b445699dc",
+      "recorded_output_binding_matches": true,
+      "replay_sha256": "0a11496261a6dc9f6ebca87b24f07477ae2e1ca53e94696f9a8d0d5b445699dc"
+    },
+    {
+      "artifact": "evaluation.json",
+      "batch_id": "stratum-01-block-06-middle50-method-01",
+      "byte_identical": true,
+      "primary_sha256": "40b5952598c2ebf1a9b97568ca3dfb418dd4dd5d084523197cb7592ce46ba941",
+      "recorded_output_binding_matches": true,
+      "replay_sha256": "40b5952598c2ebf1a9b97568ca3dfb418dd4dd5d084523197cb7592ce46ba941"
+    },
+    {
+      "artifact": "report.md",
+      "batch_id": "stratum-01-block-06-middle50-method-01",
+      "byte_identical": true,
+      "primary_sha256": "8e07c629cd26f46154a8b9ac1f9273039ed58478c76c6dd3b0b334b102fe2377",
+      "recorded_output_binding_matches": true,
+      "replay_sha256": "8e07c629cd26f46154a8b9ac1f9273039ed58478c76c6dd3b0b334b102fe2377"
+    },
+    {
+      "artifact": "checksums.json",
+      "batch_id": "stratum-01-block-06-middle50-method-02",
+      "byte_identical": true,
+      "primary_sha256": "7c52db476dcdbdafe91d5c3480147588b55ced5909e6a4ce4529943e2c6770f7",
+      "recorded_output_binding_matches": true,
+      "replay_sha256": "7c52db476dcdbdafe91d5c3480147588b55ced5909e6a4ce4529943e2c6770f7"
+    },
+    {
+      "artifact": "evaluation.json",
+      "batch_id": "stratum-01-block-06-middle50-method-02",
+      "byte_identical": true,
+      "primary_sha256": "50e6c43c529b75a6da8fb1f4f686768f171f722ad5aaf97a7595bab0edff50bc",
+      "recorded_output_binding_matches": true,
+      "replay_sha256": "50e6c43c529b75a6da8fb1f4f686768f171f722ad5aaf97a7595bab0edff50bc"
+    },
+    {
+      "artifact": "report.md",
+      "batch_id": "stratum-01-block-06-middle50-method-02",
+      "byte_identical": true,
+      "primary_sha256": "c10ea42ed705f03a574a84954f3623832d5df2c1de9a03b862e757ca2804c5e0",
+      "recorded_output_binding_matches": true,
+      "replay_sha256": "c10ea42ed705f03a574a84954f3623832d5df2c1de9a03b862e757ca2804c5e0"
+    },
+    {
+      "artifact": "checksums.json",
+      "batch_id": "stratum-01-block-06-middle50-method-03",
+      "byte_identical": true,
+      "primary_sha256": "6bdd58ed38c9c06753bdd8979fe1ce037987ee637d7664b4caf590a19d984a4b",
+      "recorded_output_binding_matches": true,
+      "replay_sha256": "6bdd58ed38c9c06753bdd8979fe1ce037987ee637d7664b4caf590a19d984a4b"
+    },
+    {
+      "artifact": "evaluation.json",
+      "batch_id": "stratum-01-block-06-middle50-method-03",
+      "byte_identical": true,
+      "primary_sha256": "76fc83d11225d078bd416f31f835c53c3fc95a59616329390810fef2051f6f12",
+      "recorded_output_binding_matches": true,
+      "replay_sha256": "76fc83d11225d078bd416f31f835c53c3fc95a59616329390810fef2051f6f12"
+    },
+    {
+      "artifact": "report.md",
+      "batch_id": "stratum-01-block-06-middle50-method-03",
+      "byte_identical": true,
+      "primary_sha256": "6754108d1484fdc1379b49e14f841e3946f33d5098bc32fa5791a23bda3ac4a4",
+      "recorded_output_binding_matches": true,
+      "replay_sha256": "6754108d1484fdc1379b49e14f841e3946f33d5098bc32fa5791a23bda3ac4a4"
+    },
+    {
+      "artifact": "checksums.json",
+      "batch_id": "stratum-01-block-07-full-method-01",
+      "byte_identical": true,
+      "primary_sha256": "9a7df10549d4a7b51faf917e62aa7b7eaa3333571aaa05e8171e9ecb5c85af7b",
+      "recorded_output_binding_matches": true,
+      "replay_sha256": "9a7df10549d4a7b51faf917e62aa7b7eaa3333571aaa05e8171e9ecb5c85af7b"
+    },
+    {
+      "artifact": "evaluation.json",
+      "batch_id": "stratum-01-block-07-full-method-01",
+      "byte_identical": true,
+      "primary_sha256": "070ec8709698c26a99579f3a7f153c1a4d29c4d159055042d84a2c53fb164411",
+      "recorded_output_binding_matches": true,
+      "replay_sha256": "070ec8709698c26a99579f3a7f153c1a4d29c4d159055042d84a2c53fb164411"
+    },
+    {
+      "artifact": "report.md",
+      "batch_id": "stratum-01-block-07-full-method-01",
+      "byte_identical": true,
+      "primary_sha256": "af81ce7365017fb47274237b44f2d7aeac929bd9f0a6a9dcdc33264f646ae20f",
+      "recorded_output_binding_matches": true,
+      "replay_sha256": "af81ce7365017fb47274237b44f2d7aeac929bd9f0a6a9dcdc33264f646ae20f"
+    },
+    {
+      "artifact": "checksums.json",
+      "batch_id": "stratum-01-block-07-full-method-02",
+      "byte_identical": true,
+      "primary_sha256": "fce1274e62e1f8fed9e15653d8e7121f8995afa88f3485c454db9df55c6f5590",
+      "recorded_output_binding_matches": true,
+      "replay_sha256": "fce1274e62e1f8fed9e15653d8e7121f8995afa88f3485c454db9df55c6f5590"
+    },
+    {
+      "artifact": "evaluation.json",
+      "batch_id": "stratum-01-block-07-full-method-02",
+      "byte_identical": true,
+      "primary_sha256": "549fe6d142d98dedbd8af7537138e61a399b570ae7f8ab8fef131cf71d570951",
+      "recorded_output_binding_matches": true,
+      "replay_sha256": "549fe6d142d98dedbd8af7537138e61a399b570ae7f8ab8fef131cf71d570951"
+    },
+    {
+      "artifact": "report.md",
+      "batch_id": "stratum-01-block-07-full-method-02",
+      "byte_identical": true,
+      "primary_sha256": "1c5a327fd028da04d59119e1d9e39471d7f5eddc398be59536d45c869ddd2ec8",
+      "recorded_output_binding_matches": true,
+      "replay_sha256": "1c5a327fd028da04d59119e1d9e39471d7f5eddc398be59536d45c869ddd2ec8"
+    },
+    {
+      "artifact": "checksums.json",
+      "batch_id": "stratum-01-block-07-full-method-03",
+      "byte_identical": true,
+      "primary_sha256": "7af69f6a4e915352f7f452d930bd7b378c0447b2b5d9711694fa0a0a7a053398",
+      "recorded_output_binding_matches": true,
+      "replay_sha256": "7af69f6a4e915352f7f452d930bd7b378c0447b2b5d9711694fa0a0a7a053398"
+    },
+    {
+      "artifact": "evaluation.json",
+      "batch_id": "stratum-01-block-07-full-method-03",
+      "byte_identical": true,
+      "primary_sha256": "8c09e851a8d4b1603ed23a30ab75d74cf8dd0ae20d026a9cef1d5fdded0b5d41",
+      "recorded_output_binding_matches": true,
+      "replay_sha256": "8c09e851a8d4b1603ed23a30ab75d74cf8dd0ae20d026a9cef1d5fdded0b5d41"
+    },
+    {
+      "artifact": "report.md",
+      "batch_id": "stratum-01-block-07-full-method-03",
+      "byte_identical": true,
+      "primary_sha256": "211e039ad922de6f7b61cd98445dcfe2684ee19b8b50a0e40e4eb95a55548ac0",
+      "recorded_output_binding_matches": true,
+      "replay_sha256": "211e039ad922de6f7b61cd98445dcfe2684ee19b8b50a0e40e4eb95a55548ac0"
+    },
+    {
+      "artifact": "checksums.json",
+      "batch_id": "stratum-01-block-07-hash50-method-01",
+      "byte_identical": true,
+      "primary_sha256": "469fbe42b06dfcb3f5bcabb152c774d6b1d2fb277ee9d92b5cdb701c199acaa1",
+      "recorded_output_binding_matches": true,
+      "replay_sha256": "469fbe42b06dfcb3f5bcabb152c774d6b1d2fb277ee9d92b5cdb701c199acaa1"
+    },
+    {
+      "artifact": "evaluation.json",
+      "batch_id": "stratum-01-block-07-hash50-method-01",
+      "byte_identical": true,
+      "primary_sha256": "1d0be0f01fb17ba5ef5dbade3f9d6856719779f4d999a0a55ba1f8ee260043a4",
+      "recorded_output_binding_matches": true,
+      "replay_sha256": "1d0be0f01fb17ba5ef5dbade3f9d6856719779f4d999a0a55ba1f8ee260043a4"
+    },
+    {
+      "artifact": "report.md",
+      "batch_id": "stratum-01-block-07-hash50-method-01",
+      "byte_identical": true,
+      "primary_sha256": "3b16fd3c37310cf9cad000c846eb05d998e026227e16303fa860d6106c88ab6c",
+      "recorded_output_binding_matches": true,
+      "replay_sha256": "3b16fd3c37310cf9cad000c846eb05d998e026227e16303fa860d6106c88ab6c"
+    },
+    {
+      "artifact": "checksums.json",
+      "batch_id": "stratum-01-block-07-hash50-method-02",
+      "byte_identical": true,
+      "primary_sha256": "d230f13ab55288d8c787bca503442efae38f034c5221ab7923ea34c388585cd7",
+      "recorded_output_binding_matches": true,
+      "replay_sha256": "d230f13ab55288d8c787bca503442efae38f034c5221ab7923ea34c388585cd7"
+    },
+    {
+      "artifact": "evaluation.json",
+      "batch_id": "stratum-01-block-07-hash50-method-02",
+      "byte_identical": true,
+      "primary_sha256": "3f3a12ca53c94a2663cebe0bd78683b1a4ee0d9107cec2dc026f5b4f4d2303bc",
+      "recorded_output_binding_matches": true,
+      "replay_sha256": "3f3a12ca53c94a2663cebe0bd78683b1a4ee0d9107cec2dc026f5b4f4d2303bc"
+    },
+    {
+      "artifact": "report.md",
+      "batch_id": "stratum-01-block-07-hash50-method-02",
+      "byte_identical": true,
+      "primary_sha256": "7f92d7d0d672019e7ebfa00b6f356437ee241cbcebebb49d71245d0d58fbfae8",
+      "recorded_output_binding_matches": true,
+      "replay_sha256": "7f92d7d0d672019e7ebfa00b6f356437ee241cbcebebb49d71245d0d58fbfae8"
+    },
+    {
+      "artifact": "checksums.json",
+      "batch_id": "stratum-01-block-07-hash50-method-03",
+      "byte_identical": true,
+      "primary_sha256": "c8097d809720cf8bb172368e37b6752d7dcecb092e1cbcd7a960f1213aa0a863",
+      "recorded_output_binding_matches": true,
+      "replay_sha256": "c8097d809720cf8bb172368e37b6752d7dcecb092e1cbcd7a960f1213aa0a863"
+    },
+    {
+      "artifact": "evaluation.json",
+      "batch_id": "stratum-01-block-07-hash50-method-03",
+      "byte_identical": true,
+      "primary_sha256": "e76f9c13848e4c9466ea7ec183893ad81d19e772bb0006b1d07e3225b4e36239",
+      "recorded_output_binding_matches": true,
+      "replay_sha256": "e76f9c13848e4c9466ea7ec183893ad81d19e772bb0006b1d07e3225b4e36239"
+    },
+    {
+      "artifact": "report.md",
+      "batch_id": "stratum-01-block-07-hash50-method-03",
+      "byte_identical": true,
+      "primary_sha256": "59f9fbe44aa2eec95384dfaea6b62cae217fd4afe6d1ff265f919861335149cb",
+      "recorded_output_binding_matches": true,
+      "replay_sha256": "59f9fbe44aa2eec95384dfaea6b62cae217fd4afe6d1ff265f919861335149cb"
+    },
+    {
+      "artifact": "checksums.json",
+      "batch_id": "stratum-01-block-07-hash75-method-01",
+      "byte_identical": true,
+      "primary_sha256": "e109ceb2fb5b9b80612aa57192f53af859fb2f7ebd48ad421601b99229292630",
+      "recorded_output_binding_matches": true,
+      "replay_sha256": "e109ceb2fb5b9b80612aa57192f53af859fb2f7ebd48ad421601b99229292630"
+    },
+    {
+      "artifact": "evaluation.json",
+      "batch_id": "stratum-01-block-07-hash75-method-01",
+      "byte_identical": true,
+      "primary_sha256": "3dab0a5b735a5a07fb2d5695ca9d30ea4899aff68cee1e742df3722ba919a19b",
+      "recorded_output_binding_matches": true,
+      "replay_sha256": "3dab0a5b735a5a07fb2d5695ca9d30ea4899aff68cee1e742df3722ba919a19b"
+    },
+    {
+      "artifact": "report.md",
+      "batch_id": "stratum-01-block-07-hash75-method-01",
+      "byte_identical": true,
+      "primary_sha256": "cf686f0471b5a2127606abbaf30caf0e5adc098c28dce6d6957c55e4d7530c50",
+      "recorded_output_binding_matches": true,
+      "replay_sha256": "cf686f0471b5a2127606abbaf30caf0e5adc098c28dce6d6957c55e4d7530c50"
+    },
+    {
+      "artifact": "checksums.json",
+      "batch_id": "stratum-01-block-07-hash75-method-02",
+      "byte_identical": true,
+      "primary_sha256": "99b64c4e41f389b2f26a70f32b025f30791d96a85a8bba1c19a2cc28fb82ba20",
+      "recorded_output_binding_matches": true,
+      "replay_sha256": "99b64c4e41f389b2f26a70f32b025f30791d96a85a8bba1c19a2cc28fb82ba20"
+    },
+    {
+      "artifact": "evaluation.json",
+      "batch_id": "stratum-01-block-07-hash75-method-02",
+      "byte_identical": true,
+      "primary_sha256": "1604936f145be07f3a5f75a80400ed8f9dbb02b453e838d97b22112f66b8ab4b",
+      "recorded_output_binding_matches": true,
+      "replay_sha256": "1604936f145be07f3a5f75a80400ed8f9dbb02b453e838d97b22112f66b8ab4b"
+    },
+    {
+      "artifact": "report.md",
+      "batch_id": "stratum-01-block-07-hash75-method-02",
+      "byte_identical": true,
+      "primary_sha256": "e53524425f56d505c3a968413da4d99c8685be54f80c050de56a75c47d42380d",
+      "recorded_output_binding_matches": true,
+      "replay_sha256": "e53524425f56d505c3a968413da4d99c8685be54f80c050de56a75c47d42380d"
+    },
+    {
+      "artifact": "checksums.json",
+      "batch_id": "stratum-01-block-07-hash75-method-03",
+      "byte_identical": true,
+      "primary_sha256": "e54d19a7843349fc3aacf0546641ddce99953aae4539f751f0ff685401b1f7ba",
+      "recorded_output_binding_matches": true,
+      "replay_sha256": "e54d19a7843349fc3aacf0546641ddce99953aae4539f751f0ff685401b1f7ba"
+    },
+    {
+      "artifact": "evaluation.json",
+      "batch_id": "stratum-01-block-07-hash75-method-03",
+      "byte_identical": true,
+      "primary_sha256": "1f7c0151fbfc2b62cfa503d8128f4aa891416b8400e22d5c7e25b35a50c36e25",
+      "recorded_output_binding_matches": true,
+      "replay_sha256": "1f7c0151fbfc2b62cfa503d8128f4aa891416b8400e22d5c7e25b35a50c36e25"
+    },
+    {
+      "artifact": "report.md",
+      "batch_id": "stratum-01-block-07-hash75-method-03",
+      "byte_identical": true,
+      "primary_sha256": "5816f7e9f436c00034d61acee0473d6c7d08b651a14c547384bc52414c229cce",
+      "recorded_output_binding_matches": true,
+      "replay_sha256": "5816f7e9f436c00034d61acee0473d6c7d08b651a14c547384bc52414c229cce"
+    },
+    {
+      "artifact": "checksums.json",
+      "batch_id": "stratum-01-block-07-middle50-method-01",
+      "byte_identical": true,
+      "primary_sha256": "4ae5c1d93dacae5672b147a5b36577509ba304f318f83d46623f81b8ef1eb5aa",
+      "recorded_output_binding_matches": true,
+      "replay_sha256": "4ae5c1d93dacae5672b147a5b36577509ba304f318f83d46623f81b8ef1eb5aa"
+    },
+    {
+      "artifact": "evaluation.json",
+      "batch_id": "stratum-01-block-07-middle50-method-01",
+      "byte_identical": true,
+      "primary_sha256": "8aa5dc71cda726321f569846bae0b98da22e23bdc0f72ca237e56930ab15df80",
+      "recorded_output_binding_matches": true,
+      "replay_sha256": "8aa5dc71cda726321f569846bae0b98da22e23bdc0f72ca237e56930ab15df80"
+    },
+    {
+      "artifact": "report.md",
+      "batch_id": "stratum-01-block-07-middle50-method-01",
+      "byte_identical": true,
+      "primary_sha256": "08767c945b05fd38660f82bfebf5ba09a1317a0b85c8d4a21807f563a8f0e037",
+      "recorded_output_binding_matches": true,
+      "replay_sha256": "08767c945b05fd38660f82bfebf5ba09a1317a0b85c8d4a21807f563a8f0e037"
+    },
+    {
+      "artifact": "checksums.json",
+      "batch_id": "stratum-01-block-07-middle50-method-02",
+      "byte_identical": true,
+      "primary_sha256": "ccabac4129756e1ab5a367d6267f3c2361195a89ab2f19b6f25af944946c98c1",
+      "recorded_output_binding_matches": true,
+      "replay_sha256": "ccabac4129756e1ab5a367d6267f3c2361195a89ab2f19b6f25af944946c98c1"
+    },
+    {
+      "artifact": "evaluation.json",
+      "batch_id": "stratum-01-block-07-middle50-method-02",
+      "byte_identical": true,
+      "primary_sha256": "19e52a53e67a88e285f2aebf9393cd42a8762b5331c58b8beb0f960a9f9b9d1e",
+      "recorded_output_binding_matches": true,
+      "replay_sha256": "19e52a53e67a88e285f2aebf9393cd42a8762b5331c58b8beb0f960a9f9b9d1e"
+    },
+    {
+      "artifact": "report.md",
+      "batch_id": "stratum-01-block-07-middle50-method-02",
+      "byte_identical": true,
+      "primary_sha256": "9a984cd3d58dd4f525c666b58ee1ae700330c4d1bfffd546553526d4daeb7a97",
+      "recorded_output_binding_matches": true,
+      "replay_sha256": "9a984cd3d58dd4f525c666b58ee1ae700330c4d1bfffd546553526d4daeb7a97"
+    },
+    {
+      "artifact": "checksums.json",
+      "batch_id": "stratum-01-block-07-middle50-method-03",
+      "byte_identical": true,
+      "primary_sha256": "4513f0d2f7d4e793687cc32f4f055635151c695669c23e8283ba765ae274ccd4",
+      "recorded_output_binding_matches": true,
+      "replay_sha256": "4513f0d2f7d4e793687cc32f4f055635151c695669c23e8283ba765ae274ccd4"
+    },
+    {
+      "artifact": "evaluation.json",
+      "batch_id": "stratum-01-block-07-middle50-method-03",
+      "byte_identical": true,
+      "primary_sha256": "68d5724376fd4be2cd6b2140eaa3db029e5342e715f8b2d95d1bb786085e4677",
+      "recorded_output_binding_matches": true,
+      "replay_sha256": "68d5724376fd4be2cd6b2140eaa3db029e5342e715f8b2d95d1bb786085e4677"
+    },
+    {
+      "artifact": "report.md",
+      "batch_id": "stratum-01-block-07-middle50-method-03",
+      "byte_identical": true,
+      "primary_sha256": "e0a5594346e1a0bf1d7391d447285a2180c7285c75f5347af4e38649066d816e",
+      "recorded_output_binding_matches": true,
+      "replay_sha256": "e0a5594346e1a0bf1d7391d447285a2180c7285c75f5347af4e38649066d816e"
+    },
+    {
+      "artifact": "checksums.json",
+      "batch_id": "stratum-01-block-08-full-method-01",
+      "byte_identical": true,
+      "primary_sha256": "62e28eaf5136880966df4489fc8535be7cad2fe6a9457d71ed12c2a8d008b007",
+      "recorded_output_binding_matches": true,
+      "replay_sha256": "62e28eaf5136880966df4489fc8535be7cad2fe6a9457d71ed12c2a8d008b007"
+    },
+    {
+      "artifact": "evaluation.json",
+      "batch_id": "stratum-01-block-08-full-method-01",
+      "byte_identical": true,
+      "primary_sha256": "14c9bac2d95bba7b72ca853f3fb3c819a03585f77251765f65770790dbf63832",
+      "recorded_output_binding_matches": true,
+      "replay_sha256": "14c9bac2d95bba7b72ca853f3fb3c819a03585f77251765f65770790dbf63832"
+    },
+    {
+      "artifact": "report.md",
+      "batch_id": "stratum-01-block-08-full-method-01",
+      "byte_identical": true,
+      "primary_sha256": "46213aedf7b61384866390f40644f9cb0053998726a703bc26ab0f21b28a9516",
+      "recorded_output_binding_matches": true,
+      "replay_sha256": "46213aedf7b61384866390f40644f9cb0053998726a703bc26ab0f21b28a9516"
+    },
+    {
+      "artifact": "checksums.json",
+      "batch_id": "stratum-01-block-08-full-method-02",
+      "byte_identical": true,
+      "primary_sha256": "2fc5432858e9fcebc4ac533eb63fe0b7ac1719194105cb039e4f6d954e6e6197",
+      "recorded_output_binding_matches": true,
+      "replay_sha256": "2fc5432858e9fcebc4ac533eb63fe0b7ac1719194105cb039e4f6d954e6e6197"
+    },
+    {
+      "artifact": "evaluation.json",
+      "batch_id": "stratum-01-block-08-full-method-02",
+      "byte_identical": true,
+      "primary_sha256": "ff30685e8651dcdf80e90d47a50114b1ed622e19289d7c0feab7dcb63148c778",
+      "recorded_output_binding_matches": true,
+      "replay_sha256": "ff30685e8651dcdf80e90d47a50114b1ed622e19289d7c0feab7dcb63148c778"
+    },
+    {
+      "artifact": "report.md",
+      "batch_id": "stratum-01-block-08-full-method-02",
+      "byte_identical": true,
+      "primary_sha256": "e91138fe4f8f753e6ca5fd0abd5aeceb0e3144a48ed3a6db65c865894fd5ed16",
+      "recorded_output_binding_matches": true,
+      "replay_sha256": "e91138fe4f8f753e6ca5fd0abd5aeceb0e3144a48ed3a6db65c865894fd5ed16"
+    },
+    {
+      "artifact": "checksums.json",
+      "batch_id": "stratum-01-block-08-full-method-03",
+      "byte_identical": true,
+      "primary_sha256": "ca46d9f54ae3a2d64899fb8efeea2d8ad9af6c27a7462308d07164a568af9e33",
+      "recorded_output_binding_matches": true,
+      "replay_sha256": "ca46d9f54ae3a2d64899fb8efeea2d8ad9af6c27a7462308d07164a568af9e33"
+    },
+    {
+      "artifact": "evaluation.json",
+      "batch_id": "stratum-01-block-08-full-method-03",
+      "byte_identical": true,
+      "primary_sha256": "4069540c294e5a798c1f4f79c633b8565518c918ba0b4246249ac2de7534e475",
+      "recorded_output_binding_matches": true,
+      "replay_sha256": "4069540c294e5a798c1f4f79c633b8565518c918ba0b4246249ac2de7534e475"
+    },
+    {
+      "artifact": "report.md",
+      "batch_id": "stratum-01-block-08-full-method-03",
+      "byte_identical": true,
+      "primary_sha256": "83120c46a7cfeac7b859b6499428dde9b62ba89257bc4015d361473dc32fae77",
+      "recorded_output_binding_matches": true,
+      "replay_sha256": "83120c46a7cfeac7b859b6499428dde9b62ba89257bc4015d361473dc32fae77"
+    },
+    {
+      "artifact": "checksums.json",
+      "batch_id": "stratum-01-block-08-hash50-method-01",
+      "byte_identical": true,
+      "primary_sha256": "1d470e7f002adfd9a719469c3ca17eafff9951f53fcd8b9883652bce8a401ee3",
+      "recorded_output_binding_matches": true,
+      "replay_sha256": "1d470e7f002adfd9a719469c3ca17eafff9951f53fcd8b9883652bce8a401ee3"
+    },
+    {
+      "artifact": "evaluation.json",
+      "batch_id": "stratum-01-block-08-hash50-method-01",
+      "byte_identical": true,
+      "primary_sha256": "030a5c9100807d3ff34d2e5c272bb7f271964beb985cfd2582c8e9067f8b4f33",
+      "recorded_output_binding_matches": true,
+      "replay_sha256": "030a5c9100807d3ff34d2e5c272bb7f271964beb985cfd2582c8e9067f8b4f33"
+    },
+    {
+      "artifact": "report.md",
+      "batch_id": "stratum-01-block-08-hash50-method-01",
+      "byte_identical": true,
+      "primary_sha256": "35c65f962a845fd1e3ace5027a456f212e23ec80582c95cd20b94f0f55668b1c",
+      "recorded_output_binding_matches": true,
+      "replay_sha256": "35c65f962a845fd1e3ace5027a456f212e23ec80582c95cd20b94f0f55668b1c"
+    },
+    {
+      "artifact": "checksums.json",
+      "batch_id": "stratum-01-block-08-hash50-method-02",
+      "byte_identical": true,
+      "primary_sha256": "9ab35dfa6ded703c87123af074335bd648163b2e4f2b10fa4e47a9f532a984ac",
+      "recorded_output_binding_matches": true,
+      "replay_sha256": "9ab35dfa6ded703c87123af074335bd648163b2e4f2b10fa4e47a9f532a984ac"
+    },
+    {
+      "artifact": "evaluation.json",
+      "batch_id": "stratum-01-block-08-hash50-method-02",
+      "byte_identical": true,
+      "primary_sha256": "b83564683ef00d7483f4be37516a263efb10b3c881b744eca8fc150a725097ec",
+      "recorded_output_binding_matches": true,
+      "replay_sha256": "b83564683ef00d7483f4be37516a263efb10b3c881b744eca8fc150a725097ec"
+    },
+    {
+      "artifact": "report.md",
+      "batch_id": "stratum-01-block-08-hash50-method-02",
+      "byte_identical": true,
+      "primary_sha256": "2d5b94a1d6abaab68283ce94219b4d85a411abbfcea3d28ebf8740a2d990f368",
+      "recorded_output_binding_matches": true,
+      "replay_sha256": "2d5b94a1d6abaab68283ce94219b4d85a411abbfcea3d28ebf8740a2d990f368"
+    },
+    {
+      "artifact": "checksums.json",
+      "batch_id": "stratum-01-block-08-hash50-method-03",
+      "byte_identical": true,
+      "primary_sha256": "26c87efeb18ff62f5448f38632af5314482ad429d43e586b9d3ec1de45aca7b6",
+      "recorded_output_binding_matches": true,
+      "replay_sha256": "26c87efeb18ff62f5448f38632af5314482ad429d43e586b9d3ec1de45aca7b6"
+    },
+    {
+      "artifact": "evaluation.json",
+      "batch_id": "stratum-01-block-08-hash50-method-03",
+      "byte_identical": true,
+      "primary_sha256": "cbb1f1aa21ecad42d4478ce1a26a99c951ad1376ab0fe684e93ffd61b13b2fea",
+      "recorded_output_binding_matches": true,
+      "replay_sha256": "cbb1f1aa21ecad42d4478ce1a26a99c951ad1376ab0fe684e93ffd61b13b2fea"
+    },
+    {
+      "artifact": "report.md",
+      "batch_id": "stratum-01-block-08-hash50-method-03",
+      "byte_identical": true,
+      "primary_sha256": "38d7f8da4904e5f314e7cd9f155a8af0e978f6e30d535f24fa9d92b124f1688a",
+      "recorded_output_binding_matches": true,
+      "replay_sha256": "38d7f8da4904e5f314e7cd9f155a8af0e978f6e30d535f24fa9d92b124f1688a"
+    },
+    {
+      "artifact": "checksums.json",
+      "batch_id": "stratum-01-block-08-hash75-method-01",
+      "byte_identical": true,
+      "primary_sha256": "148c30f3148d99360e83712440b0b0961e53838e1b2ae2ac2154a0281f7ae604",
+      "recorded_output_binding_matches": true,
+      "replay_sha256": "148c30f3148d99360e83712440b0b0961e53838e1b2ae2ac2154a0281f7ae604"
+    },
+    {
+      "artifact": "evaluation.json",
+      "batch_id": "stratum-01-block-08-hash75-method-01",
+      "byte_identical": true,
+      "primary_sha256": "32eaf1d1ebf21ff13ad5daa0dbc750398da8bcffbfdf8e9cdf0910aa247f2b40",
+      "recorded_output_binding_matches": true,
+      "replay_sha256": "32eaf1d1ebf21ff13ad5daa0dbc750398da8bcffbfdf8e9cdf0910aa247f2b40"
+    },
+    {
+      "artifact": "report.md",
+      "batch_id": "stratum-01-block-08-hash75-method-01",
+      "byte_identical": true,
+      "primary_sha256": "60525bbce8624b2b4e5c1f7ab1578d345bc5a76f7126e0149e03ba2b12196079",
+      "recorded_output_binding_matches": true,
+      "replay_sha256": "60525bbce8624b2b4e5c1f7ab1578d345bc5a76f7126e0149e03ba2b12196079"
+    },
+    {
+      "artifact": "checksums.json",
+      "batch_id": "stratum-01-block-08-hash75-method-02",
+      "byte_identical": true,
+      "primary_sha256": "b5d94025451b3816ed2e1866c743d7ddecc3ca992827737e681853363a120cc2",
+      "recorded_output_binding_matches": true,
+      "replay_sha256": "b5d94025451b3816ed2e1866c743d7ddecc3ca992827737e681853363a120cc2"
+    },
+    {
+      "artifact": "evaluation.json",
+      "batch_id": "stratum-01-block-08-hash75-method-02",
+      "byte_identical": true,
+      "primary_sha256": "e0a47ef940e077edbb1813c1fd4a922c89f7d5b01e39aae14e32f1dac5cd82f1",
+      "recorded_output_binding_matches": true,
+      "replay_sha256": "e0a47ef940e077edbb1813c1fd4a922c89f7d5b01e39aae14e32f1dac5cd82f1"
+    },
+    {
+      "artifact": "report.md",
+      "batch_id": "stratum-01-block-08-hash75-method-02",
+      "byte_identical": true,
+      "primary_sha256": "0dbe6f83ce122f721dbc10af9dd8bf42eb389a09d62e696e8c4c95538054e6d0",
+      "recorded_output_binding_matches": true,
+      "replay_sha256": "0dbe6f83ce122f721dbc10af9dd8bf42eb389a09d62e696e8c4c95538054e6d0"
+    },
+    {
+      "artifact": "checksums.json",
+      "batch_id": "stratum-01-block-08-hash75-method-03",
+      "byte_identical": true,
+      "primary_sha256": "2f068a2919f84a7cfc7eb706a33fe0beb876397b4e73f242a3bc5b89fbadf626",
+      "recorded_output_binding_matches": true,
+      "replay_sha256": "2f068a2919f84a7cfc7eb706a33fe0beb876397b4e73f242a3bc5b89fbadf626"
+    },
+    {
+      "artifact": "evaluation.json",
+      "batch_id": "stratum-01-block-08-hash75-method-03",
+      "byte_identical": true,
+      "primary_sha256": "6477d03ff7a2c106eb9d522755ec91d187c77ccb85ad419e63a54ac540dba41f",
+      "recorded_output_binding_matches": true,
+      "replay_sha256": "6477d03ff7a2c106eb9d522755ec91d187c77ccb85ad419e63a54ac540dba41f"
+    },
+    {
+      "artifact": "report.md",
+      "batch_id": "stratum-01-block-08-hash75-method-03",
+      "byte_identical": true,
+      "primary_sha256": "1394ea309c8373c739d176dc8b97ab7450cf889586e24c0a42857db161ff1e58",
+      "recorded_output_binding_matches": true,
+      "replay_sha256": "1394ea309c8373c739d176dc8b97ab7450cf889586e24c0a42857db161ff1e58"
+    },
+    {
+      "artifact": "checksums.json",
+      "batch_id": "stratum-01-block-08-middle50-method-01",
+      "byte_identical": true,
+      "primary_sha256": "d649677ece8924a362d147cfe7bd61f18bbc745e10cc64445c3622deba5f9bb3",
+      "recorded_output_binding_matches": true,
+      "replay_sha256": "d649677ece8924a362d147cfe7bd61f18bbc745e10cc64445c3622deba5f9bb3"
+    },
+    {
+      "artifact": "evaluation.json",
+      "batch_id": "stratum-01-block-08-middle50-method-01",
+      "byte_identical": true,
+      "primary_sha256": "251ba3a5bfb246662d7c60be0449b00d25c3c0d9a759b75ad0c9d34951e5e22a",
+      "recorded_output_binding_matches": true,
+      "replay_sha256": "251ba3a5bfb246662d7c60be0449b00d25c3c0d9a759b75ad0c9d34951e5e22a"
+    },
+    {
+      "artifact": "report.md",
+      "batch_id": "stratum-01-block-08-middle50-method-01",
+      "byte_identical": true,
+      "primary_sha256": "7d7e1e35d4c77251d87db9d032f5e0de1c013957668ffa3c5f0095d0c28da3fb",
+      "recorded_output_binding_matches": true,
+      "replay_sha256": "7d7e1e35d4c77251d87db9d032f5e0de1c013957668ffa3c5f0095d0c28da3fb"
+    },
+    {
+      "artifact": "checksums.json",
+      "batch_id": "stratum-01-block-08-middle50-method-02",
+      "byte_identical": true,
+      "primary_sha256": "a78f323fba2ea906f9a906b14cb5ed74c5c1eb3af751e2981a032dc4c7ddd857",
+      "recorded_output_binding_matches": true,
+      "replay_sha256": "a78f323fba2ea906f9a906b14cb5ed74c5c1eb3af751e2981a032dc4c7ddd857"
+    },
+    {
+      "artifact": "evaluation.json",
+      "batch_id": "stratum-01-block-08-middle50-method-02",
+      "byte_identical": true,
+      "primary_sha256": "ab0fd4351cfd4da06efe78f22e8eeb03a584d26122ded2702691c5cb144a57dc",
+      "recorded_output_binding_matches": true,
+      "replay_sha256": "ab0fd4351cfd4da06efe78f22e8eeb03a584d26122ded2702691c5cb144a57dc"
+    },
+    {
+      "artifact": "report.md",
+      "batch_id": "stratum-01-block-08-middle50-method-02",
+      "byte_identical": true,
+      "primary_sha256": "f763868df42eec9ee07791ba9827df581aae212d26325ccf855691e20ca1cb52",
+      "recorded_output_binding_matches": true,
+      "replay_sha256": "f763868df42eec9ee07791ba9827df581aae212d26325ccf855691e20ca1cb52"
+    },
+    {
+      "artifact": "checksums.json",
+      "batch_id": "stratum-01-block-08-middle50-method-03",
+      "byte_identical": true,
+      "primary_sha256": "3cf1f03f80f2d71712fcb8112574d1ccfb9d50bd7833b76949a3a75d2c10ce8b",
+      "recorded_output_binding_matches": true,
+      "replay_sha256": "3cf1f03f80f2d71712fcb8112574d1ccfb9d50bd7833b76949a3a75d2c10ce8b"
+    },
+    {
+      "artifact": "evaluation.json",
+      "batch_id": "stratum-01-block-08-middle50-method-03",
+      "byte_identical": true,
+      "primary_sha256": "2824795250a1f04b127f99046f3dc117740c7cd83cf678a99607e92d4004441a",
+      "recorded_output_binding_matches": true,
+      "replay_sha256": "2824795250a1f04b127f99046f3dc117740c7cd83cf678a99607e92d4004441a"
+    },
+    {
+      "artifact": "report.md",
+      "batch_id": "stratum-01-block-08-middle50-method-03",
+      "byte_identical": true,
+      "primary_sha256": "b84de93138ad552af8475c256156b8fc21f8f3217290400d391580ccc103ae87",
+      "recorded_output_binding_matches": true,
+      "replay_sha256": "b84de93138ad552af8475c256156b8fc21f8f3217290400d391580ccc103ae87"
+    },
+    {
+      "artifact": "checksums.json",
+      "batch_id": "stratum-01-block-09-full-method-01",
+      "byte_identical": true,
+      "primary_sha256": "4316d88c48c74f6395f55454761278cea97438166140008454f56325f519322e",
+      "recorded_output_binding_matches": true,
+      "replay_sha256": "4316d88c48c74f6395f55454761278cea97438166140008454f56325f519322e"
+    },
+    {
+      "artifact": "evaluation.json",
+      "batch_id": "stratum-01-block-09-full-method-01",
+      "byte_identical": true,
+      "primary_sha256": "aee61605415d8012a6663a18596b951be25651a4fdccb76a3f8220074bee1c20",
+      "recorded_output_binding_matches": true,
+      "replay_sha256": "aee61605415d8012a6663a18596b951be25651a4fdccb76a3f8220074bee1c20"
+    },
+    {
+      "artifact": "report.md",
+      "batch_id": "stratum-01-block-09-full-method-01",
+      "byte_identical": true,
+      "primary_sha256": "d7af4f43686b8d37c33442ee8ebe39f0a6483f299d99a6c8b89c5976afece41c",
+      "recorded_output_binding_matches": true,
+      "replay_sha256": "d7af4f43686b8d37c33442ee8ebe39f0a6483f299d99a6c8b89c5976afece41c"
+    },
+    {
+      "artifact": "checksums.json",
+      "batch_id": "stratum-01-block-09-full-method-02",
+      "byte_identical": true,
+      "primary_sha256": "4edf2ef2ed948942607678b7c10cb731b983db7b6e8af84df31c5b7a404d23e0",
+      "recorded_output_binding_matches": true,
+      "replay_sha256": "4edf2ef2ed948942607678b7c10cb731b983db7b6e8af84df31c5b7a404d23e0"
+    },
+    {
+      "artifact": "evaluation.json",
+      "batch_id": "stratum-01-block-09-full-method-02",
+      "byte_identical": true,
+      "primary_sha256": "a1e5023a8f67f6669afcff7592cf4007ac396a9d5b60860406e9ef3ed0e6d992",
+      "recorded_output_binding_matches": true,
+      "replay_sha256": "a1e5023a8f67f6669afcff7592cf4007ac396a9d5b60860406e9ef3ed0e6d992"
+    },
+    {
+      "artifact": "report.md",
+      "batch_id": "stratum-01-block-09-full-method-02",
+      "byte_identical": true,
+      "primary_sha256": "31b6c2422bce14188a19bf7f9900e7c87df8416749099826dcee6f1268020683",
+      "recorded_output_binding_matches": true,
+      "replay_sha256": "31b6c2422bce14188a19bf7f9900e7c87df8416749099826dcee6f1268020683"
+    },
+    {
+      "artifact": "checksums.json",
+      "batch_id": "stratum-01-block-09-full-method-03",
+      "byte_identical": true,
+      "primary_sha256": "ffe0033a8bcc186bfc22c2a83bc9d35d078117cbb3abf56f9b74b75d0c94bc0a",
+      "recorded_output_binding_matches": true,
+      "replay_sha256": "ffe0033a8bcc186bfc22c2a83bc9d35d078117cbb3abf56f9b74b75d0c94bc0a"
+    },
+    {
+      "artifact": "evaluation.json",
+      "batch_id": "stratum-01-block-09-full-method-03",
+      "byte_identical": true,
+      "primary_sha256": "e0535a5692c46654cb8d6490a81189c2db496af0456fd0b327c0716349ae666a",
+      "recorded_output_binding_matches": true,
+      "replay_sha256": "e0535a5692c46654cb8d6490a81189c2db496af0456fd0b327c0716349ae666a"
+    },
+    {
+      "artifact": "report.md",
+      "batch_id": "stratum-01-block-09-full-method-03",
+      "byte_identical": true,
+      "primary_sha256": "ea14b3b2a4acc97125a052bf2814fb06fbfb3452a509d215cd7e27a5ec8299b1",
+      "recorded_output_binding_matches": true,
+      "replay_sha256": "ea14b3b2a4acc97125a052bf2814fb06fbfb3452a509d215cd7e27a5ec8299b1"
+    },
+    {
+      "artifact": "checksums.json",
+      "batch_id": "stratum-01-block-09-hash50-method-01",
+      "byte_identical": true,
+      "primary_sha256": "2fd7abc120d1ef0480348c80d00b6b0f9be0e27f58c931bc251ebe9fb86fd768",
+      "recorded_output_binding_matches": true,
+      "replay_sha256": "2fd7abc120d1ef0480348c80d00b6b0f9be0e27f58c931bc251ebe9fb86fd768"
+    },
+    {
+      "artifact": "evaluation.json",
+      "batch_id": "stratum-01-block-09-hash50-method-01",
+      "byte_identical": true,
+      "primary_sha256": "b0f531ed72168bebced54c11f3a010935e6755a6b8c28c9a028b2a0476a38b6d",
+      "recorded_output_binding_matches": true,
+      "replay_sha256": "b0f531ed72168bebced54c11f3a010935e6755a6b8c28c9a028b2a0476a38b6d"
+    },
+    {
+      "artifact": "report.md",
+      "batch_id": "stratum-01-block-09-hash50-method-01",
+      "byte_identical": true,
+      "primary_sha256": "fec8f84cc04bc3f681029198e6210d07a7dccc9389a2fd37b4120d22f52f3e3f",
+      "recorded_output_binding_matches": true,
+      "replay_sha256": "fec8f84cc04bc3f681029198e6210d07a7dccc9389a2fd37b4120d22f52f3e3f"
+    },
+    {
+      "artifact": "checksums.json",
+      "batch_id": "stratum-01-block-09-hash50-method-02",
+      "byte_identical": true,
+      "primary_sha256": "ebfb87c2c56eeda4d025a8338f065ddf324e855fb70051d7bee69f13cb391ab2",
+      "recorded_output_binding_matches": true,
+      "replay_sha256": "ebfb87c2c56eeda4d025a8338f065ddf324e855fb70051d7bee69f13cb391ab2"
+    },
+    {
+      "artifact": "evaluation.json",
+      "batch_id": "stratum-01-block-09-hash50-method-02",
+      "byte_identical": true,
+      "primary_sha256": "ba320468b44197dd537598cf76dd63defb347b422dca52dbc4a9d4b1ac97d158",
+      "recorded_output_binding_matches": true,
+      "replay_sha256": "ba320468b44197dd537598cf76dd63defb347b422dca52dbc4a9d4b1ac97d158"
+    },
+    {
+      "artifact": "report.md",
+      "batch_id": "stratum-01-block-09-hash50-method-02",
+      "byte_identical": true,
+      "primary_sha256": "3cafb763e00d894177b3930d211f74fe4842117e9cd76efdf1a07c87b572743b",
+      "recorded_output_binding_matches": true,
+      "replay_sha256": "3cafb763e00d894177b3930d211f74fe4842117e9cd76efdf1a07c87b572743b"
+    },
+    {
+      "artifact": "checksums.json",
+      "batch_id": "stratum-01-block-09-hash50-method-03",
+      "byte_identical": true,
+      "primary_sha256": "2f12e27aecda3d4aa5b7f5c9b5f51889f52850a558c62436888682f818916dfc",
+      "recorded_output_binding_matches": true,
+      "replay_sha256": "2f12e27aecda3d4aa5b7f5c9b5f51889f52850a558c62436888682f818916dfc"
+    },
+    {
+      "artifact": "evaluation.json",
+      "batch_id": "stratum-01-block-09-hash50-method-03",
+      "byte_identical": true,
+      "primary_sha256": "c6ff523efd43207c2304174e7eea7c0a0044b0921c0f06ec61b0d7ebcee9c707",
+      "recorded_output_binding_matches": true,
+      "replay_sha256": "c6ff523efd43207c2304174e7eea7c0a0044b0921c0f06ec61b0d7ebcee9c707"
+    },
+    {
+      "artifact": "report.md",
+      "batch_id": "stratum-01-block-09-hash50-method-03",
+      "byte_identical": true,
+      "primary_sha256": "d0af546dbd617ecc1922e75bb5308b40fdf6d1910173302850f3b497867bfc32",
+      "recorded_output_binding_matches": true,
+      "replay_sha256": "d0af546dbd617ecc1922e75bb5308b40fdf6d1910173302850f3b497867bfc32"
+    },
+    {
+      "artifact": "checksums.json",
+      "batch_id": "stratum-01-block-09-hash75-method-01",
+      "byte_identical": true,
+      "primary_sha256": "94d990c547c21dda62b074c7ef9371d6b97f11897e777e1e1099bae2a12050e1",
+      "recorded_output_binding_matches": true,
+      "replay_sha256": "94d990c547c21dda62b074c7ef9371d6b97f11897e777e1e1099bae2a12050e1"
+    },
+    {
+      "artifact": "evaluation.json",
+      "batch_id": "stratum-01-block-09-hash75-method-01",
+      "byte_identical": true,
+      "primary_sha256": "f33f74b4a190e155b24bef0c4202755570a25cc3cc956290495a25d37f542b22",
+      "recorded_output_binding_matches": true,
+      "replay_sha256": "f33f74b4a190e155b24bef0c4202755570a25cc3cc956290495a25d37f542b22"
+    },
+    {
+      "artifact": "report.md",
+      "batch_id": "stratum-01-block-09-hash75-method-01",
+      "byte_identical": true,
+      "primary_sha256": "72c5a5e3ae4d6b456c6a208e3a932929b71cd2be848d90034bd8a05bcfd04956",
+      "recorded_output_binding_matches": true,
+      "replay_sha256": "72c5a5e3ae4d6b456c6a208e3a932929b71cd2be848d90034bd8a05bcfd04956"
+    },
+    {
+      "artifact": "checksums.json",
+      "batch_id": "stratum-01-block-09-hash75-method-02",
+      "byte_identical": true,
+      "primary_sha256": "e92067c54786086c4ea983f6ac435cc591fc3cdcd002e40d33c95452e75a2807",
+      "recorded_output_binding_matches": true,
+      "replay_sha256": "e92067c54786086c4ea983f6ac435cc591fc3cdcd002e40d33c95452e75a2807"
+    },
+    {
+      "artifact": "evaluation.json",
+      "batch_id": "stratum-01-block-09-hash75-method-02",
+      "byte_identical": true,
+      "primary_sha256": "fa18a4621214ad3775289f130862bb3d30ff173162480fab98dde1734dfac010",
+      "recorded_output_binding_matches": true,
+      "replay_sha256": "fa18a4621214ad3775289f130862bb3d30ff173162480fab98dde1734dfac010"
+    },
+    {
+      "artifact": "report.md",
+      "batch_id": "stratum-01-block-09-hash75-method-02",
+      "byte_identical": true,
+      "primary_sha256": "62fdf6e12acddb19a3b82a6087aaee076eda01b2a96312ab41c983746bf7e3ee",
+      "recorded_output_binding_matches": true,
+      "replay_sha256": "62fdf6e12acddb19a3b82a6087aaee076eda01b2a96312ab41c983746bf7e3ee"
+    },
+    {
+      "artifact": "checksums.json",
+      "batch_id": "stratum-01-block-09-hash75-method-03",
+      "byte_identical": true,
+      "primary_sha256": "df55464b4e75085a65ac657e44ebf06ab27c52789139c2a65b9e337c71064cb4",
+      "recorded_output_binding_matches": true,
+      "replay_sha256": "df55464b4e75085a65ac657e44ebf06ab27c52789139c2a65b9e337c71064cb4"
+    },
+    {
+      "artifact": "evaluation.json",
+      "batch_id": "stratum-01-block-09-hash75-method-03",
+      "byte_identical": true,
+      "primary_sha256": "c6691ddd244f76e23ac9ad787cdc22120efe5153a2c25100d0f02f43c9b3c073",
+      "recorded_output_binding_matches": true,
+      "replay_sha256": "c6691ddd244f76e23ac9ad787cdc22120efe5153a2c25100d0f02f43c9b3c073"
+    },
+    {
+      "artifact": "report.md",
+      "batch_id": "stratum-01-block-09-hash75-method-03",
+      "byte_identical": true,
+      "primary_sha256": "37b1da6ec1f0cdac84e41cdce147611d43a9164f9a63748e66202c6e0d96a439",
+      "recorded_output_binding_matches": true,
+      "replay_sha256": "37b1da6ec1f0cdac84e41cdce147611d43a9164f9a63748e66202c6e0d96a439"
+    },
+    {
+      "artifact": "checksums.json",
+      "batch_id": "stratum-01-block-09-middle50-method-01",
+      "byte_identical": true,
+      "primary_sha256": "1556bab8224b9b4dfeacb7660a3bcec32dfad6d9d93201afb356d338a8be8644",
+      "recorded_output_binding_matches": true,
+      "replay_sha256": "1556bab8224b9b4dfeacb7660a3bcec32dfad6d9d93201afb356d338a8be8644"
+    },
+    {
+      "artifact": "evaluation.json",
+      "batch_id": "stratum-01-block-09-middle50-method-01",
+      "byte_identical": true,
+      "primary_sha256": "f4f5dce635cf1d8a4755eb911cb73d3a172e316320dd95ffc893bef3763ff0d2",
+      "recorded_output_binding_matches": true,
+      "replay_sha256": "f4f5dce635cf1d8a4755eb911cb73d3a172e316320dd95ffc893bef3763ff0d2"
+    },
+    {
+      "artifact": "report.md",
+      "batch_id": "stratum-01-block-09-middle50-method-01",
+      "byte_identical": true,
+      "primary_sha256": "342b84293aafc08a09346b0ab5631324da01c4299f84098d136ed62077de57fd",
+      "recorded_output_binding_matches": true,
+      "replay_sha256": "342b84293aafc08a09346b0ab5631324da01c4299f84098d136ed62077de57fd"
+    },
+    {
+      "artifact": "checksums.json",
+      "batch_id": "stratum-01-block-09-middle50-method-02",
+      "byte_identical": true,
+      "primary_sha256": "4dda5a52e2c5d209651c519929d1770bbee8757beda5627e1edc04ce85ca4d9b",
+      "recorded_output_binding_matches": true,
+      "replay_sha256": "4dda5a52e2c5d209651c519929d1770bbee8757beda5627e1edc04ce85ca4d9b"
+    },
+    {
+      "artifact": "evaluation.json",
+      "batch_id": "stratum-01-block-09-middle50-method-02",
+      "byte_identical": true,
+      "primary_sha256": "5a8cf50c752079632ec862566276fda0b3b51021841d62aa741d5600c7c90f60",
+      "recorded_output_binding_matches": true,
+      "replay_sha256": "5a8cf50c752079632ec862566276fda0b3b51021841d62aa741d5600c7c90f60"
+    },
+    {
+      "artifact": "report.md",
+      "batch_id": "stratum-01-block-09-middle50-method-02",
+      "byte_identical": true,
+      "primary_sha256": "f1e947f89d44437c48648147900616af62ae1327bf4a7f8fe38e6d82857e38cd",
+      "recorded_output_binding_matches": true,
+      "replay_sha256": "f1e947f89d44437c48648147900616af62ae1327bf4a7f8fe38e6d82857e38cd"
+    },
+    {
+      "artifact": "checksums.json",
+      "batch_id": "stratum-01-block-09-middle50-method-03",
+      "byte_identical": true,
+      "primary_sha256": "9432d02d920cf343f060f177099463661ecedcf78ebe42e51e3616c94a244dd8",
+      "recorded_output_binding_matches": true,
+      "replay_sha256": "9432d02d920cf343f060f177099463661ecedcf78ebe42e51e3616c94a244dd8"
+    },
+    {
+      "artifact": "evaluation.json",
+      "batch_id": "stratum-01-block-09-middle50-method-03",
+      "byte_identical": true,
+      "primary_sha256": "6d9fa8d899d99b79cae22f097552437ed13528cc813e9d3914467cb8395ad32e",
+      "recorded_output_binding_matches": true,
+      "replay_sha256": "6d9fa8d899d99b79cae22f097552437ed13528cc813e9d3914467cb8395ad32e"
+    },
+    {
+      "artifact": "report.md",
+      "batch_id": "stratum-01-block-09-middle50-method-03",
+      "byte_identical": true,
+      "primary_sha256": "536c0a554dc218bf5a1f9b3e58a877ce6549eeed8b4813f00834c05da40a9967",
+      "recorded_output_binding_matches": true,
+      "replay_sha256": "536c0a554dc218bf5a1f9b3e58a877ce6549eeed8b4813f00834c05da40a9967"
+    },
+    {
+      "artifact": "checksums.json",
+      "batch_id": "stratum-01-block-10-full-method-01",
+      "byte_identical": true,
+      "primary_sha256": "dfa82049393d30d494988bc99d717b7b1841617a1fb6251b3b934aa021d992fe",
+      "recorded_output_binding_matches": true,
+      "replay_sha256": "dfa82049393d30d494988bc99d717b7b1841617a1fb6251b3b934aa021d992fe"
+    },
+    {
+      "artifact": "evaluation.json",
+      "batch_id": "stratum-01-block-10-full-method-01",
+      "byte_identical": true,
+      "primary_sha256": "4f27a85c6a8e081beb576d9fa35a339373ea08879ba604a2f5595f15f180379b",
+      "recorded_output_binding_matches": true,
+      "replay_sha256": "4f27a85c6a8e081beb576d9fa35a339373ea08879ba604a2f5595f15f180379b"
+    },
+    {
+      "artifact": "report.md",
+      "batch_id": "stratum-01-block-10-full-method-01",
+      "byte_identical": true,
+      "primary_sha256": "c46baae0392ccd20478c2cfd11e65c015d5752cc740e5597a129716c3e73e72f",
+      "recorded_output_binding_matches": true,
+      "replay_sha256": "c46baae0392ccd20478c2cfd11e65c015d5752cc740e5597a129716c3e73e72f"
+    },
+    {
+      "artifact": "checksums.json",
+      "batch_id": "stratum-01-block-10-full-method-02",
+      "byte_identical": true,
+      "primary_sha256": "a07437dd2968940a5f70bac055a3ca7a7c3fc5b6230717a63b947cc9c9c1f793",
+      "recorded_output_binding_matches": true,
+      "replay_sha256": "a07437dd2968940a5f70bac055a3ca7a7c3fc5b6230717a63b947cc9c9c1f793"
+    },
+    {
+      "artifact": "evaluation.json",
+      "batch_id": "stratum-01-block-10-full-method-02",
+      "byte_identical": true,
+      "primary_sha256": "b37a50754097c2ecc7e8a5afa2441a9cb23a9bbd2965532b4258774b6dee9d07",
+      "recorded_output_binding_matches": true,
+      "replay_sha256": "b37a50754097c2ecc7e8a5afa2441a9cb23a9bbd2965532b4258774b6dee9d07"
+    },
+    {
+      "artifact": "report.md",
+      "batch_id": "stratum-01-block-10-full-method-02",
+      "byte_identical": true,
+      "primary_sha256": "4288bcb856f045b5e13719a8c49b25cd6e03d521cf26ef14df6a11cd181304c0",
+      "recorded_output_binding_matches": true,
+      "replay_sha256": "4288bcb856f045b5e13719a8c49b25cd6e03d521cf26ef14df6a11cd181304c0"
+    },
+    {
+      "artifact": "checksums.json",
+      "batch_id": "stratum-01-block-10-full-method-03",
+      "byte_identical": true,
+      "primary_sha256": "141978c112e3123d793e0af6ad9868be1f96b65c928bbab1d22f3bbf68184294",
+      "recorded_output_binding_matches": true,
+      "replay_sha256": "141978c112e3123d793e0af6ad9868be1f96b65c928bbab1d22f3bbf68184294"
+    },
+    {
+      "artifact": "evaluation.json",
+      "batch_id": "stratum-01-block-10-full-method-03",
+      "byte_identical": true,
+      "primary_sha256": "29bca06e0a79398e6e2ee811c590051e78368e486f59b0cbe222cbf70cac5e9e",
+      "recorded_output_binding_matches": true,
+      "replay_sha256": "29bca06e0a79398e6e2ee811c590051e78368e486f59b0cbe222cbf70cac5e9e"
+    },
+    {
+      "artifact": "report.md",
+      "batch_id": "stratum-01-block-10-full-method-03",
+      "byte_identical": true,
+      "primary_sha256": "4d8792c693b13aa8bd0307dec79685c55041ae3e6ae3db5ca18cd495d0d3ab8d",
+      "recorded_output_binding_matches": true,
+      "replay_sha256": "4d8792c693b13aa8bd0307dec79685c55041ae3e6ae3db5ca18cd495d0d3ab8d"
+    },
+    {
+      "artifact": "checksums.json",
+      "batch_id": "stratum-01-block-10-hash50-method-01",
+      "byte_identical": true,
+      "primary_sha256": "d029a4a4f4ba3137586c475c971f197e280dba1d198a5d00c773bdd4b584b57a",
+      "recorded_output_binding_matches": true,
+      "replay_sha256": "d029a4a4f4ba3137586c475c971f197e280dba1d198a5d00c773bdd4b584b57a"
+    },
+    {
+      "artifact": "evaluation.json",
+      "batch_id": "stratum-01-block-10-hash50-method-01",
+      "byte_identical": true,
+      "primary_sha256": "a1846338cfd51d252203e9be8121dd8f128a45a04f3f7953f1b679ae65b6dec4",
+      "recorded_output_binding_matches": true,
+      "replay_sha256": "a1846338cfd51d252203e9be8121dd8f128a45a04f3f7953f1b679ae65b6dec4"
+    },
+    {
+      "artifact": "report.md",
+      "batch_id": "stratum-01-block-10-hash50-method-01",
+      "byte_identical": true,
+      "primary_sha256": "a318d27938c01f6eb4c11eb30c7665c53f51e2b6d20d1217928c1842b1b8cb30",
+      "recorded_output_binding_matches": true,
+      "replay_sha256": "a318d27938c01f6eb4c11eb30c7665c53f51e2b6d20d1217928c1842b1b8cb30"
+    },
+    {
+      "artifact": "checksums.json",
+      "batch_id": "stratum-01-block-10-hash50-method-02",
+      "byte_identical": true,
+      "primary_sha256": "673a6cf7a825abdba0e04c29c4172ef5a089a88b0b8a19c3f003172f2c02a59b",
+      "recorded_output_binding_matches": true,
+      "replay_sha256": "673a6cf7a825abdba0e04c29c4172ef5a089a88b0b8a19c3f003172f2c02a59b"
+    },
+    {
+      "artifact": "evaluation.json",
+      "batch_id": "stratum-01-block-10-hash50-method-02",
+      "byte_identical": true,
+      "primary_sha256": "520105a9b99f9ece1feeca7415bf295e3d8b6b3423a408e577a65b9ae36d66ea",
+      "recorded_output_binding_matches": true,
+      "replay_sha256": "520105a9b99f9ece1feeca7415bf295e3d8b6b3423a408e577a65b9ae36d66ea"
+    },
+    {
+      "artifact": "report.md",
+      "batch_id": "stratum-01-block-10-hash50-method-02",
+      "byte_identical": true,
+      "primary_sha256": "2812bd50998122c99bfee587074b7feb863758b151f9f6f5b9fed66fe835a9da",
+      "recorded_output_binding_matches": true,
+      "replay_sha256": "2812bd50998122c99bfee587074b7feb863758b151f9f6f5b9fed66fe835a9da"
+    },
+    {
+      "artifact": "checksums.json",
+      "batch_id": "stratum-01-block-10-hash50-method-03",
+      "byte_identical": true,
+      "primary_sha256": "68401b0ce81ea7568068ea1cf334c324dac1262c630540bbceb778a36a795de1",
+      "recorded_output_binding_matches": true,
+      "replay_sha256": "68401b0ce81ea7568068ea1cf334c324dac1262c630540bbceb778a36a795de1"
+    },
+    {
+      "artifact": "evaluation.json",
+      "batch_id": "stratum-01-block-10-hash50-method-03",
+      "byte_identical": true,
+      "primary_sha256": "79d29d48a79a4f25061a5c1d40378a88a7aa8b6118a6a582208d2e3649e81a8d",
+      "recorded_output_binding_matches": true,
+      "replay_sha256": "79d29d48a79a4f25061a5c1d40378a88a7aa8b6118a6a582208d2e3649e81a8d"
+    },
+    {
+      "artifact": "report.md",
+      "batch_id": "stratum-01-block-10-hash50-method-03",
+      "byte_identical": true,
+      "primary_sha256": "9923d98ebf9fd6aec667d394ffd0c2c2c1a1dd8bf6332b19cefc84710f07ebcf",
+      "recorded_output_binding_matches": true,
+      "replay_sha256": "9923d98ebf9fd6aec667d394ffd0c2c2c1a1dd8bf6332b19cefc84710f07ebcf"
+    },
+    {
+      "artifact": "checksums.json",
+      "batch_id": "stratum-01-block-10-hash75-method-01",
+      "byte_identical": true,
+      "primary_sha256": "d0b7c8d76d9ba8137a8878e55e7e80cfa2e329b7bfcb2a239006d77b0fda3c22",
+      "recorded_output_binding_matches": true,
+      "replay_sha256": "d0b7c8d76d9ba8137a8878e55e7e80cfa2e329b7bfcb2a239006d77b0fda3c22"
+    },
+    {
+      "artifact": "evaluation.json",
+      "batch_id": "stratum-01-block-10-hash75-method-01",
+      "byte_identical": true,
+      "primary_sha256": "071447d6a34b363e8ed1ae3cba0e0b96bffefd64173a5e0e9d116d6fc9502753",
+      "recorded_output_binding_matches": true,
+      "replay_sha256": "071447d6a34b363e8ed1ae3cba0e0b96bffefd64173a5e0e9d116d6fc9502753"
+    },
+    {
+      "artifact": "report.md",
+      "batch_id": "stratum-01-block-10-hash75-method-01",
+      "byte_identical": true,
+      "primary_sha256": "372b459a4e25b206e4680187ebe1f1cc5d4a27e47db8a9e165a5dd3c18ed5b87",
+      "recorded_output_binding_matches": true,
+      "replay_sha256": "372b459a4e25b206e4680187ebe1f1cc5d4a27e47db8a9e165a5dd3c18ed5b87"
+    },
+    {
+      "artifact": "checksums.json",
+      "batch_id": "stratum-01-block-10-hash75-method-02",
+      "byte_identical": true,
+      "primary_sha256": "636085c5e76eba54e5910ac2b470cd0bd66a849c6eb886236eca1691a07709e3",
+      "recorded_output_binding_matches": true,
+      "replay_sha256": "636085c5e76eba54e5910ac2b470cd0bd66a849c6eb886236eca1691a07709e3"
+    },
+    {
+      "artifact": "evaluation.json",
+      "batch_id": "stratum-01-block-10-hash75-method-02",
+      "byte_identical": true,
+      "primary_sha256": "e8838eee3bfe8729a41eea038ffb0149457d6bb751b6bbed7195f327e4cd02d7",
+      "recorded_output_binding_matches": true,
+      "replay_sha256": "e8838eee3bfe8729a41eea038ffb0149457d6bb751b6bbed7195f327e4cd02d7"
+    },
+    {
+      "artifact": "report.md",
+      "batch_id": "stratum-01-block-10-hash75-method-02",
+      "byte_identical": true,
+      "primary_sha256": "3ad0f2e9839a4eb7c92c75f6b8c999f3671405f3b3f86af1acb7e311e0c1b2e4",
+      "recorded_output_binding_matches": true,
+      "replay_sha256": "3ad0f2e9839a4eb7c92c75f6b8c999f3671405f3b3f86af1acb7e311e0c1b2e4"
+    },
+    {
+      "artifact": "checksums.json",
+      "batch_id": "stratum-01-block-10-hash75-method-03",
+      "byte_identical": true,
+      "primary_sha256": "4c95e3f02089dac546bc5d0811f565b997b8e637b02fffa9b6687fe23c7f7921",
+      "recorded_output_binding_matches": true,
+      "replay_sha256": "4c95e3f02089dac546bc5d0811f565b997b8e637b02fffa9b6687fe23c7f7921"
+    },
+    {
+      "artifact": "evaluation.json",
+      "batch_id": "stratum-01-block-10-hash75-method-03",
+      "byte_identical": true,
+      "primary_sha256": "6ac3fc93dcd4a657ab20b43f5f1da0582dea61e1c6c35c7b35865b026a29d87e",
+      "recorded_output_binding_matches": true,
+      "replay_sha256": "6ac3fc93dcd4a657ab20b43f5f1da0582dea61e1c6c35c7b35865b026a29d87e"
+    },
+    {
+      "artifact": "report.md",
+      "batch_id": "stratum-01-block-10-hash75-method-03",
+      "byte_identical": true,
+      "primary_sha256": "22819084c2313eab89272267bf9c3b5897e43ee7645a2c1da6335f5f5eea1716",
+      "recorded_output_binding_matches": true,
+      "replay_sha256": "22819084c2313eab89272267bf9c3b5897e43ee7645a2c1da6335f5f5eea1716"
+    },
+    {
+      "artifact": "checksums.json",
+      "batch_id": "stratum-01-block-10-middle50-method-01",
+      "byte_identical": true,
+      "primary_sha256": "e015d5b283656ad0867ef3e30be38114258197c7ec61c56a37290d1873f37adc",
+      "recorded_output_binding_matches": true,
+      "replay_sha256": "e015d5b283656ad0867ef3e30be38114258197c7ec61c56a37290d1873f37adc"
+    },
+    {
+      "artifact": "evaluation.json",
+      "batch_id": "stratum-01-block-10-middle50-method-01",
+      "byte_identical": true,
+      "primary_sha256": "5cfa7186043e35946fe7afa4704be1e9d266654a12e9793edee741b4c17699cb",
+      "recorded_output_binding_matches": true,
+      "replay_sha256": "5cfa7186043e35946fe7afa4704be1e9d266654a12e9793edee741b4c17699cb"
+    },
+    {
+      "artifact": "report.md",
+      "batch_id": "stratum-01-block-10-middle50-method-01",
+      "byte_identical": true,
+      "primary_sha256": "515ef3e372880131bcd8590e9a719e4c88b65df1195f64f036154908117422d2",
+      "recorded_output_binding_matches": true,
+      "replay_sha256": "515ef3e372880131bcd8590e9a719e4c88b65df1195f64f036154908117422d2"
+    },
+    {
+      "artifact": "checksums.json",
+      "batch_id": "stratum-01-block-10-middle50-method-02",
+      "byte_identical": true,
+      "primary_sha256": "2c7d48ab29a62d4eb23c55ca9ce5904ab9fa7ec4532ca228846142751afc6679",
+      "recorded_output_binding_matches": true,
+      "replay_sha256": "2c7d48ab29a62d4eb23c55ca9ce5904ab9fa7ec4532ca228846142751afc6679"
+    },
+    {
+      "artifact": "evaluation.json",
+      "batch_id": "stratum-01-block-10-middle50-method-02",
+      "byte_identical": true,
+      "primary_sha256": "7433c41306a01e2b7ced478583a87c2397c392ee1d13fee07e94c1c2e3eb9302",
+      "recorded_output_binding_matches": true,
+      "replay_sha256": "7433c41306a01e2b7ced478583a87c2397c392ee1d13fee07e94c1c2e3eb9302"
+    },
+    {
+      "artifact": "report.md",
+      "batch_id": "stratum-01-block-10-middle50-method-02",
+      "byte_identical": true,
+      "primary_sha256": "2e26f9c2828d9ae9d73fdbc03d9ff60bd8158655bef47d1e288e9f12d2bb10ea",
+      "recorded_output_binding_matches": true,
+      "replay_sha256": "2e26f9c2828d9ae9d73fdbc03d9ff60bd8158655bef47d1e288e9f12d2bb10ea"
+    },
+    {
+      "artifact": "checksums.json",
+      "batch_id": "stratum-01-block-10-middle50-method-03",
+      "byte_identical": true,
+      "primary_sha256": "abeecf072fa6583c8215899806e6dced18ab07d12edd68f3cc19b25f048ea111",
+      "recorded_output_binding_matches": true,
+      "replay_sha256": "abeecf072fa6583c8215899806e6dced18ab07d12edd68f3cc19b25f048ea111"
+    },
+    {
+      "artifact": "evaluation.json",
+      "batch_id": "stratum-01-block-10-middle50-method-03",
+      "byte_identical": true,
+      "primary_sha256": "f85ff853b9096482a5b997f10671400411ce2e526ae7d5c234ebb92f62cc020b",
+      "recorded_output_binding_matches": true,
+      "replay_sha256": "f85ff853b9096482a5b997f10671400411ce2e526ae7d5c234ebb92f62cc020b"
+    },
+    {
+      "artifact": "report.md",
+      "batch_id": "stratum-01-block-10-middle50-method-03",
+      "byte_identical": true,
+      "primary_sha256": "c5e7df38644076feb0928ea7b70383098ee02337d7ba31118e9681d59ab8a410",
+      "recorded_output_binding_matches": true,
+      "replay_sha256": "c5e7df38644076feb0928ea7b70383098ee02337d7ba31118e9681d59ab8a410"
+    }
+  ],
+  "excluded_operational_artifacts": [
+    "run_receipt.json"
+  ],
+  "freeze_sha256": "78b0f84cd0d451b3ebb53eac68ad297e959c0f273b5e5d1873ded836a374ab94",
+  "mismatches": [],
+  "primary_execution_index_sha256": "2737b512bc5e8fb5c4bd9496435bbacc58d4a2f008e5bc558886c7d1c88d38b7",
+  "replay_execution_index_sha256": "c483efb3ec9acabfedb870828f96185a5b9b0f79b6da762e7a33377d0d3c4525",
+  "replayed_batches": 120,
+  "status": "passed",
+  "style_scores_recomputed_by_checker": 0
+}

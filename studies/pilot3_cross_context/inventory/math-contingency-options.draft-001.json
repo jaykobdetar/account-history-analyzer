@@ -1,0 +1,85 @@
+{
+  "budget_implication": "The pair does not fit the earlier600,000,000-byte cumulative new-acquisition limit when added to all five prior new archives. Any activation requires the parent to preserve the earlier plan and register an explicit bounded amendment or otherwise resolve the acquisition scope within authorization; do not silently reinterpret decimal MB as MiB. Metadata research itself downloaded no corpus archives.",
+  "candidate_pair": {
+    "communities": [
+      "math",
+      "learnmath"
+    ],
+    "independence": "Accounts selected for this pair must be disjoint from all other pairs and earlier scored/protected/private exclusions. Related threads/content require the same registered audits.",
+    "plausible_overlap_basis": "Current rules and descriptions explicitly connect the communities and redirect relevant questions. Shared participant audiences are plausible, but archival account overlap and four-cell eligibility have not been measured.",
+    "purpose": "Potential additional stratum only if the running expanded census cannot produce three feasible disjoint-account strata. This record does not infer such failure or sufficient capacity.",
+    "subject_relationship": "General mathematics discussion versus mathematics learning and question assistance, within a related broad subject."
+  },
+  "checked_date": "2026-09-14",
+  "listed_compressed_bytes": {
+    "all_seven_new_if_acquired": 618530464,
+    "earlier_new_download_cap": 600000000,
+    "excess_over_earlier_cap": 18530464,
+    "fits_earlier_cap": false,
+    "math_and_learnmath": 334320340,
+    "prior_five_new_sources": 284210124,
+    "ten_archives_including_existing_three": 918682477
+  },
+  "preserved_guards": [
+    "Use frozen preprocessing and ordinary record/sample guards.",
+    "Do not infer writing capacity from archive bytes or community subscriber totals.",
+    "Do not weaken2000word/8record four-cell targets, reuse accounts across strata, refill after scores, or inspect new style scores to decide acquisition.",
+    "No unlimited search: this contingency examined exactly two additional candidate names."
+  ],
+  "schema_version": "1.0.0",
+  "scope": {
+    "archive_downloads": 0,
+    "candidate_names": [
+      "math",
+      "learnmath"
+    ],
+    "description": "Only the two named entries were retained from official index directory metadata; current community about pages supplied descriptive context. No posts/comments or archives were collected.",
+    "maximum_additional_names": 2,
+    "other_candidate_names_inspected": 0,
+    "source_records_read": 0
+  },
+  "source_limits": [
+    "Listed modification times have no stated timezone and are not content observation times.",
+    "Current descriptions are not verified labels for individual2018 records.",
+    "Official file listing does not establish a corpus-specific public redistribution license. Any acquired raw archive remains private under the study policy."
+  ],
+  "sources": [
+    {
+      "archive_downloaded_by_this_subtask": false,
+      "archive_sha256": null,
+      "archive_url": "https://zissou.infosci.cornell.edu/convokit/datasets/subreddit-corpus/corpus-zipped/marvelstudiosES~-~matheducation/math.corpus.zip",
+      "community": "math",
+      "current_scope_paraphrase": "Mathematics discussion including its practice, profession and community. Current guidance directs requests for learning help and practice or homework problems to learnmath.",
+      "decompressed_bytes": null,
+      "description_source": "https://www.reddit.com/r/math/about/",
+      "four_cell_capacity_verified": false,
+      "historical_topic_labels_verified": false,
+      "listed_compressed_bytes": 245506348,
+      "listed_modified_time": "30-Oct-2019 03:36",
+      "official_index_url": "https://zissou.infosci.cornell.edu/convokit/datasets/subreddit-corpus/corpus-zipped/marvelstudiosES~-~matheducation/",
+      "source_rows_verified": false
+    },
+    {
+      "archive_downloaded_by_this_subtask": false,
+      "archive_sha256": null,
+      "archive_url": "https://zissou.infosci.cornell.edu/convokit/datasets/subreddit-corpus/corpus-zipped/leagueoflegends2~-~learnprogramming/learnmath.corpus.zip",
+      "community": "learnmath",
+      "current_scope_paraphrase": "An approachable community for learning mathematics, including basic questions and learning resources. Its current description explicitly identifies it as a sister community of math.",
+      "decompressed_bytes": null,
+      "description_source": "https://www.reddit.com/r/learnmath/about/",
+      "four_cell_capacity_verified": false,
+      "historical_topic_labels_verified": false,
+      "listed_compressed_bytes": 88813992,
+      "listed_modified_time": "30-Oct-2019 18:34",
+      "official_index_url": "https://zissou.infosci.cornell.edu/convokit/datasets/subreddit-corpus/corpus-zipped/leagueoflegends2~-~learnprogramming/",
+      "source_rows_verified": false
+    }
+  ],
+  "status": "contingency_metadata_only_no_acquisition",
+  "unknowns": [
+    "Actual archived account overlap, record counts, eligibility capacity and feasible common dates.",
+    "Decompressed archive sizes, resource cost and language status.",
+    "Historical topic composition and effects of math notation on frozen retained-word eligibility.",
+    "Whether the currently running expanded census needs any additional data."
+  ]
+}

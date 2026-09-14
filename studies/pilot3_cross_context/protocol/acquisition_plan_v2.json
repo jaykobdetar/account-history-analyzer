@@ -1,0 +1,33 @@
+{
+  "phase": "authorized bounded acquisition before expanded score-free census",
+  "authorization": "User explicitly approved additional dataset sourcing in this task after initial GateA deficit",
+  "max_download_bytes": 300000000,
+  "max_wall_seconds": 900,
+  "sources": [
+    {
+      "community": "AskAcademia",
+      "url": "https://zissou.infosci.cornell.edu/convokit/datasets/subreddit-corpus/corpus-zipped/AsianHottiesGIFS~-~AskDocs/AskAcademia.corpus.zip",
+      "bytes": 56041807
+    },
+    {
+      "community": "GradSchool",
+      "url": "https://zissou.infosci.cornell.edu/convokit/datasets/subreddit-corpus/corpus-zipped/GonewildPorn~-~GrandTheftAutoV/GradSchool.corpus.zip",
+      "bytes": 75834080
+    },
+    {
+      "community": "PhD",
+      "url": "https://zissou.infosci.cornell.edu/convokit/datasets/subreddit-corpus/corpus-zipped/Pewdiepie_Felix~-~PhotoshopTutorials/PhD.corpus.zip",
+      "bytes": 3946669
+    },
+    {
+      "community": "Physics",
+      "url": "https://zissou.infosci.cornell.edu/convokit/datasets/subreddit-corpus/corpus-zipped/PhotoshopTutorialsPro~-~PirateParty/Physics.corpus.zip",
+      "bytes": 100767614
+    },
+    {
+      "community": "AskPhysics",
+      "url": "https://zissou.infosci.cornell.edu/convokit/datasets/subreddit-corpus/corpus-zipped/AskMen2~-~AskReddit/AskPhysics.corpus.zip",
+      "bytes": 47619954
+    }
+  ]
+}

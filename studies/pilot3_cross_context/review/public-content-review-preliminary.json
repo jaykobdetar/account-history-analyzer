@@ -1,0 +1,53 @@
+{
+  "created_utc": "2026-09-14T22:32:38.032638+00:00",
+  "findings": {
+    "candidate_exact_twenty_alphabetic_word_phrase_matches": 0,
+    "known_credential_syntax_matches": 0,
+    "known_record_or_thread_id_matches": 0,
+    "known_source_account_matches": 0,
+    "long_source_text_fields": 0,
+    "new_scoring_freeze_known_source_account_matches": 0,
+    "reddit_profile_urls": 0,
+    "sensitive_json_maps": 0
+  },
+  "limits": [
+    "The public tree was changing as reporting and registration artifacts were added; rescan the final release copy after main/replay/results are complete.",
+    "Identifier searches cover known supplied account/record/thread metadata only.",
+    "The phrase check covers exact twenty-word alphabetic sequences in the new candidate pool; it does not rule out shorter excerpts, paraphrases or historical/private-export prose. Historical and reserve writing were intentionally not inspected.",
+    "Absence of pattern matches is not a proof that arbitrary secrets or personal data cannot occur."
+  ],
+  "material_reporting_note": "Protocol already covers substantive study limitations. Final release should additionally distinguish reproducible analysis of public sanitized cases from source-level reproduction that requires authorized access to private cohort/exclusion/source records.",
+  "registration_relationship": "Reporting/privacy review only; created after scoring registration, not a preregistered analytical check. Existing frozen artifacts were not changed.",
+  "release_path_redaction": {
+    "affected_files": 83,
+    "by_directory": {
+      "environment": 4,
+      "inventory": 2,
+      "logs": 69,
+      "protocol": 7,
+      "review": 1
+    },
+    "home_path_occurrences": 7083,
+    "largest_file": "protocol/scoring-freeze.json",
+    "largest_file_home_path_occurrences": 6852,
+    "other_representative_files": [
+      "protocol/candidate_preparation_plan_v2.json",
+      "protocol/candidate_preparation_plan.json",
+      "inventory/census-02/source-inventory.json",
+      "inventory/census-04b/source-inventory.json",
+      "review/calendar-independent-check-05.json"
+    ],
+    "recommended_action": "Preserve immutable operational originals. Produce a separate release copy with declared logical-root placeholders and an original/released SHA256 redaction manifest. Do not call redacted command paths exact original argv."
+  },
+  "scope": {
+    "candidate_original_records_compared": 15243,
+    "identifier_scan_public_files": 358,
+    "known_historical_thread_ids": 23755,
+    "known_source_accounts": 329,
+    "known_source_record_ids": 54127,
+    "later_candidate_phrase_scan_public_files": 366,
+    "private_inputs": "Identifier metadata plus automated phrase comparison of new candidate writing only. No historical or reserve writing or feature vectors were read.",
+    "source_prose_displayed": false
+  },
+  "status": "preliminary_public_content_review_completed"
+}

@@ -1,0 +1,33 @@
+{
+  "checks": {
+    "editable_source_fp_matches_frozen": true,
+    "installed_config_matches_frozen": true,
+    "installed_fp_matches_frozen": true,
+    "installed_package_bytes_match_pinned_source": true,
+    "module_and_distribution_version_agree": true,
+    "pinned_commit_matches": true,
+    "pinned_config_matches_frozen": true,
+    "pinned_fp_matches_frozen": true,
+    "reference_environment_unchanged": true,
+    "resource_hashes_identical": true,
+    "runtime_dependencies_match_pins": true,
+    "wheel_distribution_path_used": true,
+    "wheel_import_path_used": true,
+    "wheel_is_noneditable": true
+  },
+  "corpus_read": false,
+  "pinned_commit": "ea41d82ecc3f6585a7dc2bca92ede34740f0b62d",
+  "production_source_changed": false,
+  "runtime_dependency_installation": "Existing pinned .venv dependencies reused; wheel installed offline with --no-deps into an isolated target.",
+  "runtime_dependency_requirements": {
+    "jsonschema": "4.26.0",
+    "markdown-it-py": "3.0.0",
+    "numpy": "2.4.2",
+    "ruptures": "1.1.10",
+    "scipy": "1.17.1"
+  },
+  "stale_metadata_explanation": "The existing .venv contains a 1.0.0 editable distribution pointing to the live checkout. Editable imports load the checkout source (now __version__ 1.0.4); dist-info metadata is a separate snapshot retained from installation. The isolated wheel has matching source and installed distribution versions 1.0.4.",
+  "status": "pass",
+  "wheel_path": "<WHEEL_BUILD>/account_history_analyzer-1.0.4-py3-none-any.whl",
+  "wheel_sha256": "a0fe943f4d5e3c367ada9fb468499b2b64c2d6f924c828479cdf21fe766d0f6a"
+}

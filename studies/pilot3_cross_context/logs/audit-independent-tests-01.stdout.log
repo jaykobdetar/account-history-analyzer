@@ -1,0 +1,369 @@
+.....FFFFFFFFF...                                                        [100%]
+=================================== FAILURES ===================================
+___ test_reconciles_complete_synthetic_audit_with_both_purge_types_and_title ___
+
+engine = <module '_pilot3_frozen_leakage' from '<PINNED_SOURCE>/studies/pilot2/scripts/leakage_audit.py'>
+
+    def test_reconciles_complete_synthetic_audit_with_both_purge_types_and_title(engine):
+>       report = checker.reconcile(*synthetic_result(engine))
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+studies/pilot3_cross_context/tests/test_check_audit_result.py:55: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+result = {'actionable': False, 'purge_record_ids': [], 'summary': {'candidate_records': 4, 'historical_body_records': 2, 'historical_missing_thread_audit_nodes': 0, 'historical_missing_thread_records': 0, ...}, 'surviving_candidate_ids': []}
+candidate_metadata = {'new-content': {'account_key': 'a', 'cell': ['a', 'X', 'early'], 'declared_retained_words': 20, 'stratum_id': 'stratu...hread': {'account_key': 'b', 'cell': ['b', 'X', 'early'], 'declared_retained_words': 20, 'stratum_id': 'stratum', ...}}
+historical_metadata = {'old-thread': {'account_key': 'old', 'audit_split': 'confirmation', 'original_references': ['historical-source'], 'or...ld', 'audit_split': 'development', 'original_references': ['historical-source'], 'original_split': 'development', ...}}
+
+    def reconcile(result, candidate_metadata, historical_metadata):
+        check = Checks()
+>       summary, audit, provenance = result['summary'], result['engine_audit'], result['record_provenance']
+                                                        ^^^^^^^^^^^^^^^^^^^^^^
+E       KeyError: 'engine_audit'
+
+studies/pilot3_cross_context/scripts/check_audit_result.py:109: KeyError
+_ test_detects_independent_reconciliation_failures[missing_survivor-survivor] __
+
+engine = <module '_pilot3_frozen_leakage' from '<PINNED_SOURCE>/studies/pilot2/scripts/leakage_audit.py'>
+mutation = 'missing_survivor', fragment = 'survivor'
+
+    @pytest.mark.parametrize('mutation,fragment', [
+        ('missing_survivor', 'survivor'), ('missing_purge', 'purge IDs'),
+        ('thread_drift', 'metadata binding'), ('graph_drift', 'reconstructs saved components'),
+        ('scope_drift', 'Unknown content'), ('cap_drift', 'within cap'),
+        ('missing_history', 'Historical original node coverage'), ('relation_hash', 'relation canonical hash'),
+    ])
+    def test_detects_independent_reconciliation_failures(engine, mutation, fragment):
+        result, cm, hm = deepcopy(synthetic_result(engine))
+        if mutation == 'missing_survivor':
+            result['surviving_candidate_ids'] = []
+        elif mutation == 'missing_purge':
+            result['purge_record_ids'] = []
+        elif mutation == 'thread_drift':
+            cm['new-thread']['thread_id'] = 'different-original-thread'
+        elif mutation == 'graph_drift':
+            result['engine_audit']['relations'] = []
+        elif mutation == 'scope_drift':
+            result['summary']['independence_scope_complete'] = False
+        elif mutation == 'cap_drift':
+            result['summary']['independent_candidate_pairs'] = 2_000_001
+        elif mutation == 'missing_history':
+            hm.pop('old-thread')
+        else:
+            result['engine_audit']['relations'][0]['relation_id'] = 'changed'
+>       report = checker.reconcile(result, cm, hm)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+studies/pilot3_cross_context/tests/test_check_audit_result.py:84: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+result = {'actionable': False, 'purge_record_ids': [], 'summary': {'candidate_records': 4, 'historical_body_records': 2, 'historical_missing_thread_audit_nodes': 0, 'historical_missing_thread_records': 0, ...}, 'surviving_candidate_ids': []}
+candidate_metadata = {'new-content': {'account_key': 'a', 'cell': ['a', 'X', 'early'], 'declared_retained_words': 20, 'stratum_id': 'stratu...hread': {'account_key': 'b', 'cell': ['b', 'X', 'early'], 'declared_retained_words': 20, 'stratum_id': 'stratum', ...}}
+historical_metadata = {'old-thread': {'account_key': 'old', 'audit_split': 'confirmation', 'original_references': ['historical-source'], 'or...ld', 'audit_split': 'development', 'original_references': ['historical-source'], 'original_split': 'development', ...}}
+
+    def reconcile(result, candidate_metadata, historical_metadata):
+        check = Checks()
+>       summary, audit, provenance = result['summary'], result['engine_audit'], result['record_provenance']
+                                                        ^^^^^^^^^^^^^^^^^^^^^^
+E       KeyError: 'engine_audit'
+
+studies/pilot3_cross_context/scripts/check_audit_result.py:109: KeyError
+__ test_detects_independent_reconciliation_failures[missing_purge-purge IDs] ___
+
+engine = <module '_pilot3_frozen_leakage' from '<PINNED_SOURCE>/studies/pilot2/scripts/leakage_audit.py'>
+mutation = 'missing_purge', fragment = 'purge IDs'
+
+    @pytest.mark.parametrize('mutation,fragment', [
+        ('missing_survivor', 'survivor'), ('missing_purge', 'purge IDs'),
+        ('thread_drift', 'metadata binding'), ('graph_drift', 'reconstructs saved components'),
+        ('scope_drift', 'Unknown content'), ('cap_drift', 'within cap'),
+        ('missing_history', 'Historical original node coverage'), ('relation_hash', 'relation canonical hash'),
+    ])
+    def test_detects_independent_reconciliation_failures(engine, mutation, fragment):
+        result, cm, hm = deepcopy(synthetic_result(engine))
+        if mutation == 'missing_survivor':
+            result['surviving_candidate_ids'] = []
+        elif mutation == 'missing_purge':
+            result['purge_record_ids'] = []
+        elif mutation == 'thread_drift':
+            cm['new-thread']['thread_id'] = 'different-original-thread'
+        elif mutation == 'graph_drift':
+            result['engine_audit']['relations'] = []
+        elif mutation == 'scope_drift':
+            result['summary']['independence_scope_complete'] = False
+        elif mutation == 'cap_drift':
+            result['summary']['independent_candidate_pairs'] = 2_000_001
+        elif mutation == 'missing_history':
+            hm.pop('old-thread')
+        else:
+            result['engine_audit']['relations'][0]['relation_id'] = 'changed'
+>       report = checker.reconcile(result, cm, hm)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+studies/pilot3_cross_context/tests/test_check_audit_result.py:84: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+result = {'actionable': False, 'purge_record_ids': [], 'summary': {'candidate_records': 4, 'historical_body_records': 2, 'historical_missing_thread_audit_nodes': 0, 'historical_missing_thread_records': 0, ...}, 'surviving_candidate_ids': []}
+candidate_metadata = {'new-content': {'account_key': 'a', 'cell': ['a', 'X', 'early'], 'declared_retained_words': 20, 'stratum_id': 'stratu...hread': {'account_key': 'b', 'cell': ['b', 'X', 'early'], 'declared_retained_words': 20, 'stratum_id': 'stratum', ...}}
+historical_metadata = {'old-thread': {'account_key': 'old', 'audit_split': 'confirmation', 'original_references': ['historical-source'], 'or...ld', 'audit_split': 'development', 'original_references': ['historical-source'], 'original_split': 'development', ...}}
+
+    def reconcile(result, candidate_metadata, historical_metadata):
+        check = Checks()
+>       summary, audit, provenance = result['summary'], result['engine_audit'], result['record_provenance']
+                                                        ^^^^^^^^^^^^^^^^^^^^^^
+E       KeyError: 'engine_audit'
+
+studies/pilot3_cross_context/scripts/check_audit_result.py:109: KeyError
+_ test_detects_independent_reconciliation_failures[thread_drift-metadata binding] _
+
+engine = <module '_pilot3_frozen_leakage' from '<PINNED_SOURCE>/studies/pilot2/scripts/leakage_audit.py'>
+mutation = 'thread_drift', fragment = 'metadata binding'
+
+    @pytest.mark.parametrize('mutation,fragment', [
+        ('missing_survivor', 'survivor'), ('missing_purge', 'purge IDs'),
+        ('thread_drift', 'metadata binding'), ('graph_drift', 'reconstructs saved components'),
+        ('scope_drift', 'Unknown content'), ('cap_drift', 'within cap'),
+        ('missing_history', 'Historical original node coverage'), ('relation_hash', 'relation canonical hash'),
+    ])
+    def test_detects_independent_reconciliation_failures(engine, mutation, fragment):
+        result, cm, hm = deepcopy(synthetic_result(engine))
+        if mutation == 'missing_survivor':
+            result['surviving_candidate_ids'] = []
+        elif mutation == 'missing_purge':
+            result['purge_record_ids'] = []
+        elif mutation == 'thread_drift':
+            cm['new-thread']['thread_id'] = 'different-original-thread'
+        elif mutation == 'graph_drift':
+            result['engine_audit']['relations'] = []
+        elif mutation == 'scope_drift':
+            result['summary']['independence_scope_complete'] = False
+        elif mutation == 'cap_drift':
+            result['summary']['independent_candidate_pairs'] = 2_000_001
+        elif mutation == 'missing_history':
+            hm.pop('old-thread')
+        else:
+            result['engine_audit']['relations'][0]['relation_id'] = 'changed'
+>       report = checker.reconcile(result, cm, hm)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+studies/pilot3_cross_context/tests/test_check_audit_result.py:84: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+result = {'actionable': False, 'purge_record_ids': [], 'summary': {'candidate_records': 4, 'historical_body_records': 2, 'historical_missing_thread_audit_nodes': 0, 'historical_missing_thread_records': 0, ...}, 'surviving_candidate_ids': []}
+candidate_metadata = {'new-content': {'account_key': 'a', 'cell': ['a', 'X', 'early'], 'declared_retained_words': 20, 'stratum_id': 'stratu...hread': {'account_key': 'b', 'cell': ['b', 'X', 'early'], 'declared_retained_words': 20, 'stratum_id': 'stratum', ...}}
+historical_metadata = {'old-thread': {'account_key': 'old', 'audit_split': 'confirmation', 'original_references': ['historical-source'], 'or...ld', 'audit_split': 'development', 'original_references': ['historical-source'], 'original_split': 'development', ...}}
+
+    def reconcile(result, candidate_metadata, historical_metadata):
+        check = Checks()
+>       summary, audit, provenance = result['summary'], result['engine_audit'], result['record_provenance']
+                                                        ^^^^^^^^^^^^^^^^^^^^^^
+E       KeyError: 'engine_audit'
+
+studies/pilot3_cross_context/scripts/check_audit_result.py:109: KeyError
+_ test_detects_independent_reconciliation_failures[graph_drift-reconstructs saved components] _
+
+engine = <module '_pilot3_frozen_leakage' from '<PINNED_SOURCE>/studies/pilot2/scripts/leakage_audit.py'>
+mutation = 'graph_drift', fragment = 'reconstructs saved components'
+
+    @pytest.mark.parametrize('mutation,fragment', [
+        ('missing_survivor', 'survivor'), ('missing_purge', 'purge IDs'),
+        ('thread_drift', 'metadata binding'), ('graph_drift', 'reconstructs saved components'),
+        ('scope_drift', 'Unknown content'), ('cap_drift', 'within cap'),
+        ('missing_history', 'Historical original node coverage'), ('relation_hash', 'relation canonical hash'),
+    ])
+    def test_detects_independent_reconciliation_failures(engine, mutation, fragment):
+        result, cm, hm = deepcopy(synthetic_result(engine))
+        if mutation == 'missing_survivor':
+            result['surviving_candidate_ids'] = []
+        elif mutation == 'missing_purge':
+            result['purge_record_ids'] = []
+        elif mutation == 'thread_drift':
+            cm['new-thread']['thread_id'] = 'different-original-thread'
+        elif mutation == 'graph_drift':
+>           result['engine_audit']['relations'] = []
+            ^^^^^^^^^^^^^^^^^^^^^^
+E           KeyError: 'engine_audit'
+
+studies/pilot3_cross_context/tests/test_check_audit_result.py:75: KeyError
+_ test_detects_independent_reconciliation_failures[scope_drift-Unknown content] _
+
+engine = <module '_pilot3_frozen_leakage' from '<PINNED_SOURCE>/studies/pilot2/scripts/leakage_audit.py'>
+mutation = 'scope_drift', fragment = 'Unknown content'
+
+    @pytest.mark.parametrize('mutation,fragment', [
+        ('missing_survivor', 'survivor'), ('missing_purge', 'purge IDs'),
+        ('thread_drift', 'metadata binding'), ('graph_drift', 'reconstructs saved components'),
+        ('scope_drift', 'Unknown content'), ('cap_drift', 'within cap'),
+        ('missing_history', 'Historical original node coverage'), ('relation_hash', 'relation canonical hash'),
+    ])
+    def test_detects_independent_reconciliation_failures(engine, mutation, fragment):
+        result, cm, hm = deepcopy(synthetic_result(engine))
+        if mutation == 'missing_survivor':
+            result['surviving_candidate_ids'] = []
+        elif mutation == 'missing_purge':
+            result['purge_record_ids'] = []
+        elif mutation == 'thread_drift':
+            cm['new-thread']['thread_id'] = 'different-original-thread'
+        elif mutation == 'graph_drift':
+            result['engine_audit']['relations'] = []
+        elif mutation == 'scope_drift':
+            result['summary']['independence_scope_complete'] = False
+        elif mutation == 'cap_drift':
+            result['summary']['independent_candidate_pairs'] = 2_000_001
+        elif mutation == 'missing_history':
+            hm.pop('old-thread')
+        else:
+            result['engine_audit']['relations'][0]['relation_id'] = 'changed'
+>       report = checker.reconcile(result, cm, hm)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+studies/pilot3_cross_context/tests/test_check_audit_result.py:84: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+result = {'actionable': False, 'purge_record_ids': [], 'summary': {'candidate_records': 4, 'historical_body_records': 2, 'historical_missing_thread_audit_nodes': 0, 'historical_missing_thread_records': 0, ...}, 'surviving_candidate_ids': []}
+candidate_metadata = {'new-content': {'account_key': 'a', 'cell': ['a', 'X', 'early'], 'declared_retained_words': 20, 'stratum_id': 'stratu...hread': {'account_key': 'b', 'cell': ['b', 'X', 'early'], 'declared_retained_words': 20, 'stratum_id': 'stratum', ...}}
+historical_metadata = {'old-thread': {'account_key': 'old', 'audit_split': 'confirmation', 'original_references': ['historical-source'], 'or...ld', 'audit_split': 'development', 'original_references': ['historical-source'], 'original_split': 'development', ...}}
+
+    def reconcile(result, candidate_metadata, historical_metadata):
+        check = Checks()
+>       summary, audit, provenance = result['summary'], result['engine_audit'], result['record_provenance']
+                                                        ^^^^^^^^^^^^^^^^^^^^^^
+E       KeyError: 'engine_audit'
+
+studies/pilot3_cross_context/scripts/check_audit_result.py:109: KeyError
+____ test_detects_independent_reconciliation_failures[cap_drift-within cap] ____
+
+engine = <module '_pilot3_frozen_leakage' from '<PINNED_SOURCE>/studies/pilot2/scripts/leakage_audit.py'>
+mutation = 'cap_drift', fragment = 'within cap'
+
+    @pytest.mark.parametrize('mutation,fragment', [
+        ('missing_survivor', 'survivor'), ('missing_purge', 'purge IDs'),
+        ('thread_drift', 'metadata binding'), ('graph_drift', 'reconstructs saved components'),
+        ('scope_drift', 'Unknown content'), ('cap_drift', 'within cap'),
+        ('missing_history', 'Historical original node coverage'), ('relation_hash', 'relation canonical hash'),
+    ])
+    def test_detects_independent_reconciliation_failures(engine, mutation, fragment):
+        result, cm, hm = deepcopy(synthetic_result(engine))
+        if mutation == 'missing_survivor':
+            result['surviving_candidate_ids'] = []
+        elif mutation == 'missing_purge':
+            result['purge_record_ids'] = []
+        elif mutation == 'thread_drift':
+            cm['new-thread']['thread_id'] = 'different-original-thread'
+        elif mutation == 'graph_drift':
+            result['engine_audit']['relations'] = []
+        elif mutation == 'scope_drift':
+            result['summary']['independence_scope_complete'] = False
+        elif mutation == 'cap_drift':
+            result['summary']['independent_candidate_pairs'] = 2_000_001
+        elif mutation == 'missing_history':
+            hm.pop('old-thread')
+        else:
+            result['engine_audit']['relations'][0]['relation_id'] = 'changed'
+>       report = checker.reconcile(result, cm, hm)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+studies/pilot3_cross_context/tests/test_check_audit_result.py:84: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+result = {'actionable': False, 'purge_record_ids': [], 'summary': {'candidate_records': 4, 'historical_body_records': 2, 'historical_missing_thread_audit_nodes': 0, 'historical_missing_thread_records': 0, ...}, 'surviving_candidate_ids': []}
+candidate_metadata = {'new-content': {'account_key': 'a', 'cell': ['a', 'X', 'early'], 'declared_retained_words': 20, 'stratum_id': 'stratu...hread': {'account_key': 'b', 'cell': ['b', 'X', 'early'], 'declared_retained_words': 20, 'stratum_id': 'stratum', ...}}
+historical_metadata = {'old-thread': {'account_key': 'old', 'audit_split': 'confirmation', 'original_references': ['historical-source'], 'or...ld', 'audit_split': 'development', 'original_references': ['historical-source'], 'original_split': 'development', ...}}
+
+    def reconcile(result, candidate_metadata, historical_metadata):
+        check = Checks()
+>       summary, audit, provenance = result['summary'], result['engine_audit'], result['record_provenance']
+                                                        ^^^^^^^^^^^^^^^^^^^^^^
+E       KeyError: 'engine_audit'
+
+studies/pilot3_cross_context/scripts/check_audit_result.py:109: KeyError
+_ test_detects_independent_reconciliation_failures[missing_history-Historical original node coverage] _
+
+engine = <module '_pilot3_frozen_leakage' from '<PINNED_SOURCE>/studies/pilot2/scripts/leakage_audit.py'>
+mutation = 'missing_history', fragment = 'Historical original node coverage'
+
+    @pytest.mark.parametrize('mutation,fragment', [
+        ('missing_survivor', 'survivor'), ('missing_purge', 'purge IDs'),
+        ('thread_drift', 'metadata binding'), ('graph_drift', 'reconstructs saved components'),
+        ('scope_drift', 'Unknown content'), ('cap_drift', 'within cap'),
+        ('missing_history', 'Historical original node coverage'), ('relation_hash', 'relation canonical hash'),
+    ])
+    def test_detects_independent_reconciliation_failures(engine, mutation, fragment):
+        result, cm, hm = deepcopy(synthetic_result(engine))
+        if mutation == 'missing_survivor':
+            result['surviving_candidate_ids'] = []
+        elif mutation == 'missing_purge':
+            result['purge_record_ids'] = []
+        elif mutation == 'thread_drift':
+            cm['new-thread']['thread_id'] = 'different-original-thread'
+        elif mutation == 'graph_drift':
+            result['engine_audit']['relations'] = []
+        elif mutation == 'scope_drift':
+            result['summary']['independence_scope_complete'] = False
+        elif mutation == 'cap_drift':
+            result['summary']['independent_candidate_pairs'] = 2_000_001
+        elif mutation == 'missing_history':
+            hm.pop('old-thread')
+        else:
+            result['engine_audit']['relations'][0]['relation_id'] = 'changed'
+>       report = checker.reconcile(result, cm, hm)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+studies/pilot3_cross_context/tests/test_check_audit_result.py:84: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+result = {'actionable': False, 'purge_record_ids': [], 'summary': {'candidate_records': 4, 'historical_body_records': 2, 'historical_missing_thread_audit_nodes': 0, 'historical_missing_thread_records': 0, ...}, 'surviving_candidate_ids': []}
+candidate_metadata = {'new-content': {'account_key': 'a', 'cell': ['a', 'X', 'early'], 'declared_retained_words': 20, 'stratum_id': 'stratu...hread': {'account_key': 'b', 'cell': ['b', 'X', 'early'], 'declared_retained_words': 20, 'stratum_id': 'stratum', ...}}
+historical_metadata = {'old-title': {'account_key': 'old', 'audit_split': 'development', 'original_references': ['historical-source'], 'original_split': 'development', ...}}
+
+    def reconcile(result, candidate_metadata, historical_metadata):
+        check = Checks()
+>       summary, audit, provenance = result['summary'], result['engine_audit'], result['record_provenance']
+                                                        ^^^^^^^^^^^^^^^^^^^^^^
+E       KeyError: 'engine_audit'
+
+studies/pilot3_cross_context/scripts/check_audit_result.py:109: KeyError
+_ test_detects_independent_reconciliation_failures[relation_hash-relation canonical hash] _
+
+engine = <module '_pilot3_frozen_leakage' from '<PINNED_SOURCE>/studies/pilot2/scripts/leakage_audit.py'>
+mutation = 'relation_hash', fragment = 'relation canonical hash'
+
+    @pytest.mark.parametrize('mutation,fragment', [
+        ('missing_survivor', 'survivor'), ('missing_purge', 'purge IDs'),
+        ('thread_drift', 'metadata binding'), ('graph_drift', 'reconstructs saved components'),
+        ('scope_drift', 'Unknown content'), ('cap_drift', 'within cap'),
+        ('missing_history', 'Historical original node coverage'), ('relation_hash', 'relation canonical hash'),
+    ])
+    def test_detects_independent_reconciliation_failures(engine, mutation, fragment):
+        result, cm, hm = deepcopy(synthetic_result(engine))
+        if mutation == 'missing_survivor':
+            result['surviving_candidate_ids'] = []
+        elif mutation == 'missing_purge':
+            result['purge_record_ids'] = []
+        elif mutation == 'thread_drift':
+            cm['new-thread']['thread_id'] = 'different-original-thread'
+        elif mutation == 'graph_drift':
+            result['engine_audit']['relations'] = []
+        elif mutation == 'scope_drift':
+            result['summary']['independence_scope_complete'] = False
+        elif mutation == 'cap_drift':
+            result['summary']['independent_candidate_pairs'] = 2_000_001
+        elif mutation == 'missing_history':
+            hm.pop('old-thread')
+        else:
+>           result['engine_audit']['relations'][0]['relation_id'] = 'changed'
+            ^^^^^^^^^^^^^^^^^^^^^^
+E           KeyError: 'engine_audit'
+
+studies/pilot3_cross_context/tests/test_check_audit_result.py:83: KeyError
+=========================== short test summary info ============================
+FAILED studies/pilot3_cross_context/tests/test_check_audit_result.py::test_reconciles_complete_synthetic_audit_with_both_purge_types_and_title
+FAILED studies/pilot3_cross_context/tests/test_check_audit_result.py::test_detects_independent_reconciliation_failures[missing_survivor-survivor]
+FAILED studies/pilot3_cross_context/tests/test_check_audit_result.py::test_detects_independent_reconciliation_failures[missing_purge-purge IDs]
+FAILED studies/pilot3_cross_context/tests/test_check_audit_result.py::test_detects_independent_reconciliation_failures[thread_drift-metadata binding]
+FAILED studies/pilot3_cross_context/tests/test_check_audit_result.py::test_detects_independent_reconciliation_failures[graph_drift-reconstructs saved components]
+FAILED studies/pilot3_cross_context/tests/test_check_audit_result.py::test_detects_independent_reconciliation_failures[scope_drift-Unknown content]
+FAILED studies/pilot3_cross_context/tests/test_check_audit_result.py::test_detects_independent_reconciliation_failures[cap_drift-within cap]
+FAILED studies/pilot3_cross_context/tests/test_check_audit_result.py::test_detects_independent_reconciliation_failures[missing_history-Historical original node coverage]
+FAILED studies/pilot3_cross_context/tests/test_check_audit_result.py::test_detects_independent_reconciliation_failures[relation_hash-relation canonical hash]
+9 failed, 8 passed in 0.31s

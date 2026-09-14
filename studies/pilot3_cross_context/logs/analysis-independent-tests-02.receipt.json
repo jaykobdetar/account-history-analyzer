@@ -1,0 +1,28 @@
+{
+  "argv": [
+    ".venv/bin/python",
+    "-m",
+    "pytest",
+    "-p",
+    "no:cacheprovider",
+    "-q",
+    "studies/pilot3_cross_context/tests/test_check_analysis_results.py"
+  ],
+  "cwd": "<WORKSPACE>",
+  "started_utc": "2026-09-14T22:16:36.798708+00:00",
+  "finished_utc": "2026-09-14T22:16:51.346430+00:00",
+  "exit_code": 0,
+  "wall_seconds": 14.547724201984238,
+  "child_peak_rss_mib": 142.11328125,
+  "runner_sha256": "4d94adb7a06ec38cc6f5b4fe55f801e87bbdcff712139146d53f55a2928eb2a4",
+  "outputs": {
+    "stdout.log": {
+      "bytes": 100,
+      "sha256": "f7248402ed1e39741293334ba7dd2c45a0d86d4ca890c73ed088f8da2791188e"
+    },
+    "stderr.log": {
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    }
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "argv": [
+    "env",
+    "PYTHONPATH=<PINNED_INSTALL>",
+    ".venv/bin/python",
+    "scripts/offline_exec.py",
+    ".venv/bin/python",
+    "studies/pilot3_cross_context/scripts/census_expanded.py",
+    "--plan",
+    "studies/pilot3_cross_context/protocol/gate_a_plan_v2.json",
+    "--source-root",
+    "<PRIOR_STUDY_ARTIFACT_ROOT>",
+    "--private-root",
+    "<PRIVATE_STUDY>",
+    "--out",
+    "studies/pilot3_cross_context/inventory/census-02"
+  ],
+  "cwd": "<WORKSPACE>",
+  "started_utc": "2026-09-14T21:13:12.509516+00:00",
+  "finished_utc": "2026-09-14T21:22:49.736548+00:00",
+  "exit_code": 0,
+  "wall_seconds": 577.2270329199964,
+  "child_peak_rss_mib": 466.76171875,
+  "runner_sha256": "4d94adb7a06ec38cc6f5b4fe55f801e87bbdcff712139146d53f55a2928eb2a4",
+  "outputs": {
+    "stdout.log": {
+      "bytes": 27085,
+      "sha256": "f2898a2b73bac2288def03eadfc66c8d16a7ee75e35994b6531d8a7641c1afe5"
+    },
+    "stderr.log": {
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    }
+  }
+}

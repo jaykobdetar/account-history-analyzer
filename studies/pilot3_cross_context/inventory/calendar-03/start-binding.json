@@ -1,0 +1,18 @@
+{
+  "amendment_sha256": "8d48e807d52286d11dbd2e7513b90801cd5ac86698c4fb8d41cf5c42cb0a1d2f",
+  "eligibility_metadata_sha256": "a804d85a398a614a0fef219d422d1c5257b9de75a93414d517d1506e0f459c2d",
+  "new_preprocessing_calls": 0,
+  "new_source_prose_reads": 0,
+  "phase": "before_metadata_calendar_refinement",
+  "plan_sha256": "f11f0553758003662e140f632f55af31e93b1a82bf1532d64cdbe07021108cd4",
+  "scripts": {
+    "calendar_capacity.py": "1709fff8ca4b984e063c07b55a3662451c94013fae9b21e8bfc392f4d409be18",
+    "expanded_capacity.py": "ed79b3dfd7db473d399257488e76362da14210489f6c6f9f34fb6cb6c7d6146a",
+    "run_calendar_census.py": "2785dfa58b9617d30fd9d6b0da8ef51ca77058ec52ba90e5e21e33d16ee12ca1",
+    "study_math.py": "267d413c97a8b6ea6e47071cc818adb44c82beafa3d74cd943ecc8127858013e"
+  },
+  "source_census": "census-02",
+  "source_inventory_sha256": "170f6038bff1e6138708b003b3fa31e98599a929012ae75ed8bc576d5ac15593",
+  "style_scores_computed": 0,
+  "utc": "2026-09-14T21:31:13.907715+00:00"
+}

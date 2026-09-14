@@ -1,0 +1,37 @@
+{
+  "argv": [
+    ".venv/bin/python",
+    "scripts/offline_exec.py",
+    ".venv/bin/python",
+    "studies/pilot3_cross_context/scripts/check_analysis_results.py",
+    "--cases",
+    "studies/pilot3_cross_context/results/normalized/cases.json",
+    "--units",
+    "studies/pilot3_cross_context/results/normalized/units.json",
+    "--dependencies",
+    "studies/pilot3_cross_context/results/normalized/dependencies.json",
+    "--results",
+    "studies/pilot3_cross_context/results/analysis",
+    "--plan",
+    "studies/pilot3_cross_context/protocol/analysis-plan.json",
+    "--out",
+    "studies/pilot3_cross_context/review/analysis-independent-check-01.json"
+  ],
+  "cwd": "<WORKSPACE>",
+  "started_utc": "2026-09-14T22:32:59.364124+00:00",
+  "finished_utc": "2026-09-14T22:33:02.814249+00:00",
+  "exit_code": 0,
+  "wall_seconds": 3.4501265510043595,
+  "child_peak_rss_mib": 48.796875,
+  "runner_sha256": "4d94adb7a06ec38cc6f5b4fe55f801e87bbdcff712139146d53f55a2928eb2a4",
+  "outputs": {
+    "stdout.log": {
+      "bytes": 181,
+      "sha256": "98f5180dbd595ca16229f0e58a6393476057b32e46e754df2581df4f6dbca630"
+    },
+    "stderr.log": {
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    }
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "phase": "score-free census code identities; not GateB scoring registration",
+  "observed_utc": "2026-09-14T21:15:46.886063+00:00",
+  "files": {
+    "scripts/census.py": "fa12f79f735efb0be4262738c4f3b210cc9e63bfcc3f16970126bff636b6d4c9",
+    "scripts/census_expanded.py": "090e08319074e23a806d8b1e6244d226e979d942f174328b5d911058e0bcf2a7",
+    "scripts/study_math.py": "267d413c97a8b6ea6e47071cc818adb44c82beafa3d74cd943ecc8127858013e",
+    "scripts/expanded_capacity.py": "ed79b3dfd7db473d399257488e76362da14210489f6c6f9f34fb6cb6c7d6146a",
+    "scripts/check_census.py": "211c9cf32b8ee4fdfc9b6dc3305209b4d0337f44b11c1f8b864893dd9a707a54",
+    "scripts/run_logged.py": "4d94adb7a06ec38cc6f5b4fe55f801e87bbdcff712139146d53f55a2928eb2a4",
+    "protocol/gate_a_plan.json": "7a89f1366abce915ccd180fafe04a1b9ec90113129e04a9f55c993302330ba3d",
+    "protocol/gate_a_plan_v2.json": "f11f0553758003662e140f632f55af31e93b1a82bf1532d64cdbe07021108cd4",
+    "protocol/AMENDMENT_01_AUTHORIZED_EXPANSION.md": "3e6a62cf0070aca23d71f66a6843188f65f39f8ba1745a93b31da002772c39f2"
+  },
+  "note": "Expanded helper was implemented during source scanning and finalized before any capacity selection. Selection rules were predeclared in amendment01; no new style scores exist."
+}

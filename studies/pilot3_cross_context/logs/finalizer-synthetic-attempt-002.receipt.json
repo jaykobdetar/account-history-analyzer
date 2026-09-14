@@ -1,0 +1,30 @@
+{
+  "argv": [
+    "env",
+    "PYTHONPATH=<PINNED_INSTALL>",
+    ".venv/bin/python",
+    "-m",
+    "pytest",
+    "-p",
+    "no:cacheprovider",
+    "studies/pilot3_cross_context/tests/test_finalize_cohort.py",
+    "-q"
+  ],
+  "cwd": "<WORKSPACE>",
+  "started_utc": "2026-09-14T22:04:11.539389+00:00",
+  "finished_utc": "2026-09-14T22:04:22.724512+00:00",
+  "exit_code": 0,
+  "wall_seconds": 11.185125148011139,
+  "child_peak_rss_mib": 65.984375,
+  "runner_sha256": "4d94adb7a06ec38cc6f5b4fe55f801e87bbdcff712139146d53f55a2928eb2a4",
+  "outputs": {
+    "stdout.log": {
+      "bytes": 100,
+      "sha256": "f8b731883f1020dc194613189c5fc1d6e3dbd5bb4c6ec8322d2b11c6eaa656bb"
+    },
+    "stderr.log": {
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    }
+  }
+}

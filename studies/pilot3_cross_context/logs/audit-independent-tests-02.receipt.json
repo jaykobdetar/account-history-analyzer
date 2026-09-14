@@ -1,0 +1,31 @@
+{
+  "argv": [
+    "env",
+    "PYTHONPATH=<PINNED_INSTALL>",
+    "AHAS_PILOT3_ENGINE_PATH=<PINNED_SOURCE>/studies/pilot2/scripts/leakage_audit.py",
+    ".venv/bin/python",
+    "-m",
+    "pytest",
+    "-p",
+    "no:cacheprovider",
+    "-q",
+    "studies/pilot3_cross_context/tests/test_check_audit_result.py"
+  ],
+  "cwd": "<WORKSPACE>",
+  "started_utc": "2026-09-14T22:07:12.516757+00:00",
+  "finished_utc": "2026-09-14T22:07:12.940268+00:00",
+  "exit_code": 1,
+  "wall_seconds": 0.42351342501933686,
+  "child_peak_rss_mib": 43.38671875,
+  "runner_sha256": "4d94adb7a06ec38cc6f5b4fe55f801e87bbdcff712139146d53f55a2928eb2a4",
+  "outputs": {
+    "stdout.log": {
+      "bytes": 2277,
+      "sha256": "13ed224d064ce52e992d4f7fb061a41e07b4d032fed45284411ca7749297e4f6"
+    },
+    "stderr.log": {
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    }
+  }
+}

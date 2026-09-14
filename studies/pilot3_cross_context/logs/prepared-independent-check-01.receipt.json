@@ -1,0 +1,39 @@
+{
+  "argv": [
+    ".venv/bin/python",
+    "studies/pilot3_cross_context/scripts/check_prepared_study.py",
+    "--plan",
+    "studies/pilot3_cross_context/protocol/candidate_preparation_plan_v2.json",
+    "--candidate-pool",
+    "<PRIVATE_STUDY>/candidates-01/candidate-pool.jsonl",
+    "--candidate-selection",
+    "<PRIVATE_STUDY>/candidates-01/candidate-selection.json",
+    "--audit",
+    "<PRIVATE_STUDY>/audit-01/audit.json",
+    "--exclusions",
+    "<PRIVATE_STUDY>/exclusions-mandatory.json",
+    "--cohort",
+    "<PRIVATE_STUDY>/cohort-01/cohort.json",
+    "--prepared",
+    "<PRIVATE_STUDY>/prepared-01",
+    "--out",
+    "studies/pilot3_cross_context/review/prepared-independent-check-01.json"
+  ],
+  "cwd": "<WORKSPACE>",
+  "started_utc": "2026-09-14T22:17:52.032347+00:00",
+  "finished_utc": "2026-09-14T22:17:56.011978+00:00",
+  "exit_code": 0,
+  "wall_seconds": 3.9796297840075567,
+  "child_peak_rss_mib": 224.14453125,
+  "runner_sha256": "4d94adb7a06ec38cc6f5b4fe55f801e87bbdcff712139146d53f55a2928eb2a4",
+  "outputs": {
+    "stdout.log": {
+      "bytes": 1410,
+      "sha256": "4f05e91816fef077ad5601d34d2a3ca1adc194f10cacc9b17b0a755f6b7ebb8f"
+    },
+    "stderr.log": {
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    }
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "phase": "registered_pre_score_batch_export",
+  "utc": "2026-09-14T22:12:40.443780+00:00",
+  "registered_before_evaluation": true,
+  "preregistration_provenance": "AHAS pilot3 protocol and selection rules frozen before original paired evaluation; final full input/execution freeze required before scoring. Prior drafts, failures and score-free amendments preserved.",
+  "protocol_path": "<WORKSPACE>/studies/pilot3_cross_context/protocol/PROTOCOL.md",
+  "protocol_sha256": "cee0c320b544e1b2d429adc827dff1475ea596494025ec7e82624611cd625337",
+  "final_cohort_sha256": "315e70c21d4d2bc96620aec781f9a9d97c94dc68a3d0ca77e581e0b4d5c6f0bb",
+  "provenance": "Authorized local ConvoKit historical comment archives, fixed three community-pair strata and shared calendar periods, previously unscored source-account proxies, audited whole-record supplied samples. English is a corpus assumption; no complete-history or verified-human-authorship claim. Original text and identity maps remain private.",
+  "source_category": "research_corpus",
+  "exporter_sha256": "da59b2b77da455f176b060a1ac3b2617697dcdb8528827d00aca896a3ffa6c16",
+  "prepare_units_sha256": "74669f632f7a5e48b5b4d51d2a3b4180ea2635da0fd0010a9f95d05fc6eaa25f",
+  "finalize_cohort_sha256": "22132229bf069c5d55775ed3ac3235a73d06886413b18ad1878a29922084fa1e",
+  "study_math_sha256": "267d413c97a8b6ea6e47071cc818adb44c82beafa3d74cd943ecc8127858013e",
+  "tests_sha256": "6643252d51bd5d1ab3b86debf958e1957440e556b4fa02b3f80ce877e4bdb1bd",
+  "selection_freeze_sha256": "956f92ff32188b06b4aff61e334468cdfc5df0248b8b36f37ffa98cdd99113f4",
+  "audit_independent_check_sha256": "8628c4c8a04ec09cad8e34dfbf6b339d76606e8d2b3310e72bccf436122fb968",
+  "independent_check_rules_sha256": "691949f3b1429fb9b24b3712b31b969b3d4ba865c6853f73bc073718dabdb0fa",
+  "scores_computed": false
+}

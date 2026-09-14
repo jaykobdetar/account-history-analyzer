@@ -1,0 +1,33 @@
+{
+  "argv": [
+    ".venv/bin/python",
+    "studies/pilot3_cross_context/scripts/package_execution_resources.py",
+    "--main-executions",
+    "<PRIVATE_STUDY>/evaluation-main-01",
+    "--replay-executions",
+    "<PRIVATE_STUDY>/evaluation-replay-01",
+    "--prepared",
+    "<PRIVATE_STUDY>/prepared-01",
+    "--freeze",
+    "studies/pilot3_cross_context/protocol/scoring-freeze.json",
+    "--out",
+    "studies/pilot3_cross_context/results/execution"
+  ],
+  "cwd": "<WORKSPACE>",
+  "started_utc": "2026-09-14T22:38:25.569984+00:00",
+  "finished_utc": "2026-09-14T22:38:26.556589+00:00",
+  "exit_code": 0,
+  "wall_seconds": 0.9866017049935181,
+  "child_peak_rss_mib": 38.5390625,
+  "runner_sha256": "4d94adb7a06ec38cc6f5b4fe55f801e87bbdcff712139146d53f55a2928eb2a4",
+  "outputs": {
+    "stdout.log": {
+      "bytes": 200,
+      "sha256": "a7364b5b9cb9556f1ffdf0141f44c9187a874b70c19743e5923ba3fe179b69a4"
+    },
+    "stderr.log": {
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    }
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "phase": "final authorized bounded acquisition before score-free one-pair intake",
+  "authorization": "User explicitly approved additional dataset sourcing in this task",
+  "max_download_bytes": 335000000,
+  "max_wall_seconds": 900,
+  "previous_round_actual_bytes": 284210124,
+  "cumulative_new_bytes_if_successful": 618530464,
+  "sources": [
+    {
+      "community": "math",
+      "url": "https://zissou.infosci.cornell.edu/convokit/datasets/subreddit-corpus/corpus-zipped/marvelstudiosES~-~matheducation/math.corpus.zip",
+      "bytes": 245506348
+    },
+    {
+      "community": "learnmath",
+      "url": "https://zissou.infosci.cornell.edu/convokit/datasets/subreddit-corpus/corpus-zipped/leagueoflegends2~-~learnprogramming/learnmath.corpus.zip",
+      "bytes": 88813992
+    }
+  ]
+}

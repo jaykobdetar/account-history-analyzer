@@ -1,0 +1,19 @@
+{
+  "input_hashes": {
+    "case_rows.json": "2887c7283e7d3992e7231086acdee28e4a478a643724b5f6cb2fb7b66dd475c0",
+    "summaries.json": "c6fc99375e3ac8e2e223c2c578607cec8347e2d49b7663e192f48cc8d3739f96",
+    "unit_rows.json": "07fc7355a4539d5ba3366aec34fde4ddbe26f2402b6e58547bcab44591d47101"
+  },
+  "new_scores_or_inference": false,
+  "post_registration_reporting_only": true,
+  "quantiles": "numpy.percentile default linear/type7; descriptive only",
+  "registered_outcomes_redefined": false,
+  "script_sha256": "1104449f33cc835ef54892d13163ea24d13923ac1f678c6ffef98cd04114b893",
+  "source_text_read": false,
+  "status": "reporting_tables_complete",
+  "table_rows": {
+    "distance-distributions": 288,
+    "distance-omission-intersections": 108,
+    "method-context-missingness": 36
+  }
+}

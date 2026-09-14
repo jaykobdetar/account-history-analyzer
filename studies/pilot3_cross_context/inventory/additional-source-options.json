@@ -1,0 +1,116 @@
+{
+  "acquisition_request_if_deficit_confirmed": {
+    "approval_status": "not_requested_or_granted_by_this_subtask",
+    "bound": "Download only the three listed exact files after any necessary acquisition approval; no expansion to other corpus files under this proposal.",
+    "listed_total_compressed_bytes": 135822556,
+    "minimum_claim": "This is the smallest package within the three named candidate communities that supplies all three pair labels without using an old community. It is not a proven globally minimal or sufficient data acquisition.",
+    "new_download_bytes": 0,
+    "new_records_read": 0,
+    "requested_archive_count": 3,
+    "rough_decimal_megabytes": 135.822556
+  },
+  "checked_date": "2026-09-14",
+  "dataset_documentation": {
+    "provider_description": "ConvoKit describes per-subreddit corpora built from Pushshift posts/comments, from each community inception through October 2018. This provider scope statement is not a fresh verification of any proposed archive.",
+    "url": "https://convokit.cornell.edu/documentation/subreddit.html"
+  },
+  "design_implications": [
+    "These three pair labels can supply three candidate strata without using Cornell, ApplyingToCollege or college as a stratum member.",
+    "Different community names do not establish independent samples or distinct verified topics. All three remain academic communities; this is not broad nonacademic coverage.",
+    "Accounts must be allocated to one block and one stratum across all three candidate pairs. An account writing in all three communities cannot be counted in multiple strata.",
+    "The protected/scored/private exclusions, common periods, four cells per account, 2000 eligible whole-record words and at least eight eligible records per cell must remain unchanged.",
+    "A score-free joint capacity census must show whether disjoint cohorts and viable periods exist. Listed archive sizes cannot establish feasible20account strata.",
+    "Current community descriptions and cross-references are only a plausibility argument for inspection; they do not establish historical2018 content, participant overlap, language or eligible writing volume.",
+    "If these are approved for acquisition, record fresh archive hashes and actual source record counts, metadata completeness and local-use permissions before choosing dates/cohorts. Do not skip Gate A or Gate B."
+  ],
+  "permissions_and_limits": [
+    "Official availability and existing project provenance do not establish a corpus-specific redistribution license. Keep any later raw acquisition private pending its documented permissions.",
+    "No HEAD request to archive URLs and no ZIP content read was performed; sizes are the official directory-listed byte counts only.",
+    "Directory modification times are recorded as printed; timezone is unspecified and they are not observation dates.",
+    "The local corpus deficit must be reported separately with actual census counts; this proposal does not presume that deficit or authorize quietly shrinking the study."
+  ],
+  "possible_new_community_pair_strata": [
+    {
+      "communities": [
+        "AskAcademia",
+        "GradSchool"
+      ],
+      "subject_relationship": "Academic careers/institutions and graduate-student experiences; related academic settings with potentially different discussion purposes."
+    },
+    {
+      "communities": [
+        "AskAcademia",
+        "PhD"
+      ],
+      "subject_relationship": "General academic questions and doctoral-degree experiences; related audiences but a broader versus degree-specific discussion scope."
+    },
+    {
+      "communities": [
+        "GradSchool",
+        "PhD"
+      ],
+      "subject_relationship": "Graduate-student issues and doctoral-degree experiences; substantial conceptual overlap, with PhD narrower than all graduate study."
+    }
+  ],
+  "purpose": "Bounded possible follow-on archive request, contingent on observed Gate A deficit. No corpus archives downloaded, no record content collected, no source-account overlap asserted.",
+  "schema_version": "1.0.0",
+  "scope": "Only AskAcademia, GradSchool and PhD archive entries were retained from their official directory indexes. Parent index navigation and the three current community about/rule pages supplied metadata and descriptive context.",
+  "sources": [
+    {
+      "archive_downloaded": false,
+      "archive_sha256": null,
+      "archive_url": "https://zissou.infosci.cornell.edu/convokit/datasets/subreddit-corpus/corpus-zipped/AsianHottiesGIFS~-~AskDocs/AskAcademia.corpus.zip",
+      "community": "AskAcademia",
+      "cross_community_overlap_accounts": null,
+      "current_scope_paraphrase": "Questions about academia across career stages, disciplines and institutions. Current rules redirect complaints about graduate school to GradSchool.",
+      "decompressed_bytes": null,
+      "description_source": "https://www.reddit.com/r/AskAcademia/about/",
+      "four_cell_eligible_capacity_accounts": null,
+      "historical_topic_labels_verified": false,
+      "listed_compressed_bytes": 56041807,
+      "listed_modified_time": "30-Oct-2019 01:38",
+      "official_index_url": "https://zissou.infosci.cornell.edu/convokit/datasets/subreddit-corpus/corpus-zipped/AsianHottiesGIFS~-~AskDocs/",
+      "rationale": "The explicit current connection to graduate-school discussion makes shared participant accounts plausible; it does not establish overlap in the archived period.",
+      "source_rows_verified": false,
+      "zip_filename": "AskAcademia.corpus.zip"
+    },
+    {
+      "archive_downloaded": false,
+      "archive_sha256": null,
+      "archive_url": "https://zissou.infosci.cornell.edu/convokit/datasets/subreddit-corpus/corpus-zipped/GonewildPorn~-~GrandTheftAutoV/GradSchool.corpus.zip",
+      "community": "GradSchool",
+      "cross_community_overlap_accounts": null,
+      "current_scope_paraphrase": "Graduate-student discussion; current rules address graduate-student issues and direct program admissions comparisons elsewhere.",
+      "decompressed_bytes": null,
+      "description_source": "https://www.reddit.com/r/GradSchool/about/",
+      "four_cell_eligible_capacity_accounts": null,
+      "historical_topic_labels_verified": false,
+      "listed_compressed_bytes": 75834080,
+      "listed_modified_time": "30-Oct-2019 09:44",
+      "official_index_url": "https://zissou.infosci.cornell.edu/convokit/datasets/subreddit-corpus/corpus-zipped/GonewildPorn~-~GrandTheftAutoV/",
+      "rationale": "Graduate students may also ask academic-career questions and discuss doctoral experiences. Shared accounts and sufficient repeated writing across years remain unmeasured.",
+      "source_rows_verified": false,
+      "zip_filename": "GradSchool.corpus.zip"
+    },
+    {
+      "archive_downloaded": false,
+      "archive_sha256": null,
+      "archive_url": "https://zissou.infosci.cornell.edu/convokit/datasets/subreddit-corpus/corpus-zipped/Pewdiepie_Felix~-~PhotoshopTutorials/PhD.corpus.zip",
+      "community": "PhD",
+      "cross_community_overlap_accounts": null,
+      "current_scope_paraphrase": "A community for doctoral students and holders centered on the PhD experience; current rules redirect questions about the value of a PhD to AskAcademia.",
+      "decompressed_bytes": null,
+      "description_source": "https://www.reddit.com/r/PhD/about/",
+      "four_cell_eligible_capacity_accounts": null,
+      "historical_topic_labels_verified": false,
+      "listed_compressed_bytes": 3946669,
+      "listed_modified_time": "30-Oct-2019 17:12",
+      "official_index_url": "https://zissou.infosci.cornell.edu/convokit/datasets/subreddit-corpus/corpus-zipped/Pewdiepie_Felix~-~PhotoshopTutorials/",
+      "rationale": "The explicitly overlapping academic/doctoral audience is a reason to inspect metadata if acquisition is approved. The archive is much smaller than the other two, so capacity is especially uncertain.",
+      "source_rows_verified": false,
+      "zip_filename": "PhD.corpus.zip"
+    }
+  ],
+  "status": "metadata_only_contingent_options_not_acquisition_approval",
+  "total_listed_compressed_bytes": 135822556
+}

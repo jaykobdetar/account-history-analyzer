@@ -1,0 +1,6 @@
+Traceback (most recent call last):
+  File "<WORKSPACE>/scripts/offline_exec.py", line 53, in <module>
+    os.execvp(sys.argv[1], sys.argv[1:])
+  File "<frozen os>", line 580, in execvp
+  File "<frozen os>", line 603, in _execvpe
+PermissionError: [Errno 13] Permission denied

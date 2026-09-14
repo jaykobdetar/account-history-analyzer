@@ -1,0 +1,125 @@
+{
+  "commands": [
+    {
+      "excerpt_scope": "Exact archive loop from a successful combined shell call that also read earlier exclusion metadata. r was the actual prior AHAS visualization root; imports included hashlib and zipfile. This excerpt is not represented as the entire combined command.",
+      "executed_python_excerpt": "for p in [r/'ahas-realworld-review/inputs/Cornell.corpus.zip',r/'ahas-pilot2-20260914/data/ApplyingToCollege.corpus.zip',r/'ahas-pilot2-20260914/data/college.corpus.zip']:\n with p.open('rb') as f:h=hashlib.file_digest(f,'sha256').hexdigest()\n with zipfile.ZipFile(p) as z:members=[{'name':x.filename,'bytes':x.file_size,'compressed':x.compress_size} for x in z.infolist()]\n print('archive',p.name,'sha256',h,'bytes',p.stat().st_size,'members',members)",
+      "exit_code": 0,
+      "finished_utc": null,
+      "name": "archive_hash_and_zip_member_inventory",
+      "peak_rss_kib": null,
+      "started_utc": null,
+      "tool_reported_combined_command_wall_seconds": 0.279226172
+    },
+    {
+      "executed_command_with_normalized_root": "python - <<'PY'\nimport json,zipfile,collections,datetime,time\nfrom pathlib import Path\nr=Path('<PRIOR_AHAS_ROOT>')\nfor rel in ('ahas-realworld-review/inputs/Cornell.corpus.zip','ahas-pilot2-20260914/data/ApplyingToCollege.corpus.zip','ahas-pilot2-20260914/data/college.corpus.zip'):\n p=r/rel;c=collections.Counter();min_ts=None;max_ts=None\n with zipfile.ZipFile(p) as z:\n  with z.open('utterances.jsonl') as f:\n   for line in f:\n    row=json.loads(line);c['source_rows']+=1\n    c['submissions' if row.get('id')==row.get('root') else 'comments']+=1\n    t=row.get('timestamp')\n    if isinstance(t,int): min_ts=t if min_ts is None else min(min_ts,t);max_ts=t if max_ts is None else max(max_ts,t)\n    for key in ('id','user','root','timestamp'):\n     if row.get(key) in (None,''):c['missing_'+key]+=1\n    if row.get('id')!=row.get('root') and row.get('reply_to') in (None,''):c['comments_missing_reply_to']+=1\n print(json.dumps({'archive':p.name,'fresh_metadata_counts':dict(c),'first_utc':datetime.datetime.fromtimestamp(min_ts,datetime.timezone.utc).isoformat(),'last_utc':datetime.datetime.fromtimestamp(max_ts,datetime.timezone.utc).isoformat(),'no_text_or_style_inspection':True},sort_keys=True))\nPY",
+      "exit_code": 0,
+      "finished_utc": null,
+      "name": "fresh_direct_source_metadata_count",
+      "peak_rss_kib": null,
+      "started_utc": null,
+      "timing_note": "These are tool-response waiting durations, not process wall time. The command ran asynchronously and no process timing/RSS wrapper was used.",
+      "tool_wait_response_wall_seconds": [
+        1.000150756,
+        5.001507246,
+        1.84e-06
+      ],
+      "wall_seconds": null
+    }
+  ],
+  "exclusion_identity": {
+    "additional_capacity_only_previously_inspected_accounts": 145,
+    "complete_for_known_pilot_sources": true,
+    "mandatory_distinct_accounts": 57,
+    "mandatory_manifest_sha256": "cce9c7980e8cee909318051a934eb99815ad0e5df8707e07026a08ffc3cad660",
+    "mandatory_reason_counts": {
+      "pilot1_development_scored": 4,
+      "pilot1_evaluation_scored": 8,
+      "pilot2_chronological_scored_including_failed_attempts": 8,
+      "pilot2_paired_development_scored": 12,
+      "pilot2_paired_evaluation_scored": 12,
+      "pilot2_protected_confirmation_reserve": 12,
+      "users_private_export_filename_identity": 1
+    },
+    "original_conservative_manifest_sha256": "a2ad340a0092a2b15b13703a7d19d2615d420eea3f7adc79d0c35c0583b545d3",
+    "strict_all_exposed_sensitivity_accounts": 202
+  },
+  "path_sanitization": "The prior visualization directory absolute path is replaced by <PRIOR_AHAS_ROOT>; private export filename, usernames, source-account maps, record IDs and prose are omitted. Exact private source paths/hashes are in the private exclusion manifests.",
+  "provenance": "Recorded from tool-returned outputs in the current task; original shell execution was successful. No operational timing was reconstructed.",
+  "purpose": "Sanitized retrospective receipt of score-free local source discovery actually executed during pilot3 setup. This is not a census-registration receipt.",
+  "receipt_version": "1.0.0",
+  "scope_limits": [
+    "This was an additional direct source metadata read before the planned two-pass feasibility census; it is not counted as either of those census passes. Archive hashing also read compressed archive bytes.",
+    "No preprocessing, style distances, ranking metrics, boundaries, feature vectors, new cohort selection, download or scoring was executed by the discovery pass.",
+    "JSON decoding necessarily loaded source rows; only identity/time/thread metadata were queried. Source writing was not inspected for study design, and no reserve prose/features were printed or examined.",
+    "Zero missing counts mean the checked source fields are present; they do not establish independent threads, valid real-world identities, complete account histories, language, or author labels.",
+    "Discovery was bounded to relevant local handoff/known workspace/previous AHAS artifacts and metadata-referenced corpus paths. No additional noneducation archive was located in that bounded search.",
+    "The original 202-account manifest includes capacity-only exposure and must not be used to manufacture infeasibility. Primary census exclusion uses the 57-account mandatory manifest; a strict202 sensitivity may be reported separately.",
+    "The private export account identity is derived from the prior authorized export filename, not newly verified from private profile tables.",
+    "The known prior acquisition receipts authorize local evaluation; no corpus-specific public redistribution license was established."
+  ],
+  "sources": [
+    {
+      "archive_bytes": 11186877,
+      "archive_relative_to_prior_root": "ahas-realworld-review/inputs/Cornell.corpus.zip",
+      "archive_sha256": "f153a56a343e6d9568d90b635d44d1ccca71479ac19cd28e075587485bad715d",
+      "comments": 63723,
+      "community": "Cornell",
+      "first_utc": "2009-06-22T04:29:39Z",
+      "last_utc": "2018-10-31T23:59:16Z",
+      "metadata_missing_counts": {
+        "comment_reply_to": 0,
+        "id": 0,
+        "root": 0,
+        "timestamp": 0,
+        "user": 0
+      },
+      "source_rows": 74467,
+      "submissions": 10744,
+      "utterances_bytes": 44264692
+    },
+    {
+      "archive_bytes": 155300755,
+      "archive_relative_to_prior_root": "ahas-pilot2-20260914/data/ApplyingToCollege.corpus.zip",
+      "archive_sha256": "046d9d2566b03dfbaa17d7d62f4311083a39897d2e35d170043e3be2e6a242e5",
+      "comments": 1027292,
+      "community": "ApplyingToCollege",
+      "first_utc": "2013-10-04T19:47:59Z",
+      "last_utc": "2018-10-31T23:59:50Z",
+      "metadata_missing_counts": {
+        "comment_reply_to": 0,
+        "id": 0,
+        "root": 0,
+        "timestamp": 0,
+        "user": 0
+      },
+      "source_rows": 1148299,
+      "submissions": 121007,
+      "utterances_bytes": 671970272
+    },
+    {
+      "archive_bytes": 133664381,
+      "archive_relative_to_prior_root": "ahas-pilot2-20260914/data/college.corpus.zip",
+      "archive_sha256": "31a124155a303bdb3e0e91a1a97c48964ccfffa14585b5088b94935660722aa9",
+      "comments": 663790,
+      "community": "college",
+      "first_utc": "2008-03-21T22:43:16Z",
+      "last_utc": "2018-10-31T23:58:48Z",
+      "metadata_missing_counts": {
+        "comment_reply_to": 0,
+        "id": 0,
+        "root": 0,
+        "timestamp": 0,
+        "user": 0
+      },
+      "source_rows": 774380,
+      "submissions": 110590,
+      "utterances_bytes": 503619931
+    }
+  ],
+  "totals": {
+    "archive_bytes": 300152013,
+    "comments": 1754805,
+    "source_rows": 1997146,
+    "utterance_member_bytes": 1219854895
+  }
+}

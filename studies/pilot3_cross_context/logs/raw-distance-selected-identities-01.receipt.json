@@ -1,0 +1,30 @@
+{
+  "argv": [
+    "env",
+    "PYTHONPATH=<PINNED_INSTALL>",
+    "PYTHONHASHSEED=0",
+    "TZ=UTC",
+    "LC_ALL=C.UTF-8",
+    ".venv/bin/python",
+    "scripts/offline_exec.py",
+    ".venv/bin/python",
+    "<TEMP_ROOT>/ahas-pilot3-list-raw-sample.py"
+  ],
+  "cwd": "<WORKSPACE>",
+  "started_utc": "2026-09-14T22:33:36.285584+00:00",
+  "finished_utc": "2026-09-14T22:33:36.515433+00:00",
+  "exit_code": 0,
+  "wall_seconds": 0.22984869498759508,
+  "child_peak_rss_mib": 50.96875,
+  "runner_sha256": "4d94adb7a06ec38cc6f5b4fe55f801e87bbdcff712139146d53f55a2928eb2a4",
+  "outputs": {
+    "stdout.log": {
+      "bytes": 361,
+      "sha256": "5b3cf3a936227a5a066f72b02d14f6b0bfb5328ccc1f8af827252146143a3fc4"
+    },
+    "stderr.log": {
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    }
+  }
+}

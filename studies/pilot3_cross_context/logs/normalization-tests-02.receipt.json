@@ -1,0 +1,28 @@
+{
+  "argv": [
+    "env",
+    "PYTHONPATH=<PINNED_INSTALL>",
+    ".venv/bin/python",
+    "-m",
+    "pytest",
+    "studies/pilot3_cross_context/tests/test_normalize_evaluations.py",
+    "-q"
+  ],
+  "cwd": "<WORKSPACE>",
+  "started_utc": "2026-09-14T22:04:08.083060+00:00",
+  "finished_utc": "2026-09-14T22:04:08.335978+00:00",
+  "exit_code": 0,
+  "wall_seconds": 0.25292107998393476,
+  "child_peak_rss_mib": 40.04296875,
+  "runner_sha256": "4d94adb7a06ec38cc6f5b4fe55f801e87bbdcff712139146d53f55a2928eb2a4",
+  "outputs": {
+    "stdout.log": {
+      "bytes": 99,
+      "sha256": "940557bb0e1c28ea00b395911309b918eeba67f6681e8286abb0f158683b9884"
+    },
+    "stderr.log": {
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    }
+  }
+}

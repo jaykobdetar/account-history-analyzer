@@ -1,0 +1,15 @@
+{
+  "phase": "before_independent_analysis_input_reads",
+  "utc": "2026-09-14T22:32:59.416257+00:00",
+  "checker": {
+    "sha256": "421df4448ac4b89670ab46f861b50977d973821bf181dc942c029b472c8d3601",
+    "bytes": 27567
+  },
+  "limits": {
+    "wall_seconds": 600,
+    "address_space_bytes": 4294967296,
+    "output_bytes": 20971520
+  },
+  "original_prose_reads": 0,
+  "new_distances_computed": 0
+}

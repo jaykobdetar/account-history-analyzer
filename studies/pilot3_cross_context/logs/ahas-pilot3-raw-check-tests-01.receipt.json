@@ -1,0 +1,26 @@
+{
+  "argv": [
+    ".venv/bin/python",
+    "-m",
+    "pytest",
+    "-q",
+    "studies/pilot3_cross_context/tests/test_check_raw_distances.py"
+  ],
+  "cwd": "<WORKSPACE>",
+  "started_utc": "2026-09-14T22:15:06.660042+00:00",
+  "finished_utc": "2026-09-14T22:15:08.935623+00:00",
+  "exit_code": 0,
+  "wall_seconds": 2.275579998997273,
+  "child_peak_rss_mib": 58.62890625,
+  "runner_sha256": "4d94adb7a06ec38cc6f5b4fe55f801e87bbdcff712139146d53f55a2928eb2a4",
+  "outputs": {
+    "stdout.log": {
+      "bytes": 99,
+      "sha256": "63c287419d84523ef68154394f798f7b5c9bb42ec6d7b627ce745c3722f4a18e"
+    },
+    "stderr.log": {
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    }
+  }
+}

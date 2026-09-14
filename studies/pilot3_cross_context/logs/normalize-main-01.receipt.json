@@ -1,0 +1,33 @@
+{
+  "argv": [
+    "env",
+    "PYTHONPATH=<PINNED_INSTALL>",
+    "<WORKSPACE>/.venv/bin/python",
+    "<WORKSPACE>/studies/pilot3_cross_context/scripts/normalize_evaluations.py",
+    "--freeze",
+    "<WORKSPACE>/studies/pilot3_cross_context/protocol/scoring-freeze.json",
+    "--prepared",
+    "<PRIVATE_STUDY>/prepared-01",
+    "--executions",
+    "<PRIVATE_STUDY>/evaluation-main-01",
+    "--out",
+    "<WORKSPACE>/studies/pilot3_cross_context/results/normalized"
+  ],
+  "cwd": "<WORKSPACE>",
+  "started_utc": "2026-09-14T22:32:28.671931+00:00",
+  "finished_utc": "2026-09-14T22:32:29.186124+00:00",
+  "exit_code": 0,
+  "wall_seconds": 0.5141958649910521,
+  "child_peak_rss_mib": 38.20703125,
+  "runner_sha256": "4d94adb7a06ec38cc6f5b4fe55f801e87bbdcff712139146d53f55a2928eb2a4",
+  "outputs": {
+    "stdout.log": {
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    "stderr.log": {
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    }
+  }
+}

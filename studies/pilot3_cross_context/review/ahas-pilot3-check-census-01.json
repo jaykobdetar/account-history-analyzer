@@ -1,0 +1,150 @@
+{
+  "checker_sha256": "211c9cf32b8ee4fdfc9b6dc3305209b4d0337f44b11c1f8b864893dd9a707a54",
+  "checks_performed": 1209758,
+  "corpus_prose_read": false,
+  "distance_scores_computed": false,
+  "failed_checks": [],
+  "independently_recomputed": {
+    "all_history_necessary_capacity": {
+      "ApplyingToCollege / Cornell": {
+        "accounts": 5,
+        "blocks_upper_bound": 2
+      },
+      "ApplyingToCollege / college": {
+        "accounts": 61,
+        "blocks_upper_bound": 30
+      },
+      "Cornell / college": {
+        "accounts": 0,
+        "blocks_upper_bound": 0
+      }
+    },
+    "candidate_comment_rows": 142822,
+    "eligible_records": 83953,
+    "eligible_words": 5954075,
+    "nonexcluded_comment_accounts": 117577,
+    "period_capacity_table": [
+      {
+        "community_pair": "ApplyingToCollege / Cornell",
+        "four_cell_accounts": 0,
+        "pairwise_blocks_upper_bound": 0,
+        "period_scheme": "cut2016"
+      },
+      {
+        "community_pair": "ApplyingToCollege / Cornell",
+        "four_cell_accounts": 0,
+        "pairwise_blocks_upper_bound": 0,
+        "period_scheme": "cut2017"
+      },
+      {
+        "community_pair": "ApplyingToCollege / Cornell",
+        "four_cell_accounts": 0,
+        "pairwise_blocks_upper_bound": 0,
+        "period_scheme": "cut2018"
+      },
+      {
+        "community_pair": "ApplyingToCollege / Cornell",
+        "four_cell_accounts": 0,
+        "pairwise_blocks_upper_bound": 0,
+        "period_scheme": "matched2017_2018"
+      },
+      {
+        "community_pair": "ApplyingToCollege / college",
+        "four_cell_accounts": 9,
+        "pairwise_blocks_upper_bound": 4,
+        "period_scheme": "cut2016"
+      },
+      {
+        "community_pair": "ApplyingToCollege / college",
+        "four_cell_accounts": 6,
+        "pairwise_blocks_upper_bound": 3,
+        "period_scheme": "cut2017"
+      },
+      {
+        "community_pair": "ApplyingToCollege / college",
+        "four_cell_accounts": 7,
+        "pairwise_blocks_upper_bound": 3,
+        "period_scheme": "cut2018"
+      },
+      {
+        "community_pair": "ApplyingToCollege / college",
+        "four_cell_accounts": 2,
+        "pairwise_blocks_upper_bound": 1,
+        "period_scheme": "matched2017_2018"
+      },
+      {
+        "community_pair": "Cornell / college",
+        "four_cell_accounts": 0,
+        "pairwise_blocks_upper_bound": 0,
+        "period_scheme": "cut2016"
+      },
+      {
+        "community_pair": "Cornell / college",
+        "four_cell_accounts": 0,
+        "pairwise_blocks_upper_bound": 0,
+        "period_scheme": "cut2017"
+      },
+      {
+        "community_pair": "Cornell / college",
+        "four_cell_accounts": 0,
+        "pairwise_blocks_upper_bound": 0,
+        "period_scheme": "cut2018"
+      },
+      {
+        "community_pair": "Cornell / college",
+        "four_cell_accounts": 0,
+        "pairwise_blocks_upper_bound": 0,
+        "period_scheme": "matched2017_2018"
+      }
+    ],
+    "preprocessed_records": 142821,
+    "preprocessing_candidate_accounts": 472,
+    "source_records": 1997146
+  },
+  "input_hashes": {
+    "capacity.json": {
+      "bytes": 3947,
+      "sha256": "fa938f5a1c15828805828c1e088ebe68b784dd2ad55b5b5aa24b72c1c7bb8618"
+    },
+    "exclusions-mandatory.json": {
+      "bytes": 38601,
+      "sha256": "cce9c7980e8cee909318051a934eb99815ad0e5df8707e07026a08ffc3cad660"
+    },
+    "gate-a-census-01.receipt.json": {
+      "bytes": 1260,
+      "sha256": "9b42273b3731f24645b7ed64138a0848db35e9b5d7cb293952de2c99d5e2c920"
+    },
+    "gate_a_plan.json": {
+      "bytes": 4617,
+      "sha256": "7a89f1366abce915ccd180fafe04a1b9ec90113129e04a9f55c993302330ba3d"
+    },
+    "private-artifact-hashes.json": {
+      "bytes": 472,
+      "sha256": "f9f446f013d1f68ac5990cd892594d4f27cb7c108cbeb219dc309a23155fa132"
+    },
+    "resources.json": {
+      "bytes": 531,
+      "sha256": "6459251ebfaf5d024ca2355ea88718827e3a01ef315d8a31fff06bd1b69722b1"
+    },
+    "second-pass-source-binding.json": {
+      "bytes": 387,
+      "sha256": "9c68ff883cfacba4369574e62a11b25ae227149aba455cd9d429135b4491e09a"
+    },
+    "source-inventory.json": {
+      "bytes": 6298,
+      "sha256": "cea28f431b443b0bf5c377b3cbd6f5ba54bf050391a33a868f899e6bf1fca5fb"
+    },
+    "start-binding.json": {
+      "bytes": 1128,
+      "sha256": "ee21cae83632d9d74c4952d0584e49f660613cd70bec985201d6af4a96e918b1"
+    }
+  },
+  "limitations": [
+    "Record source-line digests are checked for form and uniqueness; original prose is not reopened to rederive those digests.",
+    "Original ZIP-member counts and digests are bound to the fresh census inventory and logs; optional archive verification rehashes compressed bytes only.",
+    "Preprocessing retained counts are reconciled from private records, not recomputed from original prose; synthetic tests separately exercise the frozen preprocessor.",
+    "Globally disjoint allocation optimality is checked by the separate study-math review; this checker recomputes input memberships and per-pair capacity.",
+    "Excluded identity checks establish absence from published private preprocessing rows, not a runtime access trace."
+  ],
+  "status": "pass"
+}

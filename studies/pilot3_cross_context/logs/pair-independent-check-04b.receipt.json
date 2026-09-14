@@ -1,0 +1,37 @@
+{
+  "argv": [
+    ".venv/bin/python",
+    "scripts/offline_exec.py",
+    ".venv/bin/python",
+    "studies/pilot3_cross_context/scripts/check_pair_census.py",
+    "--plan",
+    "studies/pilot3_cross_context/protocol/gate_a_plan_v4b.json",
+    "--census",
+    "studies/pilot3_cross_context/inventory/census-04b",
+    "--private-root",
+    "<PRIVATE_STUDY>",
+    "--receipt",
+    "studies/pilot3_cross_context/logs/gate-a-census-04b.receipt.json",
+    "--source-root",
+    "<PRIOR_STUDY_ARTIFACT_ROOT>",
+    "--out",
+    "studies/pilot3_cross_context/review/pair-independent-check-04b.json"
+  ],
+  "cwd": "<WORKSPACE>",
+  "started_utc": "2026-09-14T21:49:25.625124+00:00",
+  "finished_utc": "2026-09-14T21:49:29.176840+00:00",
+  "exit_code": 0,
+  "wall_seconds": 3.551717007998377,
+  "child_peak_rss_mib": 229.4765625,
+  "runner_sha256": "4d94adb7a06ec38cc6f5b4fe55f801e87bbdcff712139146d53f55a2928eb2a4",
+  "outputs": {
+    "stdout.log": {
+      "bytes": 174,
+      "sha256": "e97108639af752e71c946d3c519be721d546ea4ce974572dbfa820a471107386"
+    },
+    "stderr.log": {
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    }
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "argv": [
+    "env",
+    "PYTHONPATH=<PINNED_INSTALL>",
+    ".venv/bin/python",
+    "-m",
+    "pytest",
+    "studies/pilot3_cross_context/tests/test_candidate_pool_integration.py",
+    "studies/pilot3_cross_context/tests/test_cohort_selection.py",
+    "-q"
+  ],
+  "cwd": "<WORKSPACE>",
+  "started_utc": "2026-09-14T21:52:53.845669+00:00",
+  "finished_utc": "2026-09-14T21:52:55.185017+00:00",
+  "exit_code": 0,
+  "wall_seconds": 1.339350870985072,
+  "child_peak_rss_mib": 56.80078125,
+  "runner_sha256": "4d94adb7a06ec38cc6f5b4fe55f801e87bbdcff712139146d53f55a2928eb2a4",
+  "outputs": {
+    "stdout.log": {
+      "bytes": 99,
+      "sha256": "ed027c7697c34bba3a7c9afe320e7bbbfc73c7eb6e0dabf01ef7472e0fb1d95c"
+    },
+    "stderr.log": {
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    }
+  }
+}

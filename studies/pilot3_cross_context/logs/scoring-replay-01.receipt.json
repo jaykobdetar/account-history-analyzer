@@ -1,0 +1,37 @@
+{
+  "argv": [
+    "env",
+    "PYTHONPATH=<PINNED_INSTALL>",
+    "PYTHONHASHSEED=73129",
+    "TZ=Pacific/Honolulu",
+    "LC_ALL=C.UTF-8",
+    "<WORKSPACE>/.venv/bin/python",
+    "<WORKSPACE>/scripts/offline_exec.py",
+    "<WORKSPACE>/.venv/bin/python",
+    "<WORKSPACE>/studies/pilot3_cross_context/scripts/run_scoring.py",
+    "--freeze",
+    "<WORKSPACE>/studies/pilot3_cross_context/protocol/scoring-freeze.json",
+    "--prepared",
+    "<PRIVATE_STUDY>/replay-inputs-01",
+    "--out",
+    "<PRIVATE_STUDY>/evaluation-replay-01",
+    "--replay"
+  ],
+  "cwd": "<PRIVATE_STUDY>/replay-inputs-01",
+  "started_utc": "2026-09-14T22:32:28.626348+00:00",
+  "finished_utc": "2026-09-14T22:33:52.314073+00:00",
+  "exit_code": 0,
+  "wall_seconds": 83.68772531099967,
+  "child_peak_rss_mib": 69.34375,
+  "runner_sha256": "4d94adb7a06ec38cc6f5b4fe55f801e87bbdcff712139146d53f55a2928eb2a4",
+  "outputs": {
+    "stdout.log": {
+      "bytes": 8280,
+      "sha256": "5476473bbf2e1f1e2f42852eedcf1187b356cb9669f8bfffee149928c719883e"
+    },
+    "stderr.log": {
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    }
+  }
+}

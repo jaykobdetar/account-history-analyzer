@@ -1,0 +1,45 @@
+{
+  "argv": [
+    ".venv/bin/python",
+    "scripts/offline_exec.py",
+    ".venv/bin/python",
+    "studies/pilot3_cross_context/scripts/check_final_calendar.py",
+    "--plan",
+    "studies/pilot3_cross_context/protocol/gate_a_plan_v4b.json",
+    "--amendment",
+    "studies/pilot3_cross_context/protocol/AMENDMENT_04_METADATA_LIMIT_CORRECTION.md",
+    "--census",
+    "studies/pilot3_cross_context/inventory/census-04b",
+    "--calendar",
+    "studies/pilot3_cross_context/inventory/calendar-05",
+    "--prior-calendar",
+    "studies/pilot3_cross_context/inventory/calendar-03",
+    "--private-root",
+    "<PRIVATE_STUDY>",
+    "--receipt",
+    "studies/pilot3_cross_context/logs/calendar-census-05.receipt.json",
+    "--prior-report",
+    "studies/pilot3_cross_context/review/calendar-independent-check-03.json",
+    "--prior-receipt",
+    "studies/pilot3_cross_context/logs/calendar-independent-check-03.receipt.json",
+    "--out",
+    "studies/pilot3_cross_context/review/calendar-independent-check-05.json"
+  ],
+  "cwd": "<WORKSPACE>",
+  "started_utc": "2026-09-14T22:00:06.551760+00:00",
+  "finished_utc": "2026-09-14T22:00:08.786166+00:00",
+  "exit_code": 0,
+  "wall_seconds": 2.2344077699817717,
+  "child_peak_rss_mib": 85.30078125,
+  "runner_sha256": "4d94adb7a06ec38cc6f5b4fe55f801e87bbdcff712139146d53f55a2928eb2a4",
+  "outputs": {
+    "stdout.log": {
+      "bytes": 187,
+      "sha256": "b30594ed87cb49537e6b5c2a9ee7f2b690112e74244bc7627839ef02be8c747f"
+    },
+    "stderr.log": {
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    }
+  }
+}

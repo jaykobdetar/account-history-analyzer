@@ -1,0 +1,6 @@
+private/
+inputs/
+prepared/
+__pycache__/
+.pytest_cache/
+*.pyc

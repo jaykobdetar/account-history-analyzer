@@ -1,0 +1,24 @@
+{
+  "state": "frozen_before_final_selection",
+  "utc": "2026-09-14T22:05:17.993398+00:00",
+  "style_scores_computed": 0,
+  "candidate_pool_sha256": "15c25075bea6c9e0dccd47d8bb26d28323ef786b89fd996dccc3136365dac98c",
+  "audit_sha256": "bc111ebc4987e35ac6442bc8e1bfd710cce8ffc8fd35b3a4b70ecea05ed487c1",
+  "candidate_selection_sha256": "395da829ca1512ab3ca99536ce2003a87a8ea2bce084682e6b238b52e22eb758",
+  "candidate_plan_sha256": "6dd41a716bd08e529cc2e549a61ef4f33926a514a21b09f6a968c9e9435b952f",
+  "wrapper_sha256": "22132229bf069c5d55775ed3ac3235a73d06886413b18ad1878a29922084fa1e",
+  "prepare_units_sha256": "74669f632f7a5e48b5b4d51d2a3b4180ea2635da0fd0010a9f95d05fc6eaa25f",
+  "cohort_selection_sha256": "011ae6facea25ab0ad3fa41866899eded0873049148b272dfb412e69313721d7",
+  "study_math_sha256": "267d413c97a8b6ea6e47071cc818adb44c82beafa3d74cd943ecc8127858013e",
+  "tests_sha256": "0a5cfce61ad310e7a6b4c2248399f4fb44f9ecfca3c1948f8042dffaa54fa558",
+  "selection_rules_sha256": "7e3e14be69262d687cb5467e2d8f400e98a1b0f04705fd789784de8a3fea158f",
+  "audit_freeze_sha256": "5a52a7af258e711dcdeb83e5270d910bcc606dc9295d912b7dfbdf7a342ac159",
+  "limits": {
+    "wall_seconds": 1800,
+    "address_space_bytes": 4294967296,
+    "candidate_pool_bytes": 268435456,
+    "candidate_records": 100000,
+    "candidate_words": 2000000
+  },
+  "scope": "Apply frozen selection/matching to completed audit survivors; fail on any unfilled20accountstratum; no replacement or refill afterfinalmembership."
+}

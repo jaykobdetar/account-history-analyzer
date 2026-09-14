@@ -1,0 +1,110 @@
+{
+  "amendment": {
+    "bytes": 1941,
+    "sha256": "d664743e08402cd044714c4846263dd6b97c097b9200afbca522f80f875e2e31"
+  },
+  "limits": {
+    "address_space_bytes": 4294967296,
+    "metadata_rows": 500000,
+    "private_output_bytes": 104857600,
+    "wall_seconds": 300
+  },
+  "mandatory_exclusions": {
+    "bytes": 38601,
+    "sha256": "cce9c7980e8cee909318051a934eb99815ad0e5df8707e07026a08ffc3cad660"
+  },
+  "new_eligibility_metadata": {
+    "bytes": 97593681,
+    "sha256": "a22d08bfb63c317339bff76f5904dc90052bfa114214e8f163e967a466113b72"
+  },
+  "new_preprocessing_calls": 0,
+  "phase": "before_final_pair_metadata_calendar_refinement",
+  "plan": {
+    "bytes": 5146,
+    "sha256": "8b8654c9327f5772e32edfc1bffaf2ab41bd3f58f72ef605e64264e6614cfb32"
+  },
+  "prior_calendar": {
+    "eligibility_metadata": {
+      "bytes": 128927505,
+      "sha256": "a804d85a398a614a0fef219d422d1c5257b9de75a93414d517d1506e0f459c2d"
+    },
+    "fixed_schemes": {
+      "AskAcademia / GradSchool": {
+        "early": [
+          "2008-01-01",
+          "2015-10-06"
+        ],
+        "id": "utc_midnight_2015-10-06",
+        "late": [
+          "2015-10-06",
+          "2018-11-01"
+        ]
+      },
+      "AskPhysics / Physics": {
+        "early": [
+          "2008-01-01",
+          "2015-09-20"
+        ],
+        "id": "utc_midnight_2015-09-20",
+        "late": [
+          "2015-09-20",
+          "2018-11-01"
+        ]
+      }
+    },
+    "prior_metadata_rows_parsed": 0,
+    "private_manifest": {
+      "calendar-capacities.json": {
+        "bytes": 87403,
+        "sha256": "da969789d28933cbb2ef0ac441fb5a4fffb2ab8f14abbbda3949b59c53dd2d26"
+      },
+      "capacity-witness.json": {
+        "bytes": 2431,
+        "sha256": "00e78db733646b8d6af265f7462a65458c709658ea2eae8649665a5bbac8cdd7"
+      }
+    },
+    "public_hashes": {
+      "capacity.json": "70ac02bd576ac4cb6ef2cbbea47c8143736c0bef5a5816005d970ea019d2ee4f",
+      "private-artifact-hashes.json": "ed91087389ce805ececeb3917abefbffbba0f40fa5592044b1ef2d5aeebcd96d",
+      "resources.json": "502fda4624b2c5b12897b8d3619f258ee70460761140d62e174b9c567eb41f59",
+      "start-binding.json": "c940a823be921af1ed5cac47bbfc1172147561d21f11bb8b6f14c331e88918e0"
+    },
+    "source_census": "census-02"
+  },
+  "scripts": {
+    "calendar_capacity.py": "1709fff8ca4b984e063c07b55a3662451c94013fae9b21e8bfc392f4d409be18",
+    "census_pair.py": "8dc409cb908d7b38724d06f1444e7d61ff5b0ec8c2f9b5805650d8d41f1a9dd7",
+    "run_pair_calendar.py": "6f27c8edec3ac1d777cb9bf1819daee774a01921e00456e37586c525afe63022",
+    "study_math.py": "267d413c97a8b6ea6e47071cc818adb44c82beafa3d74cd943ecc8127858013e"
+  },
+  "source_census": "census-04b",
+  "source_census_public_hashes": {
+    "capacity.json": {
+      "bytes": 2238,
+      "sha256": "4f0f0a2cc93404cca974e2a2c3611e3146c3bccecd90f0ba1ca464951894dafc"
+    },
+    "private-artifact-hashes.json": {
+      "bytes": 473,
+      "sha256": "d78e04fc3b0c1d57990480c0b2fdf01de15570112935ba1cb7d7da597177c528"
+    },
+    "resources.json": {
+      "bytes": 532,
+      "sha256": "95edcd02113f4986f1882c507ec6c5f694686883321669e684997552d5174e74"
+    },
+    "second-pass-source-binding.json": {
+      "bytes": 252,
+      "sha256": "36b652a7901e04b8024872ee1ac7e525b807102f510c5c90c1ed092135290363"
+    },
+    "source-inventory.json": {
+      "bytes": 4225,
+      "sha256": "0ea273536989905d24ab48360460691c0245a14939894ed8409cc22f49404f3f"
+    },
+    "start-binding.json": {
+      "bytes": 1128,
+      "sha256": "3dd25c6a92a48bece0e777c2af6b3aba573c9c87608fe9c40d4d9fe097bc034f"
+    }
+  },
+  "source_prose_reads": 0,
+  "style_scores_computed": 0,
+  "utc": "2026-09-14T21:48:48.463367+00:00"
+}

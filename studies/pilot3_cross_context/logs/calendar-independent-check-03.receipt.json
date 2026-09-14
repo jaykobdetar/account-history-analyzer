@@ -1,0 +1,39 @@
+{
+  "argv": [
+    ".venv/bin/python",
+    "scripts/offline_exec.py",
+    ".venv/bin/python",
+    "studies/pilot3_cross_context/scripts/check_calendar_census.py",
+    "--plan",
+    "studies/pilot3_cross_context/protocol/gate_a_plan_v2.json",
+    "--amendment",
+    "studies/pilot3_cross_context/protocol/AMENDMENT_02_CALENDAR_CENSUS.md",
+    "--source-census",
+    "studies/pilot3_cross_context/inventory/census-02",
+    "--calendar",
+    "studies/pilot3_cross_context/inventory/calendar-03",
+    "--private-root",
+    "<PRIVATE_STUDY>",
+    "--receipt",
+    "studies/pilot3_cross_context/logs/calendar-census-03.receipt.json",
+    "--out",
+    "studies/pilot3_cross_context/review/calendar-independent-check-03.json"
+  ],
+  "cwd": "<WORKSPACE>",
+  "started_utc": "2026-09-14T21:41:51.568200+00:00",
+  "finished_utc": "2026-09-14T21:41:54.746085+00:00",
+  "exit_code": 0,
+  "wall_seconds": 3.1778889450069983,
+  "child_peak_rss_mib": 102.3125,
+  "runner_sha256": "4d94adb7a06ec38cc6f5b4fe55f801e87bbdcff712139146d53f55a2928eb2a4",
+  "outputs": {
+    "stdout.log": {
+      "bytes": 188,
+      "sha256": "58fe6574ce889814be58d8042f576e8b92312df75bae376bfe9d63279742e3ae"
+    },
+    "stderr.log": {
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    }
+  }
+}

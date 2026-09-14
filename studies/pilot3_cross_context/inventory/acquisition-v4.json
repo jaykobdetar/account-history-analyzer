@@ -1,0 +1,94 @@
+{
+  "status": "acquired",
+  "plan_sha256": "a8340f93094fb2c16d5e21d659f5f7c3c4c29b623a3ee1187141dd1450453090",
+  "script_sha256": "4ab502e442b74eb25fed6f68450841b2ce90dbca79b1a1db35a3748647b0ec3c",
+  "source_count": 2,
+  "total_bytes": 334320340,
+  "wall_seconds": 10.83550496600219,
+  "sources": [
+    {
+      "community": "math",
+      "url": "https://zissou.infosci.cornell.edu/convokit/datasets/subreddit-corpus/corpus-zipped/marvelstudiosES~-~matheducation/math.corpus.zip",
+      "bytes": 245506348,
+      "sha256": "6a39335f531afc330dcf894589cadf725b026e5e5d3a05d4211743b985b5e89d",
+      "bytes_received": 245506348,
+      "started_utc": "2026-09-14T21:37:37.737763+00:00",
+      "finished_utc": "2026-09-14T21:37:45.219234+00:00",
+      "headers": {
+        "Content-Length": "245506348",
+        "Content-Type": "application/zip",
+        "Last-Modified": "Wed, 30 Oct 2019 03:36:09 GMT",
+        "ETag": "\"5db90529-ea2212c\""
+      },
+      "members": [
+        {
+          "name": "users.json",
+          "bytes": 2441861,
+          "compressed_bytes": 1012317
+        },
+        {
+          "name": "conversations.json",
+          "bytes": 31577619,
+          "compressed_bytes": 5715446
+        },
+        {
+          "name": "corpus.json",
+          "bytes": 87,
+          "compressed_bytes": 71
+        },
+        {
+          "name": "index.json",
+          "bytes": 836,
+          "compressed_bytes": 231
+        },
+        {
+          "name": "utterances.jsonl",
+          "bytes": 947882141,
+          "compressed_bytes": 238777751
+        }
+      ]
+    },
+    {
+      "community": "learnmath",
+      "url": "https://zissou.infosci.cornell.edu/convokit/datasets/subreddit-corpus/corpus-zipped/leagueoflegends2~-~learnprogramming/learnmath.corpus.zip",
+      "bytes": 88813992,
+      "sha256": "a50a47cb250a75631252b68671936e18a4053175c4750ec4b0bfccbbd6c8857b",
+      "bytes_received": 88813992,
+      "started_utc": "2026-09-14T21:37:45.219365+00:00",
+      "finished_utc": "2026-09-14T21:37:48.572893+00:00",
+      "headers": {
+        "Content-Length": "88813992",
+        "Content-Type": "application/zip",
+        "Last-Modified": "Wed, 30 Oct 2019 18:34:33 GMT",
+        "ETag": "\"5db9d7b9-54b31a8\""
+      },
+      "members": [
+        {
+          "name": "users.json",
+          "bytes": 936440,
+          "compressed_bytes": 390866
+        },
+        {
+          "name": "conversations.json",
+          "bytes": 21938482,
+          "compressed_bytes": 3461616
+        },
+        {
+          "name": "corpus.json",
+          "bytes": 89,
+          "compressed_bytes": 75
+        },
+        {
+          "name": "index.json",
+          "bytes": 836,
+          "compressed_bytes": 231
+        },
+        {
+          "name": "utterances.jsonl",
+          "bytes": 333941685,
+          "compressed_bytes": 84960672
+        }
+      ]
+    }
+  ]
+}

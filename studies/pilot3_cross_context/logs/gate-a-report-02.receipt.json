@@ -1,0 +1,27 @@
+{
+  "argv": [
+    ".venv/bin/python",
+    "studies/pilot3_cross_context/scripts/report_feasibility.py",
+    "--census",
+    "studies/pilot3_cross_context/inventory/census-02",
+    "--out",
+    "studies/pilot3_cross_context/review/census-02"
+  ],
+  "cwd": "<WORKSPACE>",
+  "started_utc": "2026-09-14T21:26:08.957767+00:00",
+  "finished_utc": "2026-09-14T21:26:08.984070+00:00",
+  "exit_code": 0,
+  "wall_seconds": 0.026301120000425726,
+  "child_peak_rss_mib": 16.84375,
+  "runner_sha256": "4d94adb7a06ec38cc6f5b4fe55f801e87bbdcff712139146d53f55a2928eb2a4",
+  "outputs": {
+    "stdout.log": {
+      "bytes": 167,
+      "sha256": "83fc018994f69ca19fb1df9e737c5b7ce06de8ea8906cfbdb46819ffc178f5a5"
+    },
+    "stderr.log": {
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    }
+  }
+}

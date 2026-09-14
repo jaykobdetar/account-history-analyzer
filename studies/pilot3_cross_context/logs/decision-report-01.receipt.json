@@ -1,0 +1,23 @@
+{
+  "argv": [
+    ".venv/bin/python",
+    "studies/pilot3_cross_context/scripts/build_decision_report.py"
+  ],
+  "cwd": "<WORKSPACE>",
+  "started_utc": "2026-09-14T22:37:36.266135+00:00",
+  "finished_utc": "2026-09-14T22:37:36.298431+00:00",
+  "exit_code": 0,
+  "wall_seconds": 0.032295204990077764,
+  "child_peak_rss_mib": 17.86328125,
+  "runner_sha256": "4d94adb7a06ec38cc6f5b4fe55f801e87bbdcff712139146d53f55a2928eb2a4",
+  "outputs": {
+    "stdout.log": {
+      "bytes": 592,
+      "sha256": "5469a07747fef0bea775886660a397aba0abe8408af1fba14d351e6d324cd2ec"
+    },
+    "stderr.log": {
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    }
+  }
+}

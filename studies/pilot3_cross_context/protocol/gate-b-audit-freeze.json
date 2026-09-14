@@ -1,0 +1,18 @@
+{
+  "state": "frozen_before_audit",
+  "utc": "2026-09-14T21:58:49.354134+00:00",
+  "style_scores_computed": 0,
+  "candidate_pool_sha256": "15c25075bea6c9e0dccd47d8bb26d28323ef786b89fd996dccc3136365dac98c",
+  "historical_inventory_sha256": "156c5799dd952d30f5e19d883d8b2c294e0d48695af9cf3c0baf74ada0c9bc5a",
+  "engine_sha256": "f080682bc5beac251f9fb07404d0c9a9093aab04deff8d53997708d05dd01e92",
+  "wrapper_sha256": "93d99004d7ea406bd7e44cfcc8997a8abad69508c9cb84cc0c35d5783cb88b1f",
+  "rules_sha256": "3cf54734da088d3f56f25d89983e4e4b9de586374f1b53ae7ebc8a9c730f3a3e",
+  "tests_sha256": "72088b96917d490b1b7d5c0477d5d0a9415d66de13b0cb2fef3b2258ca272490",
+  "synthetic_test_receipt_sha256": "25b8d166ef202e2daf3eba3a056b027f939162eb90dff1847397ee9922a28ce3",
+  "candidate_preparation_freeze_sha256": "c969a27e52cc7d8e49a16b1dcc8053830364c53e36396f0b460fbd61c774532b",
+  "candidate_preparation_receipt_sha256": "0b047b57ad2206004352016fbed53c9934e0f4ea4632d2adf9bba58200b3ccc1",
+  "candidate_selection_sha256": "395da829ca1512ab3ca99536ce2003a87a8ea2bce084682e6b238b52e22eb758",
+  "selection_rules_sha256": "7e3e14be69262d687cb5467e2d8f400e98a1b0f04705fd789784de8a3fea158f",
+  "offline_runner_sha256": "88bf4f2a8ff3afe29355e6b52638c03badb4c977b4ae8ec60f0f126d3252ffef",
+  "scope": "Automated exclusion enforcement only for original historical bodies/title protection; no reserve scoring or inspection for design. One frozen audit; retain failures and caps."
+}

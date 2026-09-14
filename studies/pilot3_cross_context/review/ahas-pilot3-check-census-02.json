@@ -1,0 +1,884 @@
+{
+  "checker_sha256": "47a57f4524e417f9eff1a5c651aea93132b7139bdb1fcdda2532c4d0490185c7",
+  "checks_performed": 3856189,
+  "corpus_prose_read": false,
+  "distance_scores_computed": false,
+  "failed_checks": [],
+  "independently_recomputed": {
+    "all_history_necessary_capacity": {
+      "ApplyingToCollege / AskAcademia": {
+        "accounts": 4,
+        "blocks_upper_bound": 2
+      },
+      "ApplyingToCollege / AskPhysics": {
+        "accounts": 3,
+        "blocks_upper_bound": 1
+      },
+      "ApplyingToCollege / Cornell": {
+        "accounts": 5,
+        "blocks_upper_bound": 2
+      },
+      "ApplyingToCollege / GradSchool": {
+        "accounts": 6,
+        "blocks_upper_bound": 3
+      },
+      "ApplyingToCollege / PhD": {
+        "accounts": 0,
+        "blocks_upper_bound": 0
+      },
+      "ApplyingToCollege / Physics": {
+        "accounts": 3,
+        "blocks_upper_bound": 1
+      },
+      "ApplyingToCollege / college": {
+        "accounts": 61,
+        "blocks_upper_bound": 30
+      },
+      "AskAcademia / AskPhysics": {
+        "accounts": 12,
+        "blocks_upper_bound": 6
+      },
+      "AskAcademia / Cornell": {
+        "accounts": 0,
+        "blocks_upper_bound": 0
+      },
+      "AskAcademia / GradSchool": {
+        "accounts": 184,
+        "blocks_upper_bound": 92
+      },
+      "AskAcademia / PhD": {
+        "accounts": 3,
+        "blocks_upper_bound": 1
+      },
+      "AskAcademia / Physics": {
+        "accounts": 20,
+        "blocks_upper_bound": 10
+      },
+      "AskAcademia / college": {
+        "accounts": 26,
+        "blocks_upper_bound": 13
+      },
+      "AskPhysics / Cornell": {
+        "accounts": 0,
+        "blocks_upper_bound": 0
+      },
+      "AskPhysics / GradSchool": {
+        "accounts": 7,
+        "blocks_upper_bound": 3
+      },
+      "AskPhysics / PhD": {
+        "accounts": 0,
+        "blocks_upper_bound": 0
+      },
+      "AskPhysics / Physics": {
+        "accounts": 135,
+        "blocks_upper_bound": 67
+      },
+      "AskPhysics / college": {
+        "accounts": 4,
+        "blocks_upper_bound": 2
+      },
+      "Cornell / GradSchool": {
+        "accounts": 0,
+        "blocks_upper_bound": 0
+      },
+      "Cornell / PhD": {
+        "accounts": 0,
+        "blocks_upper_bound": 0
+      },
+      "Cornell / Physics": {
+        "accounts": 0,
+        "blocks_upper_bound": 0
+      },
+      "Cornell / college": {
+        "accounts": 0,
+        "blocks_upper_bound": 0
+      },
+      "GradSchool / PhD": {
+        "accounts": 6,
+        "blocks_upper_bound": 3
+      },
+      "GradSchool / Physics": {
+        "accounts": 18,
+        "blocks_upper_bound": 9
+      },
+      "GradSchool / college": {
+        "accounts": 28,
+        "blocks_upper_bound": 14
+      },
+      "PhD / Physics": {
+        "accounts": 0,
+        "blocks_upper_bound": 0
+      },
+      "PhD / college": {
+        "accounts": 0,
+        "blocks_upper_bound": 0
+      },
+      "Physics / college": {
+        "accounts": 5,
+        "blocks_upper_bound": 2
+      }
+    },
+    "candidate_comment_rows": 525505,
+    "eligible_records": 364018,
+    "eligible_words": 31095341,
+    "global_all_history_necessary_optimum": {
+      "candidate_triples_checked": 3276,
+      "feasible_target": true,
+      "full_target_feasible_triple_count": 19,
+      "quota_counts": {
+        "ApplyingToCollege / college": 20,
+        "AskAcademia / GradSchool": 20,
+        "AskPhysics / Physics": 20
+      },
+      "selected_pairs": [
+        "ApplyingToCollege / college",
+        "AskAcademia / GradSchool",
+        "AskPhysics / Physics"
+      ],
+      "total_accounts": 60,
+      "total_blocks": 30
+    },
+    "global_three_stratum_optimum": {
+      "candidate_triples_checked": 3276,
+      "feasible_target": false,
+      "full_target_feasible_triple_count": 0,
+      "quota_counts": {
+        "ApplyingToCollege / college": 8,
+        "AskAcademia / GradSchool": 20,
+        "AskPhysics / Physics": 20
+      },
+      "selected_pairs": [
+        "ApplyingToCollege / college",
+        "AskAcademia / GradSchool",
+        "AskPhysics / Physics"
+      ],
+      "total_accounts": 48,
+      "total_blocks": 24
+    },
+    "nonexcluded_comment_accounts": 234245,
+    "period_capacity_table": [
+      {
+        "community_pair": "ApplyingToCollege / AskAcademia",
+        "four_cell_accounts": 0,
+        "pairwise_blocks_upper_bound": 0,
+        "period_scheme": "cut2016"
+      },
+      {
+        "community_pair": "ApplyingToCollege / AskAcademia",
+        "four_cell_accounts": 0,
+        "pairwise_blocks_upper_bound": 0,
+        "period_scheme": "cut2017"
+      },
+      {
+        "community_pair": "ApplyingToCollege / AskAcademia",
+        "four_cell_accounts": 2,
+        "pairwise_blocks_upper_bound": 1,
+        "period_scheme": "cut2018"
+      },
+      {
+        "community_pair": "ApplyingToCollege / AskAcademia",
+        "four_cell_accounts": 0,
+        "pairwise_blocks_upper_bound": 0,
+        "period_scheme": "matched2017_2018"
+      },
+      {
+        "community_pair": "ApplyingToCollege / AskPhysics",
+        "four_cell_accounts": 0,
+        "pairwise_blocks_upper_bound": 0,
+        "period_scheme": "cut2016"
+      },
+      {
+        "community_pair": "ApplyingToCollege / AskPhysics",
+        "four_cell_accounts": 0,
+        "pairwise_blocks_upper_bound": 0,
+        "period_scheme": "cut2017"
+      },
+      {
+        "community_pair": "ApplyingToCollege / AskPhysics",
+        "four_cell_accounts": 2,
+        "pairwise_blocks_upper_bound": 1,
+        "period_scheme": "cut2018"
+      },
+      {
+        "community_pair": "ApplyingToCollege / AskPhysics",
+        "four_cell_accounts": 1,
+        "pairwise_blocks_upper_bound": 0,
+        "period_scheme": "matched2017_2018"
+      },
+      {
+        "community_pair": "ApplyingToCollege / Cornell",
+        "four_cell_accounts": 0,
+        "pairwise_blocks_upper_bound": 0,
+        "period_scheme": "cut2016"
+      },
+      {
+        "community_pair": "ApplyingToCollege / Cornell",
+        "four_cell_accounts": 0,
+        "pairwise_blocks_upper_bound": 0,
+        "period_scheme": "cut2017"
+      },
+      {
+        "community_pair": "ApplyingToCollege / Cornell",
+        "four_cell_accounts": 0,
+        "pairwise_blocks_upper_bound": 0,
+        "period_scheme": "cut2018"
+      },
+      {
+        "community_pair": "ApplyingToCollege / Cornell",
+        "four_cell_accounts": 0,
+        "pairwise_blocks_upper_bound": 0,
+        "period_scheme": "matched2017_2018"
+      },
+      {
+        "community_pair": "ApplyingToCollege / GradSchool",
+        "four_cell_accounts": 0,
+        "pairwise_blocks_upper_bound": 0,
+        "period_scheme": "cut2016"
+      },
+      {
+        "community_pair": "ApplyingToCollege / GradSchool",
+        "four_cell_accounts": 0,
+        "pairwise_blocks_upper_bound": 0,
+        "period_scheme": "cut2017"
+      },
+      {
+        "community_pair": "ApplyingToCollege / GradSchool",
+        "four_cell_accounts": 2,
+        "pairwise_blocks_upper_bound": 1,
+        "period_scheme": "cut2018"
+      },
+      {
+        "community_pair": "ApplyingToCollege / GradSchool",
+        "four_cell_accounts": 0,
+        "pairwise_blocks_upper_bound": 0,
+        "period_scheme": "matched2017_2018"
+      },
+      {
+        "community_pair": "ApplyingToCollege / PhD",
+        "four_cell_accounts": 0,
+        "pairwise_blocks_upper_bound": 0,
+        "period_scheme": "cut2016"
+      },
+      {
+        "community_pair": "ApplyingToCollege / PhD",
+        "four_cell_accounts": 0,
+        "pairwise_blocks_upper_bound": 0,
+        "period_scheme": "cut2017"
+      },
+      {
+        "community_pair": "ApplyingToCollege / PhD",
+        "four_cell_accounts": 0,
+        "pairwise_blocks_upper_bound": 0,
+        "period_scheme": "cut2018"
+      },
+      {
+        "community_pair": "ApplyingToCollege / PhD",
+        "four_cell_accounts": 0,
+        "pairwise_blocks_upper_bound": 0,
+        "period_scheme": "matched2017_2018"
+      },
+      {
+        "community_pair": "ApplyingToCollege / Physics",
+        "four_cell_accounts": 0,
+        "pairwise_blocks_upper_bound": 0,
+        "period_scheme": "cut2016"
+      },
+      {
+        "community_pair": "ApplyingToCollege / Physics",
+        "four_cell_accounts": 0,
+        "pairwise_blocks_upper_bound": 0,
+        "period_scheme": "cut2017"
+      },
+      {
+        "community_pair": "ApplyingToCollege / Physics",
+        "four_cell_accounts": 2,
+        "pairwise_blocks_upper_bound": 1,
+        "period_scheme": "cut2018"
+      },
+      {
+        "community_pair": "ApplyingToCollege / Physics",
+        "four_cell_accounts": 1,
+        "pairwise_blocks_upper_bound": 0,
+        "period_scheme": "matched2017_2018"
+      },
+      {
+        "community_pair": "ApplyingToCollege / college",
+        "four_cell_accounts": 9,
+        "pairwise_blocks_upper_bound": 4,
+        "period_scheme": "cut2016"
+      },
+      {
+        "community_pair": "ApplyingToCollege / college",
+        "four_cell_accounts": 6,
+        "pairwise_blocks_upper_bound": 3,
+        "period_scheme": "cut2017"
+      },
+      {
+        "community_pair": "ApplyingToCollege / college",
+        "four_cell_accounts": 7,
+        "pairwise_blocks_upper_bound": 3,
+        "period_scheme": "cut2018"
+      },
+      {
+        "community_pair": "ApplyingToCollege / college",
+        "four_cell_accounts": 2,
+        "pairwise_blocks_upper_bound": 1,
+        "period_scheme": "matched2017_2018"
+      },
+      {
+        "community_pair": "AskAcademia / AskPhysics",
+        "four_cell_accounts": 3,
+        "pairwise_blocks_upper_bound": 1,
+        "period_scheme": "cut2016"
+      },
+      {
+        "community_pair": "AskAcademia / AskPhysics",
+        "four_cell_accounts": 2,
+        "pairwise_blocks_upper_bound": 1,
+        "period_scheme": "cut2017"
+      },
+      {
+        "community_pair": "AskAcademia / AskPhysics",
+        "four_cell_accounts": 3,
+        "pairwise_blocks_upper_bound": 1,
+        "period_scheme": "cut2018"
+      },
+      {
+        "community_pair": "AskAcademia / AskPhysics",
+        "four_cell_accounts": 1,
+        "pairwise_blocks_upper_bound": 0,
+        "period_scheme": "matched2017_2018"
+      },
+      {
+        "community_pair": "AskAcademia / Cornell",
+        "four_cell_accounts": 0,
+        "pairwise_blocks_upper_bound": 0,
+        "period_scheme": "cut2016"
+      },
+      {
+        "community_pair": "AskAcademia / Cornell",
+        "four_cell_accounts": 0,
+        "pairwise_blocks_upper_bound": 0,
+        "period_scheme": "cut2017"
+      },
+      {
+        "community_pair": "AskAcademia / Cornell",
+        "four_cell_accounts": 0,
+        "pairwise_blocks_upper_bound": 0,
+        "period_scheme": "cut2018"
+      },
+      {
+        "community_pair": "AskAcademia / Cornell",
+        "four_cell_accounts": 0,
+        "pairwise_blocks_upper_bound": 0,
+        "period_scheme": "matched2017_2018"
+      },
+      {
+        "community_pair": "AskAcademia / GradSchool",
+        "four_cell_accounts": 36,
+        "pairwise_blocks_upper_bound": 18,
+        "period_scheme": "cut2016"
+      },
+      {
+        "community_pair": "AskAcademia / GradSchool",
+        "four_cell_accounts": 33,
+        "pairwise_blocks_upper_bound": 16,
+        "period_scheme": "cut2017"
+      },
+      {
+        "community_pair": "AskAcademia / GradSchool",
+        "four_cell_accounts": 23,
+        "pairwise_blocks_upper_bound": 11,
+        "period_scheme": "cut2018"
+      },
+      {
+        "community_pair": "AskAcademia / GradSchool",
+        "four_cell_accounts": 12,
+        "pairwise_blocks_upper_bound": 6,
+        "period_scheme": "matched2017_2018"
+      },
+      {
+        "community_pair": "AskAcademia / PhD",
+        "four_cell_accounts": 0,
+        "pairwise_blocks_upper_bound": 0,
+        "period_scheme": "cut2016"
+      },
+      {
+        "community_pair": "AskAcademia / PhD",
+        "four_cell_accounts": 1,
+        "pairwise_blocks_upper_bound": 0,
+        "period_scheme": "cut2017"
+      },
+      {
+        "community_pair": "AskAcademia / PhD",
+        "four_cell_accounts": 1,
+        "pairwise_blocks_upper_bound": 0,
+        "period_scheme": "cut2018"
+      },
+      {
+        "community_pair": "AskAcademia / PhD",
+        "four_cell_accounts": 0,
+        "pairwise_blocks_upper_bound": 0,
+        "period_scheme": "matched2017_2018"
+      },
+      {
+        "community_pair": "AskAcademia / Physics",
+        "four_cell_accounts": 5,
+        "pairwise_blocks_upper_bound": 2,
+        "period_scheme": "cut2016"
+      },
+      {
+        "community_pair": "AskAcademia / Physics",
+        "four_cell_accounts": 6,
+        "pairwise_blocks_upper_bound": 3,
+        "period_scheme": "cut2017"
+      },
+      {
+        "community_pair": "AskAcademia / Physics",
+        "four_cell_accounts": 4,
+        "pairwise_blocks_upper_bound": 2,
+        "period_scheme": "cut2018"
+      },
+      {
+        "community_pair": "AskAcademia / Physics",
+        "four_cell_accounts": 2,
+        "pairwise_blocks_upper_bound": 1,
+        "period_scheme": "matched2017_2018"
+      },
+      {
+        "community_pair": "AskAcademia / college",
+        "four_cell_accounts": 6,
+        "pairwise_blocks_upper_bound": 3,
+        "period_scheme": "cut2016"
+      },
+      {
+        "community_pair": "AskAcademia / college",
+        "four_cell_accounts": 5,
+        "pairwise_blocks_upper_bound": 2,
+        "period_scheme": "cut2017"
+      },
+      {
+        "community_pair": "AskAcademia / college",
+        "four_cell_accounts": 4,
+        "pairwise_blocks_upper_bound": 2,
+        "period_scheme": "cut2018"
+      },
+      {
+        "community_pair": "AskAcademia / college",
+        "four_cell_accounts": 1,
+        "pairwise_blocks_upper_bound": 0,
+        "period_scheme": "matched2017_2018"
+      },
+      {
+        "community_pair": "AskPhysics / Cornell",
+        "four_cell_accounts": 0,
+        "pairwise_blocks_upper_bound": 0,
+        "period_scheme": "cut2016"
+      },
+      {
+        "community_pair": "AskPhysics / Cornell",
+        "four_cell_accounts": 0,
+        "pairwise_blocks_upper_bound": 0,
+        "period_scheme": "cut2017"
+      },
+      {
+        "community_pair": "AskPhysics / Cornell",
+        "four_cell_accounts": 0,
+        "pairwise_blocks_upper_bound": 0,
+        "period_scheme": "cut2018"
+      },
+      {
+        "community_pair": "AskPhysics / Cornell",
+        "four_cell_accounts": 0,
+        "pairwise_blocks_upper_bound": 0,
+        "period_scheme": "matched2017_2018"
+      },
+      {
+        "community_pair": "AskPhysics / GradSchool",
+        "four_cell_accounts": 1,
+        "pairwise_blocks_upper_bound": 0,
+        "period_scheme": "cut2016"
+      },
+      {
+        "community_pair": "AskPhysics / GradSchool",
+        "four_cell_accounts": 0,
+        "pairwise_blocks_upper_bound": 0,
+        "period_scheme": "cut2017"
+      },
+      {
+        "community_pair": "AskPhysics / GradSchool",
+        "four_cell_accounts": 2,
+        "pairwise_blocks_upper_bound": 1,
+        "period_scheme": "cut2018"
+      },
+      {
+        "community_pair": "AskPhysics / GradSchool",
+        "four_cell_accounts": 0,
+        "pairwise_blocks_upper_bound": 0,
+        "period_scheme": "matched2017_2018"
+      },
+      {
+        "community_pair": "AskPhysics / PhD",
+        "four_cell_accounts": 0,
+        "pairwise_blocks_upper_bound": 0,
+        "period_scheme": "cut2016"
+      },
+      {
+        "community_pair": "AskPhysics / PhD",
+        "four_cell_accounts": 0,
+        "pairwise_blocks_upper_bound": 0,
+        "period_scheme": "cut2017"
+      },
+      {
+        "community_pair": "AskPhysics / PhD",
+        "four_cell_accounts": 0,
+        "pairwise_blocks_upper_bound": 0,
+        "period_scheme": "cut2018"
+      },
+      {
+        "community_pair": "AskPhysics / PhD",
+        "four_cell_accounts": 0,
+        "pairwise_blocks_upper_bound": 0,
+        "period_scheme": "matched2017_2018"
+      },
+      {
+        "community_pair": "AskPhysics / Physics",
+        "four_cell_accounts": 32,
+        "pairwise_blocks_upper_bound": 16,
+        "period_scheme": "cut2016"
+      },
+      {
+        "community_pair": "AskPhysics / Physics",
+        "four_cell_accounts": 32,
+        "pairwise_blocks_upper_bound": 16,
+        "period_scheme": "cut2017"
+      },
+      {
+        "community_pair": "AskPhysics / Physics",
+        "four_cell_accounts": 29,
+        "pairwise_blocks_upper_bound": 14,
+        "period_scheme": "cut2018"
+      },
+      {
+        "community_pair": "AskPhysics / Physics",
+        "four_cell_accounts": 21,
+        "pairwise_blocks_upper_bound": 10,
+        "period_scheme": "matched2017_2018"
+      },
+      {
+        "community_pair": "AskPhysics / college",
+        "four_cell_accounts": 0,
+        "pairwise_blocks_upper_bound": 0,
+        "period_scheme": "cut2016"
+      },
+      {
+        "community_pair": "AskPhysics / college",
+        "four_cell_accounts": 0,
+        "pairwise_blocks_upper_bound": 0,
+        "period_scheme": "cut2017"
+      },
+      {
+        "community_pair": "AskPhysics / college",
+        "four_cell_accounts": 2,
+        "pairwise_blocks_upper_bound": 1,
+        "period_scheme": "cut2018"
+      },
+      {
+        "community_pair": "AskPhysics / college",
+        "four_cell_accounts": 0,
+        "pairwise_blocks_upper_bound": 0,
+        "period_scheme": "matched2017_2018"
+      },
+      {
+        "community_pair": "Cornell / GradSchool",
+        "four_cell_accounts": 0,
+        "pairwise_blocks_upper_bound": 0,
+        "period_scheme": "cut2016"
+      },
+      {
+        "community_pair": "Cornell / GradSchool",
+        "four_cell_accounts": 0,
+        "pairwise_blocks_upper_bound": 0,
+        "period_scheme": "cut2017"
+      },
+      {
+        "community_pair": "Cornell / GradSchool",
+        "four_cell_accounts": 0,
+        "pairwise_blocks_upper_bound": 0,
+        "period_scheme": "cut2018"
+      },
+      {
+        "community_pair": "Cornell / GradSchool",
+        "four_cell_accounts": 0,
+        "pairwise_blocks_upper_bound": 0,
+        "period_scheme": "matched2017_2018"
+      },
+      {
+        "community_pair": "Cornell / PhD",
+        "four_cell_accounts": 0,
+        "pairwise_blocks_upper_bound": 0,
+        "period_scheme": "cut2016"
+      },
+      {
+        "community_pair": "Cornell / PhD",
+        "four_cell_accounts": 0,
+        "pairwise_blocks_upper_bound": 0,
+        "period_scheme": "cut2017"
+      },
+      {
+        "community_pair": "Cornell / PhD",
+        "four_cell_accounts": 0,
+        "pairwise_blocks_upper_bound": 0,
+        "period_scheme": "cut2018"
+      },
+      {
+        "community_pair": "Cornell / PhD",
+        "four_cell_accounts": 0,
+        "pairwise_blocks_upper_bound": 0,
+        "period_scheme": "matched2017_2018"
+      },
+      {
+        "community_pair": "Cornell / Physics",
+        "four_cell_accounts": 0,
+        "pairwise_blocks_upper_bound": 0,
+        "period_scheme": "cut2016"
+      },
+      {
+        "community_pair": "Cornell / Physics",
+        "four_cell_accounts": 0,
+        "pairwise_blocks_upper_bound": 0,
+        "period_scheme": "cut2017"
+      },
+      {
+        "community_pair": "Cornell / Physics",
+        "four_cell_accounts": 0,
+        "pairwise_blocks_upper_bound": 0,
+        "period_scheme": "cut2018"
+      },
+      {
+        "community_pair": "Cornell / Physics",
+        "four_cell_accounts": 0,
+        "pairwise_blocks_upper_bound": 0,
+        "period_scheme": "matched2017_2018"
+      },
+      {
+        "community_pair": "Cornell / college",
+        "four_cell_accounts": 0,
+        "pairwise_blocks_upper_bound": 0,
+        "period_scheme": "cut2016"
+      },
+      {
+        "community_pair": "Cornell / college",
+        "four_cell_accounts": 0,
+        "pairwise_blocks_upper_bound": 0,
+        "period_scheme": "cut2017"
+      },
+      {
+        "community_pair": "Cornell / college",
+        "four_cell_accounts": 0,
+        "pairwise_blocks_upper_bound": 0,
+        "period_scheme": "cut2018"
+      },
+      {
+        "community_pair": "Cornell / college",
+        "four_cell_accounts": 0,
+        "pairwise_blocks_upper_bound": 0,
+        "period_scheme": "matched2017_2018"
+      },
+      {
+        "community_pair": "GradSchool / PhD",
+        "four_cell_accounts": 0,
+        "pairwise_blocks_upper_bound": 0,
+        "period_scheme": "cut2016"
+      },
+      {
+        "community_pair": "GradSchool / PhD",
+        "four_cell_accounts": 4,
+        "pairwise_blocks_upper_bound": 2,
+        "period_scheme": "cut2017"
+      },
+      {
+        "community_pair": "GradSchool / PhD",
+        "four_cell_accounts": 2,
+        "pairwise_blocks_upper_bound": 1,
+        "period_scheme": "cut2018"
+      },
+      {
+        "community_pair": "GradSchool / PhD",
+        "four_cell_accounts": 1,
+        "pairwise_blocks_upper_bound": 0,
+        "period_scheme": "matched2017_2018"
+      },
+      {
+        "community_pair": "GradSchool / Physics",
+        "four_cell_accounts": 1,
+        "pairwise_blocks_upper_bound": 0,
+        "period_scheme": "cut2016"
+      },
+      {
+        "community_pair": "GradSchool / Physics",
+        "four_cell_accounts": 1,
+        "pairwise_blocks_upper_bound": 0,
+        "period_scheme": "cut2017"
+      },
+      {
+        "community_pair": "GradSchool / Physics",
+        "four_cell_accounts": 3,
+        "pairwise_blocks_upper_bound": 1,
+        "period_scheme": "cut2018"
+      },
+      {
+        "community_pair": "GradSchool / Physics",
+        "four_cell_accounts": 1,
+        "pairwise_blocks_upper_bound": 0,
+        "period_scheme": "matched2017_2018"
+      },
+      {
+        "community_pair": "GradSchool / college",
+        "four_cell_accounts": 4,
+        "pairwise_blocks_upper_bound": 2,
+        "period_scheme": "cut2016"
+      },
+      {
+        "community_pair": "GradSchool / college",
+        "four_cell_accounts": 5,
+        "pairwise_blocks_upper_bound": 2,
+        "period_scheme": "cut2017"
+      },
+      {
+        "community_pair": "GradSchool / college",
+        "four_cell_accounts": 4,
+        "pairwise_blocks_upper_bound": 2,
+        "period_scheme": "cut2018"
+      },
+      {
+        "community_pair": "GradSchool / college",
+        "four_cell_accounts": 1,
+        "pairwise_blocks_upper_bound": 0,
+        "period_scheme": "matched2017_2018"
+      },
+      {
+        "community_pair": "PhD / Physics",
+        "four_cell_accounts": 0,
+        "pairwise_blocks_upper_bound": 0,
+        "period_scheme": "cut2016"
+      },
+      {
+        "community_pair": "PhD / Physics",
+        "four_cell_accounts": 0,
+        "pairwise_blocks_upper_bound": 0,
+        "period_scheme": "cut2017"
+      },
+      {
+        "community_pair": "PhD / Physics",
+        "four_cell_accounts": 0,
+        "pairwise_blocks_upper_bound": 0,
+        "period_scheme": "cut2018"
+      },
+      {
+        "community_pair": "PhD / Physics",
+        "four_cell_accounts": 0,
+        "pairwise_blocks_upper_bound": 0,
+        "period_scheme": "matched2017_2018"
+      },
+      {
+        "community_pair": "PhD / college",
+        "four_cell_accounts": 0,
+        "pairwise_blocks_upper_bound": 0,
+        "period_scheme": "cut2016"
+      },
+      {
+        "community_pair": "PhD / college",
+        "four_cell_accounts": 0,
+        "pairwise_blocks_upper_bound": 0,
+        "period_scheme": "cut2017"
+      },
+      {
+        "community_pair": "PhD / college",
+        "four_cell_accounts": 0,
+        "pairwise_blocks_upper_bound": 0,
+        "period_scheme": "cut2018"
+      },
+      {
+        "community_pair": "PhD / college",
+        "four_cell_accounts": 0,
+        "pairwise_blocks_upper_bound": 0,
+        "period_scheme": "matched2017_2018"
+      },
+      {
+        "community_pair": "Physics / college",
+        "four_cell_accounts": 0,
+        "pairwise_blocks_upper_bound": 0,
+        "period_scheme": "cut2016"
+      },
+      {
+        "community_pair": "Physics / college",
+        "four_cell_accounts": 0,
+        "pairwise_blocks_upper_bound": 0,
+        "period_scheme": "cut2017"
+      },
+      {
+        "community_pair": "Physics / college",
+        "four_cell_accounts": 2,
+        "pairwise_blocks_upper_bound": 1,
+        "period_scheme": "cut2018"
+      },
+      {
+        "community_pair": "Physics / college",
+        "four_cell_accounts": 0,
+        "pairwise_blocks_upper_bound": 0,
+        "period_scheme": "matched2017_2018"
+      }
+    ],
+    "preprocessed_records": 525503,
+    "preprocessing_candidate_accounts": 2124,
+    "source_records": 3500298
+  },
+  "input_hashes": {
+    "capacity.json": {
+      "bytes": 24263,
+      "sha256": "37d3fdc4e2f5ef63cddde568b21a371058b0ae283f6dd994e8d51b1427e64358"
+    },
+    "exclusions-mandatory.json": {
+      "bytes": 38601,
+      "sha256": "cce9c7980e8cee909318051a934eb99815ad0e5df8707e07026a08ffc3cad660"
+    },
+    "gate-a-census-02.receipt.json": {
+      "bytes": 1274,
+      "sha256": "edf131452d6202638dfab40b3ea12848aeaeed5c68fd6eed818d6f25bcab766a"
+    },
+    "gate_a_plan_v2.json": {
+      "bytes": 8301,
+      "sha256": "f11f0553758003662e140f632f55af31e93b1a82bf1532d64cdbe07021108cd4"
+    },
+    "private-artifact-hashes.json": {
+      "bytes": 475,
+      "sha256": "8986411a29296fe5eb4ced5326740c9a9c99d7870e67671eef1d8903006346b7"
+    },
+    "resources.json": {
+      "bytes": 535,
+      "sha256": "dfe391812587606318bbe365cdb058ebe07f66d2ad73f72a8189988624d71596"
+    },
+    "second-pass-source-binding.json": {
+      "bytes": 1017,
+      "sha256": "e6d437401585dc037bafbee06a398b09f432bf769fb29e132d20db79ce7ab4f8"
+    },
+    "source-inventory.json": {
+      "bytes": 14796,
+      "sha256": "170f6038bff1e6138708b003b3fa31e98599a929012ae75ed8bc576d5ac15593"
+    },
+    "start-binding.json": {
+      "bytes": 1128,
+      "sha256": "da15487cd8c8d9aa273b08dff7ec38d03f164cb137ba3d60d2cdf1a0c2a23475"
+    }
+  },
+  "limitations": [
+    "Record source-line digests are checked for form and uniqueness; original prose is not reopened to rederive those digests.",
+    "Original ZIP-member counts and digests are bound to the fresh census inventory and logs; optional archive verification rehashes compressed bytes only.",
+    "Preprocessing retained counts are reconciled from private records, not recomputed from original prose; synthetic tests separately exercise the frozen preprocessor.",
+    "Global stratum and even-quota optimality are independently enumerated by exact Hall bitset capacities; private assignment membership and disjointness are checked, but final cohort selection and contamination auditing remain pending.",
+    "Excluded identity checks establish absence from published private preprocessing rows, not a runtime access trace."
+  ],
+  "status": "pass"
+}

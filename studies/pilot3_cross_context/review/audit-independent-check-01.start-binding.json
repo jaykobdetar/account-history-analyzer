@@ -1,0 +1,17 @@
+{
+  "phase": "before_independent_audit_metadata_reads",
+  "utc": "2026-09-14T22:07:50.774197+00:00",
+  "checker": {
+    "sha256": "52a4107a92207a0737bb64988b5c2a5191f8f5c9c7116f9a33ec34a360e19ed9",
+    "bytes": 22975
+  },
+  "limits": {
+    "metadata_rows": 1000000,
+    "wall_seconds": 300,
+    "address_space_bytes": 4294967296,
+    "output_bytes": 104857600
+  },
+  "historical_source_prose_files_opened": 0,
+  "preprocessing_calls": 0,
+  "style_scores_computed": 0
+}

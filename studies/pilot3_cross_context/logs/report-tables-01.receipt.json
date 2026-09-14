@@ -1,0 +1,27 @@
+{
+  "argv": [
+    ".venv/bin/python",
+    "studies/pilot3_cross_context/scripts/tabulate_results.py",
+    "--analysis",
+    "studies/pilot3_cross_context/results/analysis",
+    "--out",
+    "studies/pilot3_cross_context/results/tables"
+  ],
+  "cwd": "<WORKSPACE>",
+  "started_utc": "2026-09-14T22:33:05.343598+00:00",
+  "finished_utc": "2026-09-14T22:33:05.563872+00:00",
+  "exit_code": 0,
+  "wall_seconds": 0.22027542602154426,
+  "child_peak_rss_mib": 44.87890625,
+  "runner_sha256": "4d94adb7a06ec38cc6f5b4fe55f801e87bbdcff712139146d53f55a2928eb2a4",
+  "outputs": {
+    "stdout.log": {
+      "bytes": 106,
+      "sha256": "53a0d0de4afddac0decf74232718b309732037817a8416e952c2680c7a942160"
+    },
+    "stderr.log": {
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    }
+  }
+}

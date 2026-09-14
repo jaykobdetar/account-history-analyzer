@@ -1,0 +1,1096 @@
+{
+  "checks": {
+    "all57_mandatory_source_accounts_covered": true,
+    "chronological_accepted_and_provisional_account_sets_equal": true,
+    "distinct_original_source_records": 38884,
+    "duplicate_original_source_ids_across_files": 0,
+    "pilot1_all12_accounts_and_selected_ids_match_metadata": true,
+    "pilot2_all36_accounts_including12confirmation_match_selection": true,
+    "pilot2_pool_hash_matches_selection": true,
+    "private_input_path_explicit_in_prior_analyze_and_recompute_receipts": true,
+    "required_files_present": true,
+    "source_body_content_or_feature_comparison_performed": false
+  },
+  "collection_summaries": {
+    "pilot1_selected_public_accounts": {
+      "audit_split_record_counts": {
+        "development": 3362
+      },
+      "bytes": 2255167,
+      "distinct_source_accounts": 12,
+      "file_count": 12,
+      "kind_counts": {
+        "comment": 3362
+      },
+      "record_count": 3362,
+      "status_counts": {
+        "present": 3362
+      }
+    },
+    "pilot2_chronological_full_source_accounts": {
+      "audit_split_record_counts": {
+        "development": 2085
+      },
+      "bytes": 1478668,
+      "distinct_source_accounts": 8,
+      "file_count": 8,
+      "kind_counts": {
+        "comment": 2085
+      },
+      "record_count": 2085,
+      "status_counts": {
+        "present": 2085
+      }
+    },
+    "pilot2_paired_candidate_pool": {
+      "audit_split_record_counts": {
+        "confirmation": 14507,
+        "development": 18683
+      },
+      "bytes": 39043381,
+      "distinct_source_accounts": 36,
+      "file_count": 1,
+      "kind_counts": {
+        "comment": 33190
+      },
+      "record_count": 33190,
+      "status_counts": {
+        "present": 33190
+      }
+    },
+    "private_export_converted_authorized_regression_input": {
+      "audit_split_record_counts": {
+        "development": 247
+      },
+      "bytes": 170095,
+      "distinct_source_accounts": 1,
+      "file_count": 1,
+      "kind_counts": {
+        "comment": 194,
+        "submission": 53
+      },
+      "record_count": 247,
+      "status_counts": {
+        "present": 230,
+        "removed": 17
+      }
+    }
+  },
+  "complete_for_requested_known_protection_sources": true,
+  "files": [
+    {
+      "audit_split_record_counts": {
+        "development": 400
+      },
+      "bytes": 257223,
+      "collection": "pilot1_selected_public_accounts",
+      "distinct_source_accounts": 1,
+      "format": "record_jsonl",
+      "kind_counts": {
+        "comment": 400
+      },
+      "missing_metadata_counts": {},
+      "original_split_record_counts": {
+        "evaluation": 400
+      },
+      "record_count": 400,
+      "record_schema_key_sets": [
+        {
+          "count": 400,
+          "keys": [
+            "account_id",
+            "created_utc",
+            "edit_state",
+            "edited_utc",
+            "id",
+            "kind",
+            "language",
+            "parent_created_utc",
+            "parent_id",
+            "permalink",
+            "schema_version",
+            "status",
+            "subreddit",
+            "text",
+            "thread_id",
+            "title"
+          ]
+        }
+      ],
+      "sha256": "002eb22fc57e7ba435dfcb4969264933bf14ec5911d68e998d7922f87c7ba6f9",
+      "source_id": "historical-input-001",
+      "status_counts": {
+        "present": 400
+      }
+    },
+    {
+      "audit_split_record_counts": {
+        "development": 257
+      },
+      "bytes": 172942,
+      "collection": "pilot1_selected_public_accounts",
+      "distinct_source_accounts": 1,
+      "format": "record_jsonl",
+      "kind_counts": {
+        "comment": 257
+      },
+      "missing_metadata_counts": {},
+      "original_split_record_counts": {
+        "evaluation": 257
+      },
+      "record_count": 257,
+      "record_schema_key_sets": [
+        {
+          "count": 257,
+          "keys": [
+            "account_id",
+            "created_utc",
+            "edit_state",
+            "edited_utc",
+            "id",
+            "kind",
+            "language",
+            "parent_created_utc",
+            "parent_id",
+            "permalink",
+            "schema_version",
+            "status",
+            "subreddit",
+            "text",
+            "thread_id",
+            "title"
+          ]
+        }
+      ],
+      "sha256": "dbc49500121a55ad26f1eba1196e86a25d8d227ad7b22a9e7d171a200feb6ba1",
+      "source_id": "historical-input-002",
+      "status_counts": {
+        "present": 257
+      }
+    },
+    {
+      "audit_split_record_counts": {
+        "development": 346
+      },
+      "bytes": 188247,
+      "collection": "pilot1_selected_public_accounts",
+      "distinct_source_accounts": 1,
+      "format": "record_jsonl",
+      "kind_counts": {
+        "comment": 346
+      },
+      "missing_metadata_counts": {},
+      "original_split_record_counts": {
+        "evaluation": 346
+      },
+      "record_count": 346,
+      "record_schema_key_sets": [
+        {
+          "count": 346,
+          "keys": [
+            "account_id",
+            "created_utc",
+            "edit_state",
+            "edited_utc",
+            "id",
+            "kind",
+            "language",
+            "parent_created_utc",
+            "parent_id",
+            "permalink",
+            "schema_version",
+            "status",
+            "subreddit",
+            "text",
+            "thread_id",
+            "title"
+          ]
+        }
+      ],
+      "sha256": "a996e0783021b3f7f5a0850d3cfc9a55f95934fe237a69bd835cab8d15eb63bc",
+      "source_id": "historical-input-003",
+      "status_counts": {
+        "present": 346
+      }
+    },
+    {
+      "audit_split_record_counts": {
+        "development": 394
+      },
+      "bytes": 297121,
+      "collection": "pilot1_selected_public_accounts",
+      "distinct_source_accounts": 1,
+      "format": "record_jsonl",
+      "kind_counts": {
+        "comment": 394
+      },
+      "missing_metadata_counts": {},
+      "original_split_record_counts": {
+        "evaluation": 394
+      },
+      "record_count": 394,
+      "record_schema_key_sets": [
+        {
+          "count": 394,
+          "keys": [
+            "account_id",
+            "created_utc",
+            "edit_state",
+            "edited_utc",
+            "id",
+            "kind",
+            "language",
+            "parent_created_utc",
+            "parent_id",
+            "permalink",
+            "schema_version",
+            "status",
+            "subreddit",
+            "text",
+            "thread_id",
+            "title"
+          ]
+        }
+      ],
+      "sha256": "500614e5769e0b865cc6423246138bcd6c67efd081e935621fcdaabca979db0b",
+      "source_id": "historical-input-004",
+      "status_counts": {
+        "present": 394
+      }
+    },
+    {
+      "audit_split_record_counts": {
+        "development": 400
+      },
+      "bytes": 239542,
+      "collection": "pilot1_selected_public_accounts",
+      "distinct_source_accounts": 1,
+      "format": "record_jsonl",
+      "kind_counts": {
+        "comment": 400
+      },
+      "missing_metadata_counts": {},
+      "original_split_record_counts": {
+        "evaluation": 400
+      },
+      "record_count": 400,
+      "record_schema_key_sets": [
+        {
+          "count": 400,
+          "keys": [
+            "account_id",
+            "created_utc",
+            "edit_state",
+            "edited_utc",
+            "id",
+            "kind",
+            "language",
+            "parent_created_utc",
+            "parent_id",
+            "permalink",
+            "schema_version",
+            "status",
+            "subreddit",
+            "text",
+            "thread_id",
+            "title"
+          ]
+        }
+      ],
+      "sha256": "63d60d26cee059144575ba3095fe6da2e52a194e86e03b00ee52d0bfaa6d92c5",
+      "source_id": "historical-input-005",
+      "status_counts": {
+        "present": 400
+      }
+    },
+    {
+      "audit_split_record_counts": {
+        "development": 373
+      },
+      "bytes": 251847,
+      "collection": "pilot1_selected_public_accounts",
+      "distinct_source_accounts": 1,
+      "format": "record_jsonl",
+      "kind_counts": {
+        "comment": 373
+      },
+      "missing_metadata_counts": {},
+      "original_split_record_counts": {
+        "evaluation": 373
+      },
+      "record_count": 373,
+      "record_schema_key_sets": [
+        {
+          "count": 373,
+          "keys": [
+            "account_id",
+            "created_utc",
+            "edit_state",
+            "edited_utc",
+            "id",
+            "kind",
+            "language",
+            "parent_created_utc",
+            "parent_id",
+            "permalink",
+            "schema_version",
+            "status",
+            "subreddit",
+            "text",
+            "thread_id",
+            "title"
+          ]
+        }
+      ],
+      "sha256": "f525d3b26bd07efb5177dfe8fd22636fbd1f0b465a0b85b6499c2a813ad8527e",
+      "source_id": "historical-input-006",
+      "status_counts": {
+        "present": 373
+      }
+    },
+    {
+      "audit_split_record_counts": {
+        "development": 66
+      },
+      "bytes": 48607,
+      "collection": "pilot1_selected_public_accounts",
+      "distinct_source_accounts": 1,
+      "format": "record_jsonl",
+      "kind_counts": {
+        "comment": 66
+      },
+      "missing_metadata_counts": {},
+      "original_split_record_counts": {
+        "development": 66
+      },
+      "record_count": 66,
+      "record_schema_key_sets": [
+        {
+          "count": 66,
+          "keys": [
+            "account_id",
+            "created_utc",
+            "edit_state",
+            "edited_utc",
+            "id",
+            "kind",
+            "language",
+            "parent_created_utc",
+            "parent_id",
+            "permalink",
+            "schema_version",
+            "status",
+            "subreddit",
+            "text",
+            "thread_id",
+            "title"
+          ]
+        }
+      ],
+      "sha256": "88a78ad25e80e62aa72656b5b123f3e08c683618498c8da1c8bbd6f9613c8eb9",
+      "source_id": "historical-input-007",
+      "status_counts": {
+        "present": 66
+      }
+    },
+    {
+      "audit_split_record_counts": {
+        "development": 118
+      },
+      "bytes": 83456,
+      "collection": "pilot1_selected_public_accounts",
+      "distinct_source_accounts": 1,
+      "format": "record_jsonl",
+      "kind_counts": {
+        "comment": 118
+      },
+      "missing_metadata_counts": {},
+      "original_split_record_counts": {
+        "development": 118
+      },
+      "record_count": 118,
+      "record_schema_key_sets": [
+        {
+          "count": 118,
+          "keys": [
+            "account_id",
+            "created_utc",
+            "edit_state",
+            "edited_utc",
+            "id",
+            "kind",
+            "language",
+            "parent_created_utc",
+            "parent_id",
+            "permalink",
+            "schema_version",
+            "status",
+            "subreddit",
+            "text",
+            "thread_id",
+            "title"
+          ]
+        }
+      ],
+      "sha256": "b94f1606b0140a14accc9a510ec9a2f76e213b65efeb726d1e3d3fdb2725bf73",
+      "source_id": "historical-input-008",
+      "status_counts": {
+        "present": 118
+      }
+    },
+    {
+      "audit_split_record_counts": {
+        "development": 73
+      },
+      "bytes": 47140,
+      "collection": "pilot1_selected_public_accounts",
+      "distinct_source_accounts": 1,
+      "format": "record_jsonl",
+      "kind_counts": {
+        "comment": 73
+      },
+      "missing_metadata_counts": {},
+      "original_split_record_counts": {
+        "development": 73
+      },
+      "record_count": 73,
+      "record_schema_key_sets": [
+        {
+          "count": 73,
+          "keys": [
+            "account_id",
+            "created_utc",
+            "edit_state",
+            "edited_utc",
+            "id",
+            "kind",
+            "language",
+            "parent_created_utc",
+            "parent_id",
+            "permalink",
+            "schema_version",
+            "status",
+            "subreddit",
+            "text",
+            "thread_id",
+            "title"
+          ]
+        }
+      ],
+      "sha256": "7fb8adff8a69ff0554cf2102dce496f5cebdc25e9557f786cdc89876d82a2049",
+      "source_id": "historical-input-009",
+      "status_counts": {
+        "present": 73
+      }
+    },
+    {
+      "audit_split_record_counts": {
+        "development": 400
+      },
+      "bytes": 306013,
+      "collection": "pilot1_selected_public_accounts",
+      "distinct_source_accounts": 1,
+      "format": "record_jsonl",
+      "kind_counts": {
+        "comment": 400
+      },
+      "missing_metadata_counts": {},
+      "original_split_record_counts": {
+        "evaluation": 400
+      },
+      "record_count": 400,
+      "record_schema_key_sets": [
+        {
+          "count": 400,
+          "keys": [
+            "account_id",
+            "created_utc",
+            "edit_state",
+            "edited_utc",
+            "id",
+            "kind",
+            "language",
+            "parent_created_utc",
+            "parent_id",
+            "permalink",
+            "schema_version",
+            "status",
+            "subreddit",
+            "text",
+            "thread_id",
+            "title"
+          ]
+        }
+      ],
+      "sha256": "a2011a8fe04cf36e25f2cc5466cfb6bfc35537d811fb8b630140f0838206b316",
+      "source_id": "historical-input-010",
+      "status_counts": {
+        "present": 400
+      }
+    },
+    {
+      "audit_split_record_counts": {
+        "development": 400
+      },
+      "bytes": 239830,
+      "collection": "pilot1_selected_public_accounts",
+      "distinct_source_accounts": 1,
+      "format": "record_jsonl",
+      "kind_counts": {
+        "comment": 400
+      },
+      "missing_metadata_counts": {},
+      "original_split_record_counts": {
+        "evaluation": 400
+      },
+      "record_count": 400,
+      "record_schema_key_sets": [
+        {
+          "count": 400,
+          "keys": [
+            "account_id",
+            "created_utc",
+            "edit_state",
+            "edited_utc",
+            "id",
+            "kind",
+            "language",
+            "parent_created_utc",
+            "parent_id",
+            "permalink",
+            "schema_version",
+            "status",
+            "subreddit",
+            "text",
+            "thread_id",
+            "title"
+          ]
+        }
+      ],
+      "sha256": "bd0d2ad2f812221b2528ae9947f9ce754c18f5a677d545ec00810e4a34e0705d",
+      "source_id": "historical-input-011",
+      "status_counts": {
+        "present": 400
+      }
+    },
+    {
+      "audit_split_record_counts": {
+        "development": 135
+      },
+      "bytes": 123199,
+      "collection": "pilot1_selected_public_accounts",
+      "distinct_source_accounts": 1,
+      "format": "record_jsonl",
+      "kind_counts": {
+        "comment": 135
+      },
+      "missing_metadata_counts": {},
+      "original_split_record_counts": {
+        "development": 135
+      },
+      "record_count": 135,
+      "record_schema_key_sets": [
+        {
+          "count": 135,
+          "keys": [
+            "account_id",
+            "created_utc",
+            "edit_state",
+            "edited_utc",
+            "id",
+            "kind",
+            "language",
+            "parent_created_utc",
+            "parent_id",
+            "permalink",
+            "schema_version",
+            "status",
+            "subreddit",
+            "text",
+            "thread_id",
+            "title"
+          ]
+        }
+      ],
+      "sha256": "12a57bd174e15431e0412ffe40f2ae637c183abd255f76ff1daafe8cbea7ce16",
+      "source_id": "historical-input-012",
+      "status_counts": {
+        "present": 135
+      }
+    },
+    {
+      "audit_split_record_counts": {
+        "confirmation": 14507,
+        "development": 18683
+      },
+      "bytes": 39043381,
+      "collection": "pilot2_paired_candidate_pool",
+      "distinct_source_accounts": 36,
+      "format": "wrapped_record_jsonl",
+      "kind_counts": {
+        "comment": 33190
+      },
+      "missing_metadata_counts": {},
+      "original_split_record_counts": {
+        "confirmation": 14507,
+        "development": 7814,
+        "evaluation": 10869
+      },
+      "record_count": 33190,
+      "record_schema_key_sets": [
+        {
+          "count": 33190,
+          "keys": [
+            "account_id",
+            "created_utc",
+            "edit_state",
+            "edited_utc",
+            "id",
+            "kind",
+            "language",
+            "parent_created_utc",
+            "parent_id",
+            "permalink",
+            "schema_version",
+            "status",
+            "subreddit",
+            "text",
+            "thread_id",
+            "title"
+          ]
+        }
+      ],
+      "sha256": "b498a3f7cd9c11c05abc8cc998e37d02a12a535edeba48a4dc13ee4a2eee78a6",
+      "source_id": "historical-input-013",
+      "status_counts": {
+        "present": 33190
+      }
+    },
+    {
+      "audit_split_record_counts": {
+        "development": 294
+      },
+      "bytes": 187097,
+      "collection": "pilot2_chronological_full_source_accounts",
+      "distinct_source_accounts": 1,
+      "format": "record_jsonl",
+      "kind_counts": {
+        "comment": 294
+      },
+      "missing_metadata_counts": {},
+      "original_split_record_counts": {
+        "chronological_exposed": 294
+      },
+      "record_count": 294,
+      "record_schema_key_sets": [
+        {
+          "count": 294,
+          "keys": [
+            "account_id",
+            "created_utc",
+            "edit_state",
+            "edited_utc",
+            "id",
+            "kind",
+            "language",
+            "parent_created_utc",
+            "parent_id",
+            "permalink",
+            "schema_version",
+            "status",
+            "subreddit",
+            "text",
+            "thread_id",
+            "title"
+          ]
+        }
+      ],
+      "sha256": "7478499f54cf51ddc7fb4227ee18014e2e2989d3a8a8547fa0d4f84388252f00",
+      "source_id": "historical-input-014",
+      "status_counts": {
+        "present": 294
+      }
+    },
+    {
+      "audit_split_record_counts": {
+        "development": 249
+      },
+      "bytes": 138810,
+      "collection": "pilot2_chronological_full_source_accounts",
+      "distinct_source_accounts": 1,
+      "format": "record_jsonl",
+      "kind_counts": {
+        "comment": 249
+      },
+      "missing_metadata_counts": {},
+      "original_split_record_counts": {
+        "chronological_exposed": 249
+      },
+      "record_count": 249,
+      "record_schema_key_sets": [
+        {
+          "count": 249,
+          "keys": [
+            "account_id",
+            "created_utc",
+            "edit_state",
+            "edited_utc",
+            "id",
+            "kind",
+            "language",
+            "parent_created_utc",
+            "parent_id",
+            "permalink",
+            "schema_version",
+            "status",
+            "subreddit",
+            "text",
+            "thread_id",
+            "title"
+          ]
+        }
+      ],
+      "sha256": "488999c6c4c902e57b1009894e6a37a0654b3d0747edb166257ac16983629358",
+      "source_id": "historical-input-015",
+      "status_counts": {
+        "present": 249
+      }
+    },
+    {
+      "audit_split_record_counts": {
+        "development": 212
+      },
+      "bytes": 123183,
+      "collection": "pilot2_chronological_full_source_accounts",
+      "distinct_source_accounts": 1,
+      "format": "record_jsonl",
+      "kind_counts": {
+        "comment": 212
+      },
+      "missing_metadata_counts": {},
+      "original_split_record_counts": {
+        "chronological_exposed": 212
+      },
+      "record_count": 212,
+      "record_schema_key_sets": [
+        {
+          "count": 212,
+          "keys": [
+            "account_id",
+            "created_utc",
+            "edit_state",
+            "edited_utc",
+            "id",
+            "kind",
+            "language",
+            "parent_created_utc",
+            "parent_id",
+            "permalink",
+            "schema_version",
+            "status",
+            "subreddit",
+            "text",
+            "thread_id",
+            "title"
+          ]
+        }
+      ],
+      "sha256": "409de95217aec3454475d7a524d58fa4d2a6b2c04d75b1657440f7dc55be7b7a",
+      "source_id": "historical-input-016",
+      "status_counts": {
+        "present": 212
+      }
+    },
+    {
+      "audit_split_record_counts": {
+        "development": 396
+      },
+      "bytes": 280530,
+      "collection": "pilot2_chronological_full_source_accounts",
+      "distinct_source_accounts": 1,
+      "format": "record_jsonl",
+      "kind_counts": {
+        "comment": 396
+      },
+      "missing_metadata_counts": {},
+      "original_split_record_counts": {
+        "chronological_exposed": 396
+      },
+      "record_count": 396,
+      "record_schema_key_sets": [
+        {
+          "count": 396,
+          "keys": [
+            "account_id",
+            "created_utc",
+            "edit_state",
+            "edited_utc",
+            "id",
+            "kind",
+            "language",
+            "parent_created_utc",
+            "parent_id",
+            "permalink",
+            "schema_version",
+            "status",
+            "subreddit",
+            "text",
+            "thread_id",
+            "title"
+          ]
+        }
+      ],
+      "sha256": "f41720fa68101cbfa9b17188d3ca371c79f41251e2443bfeab7cd72e371d545f",
+      "source_id": "historical-input-017",
+      "status_counts": {
+        "present": 396
+      }
+    },
+    {
+      "audit_split_record_counts": {
+        "development": 241
+      },
+      "bytes": 168694,
+      "collection": "pilot2_chronological_full_source_accounts",
+      "distinct_source_accounts": 1,
+      "format": "record_jsonl",
+      "kind_counts": {
+        "comment": 241
+      },
+      "missing_metadata_counts": {},
+      "original_split_record_counts": {
+        "chronological_exposed": 241
+      },
+      "record_count": 241,
+      "record_schema_key_sets": [
+        {
+          "count": 241,
+          "keys": [
+            "account_id",
+            "created_utc",
+            "edit_state",
+            "edited_utc",
+            "id",
+            "kind",
+            "language",
+            "parent_created_utc",
+            "parent_id",
+            "permalink",
+            "schema_version",
+            "status",
+            "subreddit",
+            "text",
+            "thread_id",
+            "title"
+          ]
+        }
+      ],
+      "sha256": "6b7723d9843174f373d0cb01ec95317192a82bd2f1193306f7cd537008226ff4",
+      "source_id": "historical-input-018",
+      "status_counts": {
+        "present": 241
+      }
+    },
+    {
+      "audit_split_record_counts": {
+        "development": 255
+      },
+      "bytes": 153220,
+      "collection": "pilot2_chronological_full_source_accounts",
+      "distinct_source_accounts": 1,
+      "format": "record_jsonl",
+      "kind_counts": {
+        "comment": 255
+      },
+      "missing_metadata_counts": {},
+      "original_split_record_counts": {
+        "chronological_exposed": 255
+      },
+      "record_count": 255,
+      "record_schema_key_sets": [
+        {
+          "count": 255,
+          "keys": [
+            "account_id",
+            "created_utc",
+            "edit_state",
+            "edited_utc",
+            "id",
+            "kind",
+            "language",
+            "parent_created_utc",
+            "parent_id",
+            "permalink",
+            "schema_version",
+            "status",
+            "subreddit",
+            "text",
+            "thread_id",
+            "title"
+          ]
+        }
+      ],
+      "sha256": "6a9f4a29e4bcdfc1cd22f54b35dc6e6430bc757d8af8db86afb6330259c84c43",
+      "source_id": "historical-input-019",
+      "status_counts": {
+        "present": 255
+      }
+    },
+    {
+      "audit_split_record_counts": {
+        "development": 207
+      },
+      "bytes": 200367,
+      "collection": "pilot2_chronological_full_source_accounts",
+      "distinct_source_accounts": 1,
+      "format": "record_jsonl",
+      "kind_counts": {
+        "comment": 207
+      },
+      "missing_metadata_counts": {},
+      "original_split_record_counts": {
+        "chronological_exposed": 207
+      },
+      "record_count": 207,
+      "record_schema_key_sets": [
+        {
+          "count": 207,
+          "keys": [
+            "account_id",
+            "created_utc",
+            "edit_state",
+            "edited_utc",
+            "id",
+            "kind",
+            "language",
+            "parent_created_utc",
+            "parent_id",
+            "permalink",
+            "schema_version",
+            "status",
+            "subreddit",
+            "text",
+            "thread_id",
+            "title"
+          ]
+        }
+      ],
+      "sha256": "b3add9e73e0c91a4073917d54f7e57e95b44f4bbaf96cdaeb78a46b0525c3f03",
+      "source_id": "historical-input-020",
+      "status_counts": {
+        "present": 207
+      }
+    },
+    {
+      "audit_split_record_counts": {
+        "development": 231
+      },
+      "bytes": 226767,
+      "collection": "pilot2_chronological_full_source_accounts",
+      "distinct_source_accounts": 1,
+      "format": "record_jsonl",
+      "kind_counts": {
+        "comment": 231
+      },
+      "missing_metadata_counts": {},
+      "original_split_record_counts": {
+        "chronological_exposed": 231
+      },
+      "record_count": 231,
+      "record_schema_key_sets": [
+        {
+          "count": 231,
+          "keys": [
+            "account_id",
+            "created_utc",
+            "edit_state",
+            "edited_utc",
+            "id",
+            "kind",
+            "language",
+            "parent_created_utc",
+            "parent_id",
+            "permalink",
+            "schema_version",
+            "status",
+            "subreddit",
+            "text",
+            "thread_id",
+            "title"
+          ]
+        }
+      ],
+      "sha256": "7f3b77f60b6750b6e798e1abfe35384e2f150c12d6392425fb6083b651a68411",
+      "source_id": "historical-input-021",
+      "status_counts": {
+        "present": 231
+      }
+    },
+    {
+      "audit_split_record_counts": {
+        "development": 247
+      },
+      "bytes": 170095,
+      "collection": "private_export_converted_authorized_regression_input",
+      "distinct_source_accounts": 1,
+      "format": "record_jsonl",
+      "kind_counts": {
+        "comment": 194,
+        "submission": 53
+      },
+      "missing_metadata_counts": {
+        "parent_id": 86
+      },
+      "original_split_record_counts": {
+        "private_regression": 247
+      },
+      "record_count": 247,
+      "record_schema_key_sets": [
+        {
+          "count": 247,
+          "keys": [
+            "account_id",
+            "created_utc",
+            "edit_state",
+            "edited_utc",
+            "id",
+            "kind",
+            "language",
+            "parent_created_utc",
+            "parent_id",
+            "permalink",
+            "schema_version",
+            "status",
+            "subreddit",
+            "text",
+            "thread_id",
+            "title"
+          ]
+        }
+      ],
+      "sha256": "8cb39c6bc3dbb5eb6842005ecbb3d18912f91193772ca28d181d904d4cb99e31",
+      "source_id": "historical-input-022",
+      "status_counts": {
+        "present": 230,
+        "removed": 17
+      }
+    }
+  ],
+  "limitations": [
+    "This inventory reads only known prior pilot source inputs and binding metadata. It does not certify every possible experiment on the machine.",
+    "Only original ID/account/split/date/community/thread/parent/kind/status and schema metadata were projected during source JSONL parsing; bodies/titles were not output or inspected for study design. Files were hashed as opaque bytes.",
+    "The33,190-record paired pre-purge pool preserves the complete selected confirmation protection population rather than only surviving/scored units.",
+    "The additional145 capacity-only exposed accounts are not covered as historical full-prose audit sources; they remain disclosed separately in exclusions-mandatory.json and are not falsely labeled scored.",
+    "Private converted input includes submissions and comments. The existing leakage engine forces comment-style body preprocessing and does not audit submission titles. A future wrapper must register its handling and disclose title coverage; this inventory does not imply title-content audit completion.",
+    "Deleted/removed/unavailable source bodies can hide relationships; metadata presence is not completed content-independence evidence.",
+    "No engine audit, preprocessing, distance calculation, score, or final cohort selection ran for this inventory."
+  ],
+  "missing_source_count": 0,
+  "privacy": "No source-account identities, source record IDs, thread IDs, dates per record, original prose, or private absolute paths are published.",
+  "private_inventory_sha256": "156c5799dd952d30f5e19d883d8b2c294e0d48695af9cf3c0baf74ada0c9bc5a",
+  "purpose": "Sanitized metadata inventory for future historical content/thread protection audits. This is not an audit result.",
+  "schema_version": "1.0.0",
+  "total_source_file_bytes": 42947311,
+  "total_source_files": 22,
+  "total_source_record_rows": 38884
+}

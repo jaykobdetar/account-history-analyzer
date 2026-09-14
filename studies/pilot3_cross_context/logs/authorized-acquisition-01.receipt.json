@@ -1,0 +1,29 @@
+{
+  "argv": [
+    ".venv/bin/python",
+    "studies/pilot3_cross_context/scripts/acquire_expansion.py",
+    "--plan",
+    "studies/pilot3_cross_context/protocol/acquisition_plan_v2.json",
+    "--data",
+    "<PRIVATE_STUDY>/data",
+    "--receipt",
+    "studies/pilot3_cross_context/inventory/acquisition-v2.json"
+  ],
+  "cwd": "<WORKSPACE>",
+  "started_utc": "2026-09-14T21:10:00.159665+00:00",
+  "finished_utc": "2026-09-14T21:10:44.800202+00:00",
+  "exit_code": 0,
+  "wall_seconds": 44.64053728702129,
+  "child_peak_rss_mib": 24.0234375,
+  "runner_sha256": "4d94adb7a06ec38cc6f5b4fe55f801e87bbdcff712139146d53f55a2928eb2a4",
+  "outputs": {
+    "stdout.log": {
+      "bytes": 616,
+      "sha256": "97c5d610b7f7011c137a4ad36b1e4e864c31ad7154be8b2e3abee0b2864d883d"
+    },
+    "stderr.log": {
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    }
+  }
+}

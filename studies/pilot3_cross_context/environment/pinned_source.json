@@ -1,0 +1,211 @@
+{
+  "config_sha256": "8fd0239fe2f87c9f1506786ac36099fe996e00cc6e021b3ecc67fbb65cd2d925",
+  "dependency_versions": {
+    "hatchling": "1.29.0",
+    "hypothesis": "6.131.9",
+    "jsonschema": "4.26.0",
+    "markdown-it-py": "3.0.0",
+    "numpy": "2.4.2",
+    "pytest": "9.0.2",
+    "ruptures": "1.1.10",
+    "scipy": "1.17.1"
+  },
+  "direct_url": {
+    "dir_info": {
+      "editable": true
+    },
+    "url": "file://<WORKSPACE>"
+  },
+  "distribution_path": "<WORKSPACE>/.venv/lib/python3.12/site-packages/account_history_analyzer-1.0.0.dist-info",
+  "distribution_version": "1.0.0",
+  "expanded_default_config": {
+    "activity": {
+      "burst_duration_seconds": 30,
+      "burst_minimum_events": 3,
+      "max_calendar_days": 366000,
+      "sliding_window_seconds": [
+        30,
+        120,
+        3600
+      ],
+      "timezone": "UTC"
+    },
+    "ai_text_detection": {
+      "enabled": false,
+      "status_reason": "not_implemented_in_v1"
+    },
+    "artifacts": {
+      "max_file_bytes": 268435456,
+      "max_files": 32,
+      "max_total_bytes": 536870912
+    },
+    "changes": {
+      "jump": 1,
+      "method": "pelt_l2_v1",
+      "minimum_segment_windows": 3,
+      "minimum_windows": 8,
+      "primary_lambda": 1.0,
+      "same_window_boundary_tolerance": 1,
+      "scale_ddof": 0,
+      "scale_epsilon": 1e-12,
+      "sensitivity_lambdas": [
+        0.5,
+        2.0,
+        4.0
+      ]
+    },
+    "delta": {
+      "allow_toy_reference": false,
+      "enabled_when_reference_supplied": true,
+      "reference_path": null
+    },
+    "input": {
+      "max_input_bytes": 52428800,
+      "max_text_codepoints": 200000,
+      "max_unique_records": 10000,
+      "strict": true
+    },
+    "report": {
+      "examples_per_side_per_feature": 2,
+      "excerpts": "included",
+      "formats": [
+        "json",
+        "markdown",
+        "html"
+      ],
+      "maximum_feature_explanations": 10,
+      "remote_assets": false
+    },
+    "reuse": {
+      "containment_threshold_denominator": 100,
+      "containment_threshold_numerator": 90,
+      "max_candidate_pairs": 2000000,
+      "max_evidence_codepoints": 8000000,
+      "max_evidence_tokens": 2000000,
+      "max_index_postings": 2000000,
+      "max_work_units": 250000000,
+      "minimum_containment_shorter_words": 50,
+      "minimum_near_duplicate_words": 20,
+      "near_threshold_denominator": 100,
+      "near_threshold_numerator": 80,
+      "repeat_reduced_exact_sensitivity": true,
+      "repeat_reduced_near_sensitivity": false,
+      "shingle_tokens": 5
+    },
+    "schema_version": "1.0.0",
+    "sensitivity": {
+      "exclude_known_edited": true,
+      "within_community": true
+    },
+    "style": {
+      "contraction_minimum_opportunities": 10,
+      "language": "en",
+      "max_all_pairs_windows": 100,
+      "minimum_comparison_records_per_side": 8,
+      "minimum_comparison_words_per_side": 1000,
+      "minimum_record_words": 20,
+      "ngram_lengths": [
+        3,
+        4,
+        5
+      ],
+      "views": [
+        "retained_prose",
+        "function_mask_v1"
+      ]
+    },
+    "text": {
+      "contraction_pairs_resource": {
+        "resource_id": "contraction_pairs.json",
+        "sha256": "f14da203d3a5965b5ea0982551dc9748c4a9655e7662cf8617ba58d86b805f34"
+      },
+      "function_words_resource": {
+        "resource_id": "function_words_en_v1.txt",
+        "sha256": "f91c30201a636e7a9edd15166342afdcedae7fa34d7c7dd5c7352e49d4af2c9e"
+      },
+      "normalization": "NFC",
+      "parser_profile": "commonmark_v1",
+      "tokenizer": "lexical_regex_v1"
+    },
+    "windows": {
+      "max_community_streams": 10,
+      "minimum_records": 8,
+      "sensitivity_targets": [
+        500,
+        2000
+      ],
+      "separate_kinds": true,
+      "single_record_dominance_fraction": 0.5,
+      "target_words": 1000
+    }
+  },
+  "implementation_fingerprint": "bfc989028bf2b47c506d1ba501287d4e362aadc25ca5c731c41e4b27a336e179",
+  "module_version": "1.0.4",
+  "package_file": "<PINNED_SOURCE>/src/account_history_analyzer/__init__.py",
+  "package_files_sha256": {
+    "__init__.py": "24e10ba9ee1660b2ca536ab24f26c1b3f3ce417be5b7fb346dfce49d18d32585",
+    "__main__.py": "79ee6f134c5c5193377cf9b189cbdcc3e2095e49ba9cec310114441c15a917c4",
+    "_vendor/__init__.py": "899d2a3ebba87a9f32ba6c87f30763dd4a36d0b152f5f8a77467bc49a99e12b2",
+    "_vendor/ruptures_LICENSE.txt": "f29c48be39fff974e2d631b2317c194409531cc86e16e05f3968ead0456bc920",
+    "_vendor/ruptures_pr383.json": "74ffcf877726d94ba15583beb7403e9af95f53b9a5e263fb24a167cf43a04fb4",
+    "_vendor/ruptures_pr383.py": "7b94336b9bae20cab66965feaac873738eb49a33a871b79376a0b3733311625a",
+    "_vendor/ruptures_pr383_source.txt": "65f5ead7c29a9a23eb67c676dc02ab146316b0678f586697f4c5de754c40110a",
+    "activity.py": "40c880942ea5c335194951ec087069f4573956e3f6ee2561252f871e722f73f0",
+    "artifact_io.py": "e1890bbdeb338aea2b2f5be9b70f129dffddff6e1cb34c061b8bbc8fcc9eb541",
+    "artifacts.py": "3dfb3d50739e5c21a8aa2597f332a49e8f4fefe4443e170ec8fa4654f4ab8fd7",
+    "changepoints.py": "a9ee4bc24a6b07525071822193cd78445ed81ad6942f0a1566cfe16083bd85e3",
+    "charts.py": "8bae66a610e6432145a4f141d72c59fd501018fad52cb16a2aa6735be16b9c7f",
+    "cli.py": "81accfd5f2c38b3517eb9d2a1f71ed05ee37f680ebacceb5b086aa1ca4b67835",
+    "comparisons.py": "635bd94e48d12846923f246a3a781639f1191b9ce5500ce248815215bf54dcd3",
+    "config.py": "eef58b80517653ce0a9b9d8ee8e2e7724d6b065747565a0b57bb1a4a8896b8d3",
+    "contracts/comparison.schema.json": "a030ab9a9194fe44a97aaf1001d5c47b7661c48d1de07b1eecac40317f238515",
+    "contracts/config.schema.json": "fb1a410a59b4d572afc8602d26114f9d222d9a160dd1dc54d38c944fd28b4a7e",
+    "contracts/delta_reference.schema.json": "d907ffc0667ff67a2abfb5a82aa1e635f17b6209c3611033cfb874aff9ff1ed1",
+    "contracts/evaluation_account_stream.schema.json": "aa8321703181c823f28ccc3585789f8d471b7a4f9de05c6a173c593670ffc24e",
+    "contracts/evaluation_paired_text.schema.json": "ffcbf11f73d0b63acfd98075d256adc8a406f7378ee5e27897a19cc59fdb6105",
+    "contracts/evaluation_synthetic.schema.json": "66c5b887288798b8d343e981538d7a1aed1998894c18ed80053b00c315b7919a",
+    "contracts/evidence.schema.json": "1bccffcbd6909a107a1fba7c3492099e77d7d4a035e46194375bda266f08e509",
+    "contracts/record.schema.json": "38a224db4624e99eef029c782e23ee9cf6f3b33015dc25732efa1f553ecf5f21",
+    "contracts/records_features.schema.json": "21fa6577058ac628d666472d8e542ca1f8ca549d85931af89082ea55ecd79d4b",
+    "contracts/results.schema.json": "8a6bc12a7c5851a7cd5ae8345332a31eabae8e133be8aee171922d9f135c2f18",
+    "contracts/snapshot.schema.json": "8567f3172b86773c2ec07091e24ff9a695305c6024e1fcfb5b362e1196fe65b1",
+    "contracts/windows.schema.json": "791906c3f024f112ad9ddc386a6a73e6a1e049ff2441173fa31c0bd8cc1f76df",
+    "errors.py": "85a0f387dfec0182a69c1a65eb44c3e0c615ed9684f735dcbbdf8e3555b9aec6",
+    "evaluation_external.py": "f74a2b9959afec2f56edba9db5a7f4de5cf888df3c09db84118f0b23151db3c5",
+    "evaluation_metrics.py": "c8d6a0d687068c82fa1a086fa249447cfcf682d6ed8e2082169784bd0145a85c",
+    "evaluation_reporting.py": "b6ebea566a275715734c310cec69607191b71ed8f685a61e7103cd5f026c0419",
+    "evaluation_schemas.py": "01db1ac5329aaf44ab45fdd7d5ae507f9115b130ae97c085a771e32c064c2efb",
+    "evaluation_synthetic.py": "20ae56d2373227405825d3a7e07e056c56c9991f56eabf09e28335e43fb7e726",
+    "features.py": "7507e931ba54b52aa986b3fea1dd203deea77c492ca067385e63610235bc008a",
+    "findings.py": "47693cf819ac8e6cd75a5d74a8534c0e7a10794d8309bd6a888909e5f19a94a9",
+    "interactions.py": "910f6c3e35c5dee5326121d5e31bad14448bd7e33466947fa9b181fcab99fff0",
+    "io.py": "8c08668a73aef1c1e35142b0e88e1fb7e940d030d0f373f2deb89e9ba0c78538",
+    "links.py": "c9a2c1c0c864516c059fec7290e9de80730f13a82790e44be5bb52264d46fe4a",
+    "payload_schemas.py": "1e2494ef32a246d80915a2be0b1521217e55919b1f0f0b66728f1971688658e2",
+    "pipeline.py": "a1f5b98335729836c4b5304ab65246cf474a8a51f66865876a0c942322855251",
+    "py.typed": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "registry.py": "2981f1b3b4d5f6098c81b6df154aaaf80f5c9d05ef672e35ff7ed48482e44973",
+    "reporting.py": "c8aa520917dc68d8229495a28a4375ab9e95902fe226955e79cbd1143ea3956c",
+    "resources/contraction_pairs.json": "f14da203d3a5965b5ea0982551dc9748c4a9655e7662cf8617ba58d86b805f34",
+    "resources/default.toml": "b7147fe42aa43213cca289b263aa9e38889c0eb8dfbca43e7f710947331aa0a3",
+    "resources/function_words_en_v1.txt": "f91c30201a636e7a9edd15166342afdcedae7fa34d7c7dd5c7352e49d4af2c9e",
+    "reuse.py": "458db5b7c71e8f039350b8fd94db6aab79c1e32a0374d926d705c217b6cd6648",
+    "reuse_matching.py": "653ffbee8cb54994b857bc6256b021209edd10125d4ee27fbb283004172c6fe3",
+    "schemas.py": "ccd78fc72e3a334166351949ca071c30403166576ad959d2edb10ac27c3d55f8",
+    "sensitivity.py": "6584021092ef4b1b7a8a48f2eb5263a097d743b4a84e5b355d348a849aa5e40b",
+    "style.py": "e6032e76cf307f09ef9ebecb73aeca20cd1b11e7ef2c56a4357b54df1b963b3e",
+    "text.py": "a42e491225e4a6f015501f237d0beb2e8c59928028d687e0e9efb237e462353f",
+    "verification.py": "937bed670d971f54b557db38f8caaa3bd74bee16f39dff1de6df0a45bbe5319e",
+    "windows.py": "425ee5dc4040a85783c0b0a68ceb95d81c08469c5a1b44d4bc9c0afbf2e88b62"
+  },
+  "python": "3.12.3 (main, Aug 31 2026, 10:18:26) [GCC 13.3.0]",
+  "python_executable": "<WORKSPACE>/.venv/bin/python",
+  "reference_environment": "CPython-3.12.3;Linux;x86_64;numpy=2.4.2;scipy=1.17.1;ruptures=1.1.10;markdown-it-py=3.0.0;jsonschema=4.26.0",
+  "resource_hashes": {
+    "contraction_pairs.json": "f14da203d3a5965b5ea0982551dc9748c4a9655e7662cf8617ba58d86b805f34",
+    "default.toml": "b7147fe42aa43213cca289b263aa9e38889c0eb8dfbca43e7f710947331aa0a3",
+    "function_words_en_v1.txt": "f91c30201a636e7a9edd15166342afdcedae7fa34d7c7dd5c7352e49d4af2c9e",
+    "method_registry": "1b4d53b648303ea3b10f98e8dc40958b50587bd3c61c2262c83be7fb8a30da26",
+    "report_templates": "c8aa520917dc68d8229495a28a4375ab9e95902fe226955e79cbd1143ea3956c"
+  }
+}

@@ -1,0 +1,26 @@
+.........F......                                                         [100%]
+=================================== FAILURES ===================================
+___ test_full_5760_case_design_and_all171_intervals_independently_recomputed ___
+
+    def test_full_5760_case_design_and_all171_intervals_independently_recomputed():
+        data = fixture(10)
+        for row in data[0]:
+            block = int(row['block_id'].split('-b')[1])
+            anchor = checker.ANCHORS.index(row['anchor_id'])
+            category = checker.CATEGORIES.index(row['category'])
+            arm = checker.ARMS.index(row['arm'])
+            row['score'] = row['raw_distance'] = ((3*category + 5*anchor + block + arm) % 11) / 10
+            if row['arm'] == 'hash50' and block >= 5 and row['stratum_id'] == 's2':
+                row.update(score=None, status='abstained', reason_codes=['insufficient_windows'])
+        expected, actual = compare(data, 10, 10000)
+        assert expected['planned']['case_rows'] == 5760
+        assert expected['shared_bootstrap']['executed_repetitions'] == 10000
+        assert len(expected['summaries'])*4 + len(expected['omission_intersections']) == 171
+>       actual['summaries'][0]['uncertainty']['cross']['percentile_interval_95'][0] += .125
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+E       TypeError: 'NoneType' object is not subscriptable
+
+studies/pilot3_cross_context/tests/test_check_analysis_results.py:118: TypeError
+=========================== short test summary info ============================
+FAILED studies/pilot3_cross_context/tests/test_check_analysis_results.py::test_full_5760_case_design_and_all171_intervals_independently_recomputed
+1 failed, 15 passed in 14.35s

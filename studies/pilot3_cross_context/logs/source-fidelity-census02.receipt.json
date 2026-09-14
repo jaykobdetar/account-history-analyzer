@@ -1,0 +1,37 @@
+{
+  "argv": [
+    "env",
+    "PYTHONPATH=<PINNED_INSTALL>",
+    ".venv/bin/python",
+    "scripts/offline_exec.py",
+    ".venv/bin/python",
+    "studies/pilot3_cross_context/scripts/check_source_sample.py",
+    "--plan",
+    "studies/pilot3_cross_context/protocol/gate_a_plan_v2.json",
+    "--source-root",
+    "<PRIOR_STUDY_ARTIFACT_ROOT>",
+    "--private-root",
+    "<PRIVATE_STUDY>",
+    "--census-name",
+    "census-02",
+    "--out",
+    "studies/pilot3_cross_context/review/source-fidelity-census02.json"
+  ],
+  "cwd": "<WORKSPACE>",
+  "started_utc": "2026-09-14T21:26:58.671338+00:00",
+  "finished_utc": "2026-09-14T21:27:27.352477+00:00",
+  "exit_code": 0,
+  "wall_seconds": 28.681140207016142,
+  "child_peak_rss_mib": 67.9296875,
+  "runner_sha256": "4d94adb7a06ec38cc6f5b4fe55f801e87bbdcff712139146d53f55a2928eb2a4",
+  "outputs": {
+    "stdout.log": {
+      "bytes": 147,
+      "sha256": "ebce9837dc61592c012403a869fc659253125f8985f19039bc82e720e4b78f86"
+    },
+    "stderr.log": {
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    }
+  }
+}

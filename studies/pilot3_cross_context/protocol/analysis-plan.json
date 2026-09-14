@@ -1,0 +1,32 @@
+{
+  "analysis_sha256": "6fcb33d77046a5e2ff233c8a905e1945644e26034d5ad2af34085387dbdd2b5b",
+  "bootstrap": {
+    "any_missing_replicate": "withhold_interval",
+    "draw_scope": "one_global_stream_over_all_audited_dependency_units",
+    "generator": "sha256-json-counter-rejection-v1",
+    "minimum_contributing_units": 5,
+    "percentiles": "type7_0.025_0.975",
+    "resamples": 10000,
+    "seed": "ahas-pilot3-cross-context-block-bootstrap-v1"
+  },
+  "omission_arms": [
+    "full",
+    "hash75",
+    "hash50",
+    "middle50"
+  ],
+  "planned_strata": [
+    "stratum-01",
+    "stratum-02",
+    "stratum-03"
+  ],
+  "primary_method": {
+    "method_id": "cosine_distance_v1",
+    "n": 4,
+    "view": "retained_prose"
+  },
+  "registered_before_scoring": true,
+  "registered_protocol_sha256": "cee0c320b544e1b2d429adc827dff1475ea596494025ec7e82624611cd625337",
+  "registered_utc": "2026-09-14T22:25:44.924098+00:00",
+  "study_math_sha256": "267d413c97a8b6ea6e47071cc818adb44c82beafa3d74cd943ecc8127858013e"
+}

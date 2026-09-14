@@ -1,0 +1,10 @@
+{
+  "phase": "before_independent_single_pair_check",
+  "utc": "2026-09-14T21:49:25.674409+00:00",
+  "checker_sha256": "dcd5d709466bf34af2beb233c06a9655562af6976a8859d6d86e79f9aeaa3ba8",
+  "plan_sha256": "8b8654c9327f5772e32edfc1bffaf2ab41bd3f58f72ef605e64264e6614cfb32",
+  "source_census_receipt_sha256": "7790b08d55261eb0722918bcc8d48dc593ef059bb58b47c5af8c7f87012329a7",
+  "original_prose_reads": 0,
+  "preprocessing_calls": 0,
+  "scores_computed": false
+}

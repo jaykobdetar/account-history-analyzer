@@ -1,0 +1,8 @@
+Traceback (most recent call last):
+  File "<WORKSPACE>/studies/pilot3_cross_context/scripts/census_pair.py", line 407, in <module>
+    main()
+  File "<WORKSPACE>/studies/pilot3_cross_context/scripts/census_pair.py", line 209, in main
+    check_limits(counts_total['source_records'])
+  File "<WORKSPACE>/studies/pilot3_cross_context/scripts/census_pair.py", line 173, in check_limits
+    raise RuntimeError('Predeclared record/preprocessing budget exhausted; census incomplete')
+RuntimeError: Predeclared record/preprocessing budget exhausted; census incomplete

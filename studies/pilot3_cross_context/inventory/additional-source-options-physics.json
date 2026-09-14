@@ -1,0 +1,79 @@
+{
+  "all_five_new_total_listed_compressed_bytes": 284210124,
+  "authorization_note": "Parent task reported explicit user approval for additional dataset acquisition. This delegated subtask only checked metadata and did not acquire archives; the parent controls the frozen bounded acquisition plan.",
+  "candidate_pair": {
+    "communities": [
+      "Physics",
+      "AskPhysics"
+    ],
+    "overlap_rationale": "The communities explicitly direct relevant questions to one another in their current rules. This supports a plausible shared audience but does not establish shared archived accounts or eligible writing capacity.",
+    "registered_contamination_implication": "The current unanswered-question cross-post route is a reason to retain exact/near-content and shared-thread audits, not evidence those audits will pass in the historical corpus.",
+    "subject_relationship": "General physics discussion versus physics questions and explanations. This pair broadens discussion purpose beyond academic careers or student-life communities, while remaining within one broad scientific subject.",
+    "target_capacity_verified": false
+  },
+  "checked_date": "2026-09-14",
+  "compressed_size_budget_check": {
+    "all_five_new_fit": true,
+    "combined_eight_also_fit_600000000": true,
+    "proposed_new_bytes_cap": 600000000
+  },
+  "existing_three_plus_five_new_total_compressed_bytes": 584362137,
+  "existing_three_total_compressed_bytes": 300152013,
+  "limits": [
+    "No archive download, HEAD request to archive URLs, archive content read, source-record collection or preprocessing was executed by this metadata subtask.",
+    "Sizes come from official directory listings only; actual downloaded lengths/hashes and source record counts require fresh verification by the parent.",
+    "Current2026 community rules do not verify2018 archival topic labels, account overlap, language or writing volumes.",
+    "Different communities do not prove sample independence. Accounts/blocks/strata must remain disjoint and shared source content/threads must be audited.",
+    "Directory modification times are recorded exactly as printed with unspecified timezone; these are not record coverage dates.",
+    "The three earlier metadata options file is preserved with its original pre-approval status. The current authorization is recorded here rather than rewriting history.",
+    "No corpus-specific redistribution permission was established by checking public index metadata; raw corpus archives remain private under the study policy."
+  ],
+  "parent_supplied_workload_bounds": {
+    "local_memory_strictly_below_bytes": 4294967296,
+    "new_download_compressed_bytes_max": 600000000,
+    "preprocessed_record_count_max": 1000000,
+    "preprocessing_wall_seconds_max": 1800,
+    "scope_note": "These are proposed parent bounds for the expanded workflow, not measured usage or guarantees. Root freezes and enforces them before acquisition/preprocessing."
+  },
+  "physics_pair_total_listed_compressed_bytes": 148387568,
+  "previous_three_new_options": [
+    "AskAcademia",
+    "GradSchool",
+    "PhD"
+  ],
+  "previous_three_total_listed_compressed_bytes": 135822556,
+  "schema_version": "1.0.0",
+  "sources": [
+    {
+      "archive_downloaded_by_this_subtask": false,
+      "archive_sha256": null,
+      "archive_url": "https://zissou.infosci.cornell.edu/convokit/datasets/subreddit-corpus/corpus-zipped/PhotoshopTutorialsPro~-~PirateParty/Physics.corpus.zip",
+      "archived_period_account_overlap_verified": false,
+      "community": "Physics",
+      "current_scope_paraphrase": "Scientific physics discussion. Current rules redirect basic and homework questions to AskPhysics, and provide weekly threads for conceptual questions, careers and education.",
+      "decompressed_bytes": null,
+      "description_source": "https://www.reddit.com/r/Physics/about/",
+      "historical_topic_labels_verified": false,
+      "listed_compressed_bytes": 100767614,
+      "listed_modified_time": "30-Oct-2019 00:40",
+      "official_index_url": "https://zissou.infosci.cornell.edu/convokit/datasets/subreddit-corpus/corpus-zipped/PhotoshopTutorialsPro~-~PirateParty/",
+      "source_rows_verified": false
+    },
+    {
+      "archive_downloaded_by_this_subtask": false,
+      "archive_sha256": null,
+      "archive_url": "https://zissou.infosci.cornell.edu/convokit/datasets/subreddit-corpus/corpus-zipped/AskMen2~-~AskReddit/AskPhysics.corpus.zip",
+      "archived_period_account_overlap_verified": false,
+      "community": "AskPhysics",
+      "current_scope_paraphrase": "Questions and answers about physics. Current rules permit certain unanswered questions to be reposted to the Physics Tuesday thread and provide schoolwork-help guidelines.",
+      "decompressed_bytes": null,
+      "description_source": "https://www.reddit.com/r/AskPhysics/about/",
+      "historical_topic_labels_verified": false,
+      "listed_compressed_bytes": 47619954,
+      "listed_modified_time": "31-Oct-2019 04:58",
+      "official_index_url": "https://zissou.infosci.cornell.edu/convokit/datasets/subreddit-corpus/corpus-zipped/AskMen2~-~AskReddit/",
+      "source_rows_verified": false
+    }
+  ],
+  "status": "metadata_options_after_user_acquisition_authorization_before_download"
+}

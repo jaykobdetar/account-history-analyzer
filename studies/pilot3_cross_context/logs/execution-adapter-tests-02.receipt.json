@@ -1,0 +1,30 @@
+{
+  "argv": [
+    "env",
+    "PYTHONPATH=<PINNED_INSTALL>",
+    ".venv/bin/python",
+    "-m",
+    "pytest",
+    "studies/pilot3_cross_context/tests/test_run_scoring.py",
+    "studies/pilot3_cross_context/tests/test_normalize_evaluations.py",
+    "studies/pilot3_cross_context/tests/test_check_replay.py",
+    "-q"
+  ],
+  "cwd": "<WORKSPACE>",
+  "started_utc": "2026-09-14T22:16:40.538083+00:00",
+  "finished_utc": "2026-09-14T22:16:42.386562+00:00",
+  "exit_code": 0,
+  "wall_seconds": 1.8484815289848484,
+  "child_peak_rss_mib": 43.015625,
+  "runner_sha256": "4d94adb7a06ec38cc6f5b4fe55f801e87bbdcff712139146d53f55a2928eb2a4",
+  "outputs": {
+    "stdout.log": {
+      "bytes": 99,
+      "sha256": "64513c9c66c4a3ebed49fe6e9258214f354f386751e63c714fc7cf980ac3d87d"
+    },
+    "stderr.log": {
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    }
+  }
+}

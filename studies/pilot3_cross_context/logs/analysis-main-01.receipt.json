@@ -1,0 +1,35 @@
+{
+  "argv": [
+    "env",
+    "PYTHONPATH=<PINNED_INSTALL>",
+    ".venv/bin/python",
+    "studies/pilot3_cross_context/scripts/analyze_cases.py",
+    "--cases",
+    "studies/pilot3_cross_context/results/normalized/cases.json",
+    "--units",
+    "studies/pilot3_cross_context/results/normalized/units.json",
+    "--dependencies",
+    "studies/pilot3_cross_context/results/normalized/dependencies.json",
+    "--plan",
+    "studies/pilot3_cross_context/protocol/analysis-plan.json",
+    "--out",
+    "studies/pilot3_cross_context/results/analysis"
+  ],
+  "cwd": "<WORKSPACE>",
+  "started_utc": "2026-09-14T22:32:36.689519+00:00",
+  "finished_utc": "2026-09-14T22:32:40.541311+00:00",
+  "exit_code": 0,
+  "wall_seconds": 3.851788938016398,
+  "child_peak_rss_mib": 80.01953125,
+  "runner_sha256": "4d94adb7a06ec38cc6f5b4fe55f801e87bbdcff712139146d53f55a2928eb2a4",
+  "outputs": {
+    "stdout.log": {
+      "bytes": 493,
+      "sha256": "ab790895df27f2a55194af9b51a79c6a287be064da3b090a616b4ee642feee17"
+    },
+    "stderr.log": {
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    }
+  }
+}

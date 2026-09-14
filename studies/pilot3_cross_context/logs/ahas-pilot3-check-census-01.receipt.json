@@ -1,0 +1,35 @@
+{
+  "argv": [
+    ".venv/bin/python",
+    "studies/pilot3_cross_context/scripts/check_census.py",
+    "--plan",
+    "studies/pilot3_cross_context/protocol/gate_a_plan.json",
+    "--census",
+    "studies/pilot3_cross_context/inventory/census-01",
+    "--private-root",
+    "<PRIVATE_STUDY>",
+    "--receipt",
+    "studies/pilot3_cross_context/logs/gate-a-census-01.receipt.json",
+    "--source-root",
+    "<PRIOR_STUDY_ARTIFACT_ROOT>",
+    "--out",
+    "<TEMP_ROOT>/ahas-pilot3-check-census-01.json"
+  ],
+  "cwd": "<WORKSPACE>",
+  "started_utc": "2026-09-14T21:09:49.949478+00:00",
+  "finished_utc": "2026-09-14T21:09:51.538922+00:00",
+  "exit_code": 0,
+  "wall_seconds": 1.5894445950107183,
+  "child_peak_rss_mib": 139.78515625,
+  "runner_sha256": "4d94adb7a06ec38cc6f5b4fe55f801e87bbdcff712139146d53f55a2928eb2a4",
+  "outputs": {
+    "stdout.log": {
+      "bytes": 174,
+      "sha256": "1288c4b2c511a17f6fefb6f422c8f9c68320a6c3d25823e29d65bcfbb05f8376"
+    },
+    "stderr.log": {
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    }
+  }
+}

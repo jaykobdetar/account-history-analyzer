@@ -1,0 +1,7 @@
+# Independent verification of completed mathematics intake
+
+Census-04b completed with 2,022,440 source rows, 406,010 preprocessor calls and 272,259 eligible records. It reports a 50-account best capacity under the four coarse date schemes. This is one-pair capacity only, not a full study gate or a style result.
+
+Run the separately tested check_pair_census.py over its hash-bound eligibility metadata to recalculate all coarse period capacities, exclusions, source bindings, witnesses, even quotas and correct one-pair scope. Run the existing deterministic100-record source-fidelity checker on this new two-source intake under INDEPENDENT_CHECK_PLAN.md, preserving the same salt and rules. The sample is fixed independently of agreement, and includes record-guard failures when their IDs rank into the sample. This is one additional original-source pass of at most3,000,000 rows and2,000,000,000 uncompressed bytes,100 additional preprocessing calls, five minutes and2GiB address space. No scores, protected-account prose or extra data acquisition.
+
+The three completed actual census preprocessing counts are142,821 +525,503 +406,010 =1,074,334. Including the previously completed100-record source check and this newly declared100-record check gives1,074,534, within the declared1,200,000 total Gate A preprocessing ceiling. The original incomplete census04 performed zero preprocessing. Preserve fresh check receipts and failures; an old successful source check is not a rerun on the new pair.

@@ -1,0 +1,124 @@
+{
+  "disjoint_capacity": {
+    "assignment_role": "capacity_witness_not_final_cohort_selection",
+    "quota_counts": {
+      "AskAcademia / GradSchool": 20,
+      "AskPhysics / Physics": 20,
+      "learnmath / math": 20
+    },
+    "tie_rule": "maximum_accounts_then_leximin_quotas_then_sorted_stratum_quotas",
+    "total_accounts": 60,
+    "total_blocks": 30
+  },
+  "eligible_metadata_rows": 272259,
+  "final_cohort_selected": false,
+  "fixed_prior_pair_strata": [
+    "AskAcademia / GradSchool",
+    "AskPhysics / Physics"
+  ],
+  "gate_a_status": "capacity_pass_requires_contamination_audit",
+  "leakage_audit_status": "not_run; capacities precede contamination filtering",
+  "metadata_rows_read": 406010,
+  "new_pair": "learnmath / math",
+  "new_pair_calendar_cuts_considered": 3956,
+  "pair_capacities": {
+    "AskAcademia / GradSchool": {
+      "chosen_calendar_scheme": {
+        "early": [
+          "2008-01-01",
+          "2015-10-06"
+        ],
+        "id": "utc_midnight_2015-10-06",
+        "late": [
+          "2015-10-06",
+          "2018-11-01"
+        ]
+      },
+      "fixed_from_prior_calendar": true,
+      "maximum_four_cell_accounts": 39,
+      "prior_capacity_inspected_accounts": 1
+    },
+    "AskPhysics / Physics": {
+      "chosen_calendar_scheme": {
+        "early": [
+          "2008-01-01",
+          "2015-09-20"
+        ],
+        "id": "utc_midnight_2015-09-20",
+        "late": [
+          "2015-09-20",
+          "2018-11-01"
+        ]
+      },
+      "fixed_from_prior_calendar": true,
+      "maximum_four_cell_accounts": 36,
+      "prior_capacity_inspected_accounts": 0
+    },
+    "learnmath / math": {
+      "chosen_calendar_scheme": {
+        "early": [
+          "2008-01-01",
+          "2016-10-05"
+        ],
+        "id": "utc_midnight_2016-10-05",
+        "late": [
+          "2016-10-05",
+          "2018-11-01"
+        ]
+      },
+      "fixed_from_prior_calendar": false,
+      "maximum_four_cell_accounts": 55,
+      "prior_capacity_inspected_accounts": 0
+    }
+  },
+  "phase": "fixed_two_prior_strata_plus_final_math_pair_metadata_calendar",
+  "planned_accounts": 60,
+  "planned_blocks": 30,
+  "preprocessing_calls": 0,
+  "prior_metadata_bytes_rehashed": 128927505,
+  "prior_metadata_rows_parsed": 0,
+  "proposed_period_schemes": {
+    "AskAcademia / GradSchool": {
+      "early": [
+        "2008-01-01",
+        "2015-10-06"
+      ],
+      "id": "utc_midnight_2015-10-06",
+      "late": [
+        "2015-10-06",
+        "2018-11-01"
+      ]
+    },
+    "AskPhysics / Physics": {
+      "early": [
+        "2008-01-01",
+        "2015-09-20"
+      ],
+      "id": "utc_midnight_2015-09-20",
+      "late": [
+        "2015-09-20",
+        "2018-11-01"
+      ]
+    },
+    "learnmath / math": {
+      "early": [
+        "2008-01-01",
+        "2016-10-05"
+      ],
+      "id": "utc_midnight_2016-10-05",
+      "late": [
+        "2016-10-05",
+        "2018-11-01"
+      ]
+    }
+  },
+  "scope": "Exactly two frozen prior pair/date sets and the exhaustive shared-midnight math/learnmath pair; no other community combinations considered.",
+  "scoring_permitted": false,
+  "selected_pair_strata": [
+    "AskAcademia / GradSchool",
+    "AskPhysics / Physics",
+    "learnmath / math"
+  ],
+  "source_prose_reads": 0,
+  "style_scores_computed": 0
+}

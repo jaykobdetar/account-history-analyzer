@@ -1,0 +1,43 @@
+.FFF.                                                                    [100%]
+=================================== FAILURES ===================================
+__________ test_duplicate_output_identifier_must_fail_before_scoring ___________
+
+prepared = (PosixPath('<TEST_TMP_ROOT>/pytest-145/synthetic-execution-integration0/prepared'), [{'adapter_version': 'pilot3...1', 'arm': 'hash75', 'batch_id': 'stratum-01-block-01-hash75-method-03', 'block_id': 'stratum-01-block-01', ...}, ...])
+
+    def test_duplicate_output_identifier_must_fail_before_scoring(prepared):
+        root, original = prepared
+        index = deepcopy(original)
+        index[1]['batch_id'] = index[0]['batch_id']
+>       with pytest.raises(ValueError):
+E       Failed: DID NOT RAISE <class 'ValueError'>
+
+studies/pilot3_cross_context/tests/test_execution_integration.py:41: Failed
+____________ test_unsafe_output_identifier_must_fail_before_scoring ____________
+
+prepared = (PosixPath('<TEST_TMP_ROOT>/pytest-145/synthetic-execution-integration0/prepared'), [{'adapter_version': 'pilot3...1', 'arm': 'hash75', 'batch_id': 'stratum-01-block-01-hash75-method-03', 'block_id': 'stratum-01-block-01', ...}, ...])
+
+    def test_unsafe_output_identifier_must_fail_before_scoring(prepared):
+        root, original = prepared
+        index = deepcopy(original)
+        index[0]['batch_id'] = '../unregistered-output'
+>       with pytest.raises(ValueError):
+E       Failed: DID NOT RAISE <class 'ValueError'>
+
+studies/pilot3_cross_context/tests/test_execution_integration.py:49: Failed
+_______ test_results_from_another_arm_must_not_be_normalized_as_this_arm _______
+
+prepared = (PosixPath('<TEST_TMP_ROOT>/pytest-145/synthetic-execution-integration0/prepared'), [{'adapter_version': 'pilot3...1', 'arm': 'hash75', 'batch_id': 'stratum-01-block-01-hash75-method-03', 'block_id': 'stratum-01-block-01', ...}, ...])
+
+    def test_results_from_another_arm_must_not_be_normalized_as_this_arm(prepared):
+        _, index = prepared
+        item = next(row for row in index if row['arm'] == 'hash50')
+        result = evaluation(item, item['block_id'] + '/full/' + item['view'])
+>       with pytest.raises(ValueError):
+E       Failed: DID NOT RAISE <class 'ValueError'>
+
+studies/pilot3_cross_context/tests/test_execution_integration.py:71: Failed
+=========================== short test summary info ============================
+FAILED studies/pilot3_cross_context/tests/test_execution_integration.py::test_duplicate_output_identifier_must_fail_before_scoring
+FAILED studies/pilot3_cross_context/tests/test_execution_integration.py::test_unsafe_output_identifier_must_fail_before_scoring
+FAILED studies/pilot3_cross_context/tests/test_execution_integration.py::test_results_from_another_arm_must_not_be_normalized_as_this_arm
+3 failed, 2 passed in 14.01s

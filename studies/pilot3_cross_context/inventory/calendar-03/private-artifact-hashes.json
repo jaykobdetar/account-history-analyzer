@@ -1,0 +1,10 @@
+{
+  "calendar-capacities.json": {
+    "bytes": 87403,
+    "sha256": "da969789d28933cbb2ef0ac441fb5a4fffb2ab8f14abbbda3949b59c53dd2d26"
+  },
+  "capacity-witness.json": {
+    "bytes": 2431,
+    "sha256": "00e78db733646b8d6af265f7462a65458c709658ea2eae8649665a5bbac8cdd7"
+  }
+}

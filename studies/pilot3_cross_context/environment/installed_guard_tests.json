@@ -1,0 +1,35 @@
+{
+  "ahas_module_paths": {
+    "account_history_analyzer": "<PINNED_INSTALL>/account_history_analyzer/__init__.py",
+    "account_history_analyzer.artifact_io": "<PINNED_INSTALL>/account_history_analyzer/artifact_io.py",
+    "account_history_analyzer.artifacts": "<PINNED_INSTALL>/account_history_analyzer/artifacts.py",
+    "account_history_analyzer.config": "<PINNED_INSTALL>/account_history_analyzer/config.py",
+    "account_history_analyzer.errors": "<PINNED_INSTALL>/account_history_analyzer/errors.py",
+    "account_history_analyzer.features": "<PINNED_INSTALL>/account_history_analyzer/features.py",
+    "account_history_analyzer.io": "<PINNED_INSTALL>/account_history_analyzer/io.py",
+    "account_history_analyzer.pipeline": "<PINNED_INSTALL>/account_history_analyzer/pipeline.py",
+    "account_history_analyzer.registry": "<PINNED_INSTALL>/account_history_analyzer/registry.py",
+    "account_history_analyzer.schemas": "<PINNED_INSTALL>/account_history_analyzer/schemas.py",
+    "account_history_analyzer.style": "<PINNED_INSTALL>/account_history_analyzer/style.py",
+    "account_history_analyzer.text": "<PINNED_INSTALL>/account_history_analyzer/text.py",
+    "account_history_analyzer.windows": "<PINNED_INSTALL>/account_history_analyzer/windows.py"
+  },
+  "all_ahas_modules_loaded_from_installed_wheel": true,
+  "corpus_read": false,
+  "exit_code": 0,
+  "pytest_arguments": [
+    "-ra",
+    "--import-mode=importlib",
+    "-p",
+    "no:cacheprovider",
+    "-q",
+    "tests/test_text.py",
+    "tests/test_config.py",
+    "tests/test_style.py::test_STYLE_qualification_scope_and_context",
+    "tests/test_windows.py::test_WIN_01_both_word_and_record_guards_required",
+    "tests/test_windows.py::test_WIN_02_final_remainder_visible_no_padded_or_reused_records",
+    "tests/test_windows.py::test_WIN_03_whole_dominant_record_and_exact_half_threshold",
+    "tests/test_windows.py::test_WIN_04_kinds_titles_languages_and_missing_times_separate"
+  ],
+  "scope": "Frozen preprocessor regressions and default product qualification/window guards using repository synthetic fixtures only."
+}

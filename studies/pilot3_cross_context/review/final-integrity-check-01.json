@@ -1,0 +1,13 @@
+{
+  "canonical_analysis_artifacts_checked": 15,
+  "case_rows": 5760,
+  "changed_frozen_artifacts": 0,
+  "errors": [],
+  "frozen_artifacts_checked": 6917,
+  "new_scores_computed": 0,
+  "report_local_links_checked": 44,
+  "scoring_freeze_sha256": "78b0f84cd0d451b3ebb53eac68ad297e959c0f273b5e5d1873ded836a374ab94",
+  "status": "pass",
+  "unit_rows": 960,
+  "verified_utc": "2026-09-14T22:41:07.631821+00:00"
+}

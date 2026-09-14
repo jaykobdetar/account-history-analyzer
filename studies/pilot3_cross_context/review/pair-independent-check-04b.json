@@ -1,0 +1,96 @@
+{
+  "checker_sha256": "dcd5d709466bf34af2beb233c06a9655562af6976a8859d6d86e79f9aeaa3ba8",
+  "checks_performed": 2851278,
+  "corpus_prose_read": false,
+  "distance_scores_computed": false,
+  "failed_checks": [],
+  "full_study_gate_passed": false,
+  "independently_recomputed": {
+    "all_history_necessary_capacity": {
+      "learnmath / math": {
+        "accounts": 238,
+        "blocks_upper_bound": 119
+      }
+    },
+    "candidate_comment_rows": 406010,
+    "eligible_records": 272259,
+    "eligible_words": 22361046,
+    "nonexcluded_comment_accounts": 138377,
+    "period_capacity_table": [
+      {
+        "community_pair": "learnmath / math",
+        "four_cell_accounts": 47,
+        "pairwise_blocks_upper_bound": 23,
+        "period_scheme": "cut2016"
+      },
+      {
+        "community_pair": "learnmath / math",
+        "four_cell_accounts": 50,
+        "pairwise_blocks_upper_bound": 25,
+        "period_scheme": "cut2017"
+      },
+      {
+        "community_pair": "learnmath / math",
+        "four_cell_accounts": 38,
+        "pairwise_blocks_upper_bound": 19,
+        "period_scheme": "cut2018"
+      },
+      {
+        "community_pair": "learnmath / math",
+        "four_cell_accounts": 19,
+        "pairwise_blocks_upper_bound": 9,
+        "period_scheme": "matched2017_2018"
+      }
+    ],
+    "preprocessed_records": 406010,
+    "preprocessing_candidate_accounts": 1190,
+    "source_records": 2022440
+  },
+  "input_hashes": {
+    "capacity.json": {
+      "bytes": 2238,
+      "sha256": "4f0f0a2cc93404cca974e2a2c3611e3146c3bccecd90f0ba1ca464951894dafc"
+    },
+    "exclusions-mandatory.json": {
+      "bytes": 38601,
+      "sha256": "cce9c7980e8cee909318051a934eb99815ad0e5df8707e07026a08ffc3cad660"
+    },
+    "gate-a-census-04b.receipt.json": {
+      "bytes": 1271,
+      "sha256": "7790b08d55261eb0722918bcc8d48dc593ef059bb58b47c5af8c7f87012329a7"
+    },
+    "gate_a_plan_v4b.json": {
+      "bytes": 5146,
+      "sha256": "8b8654c9327f5772e32edfc1bffaf2ab41bd3f58f72ef605e64264e6614cfb32"
+    },
+    "private-artifact-hashes.json": {
+      "bytes": 473,
+      "sha256": "d78e04fc3b0c1d57990480c0b2fdf01de15570112935ba1cb7d7da597177c528"
+    },
+    "resources.json": {
+      "bytes": 532,
+      "sha256": "95edcd02113f4986f1882c507ec6c5f694686883321669e684997552d5174e74"
+    },
+    "second-pass-source-binding.json": {
+      "bytes": 252,
+      "sha256": "36b652a7901e04b8024872ee1ac7e525b807102f510c5c90c1ed092135290363"
+    },
+    "source-inventory.json": {
+      "bytes": 4225,
+      "sha256": "0ea273536989905d24ab48360460691c0245a14939894ed8409cc22f49404f3f"
+    },
+    "start-binding.json": {
+      "bytes": 1128,
+      "sha256": "3dd25c6a92a48bece0e777c2af6b3aba573c9c87608fe9c40d4d9fe097bc034f"
+    }
+  },
+  "limitations": [
+    "Record source-line digests are checked for form and uniqueness; original prose is not reopened to rederive those digests.",
+    "Original ZIP-member counts and digests are bound to the fresh census inventory and logs; optional archive verification rehashes compressed bytes only.",
+    "Preprocessing retained counts are reconciled from private records, not recomputed from original prose; synthetic tests separately exercise the frozen preprocessor.",
+    "Single-pair optimal allocation is independently checked as min(20, 2*floor(eligible_accounts/2)); the full three-stratum study gate is not evaluated here.",
+    "Excluded identity checks establish absence from published private preprocessing rows, not a runtime access trace."
+  ],
+  "single_pair_contract_checked": true,
+  "status": "pass"
+}

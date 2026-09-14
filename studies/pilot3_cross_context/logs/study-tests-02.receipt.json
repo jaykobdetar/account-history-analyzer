@@ -1,0 +1,34 @@
+{
+  "argv": [
+    "env",
+    "PYTHONPATH=<PINNED_INSTALL>",
+    ".venv/bin/python",
+    "scripts/offline_exec.py",
+    ".venv/bin/python",
+    "-m",
+    "pytest",
+    "-q",
+    "studies/pilot3_cross_context/tests/test_census.py",
+    "studies/pilot3_cross_context/tests/test_study_math.py",
+    "studies/pilot3_cross_context/tests/test_expanded_capacity.py",
+    "studies/pilot3_cross_context/tests/test_check_expanded_census.py",
+    "studies/pilot3_cross_context/tests/test_prepare_units.py"
+  ],
+  "cwd": "<WORKSPACE>",
+  "started_utc": "2026-09-14T21:22:09.491511+00:00",
+  "finished_utc": "2026-09-14T21:22:16.436628+00:00",
+  "exit_code": 0,
+  "wall_seconds": 6.945122278993949,
+  "child_peak_rss_mib": 57.78125,
+  "runner_sha256": "4d94adb7a06ec38cc6f5b4fe55f801e87bbdcff712139146d53f55a2928eb2a4",
+  "outputs": {
+    "stdout.log": {
+      "bytes": 180,
+      "sha256": "1181b7f564a84206f766d0c9bfdf20a8bd7a64618b7561aec82d257560888f3a"
+    },
+    "stderr.log": {
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    }
+  }
+}

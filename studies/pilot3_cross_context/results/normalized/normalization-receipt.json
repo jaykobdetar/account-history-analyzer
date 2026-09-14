@@ -1,0 +1,15 @@
+{
+  "status": "complete_sanitized_extraction",
+  "case_rows": 5760,
+  "unit_rows": 960,
+  "scoring_freeze_sha256": "78b0f84cd0d451b3ebb53eac68ad297e959c0f273b5e5d1873ded836a374ab94",
+  "source_execution_index_sha256": "2737b512bc5e8fb5c4bd9496435bbacc58d4a2f008e5bc558886c7d1c88d38b7",
+  "script_sha256": "8158d79e9b53310b2a72e975699c899a5bbc1aba7e800fb4b0811567f3675296",
+  "files": {
+    "cases.json": "93d05da05ba5c522db7af82a9f5e9d94e7bcbe3c4fefd739c44d58da9ce92cfa",
+    "units.json": "62265297d6e8499fb49d3648c3e1c110bdf14f7b31b690fde5682864a04d89cd",
+    "dependencies.json": "a1a6a03eb76001fcd77c37e76916db30c1ae5f6cf67009a4461063ddde97a4ea",
+    "batch-resources.json": "fc41ed72681ec597f3f3dde53322d2d1be5bd7fb61e1de38afb2c52254fef690"
+  },
+  "style_scores_recomputed": 0
+}

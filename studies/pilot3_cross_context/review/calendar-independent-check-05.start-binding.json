@@ -1,0 +1,23 @@
+{
+  "phase": "before_independent_final_calendar_input_reads",
+  "utc": "2026-09-14T22:00:06.599398+00:00",
+  "scripts": {
+    "check_final_calendar.py": {
+      "sha256": "053e1369d2fd72ee04a049f635b199a3adfc9df64f84988637f002dcb7c4ffc9",
+      "bytes": 18003
+    },
+    "check_calendar_census.py": {
+      "sha256": "0fc5552b4a8ffbb14e0c00df18509db3d02633e22c538c3b08ea51c1611b5e0e",
+      "bytes": 19166
+    }
+  },
+  "limits": {
+    "metadata_rows": 500000,
+    "wall_seconds": 300,
+    "address_space_bytes": 4294967296,
+    "output_bytes": 104857600
+  },
+  "original_prose_reads": 0,
+  "preprocessing_calls": 0,
+  "style_scores_computed": 0
+}

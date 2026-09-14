@@ -1,0 +1,15 @@
+{
+  "status": "frozen_before_candidate_assembly",
+  "utc": "2026-09-14T21:53:58.430907+00:00",
+  "style_scores_computed": 0,
+  "files": {
+    "protocol/candidate_preparation_plan_v2.json": "6dd41a716bd08e529cc2e549a61ef4f33926a514a21b09f6a968c9e9435b952f",
+    "protocol/GATE_B_SELECTION_RULES.md": "7e3e14be69262d687cb5467e2d8f400e98a1b0f04705fd789784de8a3fea158f",
+    "scripts/prepare_candidate_pool.py": "df86974e65615c7d0958de30dc9901a6a06277403e1f603f1eb839f17df6f566",
+    "scripts/cohort_selection.py": "011ae6facea25ab0ad3fa41866899eded0873049148b272dfb412e69313721d7",
+    "scripts/study_math.py": "267d413c97a8b6ea6e47071cc818adb44c82beafa3d74cd943ecc8127858013e",
+    "tests/test_candidate_pool_integration.py": "b343b483a1bd4153820f174506657d812870cfb466804a15f3985db0d68b84b2",
+    "tests/test_cohort_selection.py": "0c992a820f347d98f92df80edaa9a4dfe40672f17c43ccbaf628611d8d0036f5",
+    "logs/candidate-preparation-tests-final-attempt02.receipt.json": "0af007b02b68e3a99a1b82dc10d5970d5029d7b58070ae47e043d94a7341c16c"
+  }
+}

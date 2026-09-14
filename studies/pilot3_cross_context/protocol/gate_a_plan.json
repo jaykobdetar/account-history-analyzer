@@ -1,0 +1,29 @@
+{
+  "study_id": "ahas-pilot3-cross-context-20260914",
+  "phase": "score-free feasibility only; not a scoring registration",
+  "baseline_commit": "ea41d82ecc3f6585a7dc2bca92ede34740f0b62d",
+  "implementation_fingerprint": "bfc989028bf2b47c506d1ba501287d4e362aadc25ca5c731c41e4b27a336e179",
+  "analysis_config_sha256": "8fd0239fe2f87c9f1506786ac36099fe996e00cc6e021b3ecc67fbb65cd2d925",
+  "sources": [
+    {"community": "ApplyingToCollege", "archive": "ahas-pilot2-20260914/data/ApplyingToCollege.corpus.zip", "sha256": "046d9d2566b03dfbaa17d7d62f4311083a39897d2e35d170043e3be2e6a242e5", "bytes": 155300755},
+    {"community": "Cornell", "archive": "ahas-realworld-review/inputs/Cornell.corpus.zip", "sha256": "f153a56a343e6d9568d90b635d44d1ccca71479ac19cd28e075587485bad715d", "bytes": 11186877},
+    {"community": "college", "archive": "ahas-pilot2-20260914/data/college.corpus.zip", "sha256": "31a124155a303bdb3e0e91a1a97c48964ccfffa14585b5088b94935660722aa9", "bytes": 133664381}
+  ],
+  "limits": {"new_corpus_downloads": 0, "source_passes": 2, "max_source_rows_per_pass": 2100000, "max_preprocessed_records": 500000, "max_wall_seconds": 1800, "max_address_space_bytes": 4294967296, "max_source_uncompressed_bytes_per_pass": 1300000000, "max_private_output_bytes": 536870912},
+  "target": {"accounts": 60, "blocks": 30, "strata": 3, "accounts_per_stratum": 20, "blocks_per_stratum": 10, "words_per_cell": 2000, "eligible_records_per_cell": 8},
+  "community_pairs": [["ApplyingToCollege", "Cornell"], ["ApplyingToCollege", "college"], ["Cornell", "college"]],
+  "period_schemes": [
+    {"id": "cut2016", "early": ["2008-01-01", "2016-01-01"], "late": ["2016-01-01", "2018-11-01"]},
+    {"id": "cut2017", "early": ["2008-01-01", "2017-01-01"], "late": ["2017-01-01", "2018-11-01"]},
+    {"id": "cut2018", "early": ["2008-01-01", "2018-01-01"], "late": ["2018-01-01", "2018-11-01"]},
+    {"id": "matched2017_2018", "early": ["2017-01-01", "2017-10-01"], "late": ["2018-01-01", "2018-10-01"]}
+  ],
+  "eligibility": "Original present comments, valid original integer UTC timestamp, declared corpus-level English assumption, frozen markdown preprocessing, usable body, >=20 retained word tokens. No per-record verified-English claim. Exclude source-account identities before preprocessing.",
+  "safe_metadata_prefilter": "Preprocess all nonexcluded accounts with at least16 present timestamped original comments in each of at least2 communities across the entire archives. Accounts failing this necessary record-count condition cannot supply two cells of8 records. No raw-volume rank or style-based shortlist.",
+  "upper_bound": "Count accounts with >=4000 eligible retained words and >=16 eligible records in each community over all observed dates. This is only a necessary condition for any two disjoint2000-word/eight-record periods, not feasible cell qualification.",
+  "date_choice": "For each pair, prefer the scheme with most accounts meeting all4 cells; then smallest sum of squared differences between early and late calendar durations; then scheme id. Availability only. Keep all scheme results. If target fails, dates are proposals only.",
+  "disjoint_capacity": "Enumerate all triples of even account quotas0..20 per pair and use exact account-to-stratum bipartite capacity matching. Maximize total blocks, then sorted ascending quota vector lexicographically (balanced leximin quotas), then quota tuple in sorted stratum order lexicographically. Report per-pair upper bounds separately from globally disjoint capacity. This produces a capacity witness, not a final cohort.",
+  "source_and_exclusion_audit": "Fresh ZIP hashes, utterance hashes/counts/date ranges/field availability/duplicate IDs. Prior source-account maps only, including paired reserve identifiers; exclude all pilot1 and pilot2 paired/chronological and private-export accounts. Record known earlier capacity inspection separately. Never load reserve writing or feature vectors for design.",
+  "gate": "No distances, no style-profile generation for selection, no change search and no final cohort. If any required quota fails before contamination filtering, Gate A fails. Do not quietly reduce targets. Gate B registration and scoring are conditional on Gate A and complete leakage audits.",
+  "privacy": "Only aggregate counts, code and archive hashes in repository. Original account IDs, record IDs and per-account metadata stay in separate private visualization storage. No prose exported by census. Hashes are not claimed to anonymize text. Existing archives have authorized local-use history; redistribution license not established."
+}

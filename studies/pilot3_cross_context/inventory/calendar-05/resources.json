@@ -1,0 +1,16 @@
+{
+  "limits": {
+    "address_space_bytes": 4294967296,
+    "metadata_rows": 500000,
+    "private_output_bytes": 104857600,
+    "wall_seconds": 300
+  },
+  "metadata_rows": 406010,
+  "peak_rss_mib": 313.03515625,
+  "preprocessing_calls": 0,
+  "prior_metadata_bytes_rehashed": 128927505,
+  "private_output_bytes": 35377,
+  "resource_outcome": "completed_within_predeclared_limits",
+  "source_prose_reads": 0,
+  "wall_seconds": 1.7269014199846424
+}

@@ -1,0 +1,220 @@
+{
+  "status": "acquired",
+  "plan_sha256": "531623174f82c413c58c14b9f24c2952d449d462e123a799415ff0773cf68dca",
+  "script_sha256": "4ab502e442b74eb25fed6f68450841b2ce90dbca79b1a1db35a3748647b0ec3c",
+  "source_count": 5,
+  "total_bytes": 284210124,
+  "wall_seconds": 44.59810553700663,
+  "sources": [
+    {
+      "community": "AskAcademia",
+      "url": "https://zissou.infosci.cornell.edu/convokit/datasets/subreddit-corpus/corpus-zipped/AsianHottiesGIFS~-~AskDocs/AskAcademia.corpus.zip",
+      "bytes": 56041807,
+      "sha256": "70516bf375fe9a6ca738f03d1a4d92523ff45fad6f8660c0d67ce5da01aa234a",
+      "bytes_received": 56041807,
+      "started_utc": "2026-09-14T21:10:00.194313+00:00",
+      "finished_utc": "2026-09-14T21:10:15.260970+00:00",
+      "headers": {
+        "Content-Length": "56041807",
+        "Content-Type": "application/zip",
+        "Last-Modified": "Wed, 30 Oct 2019 01:38:05 GMT",
+        "ETag": "\"5db8e97d-357214f\""
+      },
+      "members": [
+        {
+          "name": "users.json",
+          "bytes": 492001,
+          "compressed_bytes": 203604
+        },
+        {
+          "name": "conversations.json",
+          "bytes": 6472640,
+          "compressed_bytes": 1119534
+        },
+        {
+          "name": "corpus.json",
+          "bytes": 91,
+          "compressed_bytes": 75
+        },
+        {
+          "name": "index.json",
+          "bytes": 836,
+          "compressed_bytes": 231
+        },
+        {
+          "name": "utterances.jsonl",
+          "bytes": 200603385,
+          "compressed_bytes": 54717831
+        }
+      ]
+    },
+    {
+      "community": "GradSchool",
+      "url": "https://zissou.infosci.cornell.edu/convokit/datasets/subreddit-corpus/corpus-zipped/GonewildPorn~-~GrandTheftAutoV/GradSchool.corpus.zip",
+      "bytes": 75834080,
+      "sha256": "420a9ff24f17a05e64e0648d9ef883518eef5b3db875e1590bf63625e37f7125",
+      "bytes_received": 75834080,
+      "started_utc": "2026-09-14T21:10:15.261076+00:00",
+      "finished_utc": "2026-09-14T21:10:21.583682+00:00",
+      "headers": {
+        "Content-Length": "75834080",
+        "Content-Type": "application/zip",
+        "Last-Modified": "Wed, 30 Oct 2019 09:44:51 GMT",
+        "ETag": "\"5db95b93-48522e0\""
+      },
+      "members": [
+        {
+          "name": "users.json",
+          "bytes": 687480,
+          "compressed_bytes": 283962
+        },
+        {
+          "name": "conversations.json",
+          "bytes": 10088929,
+          "compressed_bytes": 1753315
+        },
+        {
+          "name": "corpus.json",
+          "bytes": 90,
+          "compressed_bytes": 74
+        },
+        {
+          "name": "index.json",
+          "bytes": 836,
+          "compressed_bytes": 231
+        },
+        {
+          "name": "utterances.jsonl",
+          "bytes": 273914029,
+          "compressed_bytes": 73795966
+        }
+      ]
+    },
+    {
+      "community": "PhD",
+      "url": "https://zissou.infosci.cornell.edu/convokit/datasets/subreddit-corpus/corpus-zipped/Pewdiepie_Felix~-~PhotoshopTutorials/PhD.corpus.zip",
+      "bytes": 3946669,
+      "sha256": "be79efb580ce1a87cabda388bdf8f50c18f6de292de78659fcbd6591d2916e42",
+      "bytes_received": 3946669,
+      "started_utc": "2026-09-14T21:10:21.583797+00:00",
+      "finished_utc": "2026-09-14T21:10:23.185930+00:00",
+      "headers": {
+        "Content-Length": "3946669",
+        "Content-Type": "application/zip",
+        "Last-Modified": "Wed, 30 Oct 2019 17:12:35 GMT",
+        "ETag": "\"5db9c483-3c38ad\""
+      },
+      "members": [
+        {
+          "name": "users.json",
+          "bytes": 72919,
+          "compressed_bytes": 30730
+        },
+        {
+          "name": "conversations.json",
+          "bytes": 716473,
+          "compressed_bytes": 126189
+        },
+        {
+          "name": "corpus.json",
+          "bytes": 80,
+          "compressed_bytes": 66
+        },
+        {
+          "name": "index.json",
+          "bytes": 836,
+          "compressed_bytes": 231
+        },
+        {
+          "name": "utterances.jsonl",
+          "bytes": 14206111,
+          "compressed_bytes": 3788921
+        }
+      ]
+    },
+    {
+      "community": "Physics",
+      "url": "https://zissou.infosci.cornell.edu/convokit/datasets/subreddit-corpus/corpus-zipped/PhotoshopTutorialsPro~-~PirateParty/Physics.corpus.zip",
+      "bytes": 100767614,
+      "sha256": "e3409d3b2d537f83330e1337423c90eeeddbcca69468c7fc66e054a84a393e64",
+      "bytes_received": 100767614,
+      "started_utc": "2026-09-14T21:10:23.186040+00:00",
+      "finished_utc": "2026-09-14T21:10:42.500192+00:00",
+      "headers": {
+        "Content-Length": "100767614",
+        "Content-Type": "application/zip",
+        "Last-Modified": "Wed, 30 Oct 2019 00:40:24 GMT",
+        "ETag": "\"5db8dbf8-601977e\""
+      },
+      "members": [
+        {
+          "name": "users.json",
+          "bytes": 1450503,
+          "compressed_bytes": 602469
+        },
+        {
+          "name": "conversations.json",
+          "bytes": 17038015,
+          "compressed_bytes": 3189779
+        },
+        {
+          "name": "corpus.json",
+          "bytes": 87,
+          "compressed_bytes": 73
+        },
+        {
+          "name": "index.json",
+          "bytes": 836,
+          "compressed_bytes": 231
+        },
+        {
+          "name": "utterances.jsonl",
+          "bytes": 390216381,
+          "compressed_bytes": 96974530
+        }
+      ]
+    },
+    {
+      "community": "AskPhysics",
+      "url": "https://zissou.infosci.cornell.edu/convokit/datasets/subreddit-corpus/corpus-zipped/AskMen2~-~AskReddit/AskPhysics.corpus.zip",
+      "bytes": 47619954,
+      "sha256": "7c4af5f5fa07adc39ff7df3fc49d23fcff906b3d64a8afde3eafa31720d410b2",
+      "bytes_received": 47619954,
+      "started_utc": "2026-09-14T21:10:42.500314+00:00",
+      "finished_utc": "2026-09-14T21:10:44.792267+00:00",
+      "headers": {
+        "Content-Length": "47619954",
+        "Content-Type": "application/zip",
+        "Last-Modified": "Thu, 31 Oct 2019 04:58:14 GMT",
+        "ETag": "\"5dba69e6-2d69f72\""
+      },
+      "members": [
+        {
+          "name": "users.json",
+          "bytes": 471739,
+          "compressed_bytes": 197475
+        },
+        {
+          "name": "conversations.json",
+          "bytes": 10533681,
+          "compressed_bytes": 1719882
+        },
+        {
+          "name": "corpus.json",
+          "bytes": 90,
+          "compressed_bytes": 75
+        },
+        {
+          "name": "index.json",
+          "bytes": 836,
+          "compressed_bytes": 231
+        },
+        {
+          "name": "utterances.jsonl",
+          "bytes": 176472936,
+          "compressed_bytes": 45701759
+        }
+      ]
+    }
+  ]
+}

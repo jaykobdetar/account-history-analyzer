@@ -1,0 +1,585 @@
+...................EEEEEEEEE.EEEEEE.E................................... [ 17%]
+........................................................................ [ 34%]
+........................................................................ [ 52%]
+........................................................................ [ 69%]
+........................................................................ [ 86%]
+......................................................                   [100%]
+==================================== ERRORS ====================================
+___ ERROR at setup of test_cross_cell_exact_content_is_symmetrically_purged ____
+
+    @pytest.fixture(scope='module')
+    def engine():
+        path = Path(os.environ.get('AHAS_PILOT3_ENGINE_PATH',
+            str(Path(__file__).resolve().parents[2] / 'pilot2/scripts/leakage_audit.py')))
+>       return wrapper.load_engine(path)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^
+
+studies/pilot3_cross_context/tests/test_audit_candidates.py:23: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+studies/pilot3_cross_context/scripts/audit_candidates.py:53: in load_engine
+    require(file_sha(path) == ENGINE_SHA256, 'frozen_audit_engine_hash_mismatch')
+            ^^^^^^^^^^^^^^
+studies/pilot3_cross_context/scripts/audit_candidates.py:43: in file_sha
+    with Path(path).open('rb') as handle:
+         ^^^^^^^^^^^^^^^^^^^^^
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+self = PosixPath('<WORKSPACE>/studies/pilot2/scripts/leakage_audit.py')
+mode = 'rb', buffering = -1, encoding = None, errors = None, newline = None
+
+    def open(self, mode='r', buffering=-1, encoding=None,
+             errors=None, newline=None):
+        """
+        Open the file pointed by this path and return a file object, as
+        the built-in open() function does.
+        """
+        if "b" not in mode:
+            encoding = io.text_encoding(encoding)
+>       return io.open(self, mode, buffering, encoding, errors, newline)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+E       FileNotFoundError: [Errno 2] No such file or directory: '<WORKSPACE>/studies/pilot2/scripts/leakage_audit.py'
+
+/usr/lib/python3.12/pathlib.py:1015: FileNotFoundError
+_ ERROR at setup of test_same_cell_content_and_planned_anchor_reuse_are_not_cross_cell_purges _
+
+    @pytest.fixture(scope='module')
+    def engine():
+        path = Path(os.environ.get('AHAS_PILOT3_ENGINE_PATH',
+            str(Path(__file__).resolve().parents[2] / 'pilot2/scripts/leakage_audit.py')))
+>       return wrapper.load_engine(path)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^
+
+studies/pilot3_cross_context/tests/test_audit_candidates.py:23: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+studies/pilot3_cross_context/scripts/audit_candidates.py:53: in load_engine
+    require(file_sha(path) == ENGINE_SHA256, 'frozen_audit_engine_hash_mismatch')
+            ^^^^^^^^^^^^^^
+studies/pilot3_cross_context/scripts/audit_candidates.py:43: in file_sha
+    with Path(path).open('rb') as handle:
+         ^^^^^^^^^^^^^^^^^^^^^
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+self = PosixPath('<WORKSPACE>/studies/pilot2/scripts/leakage_audit.py')
+mode = 'rb', buffering = -1, encoding = None, errors = None, newline = None
+
+    def open(self, mode='r', buffering=-1, encoding=None,
+             errors=None, newline=None):
+        """
+        Open the file pointed by this path and return a file object, as
+        the built-in open() function does.
+        """
+        if "b" not in mode:
+            encoding = io.text_encoding(encoding)
+>       return io.open(self, mode, buffering, encoding, errors, newline)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+E       FileNotFoundError: [Errno 2] No such file or directory: '<WORKSPACE>/studies/pilot2/scripts/leakage_audit.py'
+
+/usr/lib/python3.12/pathlib.py:1015: FileNotFoundError
+_ ERROR at setup of test_cross_cell_threads_are_purged_without_content_similarity _
+
+    @pytest.fixture(scope='module')
+    def engine():
+        path = Path(os.environ.get('AHAS_PILOT3_ENGINE_PATH',
+            str(Path(__file__).resolve().parents[2] / 'pilot2/scripts/leakage_audit.py')))
+>       return wrapper.load_engine(path)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^
+
+studies/pilot3_cross_context/tests/test_audit_candidates.py:23: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+studies/pilot3_cross_context/scripts/audit_candidates.py:53: in load_engine
+    require(file_sha(path) == ENGINE_SHA256, 'frozen_audit_engine_hash_mismatch')
+            ^^^^^^^^^^^^^^
+studies/pilot3_cross_context/scripts/audit_candidates.py:43: in file_sha
+    with Path(path).open('rb') as handle:
+         ^^^^^^^^^^^^^^^^^^^^^
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+self = PosixPath('<WORKSPACE>/studies/pilot2/scripts/leakage_audit.py')
+mode = 'rb', buffering = -1, encoding = None, errors = None, newline = None
+
+    def open(self, mode='r', buffering=-1, encoding=None,
+             errors=None, newline=None):
+        """
+        Open the file pointed by this path and return a file object, as
+        the built-in open() function does.
+        """
+        if "b" not in mode:
+            encoding = io.text_encoding(encoding)
+>       return io.open(self, mode, buffering, encoding, errors, newline)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+E       FileNotFoundError: [Errno 2] No such file or directory: '<WORKSPACE>/studies/pilot2/scripts/leakage_audit.py'
+
+/usr/lib/python3.12/pathlib.py:1015: FileNotFoundError
+_ ERROR at setup of test_reserve_content_and_historical_threads_protect_new_candidates _
+
+    @pytest.fixture(scope='module')
+    def engine():
+        path = Path(os.environ.get('AHAS_PILOT3_ENGINE_PATH',
+            str(Path(__file__).resolve().parents[2] / 'pilot2/scripts/leakage_audit.py')))
+>       return wrapper.load_engine(path)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^
+
+studies/pilot3_cross_context/tests/test_audit_candidates.py:23: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+studies/pilot3_cross_context/scripts/audit_candidates.py:53: in load_engine
+    require(file_sha(path) == ENGINE_SHA256, 'frozen_audit_engine_hash_mismatch')
+            ^^^^^^^^^^^^^^
+studies/pilot3_cross_context/scripts/audit_candidates.py:43: in file_sha
+    with Path(path).open('rb') as handle:
+         ^^^^^^^^^^^^^^^^^^^^^
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+self = PosixPath('<WORKSPACE>/studies/pilot2/scripts/leakage_audit.py')
+mode = 'rb', buffering = -1, encoding = None, errors = None, newline = None
+
+    def open(self, mode='r', buffering=-1, encoding=None,
+             errors=None, newline=None):
+        """
+        Open the file pointed by this path and return a file object, as
+        the built-in open() function does.
+        """
+        if "b" not in mode:
+            encoding = io.text_encoding(encoding)
+>       return io.open(self, mode, buffering, encoding, errors, newline)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+E       FileNotFoundError: [Errno 2] No such file or directory: '<WORKSPACE>/studies/pilot2/scripts/leakage_audit.py'
+
+/usr/lib/python3.12/pathlib.py:1015: FileNotFoundError
+_ ERROR at setup of test_historical_overlap_alone_does_not_choose_new_participants _
+
+    @pytest.fixture(scope='module')
+    def engine():
+        path = Path(os.environ.get('AHAS_PILOT3_ENGINE_PATH',
+            str(Path(__file__).resolve().parents[2] / 'pilot2/scripts/leakage_audit.py')))
+>       return wrapper.load_engine(path)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^
+
+studies/pilot3_cross_context/tests/test_audit_candidates.py:23: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+studies/pilot3_cross_context/scripts/audit_candidates.py:53: in load_engine
+    require(file_sha(path) == ENGINE_SHA256, 'frozen_audit_engine_hash_mismatch')
+            ^^^^^^^^^^^^^^
+studies/pilot3_cross_context/scripts/audit_candidates.py:43: in file_sha
+    with Path(path).open('rb') as handle:
+         ^^^^^^^^^^^^^^^^^^^^^
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+self = PosixPath('<WORKSPACE>/studies/pilot2/scripts/leakage_audit.py')
+mode = 'rb', buffering = -1, encoding = None, errors = None, newline = None
+
+    def open(self, mode='r', buffering=-1, encoding=None,
+             errors=None, newline=None):
+        """
+        Open the file pointed by this path and return a file object, as
+        the built-in open() function does.
+        """
+        if "b" not in mode:
+            encoding = io.text_encoding(encoding)
+>       return io.open(self, mode, buffering, encoding, errors, newline)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+E       FileNotFoundError: [Errno 2] No such file or directory: '<WORKSPACE>/studies/pilot2/scripts/leakage_audit.py'
+
+/usr/lib/python3.12/pathlib.py:1015: FileNotFoundError
+_ ERROR at setup of test_template_and_recognized_blockquote_relations_use_frozen_engine _
+
+    @pytest.fixture(scope='module')
+    def engine():
+        path = Path(os.environ.get('AHAS_PILOT3_ENGINE_PATH',
+            str(Path(__file__).resolve().parents[2] / 'pilot2/scripts/leakage_audit.py')))
+>       return wrapper.load_engine(path)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^
+
+studies/pilot3_cross_context/tests/test_audit_candidates.py:23: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+studies/pilot3_cross_context/scripts/audit_candidates.py:53: in load_engine
+    require(file_sha(path) == ENGINE_SHA256, 'frozen_audit_engine_hash_mismatch')
+            ^^^^^^^^^^^^^^
+studies/pilot3_cross_context/scripts/audit_candidates.py:43: in file_sha
+    with Path(path).open('rb') as handle:
+         ^^^^^^^^^^^^^^^^^^^^^
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+self = PosixPath('<WORKSPACE>/studies/pilot2/scripts/leakage_audit.py')
+mode = 'rb', buffering = -1, encoding = None, errors = None, newline = None
+
+    def open(self, mode='r', buffering=-1, encoding=None,
+             errors=None, newline=None):
+        """
+        Open the file pointed by this path and return a file object, as
+        the built-in open() function does.
+        """
+        if "b" not in mode:
+            encoding = io.text_encoding(encoding)
+>       return io.open(self, mode, buffering, encoding, errors, newline)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+E       FileNotFoundError: [Errno 2] No such file or directory: '<WORKSPACE>/studies/pilot2/scripts/leakage_audit.py'
+
+/usr/lib/python3.12/pathlib.py:1015: FileNotFoundError
+_ ERROR at setup of test_unavailable_historical_body_keeps_unknown_content_disclosure _
+
+    @pytest.fixture(scope='module')
+    def engine():
+        path = Path(os.environ.get('AHAS_PILOT3_ENGINE_PATH',
+            str(Path(__file__).resolve().parents[2] / 'pilot2/scripts/leakage_audit.py')))
+>       return wrapper.load_engine(path)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^
+
+studies/pilot3_cross_context/tests/test_audit_candidates.py:23: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+studies/pilot3_cross_context/scripts/audit_candidates.py:53: in load_engine
+    require(file_sha(path) == ENGINE_SHA256, 'frozen_audit_engine_hash_mismatch')
+            ^^^^^^^^^^^^^^
+studies/pilot3_cross_context/scripts/audit_candidates.py:43: in file_sha
+    with Path(path).open('rb') as handle:
+         ^^^^^^^^^^^^^^^^^^^^^
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+self = PosixPath('<WORKSPACE>/studies/pilot2/scripts/leakage_audit.py')
+mode = 'rb', buffering = -1, encoding = None, errors = None, newline = None
+
+    def open(self, mode='r', buffering=-1, encoding=None,
+             errors=None, newline=None):
+        """
+        Open the file pointed by this path and return a file object, as
+        the built-in open() function does.
+        """
+        if "b" not in mode:
+            encoding = io.text_encoding(encoding)
+>       return io.open(self, mode, buffering, encoding, errors, newline)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+E       FileNotFoundError: [Errno 2] No such file or directory: '<WORKSPACE>/studies/pilot2/scripts/leakage_audit.py'
+
+/usr/lib/python3.12/pathlib.py:1015: FileNotFoundError
+_ ERROR at setup of test_missing_new_thread_fails_and_missing_old_thread_cannot_pass_gate _
+
+    @pytest.fixture(scope='module')
+    def engine():
+        path = Path(os.environ.get('AHAS_PILOT3_ENGINE_PATH',
+            str(Path(__file__).resolve().parents[2] / 'pilot2/scripts/leakage_audit.py')))
+>       return wrapper.load_engine(path)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^
+
+studies/pilot3_cross_context/tests/test_audit_candidates.py:23: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+studies/pilot3_cross_context/scripts/audit_candidates.py:53: in load_engine
+    require(file_sha(path) == ENGINE_SHA256, 'frozen_audit_engine_hash_mismatch')
+            ^^^^^^^^^^^^^^
+studies/pilot3_cross_context/scripts/audit_candidates.py:43: in file_sha
+    with Path(path).open('rb') as handle:
+         ^^^^^^^^^^^^^^^^^^^^^
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+self = PosixPath('<WORKSPACE>/studies/pilot2/scripts/leakage_audit.py')
+mode = 'rb', buffering = -1, encoding = None, errors = None, newline = None
+
+    def open(self, mode='r', buffering=-1, encoding=None,
+             errors=None, newline=None):
+        """
+        Open the file pointed by this path and return a file object, as
+        the built-in open() function does.
+        """
+        if "b" not in mode:
+            encoding = io.text_encoding(encoding)
+>       return io.open(self, mode, buffering, encoding, errors, newline)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+E       FileNotFoundError: [Errno 2] No such file or directory: '<WORKSPACE>/studies/pilot2/scripts/leakage_audit.py'
+
+/usr/lib/python3.12/pathlib.py:1015: FileNotFoundError
+_ ERROR at setup of test_submission_titles_are_separate_exact_protection_without_mutation _
+
+    @pytest.fixture(scope='module')
+    def engine():
+        path = Path(os.environ.get('AHAS_PILOT3_ENGINE_PATH',
+            str(Path(__file__).resolve().parents[2] / 'pilot2/scripts/leakage_audit.py')))
+>       return wrapper.load_engine(path)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^
+
+studies/pilot3_cross_context/tests/test_audit_candidates.py:23: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+studies/pilot3_cross_context/scripts/audit_candidates.py:53: in load_engine
+    require(file_sha(path) == ENGINE_SHA256, 'frozen_audit_engine_hash_mismatch')
+            ^^^^^^^^^^^^^^
+studies/pilot3_cross_context/scripts/audit_candidates.py:43: in file_sha
+    with Path(path).open('rb') as handle:
+         ^^^^^^^^^^^^^^^^^^^^^
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+self = PosixPath('<WORKSPACE>/studies/pilot2/scripts/leakage_audit.py')
+mode = 'rb', buffering = -1, encoding = None, errors = None, newline = None
+
+    def open(self, mode='r', buffering=-1, encoding=None,
+             errors=None, newline=None):
+        """
+        Open the file pointed by this path and return a file object, as
+        the built-in open() function does.
+        """
+        if "b" not in mode:
+            encoding = io.text_encoding(encoding)
+>       return io.open(self, mode, buffering, encoding, errors, newline)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+E       FileNotFoundError: [Errno 2] No such file or directory: '<WORKSPACE>/studies/pilot2/scripts/leakage_audit.py'
+
+/usr/lib/python3.12/pathlib.py:1015: FileNotFoundError
+______ ERROR at setup of test_no_original_or_account_reuse_across_history ______
+
+    @pytest.fixture(scope='module')
+    def engine():
+        path = Path(os.environ.get('AHAS_PILOT3_ENGINE_PATH',
+            str(Path(__file__).resolve().parents[2] / 'pilot2/scripts/leakage_audit.py')))
+>       return wrapper.load_engine(path)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^
+
+studies/pilot3_cross_context/tests/test_audit_candidates.py:23: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+studies/pilot3_cross_context/scripts/audit_candidates.py:53: in load_engine
+    require(file_sha(path) == ENGINE_SHA256, 'frozen_audit_engine_hash_mismatch')
+            ^^^^^^^^^^^^^^
+studies/pilot3_cross_context/scripts/audit_candidates.py:43: in file_sha
+    with Path(path).open('rb') as handle:
+         ^^^^^^^^^^^^^^^^^^^^^
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+self = PosixPath('<WORKSPACE>/studies/pilot2/scripts/leakage_audit.py')
+mode = 'rb', buffering = -1, encoding = None, errors = None, newline = None
+
+    def open(self, mode='r', buffering=-1, encoding=None,
+             errors=None, newline=None):
+        """
+        Open the file pointed by this path and return a file object, as
+        the built-in open() function does.
+        """
+        if "b" not in mode:
+            encoding = io.text_encoding(encoding)
+>       return io.open(self, mode, buffering, encoding, errors, newline)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+E       FileNotFoundError: [Errno 2] No such file or directory: '<WORKSPACE>/studies/pilot2/scripts/leakage_audit.py'
+
+/usr/lib/python3.12/pathlib.py:1015: FileNotFoundError
+_ ERROR at setup of test_independent_broad_pairs_include_pairs_that_are_not_near _
+
+    @pytest.fixture(scope='module')
+    def engine():
+        path = Path(os.environ.get('AHAS_PILOT3_ENGINE_PATH',
+            str(Path(__file__).resolve().parents[2] / 'pilot2/scripts/leakage_audit.py')))
+>       return wrapper.load_engine(path)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^
+
+studies/pilot3_cross_context/tests/test_audit_candidates.py:23: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+studies/pilot3_cross_context/scripts/audit_candidates.py:53: in load_engine
+    require(file_sha(path) == ENGINE_SHA256, 'frozen_audit_engine_hash_mismatch')
+            ^^^^^^^^^^^^^^
+studies/pilot3_cross_context/scripts/audit_candidates.py:43: in file_sha
+    with Path(path).open('rb') as handle:
+         ^^^^^^^^^^^^^^^^^^^^^
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+self = PosixPath('<WORKSPACE>/studies/pilot2/scripts/leakage_audit.py')
+mode = 'rb', buffering = -1, encoding = None, errors = None, newline = None
+
+    def open(self, mode='r', buffering=-1, encoding=None,
+             errors=None, newline=None):
+        """
+        Open the file pointed by this path and return a file object, as
+        the built-in open() function does.
+        """
+        if "b" not in mode:
+            encoding = io.text_encoding(encoding)
+>       return io.open(self, mode, buffering, encoding, errors, newline)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+E       FileNotFoundError: [Errno 2] No such file or directory: '<WORKSPACE>/studies/pilot2/scripts/leakage_audit.py'
+
+/usr/lib/python3.12/pathlib.py:1015: FileNotFoundError
+_ ERROR at setup of test_broad_pairs_include_repetitive_records_ineligible_for_engine_candidates _
+
+    @pytest.fixture(scope='module')
+    def engine():
+        path = Path(os.environ.get('AHAS_PILOT3_ENGINE_PATH',
+            str(Path(__file__).resolve().parents[2] / 'pilot2/scripts/leakage_audit.py')))
+>       return wrapper.load_engine(path)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^
+
+studies/pilot3_cross_context/tests/test_audit_candidates.py:23: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+studies/pilot3_cross_context/scripts/audit_candidates.py:53: in load_engine
+    require(file_sha(path) == ENGINE_SHA256, 'frozen_audit_engine_hash_mismatch')
+            ^^^^^^^^^^^^^^
+studies/pilot3_cross_context/scripts/audit_candidates.py:43: in file_sha
+    with Path(path).open('rb') as handle:
+         ^^^^^^^^^^^^^^^^^^^^^
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+self = PosixPath('<WORKSPACE>/studies/pilot2/scripts/leakage_audit.py')
+mode = 'rb', buffering = -1, encoding = None, errors = None, newline = None
+
+    def open(self, mode='r', buffering=-1, encoding=None,
+             errors=None, newline=None):
+        """
+        Open the file pointed by this path and return a file object, as
+        the built-in open() function does.
+        """
+        if "b" not in mode:
+            encoding = io.text_encoding(encoding)
+>       return io.open(self, mode, buffering, encoding, errors, newline)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+E       FileNotFoundError: [Errno 2] No such file or directory: '<WORKSPACE>/studies/pilot2/scripts/leakage_audit.py'
+
+/usr/lib/python3.12/pathlib.py:1015: FileNotFoundError
+_ ERROR at setup of test_engine_failure_and_independent_cap_return_no_actionable_ids _
+
+    @pytest.fixture(scope='module')
+    def engine():
+        path = Path(os.environ.get('AHAS_PILOT3_ENGINE_PATH',
+            str(Path(__file__).resolve().parents[2] / 'pilot2/scripts/leakage_audit.py')))
+>       return wrapper.load_engine(path)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^
+
+studies/pilot3_cross_context/tests/test_audit_candidates.py:23: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+studies/pilot3_cross_context/scripts/audit_candidates.py:53: in load_engine
+    require(file_sha(path) == ENGINE_SHA256, 'frozen_audit_engine_hash_mismatch')
+            ^^^^^^^^^^^^^^
+studies/pilot3_cross_context/scripts/audit_candidates.py:43: in file_sha
+    with Path(path).open('rb') as handle:
+         ^^^^^^^^^^^^^^^^^^^^^
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+self = PosixPath('<WORKSPACE>/studies/pilot2/scripts/leakage_audit.py')
+mode = 'rb', buffering = -1, encoding = None, errors = None, newline = None
+
+    def open(self, mode='r', buffering=-1, encoding=None,
+             errors=None, newline=None):
+        """
+        Open the file pointed by this path and return a file object, as
+        the built-in open() function does.
+        """
+        if "b" not in mode:
+            encoding = io.text_encoding(encoding)
+>       return io.open(self, mode, buffering, encoding, errors, newline)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+E       FileNotFoundError: [Errno 2] No such file or directory: '<WORKSPACE>/studies/pilot2/scripts/leakage_audit.py'
+
+/usr/lib/python3.12/pathlib.py:1015: FileNotFoundError
+________ ERROR at setup of test_word_count_binding_and_candidate_limits ________
+
+    @pytest.fixture(scope='module')
+    def engine():
+        path = Path(os.environ.get('AHAS_PILOT3_ENGINE_PATH',
+            str(Path(__file__).resolve().parents[2] / 'pilot2/scripts/leakage_audit.py')))
+>       return wrapper.load_engine(path)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^
+
+studies/pilot3_cross_context/tests/test_audit_candidates.py:23: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+studies/pilot3_cross_context/scripts/audit_candidates.py:53: in load_engine
+    require(file_sha(path) == ENGINE_SHA256, 'frozen_audit_engine_hash_mismatch')
+            ^^^^^^^^^^^^^^
+studies/pilot3_cross_context/scripts/audit_candidates.py:43: in file_sha
+    with Path(path).open('rb') as handle:
+         ^^^^^^^^^^^^^^^^^^^^^
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+self = PosixPath('<WORKSPACE>/studies/pilot2/scripts/leakage_audit.py')
+mode = 'rb', buffering = -1, encoding = None, errors = None, newline = None
+
+    def open(self, mode='r', buffering=-1, encoding=None,
+             errors=None, newline=None):
+        """
+        Open the file pointed by this path and return a file object, as
+        the built-in open() function does.
+        """
+        if "b" not in mode:
+            encoding = io.text_encoding(encoding)
+>       return io.open(self, mode, buffering, encoding, errors, newline)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+E       FileNotFoundError: [Errno 2] No such file or directory: '<WORKSPACE>/studies/pilot2/scripts/leakage_audit.py'
+
+/usr/lib/python3.12/pathlib.py:1015: FileNotFoundError
+_ ERROR at setup of test_public_summary_contains_no_text_identity_or_source_ids _
+
+    @pytest.fixture(scope='module')
+    def engine():
+        path = Path(os.environ.get('AHAS_PILOT3_ENGINE_PATH',
+            str(Path(__file__).resolve().parents[2] / 'pilot2/scripts/leakage_audit.py')))
+>       return wrapper.load_engine(path)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^
+
+studies/pilot3_cross_context/tests/test_audit_candidates.py:23: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+studies/pilot3_cross_context/scripts/audit_candidates.py:53: in load_engine
+    require(file_sha(path) == ENGINE_SHA256, 'frozen_audit_engine_hash_mismatch')
+            ^^^^^^^^^^^^^^
+studies/pilot3_cross_context/scripts/audit_candidates.py:43: in file_sha
+    with Path(path).open('rb') as handle:
+         ^^^^^^^^^^^^^^^^^^^^^
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+self = PosixPath('<WORKSPACE>/studies/pilot2/scripts/leakage_audit.py')
+mode = 'rb', buffering = -1, encoding = None, errors = None, newline = None
+
+    def open(self, mode='r', buffering=-1, encoding=None,
+             errors=None, newline=None):
+        """
+        Open the file pointed by this path and return a file object, as
+        the built-in open() function does.
+        """
+        if "b" not in mode:
+            encoding = io.text_encoding(encoding)
+>       return io.open(self, mode, buffering, encoding, errors, newline)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+E       FileNotFoundError: [Errno 2] No such file or directory: '<WORKSPACE>/studies/pilot2/scripts/leakage_audit.py'
+
+/usr/lib/python3.12/pathlib.py:1015: FileNotFoundError
+_ ERROR at setup of test_offline_cli_freeze_bindings_permissions_and_nonoverwrite_are_synthetic _
+
+    @pytest.fixture(scope='module')
+    def engine():
+        path = Path(os.environ.get('AHAS_PILOT3_ENGINE_PATH',
+            str(Path(__file__).resolve().parents[2] / 'pilot2/scripts/leakage_audit.py')))
+>       return wrapper.load_engine(path)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^
+
+studies/pilot3_cross_context/tests/test_audit_candidates.py:23: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+studies/pilot3_cross_context/scripts/audit_candidates.py:53: in load_engine
+    require(file_sha(path) == ENGINE_SHA256, 'frozen_audit_engine_hash_mismatch')
+            ^^^^^^^^^^^^^^
+studies/pilot3_cross_context/scripts/audit_candidates.py:43: in file_sha
+    with Path(path).open('rb') as handle:
+         ^^^^^^^^^^^^^^^^^^^^^
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+self = PosixPath('<WORKSPACE>/studies/pilot2/scripts/leakage_audit.py')
+mode = 'rb', buffering = -1, encoding = None, errors = None, newline = None
+
+    def open(self, mode='r', buffering=-1, encoding=None,
+             errors=None, newline=None):
+        """
+        Open the file pointed by this path and return a file object, as
+        the built-in open() function does.
+        """
+        if "b" not in mode:
+            encoding = io.text_encoding(encoding)
+>       return io.open(self, mode, buffering, encoding, errors, newline)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+E       FileNotFoundError: [Errno 2] No such file or directory: '<WORKSPACE>/studies/pilot2/scripts/leakage_audit.py'
+
+/usr/lib/python3.12/pathlib.py:1015: FileNotFoundError
+=========================== short test summary info ============================
+ERROR studies/pilot3_cross_context/tests/test_audit_candidates.py::test_cross_cell_exact_content_is_symmetrically_purged
+ERROR studies/pilot3_cross_context/tests/test_audit_candidates.py::test_same_cell_content_and_planned_anchor_reuse_are_not_cross_cell_purges
+ERROR studies/pilot3_cross_context/tests/test_audit_candidates.py::test_cross_cell_threads_are_purged_without_content_similarity
+ERROR studies/pilot3_cross_context/tests/test_audit_candidates.py::test_reserve_content_and_historical_threads_protect_new_candidates
+ERROR studies/pilot3_cross_context/tests/test_audit_candidates.py::test_historical_overlap_alone_does_not_choose_new_participants
+ERROR studies/pilot3_cross_context/tests/test_audit_candidates.py::test_template_and_recognized_blockquote_relations_use_frozen_engine
+ERROR studies/pilot3_cross_context/tests/test_audit_candidates.py::test_unavailable_historical_body_keeps_unknown_content_disclosure
+ERROR studies/pilot3_cross_context/tests/test_audit_candidates.py::test_missing_new_thread_fails_and_missing_old_thread_cannot_pass_gate
+ERROR studies/pilot3_cross_context/tests/test_audit_candidates.py::test_submission_titles_are_separate_exact_protection_without_mutation
+ERROR studies/pilot3_cross_context/tests/test_audit_candidates.py::test_no_original_or_account_reuse_across_history
+ERROR studies/pilot3_cross_context/tests/test_audit_candidates.py::test_independent_broad_pairs_include_pairs_that_are_not_near
+ERROR studies/pilot3_cross_context/tests/test_audit_candidates.py::test_broad_pairs_include_repetitive_records_ineligible_for_engine_candidates
+ERROR studies/pilot3_cross_context/tests/test_audit_candidates.py::test_engine_failure_and_independent_cap_return_no_actionable_ids
+ERROR studies/pilot3_cross_context/tests/test_audit_candidates.py::test_word_count_binding_and_candidate_limits
+ERROR studies/pilot3_cross_context/tests/test_audit_candidates.py::test_public_summary_contains_no_text_identity_or_source_ids
+ERROR studies/pilot3_cross_context/tests/test_audit_candidates.py::test_offline_cli_freeze_bindings_permissions_and_nonoverwrite_are_synthetic
+398 passed, 16 errors in 85.45s (0:01:25)

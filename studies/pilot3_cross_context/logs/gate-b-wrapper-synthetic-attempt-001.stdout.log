@@ -1,0 +1,20 @@
+...F..........                                                           [100%]
+=================================== FAILURES ===================================
+______ test_reserve_content_and_historical_threads_protect_new_candidates ______
+
+engine = <module '_pilot3_frozen_leakage' from '<PINNED_SOURCE>/studies/pilot2/scripts/leakage_audit.py'>
+
+    def test_reserve_content_and_historical_threads_protect_new_candidates(engine):
+        result = wrapper.run_audit([candidate('new'), candidate('thread-only', OTHER, thread='old-thread')],
+            [historical('reserve', TEXT, split='confirmation'),
+             historical('old-thread-record', 'short source', thread='old-thread')], engine)
+>       assert result['purge_record_ids'] == ['new', 'thread-only']
+E       AssertionError: assert [] == ['new', 'thread-only']
+E         
+E         Right contains 2 more items, first extra item: 'new'
+E         Use -v to get more diff
+
+studies/pilot3_cross_context/tests/test_audit_candidates.py:72: AssertionError
+=========================== short test summary info ============================
+FAILED studies/pilot3_cross_context/tests/test_audit_candidates.py::test_reserve_content_and_historical_threads_protect_new_candidates
+1 failed, 13 passed in 0.27s

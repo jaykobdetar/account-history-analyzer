@@ -1,0 +1,181 @@
+{
+  "phase": "registered_score_free_candidate_pool",
+  "full_target": {
+    "accounts": 60,
+    "blocks": 30,
+    "strata": 3
+  },
+  "limits": {
+    "candidate_account_cap_per_stratum": 40,
+    "candidate_records": 100000,
+    "candidate_retained_words": 2000000,
+    "candidate_bytes": 268435456,
+    "source_rows": 6000000,
+    "source_uncompressed_bytes": 3000000000,
+    "wall_seconds": 1800,
+    "address_space_bytes": 4294967296
+  },
+  "exclusion_manifest": "<PRIVATE_STUDY>/exclusions-mandatory.json",
+  "gate_a_report": "<WORKSPACE>/studies/pilot3_cross_context/inventory/calendar-05/capacity.json",
+  "strata": [
+    {
+      "id": "AskAcademia / GradSchool",
+      "communities": [
+        "AskAcademia",
+        "GradSchool"
+      ],
+      "scheme": {
+        "early": [
+          "2008-01-01",
+          "2015-10-06"
+        ],
+        "id": "utc_midnight_2015-10-06",
+        "late": [
+          "2015-10-06",
+          "2018-11-01"
+        ]
+      },
+      "capacity_file": "<PRIVATE_STUDY>/calendar-03/calendar-capacities.json"
+    },
+    {
+      "id": "AskPhysics / Physics",
+      "communities": [
+        "AskPhysics",
+        "Physics"
+      ],
+      "scheme": {
+        "early": [
+          "2008-01-01",
+          "2015-09-20"
+        ],
+        "id": "utc_midnight_2015-09-20",
+        "late": [
+          "2015-09-20",
+          "2018-11-01"
+        ]
+      },
+      "capacity_file": "<PRIVATE_STUDY>/calendar-03/calendar-capacities.json"
+    },
+    {
+      "id": "learnmath / math",
+      "communities": [
+        "learnmath",
+        "math"
+      ],
+      "scheme": {
+        "early": [
+          "2008-01-01",
+          "2016-10-05"
+        ],
+        "id": "utc_midnight_2016-10-05",
+        "late": [
+          "2016-10-05",
+          "2018-11-01"
+        ]
+      },
+      "capacity_file": "<PRIVATE_STUDY>/calendar-05/calendar-capacities.json"
+    }
+  ],
+  "eligibility_metadata": [
+    "<PRIVATE_STUDY>/census-02/record-eligibility.jsonl",
+    "<PRIVATE_STUDY>/census-04b/record-eligibility.jsonl"
+  ],
+  "sources": [
+    {
+      "community": "AskAcademia",
+      "archive": "<PRIVATE_STUDY>/data/AskAcademia.corpus.zip",
+      "sha256": "70516bf375fe9a6ca738f03d1a4d92523ff45fad6f8660c0d67ce5da01aa234a",
+      "source_records": 252988,
+      "utterances_sha256": "fb18799f86877a8e1ebc0243b431c5f3483523457e65d15b51009c9cdf3e73eb"
+    },
+    {
+      "community": "GradSchool",
+      "archive": "<PRIVATE_STUDY>/data/GradSchool.corpus.zip",
+      "sha256": "420a9ff24f17a05e64e0648d9ef883518eef5b3db875e1590bf63625e37f7125",
+      "source_records": 370990,
+      "utterances_sha256": "61e6358e2f27fb11edbaef83a935e507812f14a595553558734bfd63c78ba88c"
+    },
+    {
+      "community": "Physics",
+      "archive": "<PRIVATE_STUDY>/data/Physics.corpus.zip",
+      "sha256": "e3409d3b2d537f83330e1337423c90eeeddbcca69468c7fc66e054a84a393e64",
+      "source_records": 619676,
+      "utterances_sha256": "a5f5bd5d74dc7ab192461c6c09a999db07b0f4631071b106c4bf791efc53796a"
+    },
+    {
+      "community": "AskPhysics",
+      "archive": "<PRIVATE_STUDY>/data/AskPhysics.corpus.zip",
+      "sha256": "7c4af5f5fa07adc39ff7df3fc49d23fcff906b3d64a8afde3eafa31720d410b2",
+      "source_records": 240055,
+      "utterances_sha256": "cdfd345ff223ee685865c390d05c396b4cf989f01dac678fa20103c6c0b6e87d"
+    },
+    {
+      "community": "math",
+      "archive": "<PRIVATE_STUDY>/data/math.corpus.zip",
+      "sha256": "6a39335f531afc330dcf894589cadf725b026e5e5d3a05d4211743b985b5e89d",
+      "source_records": 1534925,
+      "utterances_sha256": "475191c841d56cec5e6d530ccf3097dd4f0e1e4d5b09eee2a67ecc8ed94a7e32"
+    },
+    {
+      "community": "learnmath",
+      "archive": "<PRIVATE_STUDY>/data/learnmath.corpus.zip",
+      "sha256": "a50a47cb250a75631252b68671936e18a4053175c4750ec4b0bfccbbd6c8857b",
+      "source_records": 487515,
+      "utterances_sha256": "90183d402f748cc240efa05e7299920ed9f055a5977808e5b5ed0b224effcb42"
+    }
+  ],
+  "bound_artifacts": [
+    {
+      "path": "<PRIVATE_STUDY>/calendar-03/calendar-capacities.json",
+      "sha256": "da969789d28933cbb2ef0ac441fb5a4fffb2ab8f14abbbda3949b59c53dd2d26"
+    },
+    {
+      "path": "<PRIVATE_STUDY>/calendar-05/calendar-capacities.json",
+      "sha256": "b958ecfea83aecd18f76821af18878cea2d135fe3a20e26d9abf543205a20b49"
+    },
+    {
+      "path": "<PRIVATE_STUDY>/census-02/record-eligibility.jsonl",
+      "sha256": "a804d85a398a614a0fef219d422d1c5257b9de75a93414d517d1506e0f459c2d"
+    },
+    {
+      "path": "<PRIVATE_STUDY>/census-04b/record-eligibility.jsonl",
+      "sha256": "a22d08bfb63c317339bff76f5904dc90052bfa114214e8f163e967a466113b72"
+    },
+    {
+      "path": "<PRIVATE_STUDY>/exclusions-mandatory.json",
+      "sha256": "cce9c7980e8cee909318051a934eb99815ad0e5df8707e07026a08ffc3cad660"
+    },
+    {
+      "path": "<WORKSPACE>/studies/pilot3_cross_context/inventory/calendar-03/private-artifact-hashes.json",
+      "sha256": "ed91087389ce805ececeb3917abefbffbba0f40fa5592044b1ef2d5aeebcd96d"
+    },
+    {
+      "path": "<WORKSPACE>/studies/pilot3_cross_context/inventory/calendar-05/capacity.json",
+      "sha256": "b4ffcabc8760f696126cb5708cbdee4968fbb281c316280548c47a2653072901"
+    },
+    {
+      "path": "<WORKSPACE>/studies/pilot3_cross_context/inventory/calendar-05/private-artifact-hashes.json",
+      "sha256": "de878d0d5cdd1bc8c75e10baa35455498509c03e587c7748e7dc9f14a5ae76c7"
+    },
+    {
+      "path": "<WORKSPACE>/studies/pilot3_cross_context/inventory/census-02/source-inventory.json",
+      "sha256": "170f6038bff1e6138708b003b3fa31e98599a929012ae75ed8bc576d5ac15593"
+    },
+    {
+      "path": "<WORKSPACE>/studies/pilot3_cross_context/inventory/census-04b/source-inventory.json",
+      "sha256": "0ea273536989905d24ab48360460691c0245a14939894ed8409cc22f49404f3f"
+    },
+    {
+      "path": "<WORKSPACE>/studies/pilot3_cross_context/scripts/cohort_selection.py",
+      "sha256": "011ae6facea25ab0ad3fa41866899eded0873049148b272dfb412e69313721d7"
+    },
+    {
+      "path": "<WORKSPACE>/studies/pilot3_cross_context/scripts/prepare_candidate_pool.py",
+      "sha256": "b14b6ca8c9f32edb2ae900e845d94fb400ab23f62ffacfeac9f7da21af9c6b81"
+    },
+    {
+      "path": "<WORKSPACE>/studies/pilot3_cross_context/scripts/study_math.py",
+      "sha256": "267d413c97a8b6ea6e47071cc818adb44c82beafa3d74cd943ecc8127858013e"
+    }
+  ]
+}

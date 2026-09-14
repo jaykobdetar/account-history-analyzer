@@ -1,0 +1,42 @@
+......F..........                                                        [100%]
+=================================== FAILURES ===================================
+_ test_detects_independent_reconciliation_failures[missing_survivor-survivor] __
+
+engine = <module '_pilot3_frozen_leakage' from '<PINNED_SOURCE>/studies/pilot2/scripts/leakage_audit.py'>
+mutation = 'missing_survivor', fragment = 'survivor'
+
+    @pytest.mark.parametrize('mutation,fragment', [
+        ('missing_survivor', 'survivor'), ('missing_purge', 'purge IDs'),
+        ('thread_drift', 'metadata binding'), ('graph_drift', 'reconstructs saved components'),
+        ('scope_drift', 'Unknown content'), ('cap_drift', 'within cap'),
+        ('missing_history', 'Historical original node coverage'), ('relation_hash', 'relation canonical hash'),
+    ])
+    def test_detects_independent_reconciliation_failures(engine, mutation, fragment):
+        result, cm, hm = deepcopy(synthetic_result(engine))
+        if mutation == 'missing_survivor':
+            result['surviving_candidate_ids'] = []
+        elif mutation == 'missing_purge':
+            result['purge_record_ids'] = []
+        elif mutation == 'thread_drift':
+            cm['new-thread']['thread_id'] = 'different-original-thread'
+        elif mutation == 'graph_drift':
+            result['engine_audit']['relations'] = []
+        elif mutation == 'scope_drift':
+            result['summary']['independence_scope_complete'] = False
+        elif mutation == 'cap_drift':
+            result['summary']['independent_candidate_pairs'] = 2_000_001
+        elif mutation == 'missing_history':
+            hm.pop('old-thread')
+        else:
+            result['engine_audit']['relations'][0]['relation_id'] = 'changed'
+        report = checker.reconcile(result, cm, hm)
+>       assert report['status'] == 'fail'
+E       AssertionError: assert 'pass' == 'fail'
+E         
+E         - fail
+E         + pass
+
+studies/pilot3_cross_context/tests/test_check_audit_result.py:85: AssertionError
+=========================== short test summary info ============================
+FAILED studies/pilot3_cross_context/tests/test_check_audit_result.py::test_detects_independent_reconciliation_failures[missing_survivor-survivor]
+1 failed, 16 passed in 0.27s

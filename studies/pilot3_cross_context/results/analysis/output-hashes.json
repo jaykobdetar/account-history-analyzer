@@ -1,0 +1,62 @@
+{
+  "analysis.json": {
+    "bytes": 211030,
+    "sha256": "66865bc073f4fe04e5fefcac893aaed301f423f6b24da6ad7bc5e9c36a1079a2"
+  },
+  "anchor_rows.csv": {
+    "bytes": 254110,
+    "sha256": "8e168c9c1df9fca0149a65bf69c7ff2eef45089e9df96555027d8767ff27ada8"
+  },
+  "anchor_rows.json": {
+    "bytes": 691680,
+    "sha256": "8f5a49ddb3a7aef71945dfd48c58856a5f12dcc579f1ba97668b8eca3d10a672"
+  },
+  "block_rows.csv": {
+    "bytes": 52688,
+    "sha256": "8eec2ff73d7918bb691323d38f048560b299e7859d7ba988186b2f193c25ffd6"
+  },
+  "block_rows.json": {
+    "bytes": 196573,
+    "sha256": "747726c80906b9dd05fc952310d25c6da0954de50c194966bde5fcb1deecd799"
+  },
+  "case_rows.csv": {
+    "bytes": 1142700,
+    "sha256": "0c2273712ca4d164ed9f6b0681d74132bbb7802872c7a3b3a85a7d0f063fec19"
+  },
+  "case_rows.json": {
+    "bytes": 2685479,
+    "sha256": "2887c7283e7d3992e7231086acdee28e4a478a643724b5f6cb2fb7b66dd475c0"
+  },
+  "equal_stratum_macros.csv": {
+    "bytes": 4003,
+    "sha256": "0837783ba5bec96ec78c612a3e46e4119aef9b8853994fa4104144d0e6ed6769"
+  },
+  "equal_stratum_macros.json": {
+    "bytes": 6924,
+    "sha256": "e19280adbc8f427a0bbb4672899ec7ab6c65e006ee1a3266c102ca5dccbde6ec"
+  },
+  "omission_intersections.csv": {
+    "bytes": 12806,
+    "sha256": "11e1628fbe0a56134d25c212ab6b01f75ec190b0dd245f4b7e3acca8a92b867a"
+  },
+  "omission_intersections.json": {
+    "bytes": 23482,
+    "sha256": "18c11083a9aca8464c392c17d7baebd5b204cbc94c693d3e5055389b81e56d8d"
+  },
+  "summaries.csv": {
+    "bytes": 118165,
+    "sha256": "c4991b85a0d3f2f568013341288a058c414a8e268b026cca6cb974a13169fe21"
+  },
+  "summaries.json": {
+    "bytes": 162903,
+    "sha256": "c6fc99375e3ac8e2e223c2c578607cec8347e2d49b7663e192f48cc8d3739f96"
+  },
+  "unit_rows.csv": {
+    "bytes": 63806,
+    "sha256": "690dd06fa54c2c5572fdc61ed9e76dfc5aacc0150d7f448db4f0d25b1f39012a"
+  },
+  "unit_rows.json": {
+    "bytes": 226917,
+    "sha256": "07fc7355a4539d5ba3366aec34fde4ddbe26f2402b6e58547bcab44591d47101"
+  }
+}

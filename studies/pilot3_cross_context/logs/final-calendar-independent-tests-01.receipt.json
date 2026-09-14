@@ -1,0 +1,27 @@
+{
+  "argv": [
+    ".venv/bin/python",
+    "-m",
+    "pytest",
+    "-q",
+    "studies/pilot3_cross_context/tests/test_check_final_calendar.py",
+    "studies/pilot3_cross_context/tests/test_check_calendar_census.py"
+  ],
+  "cwd": "<WORKSPACE>",
+  "started_utc": "2026-09-14T21:59:53.979206+00:00",
+  "finished_utc": "2026-09-14T21:59:54.283882+00:00",
+  "exit_code": 0,
+  "wall_seconds": 0.3046812700049486,
+  "child_peak_rss_mib": 40.0546875,
+  "runner_sha256": "4d94adb7a06ec38cc6f5b4fe55f801e87bbdcff712139146d53f55a2928eb2a4",
+  "outputs": {
+    "stdout.log": {
+      "bytes": 99,
+      "sha256": "91fd22231105d3671f360091a933864a78468c4ebeed30fce306fd2dad67821e"
+    },
+    "stderr.log": {
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    }
+  }
+}
