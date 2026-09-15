@@ -1,0 +1,156 @@
+{
+  "base_commit": "298137399c962fb1ce03de024013c61bc3881e6f",
+  "date": "2026-09-15",
+  "release_url": "https://github.com/jaykobdetar/account-history-analyzer/releases/tag/v1.0.4",
+  "archive_url": "https://github.com/jaykobdetar/account-history-analyzer/releases/download/v1.0.4/account-history-analyzer-1.0.4-source-and-reports.tar.gz",
+  "archive_sha256": "c1f4985fb484698e055a8ee045b42b5ecfb7377b7958bfa2778a7b6e639564cb",
+  "verification": "Downloaded published archive; compared each removed member byte-for-byte. The two dist files also matched their standalone release downloads. Relocated documents retained their pre-cleanup bytes.",
+  "relocated": [
+    {
+      "old_path": "ACCEPTANCE_TESTS.md",
+      "new_path": "docs/archive/original-handoff/ACCEPTANCE_TESTS.md",
+      "bytes": 17157,
+      "sha256": "96cfab710bce7c3b82331d5b87ff59f234bd7ed400498e7b22331e54705ead26"
+    },
+    {
+      "old_path": "AGENT_PROMPT.md",
+      "new_path": "docs/archive/original-handoff/AGENT_PROMPT.md",
+      "bytes": 4386,
+      "sha256": "35136f1d98fa41762496da538893b7f6c9675ee6c1d3b4566887438436267640"
+    },
+    {
+      "old_path": "BUILD_SPEC.md",
+      "new_path": "docs/archive/original-handoff/BUILD_SPEC.md",
+      "bytes": 64111,
+      "sha256": "a381706c2bf501501ea410bdd5605b8b641546a87529a3a59fc783d521c98b1c"
+    },
+    {
+      "old_path": "PACKAGE_VALIDATION.md",
+      "new_path": "docs/archive/original-handoff/PACKAGE_VALIDATION.md",
+      "bytes": 1542,
+      "sha256": "c74b724f5c88afd01b8c3feec31101fbc3f84908f83a2fdc27b580306a2ad9a0"
+    },
+    {
+      "old_path": "SHA256SUMS.txt",
+      "new_path": "docs/archive/original-handoff/SHA256SUMS.txt",
+      "bytes": 3756,
+      "sha256": "bd2a57d12211634e419c364872ea2c375d832a0709c9603ed42219044066ab5f"
+    }
+  ],
+  "removed_duplicates": [
+    {
+      "path": "dist/account_history_analyzer-1.0.4-py3-none-any.whl",
+      "bytes": 198224,
+      "sha256": "dd92aa29bfdf8631a8ac2a37948edcd573b31872cf97b49d43fc2930a3b43b51",
+      "archive_member": "account_history_analyzer_v1/dist/account_history_analyzer-1.0.4-py3-none-any.whl"
+    },
+    {
+      "path": "dist/account_history_analyzer-1.0.4.tar.gz",
+      "bytes": 2277134,
+      "sha256": "2fd7dba9a8d572f8f28deccd17ea7dfdbed2f5e0e5834dd597324f0239964036",
+      "archive_member": "account_history_analyzer_v1/dist/account_history_analyzer-1.0.4.tar.gz"
+    },
+    {
+      "path": "qa/audit-repair/wheel-build-a/.gitignore",
+      "bytes": 1,
+      "sha256": "684888c0ebb17f374298b65ee2807526c066094c701bcc7ebbe1c1095f494fc1",
+      "archive_member": "account_history_analyzer_v1/qa/audit-repair/wheel-build-a/.gitignore"
+    },
+    {
+      "path": "qa/audit-repair/wheel-build-a/account_history_analyzer-1.0.2-py3-none-any.whl",
+      "bytes": 196492,
+      "sha256": "f0f1fdd9e07c29f35510d77a06fa8319ddd431d45accdfc380f587491e3b1eb6",
+      "archive_member": "account_history_analyzer_v1/qa/audit-repair/wheel-build-a/account_history_analyzer-1.0.2-py3-none-any.whl"
+    },
+    {
+      "path": "qa/audit-repair/wheel-build-b/.gitignore",
+      "bytes": 1,
+      "sha256": "684888c0ebb17f374298b65ee2807526c066094c701bcc7ebbe1c1095f494fc1",
+      "archive_member": "account_history_analyzer_v1/qa/audit-repair/wheel-build-b/.gitignore"
+    },
+    {
+      "path": "qa/audit-repair/wheel-build-b/account_history_analyzer-1.0.2-py3-none-any.whl",
+      "bytes": 196492,
+      "sha256": "f0f1fdd9e07c29f35510d77a06fa8319ddd431d45accdfc380f587491e3b1eb6",
+      "archive_member": "account_history_analyzer_v1/qa/audit-repair/wheel-build-b/account_history_analyzer-1.0.2-py3-none-any.whl"
+    },
+    {
+      "path": "qa/audit-repair/wheel-build-final/.gitignore",
+      "bytes": 1,
+      "sha256": "684888c0ebb17f374298b65ee2807526c066094c701bcc7ebbe1c1095f494fc1",
+      "archive_member": "account_history_analyzer_v1/qa/audit-repair/wheel-build-final/.gitignore"
+    },
+    {
+      "path": "qa/audit-repair/wheel-build-final/account_history_analyzer-1.0.2-py3-none-any.whl",
+      "bytes": 196492,
+      "sha256": "f0f1fdd9e07c29f35510d77a06fa8319ddd431d45accdfc380f587491e3b1eb6",
+      "archive_member": "account_history_analyzer_v1/qa/audit-repair/wheel-build-final/account_history_analyzer-1.0.2-py3-none-any.whl"
+    },
+    {
+      "path": "qa/pr383/initial-wheel-validation/account_history_analyzer-1.0.1.tar.gz",
+      "bytes": 800160,
+      "sha256": "8c00adaa93356938f2adf933d9efe9afc818090ee2576ceceacfa1c0ef0f55ba",
+      "archive_member": "account_history_analyzer_v1/qa/pr383/initial-wheel-validation/account_history_analyzer-1.0.1.tar.gz"
+    },
+    {
+      "path": "qa/pr383/wheel-build-a/.gitignore",
+      "bytes": 1,
+      "sha256": "684888c0ebb17f374298b65ee2807526c066094c701bcc7ebbe1c1095f494fc1",
+      "archive_member": "account_history_analyzer_v1/qa/pr383/wheel-build-a/.gitignore"
+    },
+    {
+      "path": "qa/pr383/wheel-build-a/account_history_analyzer-1.0.1-py3-none-any.whl",
+      "bytes": 185053,
+      "sha256": "e439e8cc54943d1bbf7a3b54734c5cec3d4a78b732fe95b06a7ec9084374e7ba",
+      "archive_member": "account_history_analyzer_v1/qa/pr383/wheel-build-a/account_history_analyzer-1.0.1-py3-none-any.whl"
+    },
+    {
+      "path": "qa/pr383/wheel-build-b/.gitignore",
+      "bytes": 1,
+      "sha256": "684888c0ebb17f374298b65ee2807526c066094c701bcc7ebbe1c1095f494fc1",
+      "archive_member": "account_history_analyzer_v1/qa/pr383/wheel-build-b/.gitignore"
+    },
+    {
+      "path": "qa/pr383/wheel-build-b/account_history_analyzer-1.0.1-py3-none-any.whl",
+      "bytes": 185053,
+      "sha256": "e439e8cc54943d1bbf7a3b54734c5cec3d4a78b732fe95b06a7ec9084374e7ba",
+      "archive_member": "account_history_analyzer_v1/qa/pr383/wheel-build-b/account_history_analyzer-1.0.1-py3-none-any.whl"
+    },
+    {
+      "path": "qa/pr383/wheel-final-build-a/.gitignore",
+      "bytes": 1,
+      "sha256": "684888c0ebb17f374298b65ee2807526c066094c701bcc7ebbe1c1095f494fc1",
+      "archive_member": "account_history_analyzer_v1/qa/pr383/wheel-final-build-a/.gitignore"
+    },
+    {
+      "path": "qa/pr383/wheel-final-build-a/account_history_analyzer-1.0.1-py3-none-any.whl",
+      "bytes": 185053,
+      "sha256": "e439e8cc54943d1bbf7a3b54734c5cec3d4a78b732fe95b06a7ec9084374e7ba",
+      "archive_member": "account_history_analyzer_v1/qa/pr383/wheel-final-build-a/account_history_analyzer-1.0.1-py3-none-any.whl"
+    },
+    {
+      "path": "qa/pr383/wheel-final-build-b/.gitignore",
+      "bytes": 1,
+      "sha256": "684888c0ebb17f374298b65ee2807526c066094c701bcc7ebbe1c1095f494fc1",
+      "archive_member": "account_history_analyzer_v1/qa/pr383/wheel-final-build-b/.gitignore"
+    },
+    {
+      "path": "qa/pr383/wheel-final-build-b/account_history_analyzer-1.0.1-py3-none-any.whl",
+      "bytes": 185053,
+      "sha256": "e439e8cc54943d1bbf7a3b54734c5cec3d4a78b732fe95b06a7ec9084374e7ba",
+      "archive_member": "account_history_analyzer_v1/qa/pr383/wheel-final-build-b/account_history_analyzer-1.0.1-py3-none-any.whl"
+    },
+    {
+      "path": "qa/report005/wheel-build-final/.gitignore",
+      "bytes": 1,
+      "sha256": "684888c0ebb17f374298b65ee2807526c066094c701bcc7ebbe1c1095f494fc1",
+      "archive_member": "account_history_analyzer_v1/qa/report005/wheel-build-final/.gitignore"
+    },
+    {
+      "path": "qa/report005/wheel-build-final/account_history_analyzer-1.0.3-py3-none-any.whl",
+      "bytes": 197078,
+      "sha256": "4b472fa9d44d0803ab8f510eedc5a8bac5db454c5363dae81bd322511a59934d",
+      "archive_member": "account_history_analyzer_v1/qa/report005/wheel-build-final/account_history_analyzer-1.0.3-py3-none-any.whl"
+    }
+  ]
+}

@@ -6,6 +6,9 @@ __pycache__/
 *.pyc
 dist/
 release/
+*.whl
+*.tar.gz
+/container-output/
 benchmarks/*-report/
 
 # Local runs and real source data are never imported with source/documentation.

@@ -23,7 +23,7 @@ dev = ["pytest==9.0.2", "hypothesis==6.131.9"]
 packages = ["src/account_history_analyzer"]
 
 [tool.hatch.build.targets.sdist]
-include = ["src", "tests", "schemas", "config", "fixtures", "design_examples", "resources", "docs", "containers", "scripts", "*.md", "LICENSE", "pyproject.toml", "uv.lock", "requirements.lock.txt", "SHA256SUMS.txt", ".dockerignore"]
+include = ["src", "tests", "schemas", "config", "fixtures", "design_examples", "resources", "docs", "containers", "scripts", "*.md", "LICENSE", "pyproject.toml", "uv.lock", "requirements.lock.txt", ".dockerignore"]
 
 [tool.pytest.ini_options]
 testpaths = ["tests"]
