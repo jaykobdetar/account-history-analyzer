@@ -1,0 +1,45 @@
+{
+  "phase": "frozen_exact_matching_backend_before_extended_calendar_search",
+  "utc": "2026-09-15T01:53:10.045061+00:00",
+  "method": "NetworkX3.5 maximum-weight blossom with maxcardinality=True and exact integer weights",
+  "original_objectives_unchanged": [
+    "maximumdisjointaccountblockcardinality",
+    "minimumexactrationaldate/word/recordcost",
+    "lexicographicallysmallestpairedsourceidentityhashorder"
+  ],
+  "weight_rule": "Let D be the LCM of all edge-cost denominators and E the number of ordered edges. For edge rank r=0..E-1, integer weight is -(cost*D)*2^E + 2^(E-r-1). First maximize cardinality, then total weight.",
+  "proof": "All possible sums of tie bits differ by less than2^E, so one exact integer cost unit dominates ties. For equal-cardinality/equal-cost edge sets, the earliest differing edge bit dominates every later bit and selects the lexicographically first sorted edge list.",
+  "scope": "Study metadata matching only. No change to construction, date/volume gates, analytical engine, scoring tolerance or chronological worker environment. Initial subset-DP census remains unchanged.",
+  "resource_requirement": "Retain external walltimeout because matching callback runs before/after library solve; preserve4GiB process limit.",
+  "dependency_requirement": "Verify actual NetworkX import path/version, pinnedwheelandall595libraryfiles againstisolated-matching-dependency.json before new census; no injection intochronologyworkers.",
+  "bindings": [
+    {
+      "path": "<WORKSPACE>/studies/pilot4_chronological_controls/environment/isolated-matching-dependency.json",
+      "sha256": "c430142739b96259258636432176badf01425cc2c07cc94d4b4b85ab61434b15"
+    },
+    {
+      "path": "<WORKSPACE>/studies/pilot4_chronological_controls/logs/blossom-independent-synthetic-01.receipt.json",
+      "sha256": "d8859af779a0332a38f78856232c6a3ef0fb1d3790d4a205952020c714557bae"
+    },
+    {
+      "path": "<WORKSPACE>/studies/pilot4_chronological_controls/logs/exact-blossom-tests-01.receipt.json",
+      "sha256": "54dc85baafc888fbb6250f5ddc6dba2d45fc2c09d538befaf40895e84ab0729b"
+    },
+    {
+      "path": "<WORKSPACE>/studies/pilot4_chronological_controls/scripts/exact_blossom.py",
+      "sha256": "f9f154211db0bd2b2e37ca99ff5a7c22e9b775c23e9a40442f7257b663ae3825"
+    },
+    {
+      "path": "<WORKSPACE>/studies/pilot4_chronological_controls/scripts/metadata_feasibility.py",
+      "sha256": "88ecd0a3d1f920426ac6c1b01707bf769157e2fd87ef1ee9c02923df4f91f28b"
+    },
+    {
+      "path": "<WORKSPACE>/studies/pilot4_chronological_controls/tests/test_exact_blossom.py",
+      "sha256": "273a96c280b5e84adac504c36da4495a02e965f7bb802de0b02c9227ebeaf9af"
+    },
+    {
+      "path": "<WORKSPACE>/studies/pilot4_chronological_controls/tests/test_exact_blossom_independent.py",
+      "sha256": "86ff871462aab98ddda8ce6fc13bcace01735dfea7f0f595df74b1c77e3eb8da"
+    }
+  ]
+}

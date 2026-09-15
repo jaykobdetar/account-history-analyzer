@@ -1,0 +1,14 @@
+{
+  "checker_sha256": "60e9dcf952991d85363c9468ab0b0508313c898b8f7a39b159881c3452dfb6b4",
+  "corpus_read": false,
+  "expected_config_sha256": "8fd0239fe2f87c9f1506786ac36099fe996e00cc6e021b3ecc67fbb65cd2d925",
+  "expected_implementation_fingerprint": "bfc989028bf2b47c506d1ba501287d4e362aadc25ca5c731c41e4b27a336e179",
+  "expected_reviewed_commit": "ea41d82ecc3f6585a7dc2bca92ede34740f0b62d",
+  "prior_installed_probe_sha256": "5c47cf48388c0c36cf41a143c811209a6e35359f399e537b9b5cfe465b492a75",
+  "prior_probe_helper_sha256": "40d2aeb1ace80a79a7f8beab2daa5965ab5e8a037139df6a4ab88a3a1f1742d1",
+  "prior_verification_summary_sha256": "de711ac7d5b2c51f958a50ab48f24f7643e1591f12e04028bc424cda294c2f21",
+  "production_tests_executed": 0,
+  "scores_computed": 0,
+  "started_utc": "2026-09-15T01:12:52.779751+00:00",
+  "status": "started_before_fresh_identity_probe"
+}

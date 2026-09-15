@@ -1,0 +1,29 @@
+{
+  "ahas_imported": false,
+  "all_installed_hashes_match": true,
+  "checked_utc": "2026-09-15T01:53:11.987556+00:00",
+  "dependency_manifest_sha256": "c430142739b96259258636432176badf01425cc2c07cc94d4b4b85ab61434b15",
+  "distribution_path": "<ISOLATED_MATCHING_LIBRARY>/networkx-3.5.dist-info",
+  "exact_weight_proof": {
+    "cost_scaling": "LCM of rational denominators makes each cost an integer.",
+    "identity_tie": "Among equal-size equal-cost edge sets, maximizing descending edge bits selects the set containing the earliest edge at the first differing position, exactly the lexicographically smallest sorted edge list.",
+    "lex_dominance": "With E ordered edges, B=2^E exceeds the sum B-1 of every positive edge tie bit.",
+    "library_integer_arithmetic": "Pinned max_weight_matching uses integer arithmetic for Python integer weights and invokes its optimum verification on integer solutions.",
+    "objective": "maxcardinality=True first fixes the largest matching cardinality; -integer_cost*B next minimizes exact total cost."
+  },
+  "helper_sha256": "f9f154211db0bd2b2e37ca99ff5a7c22e9b775c23e9a40442f7257b663ae3825",
+  "independent_tests_sha256": "86ff871462aab98ddda8ce6fc13bcace01735dfea7f0f595df74b1c77e3eb8da",
+  "installed_files_checked": 595,
+  "isolated_import_file": "<ISOLATED_MATCHING_LIBRARY>/networkx/__init__.py",
+  "limits_note": "The matcher invokes the resource callback before/after the solver; caller must retain an external wall deadline during the solve.",
+  "missing_or_extra_files": 0,
+  "scores_computed": 0,
+  "source_archives_read": false,
+  "source_metadata_read": false,
+  "status": "passed",
+  "test_receipt_sha256": "d8859af779a0332a38f78856232c6a3ef0fb1d3790d4a205952020c714557bae",
+  "verifier_sha256": "c8a7f9381ecefecf978f754be39217a76b566bf4b7e68188c07c1e76805e02e3",
+  "version": "3.5",
+  "wheel_bytes": 2034406,
+  "wheel_sha256": "0030d386a9a06dee3565298b4a734b68589749a544acbb6c412dc9e2489ec6ec"
+}

@@ -1,0 +1,9 @@
+{"phase": "metadata_first_pass", "community": "linux", "source_rows": 2988858}
+{"phase": "metadata_first_pass", "community": "linuxquestions", "source_rows": 482093}
+{"phase": "metadata_first_pass", "community": "programming", "source_rows": 5977651}
+{"phase": "metadata_first_pass", "community": "learnprogramming", "source_rows": 2060235}
+{"phase": "frozen_preprocessing", "community": "linux", "preprocessing_calls": 146524, "eligible_metadata_records": 86719}
+{"phase": "frozen_preprocessing", "community": "linuxquestions", "preprocessing_calls": 253298, "eligible_metadata_records": 157643}
+{"phase": "frozen_preprocessing", "community": "programming", "preprocessing_calls": 428791, "eligible_metadata_records": 266412}
+{"phase": "frozen_preprocessing", "community": "learnprogramming", "preprocessing_calls": 650775, "eligible_metadata_records": 429444}
+{"status": "completed_score_free_archive_intake", "preprocessing_calls": 650775, "metadata_rows": 650775}

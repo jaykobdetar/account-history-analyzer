@@ -1,0 +1,42 @@
+{
+  "artifacts": {
+    "inventory/feasibility-02/all-calendar-cuts.csv": {
+      "bytes": 16354,
+      "sha256": "80e6a684af61149ecc3a15dee75b7a0afd8c64e43e81d7f205ff5f54a65d7bbb"
+    },
+    "inventory/feasibility-02/all-calendar-cuts.json": {
+      "bytes": 98129,
+      "sha256": "8fcff89239d879b5c21b86513708e0b960c29812017c01e73517100da39ca262"
+    },
+    "inventory/feasibility-02/feasibility-summary.json": {
+      "bytes": 3607,
+      "sha256": "d07e404f2d3d92a0c3a1b5cbc28f319a21b91f0d060e4c60e5f677cf37029cbb"
+    },
+    "logs/feasibility-run-02.receipt.json": {
+      "bytes": 1588,
+      "sha256": "20fb124969ec524f1026e66d0d22421df091e97c598e5c6f21a1c3b51c732bc4"
+    }
+  },
+  "basis": "Aggregation of already-generated202 cut rows; no new matching, candidate selection, preprocessing or score calculations.",
+  "calendar_capacity_summary": {
+    "stratum-04": {
+      "cuts": 101,
+      "cuts_with_any_edge": 1,
+      "cuts_with_any_four_volume_account": 61,
+      "max_edges": 2,
+      "max_four_volume_accounts": 6,
+      "max_internal_gate_accounts": 4,
+      "maximum_disjoint_blocks_across_all_cuts": 1
+    },
+    "stratum-05": {
+      "cuts": 101,
+      "cuts_with_any_edge": 3,
+      "cuts_with_any_four_volume_account": 84,
+      "max_edges": 1,
+      "max_four_volume_accounts": 4,
+      "max_internal_gate_accounts": 2,
+      "maximum_disjoint_blocks_across_all_cuts": 1
+    }
+  },
+  "phase": "reporting_only_after_registered_metadata_search"
+}

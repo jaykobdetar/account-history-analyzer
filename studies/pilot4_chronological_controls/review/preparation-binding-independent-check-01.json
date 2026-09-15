@@ -1,0 +1,7 @@
+{
+  "checker_sha256": "1550d787858ae47d8c4d720f11cce2900ad6f70081840f166ed0299beae553a8",
+  "reason": "allocation_evidence_not_bound",
+  "scoring_permitted": false,
+  "status": "failed",
+  "style_scores_computed": 0
+}

@@ -1,0 +1,10 @@
+test_actual_hash_not_supplied_assertion_and_duplicate_rejected (test_check_preparation_bindings_v2.BindingChecks.test_actual_hash_not_supplied_assertion_and_duplicate_rejected) ... ok
+test_deficit_and_odd_reserve_pool_are_preserved (test_check_preparation_bindings_v2.BindingChecks.test_deficit_and_odd_reserve_pool_are_preserved) ... ok
+test_lines_counts_unterminated_tail_and_chunk_boundary (test_check_preparation_bindings_v2.BindingChecks.test_lines_counts_unterminated_tail_and_chunk_boundary) ... ok
+test_nested_evidence_need_not_be_redundantly_listed (test_check_preparation_bindings_v2.BindingChecks.test_nested_evidence_need_not_be_redundantly_listed) ... ok
+test_shared_identity_singleton_changed_cap_and_non_utc_fail (test_check_preparation_bindings_v2.BindingChecks.test_shared_identity_singleton_changed_cap_and_non_utc_fail) ... ok
+
+----------------------------------------------------------------------
+Ran 5 tests in 0.005s
+
+OK

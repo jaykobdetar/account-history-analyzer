@@ -1,0 +1,76 @@
+{
+  "acquisition_receipt_sha256": "f1f99519ddc389360955d04a73e16c3c60ae718d9aed486ced32fa14e2576e1b",
+  "analysis_config_sha256": "8fd0239fe2f87c9f1506786ac36099fe996e00cc6e021b3ecc67fbb65cd2d925",
+  "community_pairs": [
+    [
+      "linux",
+      "linuxquestions"
+    ],
+    [
+      "programming",
+      "learnprogramming"
+    ]
+  ],
+  "coverage": "Exhaustive source row inventory; safe necessary-count prefilter requires80 present timestamped comments in BOTH communities of a registered pair. Metadata output is one row per actual frozen-preprocessor call. Invalid/unavailable/codepoint-limit inputs never qualify and are counted as exclusions without a metadata row. No style features or distances.",
+  "diagnostic_sha256": "925dd1b4c2ad8f83a47c23cb450224d7f429401005f815c02df8cf875dce982a",
+  "downstream": "Use same101cuts,180-day bands,30-day four-cell median span,5000-word/40-record prefix,20\u2013500 record words,5500-word/200-record maximum,1.10word/1.25record balance. Source hashes, code and synthetic tests separately bound before execution.",
+  "exposure_flags_sha256": "d7e1fe9333896e423618696da7f03029cac2f43d3c855b8a35cd7131b468722f",
+  "fresh_installed_probe_sha256": "5c47cf48388c0c36cf41a143c811209a6e35359f399e537b9b5cfe465b492a75",
+  "implementation_fingerprint": "bfc989028bf2b47c506d1ba501287d4e362aadc25ca5c731c41e4b27a336e179",
+  "installed_package_file": "<INSTALLED_BASELINE>/account_history_analyzer/__init__.py",
+  "limits": {
+    "max_address_space_bytes": 4294967296,
+    "max_eligibility_output_bytes": 805306368,
+    "max_preprocessed_records": 2000000,
+    "max_private_output_bytes": 1073741824,
+    "max_source_rows_per_pass": 15000000,
+    "max_source_uncompressed_bytes_per_pass": 17179869184,
+    "max_wall_seconds": 3600
+  },
+  "namespace_amendment_sha256": "fd89139f22bf1f8a1c5dd11d94c3430e909b3933159ef46fef07040a1013d9ef",
+  "package_version": "1.0.4",
+  "phase": "score_free_archive_metadata_intake_comment_namespace_v2",
+  "previous_plan_sha256": "56e0bef797b0c80649c74bf77827b95e3ae3f2369ffcc6b9fd3e829821d7faa1",
+  "prior_attempt": {
+    "preprocessing_calls": 0,
+    "preserved_outcome": "incomplete_after_comment_submission_raw_ID_collision",
+    "source_rows": 3490927
+  },
+  "protected_inputs": "Exclude57 earlier/protected/private and60pilot3-scored identities before body eligibility inspection. Capacity-only exposure remains flagged.",
+  "raw_present_comments_per_community_min": 80,
+  "record_word_max": 500,
+  "record_word_min": 20,
+  "reference_environment": "CPython-3.12.3;Linux;x86_64;numpy=2.4.2;scipy=1.17.1;ruptures=1.1.10;markdown-it-py=3.0.0;jsonschema=4.26.0",
+  "registered_utc": "2026-09-15T01:50:19.703438+00:00",
+  "source_identifier_scope": "Keep all source row counts. Original comment IDs must be unique across declared archives; submissions are excluded before comment-ID uniqueness. Duplicate comments remain fatal. No renaming, deduplication, or text changes.",
+  "sources": [
+    {
+      "archive": "linux.corpus.zip",
+      "bytes": 423053704,
+      "community": "linux",
+      "sha256": "29b7181a05913401e7c562a029b9cfeca9da6df41a153a04be3778430821bb71",
+      "utterances_bytes": 1691480431
+    },
+    {
+      "archive": "linuxquestions.corpus.zip",
+      "bytes": 86603753,
+      "community": "linuxquestions",
+      "sha256": "6b40a18df38879d43d7c063bd3cf805a5b7ad0411d30c92a5601ce2880215b64",
+      "utterances_bytes": 326883019
+    },
+    {
+      "archive": "programming.corpus.zip",
+      "bytes": 864907082,
+      "community": "programming",
+      "sha256": "a4aecda23e8f2372b995082c9622d21f4a87f7d211bdb139fbeff81e533232e3",
+      "utterances_bytes": 3457396602
+    },
+    {
+      "archive": "learnprogramming.corpus.zip",
+      "bytes": 393050697,
+      "community": "learnprogramming",
+      "sha256": "9732eab8ad07e0dff4abece1ae1d531bd90d0cb803bcfbd24e878be9726cf521",
+      "utterances_bytes": 1469538248
+    }
+  ]
+}

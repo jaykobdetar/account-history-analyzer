@@ -1,0 +1,40 @@
+{
+  "argv": [
+    "/usr/bin/timeout",
+    "--kill-after=5",
+    "120",
+    ".venv/bin/python",
+    "scripts/offline_exec.py",
+    ".venv/bin/python",
+    "studies/pilot4_chronological_controls/scripts/diagnose_pre_post_audit_edges.py",
+    "--plan",
+    "<PRIVATE_PILOT4>/PREPARATION_PLAN_V1.json",
+    "--selection",
+    "<PRIVATE_PILOT4>/candidates-01/selection.json",
+    "--preparation",
+    "<PRIVATE_PILOT4>/candidates-01/preparation.json",
+    "--audit",
+    "<PRIVATE_PILOT4>/audit-01/audit.json",
+    "--final-summary",
+    "studies/pilot4_chronological_controls/inventory/prepared-01/selection-summary.json",
+    "--out",
+    "studies/pilot4_chronological_controls/review/pre-post-audit-edge-losses-01.json"
+  ],
+  "cwd": "<WORKSPACE>",
+  "started_utc": "2026-09-15T02:28:28.628845+00:00",
+  "finished_utc": "2026-09-15T02:28:28.917853+00:00",
+  "exit_code": 0,
+  "wall_seconds": 0.2890055299794767,
+  "child_peak_rss_mib": 131.1796875,
+  "runner_sha256": "4d94adb7a06ec38cc6f5b4fe55f801e87bbdcff712139146d53f55a2928eb2a4",
+  "outputs": {
+    "stdout.log": {
+      "bytes": 203,
+      "sha256": "353ed5de0635d02335d8671d59c0e327d986fb2b85bc6a87909c115b4b3da80c"
+    },
+    "stderr.log": {
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    }
+  }
+}

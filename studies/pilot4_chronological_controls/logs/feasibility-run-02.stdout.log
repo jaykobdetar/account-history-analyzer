@@ -1,0 +1,3 @@
+{"completed_stratum": "stratum-04", "cuts": 101, "best_blocks": 1}
+{"completed_stratum": "stratum-05", "cuts": 101, "best_blocks": 1}
+{"status": "fixed_design_capacity_deficit", "pair_cuts": 202, "wall_seconds": 14.122188661975088}

@@ -1,0 +1,40 @@
+{
+  "argv": [
+    ".venv/bin/python",
+    "scripts/offline_exec.py",
+    ".venv/bin/python",
+    "-B",
+    "studies/pilot4_chronological_controls/scripts/check_metadata_feasibility.py",
+    "--plan",
+    "studies/pilot4_chronological_controls/protocol/FEASIBILITY_PLAN_V1.json",
+    "--flags",
+    "<PRIVATE_PILOT4>/exposure-flags.json",
+    "--registration",
+    "studies/pilot4_chronological_controls/protocol/FEASIBILITY_RUN_01_REGISTRATION.json",
+    "--census",
+    "studies/pilot4_chronological_controls/inventory/feasibility-01",
+    "--private",
+    "<PRIVATE_PILOT4>/feasibility-01/candidates-and-witness.json",
+    "--receipt",
+    "studies/pilot4_chronological_controls/logs/feasibility-run-01.receipt.json",
+    "--out",
+    "studies/pilot4_chronological_controls/review/feasibility-independent-check-01.json"
+  ],
+  "cwd": "<WORKSPACE>",
+  "started_utc": "2026-09-15T01:37:00.052535+00:00",
+  "finished_utc": "2026-09-15T01:37:05.870860+00:00",
+  "exit_code": 0,
+  "wall_seconds": 5.818328029999975,
+  "child_peak_rss_mib": 152.5078125,
+  "runner_sha256": "4d94adb7a06ec38cc6f5b4fe55f801e87bbdcff712139146d53f55a2928eb2a4",
+  "outputs": {
+    "stdout.log": {
+      "bytes": 1511,
+      "sha256": "0335750e663e8219481673a200aa67b6ccc9aaf2a7458e60993292aa18f2d092"
+    },
+    "stderr.log": {
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    }
+  }
+}

@@ -1,0 +1,65 @@
+{
+  "band_rule": "[cut-180days,cut) and [cut,cut+180days)",
+  "cost_rule": "sum_four_cells(abs(medianA-medianB)/(180*86400)+abs(wordsA-wordsB)/5000+abs(recordsA-recordsB)/40)",
+  "cross_stratum_rule": "Choose each pair calendar independently by full uncapped maximum cardinality, exact minimum total matching cost, then earliest cut. At those fixed cuts, search for the first lexicographic globally disjoint witness of two blocks per stratum using all compatible edges, ordered by stratum ID and registered identity hashes. If none exists, report the fixed-design deficit; do not try undeclared alternative cuts or relax gates.",
+  "exposure_flags_sha256": "d7e1fe9333896e423618696da7f03029cac2f43d3c855b8a35cd7131b468722f",
+  "graph_type": "Undirected general graph; no arbitrary A/B partition. Exact maximum-cardinality matching, then exact minimum rational cost.",
+  "identity_order_salt": "pilot4-feasibility-identity-order-v1\u0000",
+  "implementation_path": "scripts/metadata_feasibility.py",
+  "implementation_sha256": "88ecd0a3d1f920426ac6c1b01707bf769157e2fd87ef1ee9c02923df4f91f28b",
+  "input_metadata_files": [
+    {
+      "bytes": 128927505,
+      "sha256": "a804d85a398a614a0fef219d422d1c5257b9de75a93414d517d1506e0f459c2d",
+      "source_index": 1
+    },
+    {
+      "bytes": 97593681,
+      "sha256": "a22d08bfb63c317339bff76f5904dc90052bfa114214e8f163e967a466113b72",
+      "source_index": 2
+    }
+  ],
+  "new_preprocessing": false,
+  "new_source_archive_reads": false,
+  "new_style_scores": false,
+  "operational_helpers": [
+    {
+      "path": "scripts/run_logged.py",
+      "sha256": "4d94adb7a06ec38cc6f5b4fe55f801e87bbdcff712139146d53f55a2928eb2a4"
+    },
+    {
+      "path": "../../scripts/offline_exec.py",
+      "sha256": "88bf4f2a8ff3afe29355e6b52638c03badb4c977b4ae8ec60f0f126d3252ffef"
+    }
+  ],
+  "plan_path": "protocol/FEASIBILITY_PLAN_V1.json",
+  "plan_sha256": "8b547410fcdcb7c365711f0d8c0b0d7ed2a74b2491b02fa9c3d9af5dabe2e54a",
+  "registered_utc": "2026-09-15T01:26:53.342257+00:00",
+  "resource_limits": {
+    "address_space_bytes": 4294967296,
+    "kill_grace_seconds": 5,
+    "metadata_bytes": 268435456,
+    "metadata_rows": 1000000,
+    "outer_timeout_seconds": 600
+  },
+  "status": "frozen_before_first_real_calendar_capacity_run",
+  "synthetic_tests": {
+    "exit_code": 0,
+    "passed": 43,
+    "receipt_path": "logs/feasibility-synthetic-01.receipt.json",
+    "receipt_sha256": "58096a5025f29e3d5d1793fd8ad2cb31eed4565f2edba66c7e1596ad948127b8",
+    "stdout_sha256": "a6d7232cf5878d2cc4359f6fa689dcad5a63652e86bb242ec99f4a94d360cb63"
+  },
+  "test_files": [
+    {
+      "path": "tests/test_metadata_feasibility.py",
+      "sha256": "1fd3ebcfd6c81e9dce863324b6b17169716df430a134687d2624816025d6c8a0"
+    },
+    {
+      "path": "tests/test_metadata_feasibility_independent.py",
+      "sha256": "138477908a77be36e456097ac462dbb6b82aa44238c4af1782684a5ef378620b"
+    }
+  ],
+  "tie_rule": "Within a cut: sorted SHA256(salt+casefold(account)) edge tuples; across cuts: maximum cardinality, minimum exact cost, earliest UTC cut.",
+  "witness_role": "Metadata feasibility candidates only; no final cohort selected and no contamination audit clearance inferred."
+}

@@ -1,0 +1,20 @@
+{
+  "address_space_bytes": 4294967296,
+  "checker_sha256": "1b5f88a17d007b31f729087616ae08fe1fd805d5d704800b0982eb8815395703",
+  "cohort_sha256": "93fd98565d787c33d7cbc3e16362af2752c32b98c34821192c62f376f9bae721",
+  "input_hashes": {
+    "audit": "abacb1ebc4173c6024ff3853f240b06490edfbac22a51cbc1bb57b68926985cd",
+    "audit_freeze": "f8b621868273d65d685b794de1a586274a5572d65c170bc2c681525951b35d45",
+    "audit_public": "d59537c9f48c4d4ed9aa60992a5c17740678d53fa895b023f326bd6786825776",
+    "plan": "89025398dfa648228fc1d67b3c6d1d9644d0685205f1d0f83689882f3445308c",
+    "pool": "cb4587295ee19ff92c2d09f80296a5d7ed774cecd35dae1c82ad0b4317fdea78"
+  },
+  "maximum_preprocessor_calls": 20,
+  "maximum_upstream_metadata_bytes": 1073741824,
+  "maximum_upstream_metadata_rows": 3000000,
+  "phase": "before_independent_prepared_check",
+  "prepared_index_sha256": "a9b6b9b652031fe6619a307e2a2a2854fb5eaf85dea514d2562f88cb2426e2e7",
+  "source_archive_reads": 0,
+  "wall_seconds_limit": 1800,
+  "word_check_salt": "pilot4-prepared-word-check-v1:"
+}

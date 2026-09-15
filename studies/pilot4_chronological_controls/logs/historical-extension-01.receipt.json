@@ -1,0 +1,36 @@
+{
+  "argv": [
+    ".venv/bin/python",
+    "scripts/offline_exec.py",
+    ".venv/bin/python",
+    "-B",
+    "studies/pilot4_chronological_controls/scripts/extend_protection_inventory.py",
+    "--old-inventory",
+    "<PRIVATE_PILOT3>/historical-audit-source-inventory.json",
+    "--cohort",
+    "<PRIVATE_PILOT3>/cohort-01/cohort.json",
+    "--pool",
+    "<PRIVATE_PILOT3>/candidates-01/candidate-pool.jsonl",
+    "--out",
+    "<PRIVATE_PILOT4>/history-01",
+    "--public-receipt",
+    "studies/pilot4_chronological_controls/inventory/historical-protection-extension.json"
+  ],
+  "cwd": "<WORKSPACE>",
+  "started_utc": "2026-09-15T01:35:55.877809+00:00",
+  "finished_utc": "2026-09-15T01:35:56.537569+00:00",
+  "exit_code": 0,
+  "wall_seconds": 0.6597630940086674,
+  "child_peak_rss_mib": 107.7109375,
+  "runner_sha256": "4d94adb7a06ec38cc6f5b4fe55f801e87bbdcff712139146d53f55a2928eb2a4",
+  "outputs": {
+    "stdout.log": {
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    "stderr.log": {
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    }
+  }
+}

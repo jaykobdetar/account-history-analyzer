@@ -1,0 +1,95 @@
+{
+  "capacity_only_exposed_candidate_counts_at_chosen_cuts": {
+    "stratum-04": 0,
+    "stratum-05": 0
+  },
+  "cohort_selected": false,
+  "counts": {
+    "eligible_registered_metadata_rows": 429444,
+    "eligible_registered_words": 31901854,
+    "metadata_rows": 650775,
+    "outside_registered_record_word_bounds": 2496,
+    "prior_ineligible_rows": 218835
+  },
+  "evaluated_pair_cuts": 202,
+  "exposure_flags_sha256": "d7e1fe9333896e423618696da7f03029cac2f43d3c855b8a35cd7131b468722f",
+  "external_fixed_witness_sources": [
+    {
+      "sha256": "b429d1c6c0f0d65124c4de025f55a446038c152b07ed47c039f4143abb70dffb",
+      "source_stratum_id": "stratum-02",
+      "stratum_id": "stratum-02"
+    }
+  ],
+  "finished_utc": "2026-09-15T02:07:55.597554+00:00",
+  "global_witness_joint_deficit": true,
+  "global_witness_quotas": {
+    "stratum-02": 1,
+    "stratum-04": 2,
+    "stratum-05": 2
+  },
+  "global_witness_target_blocks": 5,
+  "globally_disjoint_intended_blocks_exist": false,
+  "implementation_sha256": "ac77100f1f1204ff71bfdf5e92461d97449485bb47f29185e4478c5dc99d08aa",
+  "input_files": [
+    {
+      "bytes": 187358055,
+      "sha256": "6fa2cd853bfd89ec317a9b6823ffc5c1a551f4e897c6d6a7cd5cc6586d55e80a",
+      "source_index": 1
+    }
+  ],
+  "intended_blocks_per_stratum": 2,
+  "interpretation": "All registered cuts are preserved. Exact uncapped maximum matching chooses each new pair calendar independently without external-account filtering. The separate global witness reserves the fixed prior physics edge and requires two blocks from each new pair at their independently chosen cuts; no hidden alternate-cut search occurs. A failed joint witness is reported even when pairwise capacity is positive. This is score-free capacity under the fixed design, not a power calculation or final cohort.",
+  "matching_backend_registration_sha256": "756a6f65d332463250ace47b5e772c0ed193add86e3d84067810c7aeea684d55",
+  "matching_library_verified_files": 595,
+  "new_download_bytes": 0,
+  "new_preprocessing_calls": 0,
+  "new_style_distance_calls": 0,
+  "peak_rss_mib": 618.078125,
+  "plan_sha256": "e19389654aef09181329ee9a2d3e825701b98542ff68d8604a138aabe2f1a1a2",
+  "registration_sha256": "f718701cfab3f4f05149225075233f2e0a24759cb8c8dbeeaffb134518f88d79",
+  "selected_calendar_witnesses": [
+    {
+      "accounts_passing_internal_gates": 4,
+      "accounts_with_four_volume_cells": 5,
+      "communities": [
+        "linux",
+        "linuxquestions"
+      ],
+      "compatible_edges": 2,
+      "cut": "2015-03-01T00:00:00Z",
+      "intended_block_deficit": 1,
+      "matching_dp_states": 0,
+      "maximum_disjoint_blocks": 1,
+      "minimum_exact_matching_cost": {
+        "denominator": 12960000,
+        "numerator": 8350201
+      },
+      "stratum_id": "stratum-04",
+      "whole_history_necessary_accounts": 73
+    },
+    {
+      "accounts_passing_internal_gates": 2,
+      "accounts_with_four_volume_cells": 2,
+      "communities": [
+        "programming",
+        "learnprogramming"
+      ],
+      "compatible_edges": 1,
+      "cut": "2012-03-01T00:00:00Z",
+      "intended_block_deficit": 1,
+      "matching_dp_states": 0,
+      "maximum_disjoint_blocks": 1,
+      "minimum_exact_matching_cost": {
+        "denominator": 31104000,
+        "numerator": 20574883
+      },
+      "stratum_id": "stratum-05",
+      "whole_history_necessary_accounts": 122
+    }
+  ],
+  "source_prose_fields_accessed": false,
+  "started_utc": "2026-09-15T02:07:41.475376+00:00",
+  "status": "fixed_design_capacity_deficit",
+  "version": "pilot4-score-free-metadata-feasibility-v2",
+  "wall_seconds": 14.122188661975088
+}

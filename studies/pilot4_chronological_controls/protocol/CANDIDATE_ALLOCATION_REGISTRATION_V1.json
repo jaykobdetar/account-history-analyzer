@@ -1,0 +1,68 @@
+{
+  "phase": "frozen_before_metadata_allocation",
+  "created_utc": "2026-09-15T02:14:06.439246+00:00",
+  "script_sha256": "78740432ca238f6e63e48a66d4244a674689bf3ec84f0310f3e586ee23449e5a",
+  "design": "<WORKSPACE>/studies/pilot4_chronological_controls/protocol/FEASIBILITY_PLAN_V1.json",
+  "sources": [
+    {
+      "path": "<PRIVATE_PILOT4>/feasibility-01/candidates-and-witness.json",
+      "stratum_ids": [
+        "stratum-02"
+      ]
+    },
+    {
+      "path": "<PRIVATE_PILOT4>/feasibility-02/candidates-and-witness.json",
+      "stratum_ids": [
+        "stratum-04",
+        "stratum-05"
+      ]
+    }
+  ],
+  "bound_artifacts": [
+    {
+      "path": "<WORKSPACE>/studies/pilot4_chronological_controls/scripts/run_candidate_allocation.py",
+      "sha256": "78740432ca238f6e63e48a66d4244a674689bf3ec84f0310f3e586ee23449e5a"
+    },
+    {
+      "path": "<WORKSPACE>/studies/pilot4_chronological_controls/scripts/allocate_candidate_accounts.py",
+      "sha256": "c560c20f568966b2e29a4f517c133624a6c07d540589ff0165fa9ede5a9c09ab"
+    },
+    {
+      "path": "<WORKSPACE>/studies/pilot4_chronological_controls/scripts/metadata_feasibility.py",
+      "sha256": "88ecd0a3d1f920426ac6c1b01707bf769157e2fd87ef1ee9c02923df4f91f28b"
+    },
+    {
+      "path": "<WORKSPACE>/studies/pilot4_chronological_controls/scripts/run_full_chronology.py",
+      "sha256": "2318580a40888b1d21ba8036f4f7efdb1cbe9af7d5724361dfedcbf7ec9bc5d8"
+    },
+    {
+      "path": "<WORKSPACE>/studies/pilot4_chronological_controls/tests/test_allocate_candidate_accounts.py",
+      "sha256": "5baf804416346b23a7ca32614d259fad91fbdcaf690555a127791df6193265ff"
+    },
+    {
+      "path": "<WORKSPACE>/studies/pilot4_chronological_controls/logs/allocation-tests-02.receipt.json",
+      "sha256": "6aebef026d60d76593c03e88da4f2fdb931d5c4eec9589d9cb47a8e79c6af3ad"
+    },
+    {
+      "path": "<WORKSPACE>/studies/pilot4_chronological_controls/protocol/CHRONOLOGICAL_SCORING_PROTOCOL_V1.md",
+      "sha256": "21f04a3b2b74fb80f5b41876d60da8b15772335c355488645b1a0ad5a529acda"
+    },
+    {
+      "path": "<WORKSPACE>/studies/pilot4_chronological_controls/protocol/FEASIBILITY_PLAN_V1.json",
+      "sha256": "8b547410fcdcb7c365711f0d8c0b0d7ed2a74b2491b02fa9c3d9af5dabe2e54a"
+    },
+    {
+      "path": "<PRIVATE_PILOT4>/feasibility-01/candidates-and-witness.json",
+      "sha256": "b429d1c6c0f0d65124c4de025f55a446038c152b07ed47c039f4143abb70dffb"
+    },
+    {
+      "path": "<PRIVATE_PILOT4>/feasibility-02/candidates-and-witness.json",
+      "sha256": "d7b7dfa459aab55813f4aeebfcc988ba314d5b1a1eae1ba08b1e9ebb8bfa6361"
+    }
+  ],
+  "limits": {
+    "wall_seconds": 600,
+    "address_space_bytes": 4294967296
+  },
+  "rules": "Reserve globally disjoint witness using original protocol quota order; preserve cap1/2/2 deficits; extend edge endpoints in cost/hash order; no alternate cuts or styles."
+}

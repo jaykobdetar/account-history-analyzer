@@ -1,0 +1,46 @@
+{
+  "bindings": [
+    {
+      "path": "<WORKSPACE>/studies/pilot4_chronological_controls/scripts/check_prepared_chronology.py",
+      "sha256": "1b5f88a17d007b31f729087616ae08fe1fd805d5d704800b0982eb8815395703"
+    },
+    {
+      "path": "<WORKSPACE>/studies/pilot4_chronological_controls/tests/test_check_prepared_chronology.py",
+      "sha256": "3fc05b6c816f90ffdd36df0dbefddd3852c72845c3cb14e22601408e25fe68d3"
+    },
+    {
+      "path": "<WORKSPACE>/studies/pilot4_chronological_controls/tests/test_matched_condition_changes_independent.py",
+      "sha256": "9b5177992dcd6bc414eda80c693f6a4275b3649bb8fd9775dd586c4e801514f6"
+    },
+    {
+      "path": "<WORKSPACE>/studies/pilot4_chronological_controls/logs/prepared-checker-synthetic-04.receipt.json",
+      "sha256": "b7f814c44557519b1cff8a4846554f8274cd730c79ab78230891e776298a34a1"
+    }
+  ],
+  "coverage": [
+    "Verify every exported original field against private pool except uniform constructed account alias",
+    "Verify private original-line bytes and all field projections against source copies; source-line SHA256 and selection metadata also matched directly to hash-bound upstream census metadata",
+    "Verify exact117 excluded accounts and globally disjoint account/cell memberships",
+    "Reconstruct whole surviving nearest-cut5000word/40record prefixes and unchanged20..500/5500/200/180day/30day/11:10/5:4 rules",
+    "Independently optimize capped one/two-block matching using a vertex-subset recurrence and exact rational costs",
+    "Reconstruct all16 factorial rows/block, first-late truth and distinct control junction, canonical windows/legal grid, all public counts/dates/type7 quantiles",
+    "Verify completed audit hash chain, provenance partition, symmetric content/thread purge rules and selected survivor membership"
+  ],
+  "limits": {
+    "address_space_bytes": 4294967296,
+    "maximum_preprocessor_calls": 20,
+    "pool_bytes": 268435456,
+    "pool_records": 100000,
+    "prepared_bytes": 268435456,
+    "upstream_metadata_bytes": 1073741824,
+    "upstream_metadata_rows": 3000000,
+    "wall_seconds": 1800
+  },
+  "phase": "independent_prepared_check_rules_fixed_before_actual_prepared_inputs",
+  "private_prose_or_identity_output": false,
+  "registered_utc": "2026-09-15T02:12:55.523187+00:00",
+  "source_archive_reads": 0,
+  "style_scores_computed": 0,
+  "synthetic_validation": "26 tests passed, including paired-change common-anchor coverage and equal block weighting; earlier failed checker-order attempt preserved.",
+  "word_sample": "Lowest SHA256(pilot4-prepared-word-check-v1: + original record ID) among distinct final selected records, at most20. Count kind=word token offsets through unchanged frozen preprocessor. Full audit counts remain separate; a20-record check is not an independent recount of every record."
+}

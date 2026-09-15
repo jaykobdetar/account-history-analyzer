@@ -1,0 +1,1692 @@
+{
+  "after_available_cell_prefixes": 26,
+  "after_compatible_edges": 0,
+  "alternate_cuts_examined": 0,
+  "before_available_cell_prefixes": 28,
+  "before_compatible_edges": 4,
+  "candidate_accounts": 7,
+  "candidate_cells": 28,
+  "cells": [
+    {
+      "after": {
+        "available": true,
+        "median_timestamp": {
+          "denominator": 1,
+          "numerator": 1507932501
+        },
+        "reason": null,
+        "records": 44,
+        "words": 5026
+      },
+      "before": {
+        "available": true,
+        "median_timestamp": {
+          "denominator": 1,
+          "numerator": 1507932501
+        },
+        "reason": null,
+        "records": 48,
+        "words": 5188
+      },
+      "cell_id": "stratum-02/candidate-01/X/early",
+      "pool_records": 81,
+      "pool_words": 8265,
+      "purge_reason_counts": {
+        "thread_cross_candidate_cells": 5
+      },
+      "purged_records": 5,
+      "purged_words": 285,
+      "selected_median_shift_days": {
+        "denominator": 1,
+        "numerator": 0
+      },
+      "selected_record_count_delta": -4,
+      "stratum_id": "stratum-02",
+      "surviving_records": 76,
+      "surviving_words": 7980
+    },
+    {
+      "after": {
+        "available": true,
+        "median_timestamp": {
+          "denominator": 1,
+          "numerator": 1512204243
+        },
+        "reason": null,
+        "records": 47,
+        "words": 5010
+      },
+      "before": {
+        "available": true,
+        "median_timestamp": {
+          "denominator": 1,
+          "numerator": 1511097376
+        },
+        "reason": null,
+        "records": 47,
+        "words": 5033
+      },
+      "cell_id": "stratum-02/candidate-01/X/late",
+      "pool_records": 69,
+      "pool_words": 8026,
+      "purge_reason_counts": {
+        "thread_cross_candidate_cells": 8
+      },
+      "purged_records": 8,
+      "purged_words": 1498,
+      "selected_median_shift_days": {
+        "denominator": 86400,
+        "numerator": 1106867
+      },
+      "selected_record_count_delta": 0,
+      "stratum_id": "stratum-02",
+      "surviving_records": 61,
+      "surviving_words": 6528
+    },
+    {
+      "after": {
+        "available": true,
+        "median_timestamp": {
+          "denominator": 1,
+          "numerator": 1508345277
+        },
+        "reason": null,
+        "records": 42,
+        "words": 5012
+      },
+      "before": {
+        "available": true,
+        "median_timestamp": {
+          "denominator": 1,
+          "numerator": 1508352055
+        },
+        "reason": null,
+        "records": 43,
+        "words": 5335
+      },
+      "cell_id": "stratum-02/candidate-01/Y/early",
+      "pool_records": 72,
+      "pool_words": 8056,
+      "purge_reason_counts": {
+        "thread_cross_candidate_cells": 9,
+        "thread_historical_boundary": 8
+      },
+      "purged_records": 17,
+      "purged_words": 1726,
+      "selected_median_shift_days": {
+        "denominator": 43200,
+        "numerator": -3389
+      },
+      "selected_record_count_delta": -1,
+      "stratum_id": "stratum-02",
+      "surviving_records": 55,
+      "surviving_words": 6330
+    },
+    {
+      "after": {
+        "available": true,
+        "median_timestamp": {
+          "denominator": 1,
+          "numerator": 1510922585
+        },
+        "reason": null,
+        "records": 44,
+        "words": 5133
+      },
+      "before": {
+        "available": true,
+        "median_timestamp": {
+          "denominator": 1,
+          "numerator": 1510617575
+        },
+        "reason": null,
+        "records": 40,
+        "words": 5203
+      },
+      "cell_id": "stratum-02/candidate-01/Y/late",
+      "pool_records": 67,
+      "pool_words": 8143,
+      "purge_reason_counts": {
+        "thread_cross_candidate_cells": 8
+      },
+      "purged_records": 8,
+      "purged_words": 1339,
+      "selected_median_shift_days": {
+        "denominator": 960,
+        "numerator": 3389
+      },
+      "selected_record_count_delta": 4,
+      "stratum_id": "stratum-02",
+      "surviving_records": 59,
+      "surviving_words": 6804
+    },
+    {
+      "after": {
+        "available": false,
+        "median_timestamp": null,
+        "reason": "whole_prefix_exceeds_5500_words_before_both_targets",
+        "records": null,
+        "remaining_records": 57,
+        "remaining_words": 7520,
+        "stopped_prefix_records": 40,
+        "stopped_prefix_words": 5562,
+        "words": null
+      },
+      "before": {
+        "available": true,
+        "median_timestamp": {
+          "denominator": 1,
+          "numerator": 1507689808
+        },
+        "reason": null,
+        "records": 40,
+        "words": 5454
+      },
+      "cell_id": "stratum-02/candidate-02/X/early",
+      "pool_records": 64,
+      "pool_words": 8348,
+      "purge_reason_counts": {
+        "content_cross_candidate_cells": 4,
+        "thread_cross_candidate_cells": 2,
+        "thread_historical_boundary": 1
+      },
+      "purged_records": 7,
+      "purged_words": 828,
+      "selected_median_shift_days": null,
+      "selected_record_count_delta": null,
+      "stratum_id": "stratum-02",
+      "surviving_records": 57,
+      "surviving_words": 7520
+    },
+    {
+      "after": {
+        "available": true,
+        "median_timestamp": {
+          "denominator": 2,
+          "numerator": 3021316919
+        },
+        "reason": null,
+        "records": 42,
+        "words": 5005
+      },
+      "before": {
+        "available": true,
+        "median_timestamp": {
+          "denominator": 1,
+          "numerator": 1510492829
+        },
+        "reason": null,
+        "records": 45,
+        "words": 5102
+      },
+      "cell_id": "stratum-02/candidate-02/X/late",
+      "pool_records": 69,
+      "pool_words": 8054,
+      "purge_reason_counts": {
+        "content_cross_candidate_cells": 6,
+        "thread_cross_candidate_cells": 5
+      },
+      "purged_records": 11,
+      "purged_words": 1339,
+      "selected_median_shift_days": {
+        "denominator": 172800,
+        "numerator": 331261
+      },
+      "selected_record_count_delta": -3,
+      "stratum_id": "stratum-02",
+      "surviving_records": 58,
+      "surviving_words": 6715
+    },
+    {
+      "after": {
+        "available": true,
+        "median_timestamp": {
+          "denominator": 1,
+          "numerator": 1507741521
+        },
+        "reason": null,
+        "records": 45,
+        "words": 5164
+      },
+      "before": {
+        "available": true,
+        "median_timestamp": {
+          "denominator": 1,
+          "numerator": 1508021435
+        },
+        "reason": null,
+        "records": 44,
+        "words": 5042
+      },
+      "cell_id": "stratum-02/candidate-02/Y/early",
+      "pool_records": 69,
+      "pool_words": 8056,
+      "purge_reason_counts": {
+        "content_cross_candidate_cells": 7,
+        "thread_cross_candidate_cells": 5
+      },
+      "purged_records": 12,
+      "purged_words": 1492,
+      "selected_median_shift_days": {
+        "denominator": 43200,
+        "numerator": -139957
+      },
+      "selected_record_count_delta": 1,
+      "stratum_id": "stratum-02",
+      "surviving_records": 57,
+      "surviving_words": 6564
+    },
+    {
+      "after": {
+        "available": true,
+        "median_timestamp": {
+          "denominator": 1,
+          "numerator": 1510228737
+        },
+        "reason": null,
+        "records": 41,
+        "words": 5019
+      },
+      "before": {
+        "available": true,
+        "median_timestamp": {
+          "denominator": 1,
+          "numerator": 1510186558
+        },
+        "reason": null,
+        "records": 41,
+        "words": 5027
+      },
+      "cell_id": "stratum-02/candidate-02/Y/late",
+      "pool_records": 64,
+      "pool_words": 8002,
+      "purge_reason_counts": {
+        "content_cross_candidate_cells": 4,
+        "thread_cross_candidate_cells": 6
+      },
+      "purged_records": 10,
+      "purged_words": 1441,
+      "selected_median_shift_days": {
+        "denominator": 86400,
+        "numerator": 42179
+      },
+      "selected_record_count_delta": 0,
+      "stratum_id": "stratum-02",
+      "surviving_records": 54,
+      "surviving_words": 6561
+    },
+    {
+      "after": {
+        "available": true,
+        "median_timestamp": {
+          "denominator": 1,
+          "numerator": 1419935291
+        },
+        "reason": null,
+        "records": 75,
+        "words": 5033
+      },
+      "before": {
+        "available": true,
+        "median_timestamp": {
+          "denominator": 1,
+          "numerator": 1421176494
+        },
+        "reason": null,
+        "records": 73,
+        "words": 5006
+      },
+      "cell_id": "stratum-04/candidate-01/X/early",
+      "pool_records": 114,
+      "pool_words": 8054,
+      "purge_reason_counts": {
+        "thread_cross_candidate_cells": 10
+      },
+      "purged_records": 10,
+      "purged_words": 928,
+      "selected_median_shift_days": {
+        "denominator": 86400,
+        "numerator": -1241203
+      },
+      "selected_record_count_delta": 2,
+      "stratum_id": "stratum-04",
+      "surviving_records": 104,
+      "surviving_words": 7126
+    },
+    {
+      "after": {
+        "available": true,
+        "median_timestamp": {
+          "denominator": 1,
+          "numerator": 1431098048
+        },
+        "reason": null,
+        "records": 70,
+        "words": 5091
+      },
+      "before": {
+        "available": true,
+        "median_timestamp": {
+          "denominator": 1,
+          "numerator": 1428715930
+        },
+        "reason": null,
+        "records": 73,
+        "words": 5140
+      },
+      "cell_id": "stratum-04/candidate-01/X/late",
+      "pool_records": 118,
+      "pool_words": 8086,
+      "purge_reason_counts": {
+        "thread_cross_candidate_cells": 8
+      },
+      "purged_records": 8,
+      "purged_words": 502,
+      "selected_median_shift_days": {
+        "denominator": 43200,
+        "numerator": 1191059
+      },
+      "selected_record_count_delta": -3,
+      "stratum_id": "stratum-04",
+      "surviving_records": 110,
+      "surviving_words": 7584
+    },
+    {
+      "after": {
+        "available": true,
+        "median_timestamp": {
+          "denominator": 2,
+          "numerator": 2843443035
+        },
+        "reason": null,
+        "records": 76,
+        "words": 5022
+      },
+      "before": {
+        "available": true,
+        "median_timestamp": {
+          "denominator": 1,
+          "numerator": 1421768996
+        },
+        "reason": null,
+        "records": 76,
+        "words": 5003
+      },
+      "cell_id": "stratum-04/candidate-01/Y/early",
+      "pool_records": 118,
+      "pool_words": 8004,
+      "purge_reason_counts": {
+        "thread_cross_candidate_cells": 2
+      },
+      "purged_records": 2,
+      "purged_words": 129,
+      "selected_median_shift_days": {
+        "denominator": 172800,
+        "numerator": -94957
+      },
+      "selected_record_count_delta": 0,
+      "stratum_id": "stratum-04",
+      "surviving_records": 116,
+      "surviving_words": 7875
+    },
+    {
+      "after": {
+        "available": true,
+        "median_timestamp": {
+          "denominator": 1,
+          "numerator": 1427228023
+        },
+        "reason": null,
+        "records": 69,
+        "words": 5172
+      },
+      "before": {
+        "available": true,
+        "median_timestamp": {
+          "denominator": 1,
+          "numerator": 1427228023
+        },
+        "reason": null,
+        "records": 69,
+        "words": 5172
+      },
+      "cell_id": "stratum-04/candidate-01/Y/late",
+      "pool_records": 105,
+      "pool_words": 8046,
+      "purge_reason_counts": {},
+      "purged_records": 0,
+      "purged_words": 0,
+      "selected_median_shift_days": {
+        "denominator": 1,
+        "numerator": 0
+      },
+      "selected_record_count_delta": 0,
+      "stratum_id": "stratum-04",
+      "surviving_records": 105,
+      "surviving_words": 8046
+    },
+    {
+      "after": {
+        "available": true,
+        "median_timestamp": {
+          "denominator": 1,
+          "numerator": 1423163671
+        },
+        "reason": null,
+        "records": 76,
+        "words": 5046
+      },
+      "before": {
+        "available": true,
+        "median_timestamp": {
+          "denominator": 2,
+          "numerator": 2846877055
+        },
+        "reason": null,
+        "records": 76,
+        "words": 5067
+      },
+      "cell_id": "stratum-04/candidate-02/X/early",
+      "pool_records": 124,
+      "pool_words": 8084,
+      "purge_reason_counts": {
+        "thread_cross_candidate_cells": 15
+      },
+      "purged_records": 15,
+      "purged_words": 791,
+      "selected_median_shift_days": {
+        "denominator": 172800,
+        "numerator": -549713
+      },
+      "selected_record_count_delta": 0,
+      "stratum_id": "stratum-04",
+      "surviving_records": 109,
+      "surviving_words": 7293
+    },
+    {
+      "after": {
+        "available": true,
+        "median_timestamp": {
+          "denominator": 1,
+          "numerator": 1427380405
+        },
+        "reason": null,
+        "records": 83,
+        "words": 5030
+      },
+      "before": {
+        "available": true,
+        "median_timestamp": {
+          "denominator": 2,
+          "numerator": 2854505927
+        },
+        "reason": null,
+        "records": 84,
+        "words": 5143
+      },
+      "cell_id": "stratum-04/candidate-02/X/late",
+      "pool_records": 116,
+      "pool_words": 8179,
+      "purge_reason_counts": {
+        "thread_cross_candidate_cells": 7
+      },
+      "purged_records": 7,
+      "purged_words": 450,
+      "selected_median_shift_days": {
+        "denominator": 57600,
+        "numerator": 84961
+      },
+      "selected_record_count_delta": -1,
+      "stratum_id": "stratum-04",
+      "surviving_records": 109,
+      "surviving_words": 7729
+    },
+    {
+      "after": {
+        "available": true,
+        "median_timestamp": {
+          "denominator": 1,
+          "numerator": 1420798608
+        },
+        "reason": null,
+        "records": 79,
+        "words": 5110
+      },
+      "before": {
+        "available": true,
+        "median_timestamp": {
+          "denominator": 1,
+          "numerator": 1422163705
+        },
+        "reason": null,
+        "records": 78,
+        "words": 5039
+      },
+      "cell_id": "stratum-04/candidate-02/Y/early",
+      "pool_records": 105,
+      "pool_words": 6769,
+      "purge_reason_counts": {
+        "thread_cross_candidate_cells": 5
+      },
+      "purged_records": 5,
+      "purged_words": 294,
+      "selected_median_shift_days": {
+        "denominator": 86400,
+        "numerator": -1365097
+      },
+      "selected_record_count_delta": 1,
+      "stratum_id": "stratum-04",
+      "surviving_records": 100,
+      "surviving_words": 6475
+    },
+    {
+      "after": {
+        "available": true,
+        "median_timestamp": {
+          "denominator": 2,
+          "numerator": 2860186879
+        },
+        "reason": null,
+        "records": 72,
+        "words": 5312
+      },
+      "before": {
+        "available": true,
+        "median_timestamp": {
+          "denominator": 1,
+          "numerator": 1429127549
+        },
+        "reason": null,
+        "records": 71,
+        "words": 5002
+      },
+      "cell_id": "stratum-04/candidate-02/Y/late",
+      "pool_records": 107,
+      "pool_words": 8120,
+      "purge_reason_counts": {
+        "thread_cross_candidate_cells": 3
+      },
+      "purged_records": 3,
+      "purged_words": 127,
+      "selected_median_shift_days": {
+        "denominator": 57600,
+        "numerator": 643927
+      },
+      "selected_record_count_delta": 1,
+      "stratum_id": "stratum-04",
+      "surviving_records": 104,
+      "surviving_words": 7993
+    },
+    {
+      "after": {
+        "available": true,
+        "median_timestamp": {
+          "denominator": 2,
+          "numerator": 2837299081
+        },
+        "reason": null,
+        "records": 70,
+        "words": 5009
+      },
+      "before": {
+        "available": true,
+        "median_timestamp": {
+          "denominator": 1,
+          "numerator": 1420632396
+        },
+        "reason": null,
+        "records": 72,
+        "words": 5038
+      },
+      "cell_id": "stratum-04/candidate-03/X/early",
+      "pool_records": 104,
+      "pool_words": 8126,
+      "purge_reason_counts": {
+        "thread_cross_candidate_cells": 10
+      },
+      "purged_records": 10,
+      "purged_words": 985,
+      "selected_median_shift_days": {
+        "denominator": 172800,
+        "numerator": -3965711
+      },
+      "selected_record_count_delta": -2,
+      "stratum_id": "stratum-04",
+      "surviving_records": 94,
+      "surviving_words": 7141
+    },
+    {
+      "after": {
+        "available": true,
+        "median_timestamp": {
+          "denominator": 1,
+          "numerator": 1427229114
+        },
+        "reason": null,
+        "records": 66,
+        "words": 5007
+      },
+      "before": {
+        "available": true,
+        "median_timestamp": {
+          "denominator": 1,
+          "numerator": 1426820729
+        },
+        "reason": null,
+        "records": 67,
+        "words": 5092
+      },
+      "cell_id": "stratum-04/candidate-03/X/late",
+      "pool_records": 98,
+      "pool_words": 8072,
+      "purge_reason_counts": {
+        "thread_cross_candidate_cells": 13
+      },
+      "purged_records": 13,
+      "purged_words": 806,
+      "selected_median_shift_days": {
+        "denominator": 17280,
+        "numerator": 81677
+      },
+      "selected_record_count_delta": -1,
+      "stratum_id": "stratum-04",
+      "surviving_records": 85,
+      "surviving_words": 7266
+    },
+    {
+      "after": {
+        "available": true,
+        "median_timestamp": {
+          "denominator": 2,
+          "numerator": 2844050073
+        },
+        "reason": null,
+        "records": 76,
+        "words": 5007
+      },
+      "before": {
+        "available": true,
+        "median_timestamp": {
+          "denominator": 1,
+          "numerator": 1422437182
+        },
+        "reason": null,
+        "records": 71,
+        "words": 5077
+      },
+      "cell_id": "stratum-04/candidate-03/Y/early",
+      "pool_records": 120,
+      "pool_words": 8015,
+      "purge_reason_counts": {
+        "thread_cross_candidate_cells": 10
+      },
+      "purged_records": 10,
+      "purged_words": 1054,
+      "selected_median_shift_days": {
+        "denominator": 172800,
+        "numerator": -824291
+      },
+      "selected_record_count_delta": 5,
+      "stratum_id": "stratum-04",
+      "surviving_records": 110,
+      "surviving_words": 6961
+    },
+    {
+      "after": {
+        "available": true,
+        "median_timestamp": {
+          "denominator": 2,
+          "numerator": 2855830045
+        },
+        "reason": null,
+        "records": 74,
+        "words": 5036
+      },
+      "before": {
+        "available": true,
+        "median_timestamp": {
+          "denominator": 1,
+          "numerator": 1427817336
+        },
+        "reason": null,
+        "records": 71,
+        "words": 5043
+      },
+      "cell_id": "stratum-04/candidate-03/Y/late",
+      "pool_records": 83,
+      "pool_words": 5561,
+      "purge_reason_counts": {
+        "thread_cross_candidate_cells": 2
+      },
+      "purged_records": 2,
+      "purged_words": 201,
+      "selected_median_shift_days": {
+        "denominator": 172800,
+        "numerator": 195373
+      },
+      "selected_record_count_delta": 3,
+      "stratum_id": "stratum-04",
+      "surviving_records": 81,
+      "surviving_words": 5360
+    },
+    {
+      "after": {
+        "available": true,
+        "median_timestamp": {
+          "denominator": 1,
+          "numerator": 1325983422
+        },
+        "reason": null,
+        "records": 43,
+        "words": 5198
+      },
+      "before": {
+        "available": true,
+        "median_timestamp": {
+          "denominator": 1,
+          "numerator": 1329501467
+        },
+        "reason": null,
+        "records": 40,
+        "words": 5281
+      },
+      "cell_id": "stratum-05/candidate-01/X/early",
+      "pool_records": 73,
+      "pool_words": 8046,
+      "purge_reason_counts": {
+        "thread_cross_candidate_cells": 7
+      },
+      "purged_records": 7,
+      "purged_words": 1084,
+      "selected_median_shift_days": {
+        "denominator": 17280,
+        "numerator": -703609
+      },
+      "selected_record_count_delta": 3,
+      "stratum_id": "stratum-05",
+      "surviving_records": 66,
+      "surviving_words": 6962
+    },
+    {
+      "after": {
+        "available": false,
+        "median_timestamp": null,
+        "reason": "insufficient_remaining_volume",
+        "records": null,
+        "remaining_records": 36,
+        "remaining_words": 4413,
+        "stopped_prefix_records": 36,
+        "stopped_prefix_words": 4413,
+        "words": null
+      },
+      "before": {
+        "available": true,
+        "median_timestamp": {
+          "denominator": 1,
+          "numerator": 1332341045
+        },
+        "reason": null,
+        "records": 43,
+        "words": 5058
+      },
+      "cell_id": "stratum-05/candidate-01/X/late",
+      "pool_records": 44,
+      "pool_words": 5524,
+      "purge_reason_counts": {
+        "thread_cross_candidate_cells": 8
+      },
+      "purged_records": 8,
+      "purged_words": 1111,
+      "selected_median_shift_days": null,
+      "selected_record_count_delta": null,
+      "stratum_id": "stratum-05",
+      "surviving_records": 36,
+      "surviving_words": 4413
+    },
+    {
+      "after": {
+        "available": true,
+        "median_timestamp": {
+          "denominator": 1,
+          "numerator": 1330071998
+        },
+        "reason": null,
+        "records": 48,
+        "words": 5006
+      },
+      "before": {
+        "available": true,
+        "median_timestamp": {
+          "denominator": 1,
+          "numerator": 1330116686
+        },
+        "reason": null,
+        "records": 49,
+        "words": 5029
+      },
+      "cell_id": "stratum-05/candidate-01/Y/early",
+      "pool_records": 87,
+      "pool_words": 8032,
+      "purge_reason_counts": {
+        "thread_cross_candidate_cells": 4
+      },
+      "purged_records": 4,
+      "purged_words": 350,
+      "selected_median_shift_days": {
+        "denominator": 1800,
+        "numerator": -931
+      },
+      "selected_record_count_delta": -1,
+      "stratum_id": "stratum-05",
+      "surviving_records": 83,
+      "surviving_words": 7682
+    },
+    {
+      "after": {
+        "available": true,
+        "median_timestamp": {
+          "denominator": 2,
+          "numerator": 2664373695
+        },
+        "reason": null,
+        "records": 40,
+        "words": 5350
+      },
+      "before": {
+        "available": true,
+        "median_timestamp": {
+          "denominator": 2,
+          "numerator": 2663523773
+        },
+        "reason": null,
+        "records": 40,
+        "words": 5165
+      },
+      "cell_id": "stratum-05/candidate-01/Y/late",
+      "pool_records": 67,
+      "pool_words": 8013,
+      "purge_reason_counts": {
+        "thread_cross_candidate_cells": 5
+      },
+      "purged_records": 5,
+      "purged_words": 299,
+      "selected_median_shift_days": {
+        "denominator": 86400,
+        "numerator": 424961
+      },
+      "selected_record_count_delta": 0,
+      "stratum_id": "stratum-05",
+      "surviving_records": 62,
+      "surviving_words": 7714
+    },
+    {
+      "after": {
+        "available": true,
+        "median_timestamp": {
+          "denominator": 1,
+          "numerator": 1329511672
+        },
+        "reason": null,
+        "records": 43,
+        "words": 5093
+      },
+      "before": {
+        "available": true,
+        "median_timestamp": {
+          "denominator": 1,
+          "numerator": 1329511672
+        },
+        "reason": null,
+        "records": 43,
+        "words": 5093
+      },
+      "cell_id": "stratum-05/candidate-02/X/early",
+      "pool_records": 79,
+      "pool_words": 8138,
+      "purge_reason_counts": {},
+      "purged_records": 0,
+      "purged_words": 0,
+      "selected_median_shift_days": {
+        "denominator": 1,
+        "numerator": 0
+      },
+      "selected_record_count_delta": 0,
+      "stratum_id": "stratum-05",
+      "surviving_records": 79,
+      "surviving_words": 8138
+    },
+    {
+      "after": {
+        "available": true,
+        "median_timestamp": {
+          "denominator": 2,
+          "numerator": 2663859211
+        },
+        "reason": null,
+        "records": 52,
+        "words": 5057
+      },
+      "before": {
+        "available": true,
+        "median_timestamp": {
+          "denominator": 1,
+          "numerator": 1331327470
+        },
+        "reason": null,
+        "records": 48,
+        "words": 5189
+      },
+      "cell_id": "stratum-05/candidate-02/X/late",
+      "pool_records": 84,
+      "pool_words": 8055,
+      "purge_reason_counts": {
+        "thread_cross_candidate_cells": 4
+      },
+      "purged_records": 4,
+      "purged_words": 727,
+      "selected_median_shift_days": {
+        "denominator": 172800,
+        "numerator": 1204271
+      },
+      "selected_record_count_delta": 4,
+      "stratum_id": "stratum-05",
+      "surviving_records": 80,
+      "surviving_words": 7328
+    },
+    {
+      "after": {
+        "available": true,
+        "median_timestamp": {
+          "denominator": 1,
+          "numerator": 1330384186
+        },
+        "reason": null,
+        "records": 47,
+        "words": 5171
+      },
+      "before": {
+        "available": true,
+        "median_timestamp": {
+          "denominator": 1,
+          "numerator": 1330386878
+        },
+        "reason": null,
+        "records": 47,
+        "words": 5026
+      },
+      "cell_id": "stratum-05/candidate-02/Y/early",
+      "pool_records": 70,
+      "pool_words": 8145,
+      "purge_reason_counts": {
+        "thread_cross_candidate_cells": 2
+      },
+      "purged_records": 2,
+      "purged_words": 113,
+      "selected_median_shift_days": {
+        "denominator": 21600,
+        "numerator": -673
+      },
+      "selected_record_count_delta": 0,
+      "stratum_id": "stratum-05",
+      "surviving_records": 68,
+      "surviving_words": 8032
+    },
+    {
+      "after": {
+        "available": true,
+        "median_timestamp": {
+          "denominator": 2,
+          "numerator": 2661574597
+        },
+        "reason": null,
+        "records": 46,
+        "words": 5044
+      },
+      "before": {
+        "available": true,
+        "median_timestamp": {
+          "denominator": 1,
+          "numerator": 1330746593
+        },
+        "reason": null,
+        "records": 47,
+        "words": 5047
+      },
+      "cell_id": "stratum-05/candidate-02/Y/late",
+      "pool_records": 76,
+      "pool_words": 8046,
+      "purge_reason_counts": {
+        "thread_cross_candidate_cells": 2
+      },
+      "purged_records": 2,
+      "purged_words": 131,
+      "selected_median_shift_days": {
+        "denominator": 57600,
+        "numerator": 27137
+      },
+      "selected_record_count_delta": -1,
+      "stratum_id": "stratum-05",
+      "surviving_records": 74,
+      "surviving_words": 7915
+    }
+  ],
+  "edges": [
+    {
+      "after": {
+        "compatible": false,
+        "early_median_span_days": null,
+        "failed_gates": [
+          "cell_prefix_unavailable"
+        ],
+        "late_median_span_days": null,
+        "record_ratio": null,
+        "unavailable_cell_count": 1,
+        "word_ratio": null
+      },
+      "before": {
+        "compatible": true,
+        "early_median_span_days": {
+          "denominator": 9600,
+          "numerator": 73583
+        },
+        "failed_gates": [],
+        "late_median_span_days": {
+          "denominator": 1600,
+          "numerator": 16867
+        },
+        "record_ratio": {
+          "denominator": 5,
+          "numerator": 6
+        },
+        "unavailable_cell_count": 0,
+        "word_ratio": {
+          "denominator": 5027,
+          "numerator": 5454
+        }
+      },
+      "endpoints": [
+        "stratum-02/candidate-01",
+        "stratum-02/candidate-02"
+      ],
+      "lost_after_audit": true
+    },
+    {
+      "after": {
+        "compatible": false,
+        "early_median_span_days": {
+          "denominator": 4320,
+          "numerator": 161419
+        },
+        "failed_gates": [
+          "early_median_span_above_30_days",
+          "late_median_span_above_30_days"
+        ],
+        "late_median_span_days": {
+          "denominator": 3456,
+          "numerator": 154801
+        },
+        "record_ratio": {
+          "denominator": 69,
+          "numerator": 83
+        },
+        "unavailable_cell_count": 0,
+        "word_ratio": {
+          "denominator": 2511,
+          "numerator": 2656
+        }
+      },
+      "before": {
+        "compatible": true,
+        "early_median_span_days": {
+          "denominator": 172800,
+          "numerator": 4524067
+        },
+        "failed_gates": [],
+        "late_median_span_days": {
+          "denominator": 43200,
+          "numerator": 949763
+        },
+        "record_ratio": {
+          "denominator": 23,
+          "numerator": 28
+        },
+        "unavailable_cell_count": 0,
+        "word_ratio": {
+          "denominator": 2501,
+          "numerator": 2586
+        }
+      },
+      "endpoints": [
+        "stratum-04/candidate-01",
+        "stratum-04/candidate-02"
+      ],
+      "lost_after_audit": true
+    },
+    {
+      "after": {
+        "compatible": false,
+        "early_median_span_days": {
+          "denominator": 10800,
+          "numerator": 421937
+        },
+        "failed_gates": [
+          "early_median_span_above_30_days",
+          "late_median_span_above_30_days"
+        ],
+        "late_median_span_days": {
+          "denominator": 3456,
+          "numerator": 154801
+        },
+        "record_ratio": {
+          "denominator": 33,
+          "numerator": 38
+        },
+        "unavailable_cell_count": 0,
+        "word_ratio": {
+          "denominator": 1669,
+          "numerator": 1724
+        }
+      },
+      "before": {
+        "compatible": true,
+        "early_median_span_days": {
+          "denominator": 43200,
+          "numerator": 902393
+        },
+        "failed_gates": [],
+        "late_median_span_days": {
+          "denominator": 86400,
+          "numerator": 1895201
+        },
+        "record_ratio": {
+          "denominator": 67,
+          "numerator": 76
+        },
+        "unavailable_cell_count": 0,
+        "word_ratio": {
+          "denominator": 5003,
+          "numerator": 5172
+        }
+      },
+      "endpoints": [
+        "stratum-04/candidate-01",
+        "stratum-04/candidate-03"
+      ],
+      "lost_after_audit": true
+    },
+    {
+      "after": {
+        "compatible": false,
+        "early_median_span_days": {
+          "denominator": 172800,
+          "numerator": 9028261
+        },
+        "failed_gates": [
+          "record_ratio_above_5_over_4",
+          "early_median_span_above_30_days",
+          "late_median_span_above_30_days"
+        ],
+        "late_median_span_days": {
+          "denominator": 172800,
+          "numerator": 5728651
+        },
+        "record_ratio": {
+          "denominator": 66,
+          "numerator": 83
+        },
+        "unavailable_cell_count": 0,
+        "word_ratio": {
+          "denominator": 5007,
+          "numerator": 5312
+        }
+      },
+      "before": {
+        "compatible": false,
+        "early_median_span_days": {
+          "denominator": 172800,
+          "numerator": 5612263
+        },
+        "failed_gates": [
+          "record_ratio_above_5_over_4",
+          "early_median_span_above_30_days"
+        ],
+        "late_median_span_days": {
+          "denominator": 1440,
+          "numerator": 38447
+        },
+        "record_ratio": {
+          "denominator": 67,
+          "numerator": 84
+        },
+        "unavailable_cell_count": 0,
+        "word_ratio": {
+          "denominator": 5002,
+          "numerator": 5143
+        }
+      },
+      "endpoints": [
+        "stratum-04/candidate-02",
+        "stratum-04/candidate-03"
+      ],
+      "lost_after_audit": false
+    },
+    {
+      "after": {
+        "compatible": false,
+        "early_median_span_days": null,
+        "failed_gates": [
+          "cell_prefix_unavailable"
+        ],
+        "late_median_span_days": null,
+        "record_ratio": null,
+        "unavailable_cell_count": 1,
+        "word_ratio": null
+      },
+      "before": {
+        "compatible": true,
+        "early_median_span_days": {
+          "denominator": 3200,
+          "numerator": 32793
+        },
+        "failed_gates": [],
+        "late_median_span_days": {
+          "denominator": 7200,
+          "numerator": 132871
+        },
+        "record_ratio": {
+          "denominator": 40,
+          "numerator": 49
+        },
+        "unavailable_cell_count": 0,
+        "word_ratio": {
+          "denominator": 5026,
+          "numerator": 5281
+        }
+      },
+      "endpoints": [
+        "stratum-05/candidate-01",
+        "stratum-05/candidate-02"
+      ],
+      "lost_after_audit": true
+    }
+  ],
+  "implementation_sha256": "2d593d723a61550355f4d48f545b10462bc83443bcd4e620ab40e7922d82cbda",
+  "input_hashes": {
+    "audit": "abacb1ebc4173c6024ff3853f240b06490edfbac22a51cbc1bb57b68926985cd",
+    "final_summary": "77056fdb2bff8050eaf6eca5ddb0cbf4d60a1388f5ba77d3ddd9c46cbd85aebc",
+    "plan": "89025398dfa648228fc1d67b3c6d1d9644d0685205f1d0f83689882f3445308c",
+    "preparation_receipt": "76c3e28b6278da13bd35ee33544f0c6e42c094d9a6010886dc4a2b8a5b5be3c9",
+    "selection_metadata": "3de6d64309e4f939c92bd9dcb7523c35c28461a6fd76458ced106ce007e7080b"
+  },
+  "interpretation": "Within the same frozen audit pool and cut, remove exactly audited purges and reapply the original prefixes and gates. Edge loss may follow unavailable cell volume, changed prefix record counts or changed median dates. This is a mechanical explanation, not a causal estimate or detector outcome.",
+  "new_preprocessing_calls": 0,
+  "new_style_calls": 0,
+  "opaque_labels": "Candidate ordinals follow frozen plan account-list order within each stratum. These are local opaque labels; no source-account map is published.",
+  "peak_rss_mib": 131.1796875,
+  "phase": "post_outcome_metadata_only_pre_post_edge_diagnosis",
+  "purged_records": 195,
+  "recorded_utc": "2026-09-15T02:28:28.909345+00:00",
+  "refill_records_added": 0,
+  "source_identifiers_published": false,
+  "source_metadata_records": 2447,
+  "source_prose_read": false,
+  "status": "passed",
+  "strata": [
+    {
+      "account_changes": [
+        {
+          "after": {
+            "compatible": true,
+            "early_median_span_days": {
+              "denominator": 400,
+              "numerator": 1911
+            },
+            "failed_gates": [],
+            "late_median_span_days": {
+              "denominator": 43200,
+              "numerator": 640829
+            },
+            "record_ratio": {
+              "denominator": 42,
+              "numerator": 47
+            },
+            "unavailable_cell_count": 0,
+            "word_ratio": {
+              "denominator": 1670,
+              "numerator": 1711
+            }
+          },
+          "before": {
+            "compatible": true,
+            "early_median_span_days": {
+              "denominator": 43200,
+              "numerator": 209777
+            },
+            "failed_gates": [],
+            "late_median_span_days": {
+              "denominator": 86400,
+              "numerator": 479801
+            },
+            "record_ratio": {
+              "denominator": 5,
+              "numerator": 6
+            },
+            "unavailable_cell_count": 0,
+            "word_ratio": {
+              "denominator": 5033,
+              "numerator": 5335
+            }
+          },
+          "candidate_id": "stratum-02/candidate-01"
+        },
+        {
+          "after": {
+            "compatible": false,
+            "early_median_span_days": null,
+            "failed_gates": [
+              "cell_prefix_unavailable"
+            ],
+            "late_median_span_days": null,
+            "record_ratio": null,
+            "unavailable_cell_count": 1,
+            "word_ratio": null
+          },
+          "before": {
+            "compatible": true,
+            "early_median_span_days": {
+              "denominator": 86400,
+              "numerator": 331627
+            },
+            "failed_gates": [],
+            "late_median_span_days": {
+              "denominator": 86400,
+              "numerator": 306271
+            },
+            "record_ratio": {
+              "denominator": 8,
+              "numerator": 9
+            },
+            "unavailable_cell_count": 0,
+            "word_ratio": {
+              "denominator": 5027,
+              "numerator": 5454
+            }
+          },
+          "candidate_id": "stratum-02/candidate-02"
+        }
+      ],
+      "after_compatible_edges": 0,
+      "after_maximum_disjoint_blocks": 0,
+      "after_qualified_accounts": 1,
+      "before_compatible_edges": 1,
+      "before_maximum_disjoint_blocks": 1,
+      "before_qualified_accounts": 2,
+      "cut": "2017-11-01T00:00:00Z",
+      "lost_compatible_edges": 1,
+      "lost_edge_failure_gate_counts": {
+        "cell_prefix_unavailable": 1
+      },
+      "pool_accounts": 2,
+      "stratum_id": "stratum-02"
+    },
+    {
+      "account_changes": [
+        {
+          "after": {
+            "compatible": false,
+            "early_median_span_days": {
+              "denominator": 172800,
+              "numerator": 3572453
+            },
+            "failed_gates": [
+              "late_median_span_above_30_days"
+            ],
+            "late_median_span_days": {
+              "denominator": 3456,
+              "numerator": 154801
+            },
+            "record_ratio": {
+              "denominator": 69,
+              "numerator": 76
+            },
+            "unavailable_cell_count": 0,
+            "word_ratio": {
+              "denominator": 837,
+              "numerator": 862
+            }
+          },
+          "before": {
+            "compatible": true,
+            "early_median_span_days": {
+              "denominator": 43200,
+              "numerator": 296251
+            },
+            "failed_gates": [],
+            "late_median_span_days": {
+              "denominator": 9600,
+              "numerator": 165323
+            },
+            "record_ratio": {
+              "denominator": 69,
+              "numerator": 76
+            },
+            "unavailable_cell_count": 0,
+            "word_ratio": {
+              "denominator": 5003,
+              "numerator": 5172
+            }
+          },
+          "candidate_id": "stratum-04/candidate-01"
+        },
+        {
+          "after": {
+            "compatible": false,
+            "early_median_span_days": {
+              "denominator": 86400,
+              "numerator": 2365063
+            },
+            "failed_gates": [
+              "late_median_span_above_30_days"
+            ],
+            "late_median_span_days": {
+              "denominator": 172800,
+              "numerator": 5426069
+            },
+            "record_ratio": {
+              "denominator": 72,
+              "numerator": 83
+            },
+            "unavailable_cell_count": 0,
+            "word_ratio": {
+              "denominator": 2515,
+              "numerator": 2656
+            }
+          },
+          "before": {
+            "compatible": true,
+            "early_median_span_days": {
+              "denominator": 34560,
+              "numerator": 509929
+            },
+            "failed_gates": [],
+            "late_median_span_days": {
+              "denominator": 172800,
+              "numerator": 3749171
+            },
+            "record_ratio": {
+              "denominator": 71,
+              "numerator": 84
+            },
+            "unavailable_cell_count": 0,
+            "word_ratio": {
+              "denominator": 5002,
+              "numerator": 5143
+            }
+          },
+          "candidate_id": "stratum-04/candidate-02"
+        },
+        {
+          "after": {
+            "compatible": false,
+            "early_median_span_days": {
+              "denominator": 10800,
+              "numerator": 421937
+            },
+            "failed_gates": [
+              "early_median_span_above_30_days"
+            ],
+            "late_median_span_days": {
+              "denominator": 172800,
+              "numerator": 1371817
+            },
+            "record_ratio": {
+              "denominator": 33,
+              "numerator": 38
+            },
+            "unavailable_cell_count": 0,
+            "word_ratio": {
+              "denominator": 5007,
+              "numerator": 5036
+            }
+          },
+          "before": {
+            "compatible": true,
+            "early_median_span_days": {
+              "denominator": 43200,
+              "numerator": 902393
+            },
+            "failed_gates": [],
+            "late_median_span_days": {
+              "denominator": 86400,
+              "numerator": 996607
+            },
+            "record_ratio": {
+              "denominator": 67,
+              "numerator": 72
+            },
+            "unavailable_cell_count": 0,
+            "word_ratio": {
+              "denominator": 2519,
+              "numerator": 2546
+            }
+          },
+          "candidate_id": "stratum-04/candidate-03"
+        }
+      ],
+      "after_compatible_edges": 0,
+      "after_maximum_disjoint_blocks": 0,
+      "after_qualified_accounts": 0,
+      "before_compatible_edges": 2,
+      "before_maximum_disjoint_blocks": 1,
+      "before_qualified_accounts": 3,
+      "cut": "2015-03-01T00:00:00Z",
+      "lost_compatible_edges": 2,
+      "lost_edge_failure_gate_counts": {
+        "early_median_span_above_30_days": 2,
+        "late_median_span_above_30_days": 2
+      },
+      "pool_accounts": 3,
+      "stratum_id": "stratum-04"
+    },
+    {
+      "account_changes": [
+        {
+          "after": {
+            "compatible": false,
+            "early_median_span_days": null,
+            "failed_gates": [
+              "cell_prefix_unavailable"
+            ],
+            "late_median_span_days": null,
+            "record_ratio": null,
+            "unavailable_cell_count": 1,
+            "word_ratio": null
+          },
+          "before": {
+            "compatible": true,
+            "early_median_span_days": {
+              "denominator": 28800,
+              "numerator": 205073
+            },
+            "failed_gates": [],
+            "late_median_span_days": {
+              "denominator": 172800,
+              "numerator": 1158317
+            },
+            "record_ratio": {
+              "denominator": 40,
+              "numerator": 49
+            },
+            "unavailable_cell_count": 0,
+            "word_ratio": {
+              "denominator": 5029,
+              "numerator": 5281
+            }
+          },
+          "candidate_id": "stratum-05/candidate-01"
+        },
+        {
+          "after": {
+            "compatible": true,
+            "early_median_span_days": {
+              "denominator": 4800,
+              "numerator": 48473
+            },
+            "failed_gates": [],
+            "late_median_span_days": {
+              "denominator": 9600,
+              "numerator": 126923
+            },
+            "record_ratio": {
+              "denominator": 43,
+              "numerator": 52
+            },
+            "unavailable_cell_count": 0,
+            "word_ratio": {
+              "denominator": 5044,
+              "numerator": 5171
+            }
+          },
+          "before": {
+            "compatible": true,
+            "early_median_span_days": {
+              "denominator": 43200,
+              "numerator": 437603
+            },
+            "failed_gates": [],
+            "late_median_span_days": {
+              "denominator": 86400,
+              "numerator": 580877
+            },
+            "record_ratio": {
+              "denominator": 43,
+              "numerator": 48
+            },
+            "unavailable_cell_count": 0,
+            "word_ratio": {
+              "denominator": 5026,
+              "numerator": 5189
+            }
+          },
+          "candidate_id": "stratum-05/candidate-02"
+        }
+      ],
+      "after_compatible_edges": 0,
+      "after_maximum_disjoint_blocks": 0,
+      "after_qualified_accounts": 1,
+      "before_compatible_edges": 1,
+      "before_maximum_disjoint_blocks": 1,
+      "before_qualified_accounts": 2,
+      "cut": "2012-03-01T00:00:00Z",
+      "lost_compatible_edges": 1,
+      "lost_edge_failure_gate_counts": {
+        "cell_prefix_unavailable": 1
+      },
+      "pool_accounts": 2,
+      "stratum_id": "stratum-05"
+    }
+  ],
+  "surviving_records": 2252,
+  "targets_changed": false,
+  "wall_seconds": 0.23322326701600105
+}

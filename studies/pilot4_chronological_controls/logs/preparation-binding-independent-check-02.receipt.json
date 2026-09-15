@@ -1,0 +1,35 @@
+{
+  "argv": [
+    ".venv/bin/python",
+    "studies/pilot4_chronological_controls/scripts/check_preparation_bindings_v2.py",
+    "--plan",
+    "<PRIVATE_PILOT4>/PREPARATION_PLAN_V1.json",
+    "--registration",
+    "studies/pilot4_chronological_controls/protocol/PREPARATION_REGISTRATION_V1.json",
+    "--allocation",
+    "<PRIVATE_PILOT4>/candidate-allocation-01.json",
+    "--allocation-registration",
+    "studies/pilot4_chronological_controls/protocol/CANDIDATE_ALLOCATION_REGISTRATION_V1.json",
+    "--expected-plan-sha256",
+    "89025398dfa648228fc1d67b3c6d1d9644d0685205f1d0f83689882f3445308c",
+    "--out",
+    "studies/pilot4_chronological_controls/review/preparation-binding-independent-check-02.json"
+  ],
+  "cwd": "<WORKSPACE>",
+  "started_utc": "2026-09-15T02:22:59.433259+00:00",
+  "finished_utc": "2026-09-15T02:23:01.097456+00:00",
+  "exit_code": 0,
+  "wall_seconds": 1.6641977389808744,
+  "child_peak_rss_mib": 19.91796875,
+  "runner_sha256": "4d94adb7a06ec38cc6f5b4fe55f801e87bbdcff712139146d53f55a2928eb2a4",
+  "outputs": {
+    "stdout.log": {
+      "bytes": 2440,
+      "sha256": "8fc5932ec5fc24473bc7f745a73431e7c9f715479a9c57fd97eb4be44318b68b"
+    },
+    "stderr.log": {
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    }
+  }
+}

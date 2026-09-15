@@ -1,0 +1,8 @@
+test_known_parallel_contrasts_and_interaction (test_matched_condition_changes.MatchedChangesTests.test_known_parallel_contrasts_and_interaction) ... ok
+test_missing_case_is_not_a_reduced_denominator (test_matched_condition_changes.MatchedChangesTests.test_missing_case_is_not_a_reduced_denominator) ... ok
+test_one_abstention_keeps_planned_denominator_and_paired_intersection (test_matched_condition_changes.MatchedChangesTests.test_one_abstention_keeps_planned_denominator_and_paired_intersection) ... ok
+
+----------------------------------------------------------------------
+Ran 3 tests in 0.004s
+
+OK

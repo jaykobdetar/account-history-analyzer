@@ -1,0 +1,38 @@
+{
+  "argv": [
+    "/usr/bin/timeout",
+    "--kill-after=5",
+    "600",
+    ".venv/bin/python",
+    "scripts/offline_exec.py",
+    ".venv/bin/python",
+    "studies/pilot4_chronological_controls/scripts/metadata_feasibility.py",
+    "--plan",
+    "studies/pilot4_chronological_controls/protocol/FEASIBILITY_PLAN_V1.json",
+    "--exposure-flags",
+    "<PRIVATE_PILOT4>/exposure-flags.json",
+    "--registration",
+    "studies/pilot4_chronological_controls/protocol/FEASIBILITY_RUN_01_REGISTRATION.json",
+    "--out",
+    "studies/pilot4_chronological_controls/inventory/feasibility-01",
+    "--private-out",
+    "<PRIVATE_PILOT4>/feasibility-01"
+  ],
+  "cwd": "<WORKSPACE>",
+  "started_utc": "2026-09-15T01:28:11.619479+00:00",
+  "finished_utc": "2026-09-15T01:28:22.746969+00:00",
+  "exit_code": 0,
+  "wall_seconds": 11.127493656007573,
+  "child_peak_rss_mib": 569.5234375,
+  "runner_sha256": "4d94adb7a06ec38cc6f5b4fe55f801e87bbdcff712139146d53f55a2928eb2a4",
+  "outputs": {
+    "stdout.log": {
+      "bytes": 299,
+      "sha256": "4f0354fa8fb8ada917347ccf23a1c7cd26ab87999d5b1ab36ea28f82cbd2098b"
+    },
+    "stderr.log": {
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    }
+  }
+}

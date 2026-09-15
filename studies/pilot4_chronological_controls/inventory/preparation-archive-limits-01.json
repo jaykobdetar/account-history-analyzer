@@ -1,0 +1,121 @@
+{
+  "archives": [
+    {
+      "archive": "pilot3_private/data/Physics.corpus.zip",
+      "archive_bytes": 100767614,
+      "archive_sha256": "e3409d3b2d537f83330e1337423c90eeeddbcca69468c7fc66e054a84a393e64",
+      "community": "Physics",
+      "declared_uncompressed_member_bytes": 390216381,
+      "member": "utterances.jsonl",
+      "member_compressed_bytes": 96974530,
+      "previous_full_pass_utterances_sha256": "a5f5bd5d74dc7ab192461c6c09a999db07b0f4631071b106c4bf791efc53796a",
+      "source_rows": 619676,
+      "source_rows_basis": "Two previous matching full passes; no new source-content scan."
+    },
+    {
+      "archive": "pilot3_private/data/AskPhysics.corpus.zip",
+      "archive_bytes": 47619954,
+      "archive_sha256": "7c4af5f5fa07adc39ff7df3fc49d23fcff906b3d64a8afde3eafa31720d410b2",
+      "community": "AskPhysics",
+      "declared_uncompressed_member_bytes": 176472936,
+      "member": "utterances.jsonl",
+      "member_compressed_bytes": 45701759,
+      "previous_full_pass_utterances_sha256": "cdfd345ff223ee685865c390d05c396b4cf989f01dac678fa20103c6c0b6e87d",
+      "source_rows": 240055,
+      "source_rows_basis": "Two previous matching full passes; no new source-content scan."
+    },
+    {
+      "archive": "pilot4_private/data/linux.corpus.zip",
+      "archive_bytes": 423053704,
+      "archive_sha256": "29b7181a05913401e7c562a029b9cfeca9da6df41a153a04be3778430821bb71",
+      "community": "linux",
+      "declared_uncompressed_member_bytes": 1691480431,
+      "member": "utterances.jsonl",
+      "member_compressed_bytes": 415227241,
+      "previous_full_pass_utterances_sha256": "fb63e9da87e69e22c99244d0db471d1c725beec4869dcdb8e4d8a34daac0149a",
+      "source_rows": 2988858,
+      "source_rows_basis": "Two previous matching full passes; no new source-content scan."
+    },
+    {
+      "archive": "pilot4_private/data/linuxquestions.corpus.zip",
+      "archive_bytes": 86603753,
+      "archive_sha256": "6b40a18df38879d43d7c063bd3cf805a5b7ad0411d30c92a5601ce2880215b64",
+      "community": "linuxquestions",
+      "declared_uncompressed_member_bytes": 326883019,
+      "member": "utterances.jsonl",
+      "member_compressed_bytes": 83554409,
+      "previous_full_pass_utterances_sha256": "bbc9dcd5c3b8a157853c085c061d42fddfcefbd428f7ea1f8ca939eae763378f",
+      "source_rows": 482093,
+      "source_rows_basis": "Two previous matching full passes; no new source-content scan."
+    },
+    {
+      "archive": "pilot4_private/data/programming.corpus.zip",
+      "archive_bytes": 864907082,
+      "archive_sha256": "a4aecda23e8f2372b995082c9622d21f4a87f7d211bdb139fbeff81e533232e3",
+      "community": "programming",
+      "declared_uncompressed_member_bytes": 3457396602,
+      "member": "utterances.jsonl",
+      "member_compressed_bytes": 841748350,
+      "previous_full_pass_utterances_sha256": "c2705682f7839daf8af0bb909297188d9d6d9a0b0f425ba44f9bcac46c86d2cf",
+      "source_rows": 5977651,
+      "source_rows_basis": "Two previous matching full passes; no new source-content scan."
+    },
+    {
+      "archive": "pilot4_private/data/learnprogramming.corpus.zip",
+      "archive_bytes": 393050697,
+      "archive_sha256": "9732eab8ad07e0dff4abece1ae1d531bd90d0cb803bcfbd24e878be9726cf521",
+      "community": "learnprogramming",
+      "declared_uncompressed_member_bytes": 1469538248,
+      "member": "utterances.jsonl",
+      "member_compressed_bytes": 380211189,
+      "previous_full_pass_utterances_sha256": "f3ed3b92bbe322dddd96f575ea7603a66aa46311c504e654ebe6ac4cb2a2b2b2",
+      "source_rows": 2060235,
+      "source_rows_basis": "Two previous matching full passes; no new source-content scan."
+    }
+  ],
+  "calendar_results_modified": false,
+  "cohort_selected": false,
+  "coverage": "All six full archive byte hashes freshly verified. ZIP directories inspected without opening the utterance member. Row counts are inherited from two hash-matching completed passes per archive; no new source prose access.",
+  "finished_utc": "2026-09-15T02:14:36.251963+00:00",
+  "headroom": {
+    "declared_uncompressed_member_bytes": 2488012383,
+    "source_rows": 2631432
+  },
+  "implementation_sha256": "c62d902e0845eb151754563c32c11809837e3e2f77498ad3e9ae4363822c05e1",
+  "inputs": {
+    "intake_summary": {
+      "bytes": 4470,
+      "sha256": "ddd2a97a8e92c17baed7c211e990298a8f4d71f321c111edafa24257b2444ebe"
+    },
+    "preparation_rules": {
+      "bytes": 6357,
+      "sha256": "1ed43a3029d053d29a5be88093a4f0aed04a30399fc41be17f2c04e9a2033fa1"
+    },
+    "prior_inventory": {
+      "bytes": 14796,
+      "sha256": "170f6038bff1e6138708b003b3fa31e98599a929012ae75ed8bc576d5ac15593"
+    },
+    "prior_second_pass": {
+      "bytes": 1017,
+      "sha256": "e6d437401585dc037bafbee06a398b09f432bf769fb29e132d20db79ce7ab4f8"
+    }
+  },
+  "limits": {
+    "declared_uncompressed_member_bytes": 10000000000,
+    "source_rows": 15000000
+  },
+  "new_preprocessing_calls": 0,
+  "new_style_calls": 0,
+  "peak_rss_mib": 17.33984375,
+  "phase": "post_census_reporting_only_archive_inventory",
+  "source_member_decompressions": 0,
+  "source_prose_displayed": false,
+  "started_utc": "2026-09-15T02:14:34.758625+00:00",
+  "status": "pass",
+  "totals": {
+    "archive_bytes": 1916002804,
+    "declared_uncompressed_member_bytes": 7511987617,
+    "source_rows": 12368568
+  },
+  "wall_seconds": 1.4933558080228977
+}

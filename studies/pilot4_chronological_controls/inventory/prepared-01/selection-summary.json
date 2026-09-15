@@ -1,0 +1,69 @@
+{
+  "accounts": 0,
+  "audit_sha256": "abacb1ebc4173c6024ff3853f240b06490edfbac22a51cbc1bb57b68926985cd",
+  "blocks": 0,
+  "candidate_pool_sha256": "cb4587295ee19ff92c2d09f80296a5d7ed774cecd35dae1c82ad0b4317fdea78",
+  "independent_source_account_blocks": 0,
+  "index_sha256": "a9b6b9b652031fe6619a307e2a2a2854fb5eaf85dea514d2562f88cb2426e2e7",
+  "planned_cases": 0,
+  "selected_prior_capacity_only_exposure_accounts": 0,
+  "source_records": 0,
+  "source_words": 0,
+  "strata": [
+    {
+      "block_deficit": 1,
+      "communities": [
+        "AskPhysics",
+        "Physics"
+      ],
+      "compatible_edges": 0,
+      "cut": "2017-11-01T00:00:00Z",
+      "planned_block_cap": 1,
+      "pool_accounts": 2,
+      "post_audit_qualified_accounts": 1,
+      "selected_blocks": 0,
+      "selected_matching_cost": {
+        "denominator": 1,
+        "numerator": 0
+      },
+      "stratum_id": "stratum-02"
+    },
+    {
+      "block_deficit": 2,
+      "communities": [
+        "linux",
+        "linuxquestions"
+      ],
+      "compatible_edges": 0,
+      "cut": "2015-03-01T00:00:00Z",
+      "planned_block_cap": 2,
+      "pool_accounts": 3,
+      "post_audit_qualified_accounts": 0,
+      "selected_blocks": 0,
+      "selected_matching_cost": {
+        "denominator": 1,
+        "numerator": 0
+      },
+      "stratum_id": "stratum-04"
+    },
+    {
+      "block_deficit": 2,
+      "communities": [
+        "programming",
+        "learnprogramming"
+      ],
+      "compatible_edges": 0,
+      "cut": "2012-03-01T00:00:00Z",
+      "planned_block_cap": 2,
+      "pool_accounts": 2,
+      "post_audit_qualified_accounts": 1,
+      "selected_blocks": 0,
+      "selected_matching_cost": {
+        "denominator": 1,
+        "numerator": 0
+      },
+      "stratum_id": "stratum-05"
+    }
+  ],
+  "style_scores_computed": 0
+}

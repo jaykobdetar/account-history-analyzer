@@ -1,0 +1,32 @@
+{
+  "argv": [
+    "/usr/bin/timeout",
+    "--kill-after=5",
+    "1800",
+    ".venv/bin/python",
+    "studies/pilot3_cross_context/scripts/acquire_expansion.py",
+    "--plan",
+    "studies/pilot4_chronological_controls/protocol/ACQUISITION_EXTENSION_V1.json",
+    "--data",
+    "<PRIVATE_PILOT4>/data",
+    "--receipt",
+    "studies/pilot4_chronological_controls/inventory/acquisition-extension-v1.json"
+  ],
+  "cwd": "<WORKSPACE>",
+  "started_utc": "2026-09-15T01:31:09.047769+00:00",
+  "finished_utc": "2026-09-15T01:32:45.877743+00:00",
+  "exit_code": 0,
+  "wall_seconds": 96.82997369699297,
+  "child_peak_rss_mib": 24.21484375,
+  "runner_sha256": "4d94adb7a06ec38cc6f5b4fe55f801e87bbdcff712139146d53f55a2928eb2a4",
+  "outputs": {
+    "stdout.log": {
+      "bytes": 509,
+      "sha256": "53652521e6d4d5774245b7a5f054a5f6e1a6ffd67f3e9550428918611c384b96"
+    },
+    "stderr.log": {
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    }
+  }
+}

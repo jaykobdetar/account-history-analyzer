@@ -1,0 +1,8 @@
+test_keeps_zero_quota_stratum_explicit (test_allocate_candidate_accounts.JointWitnessTests.test_keeps_zero_quota_stratum_explicit) ... ok
+test_reports_unattainable_full_quota (test_allocate_candidate_accounts.JointWitnessTests.test_reports_unattainable_full_quota) ... ok
+test_reserves_other_stratum_accounts_with_backtracking (test_allocate_candidate_accounts.JointWitnessTests.test_reserves_other_stratum_accounts_with_backtracking) ... ok
+
+----------------------------------------------------------------------
+Ran 3 tests in 0.000s
+
+OK

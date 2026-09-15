@@ -1,0 +1,88 @@
+{
+  "acquisition_receipt_sha256": "f1f99519ddc389360955d04a73e16c3c60ae718d9aed486ced32fa14e2576e1b",
+  "coverage": "One metadata row per actual frozen-preprocessor call; nonprocessable records counted without rows. No style distances or calendar capacity in this intake. No account sampling or implicit source restriction.",
+  "engine_environment": {
+    "PYTHONDONTWRITEBYTECODE": "1",
+    "PYTHONPATH": "<INSTALLED_BASELINE>",
+    "required_network_guard": "linux_seccomp_socket_denial"
+  },
+  "excluded_account_counts": {
+    "pilot3_scored": 60,
+    "prior_mandatory": 57
+  },
+  "exposure_flags_sha256": "d7e1fe9333896e423618696da7f03029cac2f43d3c855b8a35cd7131b468722f",
+  "frozen_conversion_reference": {
+    "path": "../pilot3_cross_context/scripts/census.py",
+    "sha256": "fa12f79f735efb0be4262738c4f3b210cc9e63bfcc3f16970126bff636b6d4c9"
+  },
+  "implementation_path": "scripts/intake_archives.py",
+  "implementation_sha256": "fed7290fcf4fe300b0e7978561c94b2e2138c1f7384bfb31584ae74346bc9c48",
+  "independent_review": "Root reviewed complete control flow, tests and exact plan before this binding; no blocker reported.",
+  "operational_helpers": [
+    {
+      "path": "scripts/run_logged.py",
+      "sha256": "4d94adb7a06ec38cc6f5b4fe55f801e87bbdcff712139146d53f55a2928eb2a4"
+    },
+    {
+      "path": "../../scripts/offline_exec.py",
+      "sha256": "88bf4f2a8ff3afe29355e6b52638c03badb4c977b4ae8ec60f0f126d3252ffef"
+    }
+  ],
+  "plan_path": "protocol/INTAKE_EXTENSION_PLAN_V1.json",
+  "plan_sha256": "56e0bef797b0c80649c74bf77827b95e3ae3f2369ffcc6b9fd3e829821d7faa1",
+  "raw_prefilter": "At least80 present timestamped comments in both communities of the same registered pair; pair-specific memberships only.",
+  "registered_utc": "2026-09-15T01:42:18.243326+00:00",
+  "resource_limits": {
+    "max_address_space_bytes": 4294967296,
+    "max_eligibility_output_bytes": 805306368,
+    "max_preprocessed_records": 2000000,
+    "max_private_output_bytes": 1073741824,
+    "max_source_rows_per_pass": 15000000,
+    "max_source_uncompressed_bytes_per_pass": 17179869184,
+    "max_wall_seconds": 3600
+  },
+  "source_bindings": [
+    {
+      "archive": "linux.corpus.zip",
+      "bytes": 423053704,
+      "community": "linux",
+      "sha256": "29b7181a05913401e7c562a029b9cfeca9da6df41a153a04be3778430821bb71",
+      "utterances_bytes": 1691480431
+    },
+    {
+      "archive": "linuxquestions.corpus.zip",
+      "bytes": 86603753,
+      "community": "linuxquestions",
+      "sha256": "6b40a18df38879d43d7c063bd3cf805a5b7ad0411d30c92a5601ce2880215b64",
+      "utterances_bytes": 326883019
+    },
+    {
+      "archive": "programming.corpus.zip",
+      "bytes": 864907082,
+      "community": "programming",
+      "sha256": "a4aecda23e8f2372b995082c9622d21f4a87f7d211bdb139fbeff81e533232e3",
+      "utterances_bytes": 3457396602
+    },
+    {
+      "archive": "learnprogramming.corpus.zip",
+      "bytes": 393050697,
+      "community": "learnprogramming",
+      "sha256": "9732eab8ad07e0dff4abece1ae1d531bd90d0cb803bcfbd24e878be9726cf521",
+      "utterances_bytes": 1469538248
+    }
+  ],
+  "status": "frozen_before_first_new_archive_census_pass",
+  "synthetic_tests": {
+    "exit_code": 0,
+    "passed": 14,
+    "receipt_path": "logs/intake-synthetic-01.receipt.json",
+    "receipt_sha256": "91eb691bf5856a906f1b1a90b4909833ce3b139f7a0e82a003dd5f2ae4467859",
+    "stdout_sha256": "a3a035c0a1954d50955063c38f419bc95528dad397e611a442da2a0ee0beafea"
+  },
+  "test_files": [
+    {
+      "path": "tests/test_intake_archives.py",
+      "sha256": "670e8f082557879c4b28d2d06912934c55d28d3c00e9754feb6807e4bb93355f"
+    }
+  ]
+}

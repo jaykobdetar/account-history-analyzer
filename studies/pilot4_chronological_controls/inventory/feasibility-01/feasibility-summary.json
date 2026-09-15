@@ -1,0 +1,106 @@
+{
+  "capacity_only_exposed_candidate_counts_at_chosen_cuts": {
+    "stratum-01": 0,
+    "stratum-02": 1,
+    "stratum-03": 0
+  },
+  "cohort_selected": false,
+  "counts": {
+    "eligible_registered_metadata_rows": 477325,
+    "eligible_registered_words": 38768529,
+    "excluded_rows": 68585,
+    "metadata_rows": 931515,
+    "outside_registered_communities": 106698,
+    "outside_registered_record_word_bounds": 3448,
+    "prior_ineligible_rows": 275459
+  },
+  "evaluated_pair_cuts": 303,
+  "exposure_flags_sha256": "d7e1fe9333896e423618696da7f03029cac2f43d3c855b8a35cd7131b468722f",
+  "finished_utc": "2026-09-15T01:28:22.442635+00:00",
+  "globally_disjoint_intended_blocks_exist": false,
+  "implementation_sha256": "88ecd0a3d1f920426ac6c1b01707bf769157e2fd87ef1ee9c02923df4f91f28b",
+  "input_files": [
+    {
+      "bytes": 128927505,
+      "sha256": "a804d85a398a614a0fef219d422d1c5257b9de75a93414d517d1506e0f459c2d",
+      "source_index": 1
+    },
+    {
+      "bytes": 97593681,
+      "sha256": "a22d08bfb63c317339bff76f5904dc90052bfa114214e8f163e967a466113b72",
+      "source_index": 2
+    }
+  ],
+  "intended_blocks_per_stratum": 2,
+  "interpretation": "All 101 cuts per stratum are preserved; exact uncapped maximum matching determines each calendar choice. When a two-block witness exists, it is globally disjoint across selected strata. A deficit is under this fixed prefix/grid/gate design, not proof that all possible designs are infeasible.",
+  "new_download_bytes": 0,
+  "new_preprocessing_calls": 0,
+  "new_style_distance_calls": 0,
+  "peak_rss_mib": 569.5234375,
+  "plan_sha256": "8b547410fcdcb7c365711f0d8c0b0d7ed2a74b2491b02fa9c3d9af5dabe2e54a",
+  "registration_sha256": "4779e86d3173d9ea8f19fb4a7e25b94a6e0c7cc2dbcec701914b5d1ed4a3229b",
+  "selected_calendar_witnesses": [
+    {
+      "accounts_passing_internal_gates": 0,
+      "accounts_with_four_volume_cells": 0,
+      "communities": [
+        "AskAcademia",
+        "GradSchool"
+      ],
+      "compatible_edges": 0,
+      "cut": "2010-01-01T00:00:00Z",
+      "intended_block_deficit": 2,
+      "matching_dp_states": 0,
+      "maximum_disjoint_blocks": 0,
+      "minimum_exact_matching_cost": {
+        "denominator": 1,
+        "numerator": 0
+      },
+      "stratum_id": "stratum-01",
+      "whole_history_necessary_accounts": 38
+    },
+    {
+      "accounts_passing_internal_gates": 3,
+      "accounts_with_four_volume_cells": 9,
+      "communities": [
+        "AskPhysics",
+        "Physics"
+      ],
+      "compatible_edges": 1,
+      "cut": "2017-11-01T00:00:00Z",
+      "intended_block_deficit": 1,
+      "matching_dp_states": 5,
+      "maximum_disjoint_blocks": 1,
+      "minimum_exact_matching_cost": {
+        "denominator": 77760000,
+        "numerator": 43876193
+      },
+      "stratum_id": "stratum-02",
+      "whole_history_necessary_accounts": 33
+    },
+    {
+      "accounts_passing_internal_gates": 0,
+      "accounts_with_four_volume_cells": 0,
+      "communities": [
+        "learnmath",
+        "math"
+      ],
+      "compatible_edges": 0,
+      "cut": "2010-01-01T00:00:00Z",
+      "intended_block_deficit": 2,
+      "matching_dp_states": 0,
+      "maximum_disjoint_blocks": 0,
+      "minimum_exact_matching_cost": {
+        "denominator": 1,
+        "numerator": 0
+      },
+      "stratum_id": "stratum-03",
+      "whole_history_necessary_accounts": 72
+    }
+  ],
+  "source_prose_fields_accessed": false,
+  "started_utc": "2026-09-15T01:28:11.665991+00:00",
+  "status": "fixed_design_capacity_deficit",
+  "version": "pilot4-score-free-metadata-feasibility-v1",
+  "wall_seconds": 10.776654507004423
+}

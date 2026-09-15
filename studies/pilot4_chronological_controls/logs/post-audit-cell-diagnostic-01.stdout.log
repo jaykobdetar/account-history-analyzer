@@ -1,0 +1,1 @@
+{"status": "diagnosed", "cells_examined": 28, "qualified_cells": 26, "failed_cells": 2, "failure_reason_counts": {"insufficient_records": 1, "insufficient_retained_words": 1, "prefix_word_ceiling": 1}, "preprocessor_calls": 0, "style_scores_computed": 0, "wall_seconds": 0.22119748400291428, "peak_rss_mib": 131.4765625}

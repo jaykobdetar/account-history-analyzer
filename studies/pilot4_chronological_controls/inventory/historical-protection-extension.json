@@ -1,0 +1,12 @@
+{
+  "added_records": 5773,
+  "added_source_accounts": 60,
+  "added_source_sha256": "d6fed00599a5da97ab1b516c156628976b33fae32a5bc79ff60d92befe17f8d4",
+  "extended_inventory_sha256": "6973fa8556907846fd61422930de95b74b76acbbbf5ccaab38b949597d327231",
+  "prior_inventory_sha256": "156c5799dd952d30f5e19d883d8b2c294e0d48695af9cf3c0baf74ada0c9bc5a",
+  "prior_missing_content_limitations_preserved": true,
+  "prior_sources_modified": false,
+  "script_sha256": "21514356584cf589b64e140498619e0f946f23d4954e3cd8037c47e6f304c775",
+  "source_file_count": 23,
+  "style_scores_computed": 0
+}

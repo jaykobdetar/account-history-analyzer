@@ -1,0 +1,33 @@
+{
+  "argv": [
+    ".venv/bin/python",
+    "scripts/offline_exec.py",
+    ".venv/bin/python",
+    "-B",
+    "-m",
+    "unittest",
+    "discover",
+    "-s",
+    "studies/pilot4_chronological_controls/tests",
+    "-p",
+    "test_allocate_candidate_accounts.py",
+    "-v"
+  ],
+  "cwd": "<WORKSPACE>",
+  "started_utc": "2026-09-15T02:00:49.984104+00:00",
+  "finished_utc": "2026-09-15T02:00:50.067273+00:00",
+  "exit_code": 0,
+  "wall_seconds": 0.08316944897524081,
+  "child_peak_rss_mib": 19.484375,
+  "runner_sha256": "4d94adb7a06ec38cc6f5b4fe55f801e87bbdcff712139146d53f55a2928eb2a4",
+  "outputs": {
+    "stdout.log": {
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    "stderr.log": {
+      "bytes": 926,
+      "sha256": "4832dd231c8374143fda402bea2776a0805633e96dc8fe9481362fa10f3c5e10"
+    }
+  }
+}

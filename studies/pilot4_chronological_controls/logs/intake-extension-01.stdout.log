@@ -1,0 +1,3 @@
+{"phase": "metadata_first_pass", "community": "linux", "source_rows": 2988858}
+{"phase": "metadata_first_pass", "community": "linuxquestions", "source_rows": 482093}
+{"status": "incomplete_not_zero_capacity", "error_type": "ValueError"}

@@ -1,0 +1,32 @@
+{
+  "status": "independent_root_source_review_pass_before_intake",
+  "reviewed_utc": "2026-09-15T01:41:56.388547+00:00",
+  "artifacts": [
+    {
+      "path": "scripts/intake_archives.py",
+      "sha256": "fed7290fcf4fe300b0e7978561c94b2e2138c1f7384bfb31584ae74346bc9c48"
+    },
+    {
+      "path": "tests/test_intake_archives.py",
+      "sha256": "670e8f082557879c4b28d2d06912934c55d28d3c00e9754feb6807e4bb93355f"
+    },
+    {
+      "path": "protocol/INTAKE_EXTENSION_PLAN_V1.json",
+      "sha256": "56e0bef797b0c80649c74bf77827b95e3ae3f2369ffcc6b9fd3e829821d7faa1"
+    }
+  ],
+  "checks": [
+    "Raw80-comment requirement applies to BOTH members of the same declared pair, an exhaustive necessary condition for final40 early plus40 late records per community.",
+    "Canonical57 prior/protected/private plus60pilot3-scored identities excluded before body eligibility inspection; placeholders rejected.",
+    "Frozen original preprocessing conversion; no style features, changes or distances.",
+    "Each actual preprocessing call counted before dispatch; one output metadata row per call; above500-word rows retained until construction filtering.",
+    "Unavailable/oversize inputs counted without processing and cannot qualify; source IDs unique in first pass.",
+    "Every archive size/SHA and uncompressed utterance size bound; exact utterance hashes and counts agree across passes.",
+    "4GiB,3600s,15Mrows/pass,16GiB/pass,2M preprocessing calls,768MiB eligibility,1GiBprivate bounds have failure paths.",
+    "Private metadata/source account frame permission0600 under0700 directory; publicoutputsaggregates only."
+  ],
+  "conditions": [
+    "Bind final synthetic test receipt and exact code before first source scan; any code revision requires explicit new binding."
+  ],
+  "real_data_or_style_scores_used_for_review": false
+}

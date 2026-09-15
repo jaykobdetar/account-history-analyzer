@@ -1,0 +1,29 @@
+{
+  "argv": [
+    ".venv/bin/python",
+    "-B",
+    "-m",
+    "pytest",
+    "-q",
+    "-p",
+    "no:cacheprovider",
+    "studies/pilot4_chronological_controls/tests/test_check_prepared_chronology.py"
+  ],
+  "cwd": "<WORKSPACE>",
+  "started_utc": "2026-09-15T02:02:22.223063+00:00",
+  "finished_utc": "2026-09-15T02:02:51.507705+00:00",
+  "exit_code": 0,
+  "wall_seconds": 29.28464146400802,
+  "child_peak_rss_mib": 144.0078125,
+  "runner_sha256": "4d94adb7a06ec38cc6f5b4fe55f801e87bbdcff712139146d53f55a2928eb2a4",
+  "outputs": {
+    "stdout.log": {
+      "bytes": 100,
+      "sha256": "599ecc370bfb68c3c4a33950815c700db3f4dae40c29fa0a6bafdf8336d65799"
+    },
+    "stderr.log": {
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    }
+  }
+}

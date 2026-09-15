@@ -1,0 +1,29 @@
+{
+  "argv": [
+    ".venv/bin/python",
+    "-B",
+    "-m",
+    "pytest",
+    "-q",
+    "-p",
+    "no:cacheprovider",
+    "studies/pilot4_chronological_controls/tests/test_check_metadata_feasibility.py"
+  ],
+  "cwd": "<WORKSPACE>",
+  "started_utc": "2026-09-15T01:36:40.557289+00:00",
+  "finished_utc": "2026-09-15T01:36:41.840834+00:00",
+  "exit_code": 0,
+  "wall_seconds": 1.2835496359912213,
+  "child_peak_rss_mib": 40.5234375,
+  "runner_sha256": "4d94adb7a06ec38cc6f5b4fe55f801e87bbdcff712139146d53f55a2928eb2a4",
+  "outputs": {
+    "stdout.log": {
+      "bytes": 98,
+      "sha256": "3b1c284313edd5ff13ac9245822f8e0e4750778ea8e7d8c0189bf4d979c7433a"
+    },
+    "stderr.log": {
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    }
+  }
+}

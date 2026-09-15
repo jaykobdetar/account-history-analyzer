@@ -1,0 +1,178 @@
+{
+  "status": "acquired",
+  "plan_sha256": "396aae24d84bf0564b9171ff1971afbf2a91657474243106b60807bcc1d92f06",
+  "script_sha256": "4ab502e442b74eb25fed6f68450841b2ce90dbca79b1a1db35a3748647b0ec3c",
+  "source_count": 4,
+  "total_bytes": 1767615236,
+  "wall_seconds": 96.7861889959895,
+  "sources": [
+    {
+      "community": "linux",
+      "url": "https://zissou.infosci.cornell.edu/convokit/datasets/subreddit-corpus/corpus-zipped/libraryschool~-~linux4noobs/linux.corpus.zip",
+      "bytes": 423053704,
+      "sha256": "29b7181a05913401e7c562a029b9cfeca9da6df41a153a04be3778430821bb71",
+      "bytes_received": 423053704,
+      "started_utc": "2026-09-15T01:31:09.083581+00:00",
+      "finished_utc": "2026-09-15T01:31:23.949640+00:00",
+      "headers": {
+        "Content-Length": "423053704",
+        "Content-Type": "application/zip",
+        "Last-Modified": "Wed, 30 Oct 2019 09:10:17 GMT",
+        "ETag": "\"5db95379-19374988\""
+      },
+      "members": [
+        {
+          "name": "users.json",
+          "bytes": 2655641,
+          "compressed_bytes": 1090913
+        },
+        {
+          "name": "conversations.json",
+          "bytes": 35344180,
+          "compressed_bytes": 6734716
+        },
+        {
+          "name": "corpus.json",
+          "bytes": 88,
+          "compressed_bytes": 71
+        },
+        {
+          "name": "index.json",
+          "bytes": 836,
+          "compressed_bytes": 231
+        },
+        {
+          "name": "utterances.jsonl",
+          "bytes": 1691480431,
+          "compressed_bytes": 415227241
+        }
+      ]
+    },
+    {
+      "community": "linuxquestions",
+      "url": "https://zissou.infosci.cornell.edu/convokit/datasets/subreddit-corpus/corpus-zipped/linuxPlus~-~listentothat/linuxquestions.corpus.zip",
+      "bytes": 86603753,
+      "sha256": "6b40a18df38879d43d7c063bd3cf805a5b7ad0411d30c92a5601ce2880215b64",
+      "bytes_received": 86603753,
+      "started_utc": "2026-09-15T01:31:23.949746+00:00",
+      "finished_utc": "2026-09-15T01:31:27.067649+00:00",
+      "headers": {
+        "Content-Length": "86603753",
+        "Content-Type": "application/zip",
+        "Last-Modified": "Wed, 30 Oct 2019 02:22:33 GMT",
+        "ETag": "\"5db8f3e9-52977e9\""
+      },
+      "members": [
+        {
+          "name": "users.json",
+          "bytes": 845779,
+          "compressed_bytes": 352429
+        },
+        {
+          "name": "conversations.json",
+          "bytes": 17035489,
+          "compressed_bytes": 2696073
+        },
+        {
+          "name": "corpus.json",
+          "bytes": 94,
+          "compressed_bytes": 79
+        },
+        {
+          "name": "index.json",
+          "bytes": 836,
+          "compressed_bytes": 231
+        },
+        {
+          "name": "utterances.jsonl",
+          "bytes": 326883019,
+          "compressed_bytes": 83554409
+        }
+      ]
+    },
+    {
+      "community": "programming",
+      "url": "https://zissou.infosci.cornell.edu/convokit/datasets/subreddit-corpus/corpus-zipped/prnine~-~programming/programming.corpus.zip",
+      "bytes": 864907082,
+      "sha256": "a4aecda23e8f2372b995082c9622d21f4a87f7d211bdb139fbeff81e533232e3",
+      "bytes_received": 864907082,
+      "started_utc": "2026-09-15T01:31:27.067746+00:00",
+      "finished_utc": "2026-09-15T01:32:29.048043+00:00",
+      "headers": {
+        "Content-Length": "864907082",
+        "Content-Type": "application/zip",
+        "Last-Modified": "Wed, 30 Oct 2019 23:55:50 GMT",
+        "ETag": "\"5dba2306-338d6f4a\""
+      },
+      "members": [
+        {
+          "name": "users.json",
+          "bytes": 5599128,
+          "compressed_bytes": 2264316
+        },
+        {
+          "name": "conversations.json",
+          "bytes": 109259118,
+          "compressed_bytes": 20893533
+        },
+        {
+          "name": "corpus.json",
+          "bytes": 94,
+          "compressed_bytes": 80
+        },
+        {
+          "name": "index.json",
+          "bytes": 836,
+          "compressed_bytes": 231
+        },
+        {
+          "name": "utterances.jsonl",
+          "bytes": 3457396602,
+          "compressed_bytes": 841748350
+        }
+      ]
+    },
+    {
+      "community": "learnprogramming",
+      "url": "https://zissou.infosci.cornell.edu/convokit/datasets/subreddit-corpus/corpus-zipped/leagueoflegends2~-~learnprogramming/learnprogramming.corpus.zip",
+      "bytes": 393050697,
+      "sha256": "9732eab8ad07e0dff4abece1ae1d531bd90d0cb803bcfbd24e878be9726cf521",
+      "bytes_received": 393050697,
+      "started_utc": "2026-09-15T01:32:29.048518+00:00",
+      "finished_utc": "2026-09-15T01:32:45.869250+00:00",
+      "headers": {
+        "Content-Length": "393050697",
+        "Content-Type": "application/zip",
+        "Last-Modified": "Wed, 30 Oct 2019 18:30:35 GMT",
+        "ETag": "\"5db9d6cb-176d7a49\""
+      },
+      "members": [
+        {
+          "name": "users.json",
+          "bytes": 3734590,
+          "compressed_bytes": 1551672
+        },
+        {
+          "name": "conversations.json",
+          "bytes": 72497578,
+          "compressed_bytes": 11286989
+        },
+        {
+          "name": "corpus.json",
+          "bytes": 99,
+          "compressed_bytes": 84
+        },
+        {
+          "name": "index.json",
+          "bytes": 836,
+          "compressed_bytes": 231
+        },
+        {
+          "name": "utterances.jsonl",
+          "bytes": 1469538248,
+          "compressed_bytes": 380211189
+        }
+      ]
+    }
+  ]
+}

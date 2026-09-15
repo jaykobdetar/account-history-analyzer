@@ -1,0 +1,9 @@
+test_all_graphs_on_five_vertices_and_three_exact_cost_patterns (test_exact_blossom.ExactBlossomTests.test_all_graphs_on_five_vertices_and_three_exact_cost_patterns) ... ok
+test_float_and_repeated_edge_rejected (test_exact_blossom.ExactBlossomTests.test_float_and_repeated_edge_rejected) ... ok
+test_maximum_cardinality_precedes_cost_even_with_negative_weights (test_exact_blossom.ExactBlossomTests.test_maximum_cardinality_precedes_cost_even_with_negative_weights) ... ok
+test_seeded_larger_general_graphs_against_subset_algorithm (test_exact_blossom.ExactBlossomTests.test_seeded_larger_general_graphs_against_subset_algorithm) ... ok
+
+----------------------------------------------------------------------
+Ran 4 tests in 0.755s
+
+OK

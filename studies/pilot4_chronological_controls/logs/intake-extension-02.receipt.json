@@ -1,0 +1,43 @@
+{
+  "argv": [
+    "/usr/bin/timeout",
+    "--kill-after=5",
+    "3600",
+    "/usr/bin/env",
+    "PYTHONPATH=<INSTALLED_BASELINE>",
+    "PYTHONDONTWRITEBYTECODE=1",
+    ".venv/bin/python",
+    "scripts/offline_exec.py",
+    ".venv/bin/python",
+    "studies/pilot4_chronological_controls/scripts/intake_archives_v2.py",
+    "--plan",
+    "studies/pilot4_chronological_controls/protocol/INTAKE_EXTENSION_PLAN_V2.json",
+    "--exposure-flags",
+    "<PRIVATE_PILOT4>/exposure-flags.json",
+    "--registration",
+    "studies/pilot4_chronological_controls/protocol/INTAKE_RUN_02_REGISTRATION.json",
+    "--source-root",
+    "<PRIVATE_PILOT4>/data",
+    "--out",
+    "studies/pilot4_chronological_controls/inventory/intake-extension-02",
+    "--private-out",
+    "<PRIVATE_PILOT4>/intake-extension-02"
+  ],
+  "cwd": "<WORKSPACE>",
+  "started_utc": "2026-09-15T01:51:50.918105+00:00",
+  "finished_utc": "2026-09-15T02:04:01.251277+00:00",
+  "exit_code": 0,
+  "wall_seconds": 730.3331732210063,
+  "child_peak_rss_mib": 1402.9921875,
+  "runner_sha256": "4d94adb7a06ec38cc6f5b4fe55f801e87bbdcff712139146d53f55a2928eb2a4",
+  "outputs": {
+    "stdout.log": {
+      "bytes": 968,
+      "sha256": "22dfdae4ead5b4b701cf5733e8fa831849613679274615daee9c027392a627f8"
+    },
+    "stderr.log": {
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    }
+  }
+}

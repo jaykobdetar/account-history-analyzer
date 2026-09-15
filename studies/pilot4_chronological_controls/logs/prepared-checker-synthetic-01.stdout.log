@@ -1,0 +1,27 @@
+F....................                                                    [100%]
+=================================== FAILURES ===================================
+_______________ test_complete_synthetic_five_blocks_eighty_cases _______________
+
+prepared = (PosixPath('/tmp/pytest-of-jaykob/pytest-160/test_complete_synthetic_five_b0/plan.json'), PosixPath('/tmp/pytest-of-ja...ve_b0/audit-public.json'), PosixPath('/tmp/pytest-of-jaykob/pytest-160/test_complete_synthetic_five_b0/prepared'), ...)
+
+    def test_complete_synthetic_five_blocks_eighty_cases(prepared):
+>       result=check.verify(*prepared,sample=False)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+studies/pilot4_chronological_controls/tests/test_check_prepared_chronology.py:35: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+studies/pilot4_chronological_controls/scripts/check_prepared_chronology.py:355: in verify
+    require(all(actual[k]==v for k,v in descriptor.items()) and actual['stratum_id']==block['stratum_id'],'factorial_descriptor')
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+test = False, reason = 'factorial_descriptor'
+
+    def require(test,reason):
+>       if not test:raise ValueError(reason)
+                    ^^^^^^^^^^^^^^^^^^^^^^^^
+E       ValueError: factorial_descriptor
+
+studies/pilot4_chronological_controls/scripts/check_prepared_chronology.py:36: ValueError
+=========================== short test summary info ============================
+FAILED studies/pilot4_chronological_controls/tests/test_check_prepared_chronology.py::test_complete_synthetic_five_blocks_eighty_cases
+1 failed, 20 passed in 28.91s

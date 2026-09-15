@@ -1,0 +1,1664 @@
+{
+  "binding": {
+    "input_sha256": {
+      "audit": "abacb1ebc4173c6024ff3853f240b06490edfbac22a51cbc1bb57b68926985cd",
+      "plan": "89025398dfa648228fc1d67b3c6d1d9644d0685205f1d0f83689882f3445308c",
+      "preparation": "76c3e28b6278da13bd35ee33544f0c6e42c094d9a6010886dc4a2b8a5b5be3c9",
+      "prepared-check": "bdc944f90828c7f414c9e6b58f609f4e6547e36ceb1108932fdb37f1ab23aead",
+      "selection": "3de6d64309e4f939c92bd9dcb7523c35c28461a6fd76458ced106ce007e7080b"
+    },
+    "limits": {
+      "address_space_gib": 4,
+      "output_mib": 100,
+      "preprocessor_calls": 0,
+      "wall_seconds": 300
+    },
+    "phase": "post_hoc_metadata_diagnostic_before_execution",
+    "script_sha256": "f50a83b0562a6aa10cbd34e57a4b2a6716e0226a1851f8c762a5891b49a1c0f6"
+  },
+  "candidate_accounts": 7,
+  "cells": [
+    {
+      "account_role": "account-01",
+      "cell": "X/early",
+      "first_blocking_reasons": [],
+      "in_band_eligible_records": 76,
+      "in_band_eligible_words": 7980,
+      "necessary_volume_lower_bounds": {
+        "additional_comments_with_500_word_cap": 0,
+        "additional_eligible_records": 0,
+        "additional_eligible_words": 0,
+        "sufficient_for_qualification": false
+      },
+      "out_of_band_or_word_bounds_records": 0,
+      "pool_records": 81,
+      "pool_retained_words": 8265,
+      "prefix_records": 44,
+      "prefix_words": 5026,
+      "purge_reasons": {
+        "thread_cross_candidate_cells": 5
+      },
+      "purged_records": 5,
+      "purged_retained_words": 285,
+      "qualified": true,
+      "selected_prefix": {
+        "first_utc": "2017-09-27T10:50:10Z",
+        "last_utc": "2017-10-29T12:52:56Z",
+        "median_timestamp": {
+          "denominator": 1,
+          "numerator": 1507932501
+        },
+        "median_utc": "2017-10-13T22:08:21Z",
+        "records": 44,
+        "retained_words": 5026
+      },
+      "stratum_id": "stratum-02",
+      "surviving_records": 76,
+      "surviving_retained_words": 7980
+    },
+    {
+      "account_role": "account-01",
+      "cell": "X/late",
+      "first_blocking_reasons": [],
+      "in_band_eligible_records": 61,
+      "in_band_eligible_words": 6528,
+      "necessary_volume_lower_bounds": {
+        "additional_comments_with_500_word_cap": 0,
+        "additional_eligible_records": 0,
+        "additional_eligible_words": 0,
+        "sufficient_for_qualification": false
+      },
+      "out_of_band_or_word_bounds_records": 0,
+      "pool_records": 69,
+      "pool_retained_words": 8026,
+      "prefix_records": 47,
+      "prefix_words": 5010,
+      "purge_reasons": {
+        "thread_cross_candidate_cells": 8
+      },
+      "purged_records": 8,
+      "purged_retained_words": 1498,
+      "qualified": true,
+      "selected_prefix": {
+        "first_utc": "2017-11-04T07:26:24Z",
+        "last_utc": "2018-01-04T15:10:01Z",
+        "median_timestamp": {
+          "denominator": 1,
+          "numerator": 1512204243
+        },
+        "median_utc": "2017-12-02T08:44:03Z",
+        "records": 47,
+        "retained_words": 5010
+      },
+      "stratum_id": "stratum-02",
+      "surviving_records": 61,
+      "surviving_retained_words": 6528
+    },
+    {
+      "account_role": "account-01",
+      "cell": "Y/early",
+      "first_blocking_reasons": [],
+      "in_band_eligible_records": 55,
+      "in_band_eligible_words": 6330,
+      "necessary_volume_lower_bounds": {
+        "additional_comments_with_500_word_cap": 0,
+        "additional_eligible_records": 0,
+        "additional_eligible_words": 0,
+        "sufficient_for_qualification": false
+      },
+      "out_of_band_or_word_bounds_records": 0,
+      "pool_records": 72,
+      "pool_retained_words": 8056,
+      "prefix_records": 42,
+      "prefix_words": 5012,
+      "purge_reasons": {
+        "thread_cross_candidate_cells": 9,
+        "thread_historical_boundary": 8
+      },
+      "purged_records": 17,
+      "purged_retained_words": 1726,
+      "qualified": true,
+      "selected_prefix": {
+        "first_utc": "2017-10-12T14:03:43Z",
+        "last_utc": "2017-10-27T16:56:47Z",
+        "median_timestamp": {
+          "denominator": 1,
+          "numerator": 1508345277
+        },
+        "median_utc": "2017-10-18T16:47:57Z",
+        "records": 42,
+        "retained_words": 5012
+      },
+      "stratum_id": "stratum-02",
+      "surviving_records": 55,
+      "surviving_retained_words": 6330
+    },
+    {
+      "account_role": "account-01",
+      "cell": "Y/late",
+      "first_blocking_reasons": [],
+      "in_band_eligible_records": 59,
+      "in_band_eligible_words": 6804,
+      "necessary_volume_lower_bounds": {
+        "additional_comments_with_500_word_cap": 0,
+        "additional_eligible_records": 0,
+        "additional_eligible_words": 0,
+        "sufficient_for_qualification": false
+      },
+      "out_of_band_or_word_bounds_records": 0,
+      "pool_records": 67,
+      "pool_retained_words": 8143,
+      "prefix_records": 44,
+      "prefix_words": 5133,
+      "purge_reasons": {
+        "thread_cross_candidate_cells": 8
+      },
+      "purged_records": 8,
+      "purged_retained_words": 1339,
+      "qualified": true,
+      "selected_prefix": {
+        "first_utc": "2017-11-05T10:18:52Z",
+        "last_utc": "2017-12-02T18:15:53Z",
+        "median_timestamp": {
+          "denominator": 1,
+          "numerator": 1510922585
+        },
+        "median_utc": "2017-11-17T12:43:05Z",
+        "records": 44,
+        "retained_words": 5133
+      },
+      "stratum_id": "stratum-02",
+      "surviving_records": 59,
+      "surviving_retained_words": 6804
+    },
+    {
+      "account_role": "account-02",
+      "blocking_prefix_previous_records": 39,
+      "blocking_prefix_previous_words": 5462,
+      "cell": "X/early",
+      "first_blocking_reasons": [
+        "prefix_word_ceiling"
+      ],
+      "in_band_eligible_records": 57,
+      "in_band_eligible_words": 7520,
+      "minimum_records_met_at_block": true,
+      "minimum_words_met_at_block": true,
+      "necessary_volume_lower_bounds": {
+        "additional_comments_with_500_word_cap": 0,
+        "additional_eligible_records": 0,
+        "additional_eligible_words": 0,
+        "sufficient_for_qualification": false
+      },
+      "out_of_band_or_word_bounds_records": 0,
+      "pool_records": 64,
+      "pool_retained_words": 8348,
+      "prefix_records": 40,
+      "prefix_words": 5562,
+      "purge_reasons": {
+        "content_cross_candidate_cells": 4,
+        "thread_cross_candidate_cells": 2,
+        "thread_historical_boundary": 1
+      },
+      "purged_records": 7,
+      "purged_retained_words": 828,
+      "qualified": false,
+      "selected_prefix": null,
+      "stratum_id": "stratum-02",
+      "surviving_records": 57,
+      "surviving_retained_words": 7520
+    },
+    {
+      "account_role": "account-02",
+      "cell": "X/late",
+      "first_blocking_reasons": [],
+      "in_band_eligible_records": 58,
+      "in_band_eligible_words": 6715,
+      "necessary_volume_lower_bounds": {
+        "additional_comments_with_500_word_cap": 0,
+        "additional_eligible_records": 0,
+        "additional_eligible_words": 0,
+        "sufficient_for_qualification": false
+      },
+      "out_of_band_or_word_bounds_records": 0,
+      "pool_records": 69,
+      "pool_retained_words": 8054,
+      "prefix_records": 42,
+      "prefix_words": 5005,
+      "purge_reasons": {
+        "content_cross_candidate_cells": 6,
+        "thread_cross_candidate_cells": 5
+      },
+      "purged_records": 11,
+      "purged_retained_words": 1339,
+      "qualified": true,
+      "selected_prefix": {
+        "first_utc": "2017-11-02T15:04:02Z",
+        "last_utc": "2017-11-29T04:11:16Z",
+        "median_timestamp": {
+          "denominator": 2,
+          "numerator": 3021316919
+        },
+        "median_utc": "2017-11-14T11:20:59.500000Z",
+        "records": 42,
+        "retained_words": 5005
+      },
+      "stratum_id": "stratum-02",
+      "surviving_records": 58,
+      "surviving_retained_words": 6715
+    },
+    {
+      "account_role": "account-02",
+      "cell": "Y/early",
+      "first_blocking_reasons": [],
+      "in_band_eligible_records": 57,
+      "in_band_eligible_words": 6564,
+      "necessary_volume_lower_bounds": {
+        "additional_comments_with_500_word_cap": 0,
+        "additional_eligible_records": 0,
+        "additional_eligible_words": 0,
+        "sufficient_for_qualification": false
+      },
+      "out_of_band_or_word_bounds_records": 0,
+      "pool_records": 69,
+      "pool_retained_words": 8056,
+      "prefix_records": 45,
+      "prefix_words": 5164,
+      "purge_reasons": {
+        "content_cross_candidate_cells": 7,
+        "thread_cross_candidate_cells": 5
+      },
+      "purged_records": 12,
+      "purged_retained_words": 1492,
+      "qualified": true,
+      "selected_prefix": {
+        "first_utc": "2017-09-29T21:06:52Z",
+        "last_utc": "2017-10-31T13:18:53Z",
+        "median_timestamp": {
+          "denominator": 1,
+          "numerator": 1507741521
+        },
+        "median_utc": "2017-10-11T17:05:21Z",
+        "records": 45,
+        "retained_words": 5164
+      },
+      "stratum_id": "stratum-02",
+      "surviving_records": 57,
+      "surviving_retained_words": 6564
+    },
+    {
+      "account_role": "account-02",
+      "cell": "Y/late",
+      "first_blocking_reasons": [],
+      "in_band_eligible_records": 54,
+      "in_band_eligible_words": 6561,
+      "necessary_volume_lower_bounds": {
+        "additional_comments_with_500_word_cap": 0,
+        "additional_eligible_records": 0,
+        "additional_eligible_words": 0,
+        "sufficient_for_qualification": false
+      },
+      "out_of_band_or_word_bounds_records": 0,
+      "pool_records": 64,
+      "pool_retained_words": 8002,
+      "prefix_records": 41,
+      "prefix_words": 5019,
+      "purge_reasons": {
+        "content_cross_candidate_cells": 4,
+        "thread_cross_candidate_cells": 6
+      },
+      "purged_records": 10,
+      "purged_retained_words": 1441,
+      "qualified": true,
+      "selected_prefix": {
+        "first_utc": "2017-11-01T01:41:50Z",
+        "last_utc": "2017-11-22T01:40:55Z",
+        "median_timestamp": {
+          "denominator": 1,
+          "numerator": 1510228737
+        },
+        "median_utc": "2017-11-09T11:58:57Z",
+        "records": 41,
+        "retained_words": 5019
+      },
+      "stratum_id": "stratum-02",
+      "surviving_records": 54,
+      "surviving_retained_words": 6561
+    },
+    {
+      "account_role": "account-01",
+      "cell": "X/early",
+      "first_blocking_reasons": [],
+      "in_band_eligible_records": 104,
+      "in_band_eligible_words": 7126,
+      "necessary_volume_lower_bounds": {
+        "additional_comments_with_500_word_cap": 0,
+        "additional_eligible_records": 0,
+        "additional_eligible_words": 0,
+        "sufficient_for_qualification": false
+      },
+      "out_of_band_or_word_bounds_records": 0,
+      "pool_records": 114,
+      "pool_retained_words": 8054,
+      "prefix_records": 75,
+      "prefix_words": 5033,
+      "purge_reasons": {
+        "thread_cross_candidate_cells": 10
+      },
+      "purged_records": 10,
+      "purged_retained_words": 928,
+      "qualified": true,
+      "selected_prefix": {
+        "first_utc": "2014-10-29T01:30:56Z",
+        "last_utc": "2015-02-27T02:39:31Z",
+        "median_timestamp": {
+          "denominator": 1,
+          "numerator": 1419935291
+        },
+        "median_utc": "2014-12-30T10:28:11Z",
+        "records": 75,
+        "retained_words": 5033
+      },
+      "stratum_id": "stratum-04",
+      "surviving_records": 104,
+      "surviving_retained_words": 7126
+    },
+    {
+      "account_role": "account-01",
+      "cell": "X/late",
+      "first_blocking_reasons": [],
+      "in_band_eligible_records": 110,
+      "in_band_eligible_words": 7584,
+      "necessary_volume_lower_bounds": {
+        "additional_comments_with_500_word_cap": 0,
+        "additional_eligible_records": 0,
+        "additional_eligible_words": 0,
+        "sufficient_for_qualification": false
+      },
+      "out_of_band_or_word_bounds_records": 0,
+      "pool_records": 118,
+      "pool_retained_words": 8086,
+      "prefix_records": 70,
+      "prefix_words": 5091,
+      "purge_reasons": {
+        "thread_cross_candidate_cells": 8
+      },
+      "purged_records": 8,
+      "purged_retained_words": 502,
+      "qualified": true,
+      "selected_prefix": {
+        "first_utc": "2015-03-02T15:06:59Z",
+        "last_utc": "2015-07-21T10:36:17Z",
+        "median_timestamp": {
+          "denominator": 1,
+          "numerator": 1431098048
+        },
+        "median_utc": "2015-05-08T15:14:08Z",
+        "records": 70,
+        "retained_words": 5091
+      },
+      "stratum_id": "stratum-04",
+      "surviving_records": 110,
+      "surviving_retained_words": 7584
+    },
+    {
+      "account_role": "account-01",
+      "cell": "Y/early",
+      "first_blocking_reasons": [],
+      "in_band_eligible_records": 116,
+      "in_band_eligible_words": 7875,
+      "necessary_volume_lower_bounds": {
+        "additional_comments_with_500_word_cap": 0,
+        "additional_eligible_records": 0,
+        "additional_eligible_words": 0,
+        "sufficient_for_qualification": false
+      },
+      "out_of_band_or_word_bounds_records": 0,
+      "pool_records": 118,
+      "pool_retained_words": 8004,
+      "prefix_records": 76,
+      "prefix_words": 5022,
+      "purge_reasons": {
+        "thread_cross_candidate_cells": 2
+      },
+      "purged_records": 2,
+      "purged_retained_words": 129,
+      "qualified": true,
+      "selected_prefix": {
+        "first_utc": "2014-11-23T01:57:57Z",
+        "last_utc": "2015-02-24T14:36:29Z",
+        "median_timestamp": {
+          "denominator": 2,
+          "numerator": 2843443035
+        },
+        "median_utc": "2015-01-20T02:38:37.500000Z",
+        "records": 76,
+        "retained_words": 5022
+      },
+      "stratum_id": "stratum-04",
+      "surviving_records": 116,
+      "surviving_retained_words": 7875
+    },
+    {
+      "account_role": "account-01",
+      "cell": "Y/late",
+      "first_blocking_reasons": [],
+      "in_band_eligible_records": 105,
+      "in_band_eligible_words": 8046,
+      "necessary_volume_lower_bounds": {
+        "additional_comments_with_500_word_cap": 0,
+        "additional_eligible_records": 0,
+        "additional_eligible_words": 0,
+        "sufficient_for_qualification": false
+      },
+      "out_of_band_or_word_bounds_records": 0,
+      "pool_records": 105,
+      "pool_retained_words": 8046,
+      "prefix_records": 69,
+      "prefix_words": 5172,
+      "purge_reasons": {},
+      "purged_records": 0,
+      "purged_retained_words": 0,
+      "qualified": true,
+      "selected_prefix": {
+        "first_utc": "2015-03-02T13:42:21Z",
+        "last_utc": "2015-04-20T19:33:38Z",
+        "median_timestamp": {
+          "denominator": 1,
+          "numerator": 1427228023
+        },
+        "median_utc": "2015-03-24T20:13:43Z",
+        "records": 69,
+        "retained_words": 5172
+      },
+      "stratum_id": "stratum-04",
+      "surviving_records": 105,
+      "surviving_retained_words": 8046
+    },
+    {
+      "account_role": "account-02",
+      "cell": "X/early",
+      "first_blocking_reasons": [],
+      "in_band_eligible_records": 109,
+      "in_band_eligible_words": 7293,
+      "necessary_volume_lower_bounds": {
+        "additional_comments_with_500_word_cap": 0,
+        "additional_eligible_records": 0,
+        "additional_eligible_words": 0,
+        "sufficient_for_qualification": false
+      },
+      "out_of_band_or_word_bounds_records": 0,
+      "pool_records": 124,
+      "pool_retained_words": 8084,
+      "prefix_records": 76,
+      "prefix_words": 5046,
+      "purge_reasons": {
+        "thread_cross_candidate_cells": 15
+      },
+      "purged_records": 15,
+      "purged_retained_words": 791,
+      "qualified": true,
+      "selected_prefix": {
+        "first_utc": "2014-12-20T20:14:51Z",
+        "last_utc": "2015-02-27T13:42:32Z",
+        "median_timestamp": {
+          "denominator": 1,
+          "numerator": 1423163671
+        },
+        "median_utc": "2015-02-05T19:14:31Z",
+        "records": 76,
+        "retained_words": 5046
+      },
+      "stratum_id": "stratum-04",
+      "surviving_records": 109,
+      "surviving_retained_words": 7293
+    },
+    {
+      "account_role": "account-02",
+      "cell": "X/late",
+      "first_blocking_reasons": [],
+      "in_band_eligible_records": 109,
+      "in_band_eligible_words": 7729,
+      "necessary_volume_lower_bounds": {
+        "additional_comments_with_500_word_cap": 0,
+        "additional_eligible_records": 0,
+        "additional_eligible_words": 0,
+        "sufficient_for_qualification": false
+      },
+      "out_of_band_or_word_bounds_records": 0,
+      "pool_records": 116,
+      "pool_retained_words": 8179,
+      "prefix_records": 83,
+      "prefix_words": 5030,
+      "purge_reasons": {
+        "thread_cross_candidate_cells": 7
+      },
+      "purged_records": 7,
+      "purged_retained_words": 450,
+      "qualified": true,
+      "selected_prefix": {
+        "first_utc": "2015-03-03T20:16:02Z",
+        "last_utc": "2015-04-06T22:32:01Z",
+        "median_timestamp": {
+          "denominator": 1,
+          "numerator": 1427380405
+        },
+        "median_utc": "2015-03-26T14:33:25Z",
+        "records": 83,
+        "retained_words": 5030
+      },
+      "stratum_id": "stratum-04",
+      "surviving_records": 109,
+      "surviving_retained_words": 7729
+    },
+    {
+      "account_role": "account-02",
+      "cell": "Y/early",
+      "first_blocking_reasons": [],
+      "in_band_eligible_records": 100,
+      "in_band_eligible_words": 6475,
+      "necessary_volume_lower_bounds": {
+        "additional_comments_with_500_word_cap": 0,
+        "additional_eligible_records": 0,
+        "additional_eligible_words": 0,
+        "sufficient_for_qualification": false
+      },
+      "out_of_band_or_word_bounds_records": 0,
+      "pool_records": 105,
+      "pool_retained_words": 6769,
+      "prefix_records": 79,
+      "prefix_words": 5110,
+      "purge_reasons": {
+        "thread_cross_candidate_cells": 5
+      },
+      "purged_records": 5,
+      "purged_retained_words": 294,
+      "qualified": true,
+      "selected_prefix": {
+        "first_utc": "2014-10-17T02:30:34Z",
+        "last_utc": "2015-02-27T06:00:02Z",
+        "median_timestamp": {
+          "denominator": 1,
+          "numerator": 1420798608
+        },
+        "median_utc": "2015-01-09T10:16:48Z",
+        "records": 79,
+        "retained_words": 5110
+      },
+      "stratum_id": "stratum-04",
+      "surviving_records": 100,
+      "surviving_retained_words": 6475
+    },
+    {
+      "account_role": "account-02",
+      "cell": "Y/late",
+      "first_blocking_reasons": [],
+      "in_band_eligible_records": 104,
+      "in_band_eligible_words": 7993,
+      "necessary_volume_lower_bounds": {
+        "additional_comments_with_500_word_cap": 0,
+        "additional_eligible_records": 0,
+        "additional_eligible_words": 0,
+        "sufficient_for_qualification": false
+      },
+      "out_of_band_or_word_bounds_records": 0,
+      "pool_records": 107,
+      "pool_retained_words": 8120,
+      "prefix_records": 72,
+      "prefix_words": 5312,
+      "purge_reasons": {
+        "thread_cross_candidate_cells": 3
+      },
+      "purged_records": 3,
+      "purged_retained_words": 127,
+      "qualified": true,
+      "selected_prefix": {
+        "first_utc": "2015-03-01T02:42:26Z",
+        "last_utc": "2015-07-18T16:13:51Z",
+        "median_timestamp": {
+          "denominator": 2,
+          "numerator": 2860186879
+        },
+        "median_utc": "2015-04-27T00:10:39.500000Z",
+        "records": 72,
+        "retained_words": 5312
+      },
+      "stratum_id": "stratum-04",
+      "surviving_records": 104,
+      "surviving_retained_words": 7993
+    },
+    {
+      "account_role": "account-03",
+      "cell": "X/early",
+      "first_blocking_reasons": [],
+      "in_band_eligible_records": 94,
+      "in_band_eligible_words": 7141,
+      "necessary_volume_lower_bounds": {
+        "additional_comments_with_500_word_cap": 0,
+        "additional_eligible_records": 0,
+        "additional_eligible_words": 0,
+        "sufficient_for_qualification": false
+      },
+      "out_of_band_or_word_bounds_records": 0,
+      "pool_records": 104,
+      "pool_retained_words": 8126,
+      "prefix_records": 70,
+      "prefix_words": 5009,
+      "purge_reasons": {
+        "thread_cross_candidate_cells": 10
+      },
+      "purged_records": 10,
+      "purged_retained_words": 985,
+      "qualified": true,
+      "selected_prefix": {
+        "first_utc": "2014-11-19T01:27:26Z",
+        "last_utc": "2015-02-25T01:12:57Z",
+        "median_timestamp": {
+          "denominator": 2,
+          "numerator": 2837299081
+        },
+        "median_utc": "2014-12-15T13:19:00.500000Z",
+        "records": 70,
+        "retained_words": 5009
+      },
+      "stratum_id": "stratum-04",
+      "surviving_records": 94,
+      "surviving_retained_words": 7141
+    },
+    {
+      "account_role": "account-03",
+      "cell": "X/late",
+      "first_blocking_reasons": [],
+      "in_band_eligible_records": 85,
+      "in_band_eligible_words": 7266,
+      "necessary_volume_lower_bounds": {
+        "additional_comments_with_500_word_cap": 0,
+        "additional_eligible_records": 0,
+        "additional_eligible_words": 0,
+        "sufficient_for_qualification": false
+      },
+      "out_of_band_or_word_bounds_records": 0,
+      "pool_records": 98,
+      "pool_retained_words": 8072,
+      "prefix_records": 66,
+      "prefix_words": 5007,
+      "purge_reasons": {
+        "thread_cross_candidate_cells": 13
+      },
+      "purged_records": 13,
+      "purged_retained_words": 806,
+      "qualified": true,
+      "selected_prefix": {
+        "first_utc": "2015-03-02T03:43:15Z",
+        "last_utc": "2015-04-15T16:48:21Z",
+        "median_timestamp": {
+          "denominator": 1,
+          "numerator": 1427229114
+        },
+        "median_utc": "2015-03-24T20:31:54Z",
+        "records": 66,
+        "retained_words": 5007
+      },
+      "stratum_id": "stratum-04",
+      "surviving_records": 85,
+      "surviving_retained_words": 7266
+    },
+    {
+      "account_role": "account-03",
+      "cell": "Y/early",
+      "first_blocking_reasons": [],
+      "in_band_eligible_records": 110,
+      "in_band_eligible_words": 6961,
+      "necessary_volume_lower_bounds": {
+        "additional_comments_with_500_word_cap": 0,
+        "additional_eligible_records": 0,
+        "additional_eligible_words": 0,
+        "sufficient_for_qualification": false
+      },
+      "out_of_band_or_word_bounds_records": 0,
+      "pool_records": 120,
+      "pool_retained_words": 8015,
+      "prefix_records": 76,
+      "prefix_words": 5007,
+      "purge_reasons": {
+        "thread_cross_candidate_cells": 10
+      },
+      "purged_records": 10,
+      "purged_retained_words": 1054,
+      "qualified": true,
+      "selected_prefix": {
+        "first_utc": "2014-12-04T10:27:56Z",
+        "last_utc": "2015-02-27T18:59:27Z",
+        "median_timestamp": {
+          "denominator": 2,
+          "numerator": 2844050073
+        },
+        "median_utc": "2015-01-23T14:57:16.500000Z",
+        "records": 76,
+        "retained_words": 5007
+      },
+      "stratum_id": "stratum-04",
+      "surviving_records": 110,
+      "surviving_retained_words": 6961
+    },
+    {
+      "account_role": "account-03",
+      "cell": "Y/late",
+      "first_blocking_reasons": [],
+      "in_band_eligible_records": 81,
+      "in_band_eligible_words": 5360,
+      "necessary_volume_lower_bounds": {
+        "additional_comments_with_500_word_cap": 0,
+        "additional_eligible_records": 0,
+        "additional_eligible_words": 0,
+        "sufficient_for_qualification": false
+      },
+      "out_of_band_or_word_bounds_records": 0,
+      "pool_records": 83,
+      "pool_retained_words": 5561,
+      "prefix_records": 74,
+      "prefix_words": 5036,
+      "purge_reasons": {
+        "thread_cross_candidate_cells": 2
+      },
+      "purged_records": 2,
+      "purged_retained_words": 201,
+      "qualified": true,
+      "selected_prefix": {
+        "first_utc": "2015-03-01T14:37:17Z",
+        "last_utc": "2015-07-24T15:04:18Z",
+        "median_timestamp": {
+          "denominator": 2,
+          "numerator": 2855830045
+        },
+        "median_utc": "2015-04-01T19:03:42.500000Z",
+        "records": 74,
+        "retained_words": 5036
+      },
+      "stratum_id": "stratum-04",
+      "surviving_records": 81,
+      "surviving_retained_words": 5360
+    },
+    {
+      "account_role": "account-01",
+      "cell": "X/early",
+      "first_blocking_reasons": [],
+      "in_band_eligible_records": 66,
+      "in_band_eligible_words": 6962,
+      "necessary_volume_lower_bounds": {
+        "additional_comments_with_500_word_cap": 0,
+        "additional_eligible_records": 0,
+        "additional_eligible_words": 0,
+        "sufficient_for_qualification": false
+      },
+      "out_of_band_or_word_bounds_records": 0,
+      "pool_records": 73,
+      "pool_retained_words": 8046,
+      "prefix_records": 43,
+      "prefix_words": 5198,
+      "purge_reasons": {
+        "thread_cross_candidate_cells": 7
+      },
+      "purged_records": 7,
+      "purged_retained_words": 1084,
+      "qualified": true,
+      "selected_prefix": {
+        "first_utc": "2011-11-08T18:40:18Z",
+        "last_utc": "2012-02-26T17:47:30Z",
+        "median_timestamp": {
+          "denominator": 1,
+          "numerator": 1325983422
+        },
+        "median_utc": "2012-01-08T00:43:42Z",
+        "records": 43,
+        "retained_words": 5198
+      },
+      "stratum_id": "stratum-05",
+      "surviving_records": 66,
+      "surviving_retained_words": 6962
+    },
+    {
+      "account_role": "account-01",
+      "cell": "X/late",
+      "first_blocking_reasons": [
+        "insufficient_retained_words",
+        "insufficient_records"
+      ],
+      "in_band_eligible_records": 36,
+      "in_band_eligible_words": 4413,
+      "necessary_volume_lower_bounds": {
+        "additional_comments_with_500_word_cap": 4,
+        "additional_eligible_records": 4,
+        "additional_eligible_words": 587,
+        "sufficient_for_qualification": false
+      },
+      "out_of_band_or_word_bounds_records": 0,
+      "pool_records": 44,
+      "pool_retained_words": 5524,
+      "prefix_records": 36,
+      "prefix_words": 4413,
+      "purge_reasons": {
+        "thread_cross_candidate_cells": 8
+      },
+      "purged_records": 8,
+      "purged_retained_words": 1111,
+      "qualified": false,
+      "selected_prefix": null,
+      "stratum_id": "stratum-05",
+      "surviving_records": 36,
+      "surviving_retained_words": 4413
+    },
+    {
+      "account_role": "account-01",
+      "cell": "Y/early",
+      "first_blocking_reasons": [],
+      "in_band_eligible_records": 83,
+      "in_band_eligible_words": 7682,
+      "necessary_volume_lower_bounds": {
+        "additional_comments_with_500_word_cap": 0,
+        "additional_eligible_records": 0,
+        "additional_eligible_words": 0,
+        "sufficient_for_qualification": false
+      },
+      "out_of_band_or_word_bounds_records": 0,
+      "pool_records": 87,
+      "pool_retained_words": 8032,
+      "prefix_records": 48,
+      "prefix_words": 5006,
+      "purge_reasons": {
+        "thread_cross_candidate_cells": 4
+      },
+      "purged_records": 4,
+      "purged_retained_words": 350,
+      "qualified": true,
+      "selected_prefix": {
+        "first_utc": "2012-01-09T06:44:20Z",
+        "last_utc": "2012-02-29T22:50:32Z",
+        "median_timestamp": {
+          "denominator": 1,
+          "numerator": 1330071998
+        },
+        "median_utc": "2012-02-24T08:26:38Z",
+        "records": 48,
+        "retained_words": 5006
+      },
+      "stratum_id": "stratum-05",
+      "surviving_records": 83,
+      "surviving_retained_words": 7682
+    },
+    {
+      "account_role": "account-01",
+      "cell": "Y/late",
+      "first_blocking_reasons": [],
+      "in_band_eligible_records": 62,
+      "in_band_eligible_words": 7714,
+      "necessary_volume_lower_bounds": {
+        "additional_comments_with_500_word_cap": 0,
+        "additional_eligible_records": 0,
+        "additional_eligible_words": 0,
+        "sufficient_for_qualification": false
+      },
+      "out_of_band_or_word_bounds_records": 0,
+      "pool_records": 67,
+      "pool_retained_words": 8013,
+      "prefix_records": 40,
+      "prefix_words": 5350,
+      "purge_reasons": {
+        "thread_cross_candidate_cells": 5
+      },
+      "purged_records": 5,
+      "purged_retained_words": 299,
+      "qualified": true,
+      "selected_prefix": {
+        "first_utc": "2012-03-01T03:35:08Z",
+        "last_utc": "2012-04-03T19:53:38Z",
+        "median_timestamp": {
+          "denominator": 2,
+          "numerator": 2664373695
+        },
+        "median_utc": "2012-03-19T19:54:07.500000Z",
+        "records": 40,
+        "retained_words": 5350
+      },
+      "stratum_id": "stratum-05",
+      "surviving_records": 62,
+      "surviving_retained_words": 7714
+    },
+    {
+      "account_role": "account-02",
+      "cell": "X/early",
+      "first_blocking_reasons": [],
+      "in_band_eligible_records": 79,
+      "in_band_eligible_words": 8138,
+      "necessary_volume_lower_bounds": {
+        "additional_comments_with_500_word_cap": 0,
+        "additional_eligible_records": 0,
+        "additional_eligible_words": 0,
+        "sufficient_for_qualification": false
+      },
+      "out_of_band_or_word_bounds_records": 0,
+      "pool_records": 79,
+      "pool_retained_words": 8138,
+      "prefix_records": 43,
+      "prefix_words": 5093,
+      "purge_reasons": {},
+      "purged_records": 0,
+      "purged_retained_words": 0,
+      "qualified": true,
+      "selected_prefix": {
+        "first_utc": "2012-02-13T05:01:13Z",
+        "last_utc": "2012-02-29T21:51:38Z",
+        "median_timestamp": {
+          "denominator": 1,
+          "numerator": 1329511672
+        },
+        "median_utc": "2012-02-17T20:47:52Z",
+        "records": 43,
+        "retained_words": 5093
+      },
+      "stratum_id": "stratum-05",
+      "surviving_records": 79,
+      "surviving_retained_words": 8138
+    },
+    {
+      "account_role": "account-02",
+      "cell": "X/late",
+      "first_blocking_reasons": [],
+      "in_band_eligible_records": 80,
+      "in_band_eligible_words": 7328,
+      "necessary_volume_lower_bounds": {
+        "additional_comments_with_500_word_cap": 0,
+        "additional_eligible_records": 0,
+        "additional_eligible_words": 0,
+        "sufficient_for_qualification": false
+      },
+      "out_of_band_or_word_bounds_records": 0,
+      "pool_records": 84,
+      "pool_retained_words": 8055,
+      "prefix_records": 52,
+      "prefix_words": 5057,
+      "purge_reasons": {
+        "thread_cross_candidate_cells": 4
+      },
+      "purged_records": 4,
+      "purged_retained_words": 727,
+      "qualified": true,
+      "selected_prefix": {
+        "first_utc": "2012-03-02T07:57:32Z",
+        "last_utc": "2012-04-04T16:49:46Z",
+        "median_timestamp": {
+          "denominator": 2,
+          "numerator": 2663859211
+        },
+        "median_utc": "2012-03-16T20:26:45.500000Z",
+        "records": 52,
+        "retained_words": 5057
+      },
+      "stratum_id": "stratum-05",
+      "surviving_records": 80,
+      "surviving_retained_words": 7328
+    },
+    {
+      "account_role": "account-02",
+      "cell": "Y/early",
+      "first_blocking_reasons": [],
+      "in_band_eligible_records": 68,
+      "in_band_eligible_words": 8032,
+      "necessary_volume_lower_bounds": {
+        "additional_comments_with_500_word_cap": 0,
+        "additional_eligible_records": 0,
+        "additional_eligible_words": 0,
+        "sufficient_for_qualification": false
+      },
+      "out_of_band_or_word_bounds_records": 0,
+      "pool_records": 70,
+      "pool_retained_words": 8145,
+      "prefix_records": 47,
+      "prefix_words": 5171,
+      "purge_reasons": {
+        "thread_cross_candidate_cells": 2
+      },
+      "purged_records": 2,
+      "purged_retained_words": 113,
+      "qualified": true,
+      "selected_prefix": {
+        "first_utc": "2012-02-22T20:55:23Z",
+        "last_utc": "2012-02-29T20:39:50Z",
+        "median_timestamp": {
+          "denominator": 1,
+          "numerator": 1330384186
+        },
+        "median_utc": "2012-02-27T23:09:46Z",
+        "records": 47,
+        "retained_words": 5171
+      },
+      "stratum_id": "stratum-05",
+      "surviving_records": 68,
+      "surviving_retained_words": 8032
+    },
+    {
+      "account_role": "account-02",
+      "cell": "Y/late",
+      "first_blocking_reasons": [],
+      "in_band_eligible_records": 74,
+      "in_band_eligible_words": 7915,
+      "necessary_volume_lower_bounds": {
+        "additional_comments_with_500_word_cap": 0,
+        "additional_eligible_records": 0,
+        "additional_eligible_words": 0,
+        "sufficient_for_qualification": false
+      },
+      "out_of_band_or_word_bounds_records": 0,
+      "pool_records": 76,
+      "pool_retained_words": 8046,
+      "prefix_records": 46,
+      "prefix_words": 5044,
+      "purge_reasons": {
+        "thread_cross_candidate_cells": 2
+      },
+      "purged_records": 2,
+      "purged_retained_words": 131,
+      "qualified": true,
+      "selected_prefix": {
+        "first_utc": "2012-03-01T00:09:07Z",
+        "last_utc": "2012-03-06T20:20:38Z",
+        "median_timestamp": {
+          "denominator": 2,
+          "numerator": 2661574597
+        },
+        "median_utc": "2012-03-03T15:08:18.500000Z",
+        "records": 46,
+        "retained_words": 5044
+      },
+      "stratum_id": "stratum-05",
+      "surviving_records": 74,
+      "surviving_retained_words": 7915
+    }
+  ],
+  "cells_examined": 28,
+  "failed_cells": 2,
+  "failure_reason_counts": {
+    "insufficient_records": 1,
+    "insufficient_retained_words": 1,
+    "prefix_word_ceiling": 1
+  },
+  "interpretation": [
+    "The unchanged registered prepared-input checker separately verifies original source fidelity, upstream metadata, exclusions, symmetric audit purges and the empty exact matching result.",
+    "Failure explanations inspect only the fixed candidate-pool metadata after the recorded audit. No outside-pool refill, alternative calendar cut or replacement account is attempted.",
+    "Each volume lower bound is necessary only. A future independently registered candidate pool would still need audit-clean comments of 20 to 500 retained words inside the same 180-day half-open band, whose nearest-cut whole prefix reaches at least 5000 words and 40 comments without exceeding 5500 words or 200 comments.",
+    "An account needs four qualified cells; a pair needs eight, at most 11/10 word ratio and 5/4 comment-count ratio across all eight, plus median date span at most 30 days across all four cells within each period.",
+    "If a prefix hits a ceiling, having sufficient total words or comments does not establish a valid prefix. The required future comment lengths and timestamps cannot be inferred as a unique minimum addition from aggregate totals.",
+    "Pair date and volume measurements are null when any required cell is unqualified. Missing cells are never imputed as zero.",
+    "Zero prepared blocks means the chronological study could not run; it is not an analyzer score, zero candidates or evidence for continuity."
+  ],
+  "new_selection_performed": false,
+  "opaque_role_definition": "Within each stratum, account-01 onward follows ascending SHA256(pilot4-feasibility-identity-order-v1 + NUL + canonical account). No identity map or hashes are published.",
+  "peak_rss_mib": 131.4765625,
+  "phase": "post_hoc_fixed_gate_failure_explanation",
+  "pool_records": 2447,
+  "preprocessor_calls": 0,
+  "private_identifiers_published": false,
+  "purged_records": 195,
+  "qualified_cells": 26,
+  "source_archive_reads": 0,
+  "status": "diagnosed",
+  "strata": [
+    {
+      "accounts": [
+        {
+          "account_role": "account-01",
+          "failing_gates": [],
+          "gate_measurements": {
+            "maximum_cell_records": 47,
+            "maximum_cell_words": 5133,
+            "maximum_records_allowed_if_smallest_count_unchanged": 52,
+            "minimum_cell_records": 42,
+            "minimum_cell_words": 5010,
+            "period_median_spans": {
+              "early": {
+                "minimum_span_reduction_seconds": {
+                  "denominator": 1,
+                  "numerator": 0
+                },
+                "passes_30_day_gate": true,
+                "span_days": {
+                  "denominator": 400,
+                  "numerator": 1911
+                },
+                "span_seconds": {
+                  "denominator": 1,
+                  "numerator": 412776
+                }
+              },
+              "late": {
+                "minimum_span_reduction_seconds": {
+                  "denominator": 1,
+                  "numerator": 0
+                },
+                "passes_30_day_gate": true,
+                "span_days": {
+                  "denominator": 43200,
+                  "numerator": 640829
+                },
+                "span_seconds": {
+                  "denominator": 1,
+                  "numerator": 1281658
+                }
+              }
+            },
+            "record_ratio": {
+              "denominator": 42,
+              "numerator": 47
+            },
+            "required_minimum_records_if_largest_count_unchanged": 38,
+            "word_ratio": {
+              "denominator": 1670,
+              "numerator": 1711
+            }
+          },
+          "missing_qualified_cells": [],
+          "qualified": true
+        },
+        {
+          "account_role": "account-02",
+          "failing_gates": [
+            "one_or_more_cells_unqualified"
+          ],
+          "gate_measurements": null,
+          "missing_qualified_cells": [
+            "account-02/X/early"
+          ],
+          "qualified": false
+        }
+      ],
+      "communities": [
+        "AskPhysics",
+        "Physics"
+      ],
+      "compatible_pairs": 0,
+      "cut": "2017-11-01T00:00:00Z",
+      "internally_qualified_accounts": 1,
+      "pairs": [
+        {
+          "account_roles": [
+            "account-01",
+            "account-02"
+          ],
+          "failing_gates": [
+            "one_or_more_cells_unqualified"
+          ],
+          "gate_measurements": null,
+          "missing_qualified_cells": [
+            "account-02/X/early"
+          ],
+          "qualified": false
+        }
+      ],
+      "planned_block_cap": 1,
+      "qualified_cells": 7,
+      "stratum_id": "stratum-02"
+    },
+    {
+      "accounts": [
+        {
+          "account_role": "account-01",
+          "failing_gates": [
+            "late_median_span_exceeds_30_days"
+          ],
+          "gate_measurements": {
+            "maximum_cell_records": 76,
+            "maximum_cell_words": 5172,
+            "maximum_records_allowed_if_smallest_count_unchanged": 86,
+            "minimum_cell_records": 69,
+            "minimum_cell_words": 5022,
+            "period_median_spans": {
+              "early": {
+                "minimum_span_reduction_seconds": {
+                  "denominator": 1,
+                  "numerator": 0
+                },
+                "passes_30_day_gate": true,
+                "span_days": {
+                  "denominator": 172800,
+                  "numerator": 3572453
+                },
+                "span_seconds": {
+                  "denominator": 2,
+                  "numerator": 3572453
+                }
+              },
+              "late": {
+                "minimum_span_reduction_seconds": {
+                  "denominator": 1,
+                  "numerator": 1278025
+                },
+                "passes_30_day_gate": false,
+                "span_days": {
+                  "denominator": 3456,
+                  "numerator": 154801
+                },
+                "span_seconds": {
+                  "denominator": 1,
+                  "numerator": 3870025
+                }
+              }
+            },
+            "record_ratio": {
+              "denominator": 69,
+              "numerator": 76
+            },
+            "required_minimum_records_if_largest_count_unchanged": 61,
+            "word_ratio": {
+              "denominator": 837,
+              "numerator": 862
+            }
+          },
+          "missing_qualified_cells": [],
+          "qualified": false
+        },
+        {
+          "account_role": "account-02",
+          "failing_gates": [
+            "late_median_span_exceeds_30_days"
+          ],
+          "gate_measurements": {
+            "maximum_cell_records": 83,
+            "maximum_cell_words": 5312,
+            "maximum_records_allowed_if_smallest_count_unchanged": 90,
+            "minimum_cell_records": 72,
+            "minimum_cell_words": 5030,
+            "period_median_spans": {
+              "early": {
+                "minimum_span_reduction_seconds": {
+                  "denominator": 1,
+                  "numerator": 0
+                },
+                "passes_30_day_gate": true,
+                "span_days": {
+                  "denominator": 86400,
+                  "numerator": 2365063
+                },
+                "span_seconds": {
+                  "denominator": 1,
+                  "numerator": 2365063
+                }
+              },
+              "late": {
+                "minimum_span_reduction_seconds": {
+                  "denominator": 2,
+                  "numerator": 242069
+                },
+                "passes_30_day_gate": false,
+                "span_days": {
+                  "denominator": 172800,
+                  "numerator": 5426069
+                },
+                "span_seconds": {
+                  "denominator": 2,
+                  "numerator": 5426069
+                }
+              }
+            },
+            "record_ratio": {
+              "denominator": 72,
+              "numerator": 83
+            },
+            "required_minimum_records_if_largest_count_unchanged": 67,
+            "word_ratio": {
+              "denominator": 2515,
+              "numerator": 2656
+            }
+          },
+          "missing_qualified_cells": [],
+          "qualified": false
+        },
+        {
+          "account_role": "account-03",
+          "failing_gates": [
+            "early_median_span_exceeds_30_days"
+          ],
+          "gate_measurements": {
+            "maximum_cell_records": 76,
+            "maximum_cell_words": 5036,
+            "maximum_records_allowed_if_smallest_count_unchanged": 82,
+            "minimum_cell_records": 66,
+            "minimum_cell_words": 5007,
+            "period_median_spans": {
+              "early": {
+                "minimum_span_reduction_seconds": {
+                  "denominator": 1,
+                  "numerator": 783496
+                },
+                "passes_30_day_gate": false,
+                "span_days": {
+                  "denominator": 10800,
+                  "numerator": 421937
+                },
+                "span_seconds": {
+                  "denominator": 1,
+                  "numerator": 3375496
+                }
+              },
+              "late": {
+                "minimum_span_reduction_seconds": {
+                  "denominator": 1,
+                  "numerator": 0
+                },
+                "passes_30_day_gate": true,
+                "span_days": {
+                  "denominator": 172800,
+                  "numerator": 1371817
+                },
+                "span_seconds": {
+                  "denominator": 2,
+                  "numerator": 1371817
+                }
+              }
+            },
+            "record_ratio": {
+              "denominator": 33,
+              "numerator": 38
+            },
+            "required_minimum_records_if_largest_count_unchanged": 61,
+            "word_ratio": {
+              "denominator": 5007,
+              "numerator": 5036
+            }
+          },
+          "missing_qualified_cells": [],
+          "qualified": false
+        }
+      ],
+      "communities": [
+        "linux",
+        "linuxquestions"
+      ],
+      "compatible_pairs": 0,
+      "cut": "2015-03-01T00:00:00Z",
+      "internally_qualified_accounts": 0,
+      "pairs": [
+        {
+          "account_roles": [
+            "account-01",
+            "account-02"
+          ],
+          "failing_gates": [
+            "early_median_span_exceeds_30_days",
+            "late_median_span_exceeds_30_days"
+          ],
+          "gate_measurements": {
+            "maximum_cell_records": 83,
+            "maximum_cell_words": 5312,
+            "maximum_records_allowed_if_smallest_count_unchanged": 86,
+            "minimum_cell_records": 69,
+            "minimum_cell_words": 5022,
+            "period_median_spans": {
+              "early": {
+                "minimum_span_reduction_seconds": {
+                  "denominator": 1,
+                  "numerator": 636380
+                },
+                "passes_30_day_gate": false,
+                "span_days": {
+                  "denominator": 4320,
+                  "numerator": 161419
+                },
+                "span_seconds": {
+                  "denominator": 1,
+                  "numerator": 3228380
+                }
+              },
+              "late": {
+                "minimum_span_reduction_seconds": {
+                  "denominator": 1,
+                  "numerator": 1278025
+                },
+                "passes_30_day_gate": false,
+                "span_days": {
+                  "denominator": 3456,
+                  "numerator": 154801
+                },
+                "span_seconds": {
+                  "denominator": 1,
+                  "numerator": 3870025
+                }
+              }
+            },
+            "record_ratio": {
+              "denominator": 69,
+              "numerator": 83
+            },
+            "required_minimum_records_if_largest_count_unchanged": 67,
+            "word_ratio": {
+              "denominator": 2511,
+              "numerator": 2656
+            }
+          },
+          "missing_qualified_cells": [],
+          "qualified": false
+        },
+        {
+          "account_roles": [
+            "account-01",
+            "account-03"
+          ],
+          "failing_gates": [
+            "early_median_span_exceeds_30_days",
+            "late_median_span_exceeds_30_days"
+          ],
+          "gate_measurements": {
+            "maximum_cell_records": 76,
+            "maximum_cell_words": 5172,
+            "maximum_records_allowed_if_smallest_count_unchanged": 82,
+            "minimum_cell_records": 66,
+            "minimum_cell_words": 5007,
+            "period_median_spans": {
+              "early": {
+                "minimum_span_reduction_seconds": {
+                  "denominator": 1,
+                  "numerator": 783496
+                },
+                "passes_30_day_gate": false,
+                "span_days": {
+                  "denominator": 10800,
+                  "numerator": 421937
+                },
+                "span_seconds": {
+                  "denominator": 1,
+                  "numerator": 3375496
+                }
+              },
+              "late": {
+                "minimum_span_reduction_seconds": {
+                  "denominator": 1,
+                  "numerator": 1278025
+                },
+                "passes_30_day_gate": false,
+                "span_days": {
+                  "denominator": 3456,
+                  "numerator": 154801
+                },
+                "span_seconds": {
+                  "denominator": 1,
+                  "numerator": 3870025
+                }
+              }
+            },
+            "record_ratio": {
+              "denominator": 33,
+              "numerator": 38
+            },
+            "required_minimum_records_if_largest_count_unchanged": 61,
+            "word_ratio": {
+              "denominator": 1669,
+              "numerator": 1724
+            }
+          },
+          "missing_qualified_cells": [],
+          "qualified": false
+        },
+        {
+          "account_roles": [
+            "account-02",
+            "account-03"
+          ],
+          "failing_gates": [
+            "record_ratio_exceeds_5_over_4",
+            "early_median_span_exceeds_30_days",
+            "late_median_span_exceeds_30_days"
+          ],
+          "gate_measurements": {
+            "maximum_cell_records": 83,
+            "maximum_cell_words": 5312,
+            "maximum_records_allowed_if_smallest_count_unchanged": 82,
+            "minimum_cell_records": 66,
+            "minimum_cell_words": 5007,
+            "period_median_spans": {
+              "early": {
+                "minimum_span_reduction_seconds": {
+                  "denominator": 2,
+                  "numerator": 3844261
+                },
+                "passes_30_day_gate": false,
+                "span_days": {
+                  "denominator": 172800,
+                  "numerator": 9028261
+                },
+                "span_seconds": {
+                  "denominator": 2,
+                  "numerator": 9028261
+                }
+              },
+              "late": {
+                "minimum_span_reduction_seconds": {
+                  "denominator": 2,
+                  "numerator": 544651
+                },
+                "passes_30_day_gate": false,
+                "span_days": {
+                  "denominator": 172800,
+                  "numerator": 5728651
+                },
+                "span_seconds": {
+                  "denominator": 2,
+                  "numerator": 5728651
+                }
+              }
+            },
+            "record_ratio": {
+              "denominator": 66,
+              "numerator": 83
+            },
+            "required_minimum_records_if_largest_count_unchanged": 67,
+            "word_ratio": {
+              "denominator": 5007,
+              "numerator": 5312
+            }
+          },
+          "missing_qualified_cells": [],
+          "qualified": false
+        }
+      ],
+      "planned_block_cap": 2,
+      "qualified_cells": 12,
+      "stratum_id": "stratum-04"
+    },
+    {
+      "accounts": [
+        {
+          "account_role": "account-01",
+          "failing_gates": [
+            "one_or_more_cells_unqualified"
+          ],
+          "gate_measurements": null,
+          "missing_qualified_cells": [
+            "account-01/X/late"
+          ],
+          "qualified": false
+        },
+        {
+          "account_role": "account-02",
+          "failing_gates": [],
+          "gate_measurements": {
+            "maximum_cell_records": 52,
+            "maximum_cell_words": 5171,
+            "maximum_records_allowed_if_smallest_count_unchanged": 53,
+            "minimum_cell_records": 43,
+            "minimum_cell_words": 5044,
+            "period_median_spans": {
+              "early": {
+                "minimum_span_reduction_seconds": {
+                  "denominator": 1,
+                  "numerator": 0
+                },
+                "passes_30_day_gate": true,
+                "span_days": {
+                  "denominator": 4800,
+                  "numerator": 48473
+                },
+                "span_seconds": {
+                  "denominator": 1,
+                  "numerator": 872514
+                }
+              },
+              "late": {
+                "minimum_span_reduction_seconds": {
+                  "denominator": 1,
+                  "numerator": 0
+                },
+                "passes_30_day_gate": true,
+                "span_days": {
+                  "denominator": 9600,
+                  "numerator": 126923
+                },
+                "span_seconds": {
+                  "denominator": 1,
+                  "numerator": 1142307
+                }
+              }
+            },
+            "record_ratio": {
+              "denominator": 43,
+              "numerator": 52
+            },
+            "required_minimum_records_if_largest_count_unchanged": 42,
+            "word_ratio": {
+              "denominator": 5044,
+              "numerator": 5171
+            }
+          },
+          "missing_qualified_cells": [],
+          "qualified": true
+        }
+      ],
+      "communities": [
+        "programming",
+        "learnprogramming"
+      ],
+      "compatible_pairs": 0,
+      "cut": "2012-03-01T00:00:00Z",
+      "internally_qualified_accounts": 1,
+      "pairs": [
+        {
+          "account_roles": [
+            "account-01",
+            "account-02"
+          ],
+          "failing_gates": [
+            "one_or_more_cells_unqualified"
+          ],
+          "gate_measurements": null,
+          "missing_qualified_cells": [
+            "account-01/X/late"
+          ],
+          "qualified": false
+        }
+      ],
+      "planned_block_cap": 2,
+      "qualified_cells": 7,
+      "stratum_id": "stratum-05"
+    }
+  ],
+  "style_scores_computed": 0,
+  "surviving_records": 2252,
+  "wall_seconds": 0.22119748400291428
+}

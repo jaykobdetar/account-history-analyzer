@@ -1,0 +1,29 @@
+{
+  "argv": [
+    ".venv/bin/python",
+    "-m",
+    "unittest",
+    "discover",
+    "-s",
+    "studies/pilot4_chronological_controls/tests",
+    "-p",
+    "test_diagnose_post_audit_cells.py"
+  ],
+  "cwd": "<WORKSPACE>",
+  "started_utc": "2026-09-15T02:31:01.017412+00:00",
+  "finished_utc": "2026-09-15T02:31:01.060893+00:00",
+  "exit_code": 0,
+  "wall_seconds": 0.04347860399866477,
+  "child_peak_rss_mib": 20.02734375,
+  "runner_sha256": "4d94adb7a06ec38cc6f5b4fe55f801e87bbdcff712139146d53f55a2928eb2a4",
+  "outputs": {
+    "stdout.log": {
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    "stderr.log": {
+      "bytes": 105,
+      "sha256": "83166b089fbcb82fac63f22522fa6ae99bb5e46368cd35d756277fd463dd6346"
+    }
+  }
+}

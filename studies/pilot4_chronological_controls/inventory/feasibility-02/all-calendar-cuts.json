@@ -1,0 +1,3840 @@
+[
+  {
+    "accounts_passing_internal_gates": 0,
+    "accounts_with_four_volume_cells": 0,
+    "communities": [
+      "linux",
+      "linuxquestions"
+    ],
+    "compatible_edges": 0,
+    "cut": "2010-01-01T00:00:00Z",
+    "intended_block_deficit": 2,
+    "matching_dp_states": 0,
+    "maximum_disjoint_blocks": 0,
+    "minimum_exact_matching_cost": {
+      "denominator": 1,
+      "numerator": 0
+    },
+    "stratum_id": "stratum-04",
+    "whole_history_necessary_accounts": 73
+  },
+  {
+    "accounts_passing_internal_gates": 0,
+    "accounts_with_four_volume_cells": 0,
+    "communities": [
+      "linux",
+      "linuxquestions"
+    ],
+    "compatible_edges": 0,
+    "cut": "2010-02-01T00:00:00Z",
+    "intended_block_deficit": 2,
+    "matching_dp_states": 0,
+    "maximum_disjoint_blocks": 0,
+    "minimum_exact_matching_cost": {
+      "denominator": 1,
+      "numerator": 0
+    },
+    "stratum_id": "stratum-04",
+    "whole_history_necessary_accounts": 73
+  },
+  {
+    "accounts_passing_internal_gates": 0,
+    "accounts_with_four_volume_cells": 0,
+    "communities": [
+      "linux",
+      "linuxquestions"
+    ],
+    "compatible_edges": 0,
+    "cut": "2010-03-01T00:00:00Z",
+    "intended_block_deficit": 2,
+    "matching_dp_states": 0,
+    "maximum_disjoint_blocks": 0,
+    "minimum_exact_matching_cost": {
+      "denominator": 1,
+      "numerator": 0
+    },
+    "stratum_id": "stratum-04",
+    "whole_history_necessary_accounts": 73
+  },
+  {
+    "accounts_passing_internal_gates": 0,
+    "accounts_with_four_volume_cells": 0,
+    "communities": [
+      "linux",
+      "linuxquestions"
+    ],
+    "compatible_edges": 0,
+    "cut": "2010-04-01T00:00:00Z",
+    "intended_block_deficit": 2,
+    "matching_dp_states": 0,
+    "maximum_disjoint_blocks": 0,
+    "minimum_exact_matching_cost": {
+      "denominator": 1,
+      "numerator": 0
+    },
+    "stratum_id": "stratum-04",
+    "whole_history_necessary_accounts": 73
+  },
+  {
+    "accounts_passing_internal_gates": 0,
+    "accounts_with_four_volume_cells": 0,
+    "communities": [
+      "linux",
+      "linuxquestions"
+    ],
+    "compatible_edges": 0,
+    "cut": "2010-05-01T00:00:00Z",
+    "intended_block_deficit": 2,
+    "matching_dp_states": 0,
+    "maximum_disjoint_blocks": 0,
+    "minimum_exact_matching_cost": {
+      "denominator": 1,
+      "numerator": 0
+    },
+    "stratum_id": "stratum-04",
+    "whole_history_necessary_accounts": 73
+  },
+  {
+    "accounts_passing_internal_gates": 0,
+    "accounts_with_four_volume_cells": 0,
+    "communities": [
+      "linux",
+      "linuxquestions"
+    ],
+    "compatible_edges": 0,
+    "cut": "2010-06-01T00:00:00Z",
+    "intended_block_deficit": 2,
+    "matching_dp_states": 0,
+    "maximum_disjoint_blocks": 0,
+    "minimum_exact_matching_cost": {
+      "denominator": 1,
+      "numerator": 0
+    },
+    "stratum_id": "stratum-04",
+    "whole_history_necessary_accounts": 73
+  },
+  {
+    "accounts_passing_internal_gates": 0,
+    "accounts_with_four_volume_cells": 0,
+    "communities": [
+      "linux",
+      "linuxquestions"
+    ],
+    "compatible_edges": 0,
+    "cut": "2010-07-01T00:00:00Z",
+    "intended_block_deficit": 2,
+    "matching_dp_states": 0,
+    "maximum_disjoint_blocks": 0,
+    "minimum_exact_matching_cost": {
+      "denominator": 1,
+      "numerator": 0
+    },
+    "stratum_id": "stratum-04",
+    "whole_history_necessary_accounts": 73
+  },
+  {
+    "accounts_passing_internal_gates": 0,
+    "accounts_with_four_volume_cells": 0,
+    "communities": [
+      "linux",
+      "linuxquestions"
+    ],
+    "compatible_edges": 0,
+    "cut": "2010-08-01T00:00:00Z",
+    "intended_block_deficit": 2,
+    "matching_dp_states": 0,
+    "maximum_disjoint_blocks": 0,
+    "minimum_exact_matching_cost": {
+      "denominator": 1,
+      "numerator": 0
+    },
+    "stratum_id": "stratum-04",
+    "whole_history_necessary_accounts": 73
+  },
+  {
+    "accounts_passing_internal_gates": 0,
+    "accounts_with_four_volume_cells": 0,
+    "communities": [
+      "linux",
+      "linuxquestions"
+    ],
+    "compatible_edges": 0,
+    "cut": "2010-09-01T00:00:00Z",
+    "intended_block_deficit": 2,
+    "matching_dp_states": 0,
+    "maximum_disjoint_blocks": 0,
+    "minimum_exact_matching_cost": {
+      "denominator": 1,
+      "numerator": 0
+    },
+    "stratum_id": "stratum-04",
+    "whole_history_necessary_accounts": 73
+  },
+  {
+    "accounts_passing_internal_gates": 0,
+    "accounts_with_four_volume_cells": 0,
+    "communities": [
+      "linux",
+      "linuxquestions"
+    ],
+    "compatible_edges": 0,
+    "cut": "2010-10-01T00:00:00Z",
+    "intended_block_deficit": 2,
+    "matching_dp_states": 0,
+    "maximum_disjoint_blocks": 0,
+    "minimum_exact_matching_cost": {
+      "denominator": 1,
+      "numerator": 0
+    },
+    "stratum_id": "stratum-04",
+    "whole_history_necessary_accounts": 73
+  },
+  {
+    "accounts_passing_internal_gates": 0,
+    "accounts_with_four_volume_cells": 0,
+    "communities": [
+      "linux",
+      "linuxquestions"
+    ],
+    "compatible_edges": 0,
+    "cut": "2010-11-01T00:00:00Z",
+    "intended_block_deficit": 2,
+    "matching_dp_states": 0,
+    "maximum_disjoint_blocks": 0,
+    "minimum_exact_matching_cost": {
+      "denominator": 1,
+      "numerator": 0
+    },
+    "stratum_id": "stratum-04",
+    "whole_history_necessary_accounts": 73
+  },
+  {
+    "accounts_passing_internal_gates": 0,
+    "accounts_with_four_volume_cells": 0,
+    "communities": [
+      "linux",
+      "linuxquestions"
+    ],
+    "compatible_edges": 0,
+    "cut": "2010-12-01T00:00:00Z",
+    "intended_block_deficit": 2,
+    "matching_dp_states": 0,
+    "maximum_disjoint_blocks": 0,
+    "minimum_exact_matching_cost": {
+      "denominator": 1,
+      "numerator": 0
+    },
+    "stratum_id": "stratum-04",
+    "whole_history_necessary_accounts": 73
+  },
+  {
+    "accounts_passing_internal_gates": 0,
+    "accounts_with_four_volume_cells": 0,
+    "communities": [
+      "linux",
+      "linuxquestions"
+    ],
+    "compatible_edges": 0,
+    "cut": "2011-01-01T00:00:00Z",
+    "intended_block_deficit": 2,
+    "matching_dp_states": 0,
+    "maximum_disjoint_blocks": 0,
+    "minimum_exact_matching_cost": {
+      "denominator": 1,
+      "numerator": 0
+    },
+    "stratum_id": "stratum-04",
+    "whole_history_necessary_accounts": 73
+  },
+  {
+    "accounts_passing_internal_gates": 0,
+    "accounts_with_four_volume_cells": 0,
+    "communities": [
+      "linux",
+      "linuxquestions"
+    ],
+    "compatible_edges": 0,
+    "cut": "2011-02-01T00:00:00Z",
+    "intended_block_deficit": 2,
+    "matching_dp_states": 0,
+    "maximum_disjoint_blocks": 0,
+    "minimum_exact_matching_cost": {
+      "denominator": 1,
+      "numerator": 0
+    },
+    "stratum_id": "stratum-04",
+    "whole_history_necessary_accounts": 73
+  },
+  {
+    "accounts_passing_internal_gates": 0,
+    "accounts_with_four_volume_cells": 0,
+    "communities": [
+      "linux",
+      "linuxquestions"
+    ],
+    "compatible_edges": 0,
+    "cut": "2011-03-01T00:00:00Z",
+    "intended_block_deficit": 2,
+    "matching_dp_states": 0,
+    "maximum_disjoint_blocks": 0,
+    "minimum_exact_matching_cost": {
+      "denominator": 1,
+      "numerator": 0
+    },
+    "stratum_id": "stratum-04",
+    "whole_history_necessary_accounts": 73
+  },
+  {
+    "accounts_passing_internal_gates": 0,
+    "accounts_with_four_volume_cells": 0,
+    "communities": [
+      "linux",
+      "linuxquestions"
+    ],
+    "compatible_edges": 0,
+    "cut": "2011-04-01T00:00:00Z",
+    "intended_block_deficit": 2,
+    "matching_dp_states": 0,
+    "maximum_disjoint_blocks": 0,
+    "minimum_exact_matching_cost": {
+      "denominator": 1,
+      "numerator": 0
+    },
+    "stratum_id": "stratum-04",
+    "whole_history_necessary_accounts": 73
+  },
+  {
+    "accounts_passing_internal_gates": 0,
+    "accounts_with_four_volume_cells": 0,
+    "communities": [
+      "linux",
+      "linuxquestions"
+    ],
+    "compatible_edges": 0,
+    "cut": "2011-05-01T00:00:00Z",
+    "intended_block_deficit": 2,
+    "matching_dp_states": 0,
+    "maximum_disjoint_blocks": 0,
+    "minimum_exact_matching_cost": {
+      "denominator": 1,
+      "numerator": 0
+    },
+    "stratum_id": "stratum-04",
+    "whole_history_necessary_accounts": 73
+  },
+  {
+    "accounts_passing_internal_gates": 0,
+    "accounts_with_four_volume_cells": 0,
+    "communities": [
+      "linux",
+      "linuxquestions"
+    ],
+    "compatible_edges": 0,
+    "cut": "2011-06-01T00:00:00Z",
+    "intended_block_deficit": 2,
+    "matching_dp_states": 0,
+    "maximum_disjoint_blocks": 0,
+    "minimum_exact_matching_cost": {
+      "denominator": 1,
+      "numerator": 0
+    },
+    "stratum_id": "stratum-04",
+    "whole_history_necessary_accounts": 73
+  },
+  {
+    "accounts_passing_internal_gates": 0,
+    "accounts_with_four_volume_cells": 0,
+    "communities": [
+      "linux",
+      "linuxquestions"
+    ],
+    "compatible_edges": 0,
+    "cut": "2011-07-01T00:00:00Z",
+    "intended_block_deficit": 2,
+    "matching_dp_states": 0,
+    "maximum_disjoint_blocks": 0,
+    "minimum_exact_matching_cost": {
+      "denominator": 1,
+      "numerator": 0
+    },
+    "stratum_id": "stratum-04",
+    "whole_history_necessary_accounts": 73
+  },
+  {
+    "accounts_passing_internal_gates": 0,
+    "accounts_with_four_volume_cells": 0,
+    "communities": [
+      "linux",
+      "linuxquestions"
+    ],
+    "compatible_edges": 0,
+    "cut": "2011-08-01T00:00:00Z",
+    "intended_block_deficit": 2,
+    "matching_dp_states": 0,
+    "maximum_disjoint_blocks": 0,
+    "minimum_exact_matching_cost": {
+      "denominator": 1,
+      "numerator": 0
+    },
+    "stratum_id": "stratum-04",
+    "whole_history_necessary_accounts": 73
+  },
+  {
+    "accounts_passing_internal_gates": 0,
+    "accounts_with_four_volume_cells": 0,
+    "communities": [
+      "linux",
+      "linuxquestions"
+    ],
+    "compatible_edges": 0,
+    "cut": "2011-09-01T00:00:00Z",
+    "intended_block_deficit": 2,
+    "matching_dp_states": 0,
+    "maximum_disjoint_blocks": 0,
+    "minimum_exact_matching_cost": {
+      "denominator": 1,
+      "numerator": 0
+    },
+    "stratum_id": "stratum-04",
+    "whole_history_necessary_accounts": 73
+  },
+  {
+    "accounts_passing_internal_gates": 0,
+    "accounts_with_four_volume_cells": 0,
+    "communities": [
+      "linux",
+      "linuxquestions"
+    ],
+    "compatible_edges": 0,
+    "cut": "2011-10-01T00:00:00Z",
+    "intended_block_deficit": 2,
+    "matching_dp_states": 0,
+    "maximum_disjoint_blocks": 0,
+    "minimum_exact_matching_cost": {
+      "denominator": 1,
+      "numerator": 0
+    },
+    "stratum_id": "stratum-04",
+    "whole_history_necessary_accounts": 73
+  },
+  {
+    "accounts_passing_internal_gates": 0,
+    "accounts_with_four_volume_cells": 0,
+    "communities": [
+      "linux",
+      "linuxquestions"
+    ],
+    "compatible_edges": 0,
+    "cut": "2011-11-01T00:00:00Z",
+    "intended_block_deficit": 2,
+    "matching_dp_states": 0,
+    "maximum_disjoint_blocks": 0,
+    "minimum_exact_matching_cost": {
+      "denominator": 1,
+      "numerator": 0
+    },
+    "stratum_id": "stratum-04",
+    "whole_history_necessary_accounts": 73
+  },
+  {
+    "accounts_passing_internal_gates": 0,
+    "accounts_with_four_volume_cells": 0,
+    "communities": [
+      "linux",
+      "linuxquestions"
+    ],
+    "compatible_edges": 0,
+    "cut": "2011-12-01T00:00:00Z",
+    "intended_block_deficit": 2,
+    "matching_dp_states": 0,
+    "maximum_disjoint_blocks": 0,
+    "minimum_exact_matching_cost": {
+      "denominator": 1,
+      "numerator": 0
+    },
+    "stratum_id": "stratum-04",
+    "whole_history_necessary_accounts": 73
+  },
+  {
+    "accounts_passing_internal_gates": 0,
+    "accounts_with_four_volume_cells": 0,
+    "communities": [
+      "linux",
+      "linuxquestions"
+    ],
+    "compatible_edges": 0,
+    "cut": "2012-01-01T00:00:00Z",
+    "intended_block_deficit": 2,
+    "matching_dp_states": 0,
+    "maximum_disjoint_blocks": 0,
+    "minimum_exact_matching_cost": {
+      "denominator": 1,
+      "numerator": 0
+    },
+    "stratum_id": "stratum-04",
+    "whole_history_necessary_accounts": 73
+  },
+  {
+    "accounts_passing_internal_gates": 0,
+    "accounts_with_four_volume_cells": 0,
+    "communities": [
+      "linux",
+      "linuxquestions"
+    ],
+    "compatible_edges": 0,
+    "cut": "2012-02-01T00:00:00Z",
+    "intended_block_deficit": 2,
+    "matching_dp_states": 0,
+    "maximum_disjoint_blocks": 0,
+    "minimum_exact_matching_cost": {
+      "denominator": 1,
+      "numerator": 0
+    },
+    "stratum_id": "stratum-04",
+    "whole_history_necessary_accounts": 73
+  },
+  {
+    "accounts_passing_internal_gates": 0,
+    "accounts_with_four_volume_cells": 0,
+    "communities": [
+      "linux",
+      "linuxquestions"
+    ],
+    "compatible_edges": 0,
+    "cut": "2012-03-01T00:00:00Z",
+    "intended_block_deficit": 2,
+    "matching_dp_states": 0,
+    "maximum_disjoint_blocks": 0,
+    "minimum_exact_matching_cost": {
+      "denominator": 1,
+      "numerator": 0
+    },
+    "stratum_id": "stratum-04",
+    "whole_history_necessary_accounts": 73
+  },
+  {
+    "accounts_passing_internal_gates": 0,
+    "accounts_with_four_volume_cells": 0,
+    "communities": [
+      "linux",
+      "linuxquestions"
+    ],
+    "compatible_edges": 0,
+    "cut": "2012-04-01T00:00:00Z",
+    "intended_block_deficit": 2,
+    "matching_dp_states": 0,
+    "maximum_disjoint_blocks": 0,
+    "minimum_exact_matching_cost": {
+      "denominator": 1,
+      "numerator": 0
+    },
+    "stratum_id": "stratum-04",
+    "whole_history_necessary_accounts": 73
+  },
+  {
+    "accounts_passing_internal_gates": 0,
+    "accounts_with_four_volume_cells": 0,
+    "communities": [
+      "linux",
+      "linuxquestions"
+    ],
+    "compatible_edges": 0,
+    "cut": "2012-05-01T00:00:00Z",
+    "intended_block_deficit": 2,
+    "matching_dp_states": 0,
+    "maximum_disjoint_blocks": 0,
+    "minimum_exact_matching_cost": {
+      "denominator": 1,
+      "numerator": 0
+    },
+    "stratum_id": "stratum-04",
+    "whole_history_necessary_accounts": 73
+  },
+  {
+    "accounts_passing_internal_gates": 0,
+    "accounts_with_four_volume_cells": 0,
+    "communities": [
+      "linux",
+      "linuxquestions"
+    ],
+    "compatible_edges": 0,
+    "cut": "2012-06-01T00:00:00Z",
+    "intended_block_deficit": 2,
+    "matching_dp_states": 0,
+    "maximum_disjoint_blocks": 0,
+    "minimum_exact_matching_cost": {
+      "denominator": 1,
+      "numerator": 0
+    },
+    "stratum_id": "stratum-04",
+    "whole_history_necessary_accounts": 73
+  },
+  {
+    "accounts_passing_internal_gates": 0,
+    "accounts_with_four_volume_cells": 0,
+    "communities": [
+      "linux",
+      "linuxquestions"
+    ],
+    "compatible_edges": 0,
+    "cut": "2012-07-01T00:00:00Z",
+    "intended_block_deficit": 2,
+    "matching_dp_states": 0,
+    "maximum_disjoint_blocks": 0,
+    "minimum_exact_matching_cost": {
+      "denominator": 1,
+      "numerator": 0
+    },
+    "stratum_id": "stratum-04",
+    "whole_history_necessary_accounts": 73
+  },
+  {
+    "accounts_passing_internal_gates": 0,
+    "accounts_with_four_volume_cells": 0,
+    "communities": [
+      "linux",
+      "linuxquestions"
+    ],
+    "compatible_edges": 0,
+    "cut": "2012-08-01T00:00:00Z",
+    "intended_block_deficit": 2,
+    "matching_dp_states": 0,
+    "maximum_disjoint_blocks": 0,
+    "minimum_exact_matching_cost": {
+      "denominator": 1,
+      "numerator": 0
+    },
+    "stratum_id": "stratum-04",
+    "whole_history_necessary_accounts": 73
+  },
+  {
+    "accounts_passing_internal_gates": 0,
+    "accounts_with_four_volume_cells": 0,
+    "communities": [
+      "linux",
+      "linuxquestions"
+    ],
+    "compatible_edges": 0,
+    "cut": "2012-09-01T00:00:00Z",
+    "intended_block_deficit": 2,
+    "matching_dp_states": 0,
+    "maximum_disjoint_blocks": 0,
+    "minimum_exact_matching_cost": {
+      "denominator": 1,
+      "numerator": 0
+    },
+    "stratum_id": "stratum-04",
+    "whole_history_necessary_accounts": 73
+  },
+  {
+    "accounts_passing_internal_gates": 0,
+    "accounts_with_four_volume_cells": 0,
+    "communities": [
+      "linux",
+      "linuxquestions"
+    ],
+    "compatible_edges": 0,
+    "cut": "2012-10-01T00:00:00Z",
+    "intended_block_deficit": 2,
+    "matching_dp_states": 0,
+    "maximum_disjoint_blocks": 0,
+    "minimum_exact_matching_cost": {
+      "denominator": 1,
+      "numerator": 0
+    },
+    "stratum_id": "stratum-04",
+    "whole_history_necessary_accounts": 73
+  },
+  {
+    "accounts_passing_internal_gates": 0,
+    "accounts_with_four_volume_cells": 0,
+    "communities": [
+      "linux",
+      "linuxquestions"
+    ],
+    "compatible_edges": 0,
+    "cut": "2012-11-01T00:00:00Z",
+    "intended_block_deficit": 2,
+    "matching_dp_states": 0,
+    "maximum_disjoint_blocks": 0,
+    "minimum_exact_matching_cost": {
+      "denominator": 1,
+      "numerator": 0
+    },
+    "stratum_id": "stratum-04",
+    "whole_history_necessary_accounts": 73
+  },
+  {
+    "accounts_passing_internal_gates": 0,
+    "accounts_with_four_volume_cells": 0,
+    "communities": [
+      "linux",
+      "linuxquestions"
+    ],
+    "compatible_edges": 0,
+    "cut": "2012-12-01T00:00:00Z",
+    "intended_block_deficit": 2,
+    "matching_dp_states": 0,
+    "maximum_disjoint_blocks": 0,
+    "minimum_exact_matching_cost": {
+      "denominator": 1,
+      "numerator": 0
+    },
+    "stratum_id": "stratum-04",
+    "whole_history_necessary_accounts": 73
+  },
+  {
+    "accounts_passing_internal_gates": 0,
+    "accounts_with_four_volume_cells": 0,
+    "communities": [
+      "linux",
+      "linuxquestions"
+    ],
+    "compatible_edges": 0,
+    "cut": "2013-01-01T00:00:00Z",
+    "intended_block_deficit": 2,
+    "matching_dp_states": 0,
+    "maximum_disjoint_blocks": 0,
+    "minimum_exact_matching_cost": {
+      "denominator": 1,
+      "numerator": 0
+    },
+    "stratum_id": "stratum-04",
+    "whole_history_necessary_accounts": 73
+  },
+  {
+    "accounts_passing_internal_gates": 0,
+    "accounts_with_four_volume_cells": 0,
+    "communities": [
+      "linux",
+      "linuxquestions"
+    ],
+    "compatible_edges": 0,
+    "cut": "2013-02-01T00:00:00Z",
+    "intended_block_deficit": 2,
+    "matching_dp_states": 0,
+    "maximum_disjoint_blocks": 0,
+    "minimum_exact_matching_cost": {
+      "denominator": 1,
+      "numerator": 0
+    },
+    "stratum_id": "stratum-04",
+    "whole_history_necessary_accounts": 73
+  },
+  {
+    "accounts_passing_internal_gates": 0,
+    "accounts_with_four_volume_cells": 0,
+    "communities": [
+      "linux",
+      "linuxquestions"
+    ],
+    "compatible_edges": 0,
+    "cut": "2013-03-01T00:00:00Z",
+    "intended_block_deficit": 2,
+    "matching_dp_states": 0,
+    "maximum_disjoint_blocks": 0,
+    "minimum_exact_matching_cost": {
+      "denominator": 1,
+      "numerator": 0
+    },
+    "stratum_id": "stratum-04",
+    "whole_history_necessary_accounts": 73
+  },
+  {
+    "accounts_passing_internal_gates": 0,
+    "accounts_with_four_volume_cells": 1,
+    "communities": [
+      "linux",
+      "linuxquestions"
+    ],
+    "compatible_edges": 0,
+    "cut": "2013-04-01T00:00:00Z",
+    "intended_block_deficit": 2,
+    "matching_dp_states": 0,
+    "maximum_disjoint_blocks": 0,
+    "minimum_exact_matching_cost": {
+      "denominator": 1,
+      "numerator": 0
+    },
+    "stratum_id": "stratum-04",
+    "whole_history_necessary_accounts": 73
+  },
+  {
+    "accounts_passing_internal_gates": 0,
+    "accounts_with_four_volume_cells": 1,
+    "communities": [
+      "linux",
+      "linuxquestions"
+    ],
+    "compatible_edges": 0,
+    "cut": "2013-05-01T00:00:00Z",
+    "intended_block_deficit": 2,
+    "matching_dp_states": 0,
+    "maximum_disjoint_blocks": 0,
+    "minimum_exact_matching_cost": {
+      "denominator": 1,
+      "numerator": 0
+    },
+    "stratum_id": "stratum-04",
+    "whole_history_necessary_accounts": 73
+  },
+  {
+    "accounts_passing_internal_gates": 1,
+    "accounts_with_four_volume_cells": 1,
+    "communities": [
+      "linux",
+      "linuxquestions"
+    ],
+    "compatible_edges": 0,
+    "cut": "2013-06-01T00:00:00Z",
+    "intended_block_deficit": 2,
+    "matching_dp_states": 0,
+    "maximum_disjoint_blocks": 0,
+    "minimum_exact_matching_cost": {
+      "denominator": 1,
+      "numerator": 0
+    },
+    "stratum_id": "stratum-04",
+    "whole_history_necessary_accounts": 73
+  },
+  {
+    "accounts_passing_internal_gates": 0,
+    "accounts_with_four_volume_cells": 1,
+    "communities": [
+      "linux",
+      "linuxquestions"
+    ],
+    "compatible_edges": 0,
+    "cut": "2013-07-01T00:00:00Z",
+    "intended_block_deficit": 2,
+    "matching_dp_states": 0,
+    "maximum_disjoint_blocks": 0,
+    "minimum_exact_matching_cost": {
+      "denominator": 1,
+      "numerator": 0
+    },
+    "stratum_id": "stratum-04",
+    "whole_history_necessary_accounts": 73
+  },
+  {
+    "accounts_passing_internal_gates": 0,
+    "accounts_with_four_volume_cells": 1,
+    "communities": [
+      "linux",
+      "linuxquestions"
+    ],
+    "compatible_edges": 0,
+    "cut": "2013-08-01T00:00:00Z",
+    "intended_block_deficit": 2,
+    "matching_dp_states": 0,
+    "maximum_disjoint_blocks": 0,
+    "minimum_exact_matching_cost": {
+      "denominator": 1,
+      "numerator": 0
+    },
+    "stratum_id": "stratum-04",
+    "whole_history_necessary_accounts": 73
+  },
+  {
+    "accounts_passing_internal_gates": 0,
+    "accounts_with_four_volume_cells": 0,
+    "communities": [
+      "linux",
+      "linuxquestions"
+    ],
+    "compatible_edges": 0,
+    "cut": "2013-09-01T00:00:00Z",
+    "intended_block_deficit": 2,
+    "matching_dp_states": 0,
+    "maximum_disjoint_blocks": 0,
+    "minimum_exact_matching_cost": {
+      "denominator": 1,
+      "numerator": 0
+    },
+    "stratum_id": "stratum-04",
+    "whole_history_necessary_accounts": 73
+  },
+  {
+    "accounts_passing_internal_gates": 1,
+    "accounts_with_four_volume_cells": 1,
+    "communities": [
+      "linux",
+      "linuxquestions"
+    ],
+    "compatible_edges": 0,
+    "cut": "2013-10-01T00:00:00Z",
+    "intended_block_deficit": 2,
+    "matching_dp_states": 0,
+    "maximum_disjoint_blocks": 0,
+    "minimum_exact_matching_cost": {
+      "denominator": 1,
+      "numerator": 0
+    },
+    "stratum_id": "stratum-04",
+    "whole_history_necessary_accounts": 73
+  },
+  {
+    "accounts_passing_internal_gates": 1,
+    "accounts_with_four_volume_cells": 1,
+    "communities": [
+      "linux",
+      "linuxquestions"
+    ],
+    "compatible_edges": 0,
+    "cut": "2013-11-01T00:00:00Z",
+    "intended_block_deficit": 2,
+    "matching_dp_states": 0,
+    "maximum_disjoint_blocks": 0,
+    "minimum_exact_matching_cost": {
+      "denominator": 1,
+      "numerator": 0
+    },
+    "stratum_id": "stratum-04",
+    "whole_history_necessary_accounts": 73
+  },
+  {
+    "accounts_passing_internal_gates": 1,
+    "accounts_with_four_volume_cells": 1,
+    "communities": [
+      "linux",
+      "linuxquestions"
+    ],
+    "compatible_edges": 0,
+    "cut": "2013-12-01T00:00:00Z",
+    "intended_block_deficit": 2,
+    "matching_dp_states": 0,
+    "maximum_disjoint_blocks": 0,
+    "minimum_exact_matching_cost": {
+      "denominator": 1,
+      "numerator": 0
+    },
+    "stratum_id": "stratum-04",
+    "whole_history_necessary_accounts": 73
+  },
+  {
+    "accounts_passing_internal_gates": 1,
+    "accounts_with_four_volume_cells": 1,
+    "communities": [
+      "linux",
+      "linuxquestions"
+    ],
+    "compatible_edges": 0,
+    "cut": "2014-01-01T00:00:00Z",
+    "intended_block_deficit": 2,
+    "matching_dp_states": 0,
+    "maximum_disjoint_blocks": 0,
+    "minimum_exact_matching_cost": {
+      "denominator": 1,
+      "numerator": 0
+    },
+    "stratum_id": "stratum-04",
+    "whole_history_necessary_accounts": 73
+  },
+  {
+    "accounts_passing_internal_gates": 1,
+    "accounts_with_four_volume_cells": 1,
+    "communities": [
+      "linux",
+      "linuxquestions"
+    ],
+    "compatible_edges": 0,
+    "cut": "2014-02-01T00:00:00Z",
+    "intended_block_deficit": 2,
+    "matching_dp_states": 0,
+    "maximum_disjoint_blocks": 0,
+    "minimum_exact_matching_cost": {
+      "denominator": 1,
+      "numerator": 0
+    },
+    "stratum_id": "stratum-04",
+    "whole_history_necessary_accounts": 73
+  },
+  {
+    "accounts_passing_internal_gates": 0,
+    "accounts_with_four_volume_cells": 1,
+    "communities": [
+      "linux",
+      "linuxquestions"
+    ],
+    "compatible_edges": 0,
+    "cut": "2014-03-01T00:00:00Z",
+    "intended_block_deficit": 2,
+    "matching_dp_states": 0,
+    "maximum_disjoint_blocks": 0,
+    "minimum_exact_matching_cost": {
+      "denominator": 1,
+      "numerator": 0
+    },
+    "stratum_id": "stratum-04",
+    "whole_history_necessary_accounts": 73
+  },
+  {
+    "accounts_passing_internal_gates": 1,
+    "accounts_with_four_volume_cells": 1,
+    "communities": [
+      "linux",
+      "linuxquestions"
+    ],
+    "compatible_edges": 0,
+    "cut": "2014-04-01T00:00:00Z",
+    "intended_block_deficit": 2,
+    "matching_dp_states": 0,
+    "maximum_disjoint_blocks": 0,
+    "minimum_exact_matching_cost": {
+      "denominator": 1,
+      "numerator": 0
+    },
+    "stratum_id": "stratum-04",
+    "whole_history_necessary_accounts": 73
+  },
+  {
+    "accounts_passing_internal_gates": 0,
+    "accounts_with_four_volume_cells": 1,
+    "communities": [
+      "linux",
+      "linuxquestions"
+    ],
+    "compatible_edges": 0,
+    "cut": "2014-05-01T00:00:00Z",
+    "intended_block_deficit": 2,
+    "matching_dp_states": 0,
+    "maximum_disjoint_blocks": 0,
+    "minimum_exact_matching_cost": {
+      "denominator": 1,
+      "numerator": 0
+    },
+    "stratum_id": "stratum-04",
+    "whole_history_necessary_accounts": 73
+  },
+  {
+    "accounts_passing_internal_gates": 0,
+    "accounts_with_four_volume_cells": 1,
+    "communities": [
+      "linux",
+      "linuxquestions"
+    ],
+    "compatible_edges": 0,
+    "cut": "2014-06-01T00:00:00Z",
+    "intended_block_deficit": 2,
+    "matching_dp_states": 0,
+    "maximum_disjoint_blocks": 0,
+    "minimum_exact_matching_cost": {
+      "denominator": 1,
+      "numerator": 0
+    },
+    "stratum_id": "stratum-04",
+    "whole_history_necessary_accounts": 73
+  },
+  {
+    "accounts_passing_internal_gates": 1,
+    "accounts_with_four_volume_cells": 1,
+    "communities": [
+      "linux",
+      "linuxquestions"
+    ],
+    "compatible_edges": 0,
+    "cut": "2014-07-01T00:00:00Z",
+    "intended_block_deficit": 2,
+    "matching_dp_states": 0,
+    "maximum_disjoint_blocks": 0,
+    "minimum_exact_matching_cost": {
+      "denominator": 1,
+      "numerator": 0
+    },
+    "stratum_id": "stratum-04",
+    "whole_history_necessary_accounts": 73
+  },
+  {
+    "accounts_passing_internal_gates": 1,
+    "accounts_with_four_volume_cells": 1,
+    "communities": [
+      "linux",
+      "linuxquestions"
+    ],
+    "compatible_edges": 0,
+    "cut": "2014-08-01T00:00:00Z",
+    "intended_block_deficit": 2,
+    "matching_dp_states": 0,
+    "maximum_disjoint_blocks": 0,
+    "minimum_exact_matching_cost": {
+      "denominator": 1,
+      "numerator": 0
+    },
+    "stratum_id": "stratum-04",
+    "whole_history_necessary_accounts": 73
+  },
+  {
+    "accounts_passing_internal_gates": 0,
+    "accounts_with_four_volume_cells": 1,
+    "communities": [
+      "linux",
+      "linuxquestions"
+    ],
+    "compatible_edges": 0,
+    "cut": "2014-09-01T00:00:00Z",
+    "intended_block_deficit": 2,
+    "matching_dp_states": 0,
+    "maximum_disjoint_blocks": 0,
+    "minimum_exact_matching_cost": {
+      "denominator": 1,
+      "numerator": 0
+    },
+    "stratum_id": "stratum-04",
+    "whole_history_necessary_accounts": 73
+  },
+  {
+    "accounts_passing_internal_gates": 1,
+    "accounts_with_four_volume_cells": 1,
+    "communities": [
+      "linux",
+      "linuxquestions"
+    ],
+    "compatible_edges": 0,
+    "cut": "2014-10-01T00:00:00Z",
+    "intended_block_deficit": 2,
+    "matching_dp_states": 0,
+    "maximum_disjoint_blocks": 0,
+    "minimum_exact_matching_cost": {
+      "denominator": 1,
+      "numerator": 0
+    },
+    "stratum_id": "stratum-04",
+    "whole_history_necessary_accounts": 73
+  },
+  {
+    "accounts_passing_internal_gates": 1,
+    "accounts_with_four_volume_cells": 2,
+    "communities": [
+      "linux",
+      "linuxquestions"
+    ],
+    "compatible_edges": 0,
+    "cut": "2014-11-01T00:00:00Z",
+    "intended_block_deficit": 2,
+    "matching_dp_states": 0,
+    "maximum_disjoint_blocks": 0,
+    "minimum_exact_matching_cost": {
+      "denominator": 1,
+      "numerator": 0
+    },
+    "stratum_id": "stratum-04",
+    "whole_history_necessary_accounts": 73
+  },
+  {
+    "accounts_passing_internal_gates": 0,
+    "accounts_with_four_volume_cells": 2,
+    "communities": [
+      "linux",
+      "linuxquestions"
+    ],
+    "compatible_edges": 0,
+    "cut": "2014-12-01T00:00:00Z",
+    "intended_block_deficit": 2,
+    "matching_dp_states": 0,
+    "maximum_disjoint_blocks": 0,
+    "minimum_exact_matching_cost": {
+      "denominator": 1,
+      "numerator": 0
+    },
+    "stratum_id": "stratum-04",
+    "whole_history_necessary_accounts": 73
+  },
+  {
+    "accounts_passing_internal_gates": 1,
+    "accounts_with_four_volume_cells": 2,
+    "communities": [
+      "linux",
+      "linuxquestions"
+    ],
+    "compatible_edges": 0,
+    "cut": "2015-01-01T00:00:00Z",
+    "intended_block_deficit": 2,
+    "matching_dp_states": 0,
+    "maximum_disjoint_blocks": 0,
+    "minimum_exact_matching_cost": {
+      "denominator": 1,
+      "numerator": 0
+    },
+    "stratum_id": "stratum-04",
+    "whole_history_necessary_accounts": 73
+  },
+  {
+    "accounts_passing_internal_gates": 1,
+    "accounts_with_four_volume_cells": 2,
+    "communities": [
+      "linux",
+      "linuxquestions"
+    ],
+    "compatible_edges": 0,
+    "cut": "2015-02-01T00:00:00Z",
+    "intended_block_deficit": 2,
+    "matching_dp_states": 0,
+    "maximum_disjoint_blocks": 0,
+    "minimum_exact_matching_cost": {
+      "denominator": 1,
+      "numerator": 0
+    },
+    "stratum_id": "stratum-04",
+    "whole_history_necessary_accounts": 73
+  },
+  {
+    "accounts_passing_internal_gates": 4,
+    "accounts_with_four_volume_cells": 5,
+    "communities": [
+      "linux",
+      "linuxquestions"
+    ],
+    "compatible_edges": 2,
+    "cut": "2015-03-01T00:00:00Z",
+    "intended_block_deficit": 1,
+    "matching_dp_states": 0,
+    "maximum_disjoint_blocks": 1,
+    "minimum_exact_matching_cost": {
+      "denominator": 12960000,
+      "numerator": 8350201
+    },
+    "stratum_id": "stratum-04",
+    "whole_history_necessary_accounts": 73
+  },
+  {
+    "accounts_passing_internal_gates": 0,
+    "accounts_with_four_volume_cells": 4,
+    "communities": [
+      "linux",
+      "linuxquestions"
+    ],
+    "compatible_edges": 0,
+    "cut": "2015-04-01T00:00:00Z",
+    "intended_block_deficit": 2,
+    "matching_dp_states": 0,
+    "maximum_disjoint_blocks": 0,
+    "minimum_exact_matching_cost": {
+      "denominator": 1,
+      "numerator": 0
+    },
+    "stratum_id": "stratum-04",
+    "whole_history_necessary_accounts": 73
+  },
+  {
+    "accounts_passing_internal_gates": 0,
+    "accounts_with_four_volume_cells": 2,
+    "communities": [
+      "linux",
+      "linuxquestions"
+    ],
+    "compatible_edges": 0,
+    "cut": "2015-05-01T00:00:00Z",
+    "intended_block_deficit": 2,
+    "matching_dp_states": 0,
+    "maximum_disjoint_blocks": 0,
+    "minimum_exact_matching_cost": {
+      "denominator": 1,
+      "numerator": 0
+    },
+    "stratum_id": "stratum-04",
+    "whole_history_necessary_accounts": 73
+  },
+  {
+    "accounts_passing_internal_gates": 0,
+    "accounts_with_four_volume_cells": 3,
+    "communities": [
+      "linux",
+      "linuxquestions"
+    ],
+    "compatible_edges": 0,
+    "cut": "2015-06-01T00:00:00Z",
+    "intended_block_deficit": 2,
+    "matching_dp_states": 0,
+    "maximum_disjoint_blocks": 0,
+    "minimum_exact_matching_cost": {
+      "denominator": 1,
+      "numerator": 0
+    },
+    "stratum_id": "stratum-04",
+    "whole_history_necessary_accounts": 73
+  },
+  {
+    "accounts_passing_internal_gates": 0,
+    "accounts_with_four_volume_cells": 4,
+    "communities": [
+      "linux",
+      "linuxquestions"
+    ],
+    "compatible_edges": 0,
+    "cut": "2015-07-01T00:00:00Z",
+    "intended_block_deficit": 2,
+    "matching_dp_states": 0,
+    "maximum_disjoint_blocks": 0,
+    "minimum_exact_matching_cost": {
+      "denominator": 1,
+      "numerator": 0
+    },
+    "stratum_id": "stratum-04",
+    "whole_history_necessary_accounts": 73
+  },
+  {
+    "accounts_passing_internal_gates": 0,
+    "accounts_with_four_volume_cells": 4,
+    "communities": [
+      "linux",
+      "linuxquestions"
+    ],
+    "compatible_edges": 0,
+    "cut": "2015-08-01T00:00:00Z",
+    "intended_block_deficit": 2,
+    "matching_dp_states": 0,
+    "maximum_disjoint_blocks": 0,
+    "minimum_exact_matching_cost": {
+      "denominator": 1,
+      "numerator": 0
+    },
+    "stratum_id": "stratum-04",
+    "whole_history_necessary_accounts": 73
+  },
+  {
+    "accounts_passing_internal_gates": 0,
+    "accounts_with_four_volume_cells": 2,
+    "communities": [
+      "linux",
+      "linuxquestions"
+    ],
+    "compatible_edges": 0,
+    "cut": "2015-09-01T00:00:00Z",
+    "intended_block_deficit": 2,
+    "matching_dp_states": 0,
+    "maximum_disjoint_blocks": 0,
+    "minimum_exact_matching_cost": {
+      "denominator": 1,
+      "numerator": 0
+    },
+    "stratum_id": "stratum-04",
+    "whole_history_necessary_accounts": 73
+  },
+  {
+    "accounts_passing_internal_gates": 1,
+    "accounts_with_four_volume_cells": 3,
+    "communities": [
+      "linux",
+      "linuxquestions"
+    ],
+    "compatible_edges": 0,
+    "cut": "2015-10-01T00:00:00Z",
+    "intended_block_deficit": 2,
+    "matching_dp_states": 0,
+    "maximum_disjoint_blocks": 0,
+    "minimum_exact_matching_cost": {
+      "denominator": 1,
+      "numerator": 0
+    },
+    "stratum_id": "stratum-04",
+    "whole_history_necessary_accounts": 73
+  },
+  {
+    "accounts_passing_internal_gates": 3,
+    "accounts_with_four_volume_cells": 4,
+    "communities": [
+      "linux",
+      "linuxquestions"
+    ],
+    "compatible_edges": 0,
+    "cut": "2015-11-01T00:00:00Z",
+    "intended_block_deficit": 2,
+    "matching_dp_states": 0,
+    "maximum_disjoint_blocks": 0,
+    "minimum_exact_matching_cost": {
+      "denominator": 1,
+      "numerator": 0
+    },
+    "stratum_id": "stratum-04",
+    "whole_history_necessary_accounts": 73
+  },
+  {
+    "accounts_passing_internal_gates": 0,
+    "accounts_with_four_volume_cells": 2,
+    "communities": [
+      "linux",
+      "linuxquestions"
+    ],
+    "compatible_edges": 0,
+    "cut": "2015-12-01T00:00:00Z",
+    "intended_block_deficit": 2,
+    "matching_dp_states": 0,
+    "maximum_disjoint_blocks": 0,
+    "minimum_exact_matching_cost": {
+      "denominator": 1,
+      "numerator": 0
+    },
+    "stratum_id": "stratum-04",
+    "whole_history_necessary_accounts": 73
+  },
+  {
+    "accounts_passing_internal_gates": 0,
+    "accounts_with_four_volume_cells": 4,
+    "communities": [
+      "linux",
+      "linuxquestions"
+    ],
+    "compatible_edges": 0,
+    "cut": "2016-01-01T00:00:00Z",
+    "intended_block_deficit": 2,
+    "matching_dp_states": 0,
+    "maximum_disjoint_blocks": 0,
+    "minimum_exact_matching_cost": {
+      "denominator": 1,
+      "numerator": 0
+    },
+    "stratum_id": "stratum-04",
+    "whole_history_necessary_accounts": 73
+  },
+  {
+    "accounts_passing_internal_gates": 0,
+    "accounts_with_four_volume_cells": 4,
+    "communities": [
+      "linux",
+      "linuxquestions"
+    ],
+    "compatible_edges": 0,
+    "cut": "2016-02-01T00:00:00Z",
+    "intended_block_deficit": 2,
+    "matching_dp_states": 0,
+    "maximum_disjoint_blocks": 0,
+    "minimum_exact_matching_cost": {
+      "denominator": 1,
+      "numerator": 0
+    },
+    "stratum_id": "stratum-04",
+    "whole_history_necessary_accounts": 73
+  },
+  {
+    "accounts_passing_internal_gates": 1,
+    "accounts_with_four_volume_cells": 4,
+    "communities": [
+      "linux",
+      "linuxquestions"
+    ],
+    "compatible_edges": 0,
+    "cut": "2016-03-01T00:00:00Z",
+    "intended_block_deficit": 2,
+    "matching_dp_states": 0,
+    "maximum_disjoint_blocks": 0,
+    "minimum_exact_matching_cost": {
+      "denominator": 1,
+      "numerator": 0
+    },
+    "stratum_id": "stratum-04",
+    "whole_history_necessary_accounts": 73
+  },
+  {
+    "accounts_passing_internal_gates": 2,
+    "accounts_with_four_volume_cells": 2,
+    "communities": [
+      "linux",
+      "linuxquestions"
+    ],
+    "compatible_edges": 0,
+    "cut": "2016-04-01T00:00:00Z",
+    "intended_block_deficit": 2,
+    "matching_dp_states": 0,
+    "maximum_disjoint_blocks": 0,
+    "minimum_exact_matching_cost": {
+      "denominator": 1,
+      "numerator": 0
+    },
+    "stratum_id": "stratum-04",
+    "whole_history_necessary_accounts": 73
+  },
+  {
+    "accounts_passing_internal_gates": 2,
+    "accounts_with_four_volume_cells": 3,
+    "communities": [
+      "linux",
+      "linuxquestions"
+    ],
+    "compatible_edges": 0,
+    "cut": "2016-05-01T00:00:00Z",
+    "intended_block_deficit": 2,
+    "matching_dp_states": 0,
+    "maximum_disjoint_blocks": 0,
+    "minimum_exact_matching_cost": {
+      "denominator": 1,
+      "numerator": 0
+    },
+    "stratum_id": "stratum-04",
+    "whole_history_necessary_accounts": 73
+  },
+  {
+    "accounts_passing_internal_gates": 1,
+    "accounts_with_four_volume_cells": 3,
+    "communities": [
+      "linux",
+      "linuxquestions"
+    ],
+    "compatible_edges": 0,
+    "cut": "2016-06-01T00:00:00Z",
+    "intended_block_deficit": 2,
+    "matching_dp_states": 0,
+    "maximum_disjoint_blocks": 0,
+    "minimum_exact_matching_cost": {
+      "denominator": 1,
+      "numerator": 0
+    },
+    "stratum_id": "stratum-04",
+    "whole_history_necessary_accounts": 73
+  },
+  {
+    "accounts_passing_internal_gates": 4,
+    "accounts_with_four_volume_cells": 6,
+    "communities": [
+      "linux",
+      "linuxquestions"
+    ],
+    "compatible_edges": 0,
+    "cut": "2016-07-01T00:00:00Z",
+    "intended_block_deficit": 2,
+    "matching_dp_states": 0,
+    "maximum_disjoint_blocks": 0,
+    "minimum_exact_matching_cost": {
+      "denominator": 1,
+      "numerator": 0
+    },
+    "stratum_id": "stratum-04",
+    "whole_history_necessary_accounts": 73
+  },
+  {
+    "accounts_passing_internal_gates": 3,
+    "accounts_with_four_volume_cells": 6,
+    "communities": [
+      "linux",
+      "linuxquestions"
+    ],
+    "compatible_edges": 0,
+    "cut": "2016-08-01T00:00:00Z",
+    "intended_block_deficit": 2,
+    "matching_dp_states": 0,
+    "maximum_disjoint_blocks": 0,
+    "minimum_exact_matching_cost": {
+      "denominator": 1,
+      "numerator": 0
+    },
+    "stratum_id": "stratum-04",
+    "whole_history_necessary_accounts": 73
+  },
+  {
+    "accounts_passing_internal_gates": 3,
+    "accounts_with_four_volume_cells": 4,
+    "communities": [
+      "linux",
+      "linuxquestions"
+    ],
+    "compatible_edges": 0,
+    "cut": "2016-09-01T00:00:00Z",
+    "intended_block_deficit": 2,
+    "matching_dp_states": 0,
+    "maximum_disjoint_blocks": 0,
+    "minimum_exact_matching_cost": {
+      "denominator": 1,
+      "numerator": 0
+    },
+    "stratum_id": "stratum-04",
+    "whole_history_necessary_accounts": 73
+  },
+  {
+    "accounts_passing_internal_gates": 2,
+    "accounts_with_four_volume_cells": 3,
+    "communities": [
+      "linux",
+      "linuxquestions"
+    ],
+    "compatible_edges": 0,
+    "cut": "2016-10-01T00:00:00Z",
+    "intended_block_deficit": 2,
+    "matching_dp_states": 0,
+    "maximum_disjoint_blocks": 0,
+    "minimum_exact_matching_cost": {
+      "denominator": 1,
+      "numerator": 0
+    },
+    "stratum_id": "stratum-04",
+    "whole_history_necessary_accounts": 73
+  },
+  {
+    "accounts_passing_internal_gates": 1,
+    "accounts_with_four_volume_cells": 2,
+    "communities": [
+      "linux",
+      "linuxquestions"
+    ],
+    "compatible_edges": 0,
+    "cut": "2016-11-01T00:00:00Z",
+    "intended_block_deficit": 2,
+    "matching_dp_states": 0,
+    "maximum_disjoint_blocks": 0,
+    "minimum_exact_matching_cost": {
+      "denominator": 1,
+      "numerator": 0
+    },
+    "stratum_id": "stratum-04",
+    "whole_history_necessary_accounts": 73
+  },
+  {
+    "accounts_passing_internal_gates": 0,
+    "accounts_with_four_volume_cells": 2,
+    "communities": [
+      "linux",
+      "linuxquestions"
+    ],
+    "compatible_edges": 0,
+    "cut": "2016-12-01T00:00:00Z",
+    "intended_block_deficit": 2,
+    "matching_dp_states": 0,
+    "maximum_disjoint_blocks": 0,
+    "minimum_exact_matching_cost": {
+      "denominator": 1,
+      "numerator": 0
+    },
+    "stratum_id": "stratum-04",
+    "whole_history_necessary_accounts": 73
+  },
+  {
+    "accounts_passing_internal_gates": 0,
+    "accounts_with_four_volume_cells": 2,
+    "communities": [
+      "linux",
+      "linuxquestions"
+    ],
+    "compatible_edges": 0,
+    "cut": "2017-01-01T00:00:00Z",
+    "intended_block_deficit": 2,
+    "matching_dp_states": 0,
+    "maximum_disjoint_blocks": 0,
+    "minimum_exact_matching_cost": {
+      "denominator": 1,
+      "numerator": 0
+    },
+    "stratum_id": "stratum-04",
+    "whole_history_necessary_accounts": 73
+  },
+  {
+    "accounts_passing_internal_gates": 1,
+    "accounts_with_four_volume_cells": 3,
+    "communities": [
+      "linux",
+      "linuxquestions"
+    ],
+    "compatible_edges": 0,
+    "cut": "2017-02-01T00:00:00Z",
+    "intended_block_deficit": 2,
+    "matching_dp_states": 0,
+    "maximum_disjoint_blocks": 0,
+    "minimum_exact_matching_cost": {
+      "denominator": 1,
+      "numerator": 0
+    },
+    "stratum_id": "stratum-04",
+    "whole_history_necessary_accounts": 73
+  },
+  {
+    "accounts_passing_internal_gates": 0,
+    "accounts_with_four_volume_cells": 3,
+    "communities": [
+      "linux",
+      "linuxquestions"
+    ],
+    "compatible_edges": 0,
+    "cut": "2017-03-01T00:00:00Z",
+    "intended_block_deficit": 2,
+    "matching_dp_states": 0,
+    "maximum_disjoint_blocks": 0,
+    "minimum_exact_matching_cost": {
+      "denominator": 1,
+      "numerator": 0
+    },
+    "stratum_id": "stratum-04",
+    "whole_history_necessary_accounts": 73
+  },
+  {
+    "accounts_passing_internal_gates": 0,
+    "accounts_with_four_volume_cells": 3,
+    "communities": [
+      "linux",
+      "linuxquestions"
+    ],
+    "compatible_edges": 0,
+    "cut": "2017-04-01T00:00:00Z",
+    "intended_block_deficit": 2,
+    "matching_dp_states": 0,
+    "maximum_disjoint_blocks": 0,
+    "minimum_exact_matching_cost": {
+      "denominator": 1,
+      "numerator": 0
+    },
+    "stratum_id": "stratum-04",
+    "whole_history_necessary_accounts": 73
+  },
+  {
+    "accounts_passing_internal_gates": 0,
+    "accounts_with_four_volume_cells": 4,
+    "communities": [
+      "linux",
+      "linuxquestions"
+    ],
+    "compatible_edges": 0,
+    "cut": "2017-05-01T00:00:00Z",
+    "intended_block_deficit": 2,
+    "matching_dp_states": 0,
+    "maximum_disjoint_blocks": 0,
+    "minimum_exact_matching_cost": {
+      "denominator": 1,
+      "numerator": 0
+    },
+    "stratum_id": "stratum-04",
+    "whole_history_necessary_accounts": 73
+  },
+  {
+    "accounts_passing_internal_gates": 1,
+    "accounts_with_four_volume_cells": 3,
+    "communities": [
+      "linux",
+      "linuxquestions"
+    ],
+    "compatible_edges": 0,
+    "cut": "2017-06-01T00:00:00Z",
+    "intended_block_deficit": 2,
+    "matching_dp_states": 0,
+    "maximum_disjoint_blocks": 0,
+    "minimum_exact_matching_cost": {
+      "denominator": 1,
+      "numerator": 0
+    },
+    "stratum_id": "stratum-04",
+    "whole_history_necessary_accounts": 73
+  },
+  {
+    "accounts_passing_internal_gates": 1,
+    "accounts_with_four_volume_cells": 3,
+    "communities": [
+      "linux",
+      "linuxquestions"
+    ],
+    "compatible_edges": 0,
+    "cut": "2017-07-01T00:00:00Z",
+    "intended_block_deficit": 2,
+    "matching_dp_states": 0,
+    "maximum_disjoint_blocks": 0,
+    "minimum_exact_matching_cost": {
+      "denominator": 1,
+      "numerator": 0
+    },
+    "stratum_id": "stratum-04",
+    "whole_history_necessary_accounts": 73
+  },
+  {
+    "accounts_passing_internal_gates": 1,
+    "accounts_with_four_volume_cells": 4,
+    "communities": [
+      "linux",
+      "linuxquestions"
+    ],
+    "compatible_edges": 0,
+    "cut": "2017-08-01T00:00:00Z",
+    "intended_block_deficit": 2,
+    "matching_dp_states": 0,
+    "maximum_disjoint_blocks": 0,
+    "minimum_exact_matching_cost": {
+      "denominator": 1,
+      "numerator": 0
+    },
+    "stratum_id": "stratum-04",
+    "whole_history_necessary_accounts": 73
+  },
+  {
+    "accounts_passing_internal_gates": 0,
+    "accounts_with_four_volume_cells": 4,
+    "communities": [
+      "linux",
+      "linuxquestions"
+    ],
+    "compatible_edges": 0,
+    "cut": "2017-09-01T00:00:00Z",
+    "intended_block_deficit": 2,
+    "matching_dp_states": 0,
+    "maximum_disjoint_blocks": 0,
+    "minimum_exact_matching_cost": {
+      "denominator": 1,
+      "numerator": 0
+    },
+    "stratum_id": "stratum-04",
+    "whole_history_necessary_accounts": 73
+  },
+  {
+    "accounts_passing_internal_gates": 2,
+    "accounts_with_four_volume_cells": 4,
+    "communities": [
+      "linux",
+      "linuxquestions"
+    ],
+    "compatible_edges": 0,
+    "cut": "2017-10-01T00:00:00Z",
+    "intended_block_deficit": 2,
+    "matching_dp_states": 0,
+    "maximum_disjoint_blocks": 0,
+    "minimum_exact_matching_cost": {
+      "denominator": 1,
+      "numerator": 0
+    },
+    "stratum_id": "stratum-04",
+    "whole_history_necessary_accounts": 73
+  },
+  {
+    "accounts_passing_internal_gates": 0,
+    "accounts_with_four_volume_cells": 4,
+    "communities": [
+      "linux",
+      "linuxquestions"
+    ],
+    "compatible_edges": 0,
+    "cut": "2017-11-01T00:00:00Z",
+    "intended_block_deficit": 2,
+    "matching_dp_states": 0,
+    "maximum_disjoint_blocks": 0,
+    "minimum_exact_matching_cost": {
+      "denominator": 1,
+      "numerator": 0
+    },
+    "stratum_id": "stratum-04",
+    "whole_history_necessary_accounts": 73
+  },
+  {
+    "accounts_passing_internal_gates": 1,
+    "accounts_with_four_volume_cells": 4,
+    "communities": [
+      "linux",
+      "linuxquestions"
+    ],
+    "compatible_edges": 0,
+    "cut": "2017-12-01T00:00:00Z",
+    "intended_block_deficit": 2,
+    "matching_dp_states": 0,
+    "maximum_disjoint_blocks": 0,
+    "minimum_exact_matching_cost": {
+      "denominator": 1,
+      "numerator": 0
+    },
+    "stratum_id": "stratum-04",
+    "whole_history_necessary_accounts": 73
+  },
+  {
+    "accounts_passing_internal_gates": 0,
+    "accounts_with_four_volume_cells": 3,
+    "communities": [
+      "linux",
+      "linuxquestions"
+    ],
+    "compatible_edges": 0,
+    "cut": "2018-01-01T00:00:00Z",
+    "intended_block_deficit": 2,
+    "matching_dp_states": 0,
+    "maximum_disjoint_blocks": 0,
+    "minimum_exact_matching_cost": {
+      "denominator": 1,
+      "numerator": 0
+    },
+    "stratum_id": "stratum-04",
+    "whole_history_necessary_accounts": 73
+  },
+  {
+    "accounts_passing_internal_gates": 1,
+    "accounts_with_four_volume_cells": 3,
+    "communities": [
+      "linux",
+      "linuxquestions"
+    ],
+    "compatible_edges": 0,
+    "cut": "2018-02-01T00:00:00Z",
+    "intended_block_deficit": 2,
+    "matching_dp_states": 0,
+    "maximum_disjoint_blocks": 0,
+    "minimum_exact_matching_cost": {
+      "denominator": 1,
+      "numerator": 0
+    },
+    "stratum_id": "stratum-04",
+    "whole_history_necessary_accounts": 73
+  },
+  {
+    "accounts_passing_internal_gates": 1,
+    "accounts_with_four_volume_cells": 3,
+    "communities": [
+      "linux",
+      "linuxquestions"
+    ],
+    "compatible_edges": 0,
+    "cut": "2018-03-01T00:00:00Z",
+    "intended_block_deficit": 2,
+    "matching_dp_states": 0,
+    "maximum_disjoint_blocks": 0,
+    "minimum_exact_matching_cost": {
+      "denominator": 1,
+      "numerator": 0
+    },
+    "stratum_id": "stratum-04",
+    "whole_history_necessary_accounts": 73
+  },
+  {
+    "accounts_passing_internal_gates": 1,
+    "accounts_with_four_volume_cells": 2,
+    "communities": [
+      "linux",
+      "linuxquestions"
+    ],
+    "compatible_edges": 0,
+    "cut": "2018-04-01T00:00:00Z",
+    "intended_block_deficit": 2,
+    "matching_dp_states": 0,
+    "maximum_disjoint_blocks": 0,
+    "minimum_exact_matching_cost": {
+      "denominator": 1,
+      "numerator": 0
+    },
+    "stratum_id": "stratum-04",
+    "whole_history_necessary_accounts": 73
+  },
+  {
+    "accounts_passing_internal_gates": 1,
+    "accounts_with_four_volume_cells": 4,
+    "communities": [
+      "linux",
+      "linuxquestions"
+    ],
+    "compatible_edges": 0,
+    "cut": "2018-05-01T00:00:00Z",
+    "intended_block_deficit": 2,
+    "matching_dp_states": 0,
+    "maximum_disjoint_blocks": 0,
+    "minimum_exact_matching_cost": {
+      "denominator": 1,
+      "numerator": 0
+    },
+    "stratum_id": "stratum-04",
+    "whole_history_necessary_accounts": 73
+  },
+  {
+    "accounts_passing_internal_gates": 0,
+    "accounts_with_four_volume_cells": 0,
+    "communities": [
+      "programming",
+      "learnprogramming"
+    ],
+    "compatible_edges": 0,
+    "cut": "2010-01-01T00:00:00Z",
+    "intended_block_deficit": 2,
+    "matching_dp_states": 0,
+    "maximum_disjoint_blocks": 0,
+    "minimum_exact_matching_cost": {
+      "denominator": 1,
+      "numerator": 0
+    },
+    "stratum_id": "stratum-05",
+    "whole_history_necessary_accounts": 122
+  },
+  {
+    "accounts_passing_internal_gates": 0,
+    "accounts_with_four_volume_cells": 0,
+    "communities": [
+      "programming",
+      "learnprogramming"
+    ],
+    "compatible_edges": 0,
+    "cut": "2010-02-01T00:00:00Z",
+    "intended_block_deficit": 2,
+    "matching_dp_states": 0,
+    "maximum_disjoint_blocks": 0,
+    "minimum_exact_matching_cost": {
+      "denominator": 1,
+      "numerator": 0
+    },
+    "stratum_id": "stratum-05",
+    "whole_history_necessary_accounts": 122
+  },
+  {
+    "accounts_passing_internal_gates": 0,
+    "accounts_with_four_volume_cells": 0,
+    "communities": [
+      "programming",
+      "learnprogramming"
+    ],
+    "compatible_edges": 0,
+    "cut": "2010-03-01T00:00:00Z",
+    "intended_block_deficit": 2,
+    "matching_dp_states": 0,
+    "maximum_disjoint_blocks": 0,
+    "minimum_exact_matching_cost": {
+      "denominator": 1,
+      "numerator": 0
+    },
+    "stratum_id": "stratum-05",
+    "whole_history_necessary_accounts": 122
+  },
+  {
+    "accounts_passing_internal_gates": 0,
+    "accounts_with_four_volume_cells": 0,
+    "communities": [
+      "programming",
+      "learnprogramming"
+    ],
+    "compatible_edges": 0,
+    "cut": "2010-04-01T00:00:00Z",
+    "intended_block_deficit": 2,
+    "matching_dp_states": 0,
+    "maximum_disjoint_blocks": 0,
+    "minimum_exact_matching_cost": {
+      "denominator": 1,
+      "numerator": 0
+    },
+    "stratum_id": "stratum-05",
+    "whole_history_necessary_accounts": 122
+  },
+  {
+    "accounts_passing_internal_gates": 0,
+    "accounts_with_four_volume_cells": 0,
+    "communities": [
+      "programming",
+      "learnprogramming"
+    ],
+    "compatible_edges": 0,
+    "cut": "2010-05-01T00:00:00Z",
+    "intended_block_deficit": 2,
+    "matching_dp_states": 0,
+    "maximum_disjoint_blocks": 0,
+    "minimum_exact_matching_cost": {
+      "denominator": 1,
+      "numerator": 0
+    },
+    "stratum_id": "stratum-05",
+    "whole_history_necessary_accounts": 122
+  },
+  {
+    "accounts_passing_internal_gates": 0,
+    "accounts_with_four_volume_cells": 0,
+    "communities": [
+      "programming",
+      "learnprogramming"
+    ],
+    "compatible_edges": 0,
+    "cut": "2010-06-01T00:00:00Z",
+    "intended_block_deficit": 2,
+    "matching_dp_states": 0,
+    "maximum_disjoint_blocks": 0,
+    "minimum_exact_matching_cost": {
+      "denominator": 1,
+      "numerator": 0
+    },
+    "stratum_id": "stratum-05",
+    "whole_history_necessary_accounts": 122
+  },
+  {
+    "accounts_passing_internal_gates": 0,
+    "accounts_with_four_volume_cells": 0,
+    "communities": [
+      "programming",
+      "learnprogramming"
+    ],
+    "compatible_edges": 0,
+    "cut": "2010-07-01T00:00:00Z",
+    "intended_block_deficit": 2,
+    "matching_dp_states": 0,
+    "maximum_disjoint_blocks": 0,
+    "minimum_exact_matching_cost": {
+      "denominator": 1,
+      "numerator": 0
+    },
+    "stratum_id": "stratum-05",
+    "whole_history_necessary_accounts": 122
+  },
+  {
+    "accounts_passing_internal_gates": 0,
+    "accounts_with_four_volume_cells": 0,
+    "communities": [
+      "programming",
+      "learnprogramming"
+    ],
+    "compatible_edges": 0,
+    "cut": "2010-08-01T00:00:00Z",
+    "intended_block_deficit": 2,
+    "matching_dp_states": 0,
+    "maximum_disjoint_blocks": 0,
+    "minimum_exact_matching_cost": {
+      "denominator": 1,
+      "numerator": 0
+    },
+    "stratum_id": "stratum-05",
+    "whole_history_necessary_accounts": 122
+  },
+  {
+    "accounts_passing_internal_gates": 0,
+    "accounts_with_four_volume_cells": 0,
+    "communities": [
+      "programming",
+      "learnprogramming"
+    ],
+    "compatible_edges": 0,
+    "cut": "2010-09-01T00:00:00Z",
+    "intended_block_deficit": 2,
+    "matching_dp_states": 0,
+    "maximum_disjoint_blocks": 0,
+    "minimum_exact_matching_cost": {
+      "denominator": 1,
+      "numerator": 0
+    },
+    "stratum_id": "stratum-05",
+    "whole_history_necessary_accounts": 122
+  },
+  {
+    "accounts_passing_internal_gates": 0,
+    "accounts_with_four_volume_cells": 0,
+    "communities": [
+      "programming",
+      "learnprogramming"
+    ],
+    "compatible_edges": 0,
+    "cut": "2010-10-01T00:00:00Z",
+    "intended_block_deficit": 2,
+    "matching_dp_states": 0,
+    "maximum_disjoint_blocks": 0,
+    "minimum_exact_matching_cost": {
+      "denominator": 1,
+      "numerator": 0
+    },
+    "stratum_id": "stratum-05",
+    "whole_history_necessary_accounts": 122
+  },
+  {
+    "accounts_passing_internal_gates": 0,
+    "accounts_with_four_volume_cells": 0,
+    "communities": [
+      "programming",
+      "learnprogramming"
+    ],
+    "compatible_edges": 0,
+    "cut": "2010-11-01T00:00:00Z",
+    "intended_block_deficit": 2,
+    "matching_dp_states": 0,
+    "maximum_disjoint_blocks": 0,
+    "minimum_exact_matching_cost": {
+      "denominator": 1,
+      "numerator": 0
+    },
+    "stratum_id": "stratum-05",
+    "whole_history_necessary_accounts": 122
+  },
+  {
+    "accounts_passing_internal_gates": 0,
+    "accounts_with_four_volume_cells": 0,
+    "communities": [
+      "programming",
+      "learnprogramming"
+    ],
+    "compatible_edges": 0,
+    "cut": "2010-12-01T00:00:00Z",
+    "intended_block_deficit": 2,
+    "matching_dp_states": 0,
+    "maximum_disjoint_blocks": 0,
+    "minimum_exact_matching_cost": {
+      "denominator": 1,
+      "numerator": 0
+    },
+    "stratum_id": "stratum-05",
+    "whole_history_necessary_accounts": 122
+  },
+  {
+    "accounts_passing_internal_gates": 0,
+    "accounts_with_four_volume_cells": 0,
+    "communities": [
+      "programming",
+      "learnprogramming"
+    ],
+    "compatible_edges": 0,
+    "cut": "2011-01-01T00:00:00Z",
+    "intended_block_deficit": 2,
+    "matching_dp_states": 0,
+    "maximum_disjoint_blocks": 0,
+    "minimum_exact_matching_cost": {
+      "denominator": 1,
+      "numerator": 0
+    },
+    "stratum_id": "stratum-05",
+    "whole_history_necessary_accounts": 122
+  },
+  {
+    "accounts_passing_internal_gates": 0,
+    "accounts_with_four_volume_cells": 0,
+    "communities": [
+      "programming",
+      "learnprogramming"
+    ],
+    "compatible_edges": 0,
+    "cut": "2011-02-01T00:00:00Z",
+    "intended_block_deficit": 2,
+    "matching_dp_states": 0,
+    "maximum_disjoint_blocks": 0,
+    "minimum_exact_matching_cost": {
+      "denominator": 1,
+      "numerator": 0
+    },
+    "stratum_id": "stratum-05",
+    "whole_history_necessary_accounts": 122
+  },
+  {
+    "accounts_passing_internal_gates": 0,
+    "accounts_with_four_volume_cells": 0,
+    "communities": [
+      "programming",
+      "learnprogramming"
+    ],
+    "compatible_edges": 0,
+    "cut": "2011-03-01T00:00:00Z",
+    "intended_block_deficit": 2,
+    "matching_dp_states": 0,
+    "maximum_disjoint_blocks": 0,
+    "minimum_exact_matching_cost": {
+      "denominator": 1,
+      "numerator": 0
+    },
+    "stratum_id": "stratum-05",
+    "whole_history_necessary_accounts": 122
+  },
+  {
+    "accounts_passing_internal_gates": 0,
+    "accounts_with_four_volume_cells": 0,
+    "communities": [
+      "programming",
+      "learnprogramming"
+    ],
+    "compatible_edges": 0,
+    "cut": "2011-04-01T00:00:00Z",
+    "intended_block_deficit": 2,
+    "matching_dp_states": 0,
+    "maximum_disjoint_blocks": 0,
+    "minimum_exact_matching_cost": {
+      "denominator": 1,
+      "numerator": 0
+    },
+    "stratum_id": "stratum-05",
+    "whole_history_necessary_accounts": 122
+  },
+  {
+    "accounts_passing_internal_gates": 0,
+    "accounts_with_four_volume_cells": 1,
+    "communities": [
+      "programming",
+      "learnprogramming"
+    ],
+    "compatible_edges": 0,
+    "cut": "2011-05-01T00:00:00Z",
+    "intended_block_deficit": 2,
+    "matching_dp_states": 0,
+    "maximum_disjoint_blocks": 0,
+    "minimum_exact_matching_cost": {
+      "denominator": 1,
+      "numerator": 0
+    },
+    "stratum_id": "stratum-05",
+    "whole_history_necessary_accounts": 122
+  },
+  {
+    "accounts_passing_internal_gates": 0,
+    "accounts_with_four_volume_cells": 1,
+    "communities": [
+      "programming",
+      "learnprogramming"
+    ],
+    "compatible_edges": 0,
+    "cut": "2011-06-01T00:00:00Z",
+    "intended_block_deficit": 2,
+    "matching_dp_states": 0,
+    "maximum_disjoint_blocks": 0,
+    "minimum_exact_matching_cost": {
+      "denominator": 1,
+      "numerator": 0
+    },
+    "stratum_id": "stratum-05",
+    "whole_history_necessary_accounts": 122
+  },
+  {
+    "accounts_passing_internal_gates": 0,
+    "accounts_with_four_volume_cells": 1,
+    "communities": [
+      "programming",
+      "learnprogramming"
+    ],
+    "compatible_edges": 0,
+    "cut": "2011-07-01T00:00:00Z",
+    "intended_block_deficit": 2,
+    "matching_dp_states": 0,
+    "maximum_disjoint_blocks": 0,
+    "minimum_exact_matching_cost": {
+      "denominator": 1,
+      "numerator": 0
+    },
+    "stratum_id": "stratum-05",
+    "whole_history_necessary_accounts": 122
+  },
+  {
+    "accounts_passing_internal_gates": 0,
+    "accounts_with_four_volume_cells": 1,
+    "communities": [
+      "programming",
+      "learnprogramming"
+    ],
+    "compatible_edges": 0,
+    "cut": "2011-08-01T00:00:00Z",
+    "intended_block_deficit": 2,
+    "matching_dp_states": 0,
+    "maximum_disjoint_blocks": 0,
+    "minimum_exact_matching_cost": {
+      "denominator": 1,
+      "numerator": 0
+    },
+    "stratum_id": "stratum-05",
+    "whole_history_necessary_accounts": 122
+  },
+  {
+    "accounts_passing_internal_gates": 0,
+    "accounts_with_four_volume_cells": 2,
+    "communities": [
+      "programming",
+      "learnprogramming"
+    ],
+    "compatible_edges": 0,
+    "cut": "2011-09-01T00:00:00Z",
+    "intended_block_deficit": 2,
+    "matching_dp_states": 0,
+    "maximum_disjoint_blocks": 0,
+    "minimum_exact_matching_cost": {
+      "denominator": 1,
+      "numerator": 0
+    },
+    "stratum_id": "stratum-05",
+    "whole_history_necessary_accounts": 122
+  },
+  {
+    "accounts_passing_internal_gates": 1,
+    "accounts_with_four_volume_cells": 2,
+    "communities": [
+      "programming",
+      "learnprogramming"
+    ],
+    "compatible_edges": 0,
+    "cut": "2011-10-01T00:00:00Z",
+    "intended_block_deficit": 2,
+    "matching_dp_states": 0,
+    "maximum_disjoint_blocks": 0,
+    "minimum_exact_matching_cost": {
+      "denominator": 1,
+      "numerator": 0
+    },
+    "stratum_id": "stratum-05",
+    "whole_history_necessary_accounts": 122
+  },
+  {
+    "accounts_passing_internal_gates": 2,
+    "accounts_with_four_volume_cells": 2,
+    "communities": [
+      "programming",
+      "learnprogramming"
+    ],
+    "compatible_edges": 1,
+    "cut": "2011-11-01T00:00:00Z",
+    "intended_block_deficit": 1,
+    "matching_dp_states": 0,
+    "maximum_disjoint_blocks": 1,
+    "minimum_exact_matching_cost": {
+      "denominator": 155520000,
+      "numerator": 136746673
+    },
+    "stratum_id": "stratum-05",
+    "whole_history_necessary_accounts": 122
+  },
+  {
+    "accounts_passing_internal_gates": 0,
+    "accounts_with_four_volume_cells": 1,
+    "communities": [
+      "programming",
+      "learnprogramming"
+    ],
+    "compatible_edges": 0,
+    "cut": "2011-12-01T00:00:00Z",
+    "intended_block_deficit": 2,
+    "matching_dp_states": 0,
+    "maximum_disjoint_blocks": 0,
+    "minimum_exact_matching_cost": {
+      "denominator": 1,
+      "numerator": 0
+    },
+    "stratum_id": "stratum-05",
+    "whole_history_necessary_accounts": 122
+  },
+  {
+    "accounts_passing_internal_gates": 0,
+    "accounts_with_four_volume_cells": 0,
+    "communities": [
+      "programming",
+      "learnprogramming"
+    ],
+    "compatible_edges": 0,
+    "cut": "2012-01-01T00:00:00Z",
+    "intended_block_deficit": 2,
+    "matching_dp_states": 0,
+    "maximum_disjoint_blocks": 0,
+    "minimum_exact_matching_cost": {
+      "denominator": 1,
+      "numerator": 0
+    },
+    "stratum_id": "stratum-05",
+    "whole_history_necessary_accounts": 122
+  },
+  {
+    "accounts_passing_internal_gates": 1,
+    "accounts_with_four_volume_cells": 3,
+    "communities": [
+      "programming",
+      "learnprogramming"
+    ],
+    "compatible_edges": 0,
+    "cut": "2012-02-01T00:00:00Z",
+    "intended_block_deficit": 2,
+    "matching_dp_states": 0,
+    "maximum_disjoint_blocks": 0,
+    "minimum_exact_matching_cost": {
+      "denominator": 1,
+      "numerator": 0
+    },
+    "stratum_id": "stratum-05",
+    "whole_history_necessary_accounts": 122
+  },
+  {
+    "accounts_passing_internal_gates": 2,
+    "accounts_with_four_volume_cells": 2,
+    "communities": [
+      "programming",
+      "learnprogramming"
+    ],
+    "compatible_edges": 1,
+    "cut": "2012-03-01T00:00:00Z",
+    "intended_block_deficit": 1,
+    "matching_dp_states": 0,
+    "maximum_disjoint_blocks": 1,
+    "minimum_exact_matching_cost": {
+      "denominator": 31104000,
+      "numerator": 20574883
+    },
+    "stratum_id": "stratum-05",
+    "whole_history_necessary_accounts": 122
+  },
+  {
+    "accounts_passing_internal_gates": 0,
+    "accounts_with_four_volume_cells": 1,
+    "communities": [
+      "programming",
+      "learnprogramming"
+    ],
+    "compatible_edges": 0,
+    "cut": "2012-04-01T00:00:00Z",
+    "intended_block_deficit": 2,
+    "matching_dp_states": 0,
+    "maximum_disjoint_blocks": 0,
+    "minimum_exact_matching_cost": {
+      "denominator": 1,
+      "numerator": 0
+    },
+    "stratum_id": "stratum-05",
+    "whole_history_necessary_accounts": 122
+  },
+  {
+    "accounts_passing_internal_gates": 1,
+    "accounts_with_four_volume_cells": 1,
+    "communities": [
+      "programming",
+      "learnprogramming"
+    ],
+    "compatible_edges": 0,
+    "cut": "2012-05-01T00:00:00Z",
+    "intended_block_deficit": 2,
+    "matching_dp_states": 0,
+    "maximum_disjoint_blocks": 0,
+    "minimum_exact_matching_cost": {
+      "denominator": 1,
+      "numerator": 0
+    },
+    "stratum_id": "stratum-05",
+    "whole_history_necessary_accounts": 122
+  },
+  {
+    "accounts_passing_internal_gates": 1,
+    "accounts_with_four_volume_cells": 1,
+    "communities": [
+      "programming",
+      "learnprogramming"
+    ],
+    "compatible_edges": 0,
+    "cut": "2012-06-01T00:00:00Z",
+    "intended_block_deficit": 2,
+    "matching_dp_states": 0,
+    "maximum_disjoint_blocks": 0,
+    "minimum_exact_matching_cost": {
+      "denominator": 1,
+      "numerator": 0
+    },
+    "stratum_id": "stratum-05",
+    "whole_history_necessary_accounts": 122
+  },
+  {
+    "accounts_passing_internal_gates": 1,
+    "accounts_with_four_volume_cells": 2,
+    "communities": [
+      "programming",
+      "learnprogramming"
+    ],
+    "compatible_edges": 0,
+    "cut": "2012-07-01T00:00:00Z",
+    "intended_block_deficit": 2,
+    "matching_dp_states": 0,
+    "maximum_disjoint_blocks": 0,
+    "minimum_exact_matching_cost": {
+      "denominator": 1,
+      "numerator": 0
+    },
+    "stratum_id": "stratum-05",
+    "whole_history_necessary_accounts": 122
+  },
+  {
+    "accounts_passing_internal_gates": 0,
+    "accounts_with_four_volume_cells": 2,
+    "communities": [
+      "programming",
+      "learnprogramming"
+    ],
+    "compatible_edges": 0,
+    "cut": "2012-08-01T00:00:00Z",
+    "intended_block_deficit": 2,
+    "matching_dp_states": 0,
+    "maximum_disjoint_blocks": 0,
+    "minimum_exact_matching_cost": {
+      "denominator": 1,
+      "numerator": 0
+    },
+    "stratum_id": "stratum-05",
+    "whole_history_necessary_accounts": 122
+  },
+  {
+    "accounts_passing_internal_gates": 0,
+    "accounts_with_four_volume_cells": 1,
+    "communities": [
+      "programming",
+      "learnprogramming"
+    ],
+    "compatible_edges": 0,
+    "cut": "2012-09-01T00:00:00Z",
+    "intended_block_deficit": 2,
+    "matching_dp_states": 0,
+    "maximum_disjoint_blocks": 0,
+    "minimum_exact_matching_cost": {
+      "denominator": 1,
+      "numerator": 0
+    },
+    "stratum_id": "stratum-05",
+    "whole_history_necessary_accounts": 122
+  },
+  {
+    "accounts_passing_internal_gates": 0,
+    "accounts_with_four_volume_cells": 2,
+    "communities": [
+      "programming",
+      "learnprogramming"
+    ],
+    "compatible_edges": 0,
+    "cut": "2012-10-01T00:00:00Z",
+    "intended_block_deficit": 2,
+    "matching_dp_states": 0,
+    "maximum_disjoint_blocks": 0,
+    "minimum_exact_matching_cost": {
+      "denominator": 1,
+      "numerator": 0
+    },
+    "stratum_id": "stratum-05",
+    "whole_history_necessary_accounts": 122
+  },
+  {
+    "accounts_passing_internal_gates": 0,
+    "accounts_with_four_volume_cells": 2,
+    "communities": [
+      "programming",
+      "learnprogramming"
+    ],
+    "compatible_edges": 0,
+    "cut": "2012-11-01T00:00:00Z",
+    "intended_block_deficit": 2,
+    "matching_dp_states": 0,
+    "maximum_disjoint_blocks": 0,
+    "minimum_exact_matching_cost": {
+      "denominator": 1,
+      "numerator": 0
+    },
+    "stratum_id": "stratum-05",
+    "whole_history_necessary_accounts": 122
+  },
+  {
+    "accounts_passing_internal_gates": 0,
+    "accounts_with_four_volume_cells": 2,
+    "communities": [
+      "programming",
+      "learnprogramming"
+    ],
+    "compatible_edges": 0,
+    "cut": "2012-12-01T00:00:00Z",
+    "intended_block_deficit": 2,
+    "matching_dp_states": 0,
+    "maximum_disjoint_blocks": 0,
+    "minimum_exact_matching_cost": {
+      "denominator": 1,
+      "numerator": 0
+    },
+    "stratum_id": "stratum-05",
+    "whole_history_necessary_accounts": 122
+  },
+  {
+    "accounts_passing_internal_gates": 0,
+    "accounts_with_four_volume_cells": 1,
+    "communities": [
+      "programming",
+      "learnprogramming"
+    ],
+    "compatible_edges": 0,
+    "cut": "2013-01-01T00:00:00Z",
+    "intended_block_deficit": 2,
+    "matching_dp_states": 0,
+    "maximum_disjoint_blocks": 0,
+    "minimum_exact_matching_cost": {
+      "denominator": 1,
+      "numerator": 0
+    },
+    "stratum_id": "stratum-05",
+    "whole_history_necessary_accounts": 122
+  },
+  {
+    "accounts_passing_internal_gates": 1,
+    "accounts_with_four_volume_cells": 2,
+    "communities": [
+      "programming",
+      "learnprogramming"
+    ],
+    "compatible_edges": 0,
+    "cut": "2013-02-01T00:00:00Z",
+    "intended_block_deficit": 2,
+    "matching_dp_states": 0,
+    "maximum_disjoint_blocks": 0,
+    "minimum_exact_matching_cost": {
+      "denominator": 1,
+      "numerator": 0
+    },
+    "stratum_id": "stratum-05",
+    "whole_history_necessary_accounts": 122
+  },
+  {
+    "accounts_passing_internal_gates": 0,
+    "accounts_with_four_volume_cells": 2,
+    "communities": [
+      "programming",
+      "learnprogramming"
+    ],
+    "compatible_edges": 0,
+    "cut": "2013-03-01T00:00:00Z",
+    "intended_block_deficit": 2,
+    "matching_dp_states": 0,
+    "maximum_disjoint_blocks": 0,
+    "minimum_exact_matching_cost": {
+      "denominator": 1,
+      "numerator": 0
+    },
+    "stratum_id": "stratum-05",
+    "whole_history_necessary_accounts": 122
+  },
+  {
+    "accounts_passing_internal_gates": 0,
+    "accounts_with_four_volume_cells": 2,
+    "communities": [
+      "programming",
+      "learnprogramming"
+    ],
+    "compatible_edges": 0,
+    "cut": "2013-04-01T00:00:00Z",
+    "intended_block_deficit": 2,
+    "matching_dp_states": 0,
+    "maximum_disjoint_blocks": 0,
+    "minimum_exact_matching_cost": {
+      "denominator": 1,
+      "numerator": 0
+    },
+    "stratum_id": "stratum-05",
+    "whole_history_necessary_accounts": 122
+  },
+  {
+    "accounts_passing_internal_gates": 0,
+    "accounts_with_four_volume_cells": 2,
+    "communities": [
+      "programming",
+      "learnprogramming"
+    ],
+    "compatible_edges": 0,
+    "cut": "2013-05-01T00:00:00Z",
+    "intended_block_deficit": 2,
+    "matching_dp_states": 0,
+    "maximum_disjoint_blocks": 0,
+    "minimum_exact_matching_cost": {
+      "denominator": 1,
+      "numerator": 0
+    },
+    "stratum_id": "stratum-05",
+    "whole_history_necessary_accounts": 122
+  },
+  {
+    "accounts_passing_internal_gates": 0,
+    "accounts_with_four_volume_cells": 3,
+    "communities": [
+      "programming",
+      "learnprogramming"
+    ],
+    "compatible_edges": 0,
+    "cut": "2013-06-01T00:00:00Z",
+    "intended_block_deficit": 2,
+    "matching_dp_states": 0,
+    "maximum_disjoint_blocks": 0,
+    "minimum_exact_matching_cost": {
+      "denominator": 1,
+      "numerator": 0
+    },
+    "stratum_id": "stratum-05",
+    "whole_history_necessary_accounts": 122
+  },
+  {
+    "accounts_passing_internal_gates": 0,
+    "accounts_with_four_volume_cells": 3,
+    "communities": [
+      "programming",
+      "learnprogramming"
+    ],
+    "compatible_edges": 0,
+    "cut": "2013-07-01T00:00:00Z",
+    "intended_block_deficit": 2,
+    "matching_dp_states": 0,
+    "maximum_disjoint_blocks": 0,
+    "minimum_exact_matching_cost": {
+      "denominator": 1,
+      "numerator": 0
+    },
+    "stratum_id": "stratum-05",
+    "whole_history_necessary_accounts": 122
+  },
+  {
+    "accounts_passing_internal_gates": 0,
+    "accounts_with_four_volume_cells": 1,
+    "communities": [
+      "programming",
+      "learnprogramming"
+    ],
+    "compatible_edges": 0,
+    "cut": "2013-08-01T00:00:00Z",
+    "intended_block_deficit": 2,
+    "matching_dp_states": 0,
+    "maximum_disjoint_blocks": 0,
+    "minimum_exact_matching_cost": {
+      "denominator": 1,
+      "numerator": 0
+    },
+    "stratum_id": "stratum-05",
+    "whole_history_necessary_accounts": 122
+  },
+  {
+    "accounts_passing_internal_gates": 0,
+    "accounts_with_four_volume_cells": 1,
+    "communities": [
+      "programming",
+      "learnprogramming"
+    ],
+    "compatible_edges": 0,
+    "cut": "2013-09-01T00:00:00Z",
+    "intended_block_deficit": 2,
+    "matching_dp_states": 0,
+    "maximum_disjoint_blocks": 0,
+    "minimum_exact_matching_cost": {
+      "denominator": 1,
+      "numerator": 0
+    },
+    "stratum_id": "stratum-05",
+    "whole_history_necessary_accounts": 122
+  },
+  {
+    "accounts_passing_internal_gates": 0,
+    "accounts_with_four_volume_cells": 3,
+    "communities": [
+      "programming",
+      "learnprogramming"
+    ],
+    "compatible_edges": 0,
+    "cut": "2013-10-01T00:00:00Z",
+    "intended_block_deficit": 2,
+    "matching_dp_states": 0,
+    "maximum_disjoint_blocks": 0,
+    "minimum_exact_matching_cost": {
+      "denominator": 1,
+      "numerator": 0
+    },
+    "stratum_id": "stratum-05",
+    "whole_history_necessary_accounts": 122
+  },
+  {
+    "accounts_passing_internal_gates": 0,
+    "accounts_with_four_volume_cells": 2,
+    "communities": [
+      "programming",
+      "learnprogramming"
+    ],
+    "compatible_edges": 0,
+    "cut": "2013-11-01T00:00:00Z",
+    "intended_block_deficit": 2,
+    "matching_dp_states": 0,
+    "maximum_disjoint_blocks": 0,
+    "minimum_exact_matching_cost": {
+      "denominator": 1,
+      "numerator": 0
+    },
+    "stratum_id": "stratum-05",
+    "whole_history_necessary_accounts": 122
+  },
+  {
+    "accounts_passing_internal_gates": 0,
+    "accounts_with_four_volume_cells": 3,
+    "communities": [
+      "programming",
+      "learnprogramming"
+    ],
+    "compatible_edges": 0,
+    "cut": "2013-12-01T00:00:00Z",
+    "intended_block_deficit": 2,
+    "matching_dp_states": 0,
+    "maximum_disjoint_blocks": 0,
+    "minimum_exact_matching_cost": {
+      "denominator": 1,
+      "numerator": 0
+    },
+    "stratum_id": "stratum-05",
+    "whole_history_necessary_accounts": 122
+  },
+  {
+    "accounts_passing_internal_gates": 0,
+    "accounts_with_four_volume_cells": 1,
+    "communities": [
+      "programming",
+      "learnprogramming"
+    ],
+    "compatible_edges": 0,
+    "cut": "2014-01-01T00:00:00Z",
+    "intended_block_deficit": 2,
+    "matching_dp_states": 0,
+    "maximum_disjoint_blocks": 0,
+    "minimum_exact_matching_cost": {
+      "denominator": 1,
+      "numerator": 0
+    },
+    "stratum_id": "stratum-05",
+    "whole_history_necessary_accounts": 122
+  },
+  {
+    "accounts_passing_internal_gates": 0,
+    "accounts_with_four_volume_cells": 2,
+    "communities": [
+      "programming",
+      "learnprogramming"
+    ],
+    "compatible_edges": 0,
+    "cut": "2014-02-01T00:00:00Z",
+    "intended_block_deficit": 2,
+    "matching_dp_states": 0,
+    "maximum_disjoint_blocks": 0,
+    "minimum_exact_matching_cost": {
+      "denominator": 1,
+      "numerator": 0
+    },
+    "stratum_id": "stratum-05",
+    "whole_history_necessary_accounts": 122
+  },
+  {
+    "accounts_passing_internal_gates": 1,
+    "accounts_with_four_volume_cells": 2,
+    "communities": [
+      "programming",
+      "learnprogramming"
+    ],
+    "compatible_edges": 0,
+    "cut": "2014-03-01T00:00:00Z",
+    "intended_block_deficit": 2,
+    "matching_dp_states": 0,
+    "maximum_disjoint_blocks": 0,
+    "minimum_exact_matching_cost": {
+      "denominator": 1,
+      "numerator": 0
+    },
+    "stratum_id": "stratum-05",
+    "whole_history_necessary_accounts": 122
+  },
+  {
+    "accounts_passing_internal_gates": 0,
+    "accounts_with_four_volume_cells": 2,
+    "communities": [
+      "programming",
+      "learnprogramming"
+    ],
+    "compatible_edges": 0,
+    "cut": "2014-04-01T00:00:00Z",
+    "intended_block_deficit": 2,
+    "matching_dp_states": 0,
+    "maximum_disjoint_blocks": 0,
+    "minimum_exact_matching_cost": {
+      "denominator": 1,
+      "numerator": 0
+    },
+    "stratum_id": "stratum-05",
+    "whole_history_necessary_accounts": 122
+  },
+  {
+    "accounts_passing_internal_gates": 1,
+    "accounts_with_four_volume_cells": 2,
+    "communities": [
+      "programming",
+      "learnprogramming"
+    ],
+    "compatible_edges": 0,
+    "cut": "2014-05-01T00:00:00Z",
+    "intended_block_deficit": 2,
+    "matching_dp_states": 0,
+    "maximum_disjoint_blocks": 0,
+    "minimum_exact_matching_cost": {
+      "denominator": 1,
+      "numerator": 0
+    },
+    "stratum_id": "stratum-05",
+    "whole_history_necessary_accounts": 122
+  },
+  {
+    "accounts_passing_internal_gates": 0,
+    "accounts_with_four_volume_cells": 2,
+    "communities": [
+      "programming",
+      "learnprogramming"
+    ],
+    "compatible_edges": 0,
+    "cut": "2014-06-01T00:00:00Z",
+    "intended_block_deficit": 2,
+    "matching_dp_states": 0,
+    "maximum_disjoint_blocks": 0,
+    "minimum_exact_matching_cost": {
+      "denominator": 1,
+      "numerator": 0
+    },
+    "stratum_id": "stratum-05",
+    "whole_history_necessary_accounts": 122
+  },
+  {
+    "accounts_passing_internal_gates": 0,
+    "accounts_with_four_volume_cells": 1,
+    "communities": [
+      "programming",
+      "learnprogramming"
+    ],
+    "compatible_edges": 0,
+    "cut": "2014-07-01T00:00:00Z",
+    "intended_block_deficit": 2,
+    "matching_dp_states": 0,
+    "maximum_disjoint_blocks": 0,
+    "minimum_exact_matching_cost": {
+      "denominator": 1,
+      "numerator": 0
+    },
+    "stratum_id": "stratum-05",
+    "whole_history_necessary_accounts": 122
+  },
+  {
+    "accounts_passing_internal_gates": 1,
+    "accounts_with_four_volume_cells": 1,
+    "communities": [
+      "programming",
+      "learnprogramming"
+    ],
+    "compatible_edges": 0,
+    "cut": "2014-08-01T00:00:00Z",
+    "intended_block_deficit": 2,
+    "matching_dp_states": 0,
+    "maximum_disjoint_blocks": 0,
+    "minimum_exact_matching_cost": {
+      "denominator": 1,
+      "numerator": 0
+    },
+    "stratum_id": "stratum-05",
+    "whole_history_necessary_accounts": 122
+  },
+  {
+    "accounts_passing_internal_gates": 0,
+    "accounts_with_four_volume_cells": 1,
+    "communities": [
+      "programming",
+      "learnprogramming"
+    ],
+    "compatible_edges": 0,
+    "cut": "2014-09-01T00:00:00Z",
+    "intended_block_deficit": 2,
+    "matching_dp_states": 0,
+    "maximum_disjoint_blocks": 0,
+    "minimum_exact_matching_cost": {
+      "denominator": 1,
+      "numerator": 0
+    },
+    "stratum_id": "stratum-05",
+    "whole_history_necessary_accounts": 122
+  },
+  {
+    "accounts_passing_internal_gates": 0,
+    "accounts_with_four_volume_cells": 1,
+    "communities": [
+      "programming",
+      "learnprogramming"
+    ],
+    "compatible_edges": 0,
+    "cut": "2014-10-01T00:00:00Z",
+    "intended_block_deficit": 2,
+    "matching_dp_states": 0,
+    "maximum_disjoint_blocks": 0,
+    "minimum_exact_matching_cost": {
+      "denominator": 1,
+      "numerator": 0
+    },
+    "stratum_id": "stratum-05",
+    "whole_history_necessary_accounts": 122
+  },
+  {
+    "accounts_passing_internal_gates": 0,
+    "accounts_with_four_volume_cells": 1,
+    "communities": [
+      "programming",
+      "learnprogramming"
+    ],
+    "compatible_edges": 0,
+    "cut": "2014-11-01T00:00:00Z",
+    "intended_block_deficit": 2,
+    "matching_dp_states": 0,
+    "maximum_disjoint_blocks": 0,
+    "minimum_exact_matching_cost": {
+      "denominator": 1,
+      "numerator": 0
+    },
+    "stratum_id": "stratum-05",
+    "whole_history_necessary_accounts": 122
+  },
+  {
+    "accounts_passing_internal_gates": 0,
+    "accounts_with_four_volume_cells": 2,
+    "communities": [
+      "programming",
+      "learnprogramming"
+    ],
+    "compatible_edges": 0,
+    "cut": "2014-12-01T00:00:00Z",
+    "intended_block_deficit": 2,
+    "matching_dp_states": 0,
+    "maximum_disjoint_blocks": 0,
+    "minimum_exact_matching_cost": {
+      "denominator": 1,
+      "numerator": 0
+    },
+    "stratum_id": "stratum-05",
+    "whole_history_necessary_accounts": 122
+  },
+  {
+    "accounts_passing_internal_gates": 0,
+    "accounts_with_four_volume_cells": 3,
+    "communities": [
+      "programming",
+      "learnprogramming"
+    ],
+    "compatible_edges": 0,
+    "cut": "2015-01-01T00:00:00Z",
+    "intended_block_deficit": 2,
+    "matching_dp_states": 0,
+    "maximum_disjoint_blocks": 0,
+    "minimum_exact_matching_cost": {
+      "denominator": 1,
+      "numerator": 0
+    },
+    "stratum_id": "stratum-05",
+    "whole_history_necessary_accounts": 122
+  },
+  {
+    "accounts_passing_internal_gates": 0,
+    "accounts_with_four_volume_cells": 4,
+    "communities": [
+      "programming",
+      "learnprogramming"
+    ],
+    "compatible_edges": 0,
+    "cut": "2015-02-01T00:00:00Z",
+    "intended_block_deficit": 2,
+    "matching_dp_states": 0,
+    "maximum_disjoint_blocks": 0,
+    "minimum_exact_matching_cost": {
+      "denominator": 1,
+      "numerator": 0
+    },
+    "stratum_id": "stratum-05",
+    "whole_history_necessary_accounts": 122
+  },
+  {
+    "accounts_passing_internal_gates": 0,
+    "accounts_with_four_volume_cells": 3,
+    "communities": [
+      "programming",
+      "learnprogramming"
+    ],
+    "compatible_edges": 0,
+    "cut": "2015-03-01T00:00:00Z",
+    "intended_block_deficit": 2,
+    "matching_dp_states": 0,
+    "maximum_disjoint_blocks": 0,
+    "minimum_exact_matching_cost": {
+      "denominator": 1,
+      "numerator": 0
+    },
+    "stratum_id": "stratum-05",
+    "whole_history_necessary_accounts": 122
+  },
+  {
+    "accounts_passing_internal_gates": 0,
+    "accounts_with_four_volume_cells": 3,
+    "communities": [
+      "programming",
+      "learnprogramming"
+    ],
+    "compatible_edges": 0,
+    "cut": "2015-04-01T00:00:00Z",
+    "intended_block_deficit": 2,
+    "matching_dp_states": 0,
+    "maximum_disjoint_blocks": 0,
+    "minimum_exact_matching_cost": {
+      "denominator": 1,
+      "numerator": 0
+    },
+    "stratum_id": "stratum-05",
+    "whole_history_necessary_accounts": 122
+  },
+  {
+    "accounts_passing_internal_gates": 0,
+    "accounts_with_four_volume_cells": 4,
+    "communities": [
+      "programming",
+      "learnprogramming"
+    ],
+    "compatible_edges": 0,
+    "cut": "2015-05-01T00:00:00Z",
+    "intended_block_deficit": 2,
+    "matching_dp_states": 0,
+    "maximum_disjoint_blocks": 0,
+    "minimum_exact_matching_cost": {
+      "denominator": 1,
+      "numerator": 0
+    },
+    "stratum_id": "stratum-05",
+    "whole_history_necessary_accounts": 122
+  },
+  {
+    "accounts_passing_internal_gates": 1,
+    "accounts_with_four_volume_cells": 3,
+    "communities": [
+      "programming",
+      "learnprogramming"
+    ],
+    "compatible_edges": 0,
+    "cut": "2015-06-01T00:00:00Z",
+    "intended_block_deficit": 2,
+    "matching_dp_states": 0,
+    "maximum_disjoint_blocks": 0,
+    "minimum_exact_matching_cost": {
+      "denominator": 1,
+      "numerator": 0
+    },
+    "stratum_id": "stratum-05",
+    "whole_history_necessary_accounts": 122
+  },
+  {
+    "accounts_passing_internal_gates": 0,
+    "accounts_with_four_volume_cells": 3,
+    "communities": [
+      "programming",
+      "learnprogramming"
+    ],
+    "compatible_edges": 0,
+    "cut": "2015-07-01T00:00:00Z",
+    "intended_block_deficit": 2,
+    "matching_dp_states": 0,
+    "maximum_disjoint_blocks": 0,
+    "minimum_exact_matching_cost": {
+      "denominator": 1,
+      "numerator": 0
+    },
+    "stratum_id": "stratum-05",
+    "whole_history_necessary_accounts": 122
+  },
+  {
+    "accounts_passing_internal_gates": 1,
+    "accounts_with_four_volume_cells": 2,
+    "communities": [
+      "programming",
+      "learnprogramming"
+    ],
+    "compatible_edges": 0,
+    "cut": "2015-08-01T00:00:00Z",
+    "intended_block_deficit": 2,
+    "matching_dp_states": 0,
+    "maximum_disjoint_blocks": 0,
+    "minimum_exact_matching_cost": {
+      "denominator": 1,
+      "numerator": 0
+    },
+    "stratum_id": "stratum-05",
+    "whole_history_necessary_accounts": 122
+  },
+  {
+    "accounts_passing_internal_gates": 1,
+    "accounts_with_four_volume_cells": 3,
+    "communities": [
+      "programming",
+      "learnprogramming"
+    ],
+    "compatible_edges": 0,
+    "cut": "2015-09-01T00:00:00Z",
+    "intended_block_deficit": 2,
+    "matching_dp_states": 0,
+    "maximum_disjoint_blocks": 0,
+    "minimum_exact_matching_cost": {
+      "denominator": 1,
+      "numerator": 0
+    },
+    "stratum_id": "stratum-05",
+    "whole_history_necessary_accounts": 122
+  },
+  {
+    "accounts_passing_internal_gates": 0,
+    "accounts_with_four_volume_cells": 2,
+    "communities": [
+      "programming",
+      "learnprogramming"
+    ],
+    "compatible_edges": 0,
+    "cut": "2015-10-01T00:00:00Z",
+    "intended_block_deficit": 2,
+    "matching_dp_states": 0,
+    "maximum_disjoint_blocks": 0,
+    "minimum_exact_matching_cost": {
+      "denominator": 1,
+      "numerator": 0
+    },
+    "stratum_id": "stratum-05",
+    "whole_history_necessary_accounts": 122
+  },
+  {
+    "accounts_passing_internal_gates": 1,
+    "accounts_with_four_volume_cells": 2,
+    "communities": [
+      "programming",
+      "learnprogramming"
+    ],
+    "compatible_edges": 0,
+    "cut": "2015-11-01T00:00:00Z",
+    "intended_block_deficit": 2,
+    "matching_dp_states": 0,
+    "maximum_disjoint_blocks": 0,
+    "minimum_exact_matching_cost": {
+      "denominator": 1,
+      "numerator": 0
+    },
+    "stratum_id": "stratum-05",
+    "whole_history_necessary_accounts": 122
+  },
+  {
+    "accounts_passing_internal_gates": 0,
+    "accounts_with_four_volume_cells": 4,
+    "communities": [
+      "programming",
+      "learnprogramming"
+    ],
+    "compatible_edges": 0,
+    "cut": "2015-12-01T00:00:00Z",
+    "intended_block_deficit": 2,
+    "matching_dp_states": 0,
+    "maximum_disjoint_blocks": 0,
+    "minimum_exact_matching_cost": {
+      "denominator": 1,
+      "numerator": 0
+    },
+    "stratum_id": "stratum-05",
+    "whole_history_necessary_accounts": 122
+  },
+  {
+    "accounts_passing_internal_gates": 0,
+    "accounts_with_four_volume_cells": 3,
+    "communities": [
+      "programming",
+      "learnprogramming"
+    ],
+    "compatible_edges": 0,
+    "cut": "2016-01-01T00:00:00Z",
+    "intended_block_deficit": 2,
+    "matching_dp_states": 0,
+    "maximum_disjoint_blocks": 0,
+    "minimum_exact_matching_cost": {
+      "denominator": 1,
+      "numerator": 0
+    },
+    "stratum_id": "stratum-05",
+    "whole_history_necessary_accounts": 122
+  },
+  {
+    "accounts_passing_internal_gates": 0,
+    "accounts_with_four_volume_cells": 3,
+    "communities": [
+      "programming",
+      "learnprogramming"
+    ],
+    "compatible_edges": 0,
+    "cut": "2016-02-01T00:00:00Z",
+    "intended_block_deficit": 2,
+    "matching_dp_states": 0,
+    "maximum_disjoint_blocks": 0,
+    "minimum_exact_matching_cost": {
+      "denominator": 1,
+      "numerator": 0
+    },
+    "stratum_id": "stratum-05",
+    "whole_history_necessary_accounts": 122
+  },
+  {
+    "accounts_passing_internal_gates": 0,
+    "accounts_with_four_volume_cells": 1,
+    "communities": [
+      "programming",
+      "learnprogramming"
+    ],
+    "compatible_edges": 0,
+    "cut": "2016-03-01T00:00:00Z",
+    "intended_block_deficit": 2,
+    "matching_dp_states": 0,
+    "maximum_disjoint_blocks": 0,
+    "minimum_exact_matching_cost": {
+      "denominator": 1,
+      "numerator": 0
+    },
+    "stratum_id": "stratum-05",
+    "whole_history_necessary_accounts": 122
+  },
+  {
+    "accounts_passing_internal_gates": 0,
+    "accounts_with_four_volume_cells": 1,
+    "communities": [
+      "programming",
+      "learnprogramming"
+    ],
+    "compatible_edges": 0,
+    "cut": "2016-04-01T00:00:00Z",
+    "intended_block_deficit": 2,
+    "matching_dp_states": 0,
+    "maximum_disjoint_blocks": 0,
+    "minimum_exact_matching_cost": {
+      "denominator": 1,
+      "numerator": 0
+    },
+    "stratum_id": "stratum-05",
+    "whole_history_necessary_accounts": 122
+  },
+  {
+    "accounts_passing_internal_gates": 0,
+    "accounts_with_four_volume_cells": 1,
+    "communities": [
+      "programming",
+      "learnprogramming"
+    ],
+    "compatible_edges": 0,
+    "cut": "2016-05-01T00:00:00Z",
+    "intended_block_deficit": 2,
+    "matching_dp_states": 0,
+    "maximum_disjoint_blocks": 0,
+    "minimum_exact_matching_cost": {
+      "denominator": 1,
+      "numerator": 0
+    },
+    "stratum_id": "stratum-05",
+    "whole_history_necessary_accounts": 122
+  },
+  {
+    "accounts_passing_internal_gates": 0,
+    "accounts_with_four_volume_cells": 1,
+    "communities": [
+      "programming",
+      "learnprogramming"
+    ],
+    "compatible_edges": 0,
+    "cut": "2016-06-01T00:00:00Z",
+    "intended_block_deficit": 2,
+    "matching_dp_states": 0,
+    "maximum_disjoint_blocks": 0,
+    "minimum_exact_matching_cost": {
+      "denominator": 1,
+      "numerator": 0
+    },
+    "stratum_id": "stratum-05",
+    "whole_history_necessary_accounts": 122
+  },
+  {
+    "accounts_passing_internal_gates": 0,
+    "accounts_with_four_volume_cells": 1,
+    "communities": [
+      "programming",
+      "learnprogramming"
+    ],
+    "compatible_edges": 0,
+    "cut": "2016-07-01T00:00:00Z",
+    "intended_block_deficit": 2,
+    "matching_dp_states": 0,
+    "maximum_disjoint_blocks": 0,
+    "minimum_exact_matching_cost": {
+      "denominator": 1,
+      "numerator": 0
+    },
+    "stratum_id": "stratum-05",
+    "whole_history_necessary_accounts": 122
+  },
+  {
+    "accounts_passing_internal_gates": 0,
+    "accounts_with_four_volume_cells": 2,
+    "communities": [
+      "programming",
+      "learnprogramming"
+    ],
+    "compatible_edges": 0,
+    "cut": "2016-08-01T00:00:00Z",
+    "intended_block_deficit": 2,
+    "matching_dp_states": 0,
+    "maximum_disjoint_blocks": 0,
+    "minimum_exact_matching_cost": {
+      "denominator": 1,
+      "numerator": 0
+    },
+    "stratum_id": "stratum-05",
+    "whole_history_necessary_accounts": 122
+  },
+  {
+    "accounts_passing_internal_gates": 0,
+    "accounts_with_four_volume_cells": 2,
+    "communities": [
+      "programming",
+      "learnprogramming"
+    ],
+    "compatible_edges": 0,
+    "cut": "2016-09-01T00:00:00Z",
+    "intended_block_deficit": 2,
+    "matching_dp_states": 0,
+    "maximum_disjoint_blocks": 0,
+    "minimum_exact_matching_cost": {
+      "denominator": 1,
+      "numerator": 0
+    },
+    "stratum_id": "stratum-05",
+    "whole_history_necessary_accounts": 122
+  },
+  {
+    "accounts_passing_internal_gates": 0,
+    "accounts_with_four_volume_cells": 2,
+    "communities": [
+      "programming",
+      "learnprogramming"
+    ],
+    "compatible_edges": 0,
+    "cut": "2016-10-01T00:00:00Z",
+    "intended_block_deficit": 2,
+    "matching_dp_states": 0,
+    "maximum_disjoint_blocks": 0,
+    "minimum_exact_matching_cost": {
+      "denominator": 1,
+      "numerator": 0
+    },
+    "stratum_id": "stratum-05",
+    "whole_history_necessary_accounts": 122
+  },
+  {
+    "accounts_passing_internal_gates": 0,
+    "accounts_with_four_volume_cells": 1,
+    "communities": [
+      "programming",
+      "learnprogramming"
+    ],
+    "compatible_edges": 0,
+    "cut": "2016-11-01T00:00:00Z",
+    "intended_block_deficit": 2,
+    "matching_dp_states": 0,
+    "maximum_disjoint_blocks": 0,
+    "minimum_exact_matching_cost": {
+      "denominator": 1,
+      "numerator": 0
+    },
+    "stratum_id": "stratum-05",
+    "whole_history_necessary_accounts": 122
+  },
+  {
+    "accounts_passing_internal_gates": 0,
+    "accounts_with_four_volume_cells": 1,
+    "communities": [
+      "programming",
+      "learnprogramming"
+    ],
+    "compatible_edges": 0,
+    "cut": "2016-12-01T00:00:00Z",
+    "intended_block_deficit": 2,
+    "matching_dp_states": 0,
+    "maximum_disjoint_blocks": 0,
+    "minimum_exact_matching_cost": {
+      "denominator": 1,
+      "numerator": 0
+    },
+    "stratum_id": "stratum-05",
+    "whole_history_necessary_accounts": 122
+  },
+  {
+    "accounts_passing_internal_gates": 0,
+    "accounts_with_four_volume_cells": 1,
+    "communities": [
+      "programming",
+      "learnprogramming"
+    ],
+    "compatible_edges": 0,
+    "cut": "2017-01-01T00:00:00Z",
+    "intended_block_deficit": 2,
+    "matching_dp_states": 0,
+    "maximum_disjoint_blocks": 0,
+    "minimum_exact_matching_cost": {
+      "denominator": 1,
+      "numerator": 0
+    },
+    "stratum_id": "stratum-05",
+    "whole_history_necessary_accounts": 122
+  },
+  {
+    "accounts_passing_internal_gates": 1,
+    "accounts_with_four_volume_cells": 2,
+    "communities": [
+      "programming",
+      "learnprogramming"
+    ],
+    "compatible_edges": 0,
+    "cut": "2017-02-01T00:00:00Z",
+    "intended_block_deficit": 2,
+    "matching_dp_states": 0,
+    "maximum_disjoint_blocks": 0,
+    "minimum_exact_matching_cost": {
+      "denominator": 1,
+      "numerator": 0
+    },
+    "stratum_id": "stratum-05",
+    "whole_history_necessary_accounts": 122
+  },
+  {
+    "accounts_passing_internal_gates": 0,
+    "accounts_with_four_volume_cells": 3,
+    "communities": [
+      "programming",
+      "learnprogramming"
+    ],
+    "compatible_edges": 0,
+    "cut": "2017-03-01T00:00:00Z",
+    "intended_block_deficit": 2,
+    "matching_dp_states": 0,
+    "maximum_disjoint_blocks": 0,
+    "minimum_exact_matching_cost": {
+      "denominator": 1,
+      "numerator": 0
+    },
+    "stratum_id": "stratum-05",
+    "whole_history_necessary_accounts": 122
+  },
+  {
+    "accounts_passing_internal_gates": 1,
+    "accounts_with_four_volume_cells": 2,
+    "communities": [
+      "programming",
+      "learnprogramming"
+    ],
+    "compatible_edges": 0,
+    "cut": "2017-04-01T00:00:00Z",
+    "intended_block_deficit": 2,
+    "matching_dp_states": 0,
+    "maximum_disjoint_blocks": 0,
+    "minimum_exact_matching_cost": {
+      "denominator": 1,
+      "numerator": 0
+    },
+    "stratum_id": "stratum-05",
+    "whole_history_necessary_accounts": 122
+  },
+  {
+    "accounts_passing_internal_gates": 1,
+    "accounts_with_four_volume_cells": 2,
+    "communities": [
+      "programming",
+      "learnprogramming"
+    ],
+    "compatible_edges": 0,
+    "cut": "2017-05-01T00:00:00Z",
+    "intended_block_deficit": 2,
+    "matching_dp_states": 0,
+    "maximum_disjoint_blocks": 0,
+    "minimum_exact_matching_cost": {
+      "denominator": 1,
+      "numerator": 0
+    },
+    "stratum_id": "stratum-05",
+    "whole_history_necessary_accounts": 122
+  },
+  {
+    "accounts_passing_internal_gates": 1,
+    "accounts_with_four_volume_cells": 3,
+    "communities": [
+      "programming",
+      "learnprogramming"
+    ],
+    "compatible_edges": 0,
+    "cut": "2017-06-01T00:00:00Z",
+    "intended_block_deficit": 2,
+    "matching_dp_states": 0,
+    "maximum_disjoint_blocks": 0,
+    "minimum_exact_matching_cost": {
+      "denominator": 1,
+      "numerator": 0
+    },
+    "stratum_id": "stratum-05",
+    "whole_history_necessary_accounts": 122
+  },
+  {
+    "accounts_passing_internal_gates": 1,
+    "accounts_with_four_volume_cells": 3,
+    "communities": [
+      "programming",
+      "learnprogramming"
+    ],
+    "compatible_edges": 0,
+    "cut": "2017-07-01T00:00:00Z",
+    "intended_block_deficit": 2,
+    "matching_dp_states": 0,
+    "maximum_disjoint_blocks": 0,
+    "minimum_exact_matching_cost": {
+      "denominator": 1,
+      "numerator": 0
+    },
+    "stratum_id": "stratum-05",
+    "whole_history_necessary_accounts": 122
+  },
+  {
+    "accounts_passing_internal_gates": 1,
+    "accounts_with_four_volume_cells": 4,
+    "communities": [
+      "programming",
+      "learnprogramming"
+    ],
+    "compatible_edges": 0,
+    "cut": "2017-08-01T00:00:00Z",
+    "intended_block_deficit": 2,
+    "matching_dp_states": 0,
+    "maximum_disjoint_blocks": 0,
+    "minimum_exact_matching_cost": {
+      "denominator": 1,
+      "numerator": 0
+    },
+    "stratum_id": "stratum-05",
+    "whole_history_necessary_accounts": 122
+  },
+  {
+    "accounts_passing_internal_gates": 1,
+    "accounts_with_four_volume_cells": 4,
+    "communities": [
+      "programming",
+      "learnprogramming"
+    ],
+    "compatible_edges": 0,
+    "cut": "2017-09-01T00:00:00Z",
+    "intended_block_deficit": 2,
+    "matching_dp_states": 0,
+    "maximum_disjoint_blocks": 0,
+    "minimum_exact_matching_cost": {
+      "denominator": 1,
+      "numerator": 0
+    },
+    "stratum_id": "stratum-05",
+    "whole_history_necessary_accounts": 122
+  },
+  {
+    "accounts_passing_internal_gates": 2,
+    "accounts_with_four_volume_cells": 4,
+    "communities": [
+      "programming",
+      "learnprogramming"
+    ],
+    "compatible_edges": 1,
+    "cut": "2017-10-01T00:00:00Z",
+    "intended_block_deficit": 1,
+    "matching_dp_states": 0,
+    "maximum_disjoint_blocks": 1,
+    "minimum_exact_matching_cost": {
+      "denominator": 2880000,
+      "numerator": 2134033
+    },
+    "stratum_id": "stratum-05",
+    "whole_history_necessary_accounts": 122
+  },
+  {
+    "accounts_passing_internal_gates": 0,
+    "accounts_with_four_volume_cells": 3,
+    "communities": [
+      "programming",
+      "learnprogramming"
+    ],
+    "compatible_edges": 0,
+    "cut": "2017-11-01T00:00:00Z",
+    "intended_block_deficit": 2,
+    "matching_dp_states": 0,
+    "maximum_disjoint_blocks": 0,
+    "minimum_exact_matching_cost": {
+      "denominator": 1,
+      "numerator": 0
+    },
+    "stratum_id": "stratum-05",
+    "whole_history_necessary_accounts": 122
+  },
+  {
+    "accounts_passing_internal_gates": 0,
+    "accounts_with_four_volume_cells": 2,
+    "communities": [
+      "programming",
+      "learnprogramming"
+    ],
+    "compatible_edges": 0,
+    "cut": "2017-12-01T00:00:00Z",
+    "intended_block_deficit": 2,
+    "matching_dp_states": 0,
+    "maximum_disjoint_blocks": 0,
+    "minimum_exact_matching_cost": {
+      "denominator": 1,
+      "numerator": 0
+    },
+    "stratum_id": "stratum-05",
+    "whole_history_necessary_accounts": 122
+  },
+  {
+    "accounts_passing_internal_gates": 0,
+    "accounts_with_four_volume_cells": 2,
+    "communities": [
+      "programming",
+      "learnprogramming"
+    ],
+    "compatible_edges": 0,
+    "cut": "2018-01-01T00:00:00Z",
+    "intended_block_deficit": 2,
+    "matching_dp_states": 0,
+    "maximum_disjoint_blocks": 0,
+    "minimum_exact_matching_cost": {
+      "denominator": 1,
+      "numerator": 0
+    },
+    "stratum_id": "stratum-05",
+    "whole_history_necessary_accounts": 122
+  },
+  {
+    "accounts_passing_internal_gates": 0,
+    "accounts_with_four_volume_cells": 2,
+    "communities": [
+      "programming",
+      "learnprogramming"
+    ],
+    "compatible_edges": 0,
+    "cut": "2018-02-01T00:00:00Z",
+    "intended_block_deficit": 2,
+    "matching_dp_states": 0,
+    "maximum_disjoint_blocks": 0,
+    "minimum_exact_matching_cost": {
+      "denominator": 1,
+      "numerator": 0
+    },
+    "stratum_id": "stratum-05",
+    "whole_history_necessary_accounts": 122
+  },
+  {
+    "accounts_passing_internal_gates": 0,
+    "accounts_with_four_volume_cells": 2,
+    "communities": [
+      "programming",
+      "learnprogramming"
+    ],
+    "compatible_edges": 0,
+    "cut": "2018-03-01T00:00:00Z",
+    "intended_block_deficit": 2,
+    "matching_dp_states": 0,
+    "maximum_disjoint_blocks": 0,
+    "minimum_exact_matching_cost": {
+      "denominator": 1,
+      "numerator": 0
+    },
+    "stratum_id": "stratum-05",
+    "whole_history_necessary_accounts": 122
+  },
+  {
+    "accounts_passing_internal_gates": 0,
+    "accounts_with_four_volume_cells": 3,
+    "communities": [
+      "programming",
+      "learnprogramming"
+    ],
+    "compatible_edges": 0,
+    "cut": "2018-04-01T00:00:00Z",
+    "intended_block_deficit": 2,
+    "matching_dp_states": 0,
+    "maximum_disjoint_blocks": 0,
+    "minimum_exact_matching_cost": {
+      "denominator": 1,
+      "numerator": 0
+    },
+    "stratum_id": "stratum-05",
+    "whole_history_necessary_accounts": 122
+  },
+  {
+    "accounts_passing_internal_gates": 0,
+    "accounts_with_four_volume_cells": 2,
+    "communities": [
+      "programming",
+      "learnprogramming"
+    ],
+    "compatible_edges": 0,
+    "cut": "2018-05-01T00:00:00Z",
+    "intended_block_deficit": 2,
+    "matching_dp_states": 0,
+    "maximum_disjoint_blocks": 0,
+    "minimum_exact_matching_cost": {
+      "denominator": 1,
+      "numerator": 0
+    },
+    "stratum_id": "stratum-05",
+    "whole_history_necessary_accounts": 122
+  }
+]

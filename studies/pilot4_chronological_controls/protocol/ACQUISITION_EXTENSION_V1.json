@@ -1,0 +1,65 @@
+{
+  "phase": "registered_score_free_acquisition_extension",
+  "registered_utc": "2026-09-15T01:30:15.718981+00:00",
+  "initial_feasibility_sha256": "fca8e65a8c281a3317d5a8516aa0bda0d83b3d06ac06630f32544bcd262dd982",
+  "initial_maximum_blocks": [
+    0,
+    1,
+    0
+  ],
+  "authorization": "User explicitly renewed approval to download additional data.",
+  "reason": "Original pairs cannot meet the strict chronological design. Two general-discussion/support community pairs supply larger writing archives and plausible account overlap, without relying on writing-style results.",
+  "sources": [
+    {
+      "community": "linux",
+      "url": "https://zissou.infosci.cornell.edu/convokit/datasets/subreddit-corpus/corpus-zipped/libraryschool~-~linux4noobs/linux.corpus.zip",
+      "bytes": 423053704
+    },
+    {
+      "community": "linuxquestions",
+      "url": "https://zissou.infosci.cornell.edu/convokit/datasets/subreddit-corpus/corpus-zipped/linuxPlus~-~listentothat/linuxquestions.corpus.zip",
+      "bytes": 86603753
+    },
+    {
+      "community": "programming",
+      "url": "https://zissou.infosci.cornell.edu/convokit/datasets/subreddit-corpus/corpus-zipped/prnine~-~programming/programming.corpus.zip",
+      "bytes": 864907082
+    },
+    {
+      "community": "learnprogramming",
+      "url": "https://zissou.infosci.cornell.edu/convokit/datasets/subreddit-corpus/corpus-zipped/leagueoflegends2~-~learnprogramming/learnprogramming.corpus.zip",
+      "bytes": 393050697
+    }
+  ],
+  "max_download_bytes": 1800000000,
+  "max_wall_seconds": 1800,
+  "acquisition_script": "<WORKSPACE>/studies/pilot3_cross_context/scripts/acquire_expansion.py",
+  "acquisition_script_sha256": "4ab502e442b74eb25fed6f68450841b2ce90dbca79b1a1db35a3748647b0ec3c",
+  "new_community_pairs": [
+    [
+      "linux",
+      "linuxquestions"
+    ],
+    [
+      "programming",
+      "learnprogramming"
+    ]
+  ],
+  "unchanged_design": {
+    "half_band_days": 180,
+    "within_period_four_cell_median_span_days_max": 30,
+    "half_target_words": 5000,
+    "half_min_records": 40,
+    "record_word_min": 20,
+    "record_word_max": 500,
+    "half_max_words": 5500,
+    "half_max_records": 200,
+    "all_eight_cell_word_ratio_max": "11/10",
+    "all_eight_cell_record_ratio_max": "5/4",
+    "boundary_tolerance_records": 10
+  },
+  "scope": "Acquisition only. Bind census implementation, exact source hashes and bounded preprocessing before new census. No chronological scoring is authorized by this receipt.",
+  "operational_target_amendment": "Initial target two blocks per original pair is unmet and retained as a deficit. Evaluate up to two globally disjoint blocks per additional pair plus the available original physics block, ceiling five blocks/80 constructed full runs; post-audit attainable denominators fixed before scoring. No repeated acquisition beyond these four sources is implicit.",
+  "provenance_limitations": "Official ConvoKit beta subreddit collection derived from Pushshift, through October 2018; provider warns history may be incomplete and speaker counts inflated. Source-account labels are not human identity. Source prose and account maps remain private.",
+  "provider_documentation": "https://convokit.cornell.edu/documentation/subreddit.html"
+}

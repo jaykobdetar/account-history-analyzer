@@ -1,0 +1,1 @@
+{"status": "registered_runtime_matches", "implementation_fingerprint": "bfc989028bf2b47c506d1ba501287d4e362aadc25ca5c731c41e4b27a336e179", "reference_environment": "CPython-3.12.3;Linux;x86_64;numpy=2.4.2;scipy=1.17.1;ruptures=1.1.10;markdown-it-py=3.0.0;jsonschema=4.26.0", "preprocessing_calls": 0, "style_distance_calls": 0, "source_archive_reads": 0}

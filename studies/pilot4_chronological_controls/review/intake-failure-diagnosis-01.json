@@ -1,0 +1,38 @@
+{
+  "all_matching_rows_byte_identical": false,
+  "diagnostic_script_sha256": "159adb75f213ab04c8945bf4530a704b5bcf07bbcf49f14cab7543054d5bba15",
+  "finished_utc": "2026-09-15T01:45:51.146286+00:00",
+  "matching_kinds": [
+    "comment",
+    "submission"
+  ],
+  "matching_locations": [
+    {
+      "community": "linux",
+      "kind": "comment",
+      "source_line": 171444
+    },
+    {
+      "community": "programming",
+      "kind": "submission",
+      "source_line": 19976
+    }
+  ],
+  "matching_raw_ids": 2,
+  "peak_rss_mib": 16.60546875,
+  "preprocessing_calls": 0,
+  "private_metadata_sha256": "49776c365291af1d8d3fd77e6e61b9f4a66728a1f25e6ef1aecf5edecafdc8c9",
+  "rows_scanned": 3490927,
+  "same_account_metadata": false,
+  "same_timestamp_metadata": false,
+  "scope_limitation": "Only the first failed prefix was inspected. No claim about other collisions later in the archives.",
+  "source_prefix_scope": {
+    "linux": 2988858,
+    "linuxquestions": 482093,
+    "programming": 19976
+  },
+  "source_prose_fields_accessed": false,
+  "status": "bounded_failed_prefix_diagnosed",
+  "style_distance_calls": 0,
+  "wall_seconds": 21.150221026007785
+}

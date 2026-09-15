@@ -1,0 +1,63 @@
+{
+  "phase": "score_free_additional_archive_metadata_intake",
+  "registered_utc": "2026-09-15T01:38:55.348739+00:00",
+  "acquisition_receipt_sha256": "f1f99519ddc389360955d04a73e16c3c60ae718d9aed486ced32fa14e2576e1b",
+  "implementation_fingerprint": "bfc989028bf2b47c506d1ba501287d4e362aadc25ca5c731c41e4b27a336e179",
+  "analysis_config_sha256": "8fd0239fe2f87c9f1506786ac36099fe996e00cc6e021b3ecc67fbb65cd2d925",
+  "exposure_flags_sha256": "d7e1fe9333896e423618696da7f03029cac2f43d3c855b8a35cd7131b468722f",
+  "community_pairs": [
+    [
+      "linux",
+      "linuxquestions"
+    ],
+    [
+      "programming",
+      "learnprogramming"
+    ]
+  ],
+  "raw_present_comments_per_community_min": 80,
+  "record_word_min": 20,
+  "record_word_max": 500,
+  "sources": [
+    {
+      "community": "linux",
+      "archive": "linux.corpus.zip",
+      "bytes": 423053704,
+      "sha256": "29b7181a05913401e7c562a029b9cfeca9da6df41a153a04be3778430821bb71",
+      "utterances_bytes": 1691480431
+    },
+    {
+      "community": "linuxquestions",
+      "archive": "linuxquestions.corpus.zip",
+      "bytes": 86603753,
+      "sha256": "6b40a18df38879d43d7c063bd3cf805a5b7ad0411d30c92a5601ce2880215b64",
+      "utterances_bytes": 326883019
+    },
+    {
+      "community": "programming",
+      "archive": "programming.corpus.zip",
+      "bytes": 864907082,
+      "sha256": "a4aecda23e8f2372b995082c9622d21f4a87f7d211bdb139fbeff81e533232e3",
+      "utterances_bytes": 3457396602
+    },
+    {
+      "community": "learnprogramming",
+      "archive": "learnprogramming.corpus.zip",
+      "bytes": 393050697,
+      "sha256": "9732eab8ad07e0dff4abece1ae1d531bd90d0cb803bcfbd24e878be9726cf521",
+      "utterances_bytes": 1469538248
+    }
+  ],
+  "limits": {
+    "max_address_space_bytes": 4294967296,
+    "max_wall_seconds": 3600,
+    "max_source_rows_per_pass": 15000000,
+    "max_source_uncompressed_bytes_per_pass": 17179869184,
+    "max_preprocessed_records": 2000000,
+    "max_eligibility_output_bytes": 805306368,
+    "max_private_output_bytes": 1073741824
+  },
+  "coverage": "Exhaustive source row inventory; safe necessary-count prefilter requires80 present timestamped comments in BOTH communities of a registered pair. Metadata output is one row per actual frozen-preprocessor call. Invalid/unavailable/codepoint-limit inputs never qualify and are counted as exclusions without a metadata row. No style features or distances.",
+  "protected_inputs": "Exclude57 earlier/protected/private and60pilot3-scored identities before body eligibility inspection. Capacity-only exposure remains flagged.",
+  "downstream": "Use same101cuts,180-day bands,30-day four-cell median span,5000-word/40-record prefix,20\u2013500 record words,5500-word/200-record maximum,1.10word/1.25record balance. Source hashes, code and synthetic tests separately bound before execution."
+}

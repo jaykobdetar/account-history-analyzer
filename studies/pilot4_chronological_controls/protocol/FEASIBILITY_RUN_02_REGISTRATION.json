@@ -1,0 +1,122 @@
+{
+  "band_rule": "[cut-180days,cut) and [cut,cut+180days)",
+  "cohort_selected": false,
+  "completed_intake_run_receipt": {
+    "path": "<WORKSPACE>/studies/pilot4_chronological_controls/logs/intake-extension-02.receipt.json",
+    "sha256": "c3e7b14d4d412d9acd0ed2e7544b539c173bd120c4d1837f267193267a0ca2b8"
+  },
+  "completed_intake_summary": {
+    "path": "<WORKSPACE>/studies/pilot4_chronological_controls/inventory/intake-extension-02/intake-summary.json",
+    "sha256": "ddd2a97a8e92c17baed7c211e990298a8f4d71f321c111edafa24257b2444ebe"
+  },
+  "cost_rule": "sum_four_cells(abs(medianA-medianB)/(180*86400)+abs(wordsA-wordsB)/5000+abs(recordsA-recordsB)/40)",
+  "exposure_flags_sha256": "d7e1fe9333896e423618696da7f03029cac2f43d3c855b8a35cd7131b468722f",
+  "external_fixed_witnesses": [
+    {
+      "path": "<PRIVATE_PILOT4>/feasibility-01/candidates-and-witness.json",
+      "sha256": "b429d1c6c0f0d65124c4de025f55a446038c152b07ed47c039f4143abb70dffb",
+      "source_stratum_id": "stratum-02",
+      "stratum_id": "stratum-02"
+    }
+  ],
+  "external_witness_rule": "At those independently chosen new cuts only, find first deterministic lexicographic account-hash-ordered globally disjoint witness across sorted strata02/04/05 with quotas1/2/2. Stratum02 uses its fixed previously observed maximum_matching edge. No alternate-cut search or hidden external-account exclusion from per-pair capacities.",
+  "failure_scope": "Preserve every202 new pair-cut row and each full pairwise optimum. If the fixed physics edge plus two new blocks/pair cannot assemble globally without account reuse, report joint deficit even when pairwise optima suffice. These are score-free feasibility candidates, not a selected cohort.",
+  "global_witness_quotas": {
+    "stratum-02": 1,
+    "stratum-04": 2,
+    "stratum-05": 2
+  },
+  "implementation_sha256": "ac77100f1f1204ff71bfdf5e92461d97449485bb47f29185e4478c5dc99d08aa",
+  "independent_test_receipt": {
+    "path": "<WORKSPACE>/studies/pilot4_chronological_controls/logs/feasibility-v2-independent-synthetic-01.receipt.json",
+    "sha256": "2ceb222b312785ebc4b69ffc55963b452d42dfbe66bc356401af2c01cab800ae"
+  },
+  "logging_runner": {
+    "path": "<WORKSPACE>/studies/pilot4_chronological_controls/scripts/run_logged.py",
+    "sha256": "4d94adb7a06ec38cc6f5b4fe55f801e87bbdcff712139146d53f55a2928eb2a4"
+  },
+  "matching_backend": {
+    "backend_registration": {
+      "path": "<WORKSPACE>/studies/pilot4_chronological_controls/protocol/EXACT_MATCHING_BACKEND_REGISTRATION.json",
+      "sha256": "756a6f65d332463250ace47b5e772c0ed193add86e3d84067810c7aeea684d55"
+    },
+    "dependency_manifest": {
+      "path": "<WORKSPACE>/studies/pilot4_chronological_controls/environment/isolated-matching-dependency.json",
+      "sha256": "c430142739b96259258636432176badf01425cc2c07cc94d4b4b85ab61434b15"
+    },
+    "helper": {
+      "path": "<WORKSPACE>/studies/pilot4_chronological_controls/scripts/exact_blossom.py",
+      "sha256": "f9f154211db0bd2b2e37ca99ff5a7c22e9b775c23e9a40442f7257b663ae3825"
+    }
+  },
+  "offline_runner": {
+    "path": "<WORKSPACE>/scripts/offline_exec.py",
+    "sha256": "88bf4f2a8ff3afe29355e6b52638c03badb4c977b4ae8ec60f0f126d3252ffef"
+  },
+  "original_feasibility_plan": {
+    "path": "<WORKSPACE>/studies/pilot4_chronological_controls/protocol/FEASIBILITY_PLAN_V1.json",
+    "sha256": "8b547410fcdcb7c365711f0d8c0b0d7ed2a74b2491b02fa9c3d9af5dabe2e54a"
+  },
+  "phase": "frozen_before_real_extended_metadata_capacity_search",
+  "plan_sha256": "e19389654aef09181329ee9a2d3e825701b98542ff68d8604a138aabe2f1a1a2",
+  "planned_output": "<WORKSPACE>/studies/pilot4_chronological_controls/inventory/feasibility-02",
+  "planned_private_output": "<PRIVATE_PILOT4>/feasibility-02",
+  "registered_command": [
+    "/usr/bin/timeout",
+    "--kill-after=5",
+    "600",
+    "/usr/bin/env",
+    "PYTHONPATH=<ISOLATED_MATCHING_LIBRARY>",
+    "PYTHONDONTWRITEBYTECODE=1",
+    ".venv/bin/python",
+    "scripts/offline_exec.py",
+    ".venv/bin/python",
+    "studies/pilot4_chronological_controls/scripts/metadata_feasibility_v2.py",
+    "--plan",
+    "studies/pilot4_chronological_controls/protocol/FEASIBILITY_PLAN_V2.json",
+    "--exposure-flags",
+    "<PRIVATE_PILOT4>/exposure-flags.json",
+    "--registration",
+    "studies/pilot4_chronological_controls/protocol/FEASIBILITY_RUN_02_REGISTRATION.json",
+    "--out",
+    "studies/pilot4_chronological_controls/inventory/feasibility-02",
+    "--private-out",
+    "<PRIVATE_PILOT4>/feasibility-02"
+  ],
+  "registered_utc": "2026-09-15T02:06:00.136992+00:00",
+  "resource_bounds": {
+    "address_space_bytes": 4294967296,
+    "external_termination_grace_seconds": 5,
+    "metadata_bytes_cap": 1073741824,
+    "metadata_record_cap": 3000000,
+    "wall_seconds": 600
+  },
+  "source_metadata": [
+    {
+      "bytes": 187358055,
+      "path": "<PRIVATE_PILOT4>/intake-extension-02/record-eligibility.jsonl",
+      "sha256": "6fa2cd853bfd89ec317a9b6823ffc5c1a551f4e897c6d6a7cd5cc6586d55e80a"
+    }
+  ],
+  "style_scores_started": false,
+  "test_files": [
+    {
+      "path": "tests/test_metadata_feasibility_v2.py",
+      "sha256": "12cf27c9dd5df2a77fee9a9a9e40f6a8540e9737524d09cc636b1a2b13bf9809"
+    },
+    {
+      "path": "tests/test_metadata_feasibility_v2_independent.py",
+      "sha256": "1ef96e98f75ef20bc0220b73f28a704d90a2bcf4dcde38e307066a950c7ff319"
+    }
+  ],
+  "test_receipt": {
+    "path": "<WORKSPACE>/studies/pilot4_chronological_controls/logs/feasibility-v2-synthetic-01.receipt.json",
+    "sha256": "9a6c2958b53f275ff6a5d22c4cdf37af3796bc26d8336e13aa92187b8ecd8b6e"
+  },
+  "test_scope": "39 synthetic-only checks; real dependency files/hash/import checked with synthetic graph; no real metadata capacity or source writing accessed.",
+  "test_stdout": {
+    "path": "<WORKSPACE>/studies/pilot4_chronological_controls/logs/feasibility-v2-synthetic-01.stdout.log",
+    "sha256": "c88ad25201fe4c6a059ca06d9a7fe12b16f99e88870bbf2bc9619550e4a37ef8"
+  },
+  "tie_rule": "Within a cut: sorted SHA256(salt+casefold(account)) edge tuples; across cuts: maximum cardinality, minimum exact cost, earliest UTC cut."
+}

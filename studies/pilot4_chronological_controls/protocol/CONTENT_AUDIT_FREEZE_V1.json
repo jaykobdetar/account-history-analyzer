@@ -1,0 +1,9 @@
+{
+  "state": "frozen_before_audit",
+  "registered_utc": "2026-09-15T02:19:11.095623+00:00",
+  "candidate_pool_sha256": "cb4587295ee19ff92c2d09f80296a5d7ed774cecd35dae1c82ad0b4317fdea78",
+  "historical_inventory_sha256": "6973fa8556907846fd61422930de95b74b76acbbbf5ccaab38b949597d327231",
+  "engine_sha256": "f080682bc5beac251f9fb07404d0c9a9093aab04deff8d53997708d05dd01e92",
+  "wrapper_sha256": "93d99004d7ea406bd7e44cfcc8997a8abad69508c9cb84cc0c35d5783cb88b1f",
+  "rules_sha256": "1ed43a3029d053d29a5be88093a4f0aed04a30399fc41be17f2c04e9a2033fa1"
+}

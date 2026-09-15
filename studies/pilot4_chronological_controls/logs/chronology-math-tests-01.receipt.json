@@ -1,0 +1,30 @@
+{
+  "argv": [
+    ".venv/bin/python",
+    "-m",
+    "unittest",
+    "discover",
+    "-s",
+    "studies/pilot4_chronological_controls/tests",
+    "-p",
+    "test_chronology_math.py",
+    "-v"
+  ],
+  "cwd": "<WORKSPACE>",
+  "started_utc": "2026-09-15T01:26:59.321715+00:00",
+  "finished_utc": "2026-09-15T01:26:59.415947+00:00",
+  "exit_code": 0,
+  "wall_seconds": 0.0942326639778912,
+  "child_peak_rss_mib": 17.51171875,
+  "runner_sha256": "4d94adb7a06ec38cc6f5b4fe55f801e87bbdcff712139146d53f55a2928eb2a4",
+  "outputs": {
+    "stdout.log": {
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    "stderr.log": {
+      "bytes": 3697,
+      "sha256": "b26a7b582fe43a9ca8d38c04906b833e8697fa021e54f65b836cd471c7298c2d"
+    }
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "phase": "before_mechanical_protection_inventory_extension",
+  "utc": "2026-09-15T01:35:43.441251+00:00",
+  "expected_added_records": 5773,
+  "expected_added_accounts": 60,
+  "purpose": "Automatic protection audit only. Prior original source files unchanged.",
+  "bindings": [
+    {
+      "path": "<WORKSPACE>/studies/pilot4_chronological_controls/scripts/extend_protection_inventory.py",
+      "sha256": "21514356584cf589b64e140498619e0f946f23d4954e3cd8037c47e6f304c775"
+    },
+    {
+      "path": "<PRIVATE_PILOT3>/historical-audit-source-inventory.json",
+      "sha256": "156c5799dd952d30f5e19d883d8b2c294e0d48695af9cf3c0baf74ada0c9bc5a"
+    },
+    {
+      "path": "<PRIVATE_PILOT3>/cohort-01/cohort.json",
+      "sha256": "315e70c21d4d2bc96620aec781f9a9d97c94dc68a3d0ca77e581e0b4d5c6f0bb"
+    },
+    {
+      "path": "<PRIVATE_PILOT3>/candidates-01/candidate-pool.jsonl",
+      "sha256": "15c25075bea6c9e0dccd47d8bb26d28323ef786b89fd996dccc3136365dac98c"
+    }
+  ]
+}

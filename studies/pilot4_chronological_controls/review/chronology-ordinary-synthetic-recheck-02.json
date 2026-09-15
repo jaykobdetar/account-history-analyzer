@@ -1,0 +1,140 @@
+{
+  "all_saved_windows_with_same_stream_id": 21,
+  "analysis_peak_rss_mib": 153.64453125,
+  "analysis_wall_seconds": 8.736052756983554,
+  "artifact_bytes": 16108518,
+  "artifact_count": 16,
+  "artifact_inventory": [
+    {
+      "bytes": 2262,
+      "canonical": true,
+      "name": "activity_daily.svg",
+      "sha256": "765d352b9e3d2de0fe16c2f832b4ede330c539c4c6b86669f806c96e64577cbf"
+    },
+    {
+      "bytes": 6479,
+      "canonical": true,
+      "name": "activity_hourly.svg",
+      "sha256": "7157e7a7d102cc002ede01645a35508e1715ec20647c50a0d57c0e2665b823e8"
+    },
+    {
+      "bytes": 10812,
+      "canonical": true,
+      "name": "adjacent_distances.svg",
+      "sha256": "f558f9c22819d00c47254b989935a61d771a37cffc193a74651e72b866246581"
+    },
+    {
+      "bytes": 1136,
+      "canonical": true,
+      "name": "checksums.json",
+      "sha256": "cfd6bdb28ab4b99c817073f94e55dbd9d8f034ba33f320fbccb33ed7ab864651"
+    },
+    {
+      "bytes": 4209,
+      "canonical": true,
+      "name": "eligible_word_volume.svg",
+      "sha256": "1b52bd3cd0998f43e5dd4babc8382639b0f56d73e4c70ad45000d094fabb6044"
+    },
+    {
+      "bytes": 369810,
+      "canonical": true,
+      "name": "evidence.jsonl",
+      "sha256": "a46e71681745f9dca84c8712368fc08f9395f837d4317fd9131920d915958425"
+    },
+    {
+      "bytes": 453,
+      "canonical": false,
+      "name": "ingest_receipt.json",
+      "sha256": "a9b8d0a020ed39d7082dbb04f85e29decf98c4cba2f549b31f84d2b5257fae71"
+    },
+    {
+      "bytes": 336157,
+      "canonical": true,
+      "name": "method_registry.json",
+      "sha256": "1b4d53b648303ea3b10f98e8dc40958b50587bd3c61c2262c83be7fb8a30da26"
+    },
+    {
+      "bytes": 1312256,
+      "canonical": true,
+      "name": "records_features.jsonl",
+      "sha256": "db662e900ec58f8126b045cace9db67b2ac62ff3d9f5c36fe74e43f74604c9b9"
+    },
+    {
+      "bytes": 791278,
+      "canonical": true,
+      "name": "report.html",
+      "sha256": "28546e2e54c90b1b73c001f2b518427cdceb5d64482c9b9faadbd448519255c3"
+    },
+    {
+      "bytes": 682779,
+      "canonical": true,
+      "name": "report.md",
+      "sha256": "25b201d1b54f6c188e0c73ec3faa69f8d94d1cf98b1029c8ddabe773448b03ea"
+    },
+    {
+      "bytes": 2293,
+      "canonical": true,
+      "name": "resolved_config.json",
+      "sha256": "8fd0239fe2f87c9f1506786ac36099fe996e00cc6e021b3ecc67fbb65cd2d925"
+    },
+    {
+      "bytes": 12369145,
+      "canonical": true,
+      "name": "results.json",
+      "sha256": "e63932905340d9b055b91f4b99e42bd7c0fe384426f47246d138d3533a885be5"
+    },
+    {
+      "bytes": 2528,
+      "canonical": false,
+      "name": "run_receipt.json",
+      "sha256": "5ee3fba55a1986e7b7be8beb41ac39a1d4935fe496603b21fa6111dd58037652"
+    },
+    {
+      "bytes": 14100,
+      "canonical": true,
+      "name": "surface_features.svg",
+      "sha256": "1c8c9623371849b2f15dc4e204ac1975f3719bd925e0cc0580d12fcf0cd9d7aa"
+    },
+    {
+      "bytes": 202821,
+      "canonical": true,
+      "name": "windows.jsonl",
+      "sha256": "a5bf522e9b67eb19c95d443ac76bafc1df9bada584403ffcded1ccf24b7e3fb5"
+    }
+  ],
+  "candidate_count": 0,
+  "candidate_occurrence": false,
+  "checker_sha256": "a48eabc2715c7993a82e7c06b9aa8c4d71f61defbdc443cb94392fad0d7391e1",
+  "explicitly_synthetic": true,
+  "legal_split_intervals": [
+    [
+      24,
+      24
+    ],
+    [
+      32,
+      32
+    ],
+    [
+      40,
+      40
+    ]
+  ],
+  "native_change_status": "no_measurable_variation",
+  "new_analyzer_executions": 0,
+  "normalized_status": "ok",
+  "original_receipt_sha256": "60c81ea9a403a08d25e091672545a681c4306a38188802740fa115f58043c9c9",
+  "original_start_binding_sha256": "dd641b77016dd3b278ab7cced5ab58371790dbfd1fbfd1c79ec31ba218e52c3d",
+  "preserved_ordinary_cli_executions": 1,
+  "primary_window_check": "all_primary_memberships_counts_positions_verified",
+  "qualified_primary_windows": 8,
+  "real_corpus_records": 0,
+  "record_count": 64,
+  "records_per_primary_window": 8,
+  "retained_words": 8000,
+  "sensitivity_windows_correctly_separated": 13,
+  "status": "passed",
+  "updated_runner_sha256": "2318580a40888b1d21ba8036f4f7efdb1cbe9af7d5724361dfedcbf7ec9bc5d8",
+  "updated_score_adapter_sha256": "1e1e9c39d7fa88a31fc7a0f90647edc52a11deea21ccbc18117e8d9d2463c512",
+  "words_per_primary_window": 1000
+}

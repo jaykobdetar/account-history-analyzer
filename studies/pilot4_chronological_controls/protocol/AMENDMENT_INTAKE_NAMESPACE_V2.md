@@ -1,0 +1,9 @@
+# Pre-score intake correction: source ID namespaces
+
+Attempt01 stopped after3,490,927 source rows and zero preprocessing calls. The bounded diagnostic found a Linux comment and a programming submission with the same bare source ID. Their kinds, timestamps, source accounts and original row hashes differ. Reddit's comment and submission namespaces cannot be treated as one uniqueness domain. The private diagnostic retains the original identifier; the public diagnosis exposes only counts and kinds.
+
+Before attempt02, restrict the intake uniqueness check to comments, the only eligible input kind in this study. Continue counting every source row and reporting submission exclusions. Repeated comment IDs remain fatal. Submission identity uniqueness is outside this comment-only construction's scope. The candidate-source extractor must ignore submissions before matching selected comment IDs, and must still verify every selected original comment's source-line hash, identity, kind, metadata and body.
+
+No original ID is renamed, no comment is removed for this observed collision, and no writing is deduplicated or rewritten. Preserve the original intake code, registration, failed receipt and diagnosis. Use a separately named intake implementation and new plan/registration/output paths, with synthetic tests covering cross-kind collisions and repeated-comment rejection. Hash the revised implementation and tests before rerunning the same four archives under the same bounded effort.
+
+This is an evaluation intake correction, not an analyzer modification. The180-day half-bands,30-day median matching,5,000-word/40-record cells, volume ratios, whole-record rules, account exclusions and ten-record scoring tolerance remain unchanged. No chronological score was computed or inspected before this amendment.

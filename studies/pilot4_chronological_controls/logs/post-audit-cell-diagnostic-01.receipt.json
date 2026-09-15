@@ -1,0 +1,38 @@
+{
+  "argv": [
+    ".venv/bin/python",
+    "scripts/offline_exec.py",
+    ".venv/bin/python",
+    "-B",
+    "studies/pilot4_chronological_controls/scripts/diagnose_post_audit_cells.py",
+    "--plan",
+    "<PRIVATE_PILOT4>/PREPARATION_PLAN_V1.json",
+    "--selection",
+    "<PRIVATE_PILOT4>/candidates-01/selection.json",
+    "--preparation",
+    "<PRIVATE_PILOT4>/candidates-01/preparation.json",
+    "--audit",
+    "<PRIVATE_PILOT4>/audit-01/audit.json",
+    "--prepared-check",
+    "studies/pilot4_chronological_controls/review/prepared-independent-check-01.json",
+    "--out",
+    "studies/pilot4_chronological_controls/review/post-audit-cell-failures-independent.json"
+  ],
+  "cwd": "<WORKSPACE>",
+  "started_utc": "2026-09-15T02:31:18.277038+00:00",
+  "finished_utc": "2026-09-15T02:31:18.552987+00:00",
+  "exit_code": 0,
+  "wall_seconds": 0.27595052000833675,
+  "child_peak_rss_mib": 131.4765625,
+  "runner_sha256": "4d94adb7a06ec38cc6f5b4fe55f801e87bbdcff712139146d53f55a2928eb2a4",
+  "outputs": {
+    "stdout.log": {
+      "bytes": 321,
+      "sha256": "550100132ba022d8150eb19c249fbc7e2d0571b7ad4033f0bb01a893759ff0ab"
+    },
+    "stderr.log": {
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    }
+  }
+}

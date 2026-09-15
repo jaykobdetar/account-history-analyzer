@@ -1,0 +1,55 @@
+{
+  "accounts": 7,
+  "candidate_pool_sha256": "cb4587295ee19ff92c2d09f80296a5d7ed774cecd35dae1c82ad0b4317fdea78",
+  "original_source_index_sha256": "677f9512a8b1f4af006ca0aaca3ee1f6e2047cde37311084596bd5b32b0d6394",
+  "original_source_lines_sha256": "e4c1f116177cbff9b5522df2eee5385b783a8f197205394115fd32d7a22a3ba3",
+  "peak_rss_mib": 65.97265625,
+  "plan_sha256": "89025398dfa648228fc1d67b3c6d1d9644d0685205f1d0f83689882f3445308c",
+  "records": 2447,
+  "retained_words": 220065,
+  "selection_sha256": "3de6d64309e4f939c92bd9dcb7523c35c28461a6fd76458ced106ce007e7080b",
+  "source_rows": 12368568,
+  "source_uncompressed_bytes": 7511987617,
+  "sources": [
+    {
+      "archive_sha256": "7c4af5f5fa07adc39ff7df3fc49d23fcff906b3d64a8afde3eafa31720d410b2",
+      "community": "AskPhysics",
+      "source_rows": 240055,
+      "utterances_sha256": "cdfd345ff223ee685865c390d05c396b4cf989f01dac678fa20103c6c0b6e87d"
+    },
+    {
+      "archive_sha256": "e3409d3b2d537f83330e1337423c90eeeddbcca69468c7fc66e054a84a393e64",
+      "community": "Physics",
+      "source_rows": 619676,
+      "utterances_sha256": "a5f5bd5d74dc7ab192461c6c09a999db07b0f4631071b106c4bf791efc53796a"
+    },
+    {
+      "archive_sha256": "29b7181a05913401e7c562a029b9cfeca9da6df41a153a04be3778430821bb71",
+      "community": "linux",
+      "source_rows": 2988858,
+      "utterances_sha256": "fb63e9da87e69e22c99244d0db471d1c725beec4869dcdb8e4d8a34daac0149a"
+    },
+    {
+      "archive_sha256": "6b40a18df38879d43d7c063bd3cf805a5b7ad0411d30c92a5601ce2880215b64",
+      "community": "linuxquestions",
+      "source_rows": 482093,
+      "utterances_sha256": "bbc9dcd5c3b8a157853c085c061d42fddfcefbd428f7ea1f8ca939eae763378f"
+    },
+    {
+      "archive_sha256": "a4aecda23e8f2372b995082c9622d21f4a87f7d211bdb139fbeff81e533232e3",
+      "community": "programming",
+      "source_rows": 5977651,
+      "utterances_sha256": "c2705682f7839daf8af0bb909297188d9d6d9a0b0f425ba44f9bcac46c86d2cf"
+    },
+    {
+      "archive_sha256": "9732eab8ad07e0dff4abece1ae1d531bd90d0cb803bcfbd24e878be9726cf521",
+      "community": "learnprogramming",
+      "source_rows": 2060235,
+      "utterances_sha256": "f3ed3b92bbe322dddd96f575ea7603a66aa46311c504e654ebe6ac4cb2a2b2b2"
+    }
+  ],
+  "start_binding_sha256": "446874840e780a5695da11ec8184df49e99ad0dbddfeaaf34f3054add8e5c69f",
+  "status": "candidate_pool_prepared_not_audited_or_scored",
+  "style_scores_computed": 0,
+  "wall_seconds": 89.5721027420077
+}

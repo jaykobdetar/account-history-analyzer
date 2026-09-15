@@ -1,0 +1,7 @@
+test_hashes_and_aggregate_prose_allowed_cache_omitted (test_check_public_privacy_independent.PrivacyCheck.test_hashes_and_aggregate_prose_allowed_cache_omitted) ... ok
+test_positive_leaks_detected_without_excerpts_or_values (test_check_public_privacy_independent.PrivacyCheck.test_positive_leaks_detected_without_excerpts_or_values) ... ok
+
+----------------------------------------------------------------------
+Ran 2 tests in 0.002s
+
+OK

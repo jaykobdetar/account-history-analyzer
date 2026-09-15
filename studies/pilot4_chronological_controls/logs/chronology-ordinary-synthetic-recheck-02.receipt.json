@@ -1,0 +1,30 @@
+{
+  "argv": [
+    ".venv/bin/python",
+    "scripts/offline_exec.py",
+    ".venv/bin/python",
+    "-B",
+    "studies/pilot4_chronological_controls/tests/check_chronology_smoke_saved.py",
+    "--private",
+    "/tmp/ahas-pilot4-ordinary-synthetic-smoke-01",
+    "--report",
+    "studies/pilot4_chronological_controls/review/chronology-ordinary-synthetic-recheck-02.json"
+  ],
+  "cwd": "<WORKSPACE>",
+  "started_utc": "2026-09-15T01:47:47.937135+00:00",
+  "finished_utc": "2026-09-15T01:47:48.095778+00:00",
+  "exit_code": 0,
+  "wall_seconds": 0.15864525400684215,
+  "child_peak_rss_mib": 64.95703125,
+  "runner_sha256": "4d94adb7a06ec38cc6f5b4fe55f801e87bbdcff712139146d53f55a2928eb2a4",
+  "outputs": {
+    "stdout.log": {
+      "bytes": 1255,
+      "sha256": "8fb6d9972ada41fb67ba590d041da6de0523e74db09d8ca0012299c90553c87f"
+    },
+    "stderr.log": {
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    }
+  }
+}

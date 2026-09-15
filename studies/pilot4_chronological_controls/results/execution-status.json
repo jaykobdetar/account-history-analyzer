@@ -1,0 +1,93 @@
+{
+  "status": "feasibility_blocked_before_chronological_execution",
+  "created_utc": "2026-09-15T02:23:22.692581+00:00",
+  "initial_target_blocks": 6,
+  "amended_target_blocks": 5,
+  "pre_audit_globally_disjoint_blocks": 3,
+  "post_audit_eligible_blocks": 0,
+  "post_audit_selected_accounts": 0,
+  "post_audit_constructed_cases": 0,
+  "real_chronological_analyzer_calls": 0,
+  "real_chronological_replay_calls": 0,
+  "analyzer_abstention_rate": null,
+  "rules_or_engine_relaxed": false,
+  "outcome_interpretation": "Construction failed under the frozen controls. This is not an engine zero-candidate result, an analyzer abstention, or evidence for or against localization performance.",
+  "four_conditions": [
+    {
+      "condition": "continuity_same_community",
+      "amended_target_cases": 20,
+      "eligible_constructed_cases": 0,
+      "analyzer_attempted_cases": 0,
+      "analyzer_executed_cases": 0,
+      "analyzer_abstention_cases": null,
+      "candidate_occurrence_rate": null,
+      "candidate_count": null,
+      "switch_localization_within_tolerance_rate": null,
+      "control_junction_alignment_rate": null,
+      "attainable_window_resolution": null,
+      "status": "not_evaluated_no_post_audit_matched_blocks",
+      "reason_codes": [
+        "no_compatible_post_audit_account_blocks"
+      ],
+      "tolerance_records": 10
+    },
+    {
+      "condition": "switch_same_community",
+      "amended_target_cases": 20,
+      "eligible_constructed_cases": 0,
+      "analyzer_attempted_cases": 0,
+      "analyzer_executed_cases": 0,
+      "analyzer_abstention_cases": null,
+      "candidate_occurrence_rate": null,
+      "candidate_count": null,
+      "switch_localization_within_tolerance_rate": null,
+      "control_junction_alignment_rate": null,
+      "attainable_window_resolution": null,
+      "status": "not_evaluated_no_post_audit_matched_blocks",
+      "reason_codes": [
+        "no_compatible_post_audit_account_blocks"
+      ],
+      "tolerance_records": 10
+    },
+    {
+      "condition": "continuity_changed_community",
+      "amended_target_cases": 20,
+      "eligible_constructed_cases": 0,
+      "analyzer_attempted_cases": 0,
+      "analyzer_executed_cases": 0,
+      "analyzer_abstention_cases": null,
+      "candidate_occurrence_rate": null,
+      "candidate_count": null,
+      "switch_localization_within_tolerance_rate": null,
+      "control_junction_alignment_rate": null,
+      "attainable_window_resolution": null,
+      "status": "not_evaluated_no_post_audit_matched_blocks",
+      "reason_codes": [
+        "no_compatible_post_audit_account_blocks"
+      ],
+      "tolerance_records": 10
+    },
+    {
+      "condition": "switch_changed_community",
+      "amended_target_cases": 20,
+      "eligible_constructed_cases": 0,
+      "analyzer_attempted_cases": 0,
+      "analyzer_executed_cases": 0,
+      "analyzer_abstention_cases": null,
+      "candidate_occurrence_rate": null,
+      "candidate_count": null,
+      "switch_localization_within_tolerance_rate": null,
+      "control_junction_alignment_rate": null,
+      "attainable_window_resolution": null,
+      "status": "not_evaluated_no_post_audit_matched_blocks",
+      "reason_codes": [
+        "no_compatible_post_audit_account_blocks"
+      ],
+      "tolerance_records": 10
+    }
+  ],
+  "selection_summary_sha256": "77056fdb2bff8050eaf6eca5ddb0cbf4d60a1388f5ba77d3ddd9c46cbd85aebc",
+  "audit_public_sha256": "d59537c9f48c4d4ed9aa60992a5c17740678d53fa895b023f326bd6786825776",
+  "full_scoring_registration_created": false,
+  "no_case_scores_fabricated": true
+}

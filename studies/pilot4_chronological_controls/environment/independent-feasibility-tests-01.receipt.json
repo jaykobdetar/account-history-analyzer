@@ -1,0 +1,32 @@
+{
+  "argv": [
+    "env",
+    "PYTHONPATH=<INSTALLED_BASELINE>",
+    "PYTHONDONTWRITEBYTECODE=1",
+    ".venv/bin/python",
+    "-B",
+    "-m",
+    "pytest",
+    "-q",
+    "-p",
+    "no:cacheprovider",
+    "studies/pilot4_chronological_controls/tests/test_metadata_feasibility_independent.py"
+  ],
+  "cwd": "<WORKSPACE>",
+  "started_utc": "2026-09-15T01:22:49.836274+00:00",
+  "finished_utc": "2026-09-15T01:22:50.143189+00:00",
+  "exit_code": 0,
+  "wall_seconds": 0.3069182760082185,
+  "child_peak_rss_mib": 39.9609375,
+  "runner_sha256": "4d94adb7a06ec38cc6f5b4fe55f801e87bbdcff712139146d53f55a2928eb2a4",
+  "outputs": {
+    "stdout.log": {
+      "bytes": 99,
+      "sha256": "3f3ef91606da62cc47586e656087d94d3a121bc77dd4392a3aaa7c8a4425b187"
+    },
+    "stderr.log": {
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    }
+  }
+}

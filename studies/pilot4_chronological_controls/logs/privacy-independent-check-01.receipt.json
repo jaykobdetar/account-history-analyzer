@@ -1,0 +1,33 @@
+{
+  "argv": [
+    ".venv/bin/python",
+    "studies/pilot4_chronological_controls/scripts/check_public_privacy_independent.py",
+    "--public-root",
+    "studies/pilot4_chronological_controls",
+    "--pool",
+    "<PRIVATE_PILOT4>/candidates-01/candidate-pool.jsonl",
+    "--audit",
+    "<PRIVATE_PILOT4>/audit-01/audit.json",
+    "--flags",
+    "<PRIVATE_PILOT4>/exposure-flags.json",
+    "--out",
+    "studies/pilot4_chronological_controls/review/privacy-independent-check-01.json"
+  ],
+  "cwd": "<WORKSPACE>",
+  "started_utc": "2026-09-15T02:28:12.077393+00:00",
+  "finished_utc": "2026-09-15T02:28:12.833480+00:00",
+  "exit_code": 0,
+  "wall_seconds": 0.7560901709948666,
+  "child_peak_rss_mib": 128.51171875,
+  "runner_sha256": "4d94adb7a06ec38cc6f5b4fe55f801e87bbdcff712139146d53f55a2928eb2a4",
+  "outputs": {
+    "stdout.log": {
+      "bytes": 890,
+      "sha256": "1b27f2db504b01d27ae9adb65141120b4d44fe32dc7a056e6a6c82282fc880a2"
+    },
+    "stderr.log": {
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    }
+  }
+}

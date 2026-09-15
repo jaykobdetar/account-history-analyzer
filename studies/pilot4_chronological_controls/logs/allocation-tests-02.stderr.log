@@ -1,0 +1,10 @@
+test_empty_technical_stratum_retains_explicit_target_deficit (test_allocate_candidate_accounts.JointWitnessTests.test_empty_technical_stratum_retains_explicit_target_deficit) ... ok
+test_full_allocation_preserves_reserved_accounts_and_is_order_invariant (test_allocate_candidate_accounts.JointWitnessTests.test_full_allocation_preserves_reserved_accounts_and_is_order_invariant) ... ok
+test_keeps_zero_quota_stratum_explicit (test_allocate_candidate_accounts.JointWitnessTests.test_keeps_zero_quota_stratum_explicit) ... ok
+test_reports_unattainable_full_quota (test_allocate_candidate_accounts.JointWitnessTests.test_reports_unattainable_full_quota) ... ok
+test_reserves_other_stratum_accounts_with_backtracking (test_allocate_candidate_accounts.JointWitnessTests.test_reserves_other_stratum_accounts_with_backtracking) ... ok
+
+----------------------------------------------------------------------
+Ran 5 tests in 0.017s
+
+OK

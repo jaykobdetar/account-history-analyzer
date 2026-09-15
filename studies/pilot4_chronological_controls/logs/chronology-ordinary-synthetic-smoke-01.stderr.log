@@ -1,0 +1,10 @@
+Traceback (most recent call last):
+  File "<WORKSPACE>/studies/pilot4_chronological_controls/tests/smoke_full_chronology.py", line 74, in <module>
+    if __name__=='__main__':main()
+                            ^^^^^^
+  File "<WORKSPACE>/studies/pilot4_chronological_controls/tests/smoke_full_chronology.py", line 49, in main
+    windows,validation=checked_windows(metadata,directory,primary['stream_id'])
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "<WORKSPACE>/studies/pilot4_chronological_controls/scripts/score_saved_chronology.py", line 35, in checked_windows
+    raise ValueError('Saved primary windows differ from independently reconstructed whole-record windows')
+ValueError: Saved primary windows differ from independently reconstructed whole-record windows

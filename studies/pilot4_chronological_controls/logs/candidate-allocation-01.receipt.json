@@ -1,0 +1,32 @@
+{
+  "argv": [
+    ".venv/bin/python",
+    "scripts/offline_exec.py",
+    ".venv/bin/python",
+    "-B",
+    "studies/pilot4_chronological_controls/scripts/run_candidate_allocation.py",
+    "--registration",
+    "studies/pilot4_chronological_controls/protocol/CANDIDATE_ALLOCATION_REGISTRATION_V1.json",
+    "--out",
+    "<PRIVATE_PILOT4>/candidate-allocation-01.json",
+    "--public-out",
+    "studies/pilot4_chronological_controls/inventory/candidate-allocation-01.json"
+  ],
+  "cwd": "<WORKSPACE>",
+  "started_utc": "2026-09-15T02:14:27.015853+00:00",
+  "finished_utc": "2026-09-15T02:14:27.085149+00:00",
+  "exit_code": 0,
+  "wall_seconds": 0.06930100297904573,
+  "child_peak_rss_mib": 21.10546875,
+  "runner_sha256": "4d94adb7a06ec38cc6f5b4fe55f801e87bbdcff712139146d53f55a2928eb2a4",
+  "outputs": {
+    "stdout.log": {
+      "bytes": 1083,
+      "sha256": "c7f5ac2adc703b02b47a7feedad3d8bec98ce7ec9a0ce561440e080d558d393c"
+    },
+    "stderr.log": {
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    }
+  }
+}

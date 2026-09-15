@@ -1,0 +1,49 @@
+{
+  "phase": "frozen_before_candidate_pool",
+  "registered_utc": "2026-09-15T02:15:10.950770+00:00",
+  "private_plan_sha256": "89025398dfa648228fc1d67b3c6d1d9644d0685205f1d0f83689882f3445308c",
+  "script_sha256": "600a30ace49a16abbf0c4f25394b70465a4c69a3669d7c3e81b17304baaea3ec",
+  "finalizer_sha256": "ef93134065aa94d4275a1a1fec045459e3fb3a3efabb9ac83b1f7c0fa7523c40",
+  "bound_artifact_count": 118,
+  "limits": {
+    "metadata_rows": 3000000,
+    "source_rows": 15000000,
+    "source_uncompressed_bytes": 10000000000,
+    "combined_private_output_bytes": 268435456,
+    "wall_seconds": 1800,
+    "address_space_bytes": 4294967296
+  },
+  "allocation_sha256": "0a1edfb004881d2767834a9a03f99e1303ba487a3f2c3b8faaee5e31c9468a79",
+  "strata": [
+    {
+      "block_cap": 1,
+      "communities": [
+        "AskPhysics",
+        "Physics"
+      ],
+      "cut": "2017-11-01T00:00:00Z",
+      "stratum_id": "stratum-02",
+      "candidate_accounts": 2
+    },
+    {
+      "block_cap": 2,
+      "communities": [
+        "linux",
+        "linuxquestions"
+      ],
+      "cut": "2015-03-01T00:00:00Z",
+      "stratum_id": "stratum-04",
+      "candidate_accounts": 3
+    },
+    {
+      "block_cap": 2,
+      "communities": [
+        "programming",
+        "learnprogramming"
+      ],
+      "cut": "2012-03-01T00:00:00Z",
+      "stratum_id": "stratum-05",
+      "candidate_accounts": 2
+    }
+  ]
+}
