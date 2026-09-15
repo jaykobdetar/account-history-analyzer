@@ -18,6 +18,7 @@ frozen releases are unchanged by this adoption.
 | Evidence | AHIF 0.1.1 canonical bundle, full structural/semantic validation, exact text fields, hashes, locators and explicit unknowns. |
 | Selection | One source-local export subject; at most one equivalent observation per full event key. Unresolved conflicts and ineligible observations receive explicit decisions. |
 | Analysis projection | `ahas-conservative` 1.0.0: metadata-only unavailable records into existing AHAS 1.0.0 input schemas. Retained prose is not supported by this profile. |
+| Supplied-field projection | Separately reviewed `reddit-export-observation` 1.0.0 carries eligible literal body/title fields with explicit CommonMark interpretation and a context-bearing presentation. See the [new integration note](EXPORT_OBSERVATION.md). |
 | Engine | Unchanged AHAS 1.0.4 with existing defaults and normal replay verification. |
 
 The source omits native author identity, edit evidence, explicit text completeness
@@ -44,8 +45,10 @@ receipt directories; use the read-only checks below for this checkout.
 
 ## Use the companion implementation
 
-The tested companion revision and immutable links are recorded in
-[adoption provenance](../provenance/ahif-adoption/README.md). Follow its setup and
+The tested export-observation revision and immutable links are recorded in
+[observation-profile provenance](../provenance/ahif-export-observation/README.md).
+The original conservative revision remains in
+[adoption provenance](../provenance/ahif-adoption/README.md). Follow the companion setup and
 CLI guide from an AHIF checkout using an installed, unchanged AHAS 1.0.4 Python
 environment. Keep source exports, bundles, full receipts, account maps and full
 reports in a separate private directory. Only fictional fixtures and sanitized
@@ -69,7 +72,7 @@ python3.12 scripts/offline_exec.py .venv/bin/ahas verify \
 Here `PRIVATE` is an existing private directory outside either repository and
 `analysis` is a new destination. No defaults or sample guards are relaxed.
 
-## Actual validation and limits
+## Historical conservative validation
 
 The companion implementation passed 39 bridge tests. Its one bounded private
 integration normalized 247 observations and verified 300 body/title fields.
@@ -92,6 +95,7 @@ PYTHONDONTWRITEBYTECODE=1 .venv/bin/python \
 
 The reference checker is fixture-oriented; passing it does not prove source
 authenticity, permissions, account continuity, completeness or production-safe
-hostile ingestion. Useful prose analysis needs a separately reviewed source/as-of,
-completeness and markup/attribution profile. No X/forum converter, scraper,
+hostile ingestion. The separate [export-observation profile](EXPORT_OBSERVATION.md)
+now implements supplied-field prose analysis while preserving unknown as-of,
+completeness and visibility. No X/forum converter, scraper,
 collector, database or model is introduced.

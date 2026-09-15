@@ -1,0 +1,24 @@
+{
+  "status": "passed",
+  "verified_at": "2026-09-15T21:40:45.460760+00:00",
+  "ahas_base_commit": "f96822883c520db32aec49e87b6b8022196b6f50",
+  "companion_commit": "7629dbe63521978f0b99319a373dfea42b8e6b81",
+  "companion_verification_sha256": "db16af16824ede5e81eec1560a2a7e0d4571783acece82fb228e615f2031947c",
+  "companion_tests": {
+    "bridge_total": 93,
+    "original_conservative": 39,
+    "new_observation": 54,
+    "format": 61,
+    "format_skips": 0
+  },
+  "tests_rerun_for_publication": false,
+  "recorded_tested_file_hashes_rechecked": true,
+  "frozen_files_checked": 1636,
+  "frozen_engine_schema_config_resource_files": 70,
+  "frozen_format_history_files": 92,
+  "frozen_files_unchanged": true,
+  "analyzer_workspace_engine_matches_repository": true,
+  "update_scope": "Documentation and provenance only; explicit companion pin.",
+  "private_evidence_published": false,
+  "private_analysis_rerun": false
+}

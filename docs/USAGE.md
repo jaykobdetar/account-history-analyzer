@@ -52,7 +52,7 @@ CLI exit codes: **0** success including ordinary insufficient data; **2** input/
 
 ## Supplied evidence in AHIF
 
-[AHIF 0.1.1](AHIF.md) is a separate evidence format. Its JSONL is not accepted directly by this CLI. The companion AHIF repository provides a versioned offline Reddit export normalizer and an explicit metadata-only projection into these existing record/snapshot inputs. Read the [supported contract and limitations](AHIF.md#supported-boundaries) before using its outputs. Retained-prose projection is not supported by that profile; ordinary insufficient-data outcomes remain valid.
+[AHIF 0.1.1](AHIF.md) is a separate evidence format. Its JSONL is not accepted directly by this CLI. The companion AHIF repository provides a versioned offline Reddit export normalizer, the unchanged metadata-only conservative projection, and a separate [export-observation projection](EXPORT_OBSERVATION.md) for eligible supplied body/title fields. Read the [supported contract and limitations](AHIF.md#supported-boundaries) before using its outputs. Observation-profile reports require visible interpretation context; ordinary insufficient-data outcomes remain valid.
 
 ## Python API
 
