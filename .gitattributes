@@ -1,0 +1,4 @@
+# Preserve the checksummed, historical AHIF contract bytes on checkout.
+docs/ahif/** -text
+# Keep the original failed-run console transcript, including its trailing spaces.
+docs/ahif/0.1.1/checks/final-run-attempt1-tests.log -whitespace

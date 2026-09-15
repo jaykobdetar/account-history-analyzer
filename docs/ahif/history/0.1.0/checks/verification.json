@@ -1,0 +1,134 @@
+{
+  "package": "AHIF 0.1.0 proposed format",
+  "status": "passed_for_exercised_checks",
+  "python": "3.13.5",
+  "jsonschema": "4.26.0",
+  "referencing": "0.37.0",
+  "repository_compatibility_reference": "6f465bd95fa3c12df41235986a96a04cf6c332d0",
+  "schema_documents": 4,
+  "unit_tests_passed": 40,
+  "unit_tests_failed": 0,
+  "example_bundles": {
+    "hostile-and-identity": {
+      "status": "passed",
+      "format_version": "0.1.0",
+      "record_observations": 3,
+      "distinct_record_keys": 3,
+      "account_observations": 2,
+      "record_keys_with_multiple_observations": 0,
+      "source_local_record_observations": 0,
+      "projection_status": "not_performed",
+      "authenticity_status": "not_established",
+      "warnings": {},
+      "files": [
+        {
+          "path": "accounts.jsonl",
+          "role": "accounts",
+          "rows": 2
+        },
+        {
+          "path": "raw/source.json",
+          "role": "raw",
+          "rows": null
+        },
+        {
+          "path": "records.jsonl",
+          "role": "records",
+          "rows": 3
+        }
+      ]
+    },
+    "minimal": {
+      "status": "passed",
+      "format_version": "0.1.0",
+      "record_observations": 1,
+      "distinct_record_keys": 1,
+      "account_observations": 0,
+      "record_keys_with_multiple_observations": 0,
+      "source_local_record_observations": 0,
+      "projection_status": "not_performed",
+      "authenticity_status": "not_established",
+      "warnings": {},
+      "files": [
+        {
+          "path": "records.jsonl",
+          "role": "records",
+          "rows": 1
+        }
+      ]
+    },
+    "mixed-platform": {
+      "status": "passed",
+      "format_version": "0.1.0",
+      "record_observations": 12,
+      "distinct_record_keys": 11,
+      "account_observations": 3,
+      "record_keys_with_multiple_observations": 1,
+      "source_local_record_observations": 0,
+      "projection_status": "not_performed",
+      "authenticity_status": "not_established",
+      "warnings": {},
+      "files": [
+        {
+          "path": "accounts.jsonl",
+          "role": "accounts",
+          "rows": 3
+        },
+        {
+          "path": "raw/source.json",
+          "role": "raw",
+          "rows": null
+        },
+        {
+          "path": "records.jsonl",
+          "role": "records",
+          "rows": 12
+        }
+      ]
+    },
+    "uncertain-time": {
+      "status": "passed",
+      "format_version": "0.1.0",
+      "record_observations": 4,
+      "distinct_record_keys": 4,
+      "account_observations": 0,
+      "record_keys_with_multiple_observations": 0,
+      "source_local_record_observations": 0,
+      "projection_status": "not_performed",
+      "authenticity_status": "not_established",
+      "warnings": {},
+      "files": [
+        {
+          "path": "raw/source.json",
+          "role": "raw",
+          "rows": null
+        },
+        {
+          "path": "records.jsonl",
+          "role": "records",
+          "rows": 4
+        }
+      ]
+    }
+  },
+  "example_record_observations": 20,
+  "example_distinct_record_keys_per_bundle_summed": 19,
+  "example_account_observations": 5,
+  "schema_and_example_regeneration": {
+    "files_compared": 21,
+    "byte_identical": true
+  },
+  "not_executed": [
+    "No production AHAS engine execution",
+    "No source-specific normalizer",
+    "No bridge/projection implementation",
+    "No real-account data acquisition",
+    "No authentication of original evidence",
+    "No full RFC 8785 compliance suite",
+    "No complete production ingestion/security audit"
+  ],
+  "notes": [
+    "Reference validator implements schema and selected semantic checks documented in SPEC.md.",
+    "All fixtures are fictional. Success is not a claim of analytical eligibility or scientific validity."
+  ]
+}

@@ -9,6 +9,7 @@ The current engine is **1.0.4** and remains frozen. A style distance is not an a
 ## Start here
 
 - **Run an analysis:** follow the [installation and usage guide](docs/USAGE.md). Supply local JSONL records and a snapshot manifest; AHAS does not fetch account data.
+- **Prepare supplied evidence:** [AHIF 0.1.1 and the offline Reddit bridge](docs/AHIF.md) define the separate evidence contract and its limited, explicit projection into AHAS.
 - **Read the latest replication:** [Pilot 6](studies/pilot6_shared_anchor_replication/results/REPORT.md) applies the frozen five-sample design to nine new account-disjoint pairs. Its report keeps all four histories together, including every candidate interval, grid resolution, unavailable cases and operating costs. The target was ten pairs; the fixed source/audit rules left a one-pair shortfall. [Pilot 5](studies/pilot5_shared_anchor/review/OUTCOME_REPORT.md) remains the preserved exploratory diagnostic.
 - **Understand the evidence:** the [study catalog](studies/README.md) distinguishes completed analyses, the Pilot 4 feasibility stop, and earlier development studies.
 - **Maintain the project:** use the [development guide](docs/DEVELOPMENT.md) for source layout, checks, and where new work belongs.

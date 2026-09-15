@@ -1,0 +1,74 @@
+{
+  "format_version": "0.1.1",
+  "record_key": {
+    "namespace": "https://forum.example.org",
+    "collection": "posts",
+    "id_type": "native",
+    "id": "hostile"
+  },
+  "actor": {
+    "namespace": "https://forum.example.org",
+    "collection": "members",
+    "id_type": "native",
+    "id": "17"
+  },
+  "kind": "post",
+  "observed_at": {
+    "status": "known",
+    "value": "2026-09-01T12:00:00Z",
+    "precision": "second",
+    "basis": "source"
+  },
+  "created_at": {
+    "status": "known",
+    "value": "2026-08-20T08:00:00Z",
+    "precision": "second",
+    "basis": "source"
+  },
+  "updated_at": {
+    "status": "unknown",
+    "reason": "not_supplied"
+  },
+  "lifecycle": {
+    "state": "visible",
+    "edit_state": "unknown",
+    "native_revision_id": null
+  },
+  "visibility": "public",
+  "content": {
+    "availability": "present",
+    "completeness": "complete",
+    "reason": null,
+    "parts": [
+      {
+        "part_id": "body",
+        "role": "body",
+        "attribution": {
+          "relation": "record_actor",
+          "account_key": null
+        },
+        "format": "plain",
+        "text": "<script>alert(\"sample\")</script> & [x](javascript:sample)\n é é  \\u0020 🔧",
+        "fidelity": "source_field",
+        "language": {
+          "tag": "en",
+          "basis": "source"
+        }
+      }
+    ]
+  },
+  "provenance": {
+    "locator": {
+      "kind": "json_pointer",
+      "value": "/records/0",
+      "artifact_sha256": "d7812d4f594602d2e73490152c00c218cd499f1023a5099d20a3c60f93af1982"
+    },
+    "normalizer": {
+      "name": "fictional_fixture_builder",
+      "version": "0.1.1"
+    },
+    "transformations": []
+  },
+  "source_id": "sha256:9e3b13cdaeab780216bfc4fd74ea37f1e44b10e5cb41fe38f5f66ca560530fa0",
+  "observation_id": "sha256:b4dd21d7de1cef3567aacb8432bb5bd96e69a23470f8dbdd53dd4acaaf0d9c33"
+}

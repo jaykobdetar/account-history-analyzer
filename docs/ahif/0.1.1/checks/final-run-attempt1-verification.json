@@ -1,0 +1,21 @@
+{
+  "package": "AHIF 0.1.1 reviewed contract",
+  "started_at": "2026-09-15T19:26:20.901012+00:00",
+  "python": "3.12.3 (main, Aug 31 2026, 10:18:26) [GCC 13.3.0]",
+  "dependencies": {
+    "jsonschema": "4.26.0",
+    "referencing": "0.37.0"
+  },
+  "status": "failed",
+  "projection_status": "not_implemented",
+  "analysis_executed": false,
+  "unit_tests": {
+    "run": 60,
+    "failures": 12,
+    "errors": 29,
+    "skipped": 0
+  },
+  "negative_fixture_recipes": 24,
+  "error": "Invalid: Invalid UTC timestamp syntax",
+  "finished_at": "2026-09-15T19:26:21.265143+00:00"
+}

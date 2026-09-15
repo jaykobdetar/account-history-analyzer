@@ -1,0 +1,881 @@
+test_01_all_four_bundles (test_format.FormatTests.test_01_all_four_bundles) ... 
+  test_01_all_four_bundles (test_format.FormatTests.test_01_all_four_bundles) (name='minimal') ... ERROR
+  test_01_all_four_bundles (test_format.FormatTests.test_01_all_four_bundles) (name='mixed-platform') ... ERROR
+  test_01_all_four_bundles (test_format.FormatTests.test_01_all_four_bundles) (name='uncertain-time') ... ERROR
+  test_01_all_four_bundles (test_format.FormatTests.test_01_all_four_bundles) (name='hostile-and-identity') ... ERROR
+test_02_schema_metaschemas (test_format.FormatTests.test_02_schema_metaschemas) ... ok
+test_03_key_order_invariant (test_format.FormatTests.test_03_key_order_invariant) ... ok
+test_04_unicode_preserved_not_normalized (test_format.FormatTests.test_04_unicode_preserved_not_normalized) ... ok
+test_05_duplicate_json_keys_rejected (test_format.FormatTests.test_05_duplicate_json_keys_rejected) ... ok
+test_06_nonfinite_rejected (test_format.FormatTests.test_06_nonfinite_rejected) ... ok
+test_07_float_rejected (test_format.FormatTests.test_07_float_rejected) ... ok
+test_08_large_number_rejected_but_string_allowed (test_format.FormatTests.test_08_large_number_rejected_but_string_allowed) ... ok
+test_09_surrogate_rejected (test_format.FormatTests.test_09_surrogate_rejected) ... ok
+test_10_unknown_extra_core_field (test_format.FormatTests.test_10_unknown_extra_core_field) ... ok
+test_11_unknown_actor_cannot_own_text (test_format.FormatTests.test_11_unknown_actor_cannot_own_text) ... ok
+test_12_anonymous_text_can_be_retained (test_format.FormatTests.test_12_anonymous_text_can_be_retained) ... ERROR
+test_13_repost_cannot_own_commentary (test_format.FormatTests.test_13_repost_cannot_own_commentary) ... ok
+test_14_unavailable_text_cannot_contain_parts (test_format.FormatTests.test_14_unavailable_text_cannot_contain_parts) ... ok
+test_15_bad_calendar_date (test_format.FormatTests.test_15_bad_calendar_date) ... ok
+test_16_date_only_valid (test_format.FormatTests.test_16_date_only_valid) ... ERROR
+test_17_interval_reversal_rejected (test_format.FormatTests.test_17_interval_reversal_rejected) ... ok
+test_18_precision_not_invented (test_format.FormatTests.test_18_precision_not_invented) ... ok
+test_19_nanoseconds_preserved (test_format.FormatTests.test_19_nanoseconds_preserved) ... ERROR
+test_20_unknown_edit_not_false (test_format.FormatTests.test_20_unknown_edit_not_false) ... ok
+test_21_same_object_multiple_observations (test_format.FormatTests.test_21_same_object_multiple_observations) ... ERROR
+test_22_different_namespace_not_same_identity (test_format.FormatTests.test_22_different_namespace_not_same_identity) ... ok
+test_23_exact_string_edit_changes_observation (test_format.FormatTests.test_23_exact_string_edit_changes_observation) ... ok
+test_24_span_counts_codepoints (test_format.FormatTests.test_24_span_counts_codepoints) ... ERROR
+test_25_repeated_part_ids (test_format.FormatTests.test_25_repeated_part_ids) ... ok
+test_26_empty_link_list_not_complete_without_declaration (test_format.FormatTests.test_26_empty_link_list_not_complete_without_declaration) ... ERROR
+test_27_bom_rejected (test_format.FormatTests.test_27_bom_rejected) ... ok
+test_28_local_key_scope (test_format.FormatTests.test_28_local_key_scope) ... ERROR
+test_29_handle_identifier_allowed_not_native (test_format.FormatTests.test_29_handle_identifier_allowed_not_native) ... ERROR
+test_30_depth_bounded (test_format.FormatTests.test_30_depth_bounded) ... ok
+test_31_path_traversal (test_format.FormatTests.test_31_path_traversal) ... ok
+test_32_checksum_tampering (test_format.FormatTests.test_32_checksum_tampering) ... ok
+test_33_unresolved_parent_is_valid_not_fake_record (test_format.FormatTests.test_33_unresolved_parent_is_valid_not_fake_record) ... ERROR
+test_34_body_string_not_rewritten (test_format.FormatTests.test_34_body_string_not_rewritten) ... ERROR
+test_35_no_implicit_english (test_format.FormatTests.test_35_no_implicit_english) ... ok
+test_36_unknown_future_version (test_format.FormatTests.test_36_unknown_future_version) ... ok
+test_37_unknown_source (test_format.FormatTests.test_37_unknown_source) ... ok
+test_38_false_timestamp_warns_not_erased (test_format.FormatTests.test_38_false_timestamp_warns_not_erased) ... ERROR
+test_39_ascii_keys_profile (test_format.FormatTests.test_39_ascii_keys_profile) ... ok
+test_40_identity_hash_not_claimed_authenticity (test_format.FormatTests.test_40_identity_hash_not_claimed_authenticity) ... ERROR
+test_account_profile_subject_and_unique_parts (test_review.ReviewTests.test_account_profile_subject_and_unique_parts) ... ok
+test_actual_ahas_schema_rejects_direct_ahif (test_review.ReviewTests.test_actual_ahas_schema_rejects_direct_ahif) ... ok
+test_all_six_canonical_bundles (test_review.ReviewTests.test_all_six_canonical_bundles) ... 
+  test_all_six_canonical_bundles (test_review.ReviewTests.test_all_six_canonical_bundles) (bundle='hostile-and-identity') ... ERROR
+  test_all_six_canonical_bundles (test_review.ReviewTests.test_all_six_canonical_bundles) (bundle='mixed-platform') ... ERROR
+  test_all_six_canonical_bundles (test_review.ReviewTests.test_all_six_canonical_bundles) (bundle='minimal') ... ERROR
+  test_all_six_canonical_bundles (test_review.ReviewTests.test_all_six_canonical_bundles) (bundle='review-cases') ... ERROR
+  test_all_six_canonical_bundles (test_review.ReviewTests.test_all_six_canonical_bundles) (bundle='empty-bundle') ... ERROR
+  test_all_six_canonical_bundles (test_review.ReviewTests.test_all_six_canonical_bundles) (bundle='uncertain-time') ... ERROR
+test_blank_line_and_duplicate_observation_even_across_shards (test_review.ReviewTests.test_blank_line_and_duplicate_observation_even_across_shards) ... FAIL
+test_canonical_known_answer_and_domain_separation (test_review.ReviewTests.test_canonical_known_answer_and_domain_separation) ... ok
+test_canonical_profile_distinct_from_ordinary_validation (test_review.ReviewTests.test_canonical_profile_distinct_from_ordinary_validation) ... 
+  test_canonical_profile_distinct_from_ordinary_validation (test_review.ReviewTests.test_canonical_profile_distinct_from_ordinary_validation) (mode='no_final_lf') ... ERROR
+  test_canonical_profile_distinct_from_ordinary_validation (test_review.ReviewTests.test_canonical_profile_distinct_from_ordinary_validation) (mode='crlf') ... ERROR
+  test_canonical_profile_distinct_from_ordinary_validation (test_review.ReviewTests.test_canonical_profile_distinct_from_ordinary_validation) (mode='spacing') ... ERROR
+  test_canonical_profile_distinct_from_ordinary_validation (test_review.ReviewTests.test_canonical_profile_distinct_from_ordinary_validation) (mode='row_order') ... ERROR
+  test_canonical_profile_distinct_from_ordinary_validation (test_review.ReviewTests.test_canonical_profile_distinct_from_ordinary_validation) (mode='manifest_order') ... ERROR
+test_each_key_field_and_literal_spelling_participates (test_review.ReviewTests.test_each_key_field_and_literal_spelling_participates) ... ok
+test_extensions_and_transform_parameters_are_opaque (test_review.ReviewTests.test_extensions_and_transform_parameters_are_opaque) ... ok
+test_included_raw_and_locator_digests_are_bound (test_review.ReviewTests.test_included_raw_and_locator_digests_are_bound) ... FAIL
+test_inconsistent_supplied_dates_are_retained_with_warning (test_review.ReviewTests.test_inconsistent_supplied_dates_are_retained_with_warning) ... ERROR
+test_limits_refuse_without_sampling (test_review.ReviewTests.test_limits_refuse_without_sampling) ... 
+  test_limits_refuse_without_sampling (test_review.ReviewTests.test_limits_refuse_without_sampling) (limit='MAX_LINE') ... FAIL
+  test_limits_refuse_without_sampling (test_review.ReviewTests.test_limits_refuse_without_sampling) (limit='MAX_FILE') ... FAIL
+  test_limits_refuse_without_sampling (test_review.ReviewTests.test_limits_refuse_without_sampling) (limit='MAX_BUNDLE') ... FAIL
+  test_limits_refuse_without_sampling (test_review.ReviewTests.test_limits_refuse_without_sampling) (limit='MAX_ROWS') ... FAIL
+test_local_keys_on_all_typed_surfaces (test_review.ReviewTests.test_local_keys_on_all_typed_surfaces) ... ok
+test_local_subjects_do_not_migrate_between_sources (test_review.ReviewTests.test_local_subjects_do_not_migrate_between_sources) ... ok
+test_manifest_integrity_and_source_coverage (test_review.ReviewTests.test_manifest_integrity_and_source_coverage) ... FAIL
+test_negative_fixtures_rehash_before_semantic_rejection (test_review.ReviewTests.test_negative_fixtures_rehash_before_semantic_rejection) ... 
+  test_negative_fixtures_rehash_before_semantic_rejection (test_review.ReviewTests.test_negative_fixtures_rehash_before_semantic_rejection) (case='bad_date') ... FAIL
+  test_negative_fixtures_rehash_before_semantic_rejection (test_review.ReviewTests.test_negative_fixtures_rehash_before_semantic_rejection) (case='wrong_precision') ... FAIL
+  test_negative_fixtures_rehash_before_semantic_rejection (test_review.ReviewTests.test_negative_fixtures_rehash_before_semantic_rejection) (case='reversed_interval') ... FAIL
+  test_negative_fixtures_rehash_before_semantic_rejection (test_review.ReviewTests.test_negative_fixtures_rehash_before_semantic_rejection) (case='closed_open_zero_interval') ... FAIL
+test_path_inventory_and_optional_raw (test_review.ReviewTests.test_path_inventory_and_optional_raw) ... FAIL
+test_repeats_conflicts_equal_text_and_totals (test_review.ReviewTests.test_repeats_conflicts_equal_text_and_totals) ... ERROR
+test_schema_tokens_require_ascii_digits_and_exact_end (test_review.ReviewTests.test_schema_tokens_require_ascii_digits_and_exact_end) ... ok
+test_unknown_and_optional_source_metadata (test_review.ReviewTests.test_unknown_and_optional_source_metadata) ... ok
+test_uri_syntax_without_optional_format_dependencies (test_review.ReviewTests.test_uri_syntax_without_optional_format_dependencies) ... ok
+
+======================================================================
+ERROR: test_01_all_four_bundles (test_format.FormatTests.test_01_all_four_bundles) (name='minimal')
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/home/jaykob/Downloads/Account_History_Analyzer_V1_Agent_Handoff/account_history_analyzer_v1/docs/ahif/0.1.1/reference/test_format.py", line 27, in test_01_all_four_bundles
+    with self.subTest(name=name):self.assertEqual(v.validate_bundle(v.ROOT/'examples'/name)['status'],'passed')
+                                                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/jaykob/Downloads/Account_History_Analyzer_V1_Agent_Handoff/account_history_analyzer_v1/docs/ahif/0.1.1/reference/validate_bundle.py", line 306, in validate_bundle
+    manifest=strict_loads(manifest_bytes);structural('manifest',manifest)
+                                          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/jaykob/Downloads/Account_History_Analyzer_V1_Agent_Handoff/account_history_analyzer_v1/docs/ahif/0.1.1/reference/validate_bundle.py", line 214, in structural
+    for timestamp in declared_times(kind,value): check_time(timestamp)
+                                                 ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/jaykob/Downloads/Account_History_Analyzer_V1_Agent_Handoff/account_history_analyzer_v1/docs/ahif/0.1.1/reference/validate_bundle.py", line 108, in check_time
+    utc_ns(value['value'])
+  File "/home/jaykob/Downloads/Account_History_Analyzer_V1_Agent_Handoff/account_history_analyzer_v1/docs/ahif/0.1.1/reference/validate_bundle.py", line 99, in utc_ns
+    if not m: fail('Invalid UTC timestamp syntax')
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/jaykob/Downloads/Account_History_Analyzer_V1_Agent_Handoff/account_history_analyzer_v1/docs/ahif/0.1.1/reference/validate_bundle.py", line 34, in fail
+    raise Invalid(msg)
+validate_bundle.Invalid: Invalid UTC timestamp syntax
+
+======================================================================
+ERROR: test_01_all_four_bundles (test_format.FormatTests.test_01_all_four_bundles) (name='mixed-platform')
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/home/jaykob/Downloads/Account_History_Analyzer_V1_Agent_Handoff/account_history_analyzer_v1/docs/ahif/0.1.1/reference/test_format.py", line 27, in test_01_all_four_bundles
+    with self.subTest(name=name):self.assertEqual(v.validate_bundle(v.ROOT/'examples'/name)['status'],'passed')
+                                                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/jaykob/Downloads/Account_History_Analyzer_V1_Agent_Handoff/account_history_analyzer_v1/docs/ahif/0.1.1/reference/validate_bundle.py", line 306, in validate_bundle
+    manifest=strict_loads(manifest_bytes);structural('manifest',manifest)
+                                          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/jaykob/Downloads/Account_History_Analyzer_V1_Agent_Handoff/account_history_analyzer_v1/docs/ahif/0.1.1/reference/validate_bundle.py", line 214, in structural
+    for timestamp in declared_times(kind,value): check_time(timestamp)
+                                                 ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/jaykob/Downloads/Account_History_Analyzer_V1_Agent_Handoff/account_history_analyzer_v1/docs/ahif/0.1.1/reference/validate_bundle.py", line 108, in check_time
+    utc_ns(value['value'])
+  File "/home/jaykob/Downloads/Account_History_Analyzer_V1_Agent_Handoff/account_history_analyzer_v1/docs/ahif/0.1.1/reference/validate_bundle.py", line 99, in utc_ns
+    if not m: fail('Invalid UTC timestamp syntax')
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/jaykob/Downloads/Account_History_Analyzer_V1_Agent_Handoff/account_history_analyzer_v1/docs/ahif/0.1.1/reference/validate_bundle.py", line 34, in fail
+    raise Invalid(msg)
+validate_bundle.Invalid: Invalid UTC timestamp syntax
+
+======================================================================
+ERROR: test_01_all_four_bundles (test_format.FormatTests.test_01_all_four_bundles) (name='uncertain-time')
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/home/jaykob/Downloads/Account_History_Analyzer_V1_Agent_Handoff/account_history_analyzer_v1/docs/ahif/0.1.1/reference/test_format.py", line 27, in test_01_all_four_bundles
+    with self.subTest(name=name):self.assertEqual(v.validate_bundle(v.ROOT/'examples'/name)['status'],'passed')
+                                                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/jaykob/Downloads/Account_History_Analyzer_V1_Agent_Handoff/account_history_analyzer_v1/docs/ahif/0.1.1/reference/validate_bundle.py", line 306, in validate_bundle
+    manifest=strict_loads(manifest_bytes);structural('manifest',manifest)
+                                          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/jaykob/Downloads/Account_History_Analyzer_V1_Agent_Handoff/account_history_analyzer_v1/docs/ahif/0.1.1/reference/validate_bundle.py", line 214, in structural
+    for timestamp in declared_times(kind,value): check_time(timestamp)
+                                                 ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/jaykob/Downloads/Account_History_Analyzer_V1_Agent_Handoff/account_history_analyzer_v1/docs/ahif/0.1.1/reference/validate_bundle.py", line 108, in check_time
+    utc_ns(value['value'])
+  File "/home/jaykob/Downloads/Account_History_Analyzer_V1_Agent_Handoff/account_history_analyzer_v1/docs/ahif/0.1.1/reference/validate_bundle.py", line 99, in utc_ns
+    if not m: fail('Invalid UTC timestamp syntax')
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/jaykob/Downloads/Account_History_Analyzer_V1_Agent_Handoff/account_history_analyzer_v1/docs/ahif/0.1.1/reference/validate_bundle.py", line 34, in fail
+    raise Invalid(msg)
+validate_bundle.Invalid: Invalid UTC timestamp syntax
+
+======================================================================
+ERROR: test_01_all_four_bundles (test_format.FormatTests.test_01_all_four_bundles) (name='hostile-and-identity')
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/home/jaykob/Downloads/Account_History_Analyzer_V1_Agent_Handoff/account_history_analyzer_v1/docs/ahif/0.1.1/reference/test_format.py", line 27, in test_01_all_four_bundles
+    with self.subTest(name=name):self.assertEqual(v.validate_bundle(v.ROOT/'examples'/name)['status'],'passed')
+                                                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/jaykob/Downloads/Account_History_Analyzer_V1_Agent_Handoff/account_history_analyzer_v1/docs/ahif/0.1.1/reference/validate_bundle.py", line 306, in validate_bundle
+    manifest=strict_loads(manifest_bytes);structural('manifest',manifest)
+                                          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/jaykob/Downloads/Account_History_Analyzer_V1_Agent_Handoff/account_history_analyzer_v1/docs/ahif/0.1.1/reference/validate_bundle.py", line 214, in structural
+    for timestamp in declared_times(kind,value): check_time(timestamp)
+                                                 ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/jaykob/Downloads/Account_History_Analyzer_V1_Agent_Handoff/account_history_analyzer_v1/docs/ahif/0.1.1/reference/validate_bundle.py", line 108, in check_time
+    utc_ns(value['value'])
+  File "/home/jaykob/Downloads/Account_History_Analyzer_V1_Agent_Handoff/account_history_analyzer_v1/docs/ahif/0.1.1/reference/validate_bundle.py", line 99, in utc_ns
+    if not m: fail('Invalid UTC timestamp syntax')
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/jaykob/Downloads/Account_History_Analyzer_V1_Agent_Handoff/account_history_analyzer_v1/docs/ahif/0.1.1/reference/validate_bundle.py", line 34, in fail
+    raise Invalid(msg)
+validate_bundle.Invalid: Invalid UTC timestamp syntax
+
+======================================================================
+ERROR: test_12_anonymous_text_can_be_retained (test_format.FormatTests.test_12_anonymous_text_can_be_retained)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/home/jaykob/Downloads/Account_History_Analyzer_V1_Agent_Handoff/account_history_analyzer_v1/docs/ahif/0.1.1/reference/test_format.py", line 51, in test_12_anonymous_text_can_be_retained
+    r=self.record();r['actor']=None;r['content']['parts'][0]['attribution']['relation']='unknown';self.check(r)
+                                                                                                  ^^^^^^^^^^^^^
+  File "/home/jaykob/Downloads/Account_History_Analyzer_V1_Agent_Handoff/account_history_analyzer_v1/docs/ahif/0.1.1/reference/test_format.py", line 22, in check
+    return v.row_checks('record',r,self.sources)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/jaykob/Downloads/Account_History_Analyzer_V1_Agent_Handoff/account_history_analyzer_v1/docs/ahif/0.1.1/reference/validate_bundle.py", line 248, in row_checks
+    structural(kind,row)
+  File "/home/jaykob/Downloads/Account_History_Analyzer_V1_Agent_Handoff/account_history_analyzer_v1/docs/ahif/0.1.1/reference/validate_bundle.py", line 214, in structural
+    for timestamp in declared_times(kind,value): check_time(timestamp)
+                                                 ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/jaykob/Downloads/Account_History_Analyzer_V1_Agent_Handoff/account_history_analyzer_v1/docs/ahif/0.1.1/reference/validate_bundle.py", line 108, in check_time
+    utc_ns(value['value'])
+  File "/home/jaykob/Downloads/Account_History_Analyzer_V1_Agent_Handoff/account_history_analyzer_v1/docs/ahif/0.1.1/reference/validate_bundle.py", line 99, in utc_ns
+    if not m: fail('Invalid UTC timestamp syntax')
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/jaykob/Downloads/Account_History_Analyzer_V1_Agent_Handoff/account_history_analyzer_v1/docs/ahif/0.1.1/reference/validate_bundle.py", line 34, in fail
+    raise Invalid(msg)
+validate_bundle.Invalid: Invalid UTC timestamp syntax
+
+======================================================================
+ERROR: test_16_date_only_valid (test_format.FormatTests.test_16_date_only_valid)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/home/jaykob/Downloads/Account_History_Analyzer_V1_Agent_Handoff/account_history_analyzer_v1/docs/ahif/0.1.1/reference/test_format.py", line 59, in test_16_date_only_valid
+    r=self.record();r['created_at']={'status':'date_only','value':'2026-08-20','utc_offset':None,'basis':'source'};self.check(r)
+                                                                                                                   ^^^^^^^^^^^^^
+  File "/home/jaykob/Downloads/Account_History_Analyzer_V1_Agent_Handoff/account_history_analyzer_v1/docs/ahif/0.1.1/reference/test_format.py", line 22, in check
+    return v.row_checks('record',r,self.sources)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/jaykob/Downloads/Account_History_Analyzer_V1_Agent_Handoff/account_history_analyzer_v1/docs/ahif/0.1.1/reference/validate_bundle.py", line 248, in row_checks
+    structural(kind,row)
+  File "/home/jaykob/Downloads/Account_History_Analyzer_V1_Agent_Handoff/account_history_analyzer_v1/docs/ahif/0.1.1/reference/validate_bundle.py", line 214, in structural
+    for timestamp in declared_times(kind,value): check_time(timestamp)
+                                                 ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/jaykob/Downloads/Account_History_Analyzer_V1_Agent_Handoff/account_history_analyzer_v1/docs/ahif/0.1.1/reference/validate_bundle.py", line 108, in check_time
+    utc_ns(value['value'])
+  File "/home/jaykob/Downloads/Account_History_Analyzer_V1_Agent_Handoff/account_history_analyzer_v1/docs/ahif/0.1.1/reference/validate_bundle.py", line 99, in utc_ns
+    if not m: fail('Invalid UTC timestamp syntax')
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/jaykob/Downloads/Account_History_Analyzer_V1_Agent_Handoff/account_history_analyzer_v1/docs/ahif/0.1.1/reference/validate_bundle.py", line 34, in fail
+    raise Invalid(msg)
+validate_bundle.Invalid: Invalid UTC timestamp syntax
+
+======================================================================
+ERROR: test_19_nanoseconds_preserved (test_format.FormatTests.test_19_nanoseconds_preserved)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/home/jaykob/Downloads/Account_History_Analyzer_V1_Agent_Handoff/account_history_analyzer_v1/docs/ahif/0.1.1/reference/test_format.py", line 65, in test_19_nanoseconds_preserved
+    self.assertEqual(v.utc_ns('2026-08-20T00:00:00.123456789Z')-v.utc_ns('2026-08-20T00:00:00Z'),123456789)
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/jaykob/Downloads/Account_History_Analyzer_V1_Agent_Handoff/account_history_analyzer_v1/docs/ahif/0.1.1/reference/validate_bundle.py", line 99, in utc_ns
+    if not m: fail('Invalid UTC timestamp syntax')
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/jaykob/Downloads/Account_History_Analyzer_V1_Agent_Handoff/account_history_analyzer_v1/docs/ahif/0.1.1/reference/validate_bundle.py", line 34, in fail
+    raise Invalid(msg)
+validate_bundle.Invalid: Invalid UTC timestamp syntax
+
+======================================================================
+ERROR: test_21_same_object_multiple_observations (test_format.FormatTests.test_21_same_object_multiple_observations)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/home/jaykob/Downloads/Account_History_Analyzer_V1_Agent_Handoff/account_history_analyzer_v1/docs/ahif/0.1.1/reference/test_format.py", line 69, in test_21_same_object_multiple_observations
+    result=v.validate_bundle(self.root)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/jaykob/Downloads/Account_History_Analyzer_V1_Agent_Handoff/account_history_analyzer_v1/docs/ahif/0.1.1/reference/validate_bundle.py", line 306, in validate_bundle
+    manifest=strict_loads(manifest_bytes);structural('manifest',manifest)
+                                          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/jaykob/Downloads/Account_History_Analyzer_V1_Agent_Handoff/account_history_analyzer_v1/docs/ahif/0.1.1/reference/validate_bundle.py", line 214, in structural
+    for timestamp in declared_times(kind,value): check_time(timestamp)
+                                                 ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/jaykob/Downloads/Account_History_Analyzer_V1_Agent_Handoff/account_history_analyzer_v1/docs/ahif/0.1.1/reference/validate_bundle.py", line 108, in check_time
+    utc_ns(value['value'])
+  File "/home/jaykob/Downloads/Account_History_Analyzer_V1_Agent_Handoff/account_history_analyzer_v1/docs/ahif/0.1.1/reference/validate_bundle.py", line 99, in utc_ns
+    if not m: fail('Invalid UTC timestamp syntax')
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/jaykob/Downloads/Account_History_Analyzer_V1_Agent_Handoff/account_history_analyzer_v1/docs/ahif/0.1.1/reference/validate_bundle.py", line 34, in fail
+    raise Invalid(msg)
+validate_bundle.Invalid: Invalid UTC timestamp syntax
+
+======================================================================
+ERROR: test_24_span_counts_codepoints (test_format.FormatTests.test_24_span_counts_codepoints)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/home/jaykob/Downloads/Account_History_Analyzer_V1_Agent_Handoff/account_history_analyzer_v1/docs/ahif/0.1.1/reference/test_format.py", line 78, in test_24_span_counts_codepoints
+    self.check(self.record())
+  File "/home/jaykob/Downloads/Account_History_Analyzer_V1_Agent_Handoff/account_history_analyzer_v1/docs/ahif/0.1.1/reference/test_format.py", line 22, in check
+    return v.row_checks('record',r,self.sources)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/jaykob/Downloads/Account_History_Analyzer_V1_Agent_Handoff/account_history_analyzer_v1/docs/ahif/0.1.1/reference/validate_bundle.py", line 248, in row_checks
+    structural(kind,row)
+  File "/home/jaykob/Downloads/Account_History_Analyzer_V1_Agent_Handoff/account_history_analyzer_v1/docs/ahif/0.1.1/reference/validate_bundle.py", line 214, in structural
+    for timestamp in declared_times(kind,value): check_time(timestamp)
+                                                 ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/jaykob/Downloads/Account_History_Analyzer_V1_Agent_Handoff/account_history_analyzer_v1/docs/ahif/0.1.1/reference/validate_bundle.py", line 108, in check_time
+    utc_ns(value['value'])
+  File "/home/jaykob/Downloads/Account_History_Analyzer_V1_Agent_Handoff/account_history_analyzer_v1/docs/ahif/0.1.1/reference/validate_bundle.py", line 99, in utc_ns
+    if not m: fail('Invalid UTC timestamp syntax')
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/jaykob/Downloads/Account_History_Analyzer_V1_Agent_Handoff/account_history_analyzer_v1/docs/ahif/0.1.1/reference/validate_bundle.py", line 34, in fail
+    raise Invalid(msg)
+validate_bundle.Invalid: Invalid UTC timestamp syntax
+
+======================================================================
+ERROR: test_26_empty_link_list_not_complete_without_declaration (test_format.FormatTests.test_26_empty_link_list_not_complete_without_declaration)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/home/jaykob/Downloads/Account_History_Analyzer_V1_Agent_Handoff/account_history_analyzer_v1/docs/ahif/0.1.1/reference/test_format.py", line 83, in test_26_empty_link_list_not_complete_without_declaration
+    r=self.record();r['links']=[];self.check(r)
+                                  ^^^^^^^^^^^^^
+  File "/home/jaykob/Downloads/Account_History_Analyzer_V1_Agent_Handoff/account_history_analyzer_v1/docs/ahif/0.1.1/reference/test_format.py", line 22, in check
+    return v.row_checks('record',r,self.sources)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/jaykob/Downloads/Account_History_Analyzer_V1_Agent_Handoff/account_history_analyzer_v1/docs/ahif/0.1.1/reference/validate_bundle.py", line 248, in row_checks
+    structural(kind,row)
+  File "/home/jaykob/Downloads/Account_History_Analyzer_V1_Agent_Handoff/account_history_analyzer_v1/docs/ahif/0.1.1/reference/validate_bundle.py", line 214, in structural
+    for timestamp in declared_times(kind,value): check_time(timestamp)
+                                                 ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/jaykob/Downloads/Account_History_Analyzer_V1_Agent_Handoff/account_history_analyzer_v1/docs/ahif/0.1.1/reference/validate_bundle.py", line 108, in check_time
+    utc_ns(value['value'])
+  File "/home/jaykob/Downloads/Account_History_Analyzer_V1_Agent_Handoff/account_history_analyzer_v1/docs/ahif/0.1.1/reference/validate_bundle.py", line 99, in utc_ns
+    if not m: fail('Invalid UTC timestamp syntax')
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/jaykob/Downloads/Account_History_Analyzer_V1_Agent_Handoff/account_history_analyzer_v1/docs/ahif/0.1.1/reference/validate_bundle.py", line 34, in fail
+    raise Invalid(msg)
+validate_bundle.Invalid: Invalid UTC timestamp syntax
+
+======================================================================
+ERROR: test_28_local_key_scope (test_format.FormatTests.test_28_local_key_scope)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/home/jaykob/Downloads/Account_History_Analyzer_V1_Agent_Handoff/account_history_analyzer_v1/docs/ahif/0.1.1/reference/test_format.py", line 88, in test_28_local_key_scope
+    r=self.record();r['record_key'].update(id_type='source_local',id=r['source_id']+'#/records/0');self.check(r)
+                                                                                                   ^^^^^^^^^^^^^
+  File "/home/jaykob/Downloads/Account_History_Analyzer_V1_Agent_Handoff/account_history_analyzer_v1/docs/ahif/0.1.1/reference/test_format.py", line 22, in check
+    return v.row_checks('record',r,self.sources)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/jaykob/Downloads/Account_History_Analyzer_V1_Agent_Handoff/account_history_analyzer_v1/docs/ahif/0.1.1/reference/validate_bundle.py", line 248, in row_checks
+    structural(kind,row)
+  File "/home/jaykob/Downloads/Account_History_Analyzer_V1_Agent_Handoff/account_history_analyzer_v1/docs/ahif/0.1.1/reference/validate_bundle.py", line 214, in structural
+    for timestamp in declared_times(kind,value): check_time(timestamp)
+                                                 ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/jaykob/Downloads/Account_History_Analyzer_V1_Agent_Handoff/account_history_analyzer_v1/docs/ahif/0.1.1/reference/validate_bundle.py", line 108, in check_time
+    utc_ns(value['value'])
+  File "/home/jaykob/Downloads/Account_History_Analyzer_V1_Agent_Handoff/account_history_analyzer_v1/docs/ahif/0.1.1/reference/validate_bundle.py", line 99, in utc_ns
+    if not m: fail('Invalid UTC timestamp syntax')
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/jaykob/Downloads/Account_History_Analyzer_V1_Agent_Handoff/account_history_analyzer_v1/docs/ahif/0.1.1/reference/validate_bundle.py", line 34, in fail
+    raise Invalid(msg)
+validate_bundle.Invalid: Invalid UTC timestamp syntax
+
+======================================================================
+ERROR: test_29_handle_identifier_allowed_not_native (test_format.FormatTests.test_29_handle_identifier_allowed_not_native)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/home/jaykob/Downloads/Account_History_Analyzer_V1_Agent_Handoff/account_history_analyzer_v1/docs/ahif/0.1.1/reference/test_format.py", line 91, in test_29_handle_identifier_allowed_not_native
+    r=self.record();r['actor']['id_type']='handle';r['actor']['id']='SampleUser';self.check(r)
+                                                                                 ^^^^^^^^^^^^^
+  File "/home/jaykob/Downloads/Account_History_Analyzer_V1_Agent_Handoff/account_history_analyzer_v1/docs/ahif/0.1.1/reference/test_format.py", line 22, in check
+    return v.row_checks('record',r,self.sources)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/jaykob/Downloads/Account_History_Analyzer_V1_Agent_Handoff/account_history_analyzer_v1/docs/ahif/0.1.1/reference/validate_bundle.py", line 248, in row_checks
+    structural(kind,row)
+  File "/home/jaykob/Downloads/Account_History_Analyzer_V1_Agent_Handoff/account_history_analyzer_v1/docs/ahif/0.1.1/reference/validate_bundle.py", line 214, in structural
+    for timestamp in declared_times(kind,value): check_time(timestamp)
+                                                 ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/jaykob/Downloads/Account_History_Analyzer_V1_Agent_Handoff/account_history_analyzer_v1/docs/ahif/0.1.1/reference/validate_bundle.py", line 108, in check_time
+    utc_ns(value['value'])
+  File "/home/jaykob/Downloads/Account_History_Analyzer_V1_Agent_Handoff/account_history_analyzer_v1/docs/ahif/0.1.1/reference/validate_bundle.py", line 99, in utc_ns
+    if not m: fail('Invalid UTC timestamp syntax')
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/jaykob/Downloads/Account_History_Analyzer_V1_Agent_Handoff/account_history_analyzer_v1/docs/ahif/0.1.1/reference/validate_bundle.py", line 34, in fail
+    raise Invalid(msg)
+validate_bundle.Invalid: Invalid UTC timestamp syntax
+
+======================================================================
+ERROR: test_33_unresolved_parent_is_valid_not_fake_record (test_format.FormatTests.test_33_unresolved_parent_is_valid_not_fake_record)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/home/jaykob/Downloads/Account_History_Analyzer_V1_Agent_Handoff/account_history_analyzer_v1/docs/ahif/0.1.1/reference/test_format.py", line 104, in test_33_unresolved_parent_is_valid_not_fake_record
+    r=self.record();r['relations']=[{'type':'reply_to','target_type':'record','target_key':None,'target_url':None,'resolution':'unknown'}];self.check(r)
+                                                                                                                                           ^^^^^^^^^^^^^
+  File "/home/jaykob/Downloads/Account_History_Analyzer_V1_Agent_Handoff/account_history_analyzer_v1/docs/ahif/0.1.1/reference/test_format.py", line 22, in check
+    return v.row_checks('record',r,self.sources)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/jaykob/Downloads/Account_History_Analyzer_V1_Agent_Handoff/account_history_analyzer_v1/docs/ahif/0.1.1/reference/validate_bundle.py", line 248, in row_checks
+    structural(kind,row)
+  File "/home/jaykob/Downloads/Account_History_Analyzer_V1_Agent_Handoff/account_history_analyzer_v1/docs/ahif/0.1.1/reference/validate_bundle.py", line 214, in structural
+    for timestamp in declared_times(kind,value): check_time(timestamp)
+                                                 ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/jaykob/Downloads/Account_History_Analyzer_V1_Agent_Handoff/account_history_analyzer_v1/docs/ahif/0.1.1/reference/validate_bundle.py", line 108, in check_time
+    utc_ns(value['value'])
+  File "/home/jaykob/Downloads/Account_History_Analyzer_V1_Agent_Handoff/account_history_analyzer_v1/docs/ahif/0.1.1/reference/validate_bundle.py", line 99, in utc_ns
+    if not m: fail('Invalid UTC timestamp syntax')
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/jaykob/Downloads/Account_History_Analyzer_V1_Agent_Handoff/account_history_analyzer_v1/docs/ahif/0.1.1/reference/validate_bundle.py", line 34, in fail
+    raise Invalid(msg)
+validate_bundle.Invalid: Invalid UTC timestamp syntax
+
+======================================================================
+ERROR: test_34_body_string_not_rewritten (test_format.FormatTests.test_34_body_string_not_rewritten)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/home/jaykob/Downloads/Account_History_Analyzer_V1_Agent_Handoff/account_history_analyzer_v1/docs/ahif/0.1.1/reference/test_format.py", line 107, in test_34_body_string_not_rewritten
+    r['content']['parts'][0]['text']=s;r.pop('links',None);self.check(r)
+                                                           ^^^^^^^^^^^^^
+  File "/home/jaykob/Downloads/Account_History_Analyzer_V1_Agent_Handoff/account_history_analyzer_v1/docs/ahif/0.1.1/reference/test_format.py", line 22, in check
+    return v.row_checks('record',r,self.sources)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/jaykob/Downloads/Account_History_Analyzer_V1_Agent_Handoff/account_history_analyzer_v1/docs/ahif/0.1.1/reference/validate_bundle.py", line 248, in row_checks
+    structural(kind,row)
+  File "/home/jaykob/Downloads/Account_History_Analyzer_V1_Agent_Handoff/account_history_analyzer_v1/docs/ahif/0.1.1/reference/validate_bundle.py", line 214, in structural
+    for timestamp in declared_times(kind,value): check_time(timestamp)
+                                                 ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/jaykob/Downloads/Account_History_Analyzer_V1_Agent_Handoff/account_history_analyzer_v1/docs/ahif/0.1.1/reference/validate_bundle.py", line 108, in check_time
+    utc_ns(value['value'])
+  File "/home/jaykob/Downloads/Account_History_Analyzer_V1_Agent_Handoff/account_history_analyzer_v1/docs/ahif/0.1.1/reference/validate_bundle.py", line 99, in utc_ns
+    if not m: fail('Invalid UTC timestamp syntax')
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/jaykob/Downloads/Account_History_Analyzer_V1_Agent_Handoff/account_history_analyzer_v1/docs/ahif/0.1.1/reference/validate_bundle.py", line 34, in fail
+    raise Invalid(msg)
+validate_bundle.Invalid: Invalid UTC timestamp syntax
+
+======================================================================
+ERROR: test_38_false_timestamp_warns_not_erased (test_format.FormatTests.test_38_false_timestamp_warns_not_erased)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/home/jaykob/Downloads/Account_History_Analyzer_V1_Agent_Handoff/account_history_analyzer_v1/docs/ahif/0.1.1/reference/test_format.py", line 117, in test_38_false_timestamp_warns_not_erased
+    self.assertIn('source_created_time_after_observed_time',self.check(r))
+                                                            ^^^^^^^^^^^^^
+  File "/home/jaykob/Downloads/Account_History_Analyzer_V1_Agent_Handoff/account_history_analyzer_v1/docs/ahif/0.1.1/reference/test_format.py", line 22, in check
+    return v.row_checks('record',r,self.sources)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/jaykob/Downloads/Account_History_Analyzer_V1_Agent_Handoff/account_history_analyzer_v1/docs/ahif/0.1.1/reference/validate_bundle.py", line 248, in row_checks
+    structural(kind,row)
+  File "/home/jaykob/Downloads/Account_History_Analyzer_V1_Agent_Handoff/account_history_analyzer_v1/docs/ahif/0.1.1/reference/validate_bundle.py", line 214, in structural
+    for timestamp in declared_times(kind,value): check_time(timestamp)
+                                                 ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/jaykob/Downloads/Account_History_Analyzer_V1_Agent_Handoff/account_history_analyzer_v1/docs/ahif/0.1.1/reference/validate_bundle.py", line 108, in check_time
+    utc_ns(value['value'])
+  File "/home/jaykob/Downloads/Account_History_Analyzer_V1_Agent_Handoff/account_history_analyzer_v1/docs/ahif/0.1.1/reference/validate_bundle.py", line 99, in utc_ns
+    if not m: fail('Invalid UTC timestamp syntax')
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/jaykob/Downloads/Account_History_Analyzer_V1_Agent_Handoff/account_history_analyzer_v1/docs/ahif/0.1.1/reference/validate_bundle.py", line 34, in fail
+    raise Invalid(msg)
+validate_bundle.Invalid: Invalid UTC timestamp syntax
+
+======================================================================
+ERROR: test_40_identity_hash_not_claimed_authenticity (test_format.FormatTests.test_40_identity_hash_not_claimed_authenticity)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/home/jaykob/Downloads/Account_History_Analyzer_V1_Agent_Handoff/account_history_analyzer_v1/docs/ahif/0.1.1/reference/test_format.py", line 121, in test_40_identity_hash_not_claimed_authenticity
+    self.assertEqual(v.validate_bundle(self.root)['authenticity_status'],'not_established')
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/jaykob/Downloads/Account_History_Analyzer_V1_Agent_Handoff/account_history_analyzer_v1/docs/ahif/0.1.1/reference/validate_bundle.py", line 306, in validate_bundle
+    manifest=strict_loads(manifest_bytes);structural('manifest',manifest)
+                                          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/jaykob/Downloads/Account_History_Analyzer_V1_Agent_Handoff/account_history_analyzer_v1/docs/ahif/0.1.1/reference/validate_bundle.py", line 214, in structural
+    for timestamp in declared_times(kind,value): check_time(timestamp)
+                                                 ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/jaykob/Downloads/Account_History_Analyzer_V1_Agent_Handoff/account_history_analyzer_v1/docs/ahif/0.1.1/reference/validate_bundle.py", line 108, in check_time
+    utc_ns(value['value'])
+  File "/home/jaykob/Downloads/Account_History_Analyzer_V1_Agent_Handoff/account_history_analyzer_v1/docs/ahif/0.1.1/reference/validate_bundle.py", line 99, in utc_ns
+    if not m: fail('Invalid UTC timestamp syntax')
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/jaykob/Downloads/Account_History_Analyzer_V1_Agent_Handoff/account_history_analyzer_v1/docs/ahif/0.1.1/reference/validate_bundle.py", line 34, in fail
+    raise Invalid(msg)
+validate_bundle.Invalid: Invalid UTC timestamp syntax
+
+======================================================================
+ERROR: test_all_six_canonical_bundles (test_review.ReviewTests.test_all_six_canonical_bundles) (bundle='hostile-and-identity')
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/home/jaykob/Downloads/Account_History_Analyzer_V1_Agent_Handoff/account_history_analyzer_v1/docs/ahif/0.1.1/reference/test_review.py", line 55, in test_all_six_canonical_bundles
+    self.assertTrue(v.validate_bundle(root,require_canonical=True)['canonical_export'])
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/jaykob/Downloads/Account_History_Analyzer_V1_Agent_Handoff/account_history_analyzer_v1/docs/ahif/0.1.1/reference/validate_bundle.py", line 306, in validate_bundle
+    manifest=strict_loads(manifest_bytes);structural('manifest',manifest)
+                                          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/jaykob/Downloads/Account_History_Analyzer_V1_Agent_Handoff/account_history_analyzer_v1/docs/ahif/0.1.1/reference/validate_bundle.py", line 214, in structural
+    for timestamp in declared_times(kind,value): check_time(timestamp)
+                                                 ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/jaykob/Downloads/Account_History_Analyzer_V1_Agent_Handoff/account_history_analyzer_v1/docs/ahif/0.1.1/reference/validate_bundle.py", line 108, in check_time
+    utc_ns(value['value'])
+  File "/home/jaykob/Downloads/Account_History_Analyzer_V1_Agent_Handoff/account_history_analyzer_v1/docs/ahif/0.1.1/reference/validate_bundle.py", line 99, in utc_ns
+    if not m: fail('Invalid UTC timestamp syntax')
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/jaykob/Downloads/Account_History_Analyzer_V1_Agent_Handoff/account_history_analyzer_v1/docs/ahif/0.1.1/reference/validate_bundle.py", line 34, in fail
+    raise Invalid(msg)
+validate_bundle.Invalid: Invalid UTC timestamp syntax
+
+======================================================================
+ERROR: test_all_six_canonical_bundles (test_review.ReviewTests.test_all_six_canonical_bundles) (bundle='mixed-platform')
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/home/jaykob/Downloads/Account_History_Analyzer_V1_Agent_Handoff/account_history_analyzer_v1/docs/ahif/0.1.1/reference/test_review.py", line 55, in test_all_six_canonical_bundles
+    self.assertTrue(v.validate_bundle(root,require_canonical=True)['canonical_export'])
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/jaykob/Downloads/Account_History_Analyzer_V1_Agent_Handoff/account_history_analyzer_v1/docs/ahif/0.1.1/reference/validate_bundle.py", line 306, in validate_bundle
+    manifest=strict_loads(manifest_bytes);structural('manifest',manifest)
+                                          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/jaykob/Downloads/Account_History_Analyzer_V1_Agent_Handoff/account_history_analyzer_v1/docs/ahif/0.1.1/reference/validate_bundle.py", line 214, in structural
+    for timestamp in declared_times(kind,value): check_time(timestamp)
+                                                 ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/jaykob/Downloads/Account_History_Analyzer_V1_Agent_Handoff/account_history_analyzer_v1/docs/ahif/0.1.1/reference/validate_bundle.py", line 108, in check_time
+    utc_ns(value['value'])
+  File "/home/jaykob/Downloads/Account_History_Analyzer_V1_Agent_Handoff/account_history_analyzer_v1/docs/ahif/0.1.1/reference/validate_bundle.py", line 99, in utc_ns
+    if not m: fail('Invalid UTC timestamp syntax')
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/jaykob/Downloads/Account_History_Analyzer_V1_Agent_Handoff/account_history_analyzer_v1/docs/ahif/0.1.1/reference/validate_bundle.py", line 34, in fail
+    raise Invalid(msg)
+validate_bundle.Invalid: Invalid UTC timestamp syntax
+
+======================================================================
+ERROR: test_all_six_canonical_bundles (test_review.ReviewTests.test_all_six_canonical_bundles) (bundle='minimal')
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/home/jaykob/Downloads/Account_History_Analyzer_V1_Agent_Handoff/account_history_analyzer_v1/docs/ahif/0.1.1/reference/test_review.py", line 55, in test_all_six_canonical_bundles
+    self.assertTrue(v.validate_bundle(root,require_canonical=True)['canonical_export'])
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/jaykob/Downloads/Account_History_Analyzer_V1_Agent_Handoff/account_history_analyzer_v1/docs/ahif/0.1.1/reference/validate_bundle.py", line 306, in validate_bundle
+    manifest=strict_loads(manifest_bytes);structural('manifest',manifest)
+                                          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/jaykob/Downloads/Account_History_Analyzer_V1_Agent_Handoff/account_history_analyzer_v1/docs/ahif/0.1.1/reference/validate_bundle.py", line 214, in structural
+    for timestamp in declared_times(kind,value): check_time(timestamp)
+                                                 ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/jaykob/Downloads/Account_History_Analyzer_V1_Agent_Handoff/account_history_analyzer_v1/docs/ahif/0.1.1/reference/validate_bundle.py", line 108, in check_time
+    utc_ns(value['value'])
+  File "/home/jaykob/Downloads/Account_History_Analyzer_V1_Agent_Handoff/account_history_analyzer_v1/docs/ahif/0.1.1/reference/validate_bundle.py", line 99, in utc_ns
+    if not m: fail('Invalid UTC timestamp syntax')
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/jaykob/Downloads/Account_History_Analyzer_V1_Agent_Handoff/account_history_analyzer_v1/docs/ahif/0.1.1/reference/validate_bundle.py", line 34, in fail
+    raise Invalid(msg)
+validate_bundle.Invalid: Invalid UTC timestamp syntax
+
+======================================================================
+ERROR: test_all_six_canonical_bundles (test_review.ReviewTests.test_all_six_canonical_bundles) (bundle='review-cases')
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/home/jaykob/Downloads/Account_History_Analyzer_V1_Agent_Handoff/account_history_analyzer_v1/docs/ahif/0.1.1/reference/test_review.py", line 55, in test_all_six_canonical_bundles
+    self.assertTrue(v.validate_bundle(root,require_canonical=True)['canonical_export'])
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/jaykob/Downloads/Account_History_Analyzer_V1_Agent_Handoff/account_history_analyzer_v1/docs/ahif/0.1.1/reference/validate_bundle.py", line 306, in validate_bundle
+    manifest=strict_loads(manifest_bytes);structural('manifest',manifest)
+                                          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/jaykob/Downloads/Account_History_Analyzer_V1_Agent_Handoff/account_history_analyzer_v1/docs/ahif/0.1.1/reference/validate_bundle.py", line 214, in structural
+    for timestamp in declared_times(kind,value): check_time(timestamp)
+                                                 ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/jaykob/Downloads/Account_History_Analyzer_V1_Agent_Handoff/account_history_analyzer_v1/docs/ahif/0.1.1/reference/validate_bundle.py", line 108, in check_time
+    utc_ns(value['value'])
+  File "/home/jaykob/Downloads/Account_History_Analyzer_V1_Agent_Handoff/account_history_analyzer_v1/docs/ahif/0.1.1/reference/validate_bundle.py", line 99, in utc_ns
+    if not m: fail('Invalid UTC timestamp syntax')
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/jaykob/Downloads/Account_History_Analyzer_V1_Agent_Handoff/account_history_analyzer_v1/docs/ahif/0.1.1/reference/validate_bundle.py", line 34, in fail
+    raise Invalid(msg)
+validate_bundle.Invalid: Invalid UTC timestamp syntax
+
+======================================================================
+ERROR: test_all_six_canonical_bundles (test_review.ReviewTests.test_all_six_canonical_bundles) (bundle='empty-bundle')
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/home/jaykob/Downloads/Account_History_Analyzer_V1_Agent_Handoff/account_history_analyzer_v1/docs/ahif/0.1.1/reference/test_review.py", line 55, in test_all_six_canonical_bundles
+    self.assertTrue(v.validate_bundle(root,require_canonical=True)['canonical_export'])
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/jaykob/Downloads/Account_History_Analyzer_V1_Agent_Handoff/account_history_analyzer_v1/docs/ahif/0.1.1/reference/validate_bundle.py", line 306, in validate_bundle
+    manifest=strict_loads(manifest_bytes);structural('manifest',manifest)
+                                          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/jaykob/Downloads/Account_History_Analyzer_V1_Agent_Handoff/account_history_analyzer_v1/docs/ahif/0.1.1/reference/validate_bundle.py", line 214, in structural
+    for timestamp in declared_times(kind,value): check_time(timestamp)
+                                                 ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/jaykob/Downloads/Account_History_Analyzer_V1_Agent_Handoff/account_history_analyzer_v1/docs/ahif/0.1.1/reference/validate_bundle.py", line 108, in check_time
+    utc_ns(value['value'])
+  File "/home/jaykob/Downloads/Account_History_Analyzer_V1_Agent_Handoff/account_history_analyzer_v1/docs/ahif/0.1.1/reference/validate_bundle.py", line 99, in utc_ns
+    if not m: fail('Invalid UTC timestamp syntax')
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/jaykob/Downloads/Account_History_Analyzer_V1_Agent_Handoff/account_history_analyzer_v1/docs/ahif/0.1.1/reference/validate_bundle.py", line 34, in fail
+    raise Invalid(msg)
+validate_bundle.Invalid: Invalid UTC timestamp syntax
+
+======================================================================
+ERROR: test_all_six_canonical_bundles (test_review.ReviewTests.test_all_six_canonical_bundles) (bundle='uncertain-time')
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/home/jaykob/Downloads/Account_History_Analyzer_V1_Agent_Handoff/account_history_analyzer_v1/docs/ahif/0.1.1/reference/test_review.py", line 55, in test_all_six_canonical_bundles
+    self.assertTrue(v.validate_bundle(root,require_canonical=True)['canonical_export'])
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/jaykob/Downloads/Account_History_Analyzer_V1_Agent_Handoff/account_history_analyzer_v1/docs/ahif/0.1.1/reference/validate_bundle.py", line 306, in validate_bundle
+    manifest=strict_loads(manifest_bytes);structural('manifest',manifest)
+                                          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/jaykob/Downloads/Account_History_Analyzer_V1_Agent_Handoff/account_history_analyzer_v1/docs/ahif/0.1.1/reference/validate_bundle.py", line 214, in structural
+    for timestamp in declared_times(kind,value): check_time(timestamp)
+                                                 ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/jaykob/Downloads/Account_History_Analyzer_V1_Agent_Handoff/account_history_analyzer_v1/docs/ahif/0.1.1/reference/validate_bundle.py", line 108, in check_time
+    utc_ns(value['value'])
+  File "/home/jaykob/Downloads/Account_History_Analyzer_V1_Agent_Handoff/account_history_analyzer_v1/docs/ahif/0.1.1/reference/validate_bundle.py", line 99, in utc_ns
+    if not m: fail('Invalid UTC timestamp syntax')
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/jaykob/Downloads/Account_History_Analyzer_V1_Agent_Handoff/account_history_analyzer_v1/docs/ahif/0.1.1/reference/validate_bundle.py", line 34, in fail
+    raise Invalid(msg)
+validate_bundle.Invalid: Invalid UTC timestamp syntax
+
+======================================================================
+ERROR: test_canonical_profile_distinct_from_ordinary_validation (test_review.ReviewTests.test_canonical_profile_distinct_from_ordinary_validation) (mode='no_final_lf')
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/home/jaykob/Downloads/Account_History_Analyzer_V1_Agent_Handoff/account_history_analyzer_v1/docs/ahif/0.1.1/reference/test_review.py", line 174, in test_canonical_profile_distinct_from_ordinary_validation
+    self.assertFalse(v.validate_bundle(root)['canonical_export'])
+                     ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/jaykob/Downloads/Account_History_Analyzer_V1_Agent_Handoff/account_history_analyzer_v1/docs/ahif/0.1.1/reference/validate_bundle.py", line 306, in validate_bundle
+    manifest=strict_loads(manifest_bytes);structural('manifest',manifest)
+                                          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/jaykob/Downloads/Account_History_Analyzer_V1_Agent_Handoff/account_history_analyzer_v1/docs/ahif/0.1.1/reference/validate_bundle.py", line 214, in structural
+    for timestamp in declared_times(kind,value): check_time(timestamp)
+                                                 ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/jaykob/Downloads/Account_History_Analyzer_V1_Agent_Handoff/account_history_analyzer_v1/docs/ahif/0.1.1/reference/validate_bundle.py", line 108, in check_time
+    utc_ns(value['value'])
+  File "/home/jaykob/Downloads/Account_History_Analyzer_V1_Agent_Handoff/account_history_analyzer_v1/docs/ahif/0.1.1/reference/validate_bundle.py", line 99, in utc_ns
+    if not m: fail('Invalid UTC timestamp syntax')
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/jaykob/Downloads/Account_History_Analyzer_V1_Agent_Handoff/account_history_analyzer_v1/docs/ahif/0.1.1/reference/validate_bundle.py", line 34, in fail
+    raise Invalid(msg)
+validate_bundle.Invalid: Invalid UTC timestamp syntax
+
+======================================================================
+ERROR: test_canonical_profile_distinct_from_ordinary_validation (test_review.ReviewTests.test_canonical_profile_distinct_from_ordinary_validation) (mode='crlf')
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/home/jaykob/Downloads/Account_History_Analyzer_V1_Agent_Handoff/account_history_analyzer_v1/docs/ahif/0.1.1/reference/test_review.py", line 174, in test_canonical_profile_distinct_from_ordinary_validation
+    self.assertFalse(v.validate_bundle(root)['canonical_export'])
+                     ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/jaykob/Downloads/Account_History_Analyzer_V1_Agent_Handoff/account_history_analyzer_v1/docs/ahif/0.1.1/reference/validate_bundle.py", line 306, in validate_bundle
+    manifest=strict_loads(manifest_bytes);structural('manifest',manifest)
+                                          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/jaykob/Downloads/Account_History_Analyzer_V1_Agent_Handoff/account_history_analyzer_v1/docs/ahif/0.1.1/reference/validate_bundle.py", line 214, in structural
+    for timestamp in declared_times(kind,value): check_time(timestamp)
+                                                 ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/jaykob/Downloads/Account_History_Analyzer_V1_Agent_Handoff/account_history_analyzer_v1/docs/ahif/0.1.1/reference/validate_bundle.py", line 108, in check_time
+    utc_ns(value['value'])
+  File "/home/jaykob/Downloads/Account_History_Analyzer_V1_Agent_Handoff/account_history_analyzer_v1/docs/ahif/0.1.1/reference/validate_bundle.py", line 99, in utc_ns
+    if not m: fail('Invalid UTC timestamp syntax')
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/jaykob/Downloads/Account_History_Analyzer_V1_Agent_Handoff/account_history_analyzer_v1/docs/ahif/0.1.1/reference/validate_bundle.py", line 34, in fail
+    raise Invalid(msg)
+validate_bundle.Invalid: Invalid UTC timestamp syntax
+
+======================================================================
+ERROR: test_canonical_profile_distinct_from_ordinary_validation (test_review.ReviewTests.test_canonical_profile_distinct_from_ordinary_validation) (mode='spacing')
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/home/jaykob/Downloads/Account_History_Analyzer_V1_Agent_Handoff/account_history_analyzer_v1/docs/ahif/0.1.1/reference/test_review.py", line 174, in test_canonical_profile_distinct_from_ordinary_validation
+    self.assertFalse(v.validate_bundle(root)['canonical_export'])
+                     ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/jaykob/Downloads/Account_History_Analyzer_V1_Agent_Handoff/account_history_analyzer_v1/docs/ahif/0.1.1/reference/validate_bundle.py", line 306, in validate_bundle
+    manifest=strict_loads(manifest_bytes);structural('manifest',manifest)
+                                          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/jaykob/Downloads/Account_History_Analyzer_V1_Agent_Handoff/account_history_analyzer_v1/docs/ahif/0.1.1/reference/validate_bundle.py", line 214, in structural
+    for timestamp in declared_times(kind,value): check_time(timestamp)
+                                                 ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/jaykob/Downloads/Account_History_Analyzer_V1_Agent_Handoff/account_history_analyzer_v1/docs/ahif/0.1.1/reference/validate_bundle.py", line 108, in check_time
+    utc_ns(value['value'])
+  File "/home/jaykob/Downloads/Account_History_Analyzer_V1_Agent_Handoff/account_history_analyzer_v1/docs/ahif/0.1.1/reference/validate_bundle.py", line 99, in utc_ns
+    if not m: fail('Invalid UTC timestamp syntax')
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/jaykob/Downloads/Account_History_Analyzer_V1_Agent_Handoff/account_history_analyzer_v1/docs/ahif/0.1.1/reference/validate_bundle.py", line 34, in fail
+    raise Invalid(msg)
+validate_bundle.Invalid: Invalid UTC timestamp syntax
+
+======================================================================
+ERROR: test_canonical_profile_distinct_from_ordinary_validation (test_review.ReviewTests.test_canonical_profile_distinct_from_ordinary_validation) (mode='row_order')
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/home/jaykob/Downloads/Account_History_Analyzer_V1_Agent_Handoff/account_history_analyzer_v1/docs/ahif/0.1.1/reference/test_review.py", line 174, in test_canonical_profile_distinct_from_ordinary_validation
+    self.assertFalse(v.validate_bundle(root)['canonical_export'])
+                     ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/jaykob/Downloads/Account_History_Analyzer_V1_Agent_Handoff/account_history_analyzer_v1/docs/ahif/0.1.1/reference/validate_bundle.py", line 306, in validate_bundle
+    manifest=strict_loads(manifest_bytes);structural('manifest',manifest)
+                                          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/jaykob/Downloads/Account_History_Analyzer_V1_Agent_Handoff/account_history_analyzer_v1/docs/ahif/0.1.1/reference/validate_bundle.py", line 214, in structural
+    for timestamp in declared_times(kind,value): check_time(timestamp)
+                                                 ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/jaykob/Downloads/Account_History_Analyzer_V1_Agent_Handoff/account_history_analyzer_v1/docs/ahif/0.1.1/reference/validate_bundle.py", line 108, in check_time
+    utc_ns(value['value'])
+  File "/home/jaykob/Downloads/Account_History_Analyzer_V1_Agent_Handoff/account_history_analyzer_v1/docs/ahif/0.1.1/reference/validate_bundle.py", line 99, in utc_ns
+    if not m: fail('Invalid UTC timestamp syntax')
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/jaykob/Downloads/Account_History_Analyzer_V1_Agent_Handoff/account_history_analyzer_v1/docs/ahif/0.1.1/reference/validate_bundle.py", line 34, in fail
+    raise Invalid(msg)
+validate_bundle.Invalid: Invalid UTC timestamp syntax
+
+======================================================================
+ERROR: test_canonical_profile_distinct_from_ordinary_validation (test_review.ReviewTests.test_canonical_profile_distinct_from_ordinary_validation) (mode='manifest_order')
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/home/jaykob/Downloads/Account_History_Analyzer_V1_Agent_Handoff/account_history_analyzer_v1/docs/ahif/0.1.1/reference/test_review.py", line 174, in test_canonical_profile_distinct_from_ordinary_validation
+    self.assertFalse(v.validate_bundle(root)['canonical_export'])
+                     ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/jaykob/Downloads/Account_History_Analyzer_V1_Agent_Handoff/account_history_analyzer_v1/docs/ahif/0.1.1/reference/validate_bundle.py", line 306, in validate_bundle
+    manifest=strict_loads(manifest_bytes);structural('manifest',manifest)
+                                          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/jaykob/Downloads/Account_History_Analyzer_V1_Agent_Handoff/account_history_analyzer_v1/docs/ahif/0.1.1/reference/validate_bundle.py", line 214, in structural
+    for timestamp in declared_times(kind,value): check_time(timestamp)
+                                                 ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/jaykob/Downloads/Account_History_Analyzer_V1_Agent_Handoff/account_history_analyzer_v1/docs/ahif/0.1.1/reference/validate_bundle.py", line 108, in check_time
+    utc_ns(value['value'])
+  File "/home/jaykob/Downloads/Account_History_Analyzer_V1_Agent_Handoff/account_history_analyzer_v1/docs/ahif/0.1.1/reference/validate_bundle.py", line 99, in utc_ns
+    if not m: fail('Invalid UTC timestamp syntax')
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/jaykob/Downloads/Account_History_Analyzer_V1_Agent_Handoff/account_history_analyzer_v1/docs/ahif/0.1.1/reference/validate_bundle.py", line 34, in fail
+    raise Invalid(msg)
+validate_bundle.Invalid: Invalid UTC timestamp syntax
+
+======================================================================
+ERROR: test_inconsistent_supplied_dates_are_retained_with_warning (test_review.ReviewTests.test_inconsistent_supplied_dates_are_retained_with_warning)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/home/jaykob/Downloads/Account_History_Analyzer_V1_Agent_Handoff/account_history_analyzer_v1/docs/ahif/0.1.1/reference/test_review.py", line 240, in test_inconsistent_supplied_dates_are_retained_with_warning
+    self.assertIn('source_updated_time_before_created_time',self.check(row))
+                                                            ^^^^^^^^^^^^^^^
+  File "/home/jaykob/Downloads/Account_History_Analyzer_V1_Agent_Handoff/account_history_analyzer_v1/docs/ahif/0.1.1/reference/test_review.py", line 25, in check
+    return v.row_checks(kind,row,self.sources if sources is None else sources)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/jaykob/Downloads/Account_History_Analyzer_V1_Agent_Handoff/account_history_analyzer_v1/docs/ahif/0.1.1/reference/validate_bundle.py", line 248, in row_checks
+    structural(kind,row)
+  File "/home/jaykob/Downloads/Account_History_Analyzer_V1_Agent_Handoff/account_history_analyzer_v1/docs/ahif/0.1.1/reference/validate_bundle.py", line 214, in structural
+    for timestamp in declared_times(kind,value): check_time(timestamp)
+                                                 ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/jaykob/Downloads/Account_History_Analyzer_V1_Agent_Handoff/account_history_analyzer_v1/docs/ahif/0.1.1/reference/validate_bundle.py", line 108, in check_time
+    utc_ns(value['value'])
+  File "/home/jaykob/Downloads/Account_History_Analyzer_V1_Agent_Handoff/account_history_analyzer_v1/docs/ahif/0.1.1/reference/validate_bundle.py", line 99, in utc_ns
+    if not m: fail('Invalid UTC timestamp syntax')
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/jaykob/Downloads/Account_History_Analyzer_V1_Agent_Handoff/account_history_analyzer_v1/docs/ahif/0.1.1/reference/validate_bundle.py", line 34, in fail
+    raise Invalid(msg)
+validate_bundle.Invalid: Invalid UTC timestamp syntax
+
+======================================================================
+ERROR: test_repeats_conflicts_equal_text_and_totals (test_review.ReviewTests.test_repeats_conflicts_equal_text_and_totals)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/home/jaykob/Downloads/Account_History_Analyzer_V1_Agent_Handoff/account_history_analyzer_v1/docs/ahif/0.1.1/reference/test_review.py", line 59, in test_repeats_conflicts_equal_text_and_totals
+    result=v.validate_bundle(root)
+           ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/jaykob/Downloads/Account_History_Analyzer_V1_Agent_Handoff/account_history_analyzer_v1/docs/ahif/0.1.1/reference/validate_bundle.py", line 306, in validate_bundle
+    manifest=strict_loads(manifest_bytes);structural('manifest',manifest)
+                                          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/jaykob/Downloads/Account_History_Analyzer_V1_Agent_Handoff/account_history_analyzer_v1/docs/ahif/0.1.1/reference/validate_bundle.py", line 214, in structural
+    for timestamp in declared_times(kind,value): check_time(timestamp)
+                                                 ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/jaykob/Downloads/Account_History_Analyzer_V1_Agent_Handoff/account_history_analyzer_v1/docs/ahif/0.1.1/reference/validate_bundle.py", line 108, in check_time
+    utc_ns(value['value'])
+  File "/home/jaykob/Downloads/Account_History_Analyzer_V1_Agent_Handoff/account_history_analyzer_v1/docs/ahif/0.1.1/reference/validate_bundle.py", line 99, in utc_ns
+    if not m: fail('Invalid UTC timestamp syntax')
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/jaykob/Downloads/Account_History_Analyzer_V1_Agent_Handoff/account_history_analyzer_v1/docs/ahif/0.1.1/reference/validate_bundle.py", line 34, in fail
+    raise Invalid(msg)
+validate_bundle.Invalid: Invalid UTC timestamp syntax
+
+======================================================================
+FAIL: test_blank_line_and_duplicate_observation_even_across_shards (test_review.ReviewTests.test_blank_line_and_duplicate_observation_even_across_shards)
+----------------------------------------------------------------------
+validate_bundle.Invalid: Invalid UTC timestamp syntax
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/jaykob/Downloads/Account_History_Analyzer_V1_Agent_Handoff/account_history_analyzer_v1/docs/ahif/0.1.1/reference/test_review.py", line 180, in test_blank_line_and_duplicate_observation_even_across_shards
+    with self.assertRaisesRegex(v.Invalid,'Blank JSONL line'): v.validate_bundle(root)
+AssertionError: "Blank JSONL line" does not match "Invalid UTC timestamp syntax"
+
+======================================================================
+FAIL: test_included_raw_and_locator_digests_are_bound (test_review.ReviewTests.test_included_raw_and_locator_digests_are_bound)
+----------------------------------------------------------------------
+validate_bundle.Invalid: Invalid UTC timestamp syntax
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/jaykob/Downloads/Account_History_Analyzer_V1_Agent_Handoff/account_history_analyzer_v1/docs/ahif/0.1.1/reference/test_review.py", line 226, in test_included_raw_and_locator_digests_are_bound
+    with self.assertRaisesRegex(v.Invalid,'checksum mismatch'): v.validate_bundle(root)
+AssertionError: "checksum mismatch" does not match "Invalid UTC timestamp syntax"
+
+======================================================================
+FAIL: test_limits_refuse_without_sampling (test_review.ReviewTests.test_limits_refuse_without_sampling) (limit='MAX_LINE')
+----------------------------------------------------------------------
+validate_bundle.Invalid: Invalid UTC timestamp syntax
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/jaykob/Downloads/Account_History_Analyzer_V1_Agent_Handoff/account_history_analyzer_v1/docs/ahif/0.1.1/reference/test_review.py", line 232, in test_limits_refuse_without_sampling
+    with self.subTest(limit=limit),patch.object(v,limit,0),self.assertRaisesRegex(v.Invalid,'limit exceeded'):
+AssertionError: "limit exceeded" does not match "Invalid UTC timestamp syntax"
+
+======================================================================
+FAIL: test_limits_refuse_without_sampling (test_review.ReviewTests.test_limits_refuse_without_sampling) (limit='MAX_FILE')
+----------------------------------------------------------------------
+validate_bundle.Invalid: Invalid UTC timestamp syntax
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/jaykob/Downloads/Account_History_Analyzer_V1_Agent_Handoff/account_history_analyzer_v1/docs/ahif/0.1.1/reference/test_review.py", line 232, in test_limits_refuse_without_sampling
+    with self.subTest(limit=limit),patch.object(v,limit,0),self.assertRaisesRegex(v.Invalid,'limit exceeded'):
+AssertionError: "limit exceeded" does not match "Invalid UTC timestamp syntax"
+
+======================================================================
+FAIL: test_limits_refuse_without_sampling (test_review.ReviewTests.test_limits_refuse_without_sampling) (limit='MAX_BUNDLE')
+----------------------------------------------------------------------
+validate_bundle.Invalid: Invalid UTC timestamp syntax
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/jaykob/Downloads/Account_History_Analyzer_V1_Agent_Handoff/account_history_analyzer_v1/docs/ahif/0.1.1/reference/test_review.py", line 232, in test_limits_refuse_without_sampling
+    with self.subTest(limit=limit),patch.object(v,limit,0),self.assertRaisesRegex(v.Invalid,'limit exceeded'):
+AssertionError: "limit exceeded" does not match "Invalid UTC timestamp syntax"
+
+======================================================================
+FAIL: test_limits_refuse_without_sampling (test_review.ReviewTests.test_limits_refuse_without_sampling) (limit='MAX_ROWS')
+----------------------------------------------------------------------
+validate_bundle.Invalid: Invalid UTC timestamp syntax
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/jaykob/Downloads/Account_History_Analyzer_V1_Agent_Handoff/account_history_analyzer_v1/docs/ahif/0.1.1/reference/test_review.py", line 232, in test_limits_refuse_without_sampling
+    with self.subTest(limit=limit),patch.object(v,limit,0),self.assertRaisesRegex(v.Invalid,'limit exceeded'):
+AssertionError: "limit exceeded" does not match "Invalid UTC timestamp syntax"
+
+======================================================================
+FAIL: test_manifest_integrity_and_source_coverage (test_review.ReviewTests.test_manifest_integrity_and_source_coverage)
+----------------------------------------------------------------------
+validate_bundle.Invalid: Invalid UTC timestamp syntax
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/jaykob/Downloads/Account_History_Analyzer_V1_Agent_Handoff/account_history_analyzer_v1/docs/ahif/0.1.1/reference/test_review.py", line 199, in test_manifest_integrity_and_source_coverage
+    with self.assertRaisesRegex(v.Invalid,'Every source requires'): v.validate_bundle(root)
+AssertionError: "Every source requires" does not match "Invalid UTC timestamp syntax"
+
+======================================================================
+FAIL: test_negative_fixtures_rehash_before_semantic_rejection (test_review.ReviewTests.test_negative_fixtures_rehash_before_semantic_rejection) (case='bad_date')
+----------------------------------------------------------------------
+validate_bundle.Invalid: Invalid UTC timestamp syntax
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/jaykob/Downloads/Account_History_Analyzer_V1_Agent_Handoff/account_history_analyzer_v1/docs/ahif/0.1.1/reference/test_review.py", line 48, in test_negative_fixtures_rehash_before_semantic_rejection
+    with self.assertRaisesRegex(ValueError,case['error']): self.check(row)
+AssertionError: "day is out of range" does not match "Invalid UTC timestamp syntax"
+
+======================================================================
+FAIL: test_negative_fixtures_rehash_before_semantic_rejection (test_review.ReviewTests.test_negative_fixtures_rehash_before_semantic_rejection) (case='wrong_precision')
+----------------------------------------------------------------------
+validate_bundle.Invalid: Invalid UTC timestamp syntax
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/jaykob/Downloads/Account_History_Analyzer_V1_Agent_Handoff/account_history_analyzer_v1/docs/ahif/0.1.1/reference/test_review.py", line 48, in test_negative_fixtures_rehash_before_semantic_rejection
+    with self.assertRaisesRegex(ValueError,case['error']): self.check(row)
+AssertionError: "finer than declared precision" does not match "Invalid UTC timestamp syntax"
+
+======================================================================
+FAIL: test_negative_fixtures_rehash_before_semantic_rejection (test_review.ReviewTests.test_negative_fixtures_rehash_before_semantic_rejection) (case='reversed_interval')
+----------------------------------------------------------------------
+validate_bundle.Invalid: Invalid UTC timestamp syntax
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/jaykob/Downloads/Account_History_Analyzer_V1_Agent_Handoff/account_history_analyzer_v1/docs/ahif/0.1.1/reference/test_review.py", line 48, in test_negative_fixtures_rehash_before_semantic_rejection
+    with self.assertRaisesRegex(ValueError,case['error']): self.check(row)
+AssertionError: "Invalid time interval" does not match "Invalid UTC timestamp syntax"
+
+======================================================================
+FAIL: test_negative_fixtures_rehash_before_semantic_rejection (test_review.ReviewTests.test_negative_fixtures_rehash_before_semantic_rejection) (case='closed_open_zero_interval')
+----------------------------------------------------------------------
+validate_bundle.Invalid: Invalid UTC timestamp syntax
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/jaykob/Downloads/Account_History_Analyzer_V1_Agent_Handoff/account_history_analyzer_v1/docs/ahif/0.1.1/reference/test_review.py", line 48, in test_negative_fixtures_rehash_before_semantic_rejection
+    with self.assertRaisesRegex(ValueError,case['error']): self.check(row)
+AssertionError: "Invalid time interval" does not match "Invalid UTC timestamp syntax"
+
+======================================================================
+FAIL: test_path_inventory_and_optional_raw (test_review.ReviewTests.test_path_inventory_and_optional_raw)
+----------------------------------------------------------------------
+validate_bundle.Invalid: Invalid UTC timestamp syntax
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/jaykob/Downloads/Account_History_Analyzer_V1_Agent_Handoff/account_history_analyzer_v1/docs/ahif/0.1.1/reference/test_review.py", line 206, in test_path_inventory_and_optional_raw
+    with self.assertRaisesRegex(v.Invalid,'inventory'): v.validate_bundle(root)
+AssertionError: "inventory" does not match "Invalid UTC timestamp syntax"
+
+----------------------------------------------------------------------
+Ran 60 tests in 0.345s
+
+FAILED (failures=12, errors=29)

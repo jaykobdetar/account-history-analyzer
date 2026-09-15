@@ -50,6 +50,10 @@ Required analysis exports are `results.json`, per-record features, window member
 
 CLI exit codes: **0** success including ordinary insufficient data; **2** input/configuration error; **3** computation failure or failed synthetic checks; **4** explicit resource limit/incomplete analysis; **5** failed integrity/reproduction. Machine-readable summaries go to stdout and errors to stderr.
 
+## Supplied evidence in AHIF
+
+[AHIF 0.1.1](AHIF.md) is a separate evidence format. Its JSONL is not accepted directly by this CLI. The companion AHIF repository provides a versioned offline Reddit export normalizer and an explicit metadata-only projection into these existing record/snapshot inputs. Read the [supported contract and limitations](AHIF.md#supported-boundaries) before using its outputs. Retained-prose projection is not supported by that profile; ordinary insufficient-data outcomes remain valid.
+
 ## Python API
 
 ```python

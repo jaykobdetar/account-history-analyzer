@@ -1,0 +1,23 @@
+[
+  {
+    "command": [
+      "/home/jaykob/Downloads/Account_History_Analyzer_V1_Agent_Handoff/account_history_analyzer_v1/.venv/bin/python",
+      "/home/jaykob/Downloads/Account_History_Analyzer_V1_Agent_Handoff/account_history_analyzer_v1/docs/ahif/0.1.1/reference/validate_bundle.py",
+      "/home/jaykob/Downloads/Account_History_Analyzer_V1_Agent_Handoff/account_history_analyzer_v1/docs/ahif/0.1.1/examples/review-cases",
+      "--canonical"
+    ],
+    "returncode": 0,
+    "stdout": "{\n  \"status\": \"passed\",\n  \"format_version\": \"0.1.1\",\n  \"record_observations\": 14,\n  \"distinct_record_keys\": 11,\n  \"account_observations\": 2,\n  \"record_keys_with_multiple_observations\": 1,\n  \"source_local_record_observations\": 1,\n  \"projection_status\": \"not_performed\",\n  \"authenticity_status\": \"not_established\",\n  \"canonical_export\": true,\n  \"completeness_status\": \"not_established\",\n  \"count_semantics\": \"supplied keys only; not verified posting-event totals\",\n  \"warnings\": {},\n  \"files\": [\n    {\n      \"path\": \"accounts.jsonl\",\n      \"role\": \"accounts\",\n      \"rows\": 2\n    },\n    {\n      \"path\": \"records.jsonl\",\n      \"role\": \"records\",\n      \"rows\": 14\n    }\n  ]\n}\n",
+    "stderr": ""
+  },
+  {
+    "command": [
+      "/home/jaykob/Downloads/Account_History_Analyzer_V1_Agent_Handoff/account_history_analyzer_v1/.venv/bin/python",
+      "/home/jaykob/Downloads/Account_History_Analyzer_V1_Agent_Handoff/account_history_analyzer_v1/docs/ahif/0.1.1/reference/validate_bundle.py",
+      "/home/jaykob/Downloads/Account_History_Analyzer_V1_Agent_Handoff/account_history_analyzer_v1/docs/ahif/history/0.1.0/examples/minimal"
+    ],
+    "returncode": 2,
+    "stdout": "{\"status\": \"failed\", \"reason\": \"Schema error manifest at /format_version: const\"}\n",
+    "stderr": ""
+  }
+]

@@ -1,0 +1,20 @@
+[
+  {
+    "command": [
+      "/home/jaykob/Downloads/Account_History_Analyzer_V1_Agent_Handoff/account_history_analyzer_v1/.venv/bin/python",
+      "/tmp/tmp20fphw27/0.1.1/reference/build_schemas.py"
+    ],
+    "returncode": 0,
+    "stdout": "Wrote 4 draft schema documents.\n",
+    "stderr": ""
+  },
+  {
+    "command": [
+      "/home/jaykob/Downloads/Account_History_Analyzer_V1_Agent_Handoff/account_history_analyzer_v1/.venv/bin/python",
+      "/tmp/tmp20fphw27/0.1.1/reference/build_examples.py"
+    ],
+    "returncode": 0,
+    "stdout": "/tmp/tmp20fphw27/0.1.1/examples/minimal\n/tmp/tmp20fphw27/0.1.1/examples/mixed-platform\n/tmp/tmp20fphw27/0.1.1/examples/uncertain-time\n/tmp/tmp20fphw27/0.1.1/examples/hostile-and-identity\n/tmp/tmp20fphw27/0.1.1/examples/review-cases\n/tmp/tmp20fphw27/0.1.1/examples/empty-bundle\n",
+    "stderr": ""
+  }
+]

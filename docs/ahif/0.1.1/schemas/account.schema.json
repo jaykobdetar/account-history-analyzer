@@ -1,0 +1,5 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "urn:ahif:schema:0.1.1:account",
+  "$ref": "urn:ahif:schema:0.1.1#/$defs/account"
+}

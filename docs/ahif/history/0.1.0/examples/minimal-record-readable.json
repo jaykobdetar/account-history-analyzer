@@ -1,0 +1,69 @@
+{
+  "format_version": "0.1.0",
+  "record_key": {
+    "namespace": "https://forum.example.org",
+    "collection": "posts",
+    "id_type": "native",
+    "id": "812"
+  },
+  "actor": {
+    "namespace": "https://forum.example.org",
+    "collection": "members",
+    "id_type": "native",
+    "id": "17"
+  },
+  "kind": "unknown",
+  "observed_at": {
+    "status": "unknown",
+    "reason": "not_supplied"
+  },
+  "created_at": {
+    "status": "unknown",
+    "reason": "not_supplied"
+  },
+  "updated_at": {
+    "status": "unknown",
+    "reason": "not_supplied"
+  },
+  "lifecycle": {
+    "state": "visible",
+    "edit_state": "unknown",
+    "native_revision_id": null
+  },
+  "visibility": "public",
+  "content": {
+    "availability": "present",
+    "completeness": "complete",
+    "reason": null,
+    "parts": [
+      {
+        "part_id": "body",
+        "role": "body",
+        "attribution": {
+          "relation": "record_actor",
+          "account_key": null
+        },
+        "format": "plain",
+        "text": "I tried the new cable. It works now, but the connector still feels loose.",
+        "fidelity": "source_field",
+        "language": {
+          "tag": "und",
+          "basis": "unknown"
+        }
+      }
+    ]
+  },
+  "provenance": {
+    "locator": {
+      "kind": "json_pointer",
+      "value": "/records/0"
+    },
+    "normalizer": {
+      "name": "fictional_fixture_builder",
+      "version": "0.1.0"
+    },
+    "transformations": []
+  },
+  "source_id": "sha256:c457e819dbfc27c6a7a7b173c1f6403f82b9d51af5fa92b7066bbca1bd37a05a",
+  "observation_id": "sha256:a8d11f04b7e1cad4bc144aabc77d9e296b5955de643d0363564d06f223622403"
+}

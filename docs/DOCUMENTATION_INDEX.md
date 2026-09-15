@@ -10,6 +10,7 @@ The current software is **AHAS 1.0.4**, with a frozen analytical baseline. The R
 - [Configuration](../config/README.md) · [External evaluation input contracts](EXTERNAL_EVALUATION.md)
 - [Dependency and license notices](DEPENDENCIES.md) · [Research sources](../SOURCES.md)
 - [Deterministic reuse resource accounting](REUSE_RESOURCE_POLICY.md)
+- [AHIF evidence contract and offline Reddit projection](AHIF.md)
 
 ## Study evidence
 

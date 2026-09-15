@@ -1,0 +1,67 @@
+{
+  "format_version": "0.1.0",
+  "record_key": {
+    "namespace": "https://forum.example.org",
+    "collection": "posts",
+    "id_type": "native",
+    "id": "media_1"
+  },
+  "actor": {
+    "namespace": "https://forum.example.org",
+    "collection": "members",
+    "id_type": "native",
+    "id": "17"
+  },
+  "kind": "post",
+  "observed_at": {
+    "status": "known",
+    "value": "2026-09-01T12:00:00Z",
+    "precision": "second",
+    "basis": "source"
+  },
+  "created_at": {
+    "status": "known",
+    "value": "2026-08-20T08:00:00Z",
+    "precision": "second",
+    "basis": "source"
+  },
+  "updated_at": {
+    "status": "unknown",
+    "reason": "not_supplied"
+  },
+  "lifecycle": {
+    "state": "visible",
+    "edit_state": "unknown",
+    "native_revision_id": null
+  },
+  "visibility": "public",
+  "content": {
+    "availability": "empty",
+    "completeness": "complete",
+    "reason": "Image-only contribution; no supplied caption.",
+    "parts": []
+  },
+  "provenance": {
+    "locator": {
+      "kind": "json_pointer",
+      "value": "/records/8",
+      "artifact_sha256": "a155d86695b4e106f8efc2db5568bde2b6e4c49f6a55da7054d56a918811ef51"
+    },
+    "normalizer": {
+      "name": "fictional_fixture_builder",
+      "version": "0.1.0"
+    },
+    "transformations": []
+  },
+  "links": [
+    {
+      "link_id": "image_1",
+      "role": "attachment",
+      "url_as_supplied": "https://media.example/image.png",
+      "resolved_url": null,
+      "resolution_basis": "not_attempted"
+    }
+  ],
+  "source_id": "sha256:7694502777e93f4f343cb0412de1471d39bbc58af6bc84ddd0752b4d7164e7eb",
+  "observation_id": "sha256:3635c1ed931467461977130426595f05c6f59532f94ab6a15cb12bd4382ae8bb"
+}

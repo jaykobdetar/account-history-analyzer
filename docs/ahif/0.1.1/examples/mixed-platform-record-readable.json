@@ -1,0 +1,108 @@
+{
+  "format_version": "0.1.1",
+  "record_key": {
+    "namespace": "urn:ahif:service:x",
+    "collection": "posts",
+    "id_type": "native",
+    "id": "quote_1"
+  },
+  "actor": {
+    "namespace": "urn:ahif:service:x",
+    "collection": "accounts",
+    "id_type": "native",
+    "id": "9007199254740993"
+  },
+  "kind": "quote_post",
+  "observed_at": {
+    "status": "known",
+    "value": "2026-09-01T12:00:00Z",
+    "precision": "second",
+    "basis": "source"
+  },
+  "created_at": {
+    "status": "known",
+    "value": "2026-08-20T08:00:00Z",
+    "precision": "second",
+    "basis": "source"
+  },
+  "updated_at": {
+    "status": "unknown",
+    "reason": "not_supplied"
+  },
+  "lifecycle": {
+    "state": "visible",
+    "edit_state": "unknown",
+    "native_revision_id": null
+  },
+  "visibility": "public",
+  "content": {
+    "availability": "present",
+    "completeness": "complete",
+    "reason": null,
+    "parts": [
+      {
+        "part_id": "body",
+        "role": "body",
+        "attribution": {
+          "relation": "record_actor",
+          "account_key": null
+        },
+        "format": "plain",
+        "text": "This disagrees with my measurements.",
+        "fidelity": "source_field",
+        "language": {
+          "tag": "en",
+          "basis": "source"
+        }
+      },
+      {
+        "part_id": "quote",
+        "role": "quote",
+        "attribution": {
+          "relation": "other",
+          "account_key": {
+            "namespace": "urn:ahif:service:x",
+            "collection": "accounts",
+            "id_type": "native",
+            "id": "someone_else"
+          }
+        },
+        "format": "plain",
+        "text": "The source statement that another account published.",
+        "fidelity": "source_field",
+        "language": {
+          "tag": "en",
+          "basis": "source"
+        }
+      }
+    ]
+  },
+  "provenance": {
+    "locator": {
+      "kind": "json_pointer",
+      "value": "/records/2",
+      "artifact_sha256": "9f4e5e2173c9346c63101e88011e14361ad18f64e4ad1880c8abf641ab03b59e"
+    },
+    "normalizer": {
+      "name": "fictional_fixture_builder",
+      "version": "0.1.1"
+    },
+    "transformations": []
+  },
+  "relations": [
+    {
+      "type": "quotes",
+      "target_type": "record",
+      "target_key": {
+        "namespace": "urn:ahif:service:x",
+        "collection": "posts",
+        "id_type": "native",
+        "id": "outside_1"
+      },
+      "target_url": null,
+      "resolution": "known_identity"
+    }
+  ],
+  "source_id": "sha256:6f8c3daedc495fe772304fa83746efe65057e328b232317866377f9e9f706515",
+  "observation_id": "sha256:3e1e6de0e9e141eec7293db1c61ae360e70851491098d8ef616bf9227ddac802"
+}

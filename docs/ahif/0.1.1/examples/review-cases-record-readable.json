@@ -1,0 +1,71 @@
+{
+  "format_version": "0.1.1",
+  "record_key": {
+    "namespace": "https://forum.example.org",
+    "collection": "posts",
+    "id_type": "native",
+    "id": "repeated"
+  },
+  "actor": {
+    "namespace": "https://forum.example.org",
+    "collection": "members",
+    "id_type": "native",
+    "id": "17"
+  },
+  "kind": "post",
+  "observed_at": {
+    "status": "unknown",
+    "reason": "not_supplied"
+  },
+  "created_at": {
+    "status": "known",
+    "value": "2026-08-20T08:00:00Z",
+    "precision": "second",
+    "basis": "source"
+  },
+  "updated_at": {
+    "status": "unknown",
+    "reason": "not_supplied"
+  },
+  "lifecycle": {
+    "state": "visible",
+    "edit_state": "unknown",
+    "native_revision_id": null
+  },
+  "visibility": "public",
+  "content": {
+    "availability": "present",
+    "completeness": "complete",
+    "reason": null,
+    "parts": [
+      {
+        "part_id": "body",
+        "role": "body",
+        "attribution": {
+          "relation": "record_actor",
+          "account_key": null
+        },
+        "format": "plain",
+        "text": "Conflicting supplied wording; edit not established.",
+        "fidelity": "source_field",
+        "language": {
+          "tag": "en",
+          "basis": "source"
+        }
+      }
+    ]
+  },
+  "provenance": {
+    "locator": {
+      "kind": "manual",
+      "value": "Fictional repeated capture"
+    },
+    "normalizer": {
+      "name": "fictional_fixture_builder",
+      "version": "0.1.1"
+    },
+    "transformations": []
+  },
+  "source_id": "sha256:31c2dccf4efb059a49f0cfbdd75568fb471556f917149ebb255e976535e2dc75",
+  "observation_id": "sha256:00528f470e9e985fba75c87cfd9c1f0a96fe8bff2cfba8fe5df989647c4ec6e1"
+}

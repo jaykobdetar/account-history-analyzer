@@ -1,0 +1,269 @@
+{
+  "package": "AHIF 0.1.1 reviewed contract",
+  "started_at": "2026-09-15T19:30:49.372547+00:00",
+  "python": "3.12.3 (main, Aug 31 2026, 10:18:26) [GCC 13.3.0]",
+  "dependencies": {
+    "jsonschema": "4.26.0",
+    "referencing": "0.37.0",
+    "account-history-analyzer": "1.0.0"
+  },
+  "status": "passed_for_exercised_checks",
+  "projection_status": "not_implemented",
+  "analysis_executed": false,
+  "unit_tests": {
+    "run": 61,
+    "failures": 0,
+    "errors": 0,
+    "skipped": 0
+  },
+  "negative_fixture_recipes": 24,
+  "bundles": {
+    "empty-bundle": {
+      "status": "passed",
+      "format_version": "0.1.1",
+      "record_observations": 0,
+      "distinct_record_keys": 0,
+      "account_observations": 0,
+      "record_keys_with_multiple_observations": 0,
+      "source_local_record_observations": 0,
+      "projection_status": "not_performed",
+      "authenticity_status": "not_established",
+      "canonical_export": true,
+      "completeness_status": "not_established",
+      "count_semantics": "supplied keys only; not verified posting-event totals",
+      "warnings": {},
+      "files": [
+        {
+          "path": "records.jsonl",
+          "role": "records",
+          "rows": 0
+        }
+      ]
+    },
+    "hostile-and-identity": {
+      "status": "passed",
+      "format_version": "0.1.1",
+      "record_observations": 3,
+      "distinct_record_keys": 3,
+      "account_observations": 2,
+      "record_keys_with_multiple_observations": 0,
+      "source_local_record_observations": 0,
+      "projection_status": "not_performed",
+      "authenticity_status": "not_established",
+      "canonical_export": true,
+      "completeness_status": "not_established",
+      "count_semantics": "supplied keys only; not verified posting-event totals",
+      "warnings": {},
+      "files": [
+        {
+          "path": "accounts.jsonl",
+          "role": "accounts",
+          "rows": 2
+        },
+        {
+          "path": "raw/source.json",
+          "role": "raw",
+          "rows": null
+        },
+        {
+          "path": "records.jsonl",
+          "role": "records",
+          "rows": 3
+        }
+      ]
+    },
+    "minimal": {
+      "status": "passed",
+      "format_version": "0.1.1",
+      "record_observations": 1,
+      "distinct_record_keys": 1,
+      "account_observations": 0,
+      "record_keys_with_multiple_observations": 0,
+      "source_local_record_observations": 0,
+      "projection_status": "not_performed",
+      "authenticity_status": "not_established",
+      "canonical_export": true,
+      "completeness_status": "not_established",
+      "count_semantics": "supplied keys only; not verified posting-event totals",
+      "warnings": {},
+      "files": [
+        {
+          "path": "records.jsonl",
+          "role": "records",
+          "rows": 1
+        }
+      ]
+    },
+    "mixed-platform": {
+      "status": "passed",
+      "format_version": "0.1.1",
+      "record_observations": 12,
+      "distinct_record_keys": 11,
+      "account_observations": 3,
+      "record_keys_with_multiple_observations": 1,
+      "source_local_record_observations": 0,
+      "projection_status": "not_performed",
+      "authenticity_status": "not_established",
+      "canonical_export": true,
+      "completeness_status": "not_established",
+      "count_semantics": "supplied keys only; not verified posting-event totals",
+      "warnings": {},
+      "files": [
+        {
+          "path": "accounts.jsonl",
+          "role": "accounts",
+          "rows": 3
+        },
+        {
+          "path": "raw/source.json",
+          "role": "raw",
+          "rows": null
+        },
+        {
+          "path": "records.jsonl",
+          "role": "records",
+          "rows": 12
+        }
+      ]
+    },
+    "review-cases": {
+      "status": "passed",
+      "format_version": "0.1.1",
+      "record_observations": 14,
+      "distinct_record_keys": 11,
+      "account_observations": 2,
+      "record_keys_with_multiple_observations": 1,
+      "source_local_record_observations": 1,
+      "projection_status": "not_performed",
+      "authenticity_status": "not_established",
+      "canonical_export": true,
+      "completeness_status": "not_established",
+      "count_semantics": "supplied keys only; not verified posting-event totals",
+      "warnings": {},
+      "files": [
+        {
+          "path": "accounts.jsonl",
+          "role": "accounts",
+          "rows": 2
+        },
+        {
+          "path": "records.jsonl",
+          "role": "records",
+          "rows": 14
+        }
+      ]
+    },
+    "uncertain-time": {
+      "status": "passed",
+      "format_version": "0.1.1",
+      "record_observations": 4,
+      "distinct_record_keys": 4,
+      "account_observations": 0,
+      "record_keys_with_multiple_observations": 0,
+      "source_local_record_observations": 0,
+      "projection_status": "not_performed",
+      "authenticity_status": "not_established",
+      "canonical_export": true,
+      "completeness_status": "not_established",
+      "count_semantics": "supplied keys only; not verified posting-event totals",
+      "warnings": {},
+      "files": [
+        {
+          "path": "raw/source.json",
+          "role": "raw",
+          "rows": null
+        },
+        {
+          "path": "records.jsonl",
+          "role": "records",
+          "rows": 4
+        }
+      ]
+    }
+  },
+  "cli_checks": {
+    "canonical_bundle_returncode": 0,
+    "unsupported_010_returncode": 2
+  },
+  "regeneration": {
+    "files_compared": 27,
+    "byte_identical": true,
+    "commands_succeeded": true
+  },
+  "frozen_boundary": {
+    "files_compared": 74,
+    "mismatches": [],
+    "unexpected_core_files": [],
+    "unchanged": true
+  },
+  "historical_preservation": {
+    "members": 35,
+    "manifest_checksums_verified": 34,
+    "byte_identical": true
+  },
+  "historical_rerun": {
+    "returncode": 0,
+    "log": "historical-rerun.log",
+    "scope": "Original 0.1.0 tests; not evidence of production support."
+  },
+  "restricted_canonical_cross_runtime": {
+    "status": "passed",
+    "node": "v22.16.0",
+    "vectors": 25,
+    "full_rfc8785_suite": false
+  },
+  "input_hashes": {
+    "reference/build_examples.py": "293cd8e3066431b0d4a9f92c5ce4186e74dbf6c0374db61ce02b1e4097c403a0",
+    "reference/build_schemas.py": "f3da913dde50758c2d69ed7c47f2806bcefb3649b3100f42b1365a8047f136a0",
+    "reference/requirements-reference.txt": "1911852979e1b0f00e28a2aaed8195c69fb249124f742dc92e8fd24d92d562e1",
+    "reference/run_checks.py": "3ec76c21573d3e39ad566b095d03f31a0c888ce60d7bd1942047df601d23ceff",
+    "reference/test_format.py": "3429b3a2b7d1303372f0199604ebb0f71ac032633cfbddd60df4cf565fa593b5",
+    "reference/test_review.py": "872dfb3f0ea49f6fa656fb603db493dc0901235f47573852974ef448f0c53290",
+    "reference/validate_bundle.py": "59f66e2a6963954e9d565cab83d9b7a35d99c2d5f19f6e5a422656c2c89a6419",
+    "schemas/account.schema.json": "2b3d69d25f659055217157671e0050c23cdfae73d5669e6d338af8db78d13693",
+    "schemas/ahif.schema.json": "19bd73f1a73e1ad17a2a06264ad1e09b8bc0c572b56aa0ae45a2640efec2670c",
+    "schemas/manifest.schema.json": "7bad0e646a4fdbd92a25c74906edcb34c247fbee17ff4c4d37c5f69a27f6e9b4",
+    "schemas/record.schema.json": "bbb23399aeca9a3354cc551c22e4a233393bde263b051d813e8473e605a5806b",
+    "examples/empty-bundle/manifest.json": "18e95ee7355d38981fd7e966b2e9eba8c03d0cf7b64ad196937558ff783d9397",
+    "examples/empty-bundle/records.jsonl": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "examples/hostile-and-identity/accounts.jsonl": "a966d55d15f7fc8b0aabbb138c73c0e1aec7e9f5238ff696ae1272205fa3c179",
+    "examples/hostile-and-identity/manifest.json": "6f1e6b973d520e6b057d99ccfc1355810c9dc7460474fe7e4e650b39997fa0d2",
+    "examples/hostile-and-identity/raw/source.json": "d7812d4f594602d2e73490152c00c218cd499f1023a5099d20a3c60f93af1982",
+    "examples/hostile-and-identity/records.jsonl": "7eb95fbc07d8426059045a47f9a67d8a11c7f2fd8d8d031f3bb14199b4c42b92",
+    "examples/hostile-and-identity-record-readable.json": "52c0a5390fe709c100762e487f482bfc58001c5de25e3caf3db3f59251b36f50",
+    "examples/minimal/manifest.json": "599f91abfb61e736e3122498d42d7f85669bf48778d8e5ebb79fafb4461188be",
+    "examples/minimal/records.jsonl": "0b3db98081346be7c039e870666e30a7b40c8749f0f49318b2d77ba666895e5a",
+    "examples/minimal-record-readable.json": "4be113f6ea851e1e3cc31cbe790841fca88eb6567865019f973e81cbab4c69ee",
+    "examples/mixed-platform/accounts.jsonl": "d4f2aab8ad6f7c13479d09222de1a49460e072efcc9c24af0372fb5cf09d12dd",
+    "examples/mixed-platform/manifest.json": "d3a8bb124a15ed8df6ee6d99fd7c90ec30e9b78d7e45b56c4f0aa922237cb66c",
+    "examples/mixed-platform/raw/source.json": "9f4e5e2173c9346c63101e88011e14361ad18f64e4ad1880c8abf641ab03b59e",
+    "examples/mixed-platform/records.jsonl": "484250383207d7e4256868bae172c42ada1d9227d248301fbe765c729ea102b7",
+    "examples/mixed-platform-record-readable.json": "60cad0e806aed70bafdf42d79e24c4b99561bb779508d96f154562755698874e",
+    "examples/review-cases/accounts.jsonl": "deac734d86b4e4057084e37a910c9b5dd96561c467501b5f0a44a8ff71b8fce5",
+    "examples/review-cases/manifest.json": "e394ea9a3d70ea9b0a4912cdebd6426bf46ab11bcf0c744a0b317ca7bf0d5d38",
+    "examples/review-cases/records.jsonl": "9e0210dd5c1a3b2dd78aed2380487da8f6cbee5be1270dc17d34d892c8e75f91",
+    "examples/review-cases-record-readable.json": "55b99a2c330c6eb95ef63c9a349c826bcb4715e3ea7465cfe452c3a7fb3ed752",
+    "examples/uncertain-time/manifest.json": "a435428426fece1132d8fe416f970080f5cce5593af39141dce2e643ffb8bee8",
+    "examples/uncertain-time/raw/source.json": "90e013aec7ffb06bf2c58eba68960731e459dd50e0de18aadfe53d689c6bf306",
+    "examples/uncertain-time/records.jsonl": "d097a5ffab487563deea1e1b1f4d00dce61773da36c92a933c4b88bdbd5b5fd0",
+    "examples/uncertain-time-record-readable.json": "ee2b519443cd835529746aec0730de2e53c28fbfe876ac39c3f6e915fa2fc58f",
+    "fixtures/negative-cases.json": "b1afee9a27697be50625d4637272e3e6e0c5c62cb53fa6123a1d5b6248a9fc91",
+    "ADOPTION.md": "631e2615e0b88ae3f987a18d8375c66dca34261bb162762ece905f619e849b05",
+    "AHAS_COMPATIBILITY.md": "21b442b101201d496d3202415961198a0002fb6e64d6c9029c9e54cb19a22b53",
+    "CHANGES.md": "0c3a1e3eb03673f40eca83b8adfa3d03d1fa95e4fb842636047f1d319e48e070",
+    "FIELDS.md": "f2581e5855067a00a12b3e5e54c60a7990ac338afdfca87a4966c39d221bb2f2",
+    "REVIEW_MATRIX.md": "117ffb487eba6d18cb6d94556dd7b7e6675c7cdafec424e0bb1090c531fd4274",
+    "SOURCES.md": "b707313b40b03101535aad5a4ef553c5e544d06632730677049e3138348227b1",
+    "SPEC.md": "2c232a02f2061cce47a49b3214a3f8a6b446fc137f758b0658cdd7614a22f09e"
+  },
+  "not_executed": [
+    "Production AHAS numerical analysis or scientific pilot",
+    "Real-account collection or evidence access",
+    "Source normalizer or projection implementation",
+    "Evidence authenticity or locator verification",
+    "Full BCP-47 registry or general JCS compliance suite",
+    "Production untrusted ingestion/security audit",
+    "Commit, push, release build or publication"
+  ],
+  "finished_at": "2026-09-15T19:30:51.106441+00:00"
+}
