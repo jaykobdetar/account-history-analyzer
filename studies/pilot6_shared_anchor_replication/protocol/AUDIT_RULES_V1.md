@@ -1,0 +1,11 @@
+# Pilot 6 inherited content and thread audit
+
+Apply the unchanged Pilot 3 audit wrapper and reviewed Pilot 2 leakage-audit engine to the unique five-cell buffer pool and the extended historical protection inventory. This document binds their existing relationship rules for Pilot 6; it does not adopt Pilot 4's reciprocal eight-cell construction requirement.
+
+Exact relations require equal nonempty normalized lexical-token segment sequences. Near reuse uses five-token shingles, at least 20 retained words, at least five unique shared shingles, and Jaccard ≥0.80 or either directional containment ≥0.90. Template relations use a 15-word phrase across at least three source accounts. Quotation relations use 15-word matches from recognized CommonMark blockquotes to retained text. No relation crosses segment boundaries. Components use all four relationships under the unchanged code.
+
+Enumerate the broad shared-shingle candidate pairs independently and compare the engine-eligible subset count with the original audit's count. Retain the two-million-pair cap, 100,000 candidate-record and two-million candidate-word caps, 256-MiB candidate-input cap, 4-GiB address-space and 1,800-second wall limit. Exhaustion is an unavailable audit, not a passed check.
+
+Purge all candidate members of a component that touches historical material or multiple source-account/community/period cells. Apply the same symmetric rule to original thread groups. Count the shared anchor once in the audit; reuse it only when constructing the four histories. Within-cell relations remain logged. Historical/new original-ID or account overlap, missing new thread identifiers, conflicting originals or incomplete required historical grouping fail the audit. Historical unavailable prose and unsupplied writing remain unknown.
+
+The 119 source-account exclusions comprise the prior 57 protected/private/prior-pilot accounts, 60 Pilot 3 scored accounts and both Pilot 5 accounts. Historical prose protection adds Pilot 5's 216 distinct original comments to the previously retained inventory. Reserved confirmation material is used only for automatic exclusion/protection. Original text, times, source fields and protected originals remain unchanged.

@@ -1,0 +1,66 @@
+{
+  "cohort_execution_sha256": "a0ad974e86ed9a88a9d15b895f4ee4b19c03b5cffa4817e1fb57fa3c7583c16d",
+  "cohort_prepared_sha256": "81b9e951bef8e3d1ab9553539046e8d5ad3d339d65963818d015de99bd4c6132",
+  "counting_note": "Each new account-disjoint pair is one replication unit. Related main histories and deterministic replays are not independent pairs; Pilot5 is excluded.",
+  "new_source_accounts": 18,
+  "original_ids_or_source_accounts_published": false,
+  "pair_shortfall": 1,
+  "pairs": [
+    {
+      "index_sha256": "72026d1f3c73d7c5e1e52e80bee14a1c81ca15fb57c46303c1d06eff274e28a2",
+      "pair_id": "pilot6-pair-02",
+      "registration_sha256": "2242431d4cb89b5d5c660d02d85ecc6df40746534bf96127dae7700fb69f487e"
+    },
+    {
+      "index_sha256": "96e5bb206f9aeecbd5c100ea4b162982afa683c04a318957e28b0f9461dbd71e",
+      "pair_id": "pilot6-pair-04",
+      "registration_sha256": "10cd4dae3cd73997125e93fc57b48f511b1f226ce15c5a32b61d7e566e3282be"
+    },
+    {
+      "index_sha256": "c5e9c27cc5894f86668205b1cf8e6a6bf97aa1988739c474c05eae43ec7b1128",
+      "pair_id": "pilot6-pair-10",
+      "registration_sha256": "446ecf6c391857f7fad6bf3f7de962c1e53916a008b083a8774ca585ad038fd8"
+    },
+    {
+      "index_sha256": "058d306f994b10602234601c0c1eab11266af09fbdaa5e70af55456c3a81ceca",
+      "pair_id": "pilot6-pair-14",
+      "registration_sha256": "fc5a9792150a4bbb7ed3a73d16a27ce725101a288c86c9918db8bc2bd5f1cdff"
+    },
+    {
+      "index_sha256": "116a0b389c58cd2a753de8792adfdb7449f44de3f2649cb8e47528839ea12155",
+      "pair_id": "pilot6-pair-12",
+      "registration_sha256": "6574832af07393608792c50bd9d1e46ed364c1b44cb59846620e2631fc5bec1a"
+    },
+    {
+      "index_sha256": "54ad14da3b4177e186a58604df700a46b2156c3608b4d7015b99a2d0a1ed5e90",
+      "pair_id": "pilot6-pair-05",
+      "registration_sha256": "fb8e944a8f1aa79075406bead1bd997e3b9110a7f50f02dbbfac18d4da7a49ff"
+    },
+    {
+      "index_sha256": "d89854f672446d1d42cc7920c81c3aec570b6284e490d86e7d3d131157d9f222",
+      "pair_id": "pilot6-pair-17",
+      "registration_sha256": "910571fd46cac2b461f57f19d85289decfdf42d93f58f6473f1a6f304e28e267"
+    },
+    {
+      "index_sha256": "63c318a6627cc85792361290a4528f829db4eeff440f7df6a558a5bd11af7b2a",
+      "pair_id": "pilot6-pair-18",
+      "registration_sha256": "de1f59022a37a28f2f4594a3026322983b35d82bda5e264879b0e85177b58284"
+    },
+    {
+      "index_sha256": "624920087b9910015b349a3630ef2d3bf6ee591374e00748a1fcf05df71683ac",
+      "pair_id": "pilot6-pair-13",
+      "registration_sha256": "fe788ef633b6afb16b169608dc7bc58c9df70029e11f204bbfe7010a37a8c396"
+    }
+  ],
+  "phase": "final_cohort_frozen_before_pilot6_execution",
+  "planned_main_histories": 36,
+  "planned_replay_histories": 36,
+  "prepared_independent_check_sha256": "401c41fcd5396bb572a9f483ba2206ca35dde022c37cc4faf72aae3ed029c204",
+  "registered_new_pairs": 9,
+  "registered_utc": "2026-09-15T07:22:24.143335+00:00",
+  "selection_summary_sha256": "b7d2d1717edba7c8929e879a36c47c8ac6b7381a726b7c663d61620cdad05fdc",
+  "source_account_exclusions": 119,
+  "style_calls_before_registration": 0,
+  "target_new_pairs": 10,
+  "tolerance_records": 10
+}

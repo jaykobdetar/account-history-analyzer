@@ -1,0 +1,603 @@
+[
+  {
+    "community_x": "programming",
+    "community_y": "learnprogramming",
+    "cost": {
+      "denominator": 6480000,
+      "numerator": 16743923
+    },
+    "cut": "2018-04-01T00:00:00Z",
+    "five_sample_record_ratio": {
+      "denominator": 44,
+      "numerator": 57
+    },
+    "five_sample_word_ratio": {
+      "denominator": 2503,
+      "numerator": 2644
+    },
+    "late_median_span_days": {
+      "denominator": 960,
+      "numerator": 48377
+    },
+    "pair_id": "pilot6-pair-01",
+    "prior_capacity_only_accounts": 0,
+    "qualified_window_counts": [
+      9,
+      9,
+      9,
+      9
+    ],
+    "reason_codes": [
+      "five_sample_record_ratio_above_5_over_4",
+      "four_late_median_span_above_30_days"
+    ],
+    "selection_status": "unavailable_after_audit",
+    "stratum_id": "stratum-05",
+    "valid": false
+  },
+  {
+    "community_x": "learnprogramming",
+    "community_y": "programming",
+    "cost": {
+      "denominator": 155520000,
+      "numerator": 152938799
+    },
+    "cut": "2013-01-01T00:00:00Z",
+    "five_sample_record_ratio": {
+      "denominator": 28,
+      "numerator": 31
+    },
+    "five_sample_word_ratio": {
+      "denominator": 835,
+      "numerator": 849
+    },
+    "late_median_span_days": {
+      "denominator": 86400,
+      "numerator": 1149259
+    },
+    "pair_id": "pilot6-pair-02",
+    "prior_capacity_only_accounts": 0,
+    "qualified_window_counts": [
+      8,
+      8,
+      8,
+      8
+    ],
+    "reason_codes": [],
+    "selection_status": "selected_for_replication",
+    "stratum_id": "stratum-05",
+    "valid": true
+  },
+  {
+    "community_x": "Physics",
+    "community_y": "AskPhysics",
+    "cost": {
+      "denominator": 15552000,
+      "numerator": 56327161
+    },
+    "cut": "2017-10-01T00:00:00Z",
+    "five_sample_record_ratio": {
+      "denominator": 64,
+      "numerator": 85
+    },
+    "five_sample_word_ratio": {
+      "denominator": 5005,
+      "numerator": 5092
+    },
+    "late_median_span_days": {
+      "denominator": 1080,
+      "numerator": 47507
+    },
+    "pair_id": "pilot6-pair-03",
+    "prior_capacity_only_accounts": 0,
+    "qualified_window_counts": [
+      9,
+      9,
+      9,
+      9
+    ],
+    "reason_codes": [
+      "five_sample_record_ratio_above_5_over_4",
+      "four_late_median_span_above_30_days"
+    ],
+    "selection_status": "unavailable_after_audit",
+    "stratum_id": "stratum-02",
+    "valid": false
+  },
+  {
+    "community_x": "learnmath",
+    "community_y": "math",
+    "cost": {
+      "denominator": 5184000,
+      "numerator": 6071267
+    },
+    "cut": "2013-03-01T00:00:00Z",
+    "five_sample_record_ratio": {
+      "denominator": 53,
+      "numerator": 59
+    },
+    "five_sample_word_ratio": {
+      "denominator": 5011,
+      "numerator": 5122
+    },
+    "late_median_span_days": {
+      "denominator": 28800,
+      "numerator": 340717
+    },
+    "pair_id": "pilot6-pair-04",
+    "prior_capacity_only_accounts": 0,
+    "qualified_window_counts": [
+      9,
+      9,
+      9,
+      9
+    ],
+    "reason_codes": [],
+    "selection_status": "selected_for_replication",
+    "stratum_id": "stratum-03",
+    "valid": true
+  },
+  {
+    "community_x": "learnmath",
+    "community_y": "math",
+    "cost": {
+      "denominator": 51840000,
+      "numerator": 78819469
+    },
+    "cut": "2018-02-01T00:00:00Z",
+    "five_sample_record_ratio": {
+      "denominator": 68,
+      "numerator": 77
+    },
+    "five_sample_word_ratio": {
+      "denominator": 1254,
+      "numerator": 1271
+    },
+    "late_median_span_days": {
+      "denominator": 172800,
+      "numerator": 4010017
+    },
+    "pair_id": "pilot6-pair-05",
+    "prior_capacity_only_accounts": 0,
+    "qualified_window_counts": [
+      9,
+      9,
+      9,
+      9
+    ],
+    "reason_codes": [],
+    "selection_status": "selected_for_replication",
+    "stratum_id": "stratum-03",
+    "valid": true
+  },
+  {
+    "community_x": "programming",
+    "community_y": "learnprogramming",
+    "cost": {
+      "denominator": 155520000,
+      "numerator": 259197347
+    },
+    "cut": "2017-10-01T00:00:00Z",
+    "five_sample_record_ratio": {
+      "denominator": 65,
+      "numerator": 72
+    },
+    "five_sample_word_ratio": {
+      "denominator": 139,
+      "numerator": 142
+    },
+    "late_median_span_days": {
+      "denominator": 57600,
+      "numerator": 2310271
+    },
+    "pair_id": "pilot6-pair-06",
+    "prior_capacity_only_accounts": 0,
+    "qualified_window_counts": [
+      9,
+      9,
+      9,
+      9
+    ],
+    "reason_codes": [
+      "four_late_median_span_above_30_days"
+    ],
+    "selection_status": "unavailable_after_audit",
+    "stratum_id": "stratum-05",
+    "valid": false
+  },
+  {
+    "community_x": "AskAcademia",
+    "community_y": "GradSchool",
+    "cost": null,
+    "cut": "2015-05-01T00:00:00Z",
+    "five_sample_record_ratio": null,
+    "five_sample_word_ratio": null,
+    "late_median_span_days": null,
+    "pair_id": "pilot6-pair-07",
+    "prior_capacity_only_accounts": 0,
+    "qualified_window_counts": null,
+    "reason_codes": [
+      "unavailable_sample:late_BY"
+    ],
+    "selection_status": "unavailable_after_audit",
+    "stratum_id": "stratum-01",
+    "valid": false
+  },
+  {
+    "community_x": "linuxquestions",
+    "community_y": "linux",
+    "cost": null,
+    "cut": "2017-10-01T00:00:00Z",
+    "five_sample_record_ratio": null,
+    "five_sample_word_ratio": null,
+    "late_median_span_days": null,
+    "pair_id": "pilot6-pair-08",
+    "prior_capacity_only_accounts": 0,
+    "qualified_window_counts": null,
+    "reason_codes": [
+      "unavailable_sample:late_AX"
+    ],
+    "selection_status": "unavailable_after_audit",
+    "stratum_id": "stratum-04",
+    "valid": false
+  },
+  {
+    "community_x": "linux",
+    "community_y": "linuxquestions",
+    "cost": {
+      "denominator": 5760000,
+      "numerator": 11403491
+    },
+    "cut": "2013-11-01T00:00:00Z",
+    "five_sample_record_ratio": {
+      "denominator": 31,
+      "numerator": 39
+    },
+    "five_sample_word_ratio": {
+      "denominator": 5003,
+      "numerator": 5136
+    },
+    "late_median_span_days": {
+      "denominator": 172800,
+      "numerator": 1719461
+    },
+    "pair_id": "pilot6-pair-09",
+    "prior_capacity_only_accounts": 0,
+    "qualified_window_counts": [
+      9,
+      9,
+      9,
+      9
+    ],
+    "reason_codes": [
+      "five_sample_record_ratio_above_5_over_4"
+    ],
+    "selection_status": "unavailable_after_audit",
+    "stratum_id": "stratum-04",
+    "valid": false
+  },
+  {
+    "community_x": "GradSchool",
+    "community_y": "AskAcademia",
+    "cost": {
+      "denominator": 1728000,
+      "numerator": 2052443
+    },
+    "cut": "2016-12-01T00:00:00Z",
+    "five_sample_record_ratio": {
+      "denominator": 53,
+      "numerator": 59
+    },
+    "five_sample_word_ratio": {
+      "denominator": 5011,
+      "numerator": 5147
+    },
+    "late_median_span_days": {
+      "denominator": 225,
+      "numerator": 4426
+    },
+    "pair_id": "pilot6-pair-10",
+    "prior_capacity_only_accounts": 0,
+    "qualified_window_counts": [
+      9,
+      9,
+      9,
+      9
+    ],
+    "reason_codes": [],
+    "selection_status": "selected_for_replication",
+    "stratum_id": "stratum-01",
+    "valid": true
+  },
+  {
+    "community_x": "GradSchool",
+    "community_y": "AskAcademia",
+    "cost": null,
+    "cut": "2014-12-01T00:00:00Z",
+    "five_sample_record_ratio": null,
+    "five_sample_word_ratio": null,
+    "late_median_span_days": null,
+    "pair_id": "pilot6-pair-11",
+    "prior_capacity_only_accounts": 0,
+    "qualified_window_counts": null,
+    "reason_codes": [
+      "unavailable_sample:late_AX",
+      "unavailable_sample:late_AY"
+    ],
+    "selection_status": "unavailable_after_audit",
+    "stratum_id": "stratum-01",
+    "valid": false
+  },
+  {
+    "community_x": "learnprogramming",
+    "community_y": "programming",
+    "cost": {
+      "denominator": 3456000,
+      "numerator": 4709119
+    },
+    "cut": "2011-11-01T00:00:00Z",
+    "five_sample_record_ratio": {
+      "denominator": 41,
+      "numerator": 47
+    },
+    "five_sample_word_ratio": {
+      "denominator": 5014,
+      "numerator": 5187
+    },
+    "late_median_span_days": {
+      "denominator": 9600,
+      "numerator": 266107
+    },
+    "pair_id": "pilot6-pair-12",
+    "prior_capacity_only_accounts": 0,
+    "qualified_window_counts": [
+      9,
+      9,
+      8,
+      9
+    ],
+    "reason_codes": [],
+    "selection_status": "selected_for_replication",
+    "stratum_id": "stratum-05",
+    "valid": true
+  },
+  {
+    "community_x": "math",
+    "community_y": "learnmath",
+    "cost": {
+      "denominator": 77760000,
+      "numerator": 146660951
+    },
+    "cut": "2017-01-01T00:00:00Z",
+    "five_sample_record_ratio": {
+      "denominator": 27,
+      "numerator": 32
+    },
+    "five_sample_word_ratio": {
+      "denominator": 5056,
+      "numerator": 5335
+    },
+    "late_median_span_days": {
+      "denominator": 11520,
+      "numerator": 320513
+    },
+    "pair_id": "pilot6-pair-13",
+    "prior_capacity_only_accounts": 0,
+    "qualified_window_counts": [
+      9,
+      9,
+      9,
+      9
+    ],
+    "reason_codes": [],
+    "selection_status": "selected_for_replication",
+    "stratum_id": "stratum-03",
+    "valid": true
+  },
+  {
+    "community_x": "linux",
+    "community_y": "linuxquestions",
+    "cost": {
+      "denominator": 9720000,
+      "numerator": 12181711
+    },
+    "cut": "2015-07-01T00:00:00Z",
+    "five_sample_record_ratio": {
+      "denominator": 15,
+      "numerator": 17
+    },
+    "five_sample_word_ratio": {
+      "denominator": 5017,
+      "numerator": 5163
+    },
+    "late_median_span_days": {
+      "denominator": 28800,
+      "numerator": 797537
+    },
+    "pair_id": "pilot6-pair-14",
+    "prior_capacity_only_accounts": 0,
+    "qualified_window_counts": [
+      8,
+      9,
+      9,
+      9
+    ],
+    "reason_codes": [],
+    "selection_status": "selected_for_replication",
+    "stratum_id": "stratum-04",
+    "valid": true
+  },
+  {
+    "community_x": "math",
+    "community_y": "learnmath",
+    "cost": {
+      "denominator": 155520000,
+      "numerator": 355491703
+    },
+    "cut": "2018-03-01T00:00:00Z",
+    "five_sample_record_ratio": {
+      "denominator": 27,
+      "numerator": 34
+    },
+    "five_sample_word_ratio": {
+      "denominator": 1672,
+      "numerator": 1697
+    },
+    "late_median_span_days": {
+      "denominator": 28800,
+      "numerator": 676129
+    },
+    "pair_id": "pilot6-pair-15",
+    "prior_capacity_only_accounts": 0,
+    "qualified_window_counts": [
+      9,
+      9,
+      9,
+      9
+    ],
+    "reason_codes": [
+      "five_sample_record_ratio_above_5_over_4"
+    ],
+    "selection_status": "unavailable_after_audit",
+    "stratum_id": "stratum-03",
+    "valid": false
+  },
+  {
+    "community_x": "AskPhysics",
+    "community_y": "Physics",
+    "cost": null,
+    "cut": "2017-11-01T00:00:00Z",
+    "five_sample_record_ratio": null,
+    "five_sample_word_ratio": null,
+    "late_median_span_days": null,
+    "pair_id": "pilot6-pair-16",
+    "prior_capacity_only_accounts": 0,
+    "qualified_window_counts": null,
+    "reason_codes": [
+      "unavailable_sample:late_BX",
+      "unavailable_sample:late_BY"
+    ],
+    "selection_status": "unavailable_after_audit",
+    "stratum_id": "stratum-02",
+    "valid": false
+  },
+  {
+    "community_x": "linuxquestions",
+    "community_y": "linux",
+    "cost": {
+      "denominator": 155520000,
+      "numerator": 253888099
+    },
+    "cut": "2018-02-01T00:00:00Z",
+    "five_sample_record_ratio": {
+      "denominator": 8,
+      "numerator": 9
+    },
+    "five_sample_word_ratio": {
+      "denominator": 295,
+      "numerator": 298
+    },
+    "late_median_span_days": {
+      "denominator": 43200,
+      "numerator": 1137779
+    },
+    "pair_id": "pilot6-pair-17",
+    "prior_capacity_only_accounts": 0,
+    "qualified_window_counts": [
+      9,
+      9,
+      9,
+      9
+    ],
+    "reason_codes": [],
+    "selection_status": "selected_for_replication",
+    "stratum_id": "stratum-04",
+    "valid": true
+  },
+  {
+    "community_x": "GradSchool",
+    "community_y": "AskAcademia",
+    "cost": {
+      "denominator": 19440000,
+      "numerator": 33905009
+    },
+    "cut": "2016-12-01T00:00:00Z",
+    "five_sample_record_ratio": {
+      "denominator": 41,
+      "numerator": 51
+    },
+    "five_sample_word_ratio": {
+      "denominator": 2505,
+      "numerator": 2566
+    },
+    "late_median_span_days": {
+      "denominator": 28800,
+      "numerator": 379747
+    },
+    "pair_id": "pilot6-pair-18",
+    "prior_capacity_only_accounts": 0,
+    "qualified_window_counts": [
+      9,
+      9,
+      9,
+      8
+    ],
+    "reason_codes": [],
+    "selection_status": "selected_for_replication",
+    "stratum_id": "stratum-01",
+    "valid": true
+  },
+  {
+    "community_x": "linux",
+    "community_y": "linuxquestions",
+    "cost": {
+      "denominator": 155520000,
+      "numerator": 339568709
+    },
+    "cut": "2014-10-01T00:00:00Z",
+    "five_sample_record_ratio": {
+      "denominator": 43,
+      "numerator": 56
+    },
+    "five_sample_word_ratio": {
+      "denominator": 559,
+      "numerator": 570
+    },
+    "late_median_span_days": {
+      "denominator": 172800,
+      "numerator": 4477187
+    },
+    "pair_id": "pilot6-pair-19",
+    "prior_capacity_only_accounts": 0,
+    "qualified_window_counts": [
+      9,
+      9,
+      9,
+      9
+    ],
+    "reason_codes": [
+      "five_sample_record_ratio_above_5_over_4"
+    ],
+    "selection_status": "unavailable_after_audit",
+    "stratum_id": "stratum-04",
+    "valid": false
+  },
+  {
+    "community_x": "math",
+    "community_y": "learnmath",
+    "cost": null,
+    "cut": "2018-03-01T00:00:00Z",
+    "five_sample_record_ratio": null,
+    "five_sample_word_ratio": null,
+    "late_median_span_days": null,
+    "pair_id": "pilot6-pair-20",
+    "prior_capacity_only_accounts": 0,
+    "qualified_window_counts": null,
+    "reason_codes": [
+      "unavailable_sample:late_BX"
+    ],
+    "selection_status": "unavailable_after_audit",
+    "stratum_id": "stratum-03",
+    "valid": false
+  }
+]

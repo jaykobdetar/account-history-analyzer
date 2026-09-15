@@ -1,0 +1,32 @@
+{
+  "attempts": [
+    {
+      "attempt": "02",
+      "receipt": "logs/metadata-independent-check-02.receipt.json",
+      "receipt_sha256": "cce542a66ff7ec4b182ff5c483d7efa3b4364ad183cb1860a2a47a1b99a86dc8",
+      "report": "review/metadata-independent-check-02.json",
+      "report_sha256": "c7750d102dcad9787092e1910718fc01c23ff7ebd6602a644c7b13aa231588d8",
+      "status": "failed_before_metadata_parsing"
+    },
+    {
+      "attempt": "03",
+      "receipt": "logs/metadata-independent-check-03.receipt.json",
+      "receipt_sha256": "24ca35d9fca82862af0c087a56cc5714b88e9b7e8d1555840933086a53732fbb",
+      "report": "review/metadata-independent-check-03.json",
+      "report_sha256": "50d24baba25d53c59a24d1ec288b9ef9a34a5c5c3f8f11648101f4135d833a1e",
+      "status": "passed_full_metadata_reconstruction"
+    }
+  ],
+  "checker_or_producer_changed_between_attempts": false,
+  "checker_sha256": "2729b042de859f678d1e282f8ef5f75bce4cf81414a6d4f4c08dbd88c522194c",
+  "failed_attempt_cause": "The first actual checker invocation omitted the existing isolated matching dependency directory from PYTHONPATH. It stopped at NetworkX import before reading metadata rows. The unchanged checker was rerun with both existing isolated runtime paths.",
+  "new_dependencies_installed": false,
+  "new_preprocessor_calls": 0,
+  "new_style_calls": 0,
+  "registration_sha256": "bb702b1624c8597ac4bd4335ea3af68b7ef550a53ce6b2b31254f1854bdc94b5",
+  "source_prose_reads": 0,
+  "successful_environment": {
+    "PYTHONDONTWRITEBYTECODE": "1",
+    "PYTHONPATH": "<INSTALLED_BASELINE>:<ISOLATED_MATCHING_LIBRARY>"
+  }
+}

@@ -1,0 +1,392 @@
+{
+  "all_case_interval_readbacks": [
+    {
+      "best_grid_error_records": 2,
+      "candidate_errors_records": [],
+      "condition": "continuity_same_community",
+      "excess_error_records": null,
+      "pair_id": "pilot6-pair-02",
+      "qualified_windows": 8
+    },
+    {
+      "best_grid_error_records": 2,
+      "candidate_errors_records": [
+        2
+      ],
+      "condition": "switch_same_community",
+      "excess_error_records": 0,
+      "pair_id": "pilot6-pair-02",
+      "qualified_windows": 8
+    },
+    {
+      "best_grid_error_records": 2,
+      "candidate_errors_records": [],
+      "condition": "continuity_changed_community",
+      "excess_error_records": null,
+      "pair_id": "pilot6-pair-02",
+      "qualified_windows": 8
+    },
+    {
+      "best_grid_error_records": 2,
+      "candidate_errors_records": [],
+      "condition": "switch_changed_community",
+      "excess_error_records": null,
+      "pair_id": "pilot6-pair-02",
+      "qualified_windows": 8
+    },
+    {
+      "best_grid_error_records": 2,
+      "candidate_errors_records": [],
+      "condition": "continuity_same_community",
+      "excess_error_records": null,
+      "pair_id": "pilot6-pair-04",
+      "qualified_windows": 9
+    },
+    {
+      "best_grid_error_records": 3,
+      "candidate_errors_records": [],
+      "condition": "switch_same_community",
+      "excess_error_records": null,
+      "pair_id": "pilot6-pair-04",
+      "qualified_windows": 9
+    },
+    {
+      "best_grid_error_records": 2,
+      "candidate_errors_records": [],
+      "condition": "continuity_changed_community",
+      "excess_error_records": null,
+      "pair_id": "pilot6-pair-04",
+      "qualified_windows": 9
+    },
+    {
+      "best_grid_error_records": 3,
+      "candidate_errors_records": [],
+      "condition": "switch_changed_community",
+      "excess_error_records": null,
+      "pair_id": "pilot6-pair-04",
+      "qualified_windows": 9
+    },
+    {
+      "best_grid_error_records": 1,
+      "candidate_errors_records": [],
+      "condition": "continuity_same_community",
+      "excess_error_records": null,
+      "pair_id": "pilot6-pair-10",
+      "qualified_windows": 9
+    },
+    {
+      "best_grid_error_records": 1,
+      "candidate_errors_records": [
+        1
+      ],
+      "condition": "switch_same_community",
+      "excess_error_records": 0,
+      "pair_id": "pilot6-pair-10",
+      "qualified_windows": 9
+    },
+    {
+      "best_grid_error_records": 1,
+      "candidate_errors_records": [],
+      "condition": "continuity_changed_community",
+      "excess_error_records": null,
+      "pair_id": "pilot6-pair-10",
+      "qualified_windows": 9
+    },
+    {
+      "best_grid_error_records": 1,
+      "candidate_errors_records": [
+        11
+      ],
+      "condition": "switch_changed_community",
+      "excess_error_records": 10,
+      "pair_id": "pilot6-pair-10",
+      "qualified_windows": 9
+    },
+    {
+      "best_grid_error_records": 5,
+      "candidate_errors_records": [],
+      "condition": "continuity_same_community",
+      "excess_error_records": null,
+      "pair_id": "pilot6-pair-14",
+      "qualified_windows": 8
+    },
+    {
+      "best_grid_error_records": 5,
+      "candidate_errors_records": [
+        5
+      ],
+      "condition": "switch_same_community",
+      "excess_error_records": 0,
+      "pair_id": "pilot6-pair-14",
+      "qualified_windows": 9
+    },
+    {
+      "best_grid_error_records": 5,
+      "candidate_errors_records": [],
+      "condition": "continuity_changed_community",
+      "excess_error_records": null,
+      "pair_id": "pilot6-pair-14",
+      "qualified_windows": 9
+    },
+    {
+      "best_grid_error_records": 5,
+      "candidate_errors_records": [
+        5
+      ],
+      "condition": "switch_changed_community",
+      "excess_error_records": 0,
+      "pair_id": "pilot6-pair-14",
+      "qualified_windows": 9
+    },
+    {
+      "best_grid_error_records": 4,
+      "candidate_errors_records": [],
+      "condition": "continuity_same_community",
+      "excess_error_records": null,
+      "pair_id": "pilot6-pair-12",
+      "qualified_windows": 9
+    },
+    {
+      "best_grid_error_records": 7,
+      "candidate_errors_records": [
+        7
+      ],
+      "condition": "switch_same_community",
+      "excess_error_records": 0,
+      "pair_id": "pilot6-pair-12",
+      "qualified_windows": 9
+    },
+    {
+      "best_grid_error_records": 4,
+      "candidate_errors_records": [],
+      "condition": "continuity_changed_community",
+      "excess_error_records": null,
+      "pair_id": "pilot6-pair-12",
+      "qualified_windows": 8
+    },
+    {
+      "best_grid_error_records": 8,
+      "candidate_errors_records": [
+        8
+      ],
+      "condition": "switch_changed_community",
+      "excess_error_records": 0,
+      "pair_id": "pilot6-pair-12",
+      "qualified_windows": 9
+    },
+    {
+      "best_grid_error_records": 3,
+      "candidate_errors_records": [],
+      "condition": "continuity_same_community",
+      "excess_error_records": null,
+      "pair_id": "pilot6-pair-05",
+      "qualified_windows": 9
+    },
+    {
+      "best_grid_error_records": 3,
+      "candidate_errors_records": [
+        3
+      ],
+      "condition": "switch_same_community",
+      "excess_error_records": 0,
+      "pair_id": "pilot6-pair-05",
+      "qualified_windows": 9
+    },
+    {
+      "best_grid_error_records": 2,
+      "candidate_errors_records": [],
+      "condition": "continuity_changed_community",
+      "excess_error_records": null,
+      "pair_id": "pilot6-pair-05",
+      "qualified_windows": 9
+    },
+    {
+      "best_grid_error_records": 3,
+      "candidate_errors_records": [
+        3
+      ],
+      "condition": "switch_changed_community",
+      "excess_error_records": 0,
+      "pair_id": "pilot6-pair-05",
+      "qualified_windows": 9
+    },
+    {
+      "best_grid_error_records": 4,
+      "candidate_errors_records": [],
+      "condition": "continuity_same_community",
+      "excess_error_records": null,
+      "pair_id": "pilot6-pair-17",
+      "qualified_windows": 9
+    },
+    {
+      "best_grid_error_records": 2,
+      "candidate_errors_records": [],
+      "condition": "switch_same_community",
+      "excess_error_records": null,
+      "pair_id": "pilot6-pair-17",
+      "qualified_windows": 9
+    },
+    {
+      "best_grid_error_records": 1,
+      "candidate_errors_records": [],
+      "condition": "continuity_changed_community",
+      "excess_error_records": null,
+      "pair_id": "pilot6-pair-17",
+      "qualified_windows": 9
+    },
+    {
+      "best_grid_error_records": 1,
+      "candidate_errors_records": [
+        1
+      ],
+      "condition": "switch_changed_community",
+      "excess_error_records": 0,
+      "pair_id": "pilot6-pair-17",
+      "qualified_windows": 9
+    },
+    {
+      "best_grid_error_records": 3,
+      "candidate_errors_records": [],
+      "condition": "continuity_same_community",
+      "excess_error_records": null,
+      "pair_id": "pilot6-pair-18",
+      "qualified_windows": 9
+    },
+    {
+      "best_grid_error_records": 3,
+      "candidate_errors_records": [
+        5
+      ],
+      "condition": "switch_same_community",
+      "excess_error_records": 2,
+      "pair_id": "pilot6-pair-18",
+      "qualified_windows": 9
+    },
+    {
+      "best_grid_error_records": 4,
+      "candidate_errors_records": [],
+      "condition": "continuity_changed_community",
+      "excess_error_records": null,
+      "pair_id": "pilot6-pair-18",
+      "qualified_windows": 9
+    },
+    {
+      "best_grid_error_records": 3,
+      "candidate_errors_records": [],
+      "condition": "switch_changed_community",
+      "excess_error_records": null,
+      "pair_id": "pilot6-pair-18",
+      "qualified_windows": 8
+    },
+    {
+      "best_grid_error_records": 3,
+      "candidate_errors_records": [],
+      "condition": "continuity_same_community",
+      "excess_error_records": null,
+      "pair_id": "pilot6-pair-13",
+      "qualified_windows": 9
+    },
+    {
+      "best_grid_error_records": 1,
+      "candidate_errors_records": [],
+      "condition": "switch_same_community",
+      "excess_error_records": null,
+      "pair_id": "pilot6-pair-13",
+      "qualified_windows": 9
+    },
+    {
+      "best_grid_error_records": 1,
+      "candidate_errors_records": [],
+      "condition": "continuity_changed_community",
+      "excess_error_records": null,
+      "pair_id": "pilot6-pair-13",
+      "qualified_windows": 9
+    },
+    {
+      "best_grid_error_records": 4,
+      "candidate_errors_records": [],
+      "condition": "switch_changed_community",
+      "excess_error_records": null,
+      "pair_id": "pilot6-pair-13",
+      "qualified_windows": 9
+    }
+  ],
+  "all_condition_aggregates": [
+    {
+      "candidate_present": 0,
+      "condition": "continuity_same_community",
+      "exact_containment": 0,
+      "planned_and_executed": 9,
+      "unavailable": 0,
+      "within_ten": 0,
+      "zero_candidates": 9
+    },
+    {
+      "candidate_present": 6,
+      "condition": "switch_same_community",
+      "exact_containment": 0,
+      "planned_and_executed": 9,
+      "unavailable": 0,
+      "within_ten": 6,
+      "zero_candidates": 3
+    },
+    {
+      "candidate_present": 0,
+      "condition": "continuity_changed_community",
+      "exact_containment": 0,
+      "planned_and_executed": 9,
+      "unavailable": 0,
+      "within_ten": 0,
+      "zero_candidates": 9
+    },
+    {
+      "candidate_present": 5,
+      "condition": "switch_changed_community",
+      "exact_containment": 0,
+      "planned_and_executed": 9,
+      "unavailable": 0,
+      "within_ten": 4,
+      "zero_candidates": 4
+    }
+  ],
+  "all_public_file_hashes_verified": 18,
+  "candidate_intervals_verified": 11,
+  "cases_sha256": "224fbef23cabdbed9b836cd3134515343ca05c5ea05b1eb95f60559d914a6f3c",
+  "elapsed_seconds": 1500.4088071380102,
+  "exact_scientific_copies": 14,
+  "failed_receipt_count": 7,
+  "final_preservation_sha256": "caf4d20ac7f78a3adc36cbbe59dff520d9ab57f65431f3765aa2e8b4f0b069c8",
+  "global_stop_reason": null,
+  "independent_results_check_sha256": "ccf9e08f2e840647a2c37699e94411f436e240d2b7203e7dece98ed18af555db",
+  "main_histories": 36,
+  "manifest_sha256": "5852a08864fb84dff0e84752e1bb7c4c7ca3a501ddd1f19d72977ac992350ccd",
+  "new_analyzer_calls": 0,
+  "new_pairs": 9,
+  "new_source_prose_reads": 0,
+  "operating_costs": {
+    "main": {
+      "dispatched_histories": 36,
+      "maximum_recorded_case_child_peak_rss_mib": 348.140625,
+      "native_artifact_bytes": 2374875947,
+      "planned_histories": 36,
+      "recorded_case_wall_time_histories": 36,
+      "sum_case_wall_seconds": 1426.1063002369774
+    },
+    "replay": {
+      "dispatched_histories": 36,
+      "maximum_recorded_case_child_peak_rss_mib": 348.671875,
+      "native_artifact_bytes": 2374877315,
+      "planned_histories": 36,
+      "recorded_case_wall_time_histories": 36,
+      "sum_case_wall_seconds": 1427.4638210969279
+    }
+  },
+  "provisional_pairs": 20,
+  "readback_note": "Independent standard-library calculations and Markdown table checks; no report-builder, analyzer or scoring-helper imports. Generic unavailable rendering for null stop_reason means no global early stop in the exact JSON.",
+  "receipt_count": 45,
+  "report_sha256": "2295da308610659ba03d98ba4dc39892898fbe40059fe89ffcae7f303401d0b0",
+  "status": "passed",
+  "summary_sha256": "3ecfe89d9c7f0261f1d8516e6c165ed42da5290b2eda4cfb500d5a1a4ce0ef8c",
+  "unavailable_after_audit": 11,
+  "verified_replays": 36
+}

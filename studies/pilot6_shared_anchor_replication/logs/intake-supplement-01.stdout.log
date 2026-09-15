@@ -1,0 +1,4 @@
+{"phase": "supplement_archive_complete", "community": "linux", "source_rows": 2988858, "preprocessing_calls": 83232}
+{"phase": "supplement_archive_complete", "community": "linuxquestions", "source_rows": 482093, "preprocessing_calls": 123269}
+{"phase": "supplement_archive_complete", "community": "programming", "source_rows": 5977651, "preprocessing_calls": 211184}
+{"phase": "supplement_archive_complete", "community": "learnprogramming", "source_rows": 2060235, "preprocessing_calls": 321257}

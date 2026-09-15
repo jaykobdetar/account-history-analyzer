@@ -1,0 +1,27 @@
+{
+  "status": "passed",
+  "baseline_commit": "b86da4fda97c0ccc4a54040d573527e64bd05027",
+  "existing_files_byte_identical": 1875,
+  "changed_navigation_files": [
+    "README.md",
+    "docs/DOCUMENTATION_INDEX.md",
+    "studies/README.md"
+  ],
+  "new_files_in_permitted_study_and_publication_directories": 223,
+  "preserved_prefix_file_counts": {
+    "src/account_history_analyzer/": 54,
+    "studies/pilot1/": 6,
+    "studies/pilot2/": 337,
+    "studies/pilot3_cross_context/": 463,
+    "studies/pilot4_chronological_controls/": 302,
+    "studies/pilot5_shared_anchor/": 106
+  },
+  "export_files_excluding_manifest": 236,
+  "executable_sources_byte_identical": 21,
+  "public_export_manifest_sha256": "210107cd8be5963da953b32de87a474dd27eff149fc0d01071b1afbbbe87deef",
+  "local_file_links_checked": 151,
+  "missing_local_file_links": 0,
+  "checker_sha256": "6a74e64149839e451ccfeee1da770aa82556a8a7eda797241a0113aa5b1bcffe",
+  "analyzer_calls": 0,
+  "scope": "Every exported byte against its source/export manifest; every pre-existing tracked file against the baseline Git object, except three navigation documents. Markdown file targets checked; heading anchors and remote links are outside this check."
+}

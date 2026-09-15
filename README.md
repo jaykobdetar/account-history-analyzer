@@ -9,7 +9,7 @@ The current engine is **1.0.4** and remains frozen. A style distance is not an a
 ## Start here
 
 - **Run an analysis:** follow the [installation and usage guide](docs/USAGE.md). Supply local JSONL records and a snapshot manifest; AHAS does not fetch account data.
-- **Read the latest experiment:** [Pilot 5](studies/pilot5_shared_anchor/review/OUTCOME_REPORT.md) executed four histories sharing one earlier writing sample. The two continuity histories produced no primary candidates; the two constructed source-account switches each produced one, four and five records from the junction. This is one exploratory unit with no reciprocal-direction or population-accuracy claim.
+- **Read the latest replication:** [Pilot 6](studies/pilot6_shared_anchor_replication/results/REPORT.md) applies the frozen five-sample design to nine new account-disjoint pairs. Its report keeps all four histories together, including every candidate interval, grid resolution, unavailable cases and operating costs. The target was ten pairs; the fixed source/audit rules left a one-pair shortfall. [Pilot 5](studies/pilot5_shared_anchor/review/OUTCOME_REPORT.md) remains the preserved exploratory diagnostic.
 - **Understand the evidence:** the [study catalog](studies/README.md) distinguishes completed analyses, the Pilot 4 feasibility stop, and earlier development studies.
 - **Maintain the project:** use the [development guide](docs/DEVELOPMENT.md) for source layout, checks, and where new work belongs.
 
@@ -35,7 +35,7 @@ Open `my-report/report.html`. This tiny synthetic fixture demonstrates the pipel
 | [config/](config/README.md), [schemas/](schemas/), [resources/](resources/) | Configuration and source copies of packaged contracts/resources |
 | [docs/](docs/DOCUMENTATION_INDEX.md), [SOURCES.md](SOURCES.md) | Usage, methods, limits, engineering records and research references |
 | [scripts/](scripts/README.md), [containers/](containers/README.md) | Offline execution, maintenance and the frozen reference environment |
-| [studies/](studies/README.md) | Five studies, each with its own protocol, sanitized evidence and interpretation |
+| [studies/](studies/README.md) | Six studies, each with its own protocol, sanitized evidence and interpretation |
 | [qa/](qa/README.md), [evaluation/](evaluation/README.md), [benchmarks/](benchmarks/README.md), [output/](output/README.md) | Preserved engineering receipts, evaluations, workload and sample reports |
 | [provenance/](provenance/README.md), [original handoff](docs/archive/original-handoff/README.md) | Release/import records, cleanup recovery map and archived specification inputs |
 

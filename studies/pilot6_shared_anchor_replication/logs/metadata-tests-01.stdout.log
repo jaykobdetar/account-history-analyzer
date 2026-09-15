@@ -1,0 +1,19 @@
+
+==================================== ERRORS ====================================
+_ ERROR collecting studies/pilot6_shared_anchor_replication/tests/test_metadata_replication.py _
+ImportError while importing test module '<WORKSPACE>/studies/pilot6_shared_anchor_replication/tests/test_metadata_replication.py'.
+Hint: make sure your test modules/packages have valid Python names.
+Traceback:
+/usr/lib/python3.12/importlib/__init__.py:90: in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+studies/pilot6_shared_anchor_replication/tests/test_metadata_replication.py:9: in <module>
+    m=importlib.util.module_from_spec(spec);spec.loader.exec_module(m)
+                                            ^^^^^^^^^^^^^^^^^^^^^^^^^^
+studies/pilot6_shared_anchor_replication/scripts/metadata_replication.py:20: in <module>
+    from metadata_feasibility import select_prefix,seconds,jsonable,verify_matching_backend
+E   ImportError: cannot import name 'verify_matching_backend' from 'metadata_feasibility' (<WORKSPACE>/studies/pilot4_chronological_controls/scripts/metadata_feasibility.py)
+=========================== short test summary info ============================
+ERROR studies/pilot6_shared_anchor_replication/tests/test_metadata_replication.py
+!!!!!!!!!!!!!!!!!!!! Interrupted: 1 error during collection !!!!!!!!!!!!!!!!!!!!
+1 error in 0.17s

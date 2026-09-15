@@ -1,0 +1,6 @@
+{
+  "status": "wrapper_argument_error_before_test_dispatch",
+  "exit_code": 2,
+  "error": "Unrecognized --prefix; required --log-prefix. No tests or study data run.",
+  "subsequent_receipt": "metadata-check-synthetic-02.receipt.json"
+}

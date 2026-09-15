@@ -1,0 +1,8 @@
+Traceback (most recent call last):
+  File "<WORKSPACE>/studies/pilot6_shared_anchor_replication/scripts/metadata_replication.py", line 211, in <module>
+    a=p.parse_args();raise SystemExit(run(a.plan,a.out,a.private_out))
+                                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "<WORKSPACE>/studies/pilot6_shared_anchor_replication/scripts/metadata_replication.py", line 120, in run
+    if type(row['retained_words']) is not int or row['retained_words']<0:raise ValueError('Invalid integer retained-word metadata')
+                                                                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: Invalid integer retained-word metadata

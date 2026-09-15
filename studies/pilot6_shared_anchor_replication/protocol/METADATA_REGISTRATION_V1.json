@@ -1,0 +1,44 @@
+{
+  "phase": "frozen_before_replication_metadata",
+  "registered_utc": "2026-09-15T07:01:49.054384+00:00",
+  "private_plan_sha256": "792b5dbd3e3f677052f8294cee64cb76ad0847c12d4ca9ab7d6d65b73fc5f22a",
+  "script_sha256": "dd14c98c87117d81a3ba11d4806660af471d4145ba5380f093b5159cebdd4b90",
+  "protocol_sha256": "b83901711265de9261d1902f0870f550be4db98ed4cecdde742aabb67d9c48b1",
+  "bound_artifact_count": 20,
+  "metadata_files": [
+    {
+      "bytes": 128927505,
+      "sha256": "a804d85a398a614a0fef219d422d1c5257b9de75a93414d517d1506e0f459c2d"
+    },
+    {
+      "bytes": 97593681,
+      "sha256": "a22d08bfb63c317339bff76f5904dc90052bfa114214e8f163e967a466113b72"
+    },
+    {
+      "bytes": 187358055,
+      "sha256": "6fa2cd853bfd89ec317a9b6823ffc5c1a551f4e897c6d6a7cd5cc6586d55e80a"
+    },
+    {
+      "bytes": 92697892,
+      "sha256": "972b0fca667ea26a3aa67838181902bf5d6968dbf024bcd3a991cd4a8b4dd819"
+    }
+  ],
+  "metadata_bytes": 506577133,
+  "pair_cut_count": 505,
+  "target_pairs": 10,
+  "provisional_pair_ceiling": 20,
+  "matching_backend": {
+    "backend_registration": {
+      "path": "<WORKSPACE>/studies/pilot4_chronological_controls/protocol/EXACT_MATCHING_BACKEND_REGISTRATION.json",
+      "sha256": "756a6f65d332463250ace47b5e772c0ed193add86e3d84067810c7aeea684d55"
+    },
+    "dependency_manifest": {
+      "path": "<WORKSPACE>/studies/pilot4_chronological_controls/environment/isolated-matching-dependency.json",
+      "sha256": "c430142739b96259258636432176badf01425cc2c07cc94d4b4b85ab61434b15"
+    },
+    "helper": {
+      "path": "<WORKSPACE>/studies/pilot4_chronological_controls/scripts/exact_blossom.py",
+      "sha256": "f9f154211db0bd2b2e37ca99ff5a7c22e9b775c23e9a40442f7257b663ae3825"
+    }
+  }
+}

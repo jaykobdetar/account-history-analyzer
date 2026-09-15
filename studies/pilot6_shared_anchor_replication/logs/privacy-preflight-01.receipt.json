@@ -1,0 +1,40 @@
+{
+  "argv": [
+    "env",
+    "PYTHONPATH=<INSTALLED_BASELINE>",
+    "PYTHONDONTWRITEBYTECODE=1",
+    ".venv/bin/python",
+    "-B",
+    "scripts/offline_exec.py",
+    ".venv/bin/python",
+    "-B",
+    "studies/pilot4_chronological_controls/scripts/check_public_privacy_independent.py",
+    "--public-root",
+    "/tmp/ahas-pilot6-preflight-public",
+    "--pool",
+    "<PRIVATE_WORK_AREA>/pilot6_private/buffer-01/candidate-pool.jsonl",
+    "--audit",
+    "<PRIVATE_WORK_AREA>/pilot6_private/audit-01/audit.json",
+    "--flags",
+    "<PRIVATE_PILOT4>/exposure-flags.json",
+    "--out",
+    "studies/pilot6_shared_anchor_replication/review/privacy-preflight-01.json"
+  ],
+  "cwd": "<WORKSPACE>",
+  "started_utc": "2026-09-15T07:31:37.978450+00:00",
+  "finished_utc": "2026-09-15T07:31:39.387571+00:00",
+  "exit_code": 0,
+  "wall_seconds": 1.4091274820093531,
+  "child_peak_rss_mib": 215.51953125,
+  "runner_sha256": "4d94adb7a06ec38cc6f5b4fe55f801e87bbdcff712139146d53f55a2928eb2a4",
+  "outputs": {
+    "stdout.log": {
+      "bytes": 890,
+      "sha256": "21383984da1f74e0fa8f42d873c061dd3eaf9cb6348c7568aa9a5f96c22ceaff"
+    },
+    "stderr.log": {
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    }
+  }
+}

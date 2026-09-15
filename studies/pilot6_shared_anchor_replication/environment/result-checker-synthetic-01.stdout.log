@@ -1,0 +1,64 @@
+..................F....                                                  [100%]
+=================================== FAILURES ===================================
+_ test_replay_canonical_file_change_detected_even_with_updated_worker_inventory _
+
+tmp_path = PosixPath('/tmp/pytest-of-jaykob/pytest-186/test_replay_canonical_file_cha0')
+monkeypatch = <_pytest.monkeypatch.MonkeyPatch object at 0x7a7628049820>
+
+    def test_replay_canonical_file_change_detected_even_with_updated_worker_inventory(tmp_path,monkeypatch):
+        cohort,run = prepared(tmp_path,monkeypatch,n=1)
+        pair = cohort.doc['pairs'][0];case = cohort.fixtures[0].cases[0]
+        replay = run/pair['pair_id']/'replay'
+        target = replay/case['case_id']/'analysis/other_receipt.json'
+        f.put(target,{'must_remain_canonical':False})
+        f.fixture_module.refresh_receipt(replay,case['case_id'])
+        with pytest.raises(ValueError,match='replay_hash'):
+>           c.check(cohort.plan,run)
+
+studies/pilot6_shared_anchor_replication/tests/test_check_replication_results.py:157: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+studies/pilot6_shared_anchor_replication/scripts/check_replication_results.py:282: in check
+    operation_check(row[label],records.get(case['case_id']),directory/phase,case['case_id'])
+studies/pilot6_shared_anchor_replication/scripts/check_replication_results.py:206: in operation_check
+    require(public == expected, 'operating_cost_or_dispatch_mismatch')
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+ok = False, code = 'operating_cost_or_dispatch_mismatch'
+
+    def require(ok,code):
+>       if not ok:raise ValueError(code)
+                  ^^^^^^^^^^^^^^^^^^^^^^
+E       ValueError: operating_cost_or_dispatch_mismatch
+
+studies/pilot5_shared_anchor/scripts/check_saved_results_independent.py:17: ValueError
+
+During handling of the above exception, another exception occurred:
+
+tmp_path = PosixPath('/tmp/pytest-of-jaykob/pytest-186/test_replay_canonical_file_cha0')
+monkeypatch = <_pytest.monkeypatch.MonkeyPatch object at 0x7a7628049820>
+
+    def test_replay_canonical_file_change_detected_even_with_updated_worker_inventory(tmp_path,monkeypatch):
+        cohort,run = prepared(tmp_path,monkeypatch,n=1)
+        pair = cohort.doc['pairs'][0];case = cohort.fixtures[0].cases[0]
+        replay = run/pair['pair_id']/'replay'
+        target = replay/case['case_id']/'analysis/other_receipt.json'
+        f.put(target,{'must_remain_canonical':False})
+        f.fixture_module.refresh_receipt(replay,case['case_id'])
+>       with pytest.raises(ValueError,match='replay_hash'):
+E       AssertionError: Regex pattern did not match.
+E         Expected regex: 'replay_hash'
+E         Actual message: 'operating_cost_or_dispatch_mismatch'
+
+studies/pilot6_shared_anchor_replication/tests/test_check_replication_results.py:156: AssertionError
+----------------------------- Captured stdout call -----------------------------
+{"case_id": "pilot6-pair-01:AX:continuity_same_community", "exit_code": 0, "wall_seconds": 0.1, "child_peak_rss_mib": 1}
+{"case_id": "pilot6-pair-01:AX:switch_same_community", "exit_code": 0, "wall_seconds": 0.1, "child_peak_rss_mib": 1}
+{"case_id": "pilot6-pair-01:AX:switch_changed_community", "exit_code": 0, "wall_seconds": 0.1, "child_peak_rss_mib": 1}
+{"case_id": "pilot6-pair-01:AX:continuity_changed_community", "exit_code": 0, "wall_seconds": 0.1, "child_peak_rss_mib": 1}
+{"case_id": "pilot6-pair-01:AX:switch_same_community", "exit_code": 0, "wall_seconds": 0.1, "child_peak_rss_mib": 1}
+{"case_id": "pilot6-pair-01:AX:continuity_same_community", "exit_code": 0, "wall_seconds": 0.1, "child_peak_rss_mib": 1}
+{"case_id": "pilot6-pair-01:AX:continuity_changed_community", "exit_code": 0, "wall_seconds": 0.1, "child_peak_rss_mib": 1}
+{"case_id": "pilot6-pair-01:AX:switch_changed_community", "exit_code": 0, "wall_seconds": 0.1, "child_peak_rss_mib": 1}
+=========================== short test summary info ============================
+FAILED studies/pilot6_shared_anchor_replication/tests/test_check_replication_results.py::test_replay_canonical_file_change_detected_even_with_updated_worker_inventory
+1 failed, 22 passed in 2.82s

@@ -1,0 +1,326 @@
+[
+  {
+    "artifact_bytes": 502746695,
+    "pair_id": "pilot6-pair-02",
+    "phases": {
+      "main": {
+        "artifact_bytes_after_phase": 251142665,
+        "exit_code": 0,
+        "status": "completed",
+        "terminated_process_count": 0,
+        "wall_seconds": 77.59199155602255
+      },
+      "replay": {
+        "artifact_bytes_after_phase": 502747881,
+        "exit_code": 0,
+        "status": "completed",
+        "terminated_process_count": 0,
+        "wall_seconds": 77.61420697599533
+      },
+      "replay-check": {
+        "artifact_bytes_after_phase": 502749429,
+        "exit_code": 0,
+        "status": "completed",
+        "terminated_process_count": 0,
+        "wall_seconds": 0.8297176249907352
+      },
+      "score": {
+        "artifact_bytes_after_phase": 251178067,
+        "exit_code": 0,
+        "status": "completed",
+        "terminated_process_count": 0,
+        "wall_seconds": 2.859126298018964
+      }
+    },
+    "replay_all_passed": true,
+    "status": "completed"
+  },
+  {
+    "artifact_bytes": 514426287,
+    "pair_id": "pilot6-pair-04",
+    "phases": {
+      "main": {
+        "artifact_bytes_after_phase": 759783008,
+        "exit_code": 0,
+        "status": "completed",
+        "terminated_process_count": 0,
+        "wall_seconds": 78.37059130499256
+      },
+      "replay": {
+        "artifact_bytes_after_phase": 1017214617,
+        "exit_code": 0,
+        "status": "completed",
+        "terminated_process_count": 0,
+        "wall_seconds": 78.36365541099804
+      },
+      "replay-check": {
+        "artifact_bytes_after_phase": 1017216165,
+        "exit_code": 0,
+        "status": "completed",
+        "terminated_process_count": 0,
+        "wall_seconds": 0.7479882499901578
+      },
+      "score": {
+        "artifact_bytes_after_phase": 759820848,
+        "exit_code": 0,
+        "status": "completed",
+        "terminated_process_count": 0,
+        "wall_seconds": 2.9278227360046003
+      }
+    },
+    "replay_all_passed": true,
+    "status": "completed"
+  },
+  {
+    "artifact_bytes": 524097887,
+    "pair_id": "pilot6-pair-10",
+    "phases": {
+      "main": {
+        "artifact_bytes_after_phase": 1279092022,
+        "exit_code": 0,
+        "status": "completed",
+        "terminated_process_count": 0,
+        "wall_seconds": 80.60441403000732
+      },
+      "replay": {
+        "artifact_bytes_after_phase": 1541355515,
+        "exit_code": 0,
+        "status": "completed",
+        "terminated_process_count": 0,
+        "wall_seconds": 81.05669726000633
+      },
+      "replay-check": {
+        "artifact_bytes_after_phase": 1541357063,
+        "exit_code": 0,
+        "status": "completed",
+        "terminated_process_count": 0,
+        "wall_seconds": 0.8789518300036434
+      },
+      "score": {
+        "artifact_bytes_after_phase": 1279131358,
+        "exit_code": 0,
+        "status": "completed",
+        "terminated_process_count": 0,
+        "wall_seconds": 2.688028735021362
+      }
+    },
+    "replay_all_passed": true,
+    "status": "completed"
+  },
+  {
+    "artifact_bytes": 563004612,
+    "pair_id": "pilot6-pair-14",
+    "phases": {
+      "main": {
+        "artifact_bytes_after_phase": 1822686120,
+        "exit_code": 0,
+        "status": "completed",
+        "terminated_process_count": 0,
+        "wall_seconds": 87.55099915200844
+      },
+      "replay": {
+        "artifact_bytes_after_phase": 2104404768,
+        "exit_code": 0,
+        "status": "completed",
+        "terminated_process_count": 0,
+        "wall_seconds": 87.16426953300834
+      },
+      "replay-check": {
+        "artifact_bytes_after_phase": 2104406316,
+        "exit_code": 0,
+        "status": "completed",
+        "terminated_process_count": 0,
+        "wall_seconds": 0.790355371980695
+      },
+      "score": {
+        "artifact_bytes_after_phase": 1822724634,
+        "exit_code": 0,
+        "status": "completed",
+        "terminated_process_count": 0,
+        "wall_seconds": 3.06249608102371
+      }
+    },
+    "replay_all_passed": true,
+    "status": "completed"
+  },
+  {
+    "artifact_bytes": 531605267,
+    "pair_id": "pilot6-pair-12",
+    "phases": {
+      "main": {
+        "artifact_bytes_after_phase": 2370038731,
+        "exit_code": 0,
+        "status": "completed",
+        "terminated_process_count": 0,
+        "wall_seconds": 82.86070501999347
+      },
+      "replay": {
+        "artifact_bytes_after_phase": 2636053810,
+        "exit_code": 0,
+        "status": "completed",
+        "terminated_process_count": 0,
+        "wall_seconds": 82.53562345099635
+      },
+      "replay-check": {
+        "artifact_bytes_after_phase": 2636055358,
+        "exit_code": 0,
+        "status": "completed",
+        "terminated_process_count": 0,
+        "wall_seconds": 0.811191611981485
+      },
+      "score": {
+        "artifact_bytes_after_phase": 2370077225,
+        "exit_code": 0,
+        "status": "completed",
+        "terminated_process_count": 0,
+        "wall_seconds": 2.7992365950194653
+      }
+    },
+    "replay_all_passed": true,
+    "status": "completed"
+  },
+  {
+    "artifact_bytes": 546503129,
+    "pair_id": "pilot6-pair-05",
+    "phases": {
+      "main": {
+        "artifact_bytes_after_phase": 2909084733,
+        "exit_code": 0,
+        "status": "completed",
+        "terminated_process_count": 0,
+        "wall_seconds": 84.14520537000499
+      },
+      "replay": {
+        "artifact_bytes_after_phase": 3182600701,
+        "exit_code": 0,
+        "status": "completed",
+        "terminated_process_count": 0,
+        "wall_seconds": 84.46774218199425
+      },
+      "replay-check": {
+        "artifact_bytes_after_phase": 3182602249,
+        "exit_code": 0,
+        "status": "completed",
+        "terminated_process_count": 0,
+        "wall_seconds": 0.7118572050239891
+      },
+      "score": {
+        "artifact_bytes_after_phase": 2909124057,
+        "exit_code": 0,
+        "status": "completed",
+        "terminated_process_count": 0,
+        "wall_seconds": 3.202950418984983
+      }
+    },
+    "replay_all_passed": true,
+    "status": "completed"
+  },
+  {
+    "artifact_bytes": 520726559,
+    "pair_id": "pilot6-pair-17",
+    "phases": {
+      "main": {
+        "artifact_bytes_after_phase": 3442744371,
+        "exit_code": 0,
+        "status": "completed",
+        "terminated_process_count": 0,
+        "wall_seconds": 80.30658420498366
+      },
+      "replay": {
+        "artifact_bytes_after_phase": 3703371893,
+        "exit_code": 0,
+        "status": "completed",
+        "terminated_process_count": 0,
+        "wall_seconds": 81.80280925802072
+      },
+      "replay-check": {
+        "artifact_bytes_after_phase": 3703373441,
+        "exit_code": 0,
+        "status": "completed",
+        "terminated_process_count": 0,
+        "wall_seconds": 0.7327463710098527
+      },
+      "score": {
+        "artifact_bytes_after_phase": 3442782974,
+        "exit_code": 0,
+        "status": "completed",
+        "terminated_process_count": 0,
+        "wall_seconds": 3.1612814810068812
+      }
+    },
+    "replay_all_passed": true,
+    "status": "completed"
+  },
+  {
+    "artifact_bytes": 524360262,
+    "pair_id": "pilot6-pair-18",
+    "phases": {
+      "main": {
+        "artifact_bytes_after_phase": 3965395370,
+        "exit_code": 0,
+        "status": "completed",
+        "terminated_process_count": 0,
+        "wall_seconds": 80.67525158598437
+      },
+      "replay": {
+        "artifact_bytes_after_phase": 4227776000,
+        "exit_code": 0,
+        "status": "completed",
+        "terminated_process_count": 0,
+        "wall_seconds": 79.88704553298885
+      },
+      "replay-check": {
+        "artifact_bytes_after_phase": 4227777548,
+        "exit_code": 0,
+        "status": "completed",
+        "terminated_process_count": 0,
+        "wall_seconds": 0.7481211019912735
+      },
+      "score": {
+        "artifact_bytes_after_phase": 3965433132,
+        "exit_code": 0,
+        "status": "completed",
+        "terminated_process_count": 0,
+        "wall_seconds": 2.7535965320130344
+      }
+    },
+    "replay_all_passed": true,
+    "status": "completed"
+  },
+  {
+    "artifact_bytes": 527286508,
+    "pair_id": "pilot6-pair-13",
+    "phases": {
+      "main": {
+        "artifact_bytes_after_phase": 4491234809,
+        "exit_code": 0,
+        "status": "completed",
+        "terminated_process_count": 0,
+        "wall_seconds": 80.4939314039948
+      },
+      "replay": {
+        "artifact_bytes_after_phase": 4755105467,
+        "exit_code": 0,
+        "status": "completed",
+        "terminated_process_count": 0,
+        "wall_seconds": 80.8846263079904
+      },
+      "replay-check": {
+        "artifact_bytes_after_phase": 4755107015,
+        "exit_code": 0,
+        "status": "completed",
+        "terminated_process_count": 0,
+        "wall_seconds": 0.7682082510145847
+      },
+      "score": {
+        "artifact_bytes_after_phase": 4491272657,
+        "exit_code": 0,
+        "status": "completed",
+        "terminated_process_count": 0,
+        "wall_seconds": 3.0487925079942215
+      }
+    },
+    "replay_all_passed": true,
+    "status": "completed"
+  }
+]

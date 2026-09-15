@@ -1,0 +1,9 @@
+{
+  "registered_utc": "2026-09-15T06:56:51.256008+00:00",
+  "phase": "frozen_before_pilot5_protection_extension",
+  "private_plan_sha256": "f7a7642a8c8c0df5e281155e62f729861e8f03b807a46edf89bd66f8734f75bc",
+  "superseded_unexecuted_private_plan_sha256": "d5be77bb0446317cda3b481c3c154300e74f1ba67ccab3c4433274a9903d6671",
+  "reason": "Complete consumed-helper bindings and stricter input-integrity checks added before this stage ever executed; no scientific rule changed.",
+  "script_sha256": "e120189feb88597db0bc882d4191ea720de14003854bcdbd4491b3fe4d646a77",
+  "bound_artifact_count": 13
+}

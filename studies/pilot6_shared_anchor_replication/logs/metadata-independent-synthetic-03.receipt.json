@@ -1,0 +1,30 @@
+{
+  "argv": [
+    ".venv/bin/python",
+    "-B",
+    "-m",
+    "pytest",
+    "-q",
+    "-p",
+    "no:cacheprovider",
+    "studies/pilot6_shared_anchor_replication/tests/test_metadata_replication.py",
+    "studies/pilot6_shared_anchor_replication/tests/test_metadata_replication_independent.py"
+  ],
+  "cwd": "<WORKSPACE>",
+  "started_utc": "2026-09-15T06:53:58.536936+00:00",
+  "finished_utc": "2026-09-15T06:53:58.902777+00:00",
+  "exit_code": 0,
+  "wall_seconds": 0.3658408900082577,
+  "child_peak_rss_mib": 40.578125,
+  "runner_sha256": "4d94adb7a06ec38cc6f5b4fe55f801e87bbdcff712139146d53f55a2928eb2a4",
+  "outputs": {
+    "stdout.log": {
+      "bytes": 99,
+      "sha256": "f45d543b12d2c6cff965f73c61374f00ccd4d88266b4483358289f228f6eebcc"
+    },
+    "stderr.log": {
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    }
+  }
+}

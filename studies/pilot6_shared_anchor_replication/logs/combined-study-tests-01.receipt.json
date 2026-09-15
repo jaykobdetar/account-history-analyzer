@@ -1,0 +1,31 @@
+{
+  "argv": [
+    "env",
+    "PYTHONPATH=<INSTALLED_BASELINE>:<ISOLATED_MATCHING_LIBRARY>",
+    "PYTHONDONTWRITEBYTECODE=1",
+    ".venv/bin/python",
+    "-B",
+    "-m",
+    "pytest",
+    "studies/pilot6_shared_anchor_replication/tests",
+    "--ignore=studies/pilot6_shared_anchor_replication/tests/test_build_replication_report.py",
+    "-q"
+  ],
+  "cwd": "<WORKSPACE>",
+  "started_utc": "2026-09-15T07:27:22.532072+00:00",
+  "finished_utc": "2026-09-15T07:27:34.492018+00:00",
+  "exit_code": 0,
+  "wall_seconds": 11.959952773991972,
+  "child_peak_rss_mib": 101.81640625,
+  "runner_sha256": "4d94adb7a06ec38cc6f5b4fe55f801e87bbdcff712139146d53f55a2928eb2a4",
+  "outputs": {
+    "stdout.log": {
+      "bytes": 261,
+      "sha256": "5f9892d425dee820b9079623a0a84b4700ee51cec90df78b284c34716ef3526d"
+    },
+    "stderr.log": {
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    }
+  }
+}

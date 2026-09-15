@@ -1,0 +1,41 @@
+{
+  "bound_code_and_tests": [
+    {
+      "path": "scripts/metadata_replication.py",
+      "sha256": "ea639704e6171d90156c249f5eccf55b1a39d535029b84d7a5133cc38c45ae22"
+    },
+    {
+      "path": "tests/test_metadata_replication.py",
+      "sha256": "33fef43e93b7df0af0509ed465b85df4381ff9fca1d96d9a6d23b76efbc58fa3"
+    },
+    {
+      "path": "tests/test_metadata_replication_independent.py",
+      "sha256": "7c4ff4154a4db966eb827e00877ce7aaee0088f6900f4dd82e7b2714ee935739"
+    },
+    {
+      "path": "scripts/check_metadata_replication.py",
+      "sha256": "2729b042de859f678d1e282f8ef5f75bce4cf81414a6d4f4c08dbd88c522194c"
+    },
+    {
+      "path": "tests/test_check_metadata_replication.py",
+      "sha256": "6b4472ac3f68b1cc57ecd35076c91e59fa1a2c520931d5f4888609cdf5c8bcde"
+    },
+    {
+      "path": "review/metadata-01-executed-code/metadata_replication.py",
+      "sha256": "dd14c98c87117d81a3ba11d4806660af471d4145ba5380f093b5159cebdd4b90"
+    }
+  ],
+  "bounds": {
+    "address_space_bytes": 4294967296,
+    "directional_evaluations": 2000000,
+    "metadata_bytes": 1073741824,
+    "metadata_rows": 3000000,
+    "private_output_bytes": 268435456,
+    "wall_seconds": 1800
+  },
+  "phase": "before_independent_actual_metadata_check",
+  "rules": "Independently rebuild all505 pair/cuts, whole5k/40 prefixes, fourprimary window counts, five-sample volume ratios, four-late medians, exact rational costs/directional ties, graph bestedges, whole-graph matching and cost-ordered first20 pairs. Shared preverified blossom backend only. No source prose, preprocessing, grid evaluation or styles.",
+  "synthetic_receipt": "logs/metadata-null-compatibility-synthetic-01.receipt.json",
+  "synthetic_receipt_sha256": "73a16c5a92b0fe6bd208a585f4006957a47ab87799046d4e6cf069ee8d2f9d40",
+  "technical_compatibility_correction": "Historical unavailable metadata may have retained_words null only with an explicitly non-null ineligible reason; eligible retained words must remain nonnegative literal integers. No cuts or selection rules changed. Executed failed-attempt code is preserved."
+}

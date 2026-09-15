@@ -1,0 +1,114 @@
+[
+  {
+    "candidate_present_histories": 0,
+    "condition": "continuity_same_community",
+    "exact_interval_containment": {
+      "denominator_executed": 9,
+      "numerator": 0
+    },
+    "executed_histories": 9,
+    "executed_no_measurable_variation_histories": 0,
+    "executed_zero_candidate_histories": 9,
+    "interpretation": "descriptive_control_junction",
+    "localization_label": "control_junction_alignment",
+    "metadata_grid_attainable_within_ten": {
+      "denominator_with_grid": 9,
+      "numerator": 9
+    },
+    "observed_candidate_count_sum": 0,
+    "planned_histories": 9,
+    "reason_counts": {},
+    "status_counts": {
+      "ok": 9
+    },
+    "unavailable_histories": 0,
+    "within_ten_records": {
+      "denominator_executed": 9,
+      "numerator": 0
+    }
+  },
+  {
+    "candidate_present_histories": 6,
+    "condition": "switch_same_community",
+    "exact_interval_containment": {
+      "denominator_executed": 9,
+      "numerator": 0
+    },
+    "executed_histories": 9,
+    "executed_no_measurable_variation_histories": 0,
+    "executed_zero_candidate_histories": 3,
+    "interpretation": "source_switch_truth",
+    "localization_label": "switch_match",
+    "metadata_grid_attainable_within_ten": {
+      "denominator_with_grid": 9,
+      "numerator": 9
+    },
+    "observed_candidate_count_sum": 6,
+    "planned_histories": 9,
+    "reason_counts": {},
+    "status_counts": {
+      "ok": 9
+    },
+    "unavailable_histories": 0,
+    "within_ten_records": {
+      "denominator_executed": 9,
+      "numerator": 6
+    }
+  },
+  {
+    "candidate_present_histories": 0,
+    "condition": "continuity_changed_community",
+    "exact_interval_containment": {
+      "denominator_executed": 9,
+      "numerator": 0
+    },
+    "executed_histories": 9,
+    "executed_no_measurable_variation_histories": 0,
+    "executed_zero_candidate_histories": 9,
+    "interpretation": "descriptive_control_junction",
+    "localization_label": "control_junction_alignment",
+    "metadata_grid_attainable_within_ten": {
+      "denominator_with_grid": 9,
+      "numerator": 9
+    },
+    "observed_candidate_count_sum": 0,
+    "planned_histories": 9,
+    "reason_counts": {},
+    "status_counts": {
+      "ok": 9
+    },
+    "unavailable_histories": 0,
+    "within_ten_records": {
+      "denominator_executed": 9,
+      "numerator": 0
+    }
+  },
+  {
+    "candidate_present_histories": 5,
+    "condition": "switch_changed_community",
+    "exact_interval_containment": {
+      "denominator_executed": 9,
+      "numerator": 0
+    },
+    "executed_histories": 9,
+    "executed_no_measurable_variation_histories": 0,
+    "executed_zero_candidate_histories": 4,
+    "interpretation": "source_switch_truth",
+    "localization_label": "switch_match",
+    "metadata_grid_attainable_within_ten": {
+      "denominator_with_grid": 9,
+      "numerator": 9
+    },
+    "observed_candidate_count_sum": 5,
+    "planned_histories": 9,
+    "reason_counts": {},
+    "status_counts": {
+      "ok": 9
+    },
+    "unavailable_histories": 0,
+    "within_ten_records": {
+      "denominator_executed": 9,
+      "numerator": 4
+    }
+  }
+]

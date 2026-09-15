@@ -13,7 +13,7 @@ The current software is **AHAS 1.0.4**, with a frozen analytical baseline. The R
 
 ## Study evidence
 
-The [study index](../studies/README.md) distinguishes completed analyses, unavailable outcomes and the unscored confirmation reserve across all five studies. Start with each final report; the individual study records remain unchanged.
+The [study index](../studies/README.md) distinguishes completed analyses, unavailable outcomes and the unscored confirmation reserve across all six studies. Start with each final report; the individual study records remain unchanged.
 
 | Study | Final report | Status |
 | --- | --- | --- |
@@ -22,6 +22,7 @@ The [study index](../studies/README.md) distinguishes completed analyses, unavai
 | Pilot 3 | [Cross-community comparison review](../studies/pilot3_cross_context/review/REVIEW.md) | Completed 60-account/30-block comparison study; omission-related unavailable outcomes retained. |
 | Pilot 4 | [Strict chronological-control outcome](../studies/pilot4_chronological_controls/review/OUTCOME_REPORT.md) | Zero final eligible blocks; corpus chronology unmeasured. |
 | Pilot 5 | [Shared-anchor diagnostic outcome](../studies/pilot5_shared_anchor/review/OUTCOME_REPORT.md) | Four full histories and four replays completed; one exploratory unit. |
+| Pilot 6 | [Bounded replication outcome](../studies/pilot6_shared_anchor_replication/results/REPORT.md) | Nine new disjoint pairs; 36 mains and 36 replays verified, all four conditions and the one-pair feasibility shortfall retained. |
 
 These are sanitized review packages. Source-dependent numerical replay requires separately retained private inputs; public protocols and hashes do not contain the omitted writing or identities.
 

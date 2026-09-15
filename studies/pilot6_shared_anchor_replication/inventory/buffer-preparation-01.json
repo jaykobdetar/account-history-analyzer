@@ -1,0 +1,678 @@
+{
+  "candidate_pool_sha256": "2d54e97573d52a8697044c658884866a135bfefe062c80ef9c31d49e70c9e3df",
+  "candidate_records": 8867,
+  "candidate_retained_words": 775414,
+  "peak_rss_mib": 147.78515625,
+  "plan_sha256": "ac3ce041f7cd1288068d79e07e50f81f110413dadcbe5c80c9aeb7dcd52e80c0",
+  "provisional_pairs": 20,
+  "samples": [
+    {
+      "pair_id": "pilot6-pair-01",
+      "samples": [
+        {
+          "records": 77,
+          "retained_words": 8063,
+          "sample_key": "anchor"
+        },
+        {
+          "records": 82,
+          "retained_words": 8070,
+          "sample_key": "late_AX"
+        },
+        {
+          "records": 77,
+          "retained_words": 8065,
+          "sample_key": "late_BX"
+        },
+        {
+          "records": 80,
+          "retained_words": 8362,
+          "sample_key": "late_AY"
+        },
+        {
+          "records": 72,
+          "retained_words": 7626,
+          "sample_key": "late_BY"
+        }
+      ]
+    },
+    {
+      "pair_id": "pilot6-pair-02",
+      "samples": [
+        {
+          "records": 92,
+          "retained_words": 8160,
+          "sample_key": "anchor"
+        },
+        {
+          "records": 94,
+          "retained_words": 8201,
+          "sample_key": "late_AX"
+        },
+        {
+          "records": 89,
+          "retained_words": 7507,
+          "sample_key": "late_BX"
+        },
+        {
+          "records": 111,
+          "retained_words": 8015,
+          "sample_key": "late_AY"
+        },
+        {
+          "records": 88,
+          "retained_words": 6781,
+          "sample_key": "late_BY"
+        }
+      ]
+    },
+    {
+      "pair_id": "pilot6-pair-03",
+      "samples": [
+        {
+          "records": 112,
+          "retained_words": 8040,
+          "sample_key": "anchor"
+        },
+        {
+          "records": 111,
+          "retained_words": 8045,
+          "sample_key": "late_AX"
+        },
+        {
+          "records": 125,
+          "retained_words": 8029,
+          "sample_key": "late_BX"
+        },
+        {
+          "records": 109,
+          "retained_words": 8056,
+          "sample_key": "late_AY"
+        },
+        {
+          "records": 120,
+          "retained_words": 8027,
+          "sample_key": "late_BY"
+        }
+      ]
+    },
+    {
+      "pair_id": "pilot6-pair-04",
+      "samples": [
+        {
+          "records": 80,
+          "retained_words": 8190,
+          "sample_key": "anchor"
+        },
+        {
+          "records": 73,
+          "retained_words": 6332,
+          "sample_key": "late_AX"
+        },
+        {
+          "records": 77,
+          "retained_words": 8018,
+          "sample_key": "late_BX"
+        },
+        {
+          "records": 64,
+          "retained_words": 5989,
+          "sample_key": "late_AY"
+        },
+        {
+          "records": 94,
+          "retained_words": 8104,
+          "sample_key": "late_BY"
+        }
+      ]
+    },
+    {
+      "pair_id": "pilot6-pair-05",
+      "samples": [
+        {
+          "records": 108,
+          "retained_words": 8086,
+          "sample_key": "anchor"
+        },
+        {
+          "records": 110,
+          "retained_words": 8384,
+          "sample_key": "late_AX"
+        },
+        {
+          "records": 107,
+          "retained_words": 8141,
+          "sample_key": "late_BX"
+        },
+        {
+          "records": 118,
+          "retained_words": 8016,
+          "sample_key": "late_AY"
+        },
+        {
+          "records": 113,
+          "retained_words": 8099,
+          "sample_key": "late_BY"
+        }
+      ]
+    },
+    {
+      "pair_id": "pilot6-pair-06",
+      "samples": [
+        {
+          "records": 100,
+          "retained_words": 8026,
+          "sample_key": "anchor"
+        },
+        {
+          "records": 107,
+          "retained_words": 8034,
+          "sample_key": "late_AX"
+        },
+        {
+          "records": 113,
+          "retained_words": 8024,
+          "sample_key": "late_BX"
+        },
+        {
+          "records": 122,
+          "retained_words": 8026,
+          "sample_key": "late_AY"
+        },
+        {
+          "records": 112,
+          "retained_words": 8058,
+          "sample_key": "late_BY"
+        }
+      ]
+    },
+    {
+      "pair_id": "pilot6-pair-07",
+      "samples": [
+        {
+          "records": 83,
+          "retained_words": 8150,
+          "sample_key": "anchor"
+        },
+        {
+          "records": 103,
+          "retained_words": 8134,
+          "sample_key": "late_AX"
+        },
+        {
+          "records": 72,
+          "retained_words": 6724,
+          "sample_key": "late_BX"
+        },
+        {
+          "records": 64,
+          "retained_words": 5468,
+          "sample_key": "late_AY"
+        },
+        {
+          "records": 57,
+          "retained_words": 5064,
+          "sample_key": "late_BY"
+        }
+      ]
+    },
+    {
+      "pair_id": "pilot6-pair-08",
+      "samples": [
+        {
+          "records": 57,
+          "retained_words": 5385,
+          "sample_key": "anchor"
+        },
+        {
+          "records": 59,
+          "retained_words": 5574,
+          "sample_key": "late_AX"
+        },
+        {
+          "records": 83,
+          "retained_words": 8042,
+          "sample_key": "late_BX"
+        },
+        {
+          "records": 75,
+          "retained_words": 8156,
+          "sample_key": "late_AY"
+        },
+        {
+          "records": 79,
+          "retained_words": 8177,
+          "sample_key": "late_BY"
+        }
+      ]
+    },
+    {
+      "pair_id": "pilot6-pair-09",
+      "samples": [
+        {
+          "records": 116,
+          "retained_words": 8033,
+          "sample_key": "anchor"
+        },
+        {
+          "records": 107,
+          "retained_words": 8014,
+          "sample_key": "late_AX"
+        },
+        {
+          "records": 90,
+          "retained_words": 6970,
+          "sample_key": "late_BX"
+        },
+        {
+          "records": 109,
+          "retained_words": 8060,
+          "sample_key": "late_AY"
+        },
+        {
+          "records": 107,
+          "retained_words": 8092,
+          "sample_key": "late_BY"
+        }
+      ]
+    },
+    {
+      "pair_id": "pilot6-pair-10",
+      "samples": [
+        {
+          "records": 65,
+          "retained_words": 6149,
+          "sample_key": "anchor"
+        },
+        {
+          "records": 91,
+          "retained_words": 8044,
+          "sample_key": "late_AX"
+        },
+        {
+          "records": 87,
+          "retained_words": 8078,
+          "sample_key": "late_BX"
+        },
+        {
+          "records": 82,
+          "retained_words": 8049,
+          "sample_key": "late_AY"
+        },
+        {
+          "records": 92,
+          "retained_words": 8115,
+          "sample_key": "late_BY"
+        }
+      ]
+    },
+    {
+      "pair_id": "pilot6-pair-11",
+      "samples": [
+        {
+          "records": 84,
+          "retained_words": 8012,
+          "sample_key": "anchor"
+        },
+        {
+          "records": 69,
+          "retained_words": 6037,
+          "sample_key": "late_AX"
+        },
+        {
+          "records": 93,
+          "retained_words": 8104,
+          "sample_key": "late_BX"
+        },
+        {
+          "records": 61,
+          "retained_words": 5920,
+          "sample_key": "late_AY"
+        },
+        {
+          "records": 99,
+          "retained_words": 8072,
+          "sample_key": "late_BY"
+        }
+      ]
+    },
+    {
+      "pair_id": "pilot6-pair-12",
+      "samples": [
+        {
+          "records": 68,
+          "retained_words": 8136,
+          "sample_key": "anchor"
+        },
+        {
+          "records": 67,
+          "retained_words": 8089,
+          "sample_key": "late_AX"
+        },
+        {
+          "records": 64,
+          "retained_words": 8240,
+          "sample_key": "late_BX"
+        },
+        {
+          "records": 74,
+          "retained_words": 8256,
+          "sample_key": "late_AY"
+        },
+        {
+          "records": 71,
+          "retained_words": 8012,
+          "sample_key": "late_BY"
+        }
+      ]
+    },
+    {
+      "pair_id": "pilot6-pair-13",
+      "samples": [
+        {
+          "records": 91,
+          "retained_words": 8053,
+          "sample_key": "anchor"
+        },
+        {
+          "records": 102,
+          "retained_words": 8060,
+          "sample_key": "late_AX"
+        },
+        {
+          "records": 89,
+          "retained_words": 7995,
+          "sample_key": "late_BX"
+        },
+        {
+          "records": 100,
+          "retained_words": 8006,
+          "sample_key": "late_AY"
+        },
+        {
+          "records": 81,
+          "retained_words": 6475,
+          "sample_key": "late_BY"
+        }
+      ]
+    },
+    {
+      "pair_id": "pilot6-pair-14",
+      "samples": [
+        {
+          "records": 68,
+          "retained_words": 8194,
+          "sample_key": "anchor"
+        },
+        {
+          "records": 65,
+          "retained_words": 7780,
+          "sample_key": "late_AX"
+        },
+        {
+          "records": 62,
+          "retained_words": 8367,
+          "sample_key": "late_BX"
+        },
+        {
+          "records": 75,
+          "retained_words": 8144,
+          "sample_key": "late_AY"
+        },
+        {
+          "records": 68,
+          "retained_words": 8244,
+          "sample_key": "late_BY"
+        }
+      ]
+    },
+    {
+      "pair_id": "pilot6-pair-15",
+      "samples": [
+        {
+          "records": 97,
+          "retained_words": 8002,
+          "sample_key": "anchor"
+        },
+        {
+          "records": 104,
+          "retained_words": 8036,
+          "sample_key": "late_AX"
+        },
+        {
+          "records": 89,
+          "retained_words": 8014,
+          "sample_key": "late_BX"
+        },
+        {
+          "records": 113,
+          "retained_words": 8070,
+          "sample_key": "late_AY"
+        },
+        {
+          "records": 99,
+          "retained_words": 8034,
+          "sample_key": "late_BY"
+        }
+      ]
+    },
+    {
+      "pair_id": "pilot6-pair-16",
+      "samples": [
+        {
+          "records": 64,
+          "retained_words": 5252,
+          "sample_key": "anchor"
+        },
+        {
+          "records": 98,
+          "retained_words": 8040,
+          "sample_key": "late_AX"
+        },
+        {
+          "records": 103,
+          "retained_words": 8082,
+          "sample_key": "late_BX"
+        },
+        {
+          "records": 103,
+          "retained_words": 8036,
+          "sample_key": "late_AY"
+        },
+        {
+          "records": 94,
+          "retained_words": 8077,
+          "sample_key": "late_BY"
+        }
+      ]
+    },
+    {
+      "pair_id": "pilot6-pair-17",
+      "samples": [
+        {
+          "records": 113,
+          "retained_words": 8017,
+          "sample_key": "anchor"
+        },
+        {
+          "records": 111,
+          "retained_words": 8080,
+          "sample_key": "late_AX"
+        },
+        {
+          "records": 115,
+          "retained_words": 7796,
+          "sample_key": "late_BX"
+        },
+        {
+          "records": 111,
+          "retained_words": 6965,
+          "sample_key": "late_AY"
+        },
+        {
+          "records": 102,
+          "retained_words": 8012,
+          "sample_key": "late_BY"
+        }
+      ]
+    },
+    {
+      "pair_id": "pilot6-pair-18",
+      "samples": [
+        {
+          "records": 77,
+          "retained_words": 8018,
+          "sample_key": "anchor"
+        },
+        {
+          "records": 79,
+          "retained_words": 8168,
+          "sample_key": "late_AX"
+        },
+        {
+          "records": 67,
+          "retained_words": 8226,
+          "sample_key": "late_BX"
+        },
+        {
+          "records": 64,
+          "retained_words": 8094,
+          "sample_key": "late_AY"
+        },
+        {
+          "records": 73,
+          "retained_words": 8094,
+          "sample_key": "late_BY"
+        }
+      ]
+    },
+    {
+      "pair_id": "pilot6-pair-19",
+      "samples": [
+        {
+          "records": 83,
+          "retained_words": 8005,
+          "sample_key": "anchor"
+        },
+        {
+          "records": 92,
+          "retained_words": 8052,
+          "sample_key": "late_AX"
+        },
+        {
+          "records": 88,
+          "retained_words": 7739,
+          "sample_key": "late_BX"
+        },
+        {
+          "records": 75,
+          "retained_words": 7631,
+          "sample_key": "late_AY"
+        },
+        {
+          "records": 83,
+          "retained_words": 7262,
+          "sample_key": "late_BY"
+        }
+      ]
+    },
+    {
+      "pair_id": "pilot6-pair-20",
+      "samples": [
+        {
+          "records": 92,
+          "retained_words": 8124,
+          "sample_key": "anchor"
+        },
+        {
+          "records": 78,
+          "retained_words": 8103,
+          "sample_key": "late_AX"
+        },
+        {
+          "records": 76,
+          "retained_words": 8007,
+          "sample_key": "late_BX"
+        },
+        {
+          "records": 79,
+          "retained_words": 8114,
+          "sample_key": "late_AY"
+        },
+        {
+          "records": 79,
+          "retained_words": 8016,
+          "sample_key": "late_BY"
+        }
+      ]
+    }
+  ],
+  "selection_sha256": "8328d2b61f7849320b0dcb94d4123ad2814341fd2389c82c9f8786ebde48476d",
+  "source_rows": 15014986,
+  "source_uncompressed_bytes": 9268328857,
+  "sources": [
+    {
+      "archive_sha256": "70516bf375fe9a6ca738f03d1a4d92523ff45fad6f8660c0d67ce5da01aa234a",
+      "community": "AskAcademia",
+      "rows": 252988,
+      "utterances_sha256": "fb18799f86877a8e1ebc0243b431c5f3483523457e65d15b51009c9cdf3e73eb"
+    },
+    {
+      "archive_sha256": "420a9ff24f17a05e64e0648d9ef883518eef5b3db875e1590bf63625e37f7125",
+      "community": "GradSchool",
+      "rows": 370990,
+      "utterances_sha256": "61e6358e2f27fb11edbaef83a935e507812f14a595553558734bfd63c78ba88c"
+    },
+    {
+      "archive_sha256": "7c4af5f5fa07adc39ff7df3fc49d23fcff906b3d64a8afde3eafa31720d410b2",
+      "community": "AskPhysics",
+      "rows": 240055,
+      "utterances_sha256": "cdfd345ff223ee685865c390d05c396b4cf989f01dac678fa20103c6c0b6e87d"
+    },
+    {
+      "archive_sha256": "e3409d3b2d537f83330e1337423c90eeeddbcca69468c7fc66e054a84a393e64",
+      "community": "Physics",
+      "rows": 619676,
+      "utterances_sha256": "a5f5bd5d74dc7ab192461c6c09a999db07b0f4631071b106c4bf791efc53796a"
+    },
+    {
+      "archive_sha256": "6a39335f531afc330dcf894589cadf725b026e5e5d3a05d4211743b985b5e89d",
+      "community": "math",
+      "rows": 1534925,
+      "utterances_sha256": "475191c841d56cec5e6d530ccf3097dd4f0e1e4d5b09eee2a67ecc8ed94a7e32"
+    },
+    {
+      "archive_sha256": "a50a47cb250a75631252b68671936e18a4053175c4750ec4b0bfccbbd6c8857b",
+      "community": "learnmath",
+      "rows": 487515,
+      "utterances_sha256": "90183d402f748cc240efa05e7299920ed9f055a5977808e5b5ed0b224effcb42"
+    },
+    {
+      "archive_sha256": "29b7181a05913401e7c562a029b9cfeca9da6df41a153a04be3778430821bb71",
+      "community": "linux",
+      "rows": 2988858,
+      "utterances_sha256": "fb63e9da87e69e22c99244d0db471d1c725beec4869dcdb8e4d8a34daac0149a"
+    },
+    {
+      "archive_sha256": "6b40a18df38879d43d7c063bd3cf805a5b7ad0411d30c92a5601ce2880215b64",
+      "community": "linuxquestions",
+      "rows": 482093,
+      "utterances_sha256": "bbc9dcd5c3b8a157853c085c061d42fddfcefbd428f7ea1f8ca939eae763378f"
+    },
+    {
+      "archive_sha256": "a4aecda23e8f2372b995082c9622d21f4a87f7d211bdb139fbeff81e533232e3",
+      "community": "programming",
+      "rows": 5977651,
+      "utterances_sha256": "c2705682f7839daf8af0bb909297188d9d6d9a0b0f425ba44f9bcac46c86d2cf"
+    },
+    {
+      "archive_sha256": "9732eab8ad07e0dff4abece1ae1d531bd90d0cb803bcfbd24e878be9726cf521",
+      "community": "learnprogramming",
+      "rows": 2060235,
+      "utterances_sha256": "f3ed3b92bbe322dddd96f575ea7603a66aa46311c504e654ebe6ac4cb2a2b2b2"
+    }
+  ],
+  "status": "prepared_not_audited",
+  "style_calls": 0,
+  "wall_seconds": 114.81110156999785
+}

@@ -1,0 +1,297 @@
+"""Synthetic counterexamples only; no original-source intake or engine calls."""
+import copy
+from datetime import datetime,timezone
+import hashlib
+import importlib.util
+import json
+from pathlib import Path
+import sys
+import zipfile
+import pytest
+
+S=Path(__file__).resolve().parents[1]
+sys.path.insert(0,str(S/'scripts'))
+import check_replication_prepared as c
+import prepare_replication as producer
+
+
+def put(path,value):
+    path=Path(path);path.write_text(json.dumps(value,sort_keys=True,indent=2)+'\n');return str(path)
+def iso(t):return datetime.fromtimestamp(t,timezone.utc).isoformat().replace('+00:00','Z')
+def bind(plan,paths):plan['bindings']=[{'path':str(Path(p).resolve()),'sha256':c.sha(p)} for p in dict.fromkeys(paths)]
+def rebind(plan_path,path):
+    p=c.read(plan_path)
+    for r in p['bindings']:
+        if Path(r['path']).resolve()==Path(path).resolve():r['sha256']=c.sha(path)
+    put(plan_path,p)
+
+
+def flags():
+    fields=('pilot1_or_pilot2_or_private_mandatory_exclusion','pilot3_selected_scored_exposure','prior_capacity_only_exposure')
+    return {'accounts':[{'account_key':f'old-{i:03}',**{f:(i<57 if j==0 else i>=57 if j==1 else False) for j,f in enumerate(fields)}} for i in range(117)]}
+
+
+def fake_audit(entries,purge_first=False):
+    provenance={rid:{'source_record_id':rid,'source_kind':'comment','text_component':'body','historical':False,
+        'account_key':e['account_key'],'stratum_id':e['stratum_id'],'cell':[e['account_key'],e['community'],e['period']],
+        'thread_id':e['record']['thread_id'],'declared_retained_words':e['retained_words']} for rid,e in entries.items()}
+    gone=[rid for rid,e in entries.items() if purge_first and e['pair_id']=='pilot6-pair-01' and e['sample_key']=='late_AX']
+    components=[{'record_ids':[rid]} for rid in entries if rid not in gone]
+    if gone:
+        provenance['old-protection']={'historical':True,'thread_id':None,'account_key':'old','source_record_id':'protected'}
+        components.append({'record_ids':gone+['old-protection']})
+    return {'summary':{'gate_b_ready':True,'available_content_and_grouping_audit_complete':True,'independence_scope_complete':False,
+        'max_candidate_pairs':2000000,'independent_count_is_lower_bound':False,'independent_candidate_pairs':0,
+        'independent_engine_eligible_candidate_pairs':0,'engine_candidate_pair_count':0,
+        'candidate_records':len(entries),'candidate_retained_words':sum(e['retained_words'] for e in entries.values()),
+        'purged_candidate_records':len(gone),'surviving_candidate_records':len(entries)-len(gone)},'actionable':True,
+        'engine_audit':{'status':'audited','components':components},'record_provenance':provenance,
+        'purge_record_ids':gone,'surviving_candidate_ids':[rid for rid in entries if rid not in gone],
+        'purge_reasons':{rid:['content_historical_boundary'] for rid in gone}}
+
+
+def fixture(tmp_path,monkeypatch,n=2,purge_first=False):
+    pairs=[];meta=[];sources={comm:[] for comm in ('AskPhysics','Physics')};cut=c.o.seconds('2016-01-01T00:00:00Z')
+    for i in range(1,n+1):
+        pair={'pair_id':f'pilot6-pair-{i:02d}','stratum_id':'stratum-02','cut':iso(cut),'account_a':f'new-{i:02d}-a',
+            'account_b':f'new-{i:02d}-b','community_x':'AskPhysics','community_y':'Physics','valid':True,
+            'cost':{'numerator':i,'denominator':1},'five_sample_word_ratio':{'numerator':1,'denominator':1},
+            'five_sample_record_ratio':{'numerator':1,'denominator':1},'late_median_span_days':{'numerator':1,'denominator':1},'prior_capacity_only_accounts':0}
+        pairs.append(pair)
+        for j,(key,(a,comm,period)) in enumerate(c.specs(pair).items()):
+            for k in range(70):
+                stamp=cut-10000+k if period=='early' else cut+j*i*100+k
+                rid=f'p{i:02}-{key}-{k:03}'
+                raw={'id':rid,'user':a.upper(),'timestamp':stamp,'root':'thread-'+rid,'reply_to':'parent-'+rid,
+                    'text':('synthetic '*125).strip(),'meta':{'subreddit':comm,'permalink':'/synthetic/'+rid}}
+                line=(json.dumps(raw,sort_keys=True)+'\n').encode();sources[comm].append(line)
+                meta.append({'record_id':rid,'account_key':a,'community':comm,'created_utc':iso(stamp),'retained_words':125,'reason':None,
+                    'source_line_sha256':hashlib.sha256(line).hexdigest()})
+    paths={}
+    paths['provisional_pairs']=put(tmp_path/'pairs.json',{'pairs':pairs})
+    paths['exposure_flags']=put(tmp_path/'flags.json',flags())
+    paths['pilot5_selection']=put(tmp_path/'five.json',{'selected':{'account_a':'p5-a','account_b':'p5-b'}})
+    paths['protocol']=put(tmp_path/'protocol.json',{'synthetic':True})
+    metadata=tmp_path/'metadata.jsonl';metadata.write_text(''.join(json.dumps(r)+'\n' for r in meta))
+    archives=[]
+    for comm,lines in sources.items():
+        archive=tmp_path/(comm+'.zip')
+        with zipfile.ZipFile(archive,'w') as z:z.writestr('utterances.jsonl',b''.join(lines))
+        archives.append({'community':comm,'archive':str(archive)})
+    metadata_plan=tmp_path/'metadata-plan.json'
+    put(metadata_plan,{'phase':'frozen_before_replication_metadata','source_metadata':[{'path':str(metadata),
+        'bytes':metadata.stat().st_size,'sha256':c.sha(metadata)}],
+        'exposure_flags':paths['exposure_flags'],'pilot5_selection':paths['pilot5_selection']})
+    provisional=c.read(paths['provisional_pairs']);provisional['plan_sha256']=c.sha(metadata_plan);put(paths['provisional_pairs'],provisional)
+    paths['metadata_plan']=str(metadata_plan)
+    converter=S.parent/'pilot3_cross_context/scripts/prepare_candidate_pool.py'
+    bp={**paths,'phase':'frozen_before_replication_buffer','metadata_files':[str(metadata)],'sources':archives,'converter':str(converter)}
+    bind(bp,[*paths.values(),metadata,converter,*[r['archive'] for r in archives]])
+    bp_path=tmp_path/'buffer-plan.json';put(bp_path,bp)
+    monkeypatch.setattr(producer,'checked_plan',lambda path,phase:c.read(path))
+    buf=tmp_path/'buffer';br=tmp_path/'buffer-receipt.json';producer.buffer(bp_path,buf,br)
+    checked=c.verify_buffer(bp_path,buf,br)
+    if not n:return {'bp':bp_path,'buffer':buf,'receipt':br,'checked':checked,'metadata':metadata}
+    ap=tmp_path/'audit.json';put(ap,fake_audit(checked['entries'],purge_first))
+    fp={k:paths[k] for k in ('exposure_flags','pilot5_selection','protocol')}
+    fp.update(phase='frozen_before_replication_final_cohort',buffer_selection=str(buf/'selection.json'),pool=str(buf/'candidate-pool.jsonl'),audit=str(ap))
+    bind(fp,[v for k,v in fp.items() if k!='phase'])
+    fp_path=tmp_path/'final-plan.json';put(fp_path,fp)
+    prepared=tmp_path/'prepared';public=tmp_path/'public';producer.finalize(fp_path,prepared,public)
+    return {'bp':bp_path,'buffer':buf,'receipt':br,'fp':fp_path,'prepared':prepared,'public':public,'checked':checked,'audit':ap,'metadata':metadata}
+
+
+def fullcheck(x):return c.verify_final(x['fp'],x['prepared'],x['public'],x['bp'],x['buffer'],x['checked'])
+
+
+def test_full_twelve_pair_ranking_and_unavailable_preservation(tmp_path,monkeypatch):
+    x=fixture(tmp_path,monkeypatch,12,True);result=fullcheck(x)
+    assert result['post_audit_provisional_pairs_verified']==12
+    assert result['eligible_pairs_verified']==11 and result['selected_pairs_verified']==10
+    assert result['prepared_histories_verified']==40 and result['unique_selected_original_records']==2000
+    rows=c.read(x['public']/'pair-availability.json')
+    assert rows[0]['selection_status']=='unavailable_after_audit'
+    assert rows[-1]['selection_status']=='eligible_outside_fixed_ten_pair_cohort'
+    assert all(rows[0][k] is None for k in ('five_sample_word_ratio','five_sample_record_ratio','late_median_span_days'))
+    assert result['unknown_historical_content_scope_disclosed'] is True
+
+
+def test_zero_post_audit_pairs_is_not_engine_abstention(tmp_path,monkeypatch):
+    x=fixture(tmp_path,monkeypatch,1,True);r=fullcheck(x)
+    assert r['selected_pairs_verified']==0 and r['prepared_histories_verified']==0
+
+
+@pytest.mark.parametrize('field,value',[('text','modified synthetic prose'),('created_utc','2016-01-02T00:00:00Z'),('permalink','changed'),('account_id','wrong-alias'),('id','different-id')])
+def test_constructed_original_field_mutations_rejected(tmp_path,monkeypatch,field,value):
+    x=fixture(tmp_path,monkeypatch,1);idx=c.read(x['prepared']/'pilot6-pair-01/index.json');path=Path(idx['cases'][0]['input'])
+    rows=list(map(json.loads,path.read_text().splitlines()));rows[0][field]=value
+    path.write_text(''.join(json.dumps(r,sort_keys=True,separators=(',',':'))+'\n' for r in rows))
+    with pytest.raises(ValueError,match='original_fields_unchanged_except_account_alias'):fullcheck(x)
+
+
+def test_pool_original_field_mutation_rejected_even_with_updated_receipt(tmp_path,monkeypatch):
+    x=fixture(tmp_path,monkeypatch,1);path=x['buffer']/'candidate-pool.jsonl'
+    rows=list(map(json.loads,path.read_text().splitlines()));rows[0]['record']['parent_id']='changed'
+    path.write_text(''.join(json.dumps(r)+'\n' for r in rows))
+    receipt=c.read(x['receipt']);receipt['candidate_pool_sha256']=c.sha(path);put(x['receipt'],receipt)
+    with pytest.raises(ValueError,match='original_record_field_fidelity'):c.verify_buffer(x['bp'],x['buffer'],x['receipt'])
+
+
+def test_original_line_mutation_rejected(tmp_path,monkeypatch):
+    x=fixture(tmp_path,monkeypatch,1);path=x['buffer']/'original-source-lines.jsonl'
+    path.write_bytes(path.read_bytes().replace(b'synthetic',b'changedxx',1))
+    with pytest.raises(ValueError,match='original_line_metadata_hash'):c.verify_buffer(x['bp'],x['buffer'],x['receipt'])
+
+
+@pytest.mark.parametrize('change',['cut','direction','membership'])
+def test_no_post_registration_cut_direction_or_prefix_substitution(tmp_path,monkeypatch,change):
+    x=fixture(tmp_path,monkeypatch,1);p=x['buffer']/'selection.json';s=c.read(p)
+    if change=='cut':s['pairs'][0]['cut']='2016-02-01T00:00:00Z'
+    elif change=='direction':s['pairs'][0]['account_a'],s['pairs'][0]['account_b']=s['pairs'][0]['account_b'],s['pairs'][0]['account_a']
+    else:s['sample_memberships'][0]['ids'].pop()
+    put(p,s)
+    with pytest.raises(ValueError,match='all_frozen_buffer_prefixes'):c.verify_buffer(x['bp'],x['buffer'],x['receipt'])
+
+
+@pytest.mark.parametrize('change',['duplicate','lost','ungated','graph'])
+def test_audit_partition_and_saved_graph_must_agree(tmp_path,monkeypatch,change):
+    x=fixture(tmp_path,monkeypatch,1);a=c.read(x['audit'])
+    if change=='duplicate':a['surviving_candidate_ids'].append(a['surviving_candidate_ids'][0])
+    elif change=='lost':a['surviving_candidate_ids'].pop()
+    elif change=='ungated':a['summary']['available_content_and_grouping_audit_complete']=False
+    else:
+        rid=a['surviving_candidate_ids'].pop();a['purge_record_ids']=[rid];a['purge_reasons']={rid:['content_historical_boundary']}
+    with pytest.raises(ValueError):c.verify_audit(a,x['checked']['entries'])
+
+
+def test_content_cross_cell_and_shared_thread_purge_rules():
+    entries={}
+    for i in range(3):
+        entries[str(i)]={'account_key':'a','community':'X','period':'early' if i==0 else 'late','stratum_id':'stratum-01',
+            'retained_words':125,'record':{'thread_id':'shared' if i<2 else 'other'}}
+    a=fake_audit(entries);a['surviving_candidate_ids']=['2'];a['purge_record_ids']=['0','1']
+    a['purge_reasons']={rid:['thread_cross_candidate_cells'] for rid in ('0','1')}
+    a['summary'].update(purged_candidate_records=2,surviving_candidate_records=1)
+    assert c.verify_audit(a,entries)=={'2'}
+    a['engine_audit']['components']=[{'record_ids':['0','2']},{'record_ids':['1']}]
+    a['surviving_candidate_ids']=[];a['purge_record_ids']=['0','1','2']
+    a['purge_reasons']={'0':['content_cross_candidate_cells','thread_cross_candidate_cells'],'1':['thread_cross_candidate_cells'],'2':['content_cross_candidate_cells']}
+    a['summary'].update(purged_candidate_records=3,surviving_candidate_records=0)
+    assert c.verify_audit(a,entries)==set()
+
+
+def test_exclusion_cardinality_canonical_bool_and_global_disjointness(tmp_path,monkeypatch):
+    x=fixture(tmp_path,monkeypatch,2);pairs=copy.deepcopy(x['checked']['pairs']);excluded=x['checked']['excluded']
+    pairs[1]['account_a']=pairs[0]['account_a']
+    with pytest.raises(ValueError,match='disjoint_new_pair_accounts'):c.validate_pairs(pairs,excluded,set())
+    pairs=copy.deepcopy(x['checked']['pairs']);pairs[0]['account_b']='p5-a'
+    with pytest.raises(ValueError,match='disjoint_new_pair_accounts'):c.validate_pairs(pairs,excluded,set())
+    f=flags();f['accounts'][0]['pilot3_selected_scored_exposure']=1
+    with pytest.raises(ValueError,match='boolean_exposure_flags'):c.exclusions(f,{'selected':{'account_a':'p5-a','account_b':'p5-b'}})
+
+
+def test_post_cost_rank_not_provisional_rank():
+    base={'stratum_id':'stratum-02','cut':'2016-01-01T00:00:00Z','account_a':'a','account_b':'b','community_x':'AskPhysics','community_y':'Physics'}
+    a={**base,'cost':c.Fraction(1,10**100)};b={**base,'account_a':'c','account_b':'d','cost':c.Fraction(1,10**100+1)}
+    assert sorted([a,b],key=lambda r:(r['cost'],c.tie(r)))[0] is b
+    assert c.identity('a')==hashlib.sha256(b'pilot6-anchor-order-v1\0a').hexdigest()
+
+
+def test_buffer_conjunction_ceiling_and_half_open_boundaries():
+    cut=c.o.seconds('2016-01-01T00:00:00Z')
+    def rows(n,w):return [{'record_id':str(i),'created_utc':iso(cut+i),'retained_words':w} for i in range(n)]
+    assert len(c.buffer_prefix(rows(90,125),cut,'late'))==64
+    assert len(c.buffer_prefix(rows(90,500),cut,'late'))==17
+    assert len(c.buffer_prefix(rows(400,20),cut,'late'))==300
+    rs=rows(90,125);rs[0]['created_utc']=iso(cut+180*86400)
+    assert rs[0] not in c.buffer_prefix(rs,cut,'late')
+    rs[0]['created_utc']=iso(cut-180*86400)
+    assert c.buffer_prefix(rs,cut,'early')==[rs[0]]
+
+
+def test_saved_grid_and_truth_mutations_rejected(tmp_path,monkeypatch):
+    x=fixture(tmp_path,monkeypatch,1);path=x['prepared']/'pilot6-pair-01/index.json';idx=c.read(path)
+    idx['cases'][1]['truth_k']+=1;put(path,idx)
+    with pytest.raises(ValueError,match='case_conditions_truth_windows_and_grid'):fullcheck(x)
+
+
+def test_empty_provisional_pool_checked(tmp_path,monkeypatch):
+    x=fixture(tmp_path,monkeypatch,0)
+    assert x['checked']['pairs']==[] and x['checked']['entries']=={}
+
+
+def test_primary_window_remainder_never_enters_grid():
+    rows=[{'retained_words':125} for _ in range(85)]
+    n,grid=c.primary_grid(rows)
+    assert n==10 and grid==[{'window_index':j,'split_interval':[8*j,8*j]} for j in range(3,8)]
+    assert c.primary_grid(rows[:63])==(7,[])
+
+
+def test_ineligible_legacy_null_skipped_but_eligible_null_fails(tmp_path,monkeypatch):
+    x=fixture(tmp_path,monkeypatch,1);metadata=x['metadata'];rows=list(map(json.loads,metadata.read_text().splitlines()))
+    rows.append({**rows[0],'record_id':'null-ineligible','retained_words':None,'reason':'not_enough_words'})
+    metadata.write_text(''.join(json.dumps(r)+'\n' for r in rows));rebind(x['bp'],metadata)
+    refresh_metadata_lineage(x)
+    receipt=c.read(x['receipt']);receipt['plan_sha256']=c.sha(x['bp']);put(x['receipt'],receipt)
+    checked=c.verify_buffer(x['bp'],x['buffer'],x['receipt']);assert checked['metadata_rows_checked']==351
+    rows[-1]['reason']=None;metadata.write_text(''.join(json.dumps(r)+'\n' for r in rows));rebind(x['bp'],metadata);refresh_metadata_lineage(x)
+    with pytest.raises(ValueError,match='buffer_integer_words'):c.verify_buffer(x['bp'],x['buffer'],x['receipt'])
+
+
+@pytest.mark.parametrize('key,value',[('max_candidate_pairs',2000001),('independent_candidate_pairs',2000001),('independent_count_is_lower_bound',True),('engine_candidate_pair_count',1)])
+def test_audit_cap_or_incomplete_counter_rejected(key,value):
+    a=fake_audit({});a['summary'][key]=value
+    with pytest.raises(ValueError,match='complete_fixed_candidate_pair_caps'):c.verify_audit(a,{})
+
+
+def test_audit_original_freeze_public_binding(tmp_path):
+    pool=tmp_path/'pool';pool.write_bytes(b'synthetic');audit=tmp_path/'audit';put(audit,{'summary':{'count':3}})
+    freeze=tmp_path/'freeze';f={'state':'frozen_before_audit','candidate_pool_sha256':c.sha(pool),
+        'wrapper_sha256':'a'*64,'engine_sha256':'b'*64,'rules_sha256':'c'*64};put(freeze,f)
+    public=tmp_path/'public';p={**{k:v for k,v in f.items() if k.endswith('_sha256')},'count':3,
+        'private_audit_sha256':c.sha(audit),'freeze_sha256':c.sha(freeze)};put(public,p)
+    assert c.verify_audit_binding(freeze,public,audit,pool)==c.sha(freeze)
+    p['private_audit_sha256']='0'*64;put(public,p)
+    with pytest.raises(ValueError,match='audit_run_input_and_output_binding'):c.verify_audit_binding(freeze,public,audit,pool)
+
+
+def test_missing_thread_or_historical_identity_never_accepted():
+    entries={'r':{'account_key':'candidate','community':'X','period':'late','stratum_id':'stratum-01','retained_words':125,'record':{'thread_id':None}}}
+    a=fake_audit(entries)
+    with pytest.raises(ValueError,match='candidate_thread_required'):c.verify_audit(a,entries)
+    entries['r']['record']['thread_id']='thread';a=fake_audit(entries)
+    a['record_provenance']['h']={'historical':True,'thread_id':None,'account_key':'candidate','source_record_id':'old-r'}
+    a['engine_audit']['components'].append({'record_ids':['h']})
+    with pytest.raises(ValueError,match='candidate_historical_identity_boundary'):c.verify_audit(a,entries)
+
+
+def test_top_ten_selection_status_cannot_be_rewritten(tmp_path,monkeypatch):
+    x=fixture(tmp_path,monkeypatch,11);p=x['public']/'pair-availability.json';rows=c.read(p)
+    rows[0]['selection_status'],rows[-1]['selection_status']=rows[-1]['selection_status'],rows[0]['selection_status'];put(p,rows)
+    with pytest.raises(ValueError,match='every_post_audit_candidate_and_cost_rank'):fullcheck(x)
+
+
+def refresh_metadata_lineage(x):
+    bp=c.read(x['bp']);mp_path=Path(bp['metadata_plan']);mp=c.read(mp_path)
+    for r in mp['source_metadata']:
+        r['bytes']=Path(r['path']).stat().st_size;r['sha256']=c.sha(r['path'])
+    put(mp_path,mp);rebind(x['bp'],mp_path)
+    provisional=Path(bp['provisional_pairs']);value=c.read(provisional);value['plan_sha256']=c.sha(mp_path);put(provisional,value);rebind(x['bp'],provisional)
+
+
+@pytest.mark.parametrize('change',['omitted_source','search_plan_hash','source_hash','source_bytes','exclusions'])
+def test_search_plan_to_buffer_lineage_cannot_change(tmp_path,monkeypatch,change):
+    x=fixture(tmp_path,monkeypatch,1);bp=c.read(x['bp']);mp_path=Path(bp['metadata_plan']);mp=c.read(mp_path)
+    if change=='omitted_source':
+        bp['metadata_files']=[];put(x['bp'],bp)
+    elif change=='search_plan_hash':
+        v=c.read(bp['provisional_pairs']);v['plan_sha256']='0'*64;put(bp['provisional_pairs'],v);rebind(x['bp'],bp['provisional_pairs'])
+    else:
+        if change=='source_hash':mp['source_metadata'][0]['sha256']='0'*64
+        elif change=='source_bytes':mp['source_metadata'][0]['bytes']+=1
+        else:
+            alternate=tmp_path/'alternate-flags.json';put(alternate,{'different':True});mp['exposure_flags']=str(alternate)
+        put(mp_path,mp);rebind(x['bp'],mp_path)
+        v=c.read(bp['provisional_pairs']);v['plan_sha256']=c.sha(mp_path);put(bp['provisional_pairs'],v);rebind(x['bp'],bp['provisional_pairs'])
+    with pytest.raises(ValueError,match='exact_search_metadata_inputs|provisional_search_plan_lineage|search_metadata_bytes_and_hashes|search_and_buffer_exclusion_lineage'):
+        c.verify_buffer(x['bp'],x['buffer'],x['receipt'])

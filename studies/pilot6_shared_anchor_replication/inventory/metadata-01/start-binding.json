@@ -1,0 +1,8 @@
+{
+  "grid_localization_evaluated": false,
+  "phase": "frozen_before_replication_metadata",
+  "plan_sha256": "792b5dbd3e3f677052f8294cee64cb76ad0847c12d4ca9ab7d6d65b73fc5f22a",
+  "script_sha256": "dd14c98c87117d81a3ba11d4806660af471d4145ba5380f093b5159cebdd4b90",
+  "started_utc": "2026-09-15T07:01:50.082436+00:00",
+  "style_calls": 0
+}

@@ -1,0 +1,21 @@
+{
+  "checker_sha256": "67d34fd4e01a56b2aeb2c4205397bd72944a55b46733da961127ebdaf88e2056",
+  "independent_oracle_sha256": "b83198971454e26f91bf7c4e20a2787cf6d1ad994da45d4be11a12bbcd97d0b5",
+  "preserved_prior_checker_sha256": "5c2ac6806ba10627a06e8c5c57b51a1c310d108dbc5364c4467f1d638cc606ba",
+  "preserved_prior_test_sha256": "924756977e70b485f04c1fb99c50a6a18084d033613de3a8761acbe839a564dd",
+  "real_prepared_inputs_read_by_checker": false,
+  "reason": "Independent review requested explicit metadata-search-to-buffer lineage, before first source buffer run.",
+  "recorded_utc": "2026-09-15T07:13:07.432763+00:00",
+  "requirements_added": [
+    "Buffer metadata_plan must be uniquely hash-bound.",
+    "Provisional pair plan_sha256 must identify that metadata search plan.",
+    "The ordered metadata input paths, every byte count, and every hash must agree with the search plan.",
+    "Search and buffer exclusion source hashes must agree."
+  ],
+  "scientific_design_changed": false,
+  "status": "synthetically_validated_before_buffer_registration",
+  "synthetic_tests_passed": 36,
+  "test_receipt_sha256": "d49dc9471ad4d426a79687027750df24ed25b54037a39326b58a6465ed180433",
+  "test_stdout_sha256": "48d2fd44c0ab1ac809d670b8a99ee0ef9c7f57e716295955d25a630c4c05ab49",
+  "tests_sha256": "7154c10a35fe2987e18a2529d80c7b2d5a60564f1d4e0aa9a51b4edcc74617de"
+}

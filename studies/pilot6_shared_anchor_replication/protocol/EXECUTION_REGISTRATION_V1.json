@@ -1,0 +1,193 @@
+{
+  "analyzer_calls": 0,
+  "audit_freeze_sha256": "28e774bc73465eff3da6ee0ccab7ea773d3954493d287299169373605b1699df",
+  "audit_public_sha256": "7476dafb01dc476f9e9e97f39e5892434f737153c2c9dbfdece16009a22ec396",
+  "bound_artifact_count": 367,
+  "buffer_independent_check_sha256": "d0559a95e0f979b3f08e544803f7f98441f3b5235dac3f012537cd749f82580f",
+  "cohort_execution_sha256": "a0ad974e86ed9a88a9d15b895f4ee4b19c03b5cffa4817e1fb57fa3c7583c16d",
+  "execution_environment": {
+    "PYTHONHASHSEED": "0",
+    "PYTHONPATH": "<INSTALLED_BASELINE>",
+    "TZ": "UTC"
+  },
+  "global_and_per_pair_registration_validation": "passed_without_analyzer_calls",
+  "host_paths_present": "Frozen installed-package import path only; sanitize for publication if needed.",
+  "independent_results_checker_sha256": "f35d84efffb011dfea193b043625dbc666cfaa5b61dfc4361efec8d6b1e6e60d",
+  "limits": {
+    "global_artifact_bytes": 12884901888,
+    "global_wall_seconds": 14400,
+    "max_pairs": 10,
+    "pair_reserved_artifact_bytes": 4294967296
+  },
+  "metadata_independent_check_sha256": "50d24baba25d53c59a24d1ec288b9ef9a34a5c5c3f8f11648101f4135d833a1e",
+  "pair_limits": {
+    "case_wall_seconds": 600,
+    "dispatch_wall_seconds": 3600,
+    "parallel_cases": 2,
+    "process_address_space_bytes": 4294967296,
+    "run_artifact_bytes": 8589934592
+  },
+  "phase": "frozen_before_pilot6_replication",
+  "planned_main_histories": 36,
+  "planned_replay_histories": 36,
+  "prepared_independent_check_sha256": "401c41fcd5396bb572a9f483ba2206ca35dde022c37cc4faf72aae3ed029c204",
+  "prior_scoring_check": {
+    "pre_score_checks_report_style_calls": 0,
+    "prior_pilot6_scoring_artifacts_found": 0,
+    "scope": "No execution/worker/native-result artifacts in the Pilot6 private or public-results roots; bound preparation and independent-check counters are zero. This does not reinterpret prior Pilot5 outcomes."
+  },
+  "private_execution_registration_sha256": "7358f1207b0eab49edc0bc0d20d238b31f36afb7b8a73bd1351656f18518a719",
+  "private_source_paths_or_original_identifiers_published": false,
+  "production": {
+    "config_sha256": "8fd0239fe2f87c9f1506786ac36099fe996e00cc6e021b3ecc67fbb65cd2d925",
+    "configuration_overrides": null,
+    "default_toml_sha256": "b7147fe42aa43213cca289b263aa9e38889c0eb8dfbca43e7f710947331aa0a3",
+    "dependency_versions": {
+      "hatchling": "1.29.0",
+      "hypothesis": "6.131.9",
+      "jsonschema": "4.26.0",
+      "markdown-it-py": "3.0.0",
+      "numpy": "2.4.2",
+      "pytest": "9.0.2",
+      "ruptures": "1.1.10",
+      "scipy": "1.17.1"
+    },
+    "expanded_default_config": {
+      "activity": {
+        "burst_duration_seconds": 30,
+        "burst_minimum_events": 3,
+        "max_calendar_days": 366000,
+        "sliding_window_seconds": [
+          30,
+          120,
+          3600
+        ],
+        "timezone": "UTC"
+      },
+      "ai_text_detection": {
+        "enabled": false,
+        "status_reason": "not_implemented_in_v1"
+      },
+      "artifacts": {
+        "max_file_bytes": 268435456,
+        "max_files": 32,
+        "max_total_bytes": 536870912
+      },
+      "changes": {
+        "jump": 1,
+        "method": "pelt_l2_v1",
+        "minimum_segment_windows": 3,
+        "minimum_windows": 8,
+        "primary_lambda": 1.0,
+        "same_window_boundary_tolerance": 1,
+        "scale_ddof": 0,
+        "scale_epsilon": 1e-12,
+        "sensitivity_lambdas": [
+          0.5,
+          2.0,
+          4.0
+        ]
+      },
+      "delta": {
+        "allow_toy_reference": false,
+        "enabled_when_reference_supplied": true,
+        "reference_path": null
+      },
+      "input": {
+        "max_input_bytes": 52428800,
+        "max_text_codepoints": 200000,
+        "max_unique_records": 10000,
+        "strict": true
+      },
+      "report": {
+        "examples_per_side_per_feature": 2,
+        "excerpts": "included",
+        "formats": [
+          "json",
+          "markdown",
+          "html"
+        ],
+        "maximum_feature_explanations": 10,
+        "remote_assets": false
+      },
+      "reuse": {
+        "containment_threshold_denominator": 100,
+        "containment_threshold_numerator": 90,
+        "max_candidate_pairs": 2000000,
+        "max_evidence_codepoints": 8000000,
+        "max_evidence_tokens": 2000000,
+        "max_index_postings": 2000000,
+        "max_work_units": 250000000,
+        "minimum_containment_shorter_words": 50,
+        "minimum_near_duplicate_words": 20,
+        "near_threshold_denominator": 100,
+        "near_threshold_numerator": 80,
+        "repeat_reduced_exact_sensitivity": true,
+        "repeat_reduced_near_sensitivity": false,
+        "shingle_tokens": 5
+      },
+      "schema_version": "1.0.0",
+      "sensitivity": {
+        "exclude_known_edited": true,
+        "within_community": true
+      },
+      "style": {
+        "contraction_minimum_opportunities": 10,
+        "language": "en",
+        "max_all_pairs_windows": 100,
+        "minimum_comparison_records_per_side": 8,
+        "minimum_comparison_words_per_side": 1000,
+        "minimum_record_words": 20,
+        "ngram_lengths": [
+          3,
+          4,
+          5
+        ],
+        "views": [
+          "retained_prose",
+          "function_mask_v1"
+        ]
+      },
+      "text": {
+        "contraction_pairs_resource": {
+          "resource_id": "contraction_pairs.json",
+          "sha256": "f14da203d3a5965b5ea0982551dc9748c4a9655e7662cf8617ba58d86b805f34"
+        },
+        "function_words_resource": {
+          "resource_id": "function_words_en_v1.txt",
+          "sha256": "f91c30201a636e7a9edd15166342afdcedae7fa34d7c7dd5c7352e49d4af2c9e"
+        },
+        "normalization": "NFC",
+        "parser_profile": "commonmark_v1",
+        "tokenizer": "lexical_regex_v1"
+      },
+      "windows": {
+        "max_community_streams": 10,
+        "minimum_records": 8,
+        "sensitivity_targets": [
+          500,
+          2000
+        ],
+        "separate_kinds": true,
+        "single_record_dominance_fraction": 0.5,
+        "target_words": 1000
+      }
+    },
+    "implementation_fingerprint": "bfc989028bf2b47c506d1ba501287d4e362aadc25ca5c731c41e4b27a336e179",
+    "installed_package_files": 54,
+    "reference_environment": "CPython-3.12.3;Linux;x86_64;numpy=2.4.2;scipy=1.17.1;ruptures=1.1.10;markdown-it-py=3.0.0;jsonschema=4.26.0",
+    "version": "1.0.4"
+  },
+  "public_cohort_registration_sha256": "2db1cd6422076a69587b9733e6954223910fed3592b37bf9c756fd942a29df89",
+  "registered_new_pairs": 9,
+  "registered_utc": "2026-09-15T07:22:24.143335+00:00",
+  "registration_helper_sha256": "ada21a6c756059881dff1df9cc8c6eab5f490fa88049353a1437646afd4b2496",
+  "replay_environment": {
+    "PYTHONHASHSEED": "73129",
+    "PYTHONPATH": "<INSTALLED_BASELINE>",
+    "TZ": "Pacific/Honolulu"
+  },
+  "runner_sha256": "be9fce3a7ee4b4850cc9ccaefd8c9c9f1a8ae54874c586dfd296c74e7815cb6f",
+  "target_new_pairs": 10,
+  "tolerance_records": 10
+}

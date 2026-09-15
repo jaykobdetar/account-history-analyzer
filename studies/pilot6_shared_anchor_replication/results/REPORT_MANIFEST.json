@@ -1,0 +1,131 @@
+{
+  "analyzer_calls": 0,
+  "copied_json_byte_identical": [
+    "cases.json",
+    "summary.json",
+    "pair-availability.json",
+    "selection-summary.json",
+    "pilot6-pair-02-samples.json",
+    "pilot6-pair-04-samples.json",
+    "pilot6-pair-10-samples.json",
+    "pilot6-pair-14-samples.json",
+    "pilot6-pair-12-samples.json",
+    "pilot6-pair-05-samples.json",
+    "pilot6-pair-17-samples.json",
+    "pilot6-pair-18-samples.json",
+    "pilot6-pair-13-samples.json",
+    "study-context.json"
+  ],
+  "derived_outputs": [
+    "condition-summary.json",
+    "pair-ledgers.json",
+    "operating-costs.json",
+    "REPORT.md"
+  ],
+  "independent_results_check_sha256": "ccf9e08f2e840647a2c37699e94411f436e240d2b7203e7dece98ed18af555db",
+  "manifest_excludes_itself_to_avoid_circular_hash": true,
+  "outputs": {
+    "REPORT.md": {
+      "bytes": 55150,
+      "sha256": "2295da308610659ba03d98ba4dc39892898fbe40059fe89ffcae7f303401d0b0"
+    },
+    "cases.json": {
+      "bytes": 356019,
+      "sha256": "224fbef23cabdbed9b836cd3134515343ca05c5ea05b1eb95f60559d914a6f3c"
+    },
+    "condition-summary.json": {
+      "bytes": 3111,
+      "sha256": "8392f078d1d4924c6728a490c73aa28bccc68ec9aaa135f93ce52a82c68bccfd"
+    },
+    "operating-costs.json": {
+      "bytes": 24431,
+      "sha256": "35c302a61870aee45f79f485cfe7bbf2af71874bbaed7b4fa62de5ef611d4be2"
+    },
+    "pair-availability.json": {
+      "bytes": 14011,
+      "sha256": "9115c2da881d76f7f259b227113fa7b19f999b12134a600dc6d5192b251dd460"
+    },
+    "pair-ledgers.json": {
+      "bytes": 9087,
+      "sha256": "45fed77314ef06bb076d0c9fb7d3aa22cb57ae025ebd8e887393bd727adc4de5"
+    },
+    "pilot6-pair-02-samples.json": {
+      "bytes": 2617,
+      "sha256": "0b2c8f24c0328e640ef20fe467fc802e63e934d7b5060f518ab44692bc899118"
+    },
+    "pilot6-pair-04-samples.json": {
+      "bytes": 2624,
+      "sha256": "7ce0134ae36c4763bff207cabec872ae2fbf2cccd2767cf4ae952b856ad7ae6b"
+    },
+    "pilot6-pair-05-samples.json": {
+      "bytes": 2616,
+      "sha256": "4fe39c8e16e26343ca122853498f1aa0b10dc0a2bcdf4e5d50efcdb0f8f04090"
+    },
+    "pilot6-pair-10-samples.json": {
+      "bytes": 2620,
+      "sha256": "0202166ebf8d8f56e2380be344a08861fa246cb5e29e9362067cb416c298e161"
+    },
+    "pilot6-pair-12-samples.json": {
+      "bytes": 2621,
+      "sha256": "867ab9491e5c69d282c44901ba913dec62ed34b72cb4a55fca49436d0af509e0"
+    },
+    "pilot6-pair-13-samples.json": {
+      "bytes": 2620,
+      "sha256": "2c61e21d8acf8fcdcb569419de4a9bb7f6d5f01690b77415d8abcaa57d740398"
+    },
+    "pilot6-pair-14-samples.json": {
+      "bytes": 2607,
+      "sha256": "1f5bd3278cd5d0a42195407eeac06ef7e60ae403df1f31ed23b15358695fc7fb"
+    },
+    "pilot6-pair-17-samples.json": {
+      "bytes": 2616,
+      "sha256": "294d0d54d535626729f0a4dc2c4e2df8b5d2bc44d555018494c8b8f5ff76709d"
+    },
+    "pilot6-pair-18-samples.json": {
+      "bytes": 2620,
+      "sha256": "b70aeb180bb53ed16a6e14d5ff46a1a33753eaba060e8ccdc25f704cabd62559"
+    },
+    "selection-summary.json": {
+      "bytes": 486,
+      "sha256": "b7d2d1717edba7c8929e879a36c47c8ac6b7381a726b7c663d61620cdad05fdc"
+    },
+    "study-context.json": {
+      "bytes": 3140,
+      "sha256": "50a846bda13ec6583ac7450b19d9403475cda95dc6355dae17d44589591ecd3a"
+    },
+    "summary.json": {
+      "bytes": 2369,
+      "sha256": "3ecfe89d9c7f0261f1d8516e6c165ed42da5290b2eda4cfb500d5a1a4ce0ef8c"
+    }
+  },
+  "private_paths_or_identity_maps_published": false,
+  "registration_sha256": "7358f1207b0eab49edc0bc0d20d238b31f36afb7b8a73bd1351656f18518a719",
+  "report_builder_sha256": "351ab5214379ca7f3a6235b3c60ee3c986ad65b0f31c8ca34590942297770096",
+  "source_artifact_sha256": {
+    "cases.json": "224fbef23cabdbed9b836cd3134515343ca05c5ea05b1eb95f60559d914a6f3c",
+    "independent-results-check.json": "ccf9e08f2e840647a2c37699e94411f436e240d2b7203e7dece98ed18af555db",
+    "pair-availability.json": "9115c2da881d76f7f259b227113fa7b19f999b12134a600dc6d5192b251dd460",
+    "pilot6-pair-02-samples.json": "0b2c8f24c0328e640ef20fe467fc802e63e934d7b5060f518ab44692bc899118",
+    "pilot6-pair-02/pair-summary.json": "7104e29d7dd891d563d67fb7c345efb11a559681bbf46b87aad5ac9a43ba623f",
+    "pilot6-pair-04-samples.json": "7ce0134ae36c4763bff207cabec872ae2fbf2cccd2767cf4ae952b856ad7ae6b",
+    "pilot6-pair-04/pair-summary.json": "d3bb423ee8f0ec5353dba6b4fd2398f64a6e49f16fd1fa44e357523c5ce81e53",
+    "pilot6-pair-05-samples.json": "4fe39c8e16e26343ca122853498f1aa0b10dc0a2bcdf4e5d50efcdb0f8f04090",
+    "pilot6-pair-05/pair-summary.json": "3657d7cbab21992ab86cc1e10d08a1c171bebb548fceba1a9f0cf6aa8c4db5ed",
+    "pilot6-pair-10-samples.json": "0202166ebf8d8f56e2380be344a08861fa246cb5e29e9362067cb416c298e161",
+    "pilot6-pair-10/pair-summary.json": "9da7b7f65ec38a1ff06a8b7b02ce06a735cd6e955e9a4f179534005360af9910",
+    "pilot6-pair-12-samples.json": "867ab9491e5c69d282c44901ba913dec62ed34b72cb4a55fca49436d0af509e0",
+    "pilot6-pair-12/pair-summary.json": "3c8e29343119c7a770881aefa136c0126fa225d70528f1fd57a052738155665d",
+    "pilot6-pair-13-samples.json": "2c61e21d8acf8fcdcb569419de4a9bb7f6d5f01690b77415d8abcaa57d740398",
+    "pilot6-pair-13/pair-summary.json": "9b946f6d7efcd946390b43e7304b96b1f9512729e9c5826228c5110309e564df",
+    "pilot6-pair-14-samples.json": "1f5bd3278cd5d0a42195407eeac06ef7e60ae403df1f31ed23b15358695fc7fb",
+    "pilot6-pair-14/pair-summary.json": "a0efd988e2bdde7a9f7fe543da7804ba76ed106a4a425a97a2a9968b53241cf8",
+    "pilot6-pair-17-samples.json": "294d0d54d535626729f0a4dc2c4e2df8b5d2bc44d555018494c8b8f5ff76709d",
+    "pilot6-pair-17/pair-summary.json": "993cd4799efef6f607f0312840c4e02abeda47d61896c8570302ff0877bfb001",
+    "pilot6-pair-18-samples.json": "b70aeb180bb53ed16a6e14d5ff46a1a33753eaba060e8ccdc25f704cabd62559",
+    "pilot6-pair-18/pair-summary.json": "fc7567710b77888e15358491ed97368e96cdbc9bd1a661c334e0431d9b7af7b2",
+    "selection-summary.json": "b7d2d1717edba7c8929e879a36c47c8ac6b7381a726b7c663d61620cdad05fdc",
+    "study-context.json": "50a846bda13ec6583ac7450b19d9403475cda95dc6355dae17d44589591ecd3a",
+    "summary.json": "3ecfe89d9c7f0261f1d8516e6c165ed42da5290b2eda4cfb500d5a1a4ce0ef8c"
+  },
+  "source_prose_reads": 0
+}

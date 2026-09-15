@@ -1,0 +1,38 @@
+{
+  "registered_utc": "2026-09-15T06:53:12.906848+00:00",
+  "phase": "before_supplement_membership_derivation",
+  "plan_sha256": "2a0f4adc41789b22cb27ba451745a6e22f5f323fca6ef022519cec8573443692",
+  "implementation_sha256": "1a04c2cede269fcef2579c456da23c91bac1e93cbc47950fcc470f9faf7b3b59",
+  "protocol_sha256": "b83901711265de9261d1902f0870f550be4db98ed4cecdde742aabb67d9c48b1",
+  "test_files": [
+    {
+      "path": "<WORKSPACE>/studies/pilot6_shared_anchor_replication/tests/test_intake_supplement.py",
+      "bytes": 15681,
+      "sha256": "14ad8167f9b50cfe9145ea6d6eab4854cd3aa268d61eee1c32fb678899bd8854"
+    }
+  ],
+  "sources": [
+    {
+      "community": "linux",
+      "bytes": 423053704,
+      "sha256": "29b7181a05913401e7c562a029b9cfeca9da6df41a153a04be3778430821bb71"
+    },
+    {
+      "community": "linuxquestions",
+      "bytes": 86603753,
+      "sha256": "6b40a18df38879d43d7c063bd3cf805a5b7ad0411d30c92a5601ce2880215b64"
+    },
+    {
+      "community": "programming",
+      "bytes": 864907082,
+      "sha256": "a4aecda23e8f2372b995082c9622d21f4a87f7d211bdb139fbeff81e533232e3"
+    },
+    {
+      "community": "learnprogramming",
+      "bytes": 393050697,
+      "sha256": "9732eab8ad07e0dff4abece1ae1d531bd90d0cb803bcfbd24e878be9726cf521"
+    }
+  ],
+  "excluded_accounts": 119,
+  "style_outcomes_used": false
+}

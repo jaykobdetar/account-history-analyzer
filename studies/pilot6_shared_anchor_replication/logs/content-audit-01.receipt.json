@@ -1,0 +1,46 @@
+{
+  "argv": [
+    "timeout",
+    "--kill-after=5",
+    "1830",
+    "env",
+    "PYTHONPATH=<INSTALLED_BASELINE>",
+    "PYTHONDONTWRITEBYTECODE=1",
+    ".venv/bin/python",
+    "scripts/offline_exec.py",
+    ".venv/bin/python",
+    "-B",
+    "studies/pilot3_cross_context/scripts/audit_candidates.py",
+    "--candidate-pool",
+    "<PRIVATE_WORK_AREA>/pilot6_private/buffer-01/candidate-pool.jsonl",
+    "--historical-inventory",
+    "<PRIVATE_WORK_AREA>/pilot6_private/history-01/historical-audit-source-inventory.json",
+    "--engine-path",
+    "<REVIEWED_REPO>/studies/pilot2/scripts/leakage_audit.py",
+    "--rules",
+    "studies/pilot6_shared_anchor_replication/protocol/AUDIT_RULES_V1.md",
+    "--freeze",
+    "studies/pilot6_shared_anchor_replication/protocol/AUDIT_REGISTRATION_V1.json",
+    "--out-private",
+    "<PRIVATE_WORK_AREA>/pilot6_private/audit-01",
+    "--out-public",
+    "studies/pilot6_shared_anchor_replication/inventory/content-audit-01.json"
+  ],
+  "cwd": "<WORKSPACE>",
+  "started_utc": "2026-09-15T07:16:24.437326+00:00",
+  "finished_utc": "2026-09-15T07:19:05.751646+00:00",
+  "exit_code": 0,
+  "wall_seconds": 161.3146818370151,
+  "child_peak_rss_mib": 2533.6484375,
+  "runner_sha256": "4d94adb7a06ec38cc6f5b4fe55f801e87bbdcff712139146d53f55a2928eb2a4",
+  "outputs": {
+    "stdout.log": {
+      "bytes": 2443,
+      "sha256": "beda04041dccd7d6b10dc5c3c9d745ef4b53c22cae9e0d6925b8f998b95d587d"
+    },
+    "stderr.log": {
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    }
+  }
+}

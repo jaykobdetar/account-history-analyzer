@@ -1,0 +1,108 @@
+{
+  "pair_id": "pilot6-pair-04",
+  "samples": [
+    {
+      "first_timestamp": 1356492829,
+      "last_timestamp": 1362090474,
+      "longest_record_word_share": 0.09352090350703388,
+      "median_timestamp": {
+        "denominator": 1,
+        "numerator": 1359545508
+      },
+      "records": 58,
+      "retained_words": 5047,
+      "sample_key": "anchor",
+      "word_length_quantiles": {
+        "0": 20,
+        "0.25": 42.25,
+        "0.5": 61.5,
+        "0.75": 118.25,
+        "1": 472
+      },
+      "word_target_overshoot": 47
+    },
+    {
+      "first_timestamp": 1362269174,
+      "last_timestamp": 1365023433,
+      "longest_record_word_share": 0.06166433845539812,
+      "median_timestamp": {
+        "denominator": 1,
+        "numerator": 1363818242
+      },
+      "records": 54,
+      "retained_words": 5011,
+      "sample_key": "late_AX",
+      "word_length_quantiles": {
+        "0": 20,
+        "0.25": 40.0,
+        "0.5": 78.0,
+        "0.75": 116.0,
+        "1": 309
+      },
+      "word_target_overshoot": 11
+    },
+    {
+      "first_timestamp": 1362974249,
+      "last_timestamp": 1363386888,
+      "longest_record_word_share": 0.08629441624365482,
+      "median_timestamp": {
+        "denominator": 1,
+        "numerator": 1363155191
+      },
+      "records": 53,
+      "retained_words": 5122,
+      "sample_key": "late_BX",
+      "word_length_quantiles": {
+        "0": 22,
+        "0.25": 42.0,
+        "0.5": 73.0,
+        "0.75": 111.0,
+        "1": 442
+      },
+      "word_target_overshoot": 122
+    },
+    {
+      "first_timestamp": 1362247165,
+      "last_timestamp": 1365366250,
+      "longest_record_word_share": 0.059944422389837236,
+      "median_timestamp": {
+        "denominator": 1,
+        "numerator": 1363756334
+      },
+      "records": 53,
+      "retained_words": 5038,
+      "sample_key": "late_AY",
+      "word_length_quantiles": {
+        "0": 21,
+        "0.25": 47.0,
+        "0.5": 71.0,
+        "0.75": 135.0,
+        "1": 302
+      },
+      "word_target_overshoot": 38
+    },
+    {
+      "first_timestamp": 1363208977,
+      "last_timestamp": 1364966339,
+      "longest_record_word_share": 0.062157935887412044,
+      "median_timestamp": {
+        "denominator": 1,
+        "numerator": 1364177342
+      },
+      "records": 59,
+      "retained_words": 5116,
+      "sample_key": "late_BY",
+      "word_length_quantiles": {
+        "0": 20,
+        "0.25": 37.0,
+        "0.5": 69.0,
+        "0.75": 101.5,
+        "1": 318
+      },
+      "word_target_overshoot": 116
+    }
+  ],
+  "shared_anchor_records": 58,
+  "unique_comments": 277,
+  "unique_retained_words": 25334
+}

@@ -1,0 +1,31 @@
+{
+  "argv": [
+    "env",
+    "PYTHONPATH=<INSTALLED_BASELINE>",
+    ".venv/bin/python",
+    "scripts/offline_exec.py",
+    ".venv/bin/python",
+    "-B",
+    "-m",
+    "pytest",
+    "-q",
+    "studies/pilot6_shared_anchor_replication/tests/test_metadata_replication.py"
+  ],
+  "cwd": "<WORKSPACE>",
+  "started_utc": "2026-09-15T06:47:18.786594+00:00",
+  "finished_utc": "2026-09-15T06:47:19.073521+00:00",
+  "exit_code": 0,
+  "wall_seconds": 0.28693619099794887,
+  "child_peak_rss_mib": 40.3671875,
+  "runner_sha256": "4d94adb7a06ec38cc6f5b4fe55f801e87bbdcff712139146d53f55a2928eb2a4",
+  "outputs": {
+    "stdout.log": {
+      "bytes": 98,
+      "sha256": "3509d5176b59507965c15021f84249acb02f003635bc1542c898f4025b7a39bb"
+    },
+    "stderr.log": {
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    }
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "phase": "frozen_before_replication_metadata",
+  "registered_utc": "2026-09-15T07:06:22.662020+00:00",
+  "private_plan_sha256": "28bd40ea6e456823aafd609020efb44d69971f128420dcac1affec31d76408b2",
+  "previous_private_plan_sha256": "792b5dbd3e3f677052f8294cee64cb76ad0847c12d4ca9ab7d6d65b73fc5f22a",
+  "script_sha256": "ea639704e6171d90156c249f5eccf55b1a39d535029b84d7a5133cc38c45ae22",
+  "protocol_sha256": "b83901711265de9261d1902f0870f550be4db98ed4cecdde742aabb67d9c48b1",
+  "technical_correction": "An explicitly ineligible earlier metadata row may have a null retained-word count. It remains excluded. Eligible rows still require integer counts and all original guards. No cuts were completed in attempt01.",
+  "source_inputs_scientific_rules_and_limits_unchanged": true,
+  "original_executed_code_sha256": "dd14c98c87117d81a3ba11d4806660af471d4145ba5380f093b5159cebdd4b90",
+  "completed_pair_cuts_in_previous_attempt": 0,
+  "prior_style_calls": 0
+}

@@ -1,0 +1,40 @@
+{
+  "argv": [
+    "timeout",
+    "--kill-after=5",
+    "3600",
+    "env",
+    "PYTHONPATH=<INSTALLED_BASELINE>",
+    "PYTHONDONTWRITEBYTECODE=1",
+    ".venv/bin/python",
+    "scripts/offline_exec.py",
+    ".venv/bin/python",
+    "-B",
+    "studies/pilot6_shared_anchor_replication/scripts/intake_supplement.py",
+    "--plan",
+    "<PRIVATE_WORK_AREA>/pilot6_private/INTAKE_SUPPLEMENT_PLAN_V1.json",
+    "--registration",
+    "studies/pilot6_shared_anchor_replication/protocol/INTAKE_SUPPLEMENT_REGISTRATION_V1.json",
+    "--out",
+    "studies/pilot6_shared_anchor_replication/inventory/intake-supplement-01",
+    "--private-out",
+    "<PRIVATE_WORK_AREA>/pilot6_private/intake-supplement-01"
+  ],
+  "cwd": "<WORKSPACE>",
+  "started_utc": "2026-09-15T06:53:12.936559+00:00",
+  "finished_utc": "2026-09-15T07:01:01.597472+00:00",
+  "exit_code": 0,
+  "wall_seconds": 468.6609210050083,
+  "child_peak_rss_mib": 1311.265625,
+  "runner_sha256": "4d94adb7a06ec38cc6f5b4fe55f801e87bbdcff712139146d53f55a2928eb2a4",
+  "outputs": {
+    "stdout.log": {
+      "bytes": 496,
+      "sha256": "9cb34243f09d6c07547d6cd760f6ca9dd9b60e9007dc16c763b9e8cbc78bb411"
+    },
+    "stderr.log": {
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    }
+  }
+}

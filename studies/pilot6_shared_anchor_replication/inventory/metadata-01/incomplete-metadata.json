@@ -1,0 +1,13 @@
+{
+  "completed_pair_cuts": 0,
+  "counts": {
+    "excluded_rows": 1151,
+    "metadata_bytes": 41766855,
+    "metadata_rows": 166882,
+    "outside_registered_communities": 165730
+  },
+  "error_type": "ValueError",
+  "status": "incomplete_not_zero_capacity",
+  "style_calls": 0,
+  "wall_seconds": 1.243442725011846
+}

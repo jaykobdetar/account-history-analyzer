@@ -1,0 +1,13 @@
+{
+  "aggregate_cases_sha256": "224fbef23cabdbed9b836cd3134515343ca05c5ea05b1eb95f60559d914a6f3c",
+  "aggregate_summary_sha256": "3ecfe89d9c7f0261f1d8516e6c165ed42da5290b2eda4cfb500d5a1a4ce0ef8c",
+  "checker_sha256": "f35d84efffb011dfea193b043625dbc666cfaa5b61dfc4361efec8d6b1e6e60d",
+  "limits": {
+    "address_space_bytes": 4294967296,
+    "output_bytes": 20971520,
+    "wall_seconds": 600
+  },
+  "prior_independent_checker_sha256": "740d102a71acd018793a60ca9e1db23f74cc712c746c3c98a0e8f2568de3afd2",
+  "registration_sha256": "7358f1207b0eab49edc0bc0d20d238b31f36afb7b8a73bd1351656f18518a719",
+  "started_utc": "2026-09-15T07:48:22.164070+00:00"
+}

@@ -1,0 +1,10 @@
+{
+  "checker_sha256": "0bef6f192a51aaa12ff640ca7bb5d9a78de98317f748e00f9ee1113099b6fe7d",
+  "input_sha256": {
+    "audit": "1c032d1fe2b4b95a7ce14a2e09a2015634e2073620db254cbc30938c3cf34032",
+    "flags": "d7e1fe9333896e423618696da7f03029cac2f43d3c855b8a35cd7131b468722f",
+    "pool": "2d54e97573d52a8697044c658884866a135bfefe062c80ef9c31d49e70c9e3df"
+  },
+  "started_utc": "2026-09-15T07:31:38.026750+00:00",
+  "style_scores_computed": 0
+}

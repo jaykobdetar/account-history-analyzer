@@ -1,0 +1,71 @@
+{
+  "source_feasibility": {
+    "pair_cut_count": 505,
+    "unique_valid_unordered_edges": 76,
+    "global_maximum_matching_pairs": 32,
+    "provisional_pairs": 20,
+    "target_new_pairs": 10
+  },
+  "audit": {
+    "candidate_records": 8867,
+    "purged_candidate_records": 857,
+    "surviving_candidate_records": 8010,
+    "independent_candidate_pairs": 595963,
+    "engine_candidate_pair_count": 595963,
+    "max_candidate_pairs": 2000000,
+    "historical_body_records": 44873,
+    "historical_title_protection_records": 53,
+    "content_unobservable_record_count": 17,
+    "unknown_scope_flags": [
+      "unobserved_content_relationships_unknown"
+    ],
+    "independence_scope_complete": false
+  },
+  "selected_cohort": {
+    "pairs": 9,
+    "source_accounts": 18,
+    "unique_original_comments": 2531,
+    "unique_retained_words": 228387,
+    "stratum_pair_counts": {
+      "stratum-05": 2,
+      "stratum-03": 3,
+      "stratum-01": 2,
+      "stratum-04": 2
+    },
+    "prior_preparation_exposure": {
+      "first_eligibility_metadata_from_pilot6_supplement_accounts": 0,
+      "pilot6_supplement_metadata_accounts": 0,
+      "previously_scored_or_protected_accounts": 0,
+      "prior_capacity_only_exposure_flag_accounts": 0,
+      "prior_metadata_without_known_preparation_accounts": 16,
+      "prior_pilot3_preparation_and_audit_accounts": 1,
+      "prior_pilot4_preparation_and_audit_accounts": 1,
+      "prior_preparation_in_either_study_accounts": 2
+    }
+  },
+  "unavailable_provisional_pairs": 11,
+  "unavailable_reason_counts_nonexclusive": {
+    "five_sample_record_ratio_above_5_over_4": 5,
+    "four_late_median_span_above_30_days": 3,
+    "unavailable_sample:late_BY": 2,
+    "unavailable_sample:late_AX": 2,
+    "unavailable_sample:late_AY": 1,
+    "unavailable_sample:late_BX": 2
+  },
+  "interpretation": [
+    "Pilot5 is accepted as completed and is excluded from new replication counts.",
+    "The fixed source/audit rules produced a one-pair shortfall; no extra pairs, directions or cuts were added after outcomes.",
+    "Two selected accounts had earlier unscored source-preparation/audit exposure; sixteen appeared only in prior eligibility metadata.",
+    "The selected cohort spans academic, math, Linux and programming community pairs; the provisional Physics pairs did not pass the final gates.",
+    "The supplement repaired an intake-coverage gap; none of its newly preprocessed accounts entered the final cohort.",
+    "Known protected/scored accounts are excluded, but seventeen unavailable historical records and unobserved reuse relationships remain unknown."
+  ],
+  "input_sha256": {
+    "inventory/content-audit-01.json": "7476dafb01dc476f9e9e97f39e5892434f737153c2c9dbfdece16009a22ec396",
+    "inventory/prepared-01/pair-availability.json": "9115c2da881d76f7f259b227113fa7b19f999b12134a600dc6d5192b251dd460",
+    "inventory/prior-preparation-exposure.json": "205e3fb77787e2ee2f139725a9d8853fd0939c7a53fefd0a06f2fdc08f2478f6",
+    "inventory/metadata-02/feasibility-summary.json": "ebf6e148fe5c83dd0e3dd2bb47d5b69fad024fa4f9b0addd1e0df6fca5d119b8"
+  },
+  "reporting_only": true,
+  "analyzer_calls": 0
+}

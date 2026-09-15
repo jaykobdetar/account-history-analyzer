@@ -1,0 +1,11 @@
+# Public export and preservation
+
+This is a separate Pilot 6 publication. It does not rewrite Pilot 5, earlier study records, or the AHAS 1.0.4 engine. Repository-level publication receipts are kept in [provenance/pilot6-publication](../../provenance/pilot6-publication/README.md), outside this study's export, so the final privacy scan can bind every file in the study without changing its own scan input afterward.
+
+`PUBLIC_EXPORT_MANIFEST.json` maps each original local study file to its published bytes. Python source remains byte-identical. Non-code files replace recorded host-directory prefixes with explicit placeholders. Original hashes remain in the registrations; published hashes identify the sanitized copies. The manifest excludes itself. Executable code can retain its original host-layout constants; protected source identities, text and private file inventories are not published.
+
+`results/cases.json` and `results/summary.json` contain no source prose or identities and remain byte-identical to the independently checked global outputs. The readable report retains all four conditions for each selected pair, every primary candidate interval/error, execution and replay status, temporal/grid resolution, operating costs, and all provisional-pair decisions. The generic report renders a null stop reason as “unavailable”; the exact null means that no global early stop occurred. All 36 mains and 36 replays completed.
+
+The final checks compare the export against its complete source/hash manifest, compare existing repository files against the pre-publication Git commit, check local document targets, and apply both inherited publication scanners to the fixed source pool. These scans cover known identity tokens and 15/16-token source sequences; they are bounded mechanical checks, not a guarantee against indirect identification or every shorter/paraphrased fragment.
+
+Raw archives, eligibility metadata, source maps, original lines, protected histories, prepared inputs and full native artifacts remain private. The [reproduction guide](REPRODUCTION.md) states the required private bundle and frozen runtime. Pilot 5's original inputs, registrations, results and receipts are preserved under the [final preservation check](environment/preservation-final-01.json).

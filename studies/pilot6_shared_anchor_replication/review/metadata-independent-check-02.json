@@ -1,0 +1,9 @@
+{
+  "checker_sha256": "2729b042de859f678d1e282f8ef5f75bce4cf81414a6d4f4c08dbd88c522194c",
+  "error_type": "ModuleNotFoundError",
+  "plan_sha256": "28bd40ea6e456823aafd609020efb44d69971f128420dcac1affec31d76408b2",
+  "preprocessor_calls": 0,
+  "status": "failed",
+  "style_calls": 0,
+  "wall_seconds": 0.41818648399203084
+}

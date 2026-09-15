@@ -1,6 +1,6 @@
 # Evaluation studies
 
-AHAS has five preserved local studies. They answer different questions and retain their original protocols, outcomes, failures and limitations. The current analyzer is frozen at **1.0.4**; Pilot 1 used 1.0.3. Real-world authorship or takeover validity is **not established**, and the protected confirmation reserve remains unscored.
+AHAS has six preserved local studies. They answer different questions and retain their original protocols, outcomes, failures and limitations. The current analyzer is frozen at **1.0.4**; Pilot 1 used 1.0.3. Real-world authorship or takeover validity is **not established**, and the protected confirmation reserve remains unscored.
 
 | Study | What was completed | Result and scope | Read the evidence |
 | --- | --- | --- | --- |
@@ -9,8 +9,9 @@ AHAS has five preserved local studies. They answer different questions and retai
 | **Pilot 3 — cross-community writing comparisons** | Sixty previously unscored accounts, three community pairs, 30 blocks and all 5,760 planned comparison rows; registered replay and independent checks passed. | Full-sample primary cross-community ordering was 92.5%, 72.5% and 72.5% across the three strata. Half-record omission arms had no complete primary blocks. This evaluates comparison components, not chronological detection. | [Study overview](pilot3_cross_context/README.md) · [Outcome review](pilot3_cross_context/review/REVIEW.md) |
 | **Pilot 4 — strict chronological controls** | Fixed date/volume feasibility, source preparation and contamination audit completed. | Zero account blocks passed the final construction rules, so no corpus chronological analyses ran. Candidate occurrence, localization, window resolution and abstention are unmeasured. | [Study overview](pilot4_chronological_controls/README.md) · [Outcome report](pilot4_chronological_controls/review/OUTCOME_REPORT.md) |
 | **Pilot 5 — shared-anchor chronological diagnostic** | Five samples formed four full-pipeline histories; all four analyses and four replays completed. | Both continuity histories had zero primary candidates. Both constructed switches had one candidate, four and five records from the junction, within the fixed ten-record tolerance. One shared-anchor exploratory unit; no population-accuracy claim. | [Study overview](pilot5_shared_anchor/README.md) · [Outcome report](pilot5_shared_anchor/review/OUTCOME_REPORT.md) |
+| **Pilot 6 — bounded shared-anchor replication** | Nine new account-disjoint pairs; all 36 full-pipeline main analyses and 36 replays completed and independently verified. | No candidates in either continuity condition. Switch candidates occurred in 6/9 same-community histories and 5/9 changed-community histories; 6 and 4 localized within ten records. One-pair target shortfall and all eleven unavailable provisional pairs retained. | [Study overview](pilot6_shared_anchor_replication/README.md) · [Outcome report](pilot6_shared_anchor_replication/results/REPORT.md) |
 
-For the latest executed chronological example, start with **Pilot 5**. For the larger cross-community comparison study, start with **Pilot 3**. Pilot 4's feasibility stop remains a separate result; Pilot 5 does not replace it or retroactively satisfy its stricter design.
+For the bounded chronological replication, start with **Pilot 6**. Pilot 5 remains the completed exploratory example. For the larger cross-community comparison study, start with **Pilot 3**. Pilot 4's feasibility stop remains a separate result; Pilot 5 does not replace it or retroactively satisfy its stricter design.
 
 ## How to read these records
 

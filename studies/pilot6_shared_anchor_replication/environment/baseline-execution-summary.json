@@ -1,0 +1,22 @@
+{
+  "analyzer_calls": 0,
+  "child_peak_rss_mib": 84.1484375,
+  "exit_code": 0,
+  "finished_utc": "2026-09-15T06:46:54.741135+00:00",
+  "original_command_and_paths_retained_privately": true,
+  "outputs": {
+    "stderr.log": {
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    "stdout.log": {
+      "bytes": 535,
+      "sha256": "3ca0316860cf8cb8a21760e21c95120b8bdfd494259eed0adc97e78874c3eb7d"
+    }
+  },
+  "preprocessor_calls": 0,
+  "private_original_receipt_sha256": "37ae9d95a413b9d04b3d445a4199c98a2cc6661953744c2cf892249508d28c07",
+  "runner_sha256": "4d94adb7a06ec38cc6f5b4fe55f801e87bbdcff712139146d53f55a2928eb2a4",
+  "started_utc": "2026-09-15T06:46:46.357840+00:00",
+  "wall_seconds": 8.383295968000311
+}

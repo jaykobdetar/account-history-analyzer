@@ -1,0 +1,23 @@
+{
+  "alternative_pairs_cuts_directions_examined": 0,
+  "buffer_cells_verified": 100,
+  "buffer_original_records_verified": 8867,
+  "buffer_plan_sha256": "ac3ce041f7cd1288068d79e07e50f81f110413dadcbe5c80c9aeb7dcd52e80c0",
+  "buffer_receipt_sha256": "99de4972302b6fccbd35119e085682ef2ab4dab0c56fc3d4a868f222efa8fcc7",
+  "buffer_retained_words_verified": 775414,
+  "buffer_selection_sha256": "8328d2b61f7849320b0dcb94d4123ad2814341fd2389c82c9f8786ebde48476d",
+  "checker_sha256": "67d34fd4e01a56b2aeb2c4205397bd72944a55b46733da961127ebdaf88e2056",
+  "independent_oracle_sha256": "b83198971454e26f91bf7c4e20a2787cf6d1ad994da45d4be11a12bbcd97d0b5",
+  "metadata_bytes_checked": 506577133,
+  "metadata_rows_checked": 1903547,
+  "new_preprocessing_calls": 0,
+  "new_style_calls": 0,
+  "original_source_identifiers_published": false,
+  "peak_rss_mib": 172.4453125,
+  "provisional_pairs_verified": 20,
+  "recorded_utc": "2026-09-15T07:15:55.713765+00:00",
+  "source_prose_emitted": false,
+  "source_text_compared_automatically": true,
+  "status": "passed",
+  "wall_seconds": 9.29874839799595
+}

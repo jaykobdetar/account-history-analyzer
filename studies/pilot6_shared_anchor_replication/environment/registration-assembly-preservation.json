@@ -1,0 +1,6 @@
+{
+  "private_helper_sha256": "9f7a7e95964205105de4702799a5d5e84a4139750227f77fcf001c876fa332e1",
+  "bytes": 6991,
+  "purpose": "Local JSON assembly helper last used for buffer, audit and finalization registrations. Later stage bindings contain the executed scientific preparation code and exact inputs. Earlier metadata-registration edits are recorded separately; this is not claimed as the byte-original assembler for every earlier stage.",
+  "analyzer_calls": 0
+}

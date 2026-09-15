@@ -1,0 +1,6 @@
+data/
+inputs/
+private/
+outputs/
+prepared/
+__pycache__/

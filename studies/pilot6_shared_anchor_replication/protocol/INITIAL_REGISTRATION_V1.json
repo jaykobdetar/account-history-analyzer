@@ -1,0 +1,14 @@
+{
+  "phase": "before_new_direction_enumeration_or_scoring",
+  "registered_utc": "2026-09-15T06:51:10.494578+00:00",
+  "protocol_sha256": "b83901711265de9261d1902f0870f550be4db98ed4cecdde742aabb67d9c48b1",
+  "audit_rules_sha256": "9aaeaf5b68caea28dfd5063661949e1a59faa3aafcbf02dfc9b12526a600c5a9",
+  "target_new_pairs": 10,
+  "provisional_pool_pair_ceiling": 20,
+  "tolerance_records": 10,
+  "pilot5_accepted_completed": true,
+  "pilot5_counted_as_replication": false,
+  "preservation_baseline_sha256": "359f11d3d10c909e30ee698676298a41f7e1f4e95a8a625180e731909d27b574",
+  "historical_extension_private_plan_sha256": "d5be77bb0446317cda3b481c3c154300e74f1ba67ccab3c4433274a9903d6671",
+  "scientific_rules_may_adapt_to_scores": false
+}

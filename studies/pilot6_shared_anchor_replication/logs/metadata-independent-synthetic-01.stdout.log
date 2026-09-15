@@ -1,0 +1,130 @@
+....FFFFF..FFF                                                           [100%]
+=================================== FAILURES ===================================
+_ test_flag_values_must_be_literal_boolean[pilot1_or_pilot2_or_private_mandatory_exclusion] _
+
+field = 'pilot1_or_pilot2_or_private_mandatory_exclusion'
+
+    @pytest.mark.parametrize('field',['pilot1_or_pilot2_or_private_mandatory_exclusion','pilot3_selected_scored_exposure','prior_capacity_only_exposure'])
+    def test_flag_values_must_be_literal_boolean(field):
+        f=flags();f['accounts'][0][field]=int(f['accounts'][0][field])
+>       with pytest.raises(ValueError):m.flags_excluded(f,selection())
+E       Failed: DID NOT RAISE <class 'ValueError'>
+
+studies/pilot6_shared_anchor_replication/tests/test_metadata_replication_independent.py:118: Failed
+__ test_flag_values_must_be_literal_boolean[pilot3_selected_scored_exposure] ___
+
+field = 'pilot3_selected_scored_exposure'
+
+    @pytest.mark.parametrize('field',['pilot1_or_pilot2_or_private_mandatory_exclusion','pilot3_selected_scored_exposure','prior_capacity_only_exposure'])
+    def test_flag_values_must_be_literal_boolean(field):
+        f=flags();f['accounts'][0][field]=int(f['accounts'][0][field])
+>       with pytest.raises(ValueError):m.flags_excluded(f,selection())
+E       Failed: DID NOT RAISE <class 'ValueError'>
+
+studies/pilot6_shared_anchor_replication/tests/test_metadata_replication_independent.py:118: Failed
+____ test_flag_values_must_be_literal_boolean[prior_capacity_only_exposure] ____
+
+field = 'prior_capacity_only_exposure'
+
+    @pytest.mark.parametrize('field',['pilot1_or_pilot2_or_private_mandatory_exclusion','pilot3_selected_scored_exposure','prior_capacity_only_exposure'])
+    def test_flag_values_must_be_literal_boolean(field):
+        f=flags();f['accounts'][0][field]=int(f['accounts'][0][field])
+>       with pytest.raises(ValueError):m.flags_excluded(f,selection())
+E       Failed: DID NOT RAISE <class 'ValueError'>
+
+studies/pilot6_shared_anchor_replication/tests/test_metadata_replication_independent.py:118: Failed
+______ test_pilot5_excluded_accounts_must_be_nonempty_canonical[PILOT5-A] ______
+
+value = 'PILOT5-A'
+
+    @pytest.mark.parametrize('value',['PILOT5-A',''])
+    def test_pilot5_excluded_accounts_must_be_nonempty_canonical(value):
+        s=selection();s['selected']['account_a']=value
+>       with pytest.raises(ValueError):m.flags_excluded(flags(),s)
+E       Failed: DID NOT RAISE <class 'ValueError'>
+
+studies/pilot6_shared_anchor_replication/tests/test_metadata_replication_independent.py:124: Failed
+__________ test_pilot5_excluded_accounts_must_be_nonempty_canonical[] __________
+
+value = ''
+
+    @pytest.mark.parametrize('value',['PILOT5-A',''])
+    def test_pilot5_excluded_accounts_must_be_nonempty_canonical(value):
+        s=selection();s['selected']['account_a']=value
+>       with pytest.raises(ValueError):m.flags_excluded(flags(),s)
+E       Failed: DID NOT RAISE <class 'ValueError'>
+
+studies/pilot6_shared_anchor_replication/tests/test_metadata_replication_independent.py:124: Failed
+____________ test_source_metadata_declared_hash_must_match_binding _____________
+
+tmp_path = PosixPath('/tmp/pytest-of-jaykob/pytest-174/test_source_metadata_declared_0')
+monkeypatch = <_pytest.monkeypatch.MonkeyPatch object at 0x7a77c3d4aa20>
+
+    def test_source_metadata_declared_hash_must_match_binding(tmp_path,monkeypatch):
+        plan,source,_,calls=registered_fixture(tmp_path,monkeypatch)
+        document=json.loads(plan.read_bytes());document['source_metadata'][0]['sha256']='0'*64;put(plan,document)
+>       with pytest.raises(ValueError):m.run(plan,tmp_path/'public',tmp_path/'private')
+E       Failed: DID NOT RAISE <class 'ValueError'>
+
+studies/pilot6_shared_anchor_replication/tests/test_metadata_replication_independent.py:159: Failed
+----------------------------- Captured stdout call -----------------------------
+{"completed_stratum": "stratum-01", "cuts": 101, "valid_unordered_edges_so_far": 1, "style_calls": 0}
+{"completed_stratum": "stratum-02", "cuts": 101, "valid_unordered_edges_so_far": 2, "style_calls": 0}
+{"completed_stratum": "stratum-03", "cuts": 101, "valid_unordered_edges_so_far": 3, "style_calls": 0}
+{"completed_stratum": "stratum-04", "cuts": 101, "valid_unordered_edges_so_far": 3, "style_calls": 0}
+{"completed_stratum": "stratum-05", "cuts": 101, "valid_unordered_edges_so_far": 3, "style_calls": 0}
+{"status": "completed_score_free_metadata", "provisional_pairs": 2, "global_maximum_matching_pairs": 2, "wall_seconds": 0.017998129012994468}
+_ test_noncanonical_input_metadata_refused_before_direction_enumeration[mutation0] _
+
+tmp_path = PosixPath('/tmp/pytest-of-jaykob/pytest-174/test_noncanonical_input_metada0')
+monkeypatch = <_pytest.monkeypatch.MonkeyPatch object at 0x7a77c3d488f0>
+mutation = {'account_key': 'Excluded-000'}
+
+    @pytest.mark.parametrize('mutation',[{'account_key':'Excluded-000'},{'retained_words':125.0}])
+    def test_noncanonical_input_metadata_refused_before_direction_enumeration(tmp_path,monkeypatch,mutation):
+        extra={'record_id':'bad-metadata','account_key':'new','community':'AskAcademia','reason':None,
+               'retained_words':125,'created_utc':'2017-01-01T01:00:00Z',**mutation}
+        plan,source,_,calls=registered_fixture(tmp_path,monkeypatch,[extra])
+>       with pytest.raises(ValueError):m.run(plan,tmp_path/'public',tmp_path/'private')
+E       Failed: DID NOT RAISE <class 'ValueError'>
+
+studies/pilot6_shared_anchor_replication/tests/test_metadata_replication_independent.py:168: Failed
+----------------------------- Captured stdout call -----------------------------
+{"completed_stratum": "stratum-01", "cuts": 101, "valid_unordered_edges_so_far": 1, "style_calls": 0}
+{"completed_stratum": "stratum-02", "cuts": 101, "valid_unordered_edges_so_far": 2, "style_calls": 0}
+{"completed_stratum": "stratum-03", "cuts": 101, "valid_unordered_edges_so_far": 3, "style_calls": 0}
+{"completed_stratum": "stratum-04", "cuts": 101, "valid_unordered_edges_so_far": 3, "style_calls": 0}
+{"completed_stratum": "stratum-05", "cuts": 101, "valid_unordered_edges_so_far": 3, "style_calls": 0}
+{"status": "completed_score_free_metadata", "provisional_pairs": 2, "global_maximum_matching_pairs": 2, "wall_seconds": 0.018215785006759688}
+_ test_noncanonical_input_metadata_refused_before_direction_enumeration[mutation1] _
+
+tmp_path = PosixPath('/tmp/pytest-of-jaykob/pytest-174/test_noncanonical_input_metada1')
+monkeypatch = <_pytest.monkeypatch.MonkeyPatch object at 0x7a77c3d493d0>
+mutation = {'retained_words': 125.0}
+
+    @pytest.mark.parametrize('mutation',[{'account_key':'Excluded-000'},{'retained_words':125.0}])
+    def test_noncanonical_input_metadata_refused_before_direction_enumeration(tmp_path,monkeypatch,mutation):
+        extra={'record_id':'bad-metadata','account_key':'new','community':'AskAcademia','reason':None,
+               'retained_words':125,'created_utc':'2017-01-01T01:00:00Z',**mutation}
+        plan,source,_,calls=registered_fixture(tmp_path,monkeypatch,[extra])
+>       with pytest.raises(ValueError):m.run(plan,tmp_path/'public',tmp_path/'private')
+E       Failed: DID NOT RAISE <class 'ValueError'>
+
+studies/pilot6_shared_anchor_replication/tests/test_metadata_replication_independent.py:168: Failed
+----------------------------- Captured stdout call -----------------------------
+{"completed_stratum": "stratum-01", "cuts": 101, "valid_unordered_edges_so_far": 1, "style_calls": 0}
+{"completed_stratum": "stratum-02", "cuts": 101, "valid_unordered_edges_so_far": 2, "style_calls": 0}
+{"completed_stratum": "stratum-03", "cuts": 101, "valid_unordered_edges_so_far": 3, "style_calls": 0}
+{"completed_stratum": "stratum-04", "cuts": 101, "valid_unordered_edges_so_far": 3, "style_calls": 0}
+{"completed_stratum": "stratum-05", "cuts": 101, "valid_unordered_edges_so_far": 3, "style_calls": 0}
+{"status": "completed_score_free_metadata", "provisional_pairs": 2, "global_maximum_matching_pairs": 2, "wall_seconds": 0.0181631860032212}
+=========================== short test summary info ============================
+FAILED studies/pilot6_shared_anchor_replication/tests/test_metadata_replication_independent.py::test_flag_values_must_be_literal_boolean[pilot1_or_pilot2_or_private_mandatory_exclusion]
+FAILED studies/pilot6_shared_anchor_replication/tests/test_metadata_replication_independent.py::test_flag_values_must_be_literal_boolean[pilot3_selected_scored_exposure]
+FAILED studies/pilot6_shared_anchor_replication/tests/test_metadata_replication_independent.py::test_flag_values_must_be_literal_boolean[prior_capacity_only_exposure]
+FAILED studies/pilot6_shared_anchor_replication/tests/test_metadata_replication_independent.py::test_pilot5_excluded_accounts_must_be_nonempty_canonical[PILOT5-A]
+FAILED studies/pilot6_shared_anchor_replication/tests/test_metadata_replication_independent.py::test_pilot5_excluded_accounts_must_be_nonempty_canonical[]
+FAILED studies/pilot6_shared_anchor_replication/tests/test_metadata_replication_independent.py::test_source_metadata_declared_hash_must_match_binding
+FAILED studies/pilot6_shared_anchor_replication/tests/test_metadata_replication_independent.py::test_noncanonical_input_metadata_refused_before_direction_enumeration[mutation0]
+FAILED studies/pilot6_shared_anchor_replication/tests/test_metadata_replication_independent.py::test_noncanonical_input_metadata_refused_before_direction_enumeration[mutation1]
+8 failed, 6 passed in 0.26s

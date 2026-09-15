@@ -1,0 +1,15 @@
+Traceback (most recent call last):
+  File "<WORKSPACE>/studies/pilot6_shared_anchor_replication/scripts/check_metadata_replication.py", line 373, in <module>
+    main()
+  File "<WORKSPACE>/studies/pilot6_shared_anchor_replication/scripts/check_metadata_replication.py", line 352, in main
+    result = verify(args.plan, args.public, args.private, check=check)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "<WORKSPACE>/studies/pilot6_shared_anchor_replication/scripts/check_metadata_replication.py", line 233, in verify
+    matcher = matching_factory(plan['matching_backend'], check)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "<WORKSPACE>/studies/pilot6_shared_anchor_replication/scripts/check_metadata_replication.py", line 203, in registered_matcher
+    return verify_matching_backend(config, check)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "<WORKSPACE>/studies/pilot4_chronological_controls/scripts/metadata_feasibility_v2.py", line 159, in verify_matching_backend
+    import networkx as nx
+ModuleNotFoundError: No module named 'networkx'

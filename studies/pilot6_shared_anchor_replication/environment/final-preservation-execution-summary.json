@@ -1,0 +1,79 @@
+{
+  "child_peak_rss_mib": 84.23828125,
+  "difference_counts": {},
+  "finished_utc": "2026-09-15T07:48:40.942299+00:00",
+  "frozen_engine_check_count": 27,
+  "frozen_engine_checks_passed": true,
+  "hash_budget_use": {
+    "bytes_hashed": 3924149717,
+    "files_hashed": 17529
+  },
+  "hashes": {
+    "final_private_preservation_manifest_sha256": "474046b19b3e9800a1067300220583d8fd057c42d742ce2fb1e4e6eacf9ce3e4",
+    "logger_sha256": "4d94adb7a06ec38cc6f5b4fe55f801e87bbdcff712139146d53f55a2928eb2a4",
+    "offline_wrapper_sha256": "88bf4f2a8ff3afe29355e6b52638c03badb4c977b4ae8ec60f0f126d3252ffef",
+    "original_private_baseline_sha256": "474046b19b3e9800a1067300220583d8fd057c42d742ce2fb1e4e6eacf9ce3e4",
+    "pipeline_execution_receipt_sha256": "9ff12de1287f9f1738767a3e5072bc54fd9d21145770b38ff739318e5fe5fb12",
+    "preservation_checker_sha256": "3060fba201f9b14f1f88cd2adb543d7e69ba33673242b1cc862bfc79ca4937a3",
+    "private_preservation_execution_receipt_sha256": "52247ea3eb07e66a000911addebc56f13bf6bcded8996db65042e6f2291cb390",
+    "public_baseline_sha256": "359f11d3d10c909e30ee698676298a41f7e1f4e95a8a625180e731909d27b574",
+    "public_preservation_result_sha256": "caf4d20ac7f78a3adc36cbbe59dff520d9ab57f65431f3765aa2e8b4f0b069c8"
+  },
+  "new_analyzer_calls": 0,
+  "new_preprocessor_calls": 0,
+  "original_prose_or_identifiers_published": false,
+  "phase": "after_complete_replication_pipeline",
+  "pipeline_execution_exit_code": 0,
+  "post_check_scope": "Only new Pilot6 reporting and publication artifacts may be added afterward; the verified prior studies, protected originals, and frozen analyzer remain unchanged.",
+  "preservation_exit_code": 0,
+  "preservation_internal_wall_seconds": 9.433931288018357,
+  "private_arguments_or_paths_published": false,
+  "private_command_output_hashes": {
+    "stderr.log": {
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    "stdout.log": {
+      "bytes": 536,
+      "sha256": "f02988831de86798fc64e6b73b4f5504bd1541bc0106386929c88dd315d52a6a"
+    }
+  },
+  "protected_source_aggregates": {
+    "bindings_already_in_private_trees": 1,
+    "declared_historical_source_files": 23,
+    "external_bytes": 44757980,
+    "external_files": 49
+  },
+  "schema_version": "pilot6-final-preservation-execution-summary-v1",
+  "started_utc": "2026-09-15T07:48:31.445820+00:00",
+  "status": "passed",
+  "unchanged_prior_private_study_aggregates": {
+    "pilot3": {
+      "bytes": 1229262628,
+      "files": 16365
+    },
+    "pilot4": {
+      "bytes": 2086134946,
+      "files": 32
+    },
+    "pilot5": {
+      "bytes": 547285384,
+      "files": 217
+    }
+  },
+  "unchanged_prior_public_studies": {
+    "pilot3": {
+      "bytes": 14775704,
+      "files": 460
+    },
+    "pilot4": {
+      "bytes": 1498632,
+      "files": 301
+    },
+    "pilot5": {
+      "bytes": 434443,
+      "files": 105
+    }
+  },
+  "wall_seconds": 9.49648360098945
+}

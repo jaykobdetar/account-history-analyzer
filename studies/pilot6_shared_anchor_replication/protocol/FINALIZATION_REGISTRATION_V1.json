@@ -1,0 +1,7 @@
+{
+  "phase": "frozen_before_replication_final_cohort",
+  "registered_utc": "2026-09-15T07:19:33.859817+00:00",
+  "private_plan_sha256": "32d99ebd01707e4d9e82e7fbee14680e62a785e2e23a47d46e778a056068cb8c",
+  "script_sha256": "e120189feb88597db0bc882d4191ea720de14003854bcdbd4491b3fe4d646a77",
+  "bound_artifacts": 16
+}

@@ -1,0 +1,450 @@
+{
+  "aggregate_cases_sha256": "224fbef23cabdbed9b836cd3134515343ca05c5ea05b1eb95f60559d914a6f3c",
+  "aggregate_summary_sha256": "3ecfe89d9c7f0261f1d8516e6c165ed42da5290b2eda4cfb500d5a1a4ce0ef8c",
+  "analyzer_calls": 0,
+  "cases": [
+    {
+      "all_candidate_errors_records": [],
+      "best_grid_error_records": 2,
+      "candidate_count": 0,
+      "condition": "continuity_same_community",
+      "executed": true,
+      "pair_id": "pilot6-pair-02",
+      "qualified_windows": 8
+    },
+    {
+      "all_candidate_errors_records": [
+        2
+      ],
+      "best_grid_error_records": 2,
+      "candidate_count": 1,
+      "condition": "switch_same_community",
+      "executed": true,
+      "pair_id": "pilot6-pair-02",
+      "qualified_windows": 8
+    },
+    {
+      "all_candidate_errors_records": [],
+      "best_grid_error_records": 2,
+      "candidate_count": 0,
+      "condition": "continuity_changed_community",
+      "executed": true,
+      "pair_id": "pilot6-pair-02",
+      "qualified_windows": 8
+    },
+    {
+      "all_candidate_errors_records": [],
+      "best_grid_error_records": 2,
+      "candidate_count": 0,
+      "condition": "switch_changed_community",
+      "executed": true,
+      "pair_id": "pilot6-pair-02",
+      "qualified_windows": 8
+    },
+    {
+      "all_candidate_errors_records": [],
+      "best_grid_error_records": 2,
+      "candidate_count": 0,
+      "condition": "continuity_same_community",
+      "executed": true,
+      "pair_id": "pilot6-pair-04",
+      "qualified_windows": 9
+    },
+    {
+      "all_candidate_errors_records": [],
+      "best_grid_error_records": 3,
+      "candidate_count": 0,
+      "condition": "switch_same_community",
+      "executed": true,
+      "pair_id": "pilot6-pair-04",
+      "qualified_windows": 9
+    },
+    {
+      "all_candidate_errors_records": [],
+      "best_grid_error_records": 2,
+      "candidate_count": 0,
+      "condition": "continuity_changed_community",
+      "executed": true,
+      "pair_id": "pilot6-pair-04",
+      "qualified_windows": 9
+    },
+    {
+      "all_candidate_errors_records": [],
+      "best_grid_error_records": 3,
+      "candidate_count": 0,
+      "condition": "switch_changed_community",
+      "executed": true,
+      "pair_id": "pilot6-pair-04",
+      "qualified_windows": 9
+    },
+    {
+      "all_candidate_errors_records": [],
+      "best_grid_error_records": 1,
+      "candidate_count": 0,
+      "condition": "continuity_same_community",
+      "executed": true,
+      "pair_id": "pilot6-pair-10",
+      "qualified_windows": 9
+    },
+    {
+      "all_candidate_errors_records": [
+        1
+      ],
+      "best_grid_error_records": 1,
+      "candidate_count": 1,
+      "condition": "switch_same_community",
+      "executed": true,
+      "pair_id": "pilot6-pair-10",
+      "qualified_windows": 9
+    },
+    {
+      "all_candidate_errors_records": [],
+      "best_grid_error_records": 1,
+      "candidate_count": 0,
+      "condition": "continuity_changed_community",
+      "executed": true,
+      "pair_id": "pilot6-pair-10",
+      "qualified_windows": 9
+    },
+    {
+      "all_candidate_errors_records": [
+        11
+      ],
+      "best_grid_error_records": 1,
+      "candidate_count": 1,
+      "condition": "switch_changed_community",
+      "executed": true,
+      "pair_id": "pilot6-pair-10",
+      "qualified_windows": 9
+    },
+    {
+      "all_candidate_errors_records": [],
+      "best_grid_error_records": 5,
+      "candidate_count": 0,
+      "condition": "continuity_same_community",
+      "executed": true,
+      "pair_id": "pilot6-pair-14",
+      "qualified_windows": 8
+    },
+    {
+      "all_candidate_errors_records": [
+        5
+      ],
+      "best_grid_error_records": 5,
+      "candidate_count": 1,
+      "condition": "switch_same_community",
+      "executed": true,
+      "pair_id": "pilot6-pair-14",
+      "qualified_windows": 9
+    },
+    {
+      "all_candidate_errors_records": [],
+      "best_grid_error_records": 5,
+      "candidate_count": 0,
+      "condition": "continuity_changed_community",
+      "executed": true,
+      "pair_id": "pilot6-pair-14",
+      "qualified_windows": 9
+    },
+    {
+      "all_candidate_errors_records": [
+        5
+      ],
+      "best_grid_error_records": 5,
+      "candidate_count": 1,
+      "condition": "switch_changed_community",
+      "executed": true,
+      "pair_id": "pilot6-pair-14",
+      "qualified_windows": 9
+    },
+    {
+      "all_candidate_errors_records": [],
+      "best_grid_error_records": 4,
+      "candidate_count": 0,
+      "condition": "continuity_same_community",
+      "executed": true,
+      "pair_id": "pilot6-pair-12",
+      "qualified_windows": 9
+    },
+    {
+      "all_candidate_errors_records": [
+        7
+      ],
+      "best_grid_error_records": 7,
+      "candidate_count": 1,
+      "condition": "switch_same_community",
+      "executed": true,
+      "pair_id": "pilot6-pair-12",
+      "qualified_windows": 9
+    },
+    {
+      "all_candidate_errors_records": [],
+      "best_grid_error_records": 4,
+      "candidate_count": 0,
+      "condition": "continuity_changed_community",
+      "executed": true,
+      "pair_id": "pilot6-pair-12",
+      "qualified_windows": 8
+    },
+    {
+      "all_candidate_errors_records": [
+        8
+      ],
+      "best_grid_error_records": 8,
+      "candidate_count": 1,
+      "condition": "switch_changed_community",
+      "executed": true,
+      "pair_id": "pilot6-pair-12",
+      "qualified_windows": 9
+    },
+    {
+      "all_candidate_errors_records": [],
+      "best_grid_error_records": 3,
+      "candidate_count": 0,
+      "condition": "continuity_same_community",
+      "executed": true,
+      "pair_id": "pilot6-pair-05",
+      "qualified_windows": 9
+    },
+    {
+      "all_candidate_errors_records": [
+        3
+      ],
+      "best_grid_error_records": 3,
+      "candidate_count": 1,
+      "condition": "switch_same_community",
+      "executed": true,
+      "pair_id": "pilot6-pair-05",
+      "qualified_windows": 9
+    },
+    {
+      "all_candidate_errors_records": [],
+      "best_grid_error_records": 2,
+      "candidate_count": 0,
+      "condition": "continuity_changed_community",
+      "executed": true,
+      "pair_id": "pilot6-pair-05",
+      "qualified_windows": 9
+    },
+    {
+      "all_candidate_errors_records": [
+        3
+      ],
+      "best_grid_error_records": 3,
+      "candidate_count": 1,
+      "condition": "switch_changed_community",
+      "executed": true,
+      "pair_id": "pilot6-pair-05",
+      "qualified_windows": 9
+    },
+    {
+      "all_candidate_errors_records": [],
+      "best_grid_error_records": 4,
+      "candidate_count": 0,
+      "condition": "continuity_same_community",
+      "executed": true,
+      "pair_id": "pilot6-pair-17",
+      "qualified_windows": 9
+    },
+    {
+      "all_candidate_errors_records": [],
+      "best_grid_error_records": 2,
+      "candidate_count": 0,
+      "condition": "switch_same_community",
+      "executed": true,
+      "pair_id": "pilot6-pair-17",
+      "qualified_windows": 9
+    },
+    {
+      "all_candidate_errors_records": [],
+      "best_grid_error_records": 1,
+      "candidate_count": 0,
+      "condition": "continuity_changed_community",
+      "executed": true,
+      "pair_id": "pilot6-pair-17",
+      "qualified_windows": 9
+    },
+    {
+      "all_candidate_errors_records": [
+        1
+      ],
+      "best_grid_error_records": 1,
+      "candidate_count": 1,
+      "condition": "switch_changed_community",
+      "executed": true,
+      "pair_id": "pilot6-pair-17",
+      "qualified_windows": 9
+    },
+    {
+      "all_candidate_errors_records": [],
+      "best_grid_error_records": 3,
+      "candidate_count": 0,
+      "condition": "continuity_same_community",
+      "executed": true,
+      "pair_id": "pilot6-pair-18",
+      "qualified_windows": 9
+    },
+    {
+      "all_candidate_errors_records": [
+        5
+      ],
+      "best_grid_error_records": 3,
+      "candidate_count": 1,
+      "condition": "switch_same_community",
+      "executed": true,
+      "pair_id": "pilot6-pair-18",
+      "qualified_windows": 9
+    },
+    {
+      "all_candidate_errors_records": [],
+      "best_grid_error_records": 4,
+      "candidate_count": 0,
+      "condition": "continuity_changed_community",
+      "executed": true,
+      "pair_id": "pilot6-pair-18",
+      "qualified_windows": 9
+    },
+    {
+      "all_candidate_errors_records": [],
+      "best_grid_error_records": 3,
+      "candidate_count": 0,
+      "condition": "switch_changed_community",
+      "executed": true,
+      "pair_id": "pilot6-pair-18",
+      "qualified_windows": 8
+    },
+    {
+      "all_candidate_errors_records": [],
+      "best_grid_error_records": 3,
+      "candidate_count": 0,
+      "condition": "continuity_same_community",
+      "executed": true,
+      "pair_id": "pilot6-pair-13",
+      "qualified_windows": 9
+    },
+    {
+      "all_candidate_errors_records": [],
+      "best_grid_error_records": 1,
+      "candidate_count": 0,
+      "condition": "switch_same_community",
+      "executed": true,
+      "pair_id": "pilot6-pair-13",
+      "qualified_windows": 9
+    },
+    {
+      "all_candidate_errors_records": [],
+      "best_grid_error_records": 1,
+      "candidate_count": 0,
+      "condition": "continuity_changed_community",
+      "executed": true,
+      "pair_id": "pilot6-pair-13",
+      "qualified_windows": 9
+    },
+    {
+      "all_candidate_errors_records": [],
+      "best_grid_error_records": 4,
+      "candidate_count": 0,
+      "condition": "switch_changed_community",
+      "executed": true,
+      "pair_id": "pilot6-pair-13",
+      "qualified_windows": 9
+    }
+  ],
+  "checker_sha256": "f35d84efffb011dfea193b043625dbc666cfaa5b61dfc4361efec8d6b1e6e60d",
+  "counting_note": "Each source-account pair is one replication unit. Shared-anchor histories and deterministic replays are dependent observations, not additional independent replications.",
+  "execution_artifact_bytes_before_final_reports": 4755150025,
+  "final_reports_bytes": 358388,
+  "independent_sampling_units": 9,
+  "main_executed_primary_histories": 36,
+  "main_unavailable_primary_histories": 0,
+  "new_source_account_pairs": 9,
+  "operating_costs": {
+    "main_operation": {
+      "maximum_recorded_child_peak_rss_mib": 348.140625,
+      "native_artifact_bytes": 2374875947,
+      "recorded_wall_time_histories": 36,
+      "sum_case_wall_seconds": 1426.1063002369774
+    },
+    "replay_operation": {
+      "maximum_recorded_child_peak_rss_mib": 348.671875,
+      "native_artifact_bytes": 2374877315,
+      "recorded_wall_time_histories": 36,
+      "sum_case_wall_seconds": 1427.4638210969279
+    }
+  },
+  "pairs": [
+    {
+      "all_four_primary_executed": true,
+      "independent_main_arithmetic_check": "passed",
+      "pair_id": "pilot6-pair-02",
+      "replay_all_passed": true,
+      "status": "completed"
+    },
+    {
+      "all_four_primary_executed": true,
+      "independent_main_arithmetic_check": "passed",
+      "pair_id": "pilot6-pair-04",
+      "replay_all_passed": true,
+      "status": "completed"
+    },
+    {
+      "all_four_primary_executed": true,
+      "independent_main_arithmetic_check": "passed",
+      "pair_id": "pilot6-pair-10",
+      "replay_all_passed": true,
+      "status": "completed"
+    },
+    {
+      "all_four_primary_executed": true,
+      "independent_main_arithmetic_check": "passed",
+      "pair_id": "pilot6-pair-14",
+      "replay_all_passed": true,
+      "status": "completed"
+    },
+    {
+      "all_four_primary_executed": true,
+      "independent_main_arithmetic_check": "passed",
+      "pair_id": "pilot6-pair-12",
+      "replay_all_passed": true,
+      "status": "completed"
+    },
+    {
+      "all_four_primary_executed": true,
+      "independent_main_arithmetic_check": "passed",
+      "pair_id": "pilot6-pair-05",
+      "replay_all_passed": true,
+      "status": "completed"
+    },
+    {
+      "all_four_primary_executed": true,
+      "independent_main_arithmetic_check": "passed",
+      "pair_id": "pilot6-pair-17",
+      "replay_all_passed": true,
+      "status": "completed"
+    },
+    {
+      "all_four_primary_executed": true,
+      "independent_main_arithmetic_check": "passed",
+      "pair_id": "pilot6-pair-18",
+      "replay_all_passed": true,
+      "status": "completed"
+    },
+    {
+      "all_four_primary_executed": true,
+      "independent_main_arithmetic_check": "passed",
+      "pair_id": "pilot6-pair-13",
+      "replay_all_passed": true,
+      "status": "completed"
+    }
+  ],
+  "pairs_with_four_verified_replays": 9,
+  "planned_main_histories": 36,
+  "planned_replay_histories": 36,
+  "prior_independent_checker_sha256": "740d102a71acd018793a60ca9e1db23f74cc712c746c3c98a0e8f2568de3afd2",
+  "registration_sha256": "7358f1207b0eab49edc0bc0d20d238b31f36afb7b8a73bd1351656f18518a719",
+  "resource_limit_note": "Limits trigger termination; oversized evidence is preserved. Independent cost checks distinguish execution artifacts from the final aggregate reports.",
+  "scope": "Frozen bindings; all four-condition slots; unchanged independent Pilot5 native/window/grid checks; independent full temporal/null arithmetic, all interval distances, receipt costs, canonical replay hashes and aggregate denominators.",
+  "source_prose_inspected": false,
+  "status": "passed",
+  "wall_seconds": 55.2601793629874
+}

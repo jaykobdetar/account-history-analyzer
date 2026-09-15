@@ -1,0 +1,43 @@
+{
+  "argv": [
+    ".venv/bin/python",
+    "scripts/offline_exec.py",
+    ".venv/bin/python",
+    "studies/pilot6_shared_anchor_replication/scripts/check_replication_prepared.py",
+    "--buffer-plan",
+    "<PRIVATE_WORK_AREA>/pilot6_private/BUFFER_PLAN_V1.json",
+    "--buffer",
+    "<PRIVATE_WORK_AREA>/pilot6_private/buffer-01",
+    "--buffer-receipt",
+    "studies/pilot6_shared_anchor_replication/inventory/buffer-preparation-01.json",
+    "--final-plan",
+    "<PRIVATE_WORK_AREA>/pilot6_private/FINALIZATION_PLAN_V1.json",
+    "--prepared",
+    "<PRIVATE_WORK_AREA>/pilot6_private/prepared-01",
+    "--public",
+    "studies/pilot6_shared_anchor_replication/inventory/prepared-01",
+    "--audit-freeze",
+    "studies/pilot6_shared_anchor_replication/protocol/AUDIT_REGISTRATION_V1.json",
+    "--audit-public",
+    "studies/pilot6_shared_anchor_replication/inventory/content-audit-01.json",
+    "--out",
+    "studies/pilot6_shared_anchor_replication/review/prepared-independent-check-01.json"
+  ],
+  "cwd": "<WORKSPACE>",
+  "started_utc": "2026-09-15T07:20:16.497447+00:00",
+  "finished_utc": "2026-09-15T07:20:27.505053+00:00",
+  "exit_code": 0,
+  "wall_seconds": 11.007607164996443,
+  "child_peak_rss_mib": 218.078125,
+  "runner_sha256": "4d94adb7a06ec38cc6f5b4fe55f801e87bbdcff712139146d53f55a2928eb2a4",
+  "outputs": {
+    "stdout.log": {
+      "bytes": 85,
+      "sha256": "9a9cce5e3282531afd6759cb8489bb6dc2faee01a61855d2b3d4da75d7472ef9"
+    },
+    "stderr.log": {
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    }
+  }
+}

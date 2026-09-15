@@ -1,0 +1,74 @@
+{
+  "artifact_bytes_before_final_reports": 4755150025,
+  "cohort_sha256": "a0ad974e86ed9a88a9d15b895f4ee4b19c03b5cffa4817e1fb57fa3c7583c16d",
+  "condition_counts": {
+    "continuity_changed_community": 9,
+    "continuity_same_community": 9,
+    "switch_changed_community": 9,
+    "switch_same_community": 9
+  },
+  "counting_note": "Each new disjoint source-account pair is one replication unit. Four main histories share its anchor; replays add no new units. Prior Pilot5 inputs/results are excluded.",
+  "global_wall_seconds_since_first_dispatch": 1500.4088071380102,
+  "intervals_and_missingness": "Original per-case scores are retained; all interval distances use the unsnapped junction. Unavailable candidate/localization outcomes stay null, with metadata grid resolution labeled separately.",
+  "main_dispatched_histories": 36,
+  "main_executed_primary_histories": 36,
+  "main_unavailable_primary_histories": 0,
+  "pair_statuses": [
+    {
+      "pair_id": "pilot6-pair-02",
+      "replay_all_passed": true,
+      "status": "completed"
+    },
+    {
+      "pair_id": "pilot6-pair-04",
+      "replay_all_passed": true,
+      "status": "completed"
+    },
+    {
+      "pair_id": "pilot6-pair-10",
+      "replay_all_passed": true,
+      "status": "completed"
+    },
+    {
+      "pair_id": "pilot6-pair-14",
+      "replay_all_passed": true,
+      "status": "completed"
+    },
+    {
+      "pair_id": "pilot6-pair-12",
+      "replay_all_passed": true,
+      "status": "completed"
+    },
+    {
+      "pair_id": "pilot6-pair-05",
+      "replay_all_passed": true,
+      "status": "completed"
+    },
+    {
+      "pair_id": "pilot6-pair-17",
+      "replay_all_passed": true,
+      "status": "completed"
+    },
+    {
+      "pair_id": "pilot6-pair-18",
+      "replay_all_passed": true,
+      "status": "completed"
+    },
+    {
+      "pair_id": "pilot6-pair-13",
+      "replay_all_passed": true,
+      "status": "completed"
+    }
+  ],
+  "pairs_with_four_executed_primary_histories": 9,
+  "pairs_with_four_verified_replays": 9,
+  "planned_main_histories": 36,
+  "planned_replay_histories": 36,
+  "prescore_pair_shortfall": 1,
+  "registered_new_pairs": 9,
+  "registration_sha256": "7358f1207b0eab49edc0bc0d20d238b31f36afb7b8a73bd1351656f18518a719",
+  "replay_dispatched_histories": 36,
+  "stop_reason": null,
+  "study": "pilot6_shared_anchor_replication",
+  "target_new_pairs": 10
+}

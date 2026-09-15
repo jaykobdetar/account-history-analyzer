@@ -1,0 +1,24 @@
+{
+  "argv": [
+    ".venv/bin/python",
+    "-B",
+    "-"
+  ],
+  "cwd": "<WORKSPACE>",
+  "started_utc": "2026-09-15T07:51:37.408303+00:00",
+  "finished_utc": "2026-09-15T07:51:37.438040+00:00",
+  "exit_code": 0,
+  "wall_seconds": 0.029736855009105057,
+  "child_peak_rss_mib": 16.5,
+  "runner_sha256": "4d94adb7a06ec38cc6f5b4fe55f801e87bbdcff712139146d53f55a2928eb2a4",
+  "outputs": {
+    "stdout.log": {
+      "bytes": 2437,
+      "sha256": "e4adcad0a3d512482d7ea7034a7ca24720a971486e17ade5c71bc11e16e916b4"
+    },
+    "stderr.log": {
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    }
+  }
+}

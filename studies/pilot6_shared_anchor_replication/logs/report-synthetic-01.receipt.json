@@ -1,0 +1,27 @@
+{
+  "argv": [
+    ".venv/bin/python",
+    "-B",
+    "-m",
+    "pytest",
+    "-q",
+    "studies/pilot6_shared_anchor_replication/tests/test_build_replication_report.py"
+  ],
+  "cwd": "<WORKSPACE>",
+  "started_utc": "2026-09-15T07:28:21.431582+00:00",
+  "finished_utc": "2026-09-15T07:28:22.015064+00:00",
+  "exit_code": 0,
+  "wall_seconds": 0.5834881600167137,
+  "child_peak_rss_mib": 40.27734375,
+  "runner_sha256": "4d94adb7a06ec38cc6f5b4fe55f801e87bbdcff712139146d53f55a2928eb2a4",
+  "outputs": {
+    "stdout.log": {
+      "bytes": 99,
+      "sha256": "463ab729dff946035d45a5caf93b242c8a04f169983b028d6a4cae429efca324"
+    },
+    "stderr.log": {
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    }
+  }
+}

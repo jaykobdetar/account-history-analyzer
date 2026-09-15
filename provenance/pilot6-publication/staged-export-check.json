@@ -1,0 +1,12 @@
+{
+  "status": "passed",
+  "study_files_in_final_privacy_scans": 237,
+  "study_files_staged_with_identical_bytes": 237,
+  "missing_or_extra_staged_study_files": 0,
+  "includes_ignored_receipt_logs_intentionally": true,
+  "public_export_manifest_sha256": "210107cd8be5963da953b32de87a474dd27eff149fc0d01071b1afbbbe87deef",
+  "privacy_check_sha256": "7645e20c08c54cbfa656087bb2810c3ed926ef8a034476c7eac082d1c0761e57",
+  "privacy_second_check_sha256": "27088c97e80775fc29e6168ac0998f64463659813aa46b9b2615cf092c420384",
+  "analyzer_calls": 0,
+  "scope": "All final study files, including the export manifest and preserved logs, match both privacy-scan inventories and the Git index."
+}

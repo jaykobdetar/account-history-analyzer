@@ -1,0 +1,289 @@
+{
+  "counts": {
+    "first_eligibility_metadata_from_pilot6_supplement_accounts": 0,
+    "pilot6_supplement_metadata_accounts": 0,
+    "prior_capacity_only_exposure_flag_accounts": 0,
+    "prior_metadata_without_known_preparation_accounts": 35,
+    "prior_pilot3_preparation_and_audit_accounts": 3,
+    "prior_pilot4_preparation_and_audit_accounts": 2,
+    "prior_preparation_in_either_study_accounts": 5
+  },
+  "definitions": {
+    "capacity_only_exposure_flag": "The unchanged prior exposure ledger flag. It can overlap a later preparation/audit exposure and therefore is not used as the exclusive history category.",
+    "exclusions": "The independently verified distinct57 prior protected/private +60 Pilot3 scored +2 Pilot5 scored identities remain excluded. Pilot4 produced zero scoreable blocks and no analyzer runs.",
+    "first_eligibility_metadata_from_pilot6_supplement": "Appears in Pilot6 supplement metadata and no consumed prior eligibility metadata or known Pilot3/Pilot4 candidate buffer. New refers to this recorded metadata intake, not account creation or independent collection.",
+    "prior_metadata_without_known_preparation": "Appears in prior saved eligibility metadata but neither known Pilot3 nor Pilot4 candidate buffer. This does not establish that the account was never observed outside the documented study inputs.",
+    "prior_preparation_and_audit": "An account with at least one original record in the completed Pilot3 or Pilot4 pre-score candidate buffer. This is exposure to preparation and leakage auditing, not an AHAS style-analysis result.",
+    "scope": "Counts describe the twenty fixed provisional pairs before current audit/final selection; they are not selected-cohort counts. No source identities, prose, feature vectors, candidate scores, or alternative directions were examined or published.",
+    "supplement_metadata": "At least one saved eligibility-metadata row from the Pilot6 supplement. This flag overlaps earlier metadata or preparation exposure."
+  },
+  "distinct_source_accounts": 40,
+  "input_hashes": {
+    "buffer_plan": "ac3ce041f7cd1288068d79e07e50f81f110413dadcbe5c80c9aeb7dcd52e80c0",
+    "exposure_flags": "d7e1fe9333896e423618696da7f03029cac2f43d3c855b8a35cd7131b468722f",
+    "metadata_plan": "28bd40ea6e456823aafd609020efb44d69971f128420dcac1affec31d76408b2",
+    "pilot3_candidate_selection_metadata": "395da829ca1512ab3ca99536ce2003a87a8ea2bce084682e6b238b52e22eb758",
+    "pilot4_candidate_selection_metadata": "3de6d64309e4f939c92bd9dcb7523c35c28461a6fd76458ced106ce007e7080b",
+    "pilot5_selection_metadata": "c692b3a8f6f21f5a0e03159b882da1741b31ecfad5bc187384820ada0c3d7806",
+    "provisional_pairs": "649e09a3a65b108e4e713620b3eeedf424e0696373f3cce9c2a7a37cb56b209d",
+    "record_metadata_inputs": {
+      "metadata_source_01": {
+        "bytes": 128927505,
+        "rows": 525505,
+        "scope": "prior_eligibility_metadata",
+        "sha256": "a804d85a398a614a0fef219d422d1c5257b9de75a93414d517d1506e0f459c2d"
+      },
+      "metadata_source_02": {
+        "bytes": 97593681,
+        "rows": 406010,
+        "scope": "prior_eligibility_metadata",
+        "sha256": "a22d08bfb63c317339bff76f5904dc90052bfa114214e8f163e967a466113b72"
+      },
+      "metadata_source_03": {
+        "bytes": 187358055,
+        "rows": 650775,
+        "scope": "prior_eligibility_metadata",
+        "sha256": "6fa2cd853bfd89ec317a9b6823ffc5c1a551f4e897c6d6a7cd5cc6586d55e80a"
+      },
+      "metadata_source_04": {
+        "bytes": 92697892,
+        "rows": 321257,
+        "scope": "pilot6_supplement_metadata",
+        "sha256": "972b0fca667ea26a3aa67838181902bf5d6968dbf024bcd3a991cd4a8b4dd819"
+      }
+    }
+  },
+  "new_preprocessing_calls": 0,
+  "new_style_calls": 0,
+  "pairs": [
+    {
+      "first_eligibility_metadata_from_pilot6_supplement_accounts": 0,
+      "pair_id": "pilot6-pair-01",
+      "pilot6_supplement_metadata_accounts": 0,
+      "previously_scored_or_protected_accounts": 0,
+      "prior_capacity_only_exposure_flag_accounts": 0,
+      "prior_metadata_without_known_preparation_accounts": 2,
+      "prior_pilot3_preparation_and_audit_accounts": 0,
+      "prior_pilot4_preparation_and_audit_accounts": 0,
+      "prior_preparation_in_either_study_accounts": 0
+    },
+    {
+      "first_eligibility_metadata_from_pilot6_supplement_accounts": 0,
+      "pair_id": "pilot6-pair-02",
+      "pilot6_supplement_metadata_accounts": 0,
+      "previously_scored_or_protected_accounts": 0,
+      "prior_capacity_only_exposure_flag_accounts": 0,
+      "prior_metadata_without_known_preparation_accounts": 2,
+      "prior_pilot3_preparation_and_audit_accounts": 0,
+      "prior_pilot4_preparation_and_audit_accounts": 0,
+      "prior_preparation_in_either_study_accounts": 0
+    },
+    {
+      "first_eligibility_metadata_from_pilot6_supplement_accounts": 0,
+      "pair_id": "pilot6-pair-03",
+      "pilot6_supplement_metadata_accounts": 0,
+      "previously_scored_or_protected_accounts": 0,
+      "prior_capacity_only_exposure_flag_accounts": 0,
+      "prior_metadata_without_known_preparation_accounts": 2,
+      "prior_pilot3_preparation_and_audit_accounts": 0,
+      "prior_pilot4_preparation_and_audit_accounts": 0,
+      "prior_preparation_in_either_study_accounts": 0
+    },
+    {
+      "first_eligibility_metadata_from_pilot6_supplement_accounts": 0,
+      "pair_id": "pilot6-pair-04",
+      "pilot6_supplement_metadata_accounts": 0,
+      "previously_scored_or_protected_accounts": 0,
+      "prior_capacity_only_exposure_flag_accounts": 0,
+      "prior_metadata_without_known_preparation_accounts": 2,
+      "prior_pilot3_preparation_and_audit_accounts": 0,
+      "prior_pilot4_preparation_and_audit_accounts": 0,
+      "prior_preparation_in_either_study_accounts": 0
+    },
+    {
+      "first_eligibility_metadata_from_pilot6_supplement_accounts": 0,
+      "pair_id": "pilot6-pair-05",
+      "pilot6_supplement_metadata_accounts": 0,
+      "previously_scored_or_protected_accounts": 0,
+      "prior_capacity_only_exposure_flag_accounts": 0,
+      "prior_metadata_without_known_preparation_accounts": 2,
+      "prior_pilot3_preparation_and_audit_accounts": 0,
+      "prior_pilot4_preparation_and_audit_accounts": 0,
+      "prior_preparation_in_either_study_accounts": 0
+    },
+    {
+      "first_eligibility_metadata_from_pilot6_supplement_accounts": 0,
+      "pair_id": "pilot6-pair-06",
+      "pilot6_supplement_metadata_accounts": 0,
+      "previously_scored_or_protected_accounts": 0,
+      "prior_capacity_only_exposure_flag_accounts": 0,
+      "prior_metadata_without_known_preparation_accounts": 2,
+      "prior_pilot3_preparation_and_audit_accounts": 0,
+      "prior_pilot4_preparation_and_audit_accounts": 0,
+      "prior_preparation_in_either_study_accounts": 0
+    },
+    {
+      "first_eligibility_metadata_from_pilot6_supplement_accounts": 0,
+      "pair_id": "pilot6-pair-07",
+      "pilot6_supplement_metadata_accounts": 0,
+      "previously_scored_or_protected_accounts": 0,
+      "prior_capacity_only_exposure_flag_accounts": 0,
+      "prior_metadata_without_known_preparation_accounts": 1,
+      "prior_pilot3_preparation_and_audit_accounts": 1,
+      "prior_pilot4_preparation_and_audit_accounts": 0,
+      "prior_preparation_in_either_study_accounts": 1
+    },
+    {
+      "first_eligibility_metadata_from_pilot6_supplement_accounts": 0,
+      "pair_id": "pilot6-pair-08",
+      "pilot6_supplement_metadata_accounts": 0,
+      "previously_scored_or_protected_accounts": 0,
+      "prior_capacity_only_exposure_flag_accounts": 0,
+      "prior_metadata_without_known_preparation_accounts": 2,
+      "prior_pilot3_preparation_and_audit_accounts": 0,
+      "prior_pilot4_preparation_and_audit_accounts": 0,
+      "prior_preparation_in_either_study_accounts": 0
+    },
+    {
+      "first_eligibility_metadata_from_pilot6_supplement_accounts": 0,
+      "pair_id": "pilot6-pair-09",
+      "pilot6_supplement_metadata_accounts": 0,
+      "previously_scored_or_protected_accounts": 0,
+      "prior_capacity_only_exposure_flag_accounts": 0,
+      "prior_metadata_without_known_preparation_accounts": 1,
+      "prior_pilot3_preparation_and_audit_accounts": 0,
+      "prior_pilot4_preparation_and_audit_accounts": 1,
+      "prior_preparation_in_either_study_accounts": 1
+    },
+    {
+      "first_eligibility_metadata_from_pilot6_supplement_accounts": 0,
+      "pair_id": "pilot6-pair-10",
+      "pilot6_supplement_metadata_accounts": 0,
+      "previously_scored_or_protected_accounts": 0,
+      "prior_capacity_only_exposure_flag_accounts": 0,
+      "prior_metadata_without_known_preparation_accounts": 2,
+      "prior_pilot3_preparation_and_audit_accounts": 0,
+      "prior_pilot4_preparation_and_audit_accounts": 0,
+      "prior_preparation_in_either_study_accounts": 0
+    },
+    {
+      "first_eligibility_metadata_from_pilot6_supplement_accounts": 0,
+      "pair_id": "pilot6-pair-11",
+      "pilot6_supplement_metadata_accounts": 0,
+      "previously_scored_or_protected_accounts": 0,
+      "prior_capacity_only_exposure_flag_accounts": 0,
+      "prior_metadata_without_known_preparation_accounts": 1,
+      "prior_pilot3_preparation_and_audit_accounts": 1,
+      "prior_pilot4_preparation_and_audit_accounts": 0,
+      "prior_preparation_in_either_study_accounts": 1
+    },
+    {
+      "first_eligibility_metadata_from_pilot6_supplement_accounts": 0,
+      "pair_id": "pilot6-pair-12",
+      "pilot6_supplement_metadata_accounts": 0,
+      "previously_scored_or_protected_accounts": 0,
+      "prior_capacity_only_exposure_flag_accounts": 0,
+      "prior_metadata_without_known_preparation_accounts": 1,
+      "prior_pilot3_preparation_and_audit_accounts": 0,
+      "prior_pilot4_preparation_and_audit_accounts": 1,
+      "prior_preparation_in_either_study_accounts": 1
+    },
+    {
+      "first_eligibility_metadata_from_pilot6_supplement_accounts": 0,
+      "pair_id": "pilot6-pair-13",
+      "pilot6_supplement_metadata_accounts": 0,
+      "previously_scored_or_protected_accounts": 0,
+      "prior_capacity_only_exposure_flag_accounts": 0,
+      "prior_metadata_without_known_preparation_accounts": 1,
+      "prior_pilot3_preparation_and_audit_accounts": 1,
+      "prior_pilot4_preparation_and_audit_accounts": 0,
+      "prior_preparation_in_either_study_accounts": 1
+    },
+    {
+      "first_eligibility_metadata_from_pilot6_supplement_accounts": 0,
+      "pair_id": "pilot6-pair-14",
+      "pilot6_supplement_metadata_accounts": 0,
+      "previously_scored_or_protected_accounts": 0,
+      "prior_capacity_only_exposure_flag_accounts": 0,
+      "prior_metadata_without_known_preparation_accounts": 2,
+      "prior_pilot3_preparation_and_audit_accounts": 0,
+      "prior_pilot4_preparation_and_audit_accounts": 0,
+      "prior_preparation_in_either_study_accounts": 0
+    },
+    {
+      "first_eligibility_metadata_from_pilot6_supplement_accounts": 0,
+      "pair_id": "pilot6-pair-15",
+      "pilot6_supplement_metadata_accounts": 0,
+      "previously_scored_or_protected_accounts": 0,
+      "prior_capacity_only_exposure_flag_accounts": 0,
+      "prior_metadata_without_known_preparation_accounts": 2,
+      "prior_pilot3_preparation_and_audit_accounts": 0,
+      "prior_pilot4_preparation_and_audit_accounts": 0,
+      "prior_preparation_in_either_study_accounts": 0
+    },
+    {
+      "first_eligibility_metadata_from_pilot6_supplement_accounts": 0,
+      "pair_id": "pilot6-pair-16",
+      "pilot6_supplement_metadata_accounts": 0,
+      "previously_scored_or_protected_accounts": 0,
+      "prior_capacity_only_exposure_flag_accounts": 0,
+      "prior_metadata_without_known_preparation_accounts": 2,
+      "prior_pilot3_preparation_and_audit_accounts": 0,
+      "prior_pilot4_preparation_and_audit_accounts": 0,
+      "prior_preparation_in_either_study_accounts": 0
+    },
+    {
+      "first_eligibility_metadata_from_pilot6_supplement_accounts": 0,
+      "pair_id": "pilot6-pair-17",
+      "pilot6_supplement_metadata_accounts": 0,
+      "previously_scored_or_protected_accounts": 0,
+      "prior_capacity_only_exposure_flag_accounts": 0,
+      "prior_metadata_without_known_preparation_accounts": 2,
+      "prior_pilot3_preparation_and_audit_accounts": 0,
+      "prior_pilot4_preparation_and_audit_accounts": 0,
+      "prior_preparation_in_either_study_accounts": 0
+    },
+    {
+      "first_eligibility_metadata_from_pilot6_supplement_accounts": 0,
+      "pair_id": "pilot6-pair-18",
+      "pilot6_supplement_metadata_accounts": 0,
+      "previously_scored_or_protected_accounts": 0,
+      "prior_capacity_only_exposure_flag_accounts": 0,
+      "prior_metadata_without_known_preparation_accounts": 2,
+      "prior_pilot3_preparation_and_audit_accounts": 0,
+      "prior_pilot4_preparation_and_audit_accounts": 0,
+      "prior_preparation_in_either_study_accounts": 0
+    },
+    {
+      "first_eligibility_metadata_from_pilot6_supplement_accounts": 0,
+      "pair_id": "pilot6-pair-19",
+      "pilot6_supplement_metadata_accounts": 0,
+      "previously_scored_or_protected_accounts": 0,
+      "prior_capacity_only_exposure_flag_accounts": 0,
+      "prior_metadata_without_known_preparation_accounts": 2,
+      "prior_pilot3_preparation_and_audit_accounts": 0,
+      "prior_pilot4_preparation_and_audit_accounts": 0,
+      "prior_preparation_in_either_study_accounts": 0
+    },
+    {
+      "first_eligibility_metadata_from_pilot6_supplement_accounts": 0,
+      "pair_id": "pilot6-pair-20",
+      "pilot6_supplement_metadata_accounts": 0,
+      "previously_scored_or_protected_accounts": 0,
+      "prior_capacity_only_exposure_flag_accounts": 0,
+      "prior_metadata_without_known_preparation_accounts": 2,
+      "prior_pilot3_preparation_and_audit_accounts": 0,
+      "prior_pilot4_preparation_and_audit_accounts": 0,
+      "prior_preparation_in_either_study_accounts": 0
+    }
+  ],
+  "previously_scored_or_protected_accounts": 0,
+  "provisional_pairs": 20,
+  "recorded_utc": "2026-09-15T07:19:04.470916+00:00",
+  "reporting_only_after_buffer_registration": true,
+  "script_sha256": "d46c7d05e51612010e693a3be46b3bcaedb7e3d6c6c7aa43aea3248989cb70db",
+  "selection_criteria_changed": false,
+  "source_identifiers_published": false,
+  "source_prose_read": false,
+  "status": "reported"
+}

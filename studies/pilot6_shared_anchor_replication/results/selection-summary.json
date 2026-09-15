@@ -1,0 +1,14 @@
+{
+  "cohort_prepared_sha256": "81b9e951bef8e3d1ab9553539046e8d5ad3d339d65963818d015de99bd4c6132",
+  "eligible_after_audit": 9,
+  "finalization_plan_sha256": "32d99ebd01707e4d9e82e7fbee14680e62a785e2e23a47d46e778a056068cb8c",
+  "grid_locations_used_for_selection": false,
+  "pair_shortfall": 1,
+  "planned_main_histories": 36,
+  "planned_replays": 36,
+  "provisional_pairs": 20,
+  "selected_new_pairs": 9,
+  "selected_source_accounts": 18,
+  "style_calls": 0,
+  "target_new_pairs": 10
+}

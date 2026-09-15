@@ -1,0 +1,35 @@
+{
+  "argv": [
+    ".venv/bin/python",
+    "-B",
+    "scripts/offline_exec.py",
+    ".venv/bin/python",
+    "-B",
+    "studies/pilot6_shared_anchor_replication/scripts/check_metadata_replication.py",
+    "--plan",
+    "<PRIVATE_WORK_AREA>/pilot6_private/METADATA_PLAN_V2.json",
+    "--public",
+    "studies/pilot6_shared_anchor_replication/inventory/metadata-02",
+    "--private",
+    "<PRIVATE_WORK_AREA>/pilot6_private/metadata-02",
+    "--out",
+    "studies/pilot6_shared_anchor_replication/review/metadata-independent-check-03.json"
+  ],
+  "cwd": "<WORKSPACE>",
+  "started_utc": "2026-09-15T07:12:08.687083+00:00",
+  "finished_utc": "2026-09-15T07:12:29.094411+00:00",
+  "exit_code": 0,
+  "wall_seconds": 20.407330486981664,
+  "child_peak_rss_mib": 300.6796875,
+  "runner_sha256": "4d94adb7a06ec38cc6f5b4fe55f801e87bbdcff712139146d53f55a2928eb2a4",
+  "outputs": {
+    "stdout.log": {
+      "bytes": 126,
+      "sha256": "b6d60ef1ad8eb41e025d4a1df2b91f2888fe9548521a6a4cd4398bfea5392ead"
+    },
+    "stderr.log": {
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    }
+  }
+}

@@ -1,0 +1,26 @@
+..............F..                                                        [100%]
+=================================== FAILURES ===================================
+_____________ test_orphan_after_fast_parent_failure_is_cleaned_up ______________
+
+tmp_path = PosixPath('/tmp/pytest-of-jaykob/pytest-178/test_orphan_after_fast_parent_0')
+
+    def test_orphan_after_fast_parent_failure_is_cleaned_up(tmp_path):
+        parent = tmp_path/'parent.py'
+        parent.write_text('import subprocess,sys\nfrom pathlib import Path\n'
+            'p=subprocess.Popen([sys.executable,"-c","import time; time.sleep(30)"],start_new_session=True)\n'
+            f'Path({str(tmp_path/"pid")!r}).write_text(str(p.pid))\n'
+            'raise SystemExit(7)\n')
+        result = r.launch_phase([sys.executable, '-B', str(parent)], tmp_path/'phase', tmp_path,
+                                time.monotonic()+3, 1024**2)
+        assert result['status'] == 'failed' and result['exit_code'] == 7
+        pid = int((tmp_path/'pid').read_text())
+>       assert (info := r.process_info(pid)) is None or info['state'] == 'Z'
+E       AssertionError: assert ({'group': 22, 'parent': 3, 'pid': 22, 'start': 25224403, ...} is None or 'R' == 'Z'
+E         
+E         - Z
+E         + R)
+
+studies/pilot6_shared_anchor_replication/tests/test_run_replication.py:244: AssertionError
+=========================== short test summary info ============================
+FAILED studies/pilot6_shared_anchor_replication/tests/test_run_replication.py::test_orphan_after_fast_parent_failure_is_cleaned_up
+1 failed, 16 passed in 1.82s
