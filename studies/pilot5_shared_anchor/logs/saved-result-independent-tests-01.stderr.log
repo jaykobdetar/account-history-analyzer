@@ -1,0 +1,10 @@
+test_native_coordinates_convert_exactly_once (test_check_saved_results_independent.IndependentArithmetic.test_native_coordinates_convert_exactly_once) ... ok
+test_nearest_tie_is_earlier_and_time_bracket_is_bounding_records (test_check_saved_results_independent.IndependentArithmetic.test_nearest_tie_is_earlier_and_time_bracket_is_bounding_records) ... ok
+test_seven_vs_eight_windows_and_original_ordinal_gap (test_check_saved_results_independent.IndependentArithmetic.test_seven_vs_eight_windows_and_original_ordinal_gap) ... ok
+test_ten_inclusive_eleven_outside_and_exact (test_check_saved_results_independent.IndependentArithmetic.test_ten_inclusive_eleven_outside_and_exact) ... ok
+test_zero_candidates_distinct_from_unavailable (test_check_saved_results_independent.IndependentArithmetic.test_zero_candidates_distinct_from_unavailable) ... ok
+
+----------------------------------------------------------------------
+Ran 5 tests in 0.001s
+
+OK

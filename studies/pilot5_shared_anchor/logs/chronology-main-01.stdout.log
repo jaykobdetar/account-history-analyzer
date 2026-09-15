@@ -1,0 +1,4 @@
+{"case_id": "pilot5-diagnostic-01:AX:continuity_same_community", "exit_code": 0, "wall_seconds": 44.36773996500415, "child_peak_rss_mib": 342.34375}
+{"case_id": "pilot5-diagnostic-01:AX:switch_same_community", "exit_code": 0, "wall_seconds": 46.82238885900006, "child_peak_rss_mib": 357.5078125}
+{"case_id": "pilot5-diagnostic-01:AX:continuity_changed_community", "exit_code": 0, "wall_seconds": 35.59724194701994, "child_peak_rss_mib": 298.34765625}
+{"case_id": "pilot5-diagnostic-01:AX:switch_changed_community", "exit_code": 0, "wall_seconds": 36.747687402996235, "child_peak_rss_mib": 303.640625}

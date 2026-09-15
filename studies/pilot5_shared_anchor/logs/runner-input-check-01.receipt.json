@@ -1,0 +1,27 @@
+{
+  "argv": [
+    ".venv/bin/python",
+    "scripts/offline_exec.py",
+    ".venv/bin/python",
+    "-B",
+    "-c",
+    "import sys; from pathlib import Path; sys.path.insert(0,str(Path(\"studies/pilot5_shared_anchor/scripts\").resolve())); import run_diagnostic as d; p=Path(\"<PRIVATE_WORK_AREA>/pilot5_private/prepared-01/index.json\"); index=d.checked_index(p); result={\"status\":\"passed\",\"index_sha256\":d.sha(p),\"runner_sha256\":d.sha(d.__file__),\"histories\":len(index[\"cases\"]),\"shared_anchor_exact_bytes_except_uniform_alias\":True,\"five_samples_disjoint_original_ids\":True,\"qualified_windows\":[c[\"prescore_qualified_windows\"] for c in index[\"cases\"]],\"preprocessor_calls\":0,\"style_scores_computed\":0}; d.write(Path(\"studies/pilot5_shared_anchor/review/runner-input-check-01.json\"),result); print(result)"
+  ],
+  "cwd": "<WORKSPACE>",
+  "started_utc": "2026-09-15T03:17:05.322016+00:00",
+  "finished_utc": "2026-09-15T03:17:05.392557+00:00",
+  "exit_code": 0,
+  "wall_seconds": 0.0705411090166308,
+  "child_peak_rss_mib": 20.18359375,
+  "runner_sha256": "4d94adb7a06ec38cc6f5b4fe55f801e87bbdcff712139146d53f55a2928eb2a4",
+  "outputs": {
+    "stdout.log": {
+      "bytes": 394,
+      "sha256": "639cccee5beddf957ef753fdde6c5e94801388fb9155057d6994d369335cb5a1"
+    },
+    "stderr.log": {
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    }
+  }
+}

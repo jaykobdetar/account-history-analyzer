@@ -1,0 +1,23 @@
+{
+  "argv": [
+    ".venv/bin/python",
+    "studies/pilot5_shared_anchor/environment/freeze_prior_artifacts.py"
+  ],
+  "cwd": "<WORKSPACE>",
+  "started_utc": "2026-09-15T03:09:32.097772+00:00",
+  "finished_utc": "2026-09-15T03:09:32.171051+00:00",
+  "exit_code": 0,
+  "wall_seconds": 0.07327730598626658,
+  "child_peak_rss_mib": 16.8359375,
+  "runner_sha256": "4d94adb7a06ec38cc6f5b4fe55f801e87bbdcff712139146d53f55a2928eb2a4",
+  "outputs": {
+    "stdout.log": {
+      "bytes": 165,
+      "sha256": "4c04c0c1b96f45669be2057516461cebb47785e0cdbd404f67b8862d97a68634"
+    },
+    "stderr.log": {
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    }
+  }
+}

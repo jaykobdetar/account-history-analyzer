@@ -1,0 +1,26 @@
+{
+  "argv": [
+    ".venv/bin/python",
+    "-m",
+    "pytest",
+    "-q",
+    "studies/pilot5_shared_anchor/tests/test_run_diagnostic.py"
+  ],
+  "cwd": "<WORKSPACE>",
+  "started_utc": "2026-09-15T03:16:34.682892+00:00",
+  "finished_utc": "2026-09-15T03:16:35.645415+00:00",
+  "exit_code": 0,
+  "wall_seconds": 0.9625258239975665,
+  "child_peak_rss_mib": 42.23828125,
+  "runner_sha256": "4d94adb7a06ec38cc6f5b4fe55f801e87bbdcff712139146d53f55a2928eb2a4",
+  "outputs": {
+    "stdout.log": {
+      "bytes": 99,
+      "sha256": "39699ac458f43fd37729512950357d7420bf6f97091ed6b4520d8eb59bbed3c5"
+    },
+    "stderr.log": {
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    }
+  }
+}

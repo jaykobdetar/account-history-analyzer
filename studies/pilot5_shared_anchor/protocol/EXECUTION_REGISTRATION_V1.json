@@ -1,0 +1,241 @@
+{
+  "phase": "frozen_before_shared_anchor_diagnostic",
+  "registered_utc": "2026-09-15T03:20:30.050243+00:00",
+  "prepared_index_sha256": "e018dc50f000713c391c2a7479bc840951e986bede3160713192bcbc9f87b166",
+  "runner_sha256": "7336935b6c308d6f62f5aeadd0b2ddd7c7a978b513453e038126e7a3cb3aa903",
+  "bound_artifacts": [
+    {
+      "path": "<PRIVATE_WORK_AREA>/pilot5_private/prepared-01/index.json",
+      "sha256": "e018dc50f000713c391c2a7479bc840951e986bede3160713192bcbc9f87b166"
+    },
+    {
+      "path": "<PRIVATE_WORK_AREA>/pilot5_private/prepared-01/pilot5-diagnostic-01:AX:continuity_changed_community/metadata.json",
+      "sha256": "44978f82c8a0c57c96e58ce378e4db6199ffba36b2026e313590b35d8b72fa75"
+    },
+    {
+      "path": "<PRIVATE_WORK_AREA>/pilot5_private/prepared-01/pilot5-diagnostic-01:AX:continuity_changed_community/records.jsonl",
+      "sha256": "7cc4fb86aad392478202ac560bc7f71408d91b55b9db7ff5d30f42d324b8cfae"
+    },
+    {
+      "path": "<PRIVATE_WORK_AREA>/pilot5_private/prepared-01/pilot5-diagnostic-01:AX:continuity_changed_community/snapshot.json",
+      "sha256": "7d8e987c6c590a2660719076bdf24be70d80261de51557f1a5fd4e95fde366ec"
+    },
+    {
+      "path": "<PRIVATE_WORK_AREA>/pilot5_private/prepared-01/pilot5-diagnostic-01:AX:continuity_same_community/metadata.json",
+      "sha256": "dd571669366116808419c6bf4e3ba91d817de9951797411c83303855c26973b0"
+    },
+    {
+      "path": "<PRIVATE_WORK_AREA>/pilot5_private/prepared-01/pilot5-diagnostic-01:AX:continuity_same_community/records.jsonl",
+      "sha256": "50ca03995ad5e304e0ed37858caa4b7d17114c2438fe95f2d0e39175d0c65ffe"
+    },
+    {
+      "path": "<PRIVATE_WORK_AREA>/pilot5_private/prepared-01/pilot5-diagnostic-01:AX:continuity_same_community/snapshot.json",
+      "sha256": "7561cfa63d23fff2a12224fed7fb438ca425fd51731a10a7f4db09ed5bd3428e"
+    },
+    {
+      "path": "<PRIVATE_WORK_AREA>/pilot5_private/prepared-01/pilot5-diagnostic-01:AX:switch_changed_community/metadata.json",
+      "sha256": "0c2139b763b4fda1073f2c80113a11b375fb9768df4a6c70e914dd0070a00d3e"
+    },
+    {
+      "path": "<PRIVATE_WORK_AREA>/pilot5_private/prepared-01/pilot5-diagnostic-01:AX:switch_changed_community/records.jsonl",
+      "sha256": "8954f2f7300e493e55149937154989b63d25974db2c3e2f432cb0e6006c463af"
+    },
+    {
+      "path": "<PRIVATE_WORK_AREA>/pilot5_private/prepared-01/pilot5-diagnostic-01:AX:switch_changed_community/snapshot.json",
+      "sha256": "9a75955e1a61913bd0287873b963e83f63b2ee1cd60948ef3631d1cb546a03f0"
+    },
+    {
+      "path": "<PRIVATE_WORK_AREA>/pilot5_private/prepared-01/pilot5-diagnostic-01:AX:switch_same_community/metadata.json",
+      "sha256": "f0299eb67ebffdf40775f42b3d2d8d682b444089d85ea7af96dafc04a1077879"
+    },
+    {
+      "path": "<PRIVATE_WORK_AREA>/pilot5_private/prepared-01/pilot5-diagnostic-01:AX:switch_same_community/records.jsonl",
+      "sha256": "3f27a2aa566eb4c22beabe68e2a235ac70c00cc33aca317b8d4f66da3c82fd40"
+    },
+    {
+      "path": "<PRIVATE_WORK_AREA>/pilot5_private/prepared-01/pilot5-diagnostic-01:AX:switch_same_community/snapshot.json",
+      "sha256": "21905de506caa32aea1286cd7f0a91e93732596fd9f183652f8d6acf624e6579"
+    },
+    {
+      "path": "<PRIVATE_WORK_AREA>/pilot5_private/prepared-01/selection.json",
+      "sha256": "c692b3a8f6f21f5a0e03159b882da1741b31ecfad5bc187384820ada0c3d7806"
+    },
+    {
+      "path": "<WORKSPACE>/studies/pilot4_chronological_controls/scripts/chronology_math.py",
+      "sha256": "3af8024ec8325bea3cadfba6f30f8015eb0cd7102e473aafdbc6c4a26d17afc2"
+    },
+    {
+      "path": "<WORKSPACE>/studies/pilot4_chronological_controls/scripts/matched_condition_changes.py",
+      "sha256": "05a40e49e6247e71ccf8c5e9b6bdfe1e704e15a632029bbe31f665131214e867"
+    },
+    {
+      "path": "<WORKSPACE>/studies/pilot4_chronological_controls/scripts/run_full_chronology.py",
+      "sha256": "2318580a40888b1d21ba8036f4f7efdb1cbe9af7d5724361dfedcbf7ec9bc5d8"
+    },
+    {
+      "path": "<WORKSPACE>/studies/pilot4_chronological_controls/scripts/score_saved_chronology.py",
+      "sha256": "1e1e9c39d7fa88a31fc7a0f90647edc52a11deea21ccbc18117e8d9d2463c512"
+    },
+    {
+      "path": "<WORKSPACE>/studies/pilot5_shared_anchor/environment/baseline-start-binding.json",
+      "sha256": "18c16f9dd4fef9ebe8cbc6f2063b2ec2600756630afa60183d4f6531ad164abb"
+    },
+    {
+      "path": "<WORKSPACE>/studies/pilot5_shared_anchor/environment/baseline-verification.json",
+      "sha256": "73ce84f9c6ce960c7c2ae5b51b1b966af0ca9c5e47afdb1572d231d112a1e1fe"
+    },
+    {
+      "path": "<WORKSPACE>/studies/pilot5_shared_anchor/environment/installed-package-fresh.json",
+      "sha256": "5c47cf48388c0c36cf41a143c811209a6e35359f399e537b9b5cfe465b492a75"
+    },
+    {
+      "path": "<WORKSPACE>/studies/pilot5_shared_anchor/environment/pilot4-preservation-baseline.json",
+      "sha256": "99d5d70dffafb3b8271e124b4e2b244d3c4f60930fee21a6de3394becadb3887"
+    },
+    {
+      "path": "<WORKSPACE>/studies/pilot5_shared_anchor/environment/reviewed-source-fresh.json",
+      "sha256": "5c3f6ffcdacdfecc356f44694087c536ddd9e13466a599a1e3841ff234dc7763"
+    },
+    {
+      "path": "<WORKSPACE>/studies/pilot5_shared_anchor/inventory/prepared-01/candidate-enumeration.json",
+      "sha256": "5f995e70300c355116fbd27ac4da19cb95216f1ad9fc43eccf08d0a25e1459be"
+    },
+    {
+      "path": "<WORKSPACE>/studies/pilot5_shared_anchor/inventory/prepared-01/samples.json",
+      "sha256": "1765843de47e49e5527b88447b6e8fae59dd9c0ae2689a41e6da0a0e3fef6e70"
+    },
+    {
+      "path": "<WORKSPACE>/studies/pilot5_shared_anchor/inventory/prepared-01/selection-summary.json",
+      "sha256": "15364694508ea5af6c338c9dba571f8846ab37dc9523a22c3a5e54afbdfae14d"
+    },
+    {
+      "path": "<WORKSPACE>/studies/pilot5_shared_anchor/logs/baseline-fresh-01.receipt.json",
+      "sha256": "dfa943a8b4ee50a0c42a5f7182104c0216595aea2fd06434f07e6057f411025d"
+    },
+    {
+      "path": "<WORKSPACE>/studies/pilot5_shared_anchor/logs/pilot4-preservation-baseline-01.receipt.json",
+      "sha256": "0cb85afc0f3806dfa86276f47d5649119c24e550f7c2c2d1ea05e1a121606f5d"
+    },
+    {
+      "path": "<WORKSPACE>/studies/pilot5_shared_anchor/logs/preparation-tests-01.receipt.json",
+      "sha256": "bc1d7e1813dc7825a16fc224de6ae995ac3570dabe848ff56006e514870ba2eb"
+    },
+    {
+      "path": "<WORKSPACE>/studies/pilot5_shared_anchor/logs/prepare-shared-anchor-01.receipt.json",
+      "sha256": "51be718e0912ccb0aad693b4a42e8006112ded30e761498b270427c77341c18a"
+    },
+    {
+      "path": "<WORKSPACE>/studies/pilot5_shared_anchor/logs/runner-input-check-01.receipt.json",
+      "sha256": "17ea85a123e6e698f32b7b7984ed5e20b3e55797e79dc68dabb68cad3d98a154"
+    },
+    {
+      "path": "<WORKSPACE>/studies/pilot5_shared_anchor/logs/runner-synthetic-01.receipt.json",
+      "sha256": "648d63b5a54c73e4d1ba8f72e6da75b946abb70e8ff4fe7e8edbc4993bb58c75"
+    },
+    {
+      "path": "<WORKSPACE>/studies/pilot5_shared_anchor/logs/runner-synthetic-02.receipt.json",
+      "sha256": "0ddd12d112bc7774249b76bc56b6b212c0ab516318f3b75fd9d5b2484a60032c"
+    },
+    {
+      "path": "<WORKSPACE>/studies/pilot5_shared_anchor/logs/shared-anchor-checker-tests-01.receipt.json",
+      "sha256": "9b41d7b844d89c08d1361b996e0cafea2294880d653b71fa06faef4a724843b1"
+    },
+    {
+      "path": "<WORKSPACE>/studies/pilot5_shared_anchor/logs/shared-anchor-independent-check-01.receipt.json",
+      "sha256": "2c282145bad4a678de633ed6939010f5e3992364bd435fc28aa2b85991ae4aa2"
+    },
+    {
+      "path": "<WORKSPACE>/studies/pilot5_shared_anchor/logs/source-fidelity-01.receipt.json",
+      "sha256": "7f29b6b8055870a47d8a44c0fd16de269d23c7d1c9efa08745f36fd4252ba777"
+    },
+    {
+      "path": "<WORKSPACE>/studies/pilot5_shared_anchor/protocol/METHOD_NOTES_DRAFT.md",
+      "sha256": "a0403b765a5f7f26d7feaf63b6cd4aa056e5b920554fca2fc10e438aea27a295"
+    },
+    {
+      "path": "<WORKSPACE>/studies/pilot5_shared_anchor/protocol/PROTOCOL_V1.md",
+      "sha256": "79b43f51b469a8a858b32a1ad8411ed696f6fbefcc38ca6e5d4d7eed67b2bf15"
+    },
+    {
+      "path": "<WORKSPACE>/studies/pilot5_shared_anchor/protocol/SELECTION_REGISTRATION_V1.json",
+      "sha256": "d30f7b818e3f89523f19b0b9e14d6ed7b6ce0e827ecc4bf71a5009191c288b22"
+    },
+    {
+      "path": "<WORKSPACE>/studies/pilot5_shared_anchor/review/SCORING_ADAPTER_REVIEW.json",
+      "sha256": "8141a69b757d6ed0e325eae6ed6c0a2c51708173b38ebda7d8940fa0f5fab261"
+    },
+    {
+      "path": "<WORKSPACE>/studies/pilot5_shared_anchor/review/runner-input-check-01.json",
+      "sha256": "6115a01c106d26c25cbce4f7cf254e029ad7f243065bf7a9d28450f1955fef8e"
+    },
+    {
+      "path": "<WORKSPACE>/studies/pilot5_shared_anchor/review/shared-anchor-independent-check-01.json",
+      "sha256": "27fb9e8800824982fcd8ad96accb3717b60cb8f093d3c21efd327f6caec170aa"
+    },
+    {
+      "path": "<WORKSPACE>/studies/pilot5_shared_anchor/review/shared-anchor-independent-check-01.start-binding.json",
+      "sha256": "10fe130e6b095ff93fe4c8da0f8ee92fefb11c0e12929b03bcb7dac9a519846e"
+    },
+    {
+      "path": "<WORKSPACE>/studies/pilot5_shared_anchor/review/source-fidelity-01.json",
+      "sha256": "f29e4f2138f85ad801b1d15a63dd0d5c1deee90e382711716d1abb9f821ab225"
+    },
+    {
+      "path": "<WORKSPACE>/studies/pilot5_shared_anchor/scripts/check_shared_anchor.py",
+      "sha256": "b83198971454e26f91bf7c4e20a2787cf6d1ad994da45d4be11a12bbcd97d0b5"
+    },
+    {
+      "path": "<WORKSPACE>/studies/pilot5_shared_anchor/scripts/prepare_shared_anchor.py",
+      "sha256": "48d8a05049b5a33ec2f61500f34af9b558d82c86948377ddab140bff59ed29b5"
+    },
+    {
+      "path": "<WORKSPACE>/studies/pilot5_shared_anchor/scripts/run_diagnostic.py",
+      "sha256": "7336935b6c308d6f62f5aeadd0b2ddd7c7a978b513453e038126e7a3cb3aa903"
+    },
+    {
+      "path": "<WORKSPACE>/studies/pilot5_shared_anchor/scripts/verify_source_fidelity.py",
+      "sha256": "b91e62da481c7b3589d4d5b6170b3e1fbf7cc434214421e999d3913c89dc4e7b"
+    },
+    {
+      "path": "<WORKSPACE>/studies/pilot5_shared_anchor/tests/test_check_shared_anchor.py",
+      "sha256": "98fd8f2c1ecd0a2fe8ffd7255e74f4a1e111daf39c3f6c00f0aa3eb3a8a5721f"
+    },
+    {
+      "path": "<WORKSPACE>/studies/pilot5_shared_anchor/tests/test_check_shared_anchor_io.py",
+      "sha256": "f9e3c1bcaa55a4adcedbbd7181cd4bf30b8509396c1aa637c98cc84ec30d9d86"
+    },
+    {
+      "path": "<WORKSPACE>/studies/pilot5_shared_anchor/tests/test_prepare_shared_anchor.py",
+      "sha256": "4ef6ed28aedc4763cc57c9c77bf92f642a3e4a9d86fccc4ac920cd812f2df615"
+    },
+    {
+      "path": "<WORKSPACE>/studies/pilot5_shared_anchor/tests/test_run_diagnostic.py",
+      "sha256": "6d11edeaa1bf8b6a28b0e7b4d51077c86e806a7c951a76f5be3ee049bbba77eb"
+    }
+  ],
+  "limits": {
+    "parallel_cases": 2,
+    "case_wall_seconds": 600,
+    "process_address_space_bytes": 4294967296,
+    "dispatch_wall_seconds": 3600,
+    "run_artifact_bytes": 8589934592
+  },
+  "execution_environment": {
+    "PYTHONPATH": "<INSTALLED_BASELINE>",
+    "PYTHONHASHSEED": "0",
+    "TZ": "UTC"
+  },
+  "replay_environment": {
+    "PYTHONPATH": "<INSTALLED_BASELINE>",
+    "PYTHONHASHSEED": "73129",
+    "TZ": "Pacific/Honolulu"
+  },
+  "source_samples": 5,
+  "histories": 4,
+  "replayed_histories": 4,
+  "independent_diagnostic_units": 1,
+  "tolerance_records": 10,
+  "selection_is_fixed": true,
+  "construction_registration_sha256": "d30f7b818e3f89523f19b0b9e14d6ed7b6ce0e827ecc4bf71a5009191c288b22",
+  "interpretation": "Exploratory nonreciprocal four-history shared-anchor diagnostic; candidate/localization/grid/abstention separate, no population accuracy."
+}

@@ -1,0 +1,96 @@
+{
+  "phase": "frozen_before_five_sample_enumeration",
+  "registered_utc": "2026-09-15T03:14:49.911872+00:00",
+  "script_sha256": "48d8a05049b5a33ec2f61500f34af9b558d82c86948377ddab140bff59ed29b5",
+  "pool": "<PRIVATE_PILOT4>/candidates-01/candidate-pool.jsonl",
+  "audit": "<PRIVATE_PILOT4>/audit-01/audit.json",
+  "preparation_plan": "<PRIVATE_PILOT4>/PREPARATION_PLAN_V1.json",
+  "original_prefix_rules": "<WORKSPACE>/studies/pilot4_chronological_controls/protocol/FEASIBILITY_PLAN_V1.json",
+  "source_selection_metadata": "<PRIVATE_PILOT4>/candidates-01/selection.json",
+  "source_preparation_receipt": "<PRIVATE_PILOT4>/candidates-01/preparation.json",
+  "protocol": "<WORKSPACE>/studies/pilot5_shared_anchor/protocol/PROTOCOL_V1.md",
+  "selection": "All20directions; validfive-sample controls+allfour>=8primarywindows; exactmetadata-cost minimum; fixedhash ties; no scores/gridattainability filter.",
+  "new_source_acquisition": false,
+  "new_preprocessor_calls": 0,
+  "source_units": 5,
+  "histories": 4,
+  "limits": {
+    "wall_seconds": 600,
+    "address_space_bytes": 4294967296,
+    "prepared_private_bytes": 67108864
+  },
+  "bindings": [
+    {
+      "path": "<PRIVATE_PILOT4>/PREPARATION_PLAN_V1.json",
+      "sha256": "89025398dfa648228fc1d67b3c6d1d9644d0685205f1d0f83689882f3445308c"
+    },
+    {
+      "path": "<PRIVATE_PILOT4>/audit-01/audit.json",
+      "sha256": "abacb1ebc4173c6024ff3853f240b06490edfbac22a51cbc1bb57b68926985cd"
+    },
+    {
+      "path": "<PRIVATE_PILOT4>/candidates-01/candidate-pool.jsonl",
+      "sha256": "cb4587295ee19ff92c2d09f80296a5d7ed774cecd35dae1c82ad0b4317fdea78"
+    },
+    {
+      "path": "<PRIVATE_PILOT4>/candidates-01/preparation.json",
+      "sha256": "76c3e28b6278da13bd35ee33544f0c6e42c094d9a6010886dc4a2b8a5b5be3c9"
+    },
+    {
+      "path": "<PRIVATE_PILOT4>/candidates-01/selection.json",
+      "sha256": "3de6d64309e4f939c92bd9dcb7523c35c28461a6fd76458ced106ce007e7080b"
+    },
+    {
+      "path": "<WORKSPACE>/studies/pilot4_chronological_controls/protocol/FEASIBILITY_PLAN_V1.json",
+      "sha256": "8b547410fcdcb7c365711f0d8c0b0d7ed2a74b2491b02fa9c3d9af5dabe2e54a"
+    },
+    {
+      "path": "<WORKSPACE>/studies/pilot4_chronological_controls/scripts/chronology_math.py",
+      "sha256": "3af8024ec8325bea3cadfba6f30f8015eb0cd7102e473aafdbc6c4a26d17afc2"
+    },
+    {
+      "path": "<WORKSPACE>/studies/pilot4_chronological_controls/scripts/metadata_feasibility.py",
+      "sha256": "88ecd0a3d1f920426ac6c1b01707bf769157e2fd87ef1ee9c02923df4f91f28b"
+    },
+    {
+      "path": "<WORKSPACE>/studies/pilot4_chronological_controls/scripts/run_full_chronology.py",
+      "sha256": "2318580a40888b1d21ba8036f4f7efdb1cbe9af7d5724361dfedcbf7ec9bc5d8"
+    },
+    {
+      "path": "<WORKSPACE>/studies/pilot5_shared_anchor/environment/baseline-start-binding.json",
+      "sha256": "18c16f9dd4fef9ebe8cbc6f2063b2ec2600756630afa60183d4f6531ad164abb"
+    },
+    {
+      "path": "<WORKSPACE>/studies/pilot5_shared_anchor/environment/baseline-verification.json",
+      "sha256": "73ce84f9c6ce960c7c2ae5b51b1b966af0ca9c5e47afdb1572d231d112a1e1fe"
+    },
+    {
+      "path": "<WORKSPACE>/studies/pilot5_shared_anchor/environment/installed-package-fresh.json",
+      "sha256": "5c47cf48388c0c36cf41a143c811209a6e35359f399e537b9b5cfe465b492a75"
+    },
+    {
+      "path": "<WORKSPACE>/studies/pilot5_shared_anchor/environment/pilot4-preservation-baseline.json",
+      "sha256": "99d5d70dffafb3b8271e124b4e2b244d3c4f60930fee21a6de3394becadb3887"
+    },
+    {
+      "path": "<WORKSPACE>/studies/pilot5_shared_anchor/environment/reviewed-source-fresh.json",
+      "sha256": "5c3f6ffcdacdfecc356f44694087c536ddd9e13466a599a1e3841ff234dc7763"
+    },
+    {
+      "path": "<WORKSPACE>/studies/pilot5_shared_anchor/logs/preparation-tests-01.receipt.json",
+      "sha256": "bc1d7e1813dc7825a16fc224de6ae995ac3570dabe848ff56006e514870ba2eb"
+    },
+    {
+      "path": "<WORKSPACE>/studies/pilot5_shared_anchor/protocol/PROTOCOL_V1.md",
+      "sha256": "79b43f51b469a8a858b32a1ad8411ed696f6fbefcc38ca6e5d4d7eed67b2bf15"
+    },
+    {
+      "path": "<WORKSPACE>/studies/pilot5_shared_anchor/scripts/prepare_shared_anchor.py",
+      "sha256": "48d8a05049b5a33ec2f61500f34af9b558d82c86948377ddab140bff59ed29b5"
+    },
+    {
+      "path": "<WORKSPACE>/studies/pilot5_shared_anchor/tests/test_prepare_shared_anchor.py",
+      "sha256": "4ef6ed28aedc4763cc57c9c77bf92f642a3e4a9d86fccc4ac920cd812f2df615"
+    }
+  ]
+}

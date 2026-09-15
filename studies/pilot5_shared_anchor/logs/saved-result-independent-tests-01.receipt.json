@@ -1,0 +1,30 @@
+{
+  "argv": [
+    ".venv/bin/python",
+    "-m",
+    "unittest",
+    "discover",
+    "-s",
+    "studies/pilot5_shared_anchor/tests",
+    "-p",
+    "test_check_saved_results_independent.py",
+    "-v"
+  ],
+  "cwd": "<WORKSPACE>",
+  "started_utc": "2026-09-15T03:24:04.036572+00:00",
+  "finished_utc": "2026-09-15T03:24:04.078528+00:00",
+  "exit_code": 0,
+  "wall_seconds": 0.04195551000884734,
+  "child_peak_rss_mib": 19.7890625,
+  "runner_sha256": "4d94adb7a06ec38cc6f5b4fe55f801e87bbdcff712139146d53f55a2928eb2a4",
+  "outputs": {
+    "stdout.log": {
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    "stderr.log": {
+      "bytes": 946,
+      "sha256": "cd3e2685bae1a644a3d75ba83f3ee8288c39c5f71a8bbb4a9b5432e665bb08bd"
+    }
+  }
+}

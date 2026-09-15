@@ -1,0 +1,29 @@
+{
+  "audit_reuse": "Subset of2252survivors; prior conservative cross-cell and historical purges retained.",
+  "community_x": "Physics",
+  "community_y": "AskPhysics",
+  "cut": "2017-11-01T00:00:00Z",
+  "histories": 4,
+  "independent_diagnostic_units": 1,
+  "index_sha256": "e018dc50f000713c391c2a7479bc840951e986bede3160713192bcbc9f87b166",
+  "metadata_cost": {
+    "denominator": 31104000,
+    "numerator": 37451111
+  },
+  "new_preprocessor_calls": 0,
+  "qualified_windows_per_history": [
+    9,
+    9,
+    8,
+    8
+  ],
+  "selected_candidate_id": "candidate-04",
+  "selection_sha256": "c692b3a8f6f21f5a0e03159b882da1741b31ecfad5bc187384820ada0c3d7806",
+  "shared_anchor_records": 42,
+  "source_accounts": 2,
+  "source_samples": 5,
+  "stratum_id": "stratum-02",
+  "style_calls": 0,
+  "unique_records": 216,
+  "unique_retained_words": 25179
+}

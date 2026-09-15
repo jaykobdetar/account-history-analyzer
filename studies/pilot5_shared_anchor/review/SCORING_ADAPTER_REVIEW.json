@@ -1,0 +1,50 @@
+{
+  "actual_case_arithmetic_checked": false,
+  "actual_case_arithmetic_status": "pending_saved_results",
+  "analyzer_calls_by_reviewer": 0,
+  "checks": [
+    "Four fixed related histories share one anchor; all twelve case files are bound.",
+    "Native bounding-record interval is converted once to inclusive split positions.",
+    "Unavailable full runs retain null candidate outcomes; native constant series is executed zero.",
+    "Primary windows use exact summary IDs and reconstructed membership; sensitivity rows cannot substitute.",
+    "Switch truth and control construction seam remain separate; grid resolution does not alter tolerance.",
+    "Switch-minus-control differences require both matching-condition runs to be executed.",
+    "Replay requires all four histories and identical relocated input/manifest bytes.",
+    "Replay uses changed hash seed/time zone and compares all canonical files except the two operational receipts.",
+    "An empty canonical inventory does not count as replay equality."
+  ],
+  "code_changed": false,
+  "finished_utc": "2026-09-15T03:17:53.874314+00:00",
+  "limits": {
+    "address_space_bytes": 4294967296,
+    "case_wall_seconds": 600,
+    "dispatch_wall_seconds": 3600,
+    "original_plus_replay_artifact_bytes": 8589934592,
+    "parallel_cases": 2
+  },
+  "review_type": "independent_read_only_source_contract_review",
+  "reviewed_files": [
+    {
+      "path": "studies/pilot5_shared_anchor/scripts/run_diagnostic.py",
+      "sha256": "7336935b6c308d6f62f5aeadd0b2ddd7c7a978b513453e038126e7a3cb3aa903"
+    },
+    {
+      "path": "studies/pilot5_shared_anchor/protocol/PROTOCOL_V1.md",
+      "sha256": "79b43f51b469a8a858b32a1ad8411ed696f6fbefcc38ca6e5d4d7eed67b2bf15"
+    },
+    {
+      "path": "studies/pilot4_chronological_controls/scripts/run_full_chronology.py",
+      "sha256": "2318580a40888b1d21ba8036f4f7efdb1cbe9af7d5724361dfedcbf7ec9bc5d8"
+    },
+    {
+      "path": "studies/pilot4_chronological_controls/scripts/score_saved_chronology.py",
+      "sha256": "1e1e9c39d7fa88a31fc7a0f90647edc52a11deea21ccbc18117e8d9d2463c512"
+    },
+    {
+      "path": "studies/pilot4_chronological_controls/scripts/chronology_math.py",
+      "sha256": "3af8024ec8325bea3cadfba6f30f8015eb0cd7102e473aafdbc6c4a26d17afc2"
+    }
+  ],
+  "source_prose_inspected": false,
+  "status": "no_blocking_arithmetic_or_replay_issue_found"
+}

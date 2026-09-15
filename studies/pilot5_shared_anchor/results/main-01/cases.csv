@@ -1,0 +1,5 @@
+case_id,condition,source_switch,community_change,executed,candidate_count,candidate_occurrence,record_count,retained_words,native_change_status,switch_matched_within_10,switch_nearest_error_records,control_junction_matched_within_10,control_junction_nearest_error_records,artifact_bytes
+pilot5-diagnostic-01:AX:continuity_same_community,continuity_same_community,False,False,True,0,False,86,10145,ok,,,False,,74288085
+pilot5-diagnostic-01:AX:switch_same_community,switch_same_community,True,False,True,1,True,83,10031,ok,True,4,,,77763386
+pilot5-diagnostic-01:AX:continuity_changed_community,continuity_changed_community,False,True,True,0,False,89,10022,ok,,,False,,60016324
+pilot5-diagnostic-01:AX:switch_changed_community,switch_changed_community,True,True,True,1,True,84,10017,ok,True,5,,,61036783

@@ -1,0 +1,1134 @@
+[
+  {
+    "anchor_id": "AX",
+    "artifact_bytes": 74288085,
+    "block_id": "pilot5-diagnostic-01",
+    "case_id": "pilot5-diagnostic-01:AX:continuity_same_community",
+    "community_change": false,
+    "condition": "continuity_same_community",
+    "dispatch_status": "attempted",
+    "effective_exit_code": 0,
+    "external_wrapper_artifact_limit_reached": false,
+    "full_pipeline_statuses": {
+      "activity": {
+        "reason_codes": [],
+        "status": "ok"
+      },
+      "ai_text_detection": {
+        "reason_codes": [
+          "not_implemented_in_v1"
+        ],
+        "status": "not_run"
+      },
+      "coverage": {
+        "reason_codes": [],
+        "status": "ok"
+      },
+      "interactions": {
+        "reason_codes": [],
+        "status": "ok"
+      },
+      "links": {
+        "reason_codes": [],
+        "status": "ok"
+      },
+      "reuse": {
+        "reason_codes": [],
+        "status": "ok"
+      },
+      "style": {
+        "reason_codes": [],
+        "status": "ok"
+      },
+      "text": {
+        "reason_codes": [],
+        "status": "ok"
+      }
+    },
+    "left_cell_id": "pilot5-diagnostic-01:A:X:early",
+    "native_change_status": "ok",
+    "primary_window_check": "all_primary_memberships_counts_positions_verified",
+    "record_count": 86,
+    "resources": {
+      "child_peak_rss_mib": 342.34375,
+      "exit_code": 0,
+      "external_artifact_limit_reached": false,
+      "external_wall_limit_reached": false,
+      "wall_seconds": 44.36773996500415
+    },
+    "results_sha256": "0a268927f86e8798ae7373a0d7e96de0e45f54408c3d03c588a58cb0a8a47f74",
+    "retained_words": 10145,
+    "right_cell_id": "pilot5-diagnostic-01:A:X:late",
+    "score": {
+      "candidate_count": 0,
+      "candidate_intervals": [],
+      "candidate_occurrence": false,
+      "control_junction_diagnostic": {
+        "exact_interval_containment": false,
+        "excess_error_over_best_grid_records": null,
+        "matched_candidate_count": 0,
+        "matched_within_tolerance": false,
+        "nearest_interval": null,
+        "nearest_interval_error_records": null,
+        "reference_split_k": 42,
+        "unmatched_candidate_count": 0
+      },
+      "executed": true,
+      "grid_resolution": {
+        "adequate_window_count": true,
+        "attainable_within_tolerance": true,
+        "best_interval_error_records": 4,
+        "exact_containment_attainable": false,
+        "legal_boundaries": [
+          {
+            "elapsed_seconds": 100187.0,
+            "left_record_position": 25,
+            "left_utc": "2017-10-20T08:41:10Z",
+            "possible_split_position_count": 1,
+            "record_gap_positions": 0,
+            "right_record_position": 26,
+            "right_utc": "2017-10-21T12:30:57Z",
+            "split_interval": [
+              26,
+              26
+            ],
+            "window_index": 3
+          },
+          {
+            "elapsed_seconds": 97429.0,
+            "left_record_position": 37,
+            "left_utc": "2017-10-25T08:11:29Z",
+            "possible_split_position_count": 1,
+            "record_gap_positions": 0,
+            "right_record_position": 38,
+            "right_utc": "2017-10-26T11:15:18Z",
+            "split_interval": [
+              38,
+              38
+            ],
+            "window_index": 4
+          },
+          {
+            "elapsed_seconds": 323.0,
+            "left_record_position": 45,
+            "left_utc": "2017-11-08T07:28:34Z",
+            "possible_split_position_count": 1,
+            "record_gap_positions": 0,
+            "right_record_position": 46,
+            "right_utc": "2017-11-08T07:33:57Z",
+            "split_interval": [
+              46,
+              46
+            ],
+            "window_index": 5
+          },
+          {
+            "elapsed_seconds": 10716.0,
+            "left_record_position": 55,
+            "left_utc": "2017-11-12T08:45:48Z",
+            "possible_split_position_count": 1,
+            "record_gap_positions": 0,
+            "right_record_position": 56,
+            "right_utc": "2017-11-12T11:44:24Z",
+            "split_interval": [
+              56,
+              56
+            ],
+            "window_index": 6
+          }
+        ],
+        "legal_boundary_count": 4,
+        "minimum_qualified_windows": 8,
+        "minimum_segment_windows": 3,
+        "nearest_legal_boundary": {
+          "elapsed_seconds": 97429.0,
+          "left_record_position": 37,
+          "left_utc": "2017-10-25T08:11:29Z",
+          "possible_split_position_count": 1,
+          "record_gap_positions": 0,
+          "right_record_position": 38,
+          "right_utc": "2017-10-26T11:15:18Z",
+          "split_interval": [
+            38,
+            38
+          ],
+          "window_index": 4
+        },
+        "qualified_window_count": 9,
+        "reference_split_k": 42,
+        "reference_type": "control_construction_junction"
+      },
+      "reason_codes": [],
+      "schema_version": "pilot4-chronology-math-v1",
+      "status": "ok",
+      "switch_localization": null,
+      "temporal_resolution": {
+        "construction_junction": {
+          "elapsed_seconds": 753725.0,
+          "left_record_position": 41,
+          "left_utc": "2017-10-27T16:56:47Z",
+          "possible_split_position_count": 1,
+          "record_gap_positions": 0,
+          "right_record_position": 42,
+          "right_utc": "2017-11-05T10:18:52Z",
+          "split_interval": [
+            42,
+            42
+          ]
+        },
+        "elapsed_seconds": 4421530.0,
+        "first_utc": "2017-10-12T14:03:43Z",
+        "last_utc": "2017-12-02T18:15:53Z",
+        "missing_timestamp_count": 0,
+        "qualified_windows": [
+          {
+            "first_record_position": 0,
+            "first_utc": "2017-10-12T14:03:43Z",
+            "last_record_position": 7,
+            "last_utc": "2017-10-13T07:45:35Z",
+            "record_count": 8,
+            "straddles_construction_junction": false,
+            "window_index": 0,
+            "word_count": 1173
+          },
+          {
+            "first_record_position": 8,
+            "first_utc": "2017-10-13T12:43:41Z",
+            "last_record_position": 17,
+            "last_utc": "2017-10-18T09:10:45Z",
+            "record_count": 10,
+            "straddles_construction_junction": false,
+            "window_index": 1,
+            "word_count": 1001
+          },
+          {
+            "first_record_position": 18,
+            "first_utc": "2017-10-18T14:24:30Z",
+            "last_record_position": 25,
+            "last_utc": "2017-10-20T08:41:10Z",
+            "record_count": 8,
+            "straddles_construction_junction": false,
+            "window_index": 2,
+            "word_count": 1355
+          },
+          {
+            "first_record_position": 26,
+            "first_utc": "2017-10-21T12:30:57Z",
+            "last_record_position": 37,
+            "last_utc": "2017-10-25T08:11:29Z",
+            "record_count": 12,
+            "straddles_construction_junction": false,
+            "window_index": 3,
+            "word_count": 1012
+          },
+          {
+            "first_record_position": 38,
+            "first_utc": "2017-10-26T11:15:18Z",
+            "last_record_position": 45,
+            "last_utc": "2017-11-08T07:28:34Z",
+            "record_count": 8,
+            "straddles_construction_junction": true,
+            "window_index": 4,
+            "word_count": 1389
+          },
+          {
+            "first_record_position": 46,
+            "first_utc": "2017-11-08T07:33:57Z",
+            "last_record_position": 55,
+            "last_utc": "2017-11-12T08:45:48Z",
+            "record_count": 10,
+            "straddles_construction_junction": false,
+            "window_index": 5,
+            "word_count": 1058
+          },
+          {
+            "first_record_position": 56,
+            "first_utc": "2017-11-12T11:44:24Z",
+            "last_record_position": 66,
+            "last_utc": "2017-11-19T10:36:17Z",
+            "record_count": 11,
+            "straddles_construction_junction": false,
+            "window_index": 6,
+            "word_count": 1045
+          },
+          {
+            "first_record_position": 67,
+            "first_utc": "2017-11-19T15:43:02Z",
+            "last_record_position": 76,
+            "last_utc": "2017-11-24T08:11:42Z",
+            "record_count": 10,
+            "straddles_construction_junction": false,
+            "window_index": 7,
+            "word_count": 1017
+          },
+          {
+            "first_record_position": 77,
+            "first_utc": "2017-11-26T09:41:32Z",
+            "last_record_position": 85,
+            "last_utc": "2017-12-02T18:15:53Z",
+            "record_count": 9,
+            "straddles_construction_junction": false,
+            "window_index": 8,
+            "word_count": 1095
+          }
+        ],
+        "supplied_record_count": 86
+      },
+      "tolerance_records": 10,
+      "truth_boundaries": []
+    },
+    "source_switch": false,
+    "stratum_id": "stratum-02"
+  },
+  {
+    "anchor_id": "AX",
+    "artifact_bytes": 77763386,
+    "block_id": "pilot5-diagnostic-01",
+    "case_id": "pilot5-diagnostic-01:AX:switch_same_community",
+    "community_change": false,
+    "condition": "switch_same_community",
+    "dispatch_status": "attempted",
+    "effective_exit_code": 0,
+    "external_wrapper_artifact_limit_reached": false,
+    "full_pipeline_statuses": {
+      "activity": {
+        "reason_codes": [],
+        "status": "ok"
+      },
+      "ai_text_detection": {
+        "reason_codes": [
+          "not_implemented_in_v1"
+        ],
+        "status": "not_run"
+      },
+      "coverage": {
+        "reason_codes": [],
+        "status": "ok"
+      },
+      "interactions": {
+        "reason_codes": [],
+        "status": "ok"
+      },
+      "links": {
+        "reason_codes": [],
+        "status": "ok"
+      },
+      "reuse": {
+        "reason_codes": [],
+        "status": "ok"
+      },
+      "style": {
+        "reason_codes": [],
+        "status": "ok"
+      },
+      "text": {
+        "reason_codes": [],
+        "status": "ok"
+      }
+    },
+    "left_cell_id": "pilot5-diagnostic-01:A:X:early",
+    "native_change_status": "ok",
+    "primary_window_check": "all_primary_memberships_counts_positions_verified",
+    "record_count": 83,
+    "resources": {
+      "child_peak_rss_mib": 357.5078125,
+      "exit_code": 0,
+      "external_artifact_limit_reached": false,
+      "external_wall_limit_reached": false,
+      "wall_seconds": 46.82238885900006
+    },
+    "results_sha256": "f9510b26135cfb924a358df747841e91c499db9bf0cb5aa8caf83d25f019f68a",
+    "retained_words": 10031,
+    "right_cell_id": "pilot5-diagnostic-01:B:X:late",
+    "score": {
+      "candidate_count": 1,
+      "candidate_intervals": [
+        {
+          "elapsed_seconds": 97429.0,
+          "left_record_position": 37,
+          "left_utc": "2017-10-25T08:11:29Z",
+          "possible_split_position_count": 1,
+          "record_gap_positions": 0,
+          "right_record_position": 38,
+          "right_utc": "2017-10-26T11:15:18Z",
+          "split_interval": [
+            38,
+            38
+          ]
+        }
+      ],
+      "candidate_occurrence": true,
+      "control_junction_diagnostic": null,
+      "executed": true,
+      "grid_resolution": {
+        "adequate_window_count": true,
+        "attainable_within_tolerance": true,
+        "best_interval_error_records": 4,
+        "exact_containment_attainable": false,
+        "legal_boundaries": [
+          {
+            "elapsed_seconds": 100187.0,
+            "left_record_position": 25,
+            "left_utc": "2017-10-20T08:41:10Z",
+            "possible_split_position_count": 1,
+            "record_gap_positions": 0,
+            "right_record_position": 26,
+            "right_utc": "2017-10-21T12:30:57Z",
+            "split_interval": [
+              26,
+              26
+            ],
+            "window_index": 3
+          },
+          {
+            "elapsed_seconds": 97429.0,
+            "left_record_position": 37,
+            "left_utc": "2017-10-25T08:11:29Z",
+            "possible_split_position_count": 1,
+            "record_gap_positions": 0,
+            "right_record_position": 38,
+            "right_utc": "2017-10-26T11:15:18Z",
+            "split_interval": [
+              38,
+              38
+            ],
+            "window_index": 4
+          },
+          {
+            "elapsed_seconds": 475.0,
+            "left_record_position": 45,
+            "left_utc": "2017-11-01T20:38:31Z",
+            "possible_split_position_count": 1,
+            "record_gap_positions": 0,
+            "right_record_position": 46,
+            "right_utc": "2017-11-01T20:46:26Z",
+            "split_interval": [
+              46,
+              46
+            ],
+            "window_index": 5
+          },
+          {
+            "elapsed_seconds": 39561.0,
+            "left_record_position": 53,
+            "left_utc": "2017-11-05T02:41:26Z",
+            "possible_split_position_count": 1,
+            "record_gap_positions": 0,
+            "right_record_position": 54,
+            "right_utc": "2017-11-05T13:40:47Z",
+            "split_interval": [
+              54,
+              54
+            ],
+            "window_index": 6
+          }
+        ],
+        "legal_boundary_count": 4,
+        "minimum_qualified_windows": 8,
+        "minimum_segment_windows": 3,
+        "nearest_legal_boundary": {
+          "elapsed_seconds": 97429.0,
+          "left_record_position": 37,
+          "left_utc": "2017-10-25T08:11:29Z",
+          "possible_split_position_count": 1,
+          "record_gap_positions": 0,
+          "right_record_position": 38,
+          "right_utc": "2017-10-26T11:15:18Z",
+          "split_interval": [
+            38,
+            38
+          ],
+          "window_index": 4
+        },
+        "qualified_window_count": 9,
+        "reference_split_k": 42,
+        "reference_type": "source_switch_truth"
+      },
+      "reason_codes": [],
+      "schema_version": "pilot4-chronology-math-v1",
+      "status": "ok",
+      "switch_localization": {
+        "exact_interval_containment": false,
+        "excess_error_over_best_grid_records": 0,
+        "matched_candidate_count": 1,
+        "matched_within_tolerance": true,
+        "nearest_interval": {
+          "elapsed_seconds": 97429.0,
+          "left_record_position": 37,
+          "left_utc": "2017-10-25T08:11:29Z",
+          "possible_split_position_count": 1,
+          "record_gap_positions": 0,
+          "right_record_position": 38,
+          "right_utc": "2017-10-26T11:15:18Z",
+          "split_interval": [
+            38,
+            38
+          ]
+        },
+        "nearest_interval_error_records": 4,
+        "reference_split_k": 42,
+        "unmatched_candidate_count": 0
+      },
+      "temporal_resolution": {
+        "construction_junction": {
+          "elapsed_seconds": 377103.0,
+          "left_record_position": 41,
+          "left_utc": "2017-10-27T16:56:47Z",
+          "possible_split_position_count": 1,
+          "record_gap_positions": 0,
+          "right_record_position": 42,
+          "right_utc": "2017-11-01T01:41:50Z",
+          "split_interval": [
+            42,
+            42
+          ]
+        },
+        "elapsed_seconds": 3497832.0,
+        "first_utc": "2017-10-12T14:03:43Z",
+        "last_utc": "2017-11-22T01:40:55Z",
+        "missing_timestamp_count": 0,
+        "qualified_windows": [
+          {
+            "first_record_position": 0,
+            "first_utc": "2017-10-12T14:03:43Z",
+            "last_record_position": 7,
+            "last_utc": "2017-10-13T07:45:35Z",
+            "record_count": 8,
+            "straddles_construction_junction": false,
+            "window_index": 0,
+            "word_count": 1173
+          },
+          {
+            "first_record_position": 8,
+            "first_utc": "2017-10-13T12:43:41Z",
+            "last_record_position": 17,
+            "last_utc": "2017-10-18T09:10:45Z",
+            "record_count": 10,
+            "straddles_construction_junction": false,
+            "window_index": 1,
+            "word_count": 1001
+          },
+          {
+            "first_record_position": 18,
+            "first_utc": "2017-10-18T14:24:30Z",
+            "last_record_position": 25,
+            "last_utc": "2017-10-20T08:41:10Z",
+            "record_count": 8,
+            "straddles_construction_junction": false,
+            "window_index": 2,
+            "word_count": 1355
+          },
+          {
+            "first_record_position": 26,
+            "first_utc": "2017-10-21T12:30:57Z",
+            "last_record_position": 37,
+            "last_utc": "2017-10-25T08:11:29Z",
+            "record_count": 12,
+            "straddles_construction_junction": false,
+            "window_index": 3,
+            "word_count": 1012
+          },
+          {
+            "first_record_position": 38,
+            "first_utc": "2017-10-26T11:15:18Z",
+            "last_record_position": 45,
+            "last_utc": "2017-11-01T20:38:31Z",
+            "record_count": 8,
+            "straddles_construction_junction": true,
+            "window_index": 4,
+            "word_count": 1111
+          },
+          {
+            "first_record_position": 46,
+            "first_utc": "2017-11-01T20:46:26Z",
+            "last_record_position": 53,
+            "last_utc": "2017-11-05T02:41:26Z",
+            "record_count": 8,
+            "straddles_construction_junction": false,
+            "window_index": 5,
+            "word_count": 1038
+          },
+          {
+            "first_record_position": 54,
+            "first_utc": "2017-11-05T13:40:47Z",
+            "last_record_position": 63,
+            "last_utc": "2017-11-10T15:38:28Z",
+            "record_count": 10,
+            "straddles_construction_junction": false,
+            "window_index": 6,
+            "word_count": 1073
+          },
+          {
+            "first_record_position": 64,
+            "first_utc": "2017-11-10T18:07:50Z",
+            "last_record_position": 71,
+            "last_utc": "2017-11-14T02:32:07Z",
+            "record_count": 8,
+            "straddles_construction_junction": false,
+            "window_index": 7,
+            "word_count": 1168
+          },
+          {
+            "first_record_position": 72,
+            "first_utc": "2017-11-14T05:13:04Z",
+            "last_record_position": 81,
+            "last_utc": "2017-11-21T03:57:52Z",
+            "record_count": 10,
+            "straddles_construction_junction": false,
+            "window_index": 8,
+            "word_count": 1031
+          }
+        ],
+        "supplied_record_count": 83
+      },
+      "tolerance_records": 10,
+      "truth_boundaries": [
+        42
+      ]
+    },
+    "source_switch": true,
+    "stratum_id": "stratum-02"
+  },
+  {
+    "anchor_id": "AX",
+    "artifact_bytes": 60016324,
+    "block_id": "pilot5-diagnostic-01",
+    "case_id": "pilot5-diagnostic-01:AX:continuity_changed_community",
+    "community_change": true,
+    "condition": "continuity_changed_community",
+    "dispatch_status": "attempted",
+    "effective_exit_code": 0,
+    "external_wrapper_artifact_limit_reached": false,
+    "full_pipeline_statuses": {
+      "activity": {
+        "reason_codes": [],
+        "status": "ok"
+      },
+      "ai_text_detection": {
+        "reason_codes": [
+          "not_implemented_in_v1"
+        ],
+        "status": "not_run"
+      },
+      "coverage": {
+        "reason_codes": [],
+        "status": "ok"
+      },
+      "interactions": {
+        "reason_codes": [],
+        "status": "ok"
+      },
+      "links": {
+        "reason_codes": [],
+        "status": "ok"
+      },
+      "reuse": {
+        "reason_codes": [],
+        "status": "ok"
+      },
+      "style": {
+        "reason_codes": [],
+        "status": "ok"
+      },
+      "text": {
+        "reason_codes": [],
+        "status": "ok"
+      }
+    },
+    "left_cell_id": "pilot5-diagnostic-01:A:X:early",
+    "native_change_status": "ok",
+    "primary_window_check": "all_primary_memberships_counts_positions_verified",
+    "record_count": 89,
+    "resources": {
+      "child_peak_rss_mib": 298.34765625,
+      "exit_code": 0,
+      "external_artifact_limit_reached": false,
+      "external_wall_limit_reached": false,
+      "wall_seconds": 35.59724194701994
+    },
+    "results_sha256": "a291613c4ec36131d210825ed03cf628301812dba02a4716e42482d55ba2aa85",
+    "retained_words": 10022,
+    "right_cell_id": "pilot5-diagnostic-01:A:Y:late",
+    "score": {
+      "candidate_count": 0,
+      "candidate_intervals": [],
+      "candidate_occurrence": false,
+      "control_junction_diagnostic": {
+        "exact_interval_containment": false,
+        "excess_error_over_best_grid_records": null,
+        "matched_candidate_count": 0,
+        "matched_within_tolerance": false,
+        "nearest_interval": null,
+        "nearest_interval_error_records": null,
+        "reference_split_k": 42,
+        "unmatched_candidate_count": 0
+      },
+      "executed": true,
+      "grid_resolution": {
+        "adequate_window_count": true,
+        "attainable_within_tolerance": true,
+        "best_interval_error_records": 4,
+        "exact_containment_attainable": false,
+        "legal_boundaries": [
+          {
+            "elapsed_seconds": 100187.0,
+            "left_record_position": 25,
+            "left_utc": "2017-10-20T08:41:10Z",
+            "possible_split_position_count": 1,
+            "record_gap_positions": 0,
+            "right_record_position": 26,
+            "right_utc": "2017-10-21T12:30:57Z",
+            "split_interval": [
+              26,
+              26
+            ],
+            "window_index": 3
+          },
+          {
+            "elapsed_seconds": 97429.0,
+            "left_record_position": 37,
+            "left_utc": "2017-10-25T08:11:29Z",
+            "possible_split_position_count": 1,
+            "record_gap_positions": 0,
+            "right_record_position": 38,
+            "right_utc": "2017-10-26T11:15:18Z",
+            "split_interval": [
+              38,
+              38
+            ],
+            "window_index": 4
+          },
+          {
+            "elapsed_seconds": 77924.0,
+            "left_record_position": 49,
+            "left_utc": "2017-11-09T10:41:50Z",
+            "possible_split_position_count": 1,
+            "record_gap_positions": 0,
+            "right_record_position": 50,
+            "right_utc": "2017-11-10T08:20:34Z",
+            "split_interval": [
+              50,
+              50
+            ],
+            "window_index": 5
+          }
+        ],
+        "legal_boundary_count": 3,
+        "minimum_qualified_windows": 8,
+        "minimum_segment_windows": 3,
+        "nearest_legal_boundary": {
+          "elapsed_seconds": 97429.0,
+          "left_record_position": 37,
+          "left_utc": "2017-10-25T08:11:29Z",
+          "possible_split_position_count": 1,
+          "record_gap_positions": 0,
+          "right_record_position": 38,
+          "right_utc": "2017-10-26T11:15:18Z",
+          "split_interval": [
+            38,
+            38
+          ],
+          "window_index": 4
+        },
+        "qualified_window_count": 8,
+        "reference_split_k": 42,
+        "reference_type": "control_construction_junction"
+      },
+      "reason_codes": [],
+      "schema_version": "pilot4-chronology-math-v1",
+      "status": "ok",
+      "switch_localization": null,
+      "temporal_resolution": {
+        "construction_junction": {
+          "elapsed_seconds": 656977.0,
+          "left_record_position": 41,
+          "left_utc": "2017-10-27T16:56:47Z",
+          "possible_split_position_count": 1,
+          "record_gap_positions": 0,
+          "right_record_position": 42,
+          "right_utc": "2017-11-04T07:26:24Z",
+          "split_interval": [
+            42,
+            42
+          ]
+        },
+        "elapsed_seconds": 7261578.0,
+        "first_utc": "2017-10-12T14:03:43Z",
+        "last_utc": "2018-01-04T15:10:01Z",
+        "missing_timestamp_count": 0,
+        "qualified_windows": [
+          {
+            "first_record_position": 0,
+            "first_utc": "2017-10-12T14:03:43Z",
+            "last_record_position": 7,
+            "last_utc": "2017-10-13T07:45:35Z",
+            "record_count": 8,
+            "straddles_construction_junction": false,
+            "window_index": 0,
+            "word_count": 1173
+          },
+          {
+            "first_record_position": 8,
+            "first_utc": "2017-10-13T12:43:41Z",
+            "last_record_position": 17,
+            "last_utc": "2017-10-18T09:10:45Z",
+            "record_count": 10,
+            "straddles_construction_junction": false,
+            "window_index": 1,
+            "word_count": 1001
+          },
+          {
+            "first_record_position": 18,
+            "first_utc": "2017-10-18T14:24:30Z",
+            "last_record_position": 25,
+            "last_utc": "2017-10-20T08:41:10Z",
+            "record_count": 8,
+            "straddles_construction_junction": false,
+            "window_index": 2,
+            "word_count": 1355
+          },
+          {
+            "first_record_position": 26,
+            "first_utc": "2017-10-21T12:30:57Z",
+            "last_record_position": 37,
+            "last_utc": "2017-10-25T08:11:29Z",
+            "record_count": 12,
+            "straddles_construction_junction": false,
+            "window_index": 3,
+            "word_count": 1012
+          },
+          {
+            "first_record_position": 38,
+            "first_utc": "2017-10-26T11:15:18Z",
+            "last_record_position": 49,
+            "last_utc": "2017-11-09T10:41:50Z",
+            "record_count": 12,
+            "straddles_construction_junction": true,
+            "window_index": 4,
+            "word_count": 1019
+          },
+          {
+            "first_record_position": 50,
+            "first_utc": "2017-11-10T08:20:34Z",
+            "last_record_position": 64,
+            "last_utc": "2017-11-21T23:46:32Z",
+            "record_count": 15,
+            "straddles_construction_junction": false,
+            "window_index": 5,
+            "word_count": 1068
+          },
+          {
+            "first_record_position": 65,
+            "first_utc": "2017-12-02T08:44:03Z",
+            "last_record_position": 74,
+            "last_utc": "2017-12-23T07:48:18Z",
+            "record_count": 10,
+            "straddles_construction_junction": false,
+            "window_index": 6,
+            "word_count": 1126
+          },
+          {
+            "first_record_position": 75,
+            "first_utc": "2017-12-23T15:07:06Z",
+            "last_record_position": 82,
+            "last_utc": "2017-12-27T17:59:05Z",
+            "record_count": 8,
+            "straddles_construction_junction": false,
+            "window_index": 7,
+            "word_count": 1424
+          }
+        ],
+        "supplied_record_count": 89
+      },
+      "tolerance_records": 10,
+      "truth_boundaries": []
+    },
+    "source_switch": false,
+    "stratum_id": "stratum-02"
+  },
+  {
+    "anchor_id": "AX",
+    "artifact_bytes": 61036783,
+    "block_id": "pilot5-diagnostic-01",
+    "case_id": "pilot5-diagnostic-01:AX:switch_changed_community",
+    "community_change": true,
+    "condition": "switch_changed_community",
+    "dispatch_status": "attempted",
+    "effective_exit_code": 0,
+    "external_wrapper_artifact_limit_reached": false,
+    "full_pipeline_statuses": {
+      "activity": {
+        "reason_codes": [],
+        "status": "ok"
+      },
+      "ai_text_detection": {
+        "reason_codes": [
+          "not_implemented_in_v1"
+        ],
+        "status": "not_run"
+      },
+      "coverage": {
+        "reason_codes": [],
+        "status": "ok"
+      },
+      "interactions": {
+        "reason_codes": [],
+        "status": "ok"
+      },
+      "links": {
+        "reason_codes": [],
+        "status": "ok"
+      },
+      "reuse": {
+        "reason_codes": [],
+        "status": "ok"
+      },
+      "style": {
+        "reason_codes": [],
+        "status": "ok"
+      },
+      "text": {
+        "reason_codes": [],
+        "status": "ok"
+      }
+    },
+    "left_cell_id": "pilot5-diagnostic-01:A:X:early",
+    "native_change_status": "ok",
+    "primary_window_check": "all_primary_memberships_counts_positions_verified",
+    "record_count": 84,
+    "resources": {
+      "child_peak_rss_mib": 303.640625,
+      "exit_code": 0,
+      "external_artifact_limit_reached": false,
+      "external_wall_limit_reached": false,
+      "wall_seconds": 36.747687402996235
+    },
+    "results_sha256": "fbf457e9dcc26f93e114ba423e0f33a56315b6716a3b8d9fc146431f2fc05ddb",
+    "retained_words": 10017,
+    "right_cell_id": "pilot5-diagnostic-01:B:Y:late",
+    "score": {
+      "candidate_count": 1,
+      "candidate_intervals": [
+        {
+          "elapsed_seconds": 100949.0,
+          "left_record_position": 46,
+          "left_utc": "2017-11-04T00:10:43Z",
+          "possible_split_position_count": 1,
+          "record_gap_positions": 0,
+          "right_record_position": 47,
+          "right_utc": "2017-11-05T04:13:12Z",
+          "split_interval": [
+            47,
+            47
+          ]
+        }
+      ],
+      "candidate_occurrence": true,
+      "control_junction_diagnostic": null,
+      "executed": true,
+      "grid_resolution": {
+        "adequate_window_count": true,
+        "attainable_within_tolerance": true,
+        "best_interval_error_records": 4,
+        "exact_containment_attainable": false,
+        "legal_boundaries": [
+          {
+            "elapsed_seconds": 100187.0,
+            "left_record_position": 25,
+            "left_utc": "2017-10-20T08:41:10Z",
+            "possible_split_position_count": 1,
+            "record_gap_positions": 0,
+            "right_record_position": 26,
+            "right_utc": "2017-10-21T12:30:57Z",
+            "split_interval": [
+              26,
+              26
+            ],
+            "window_index": 3
+          },
+          {
+            "elapsed_seconds": 97429.0,
+            "left_record_position": 37,
+            "left_utc": "2017-10-25T08:11:29Z",
+            "possible_split_position_count": 1,
+            "record_gap_positions": 0,
+            "right_record_position": 38,
+            "right_utc": "2017-10-26T11:15:18Z",
+            "split_interval": [
+              38,
+              38
+            ],
+            "window_index": 4
+          },
+          {
+            "elapsed_seconds": 100949.0,
+            "left_record_position": 46,
+            "left_utc": "2017-11-04T00:10:43Z",
+            "possible_split_position_count": 1,
+            "record_gap_positions": 0,
+            "right_record_position": 47,
+            "right_utc": "2017-11-05T04:13:12Z",
+            "split_interval": [
+              47,
+              47
+            ],
+            "window_index": 5
+          }
+        ],
+        "legal_boundary_count": 3,
+        "minimum_qualified_windows": 8,
+        "minimum_segment_windows": 3,
+        "nearest_legal_boundary": {
+          "elapsed_seconds": 97429.0,
+          "left_record_position": 37,
+          "left_utc": "2017-10-25T08:11:29Z",
+          "possible_split_position_count": 1,
+          "record_gap_positions": 0,
+          "right_record_position": 38,
+          "right_utc": "2017-10-26T11:15:18Z",
+          "split_interval": [
+            38,
+            38
+          ],
+          "window_index": 4
+        },
+        "qualified_window_count": 8,
+        "reference_split_k": 42,
+        "reference_type": "source_switch_truth"
+      },
+      "reason_codes": [],
+      "schema_version": "pilot4-chronology-math-v1",
+      "status": "ok",
+      "switch_localization": {
+        "exact_interval_containment": false,
+        "excess_error_over_best_grid_records": 1,
+        "matched_candidate_count": 1,
+        "matched_within_tolerance": true,
+        "nearest_interval": {
+          "elapsed_seconds": 100949.0,
+          "left_record_position": 46,
+          "left_utc": "2017-11-04T00:10:43Z",
+          "possible_split_position_count": 1,
+          "record_gap_positions": 0,
+          "right_record_position": 47,
+          "right_utc": "2017-11-05T04:13:12Z",
+          "split_interval": [
+            47,
+            47
+          ]
+        },
+        "nearest_interval_error_records": 5,
+        "reference_split_k": 42,
+        "unmatched_candidate_count": 0
+      },
+      "temporal_resolution": {
+        "construction_junction": {
+          "elapsed_seconds": 511635.0,
+          "left_record_position": 41,
+          "left_utc": "2017-10-27T16:56:47Z",
+          "possible_split_position_count": 1,
+          "record_gap_positions": 0,
+          "right_record_position": 42,
+          "right_utc": "2017-11-02T15:04:02Z",
+          "split_interval": [
+            42,
+            42
+          ]
+        },
+        "elapsed_seconds": 4111653.0,
+        "first_utc": "2017-10-12T14:03:43Z",
+        "last_utc": "2017-11-29T04:11:16Z",
+        "missing_timestamp_count": 0,
+        "qualified_windows": [
+          {
+            "first_record_position": 0,
+            "first_utc": "2017-10-12T14:03:43Z",
+            "last_record_position": 7,
+            "last_utc": "2017-10-13T07:45:35Z",
+            "record_count": 8,
+            "straddles_construction_junction": false,
+            "window_index": 0,
+            "word_count": 1173
+          },
+          {
+            "first_record_position": 8,
+            "first_utc": "2017-10-13T12:43:41Z",
+            "last_record_position": 17,
+            "last_utc": "2017-10-18T09:10:45Z",
+            "record_count": 10,
+            "straddles_construction_junction": false,
+            "window_index": 1,
+            "word_count": 1001
+          },
+          {
+            "first_record_position": 18,
+            "first_utc": "2017-10-18T14:24:30Z",
+            "last_record_position": 25,
+            "last_utc": "2017-10-20T08:41:10Z",
+            "record_count": 8,
+            "straddles_construction_junction": false,
+            "window_index": 2,
+            "word_count": 1355
+          },
+          {
+            "first_record_position": 26,
+            "first_utc": "2017-10-21T12:30:57Z",
+            "last_record_position": 37,
+            "last_utc": "2017-10-25T08:11:29Z",
+            "record_count": 12,
+            "straddles_construction_junction": false,
+            "window_index": 3,
+            "word_count": 1012
+          },
+          {
+            "first_record_position": 38,
+            "first_utc": "2017-10-26T11:15:18Z",
+            "last_record_position": 46,
+            "last_utc": "2017-11-04T00:10:43Z",
+            "record_count": 9,
+            "straddles_construction_junction": true,
+            "window_index": 4,
+            "word_count": 1101
+          },
+          {
+            "first_record_position": 47,
+            "first_utc": "2017-11-05T04:13:12Z",
+            "last_record_position": 56,
+            "last_utc": "2017-11-11T02:43:54Z",
+            "record_count": 10,
+            "straddles_construction_junction": false,
+            "window_index": 5,
+            "word_count": 1085
+          },
+          {
+            "first_record_position": 57,
+            "first_utc": "2017-11-11T06:38:25Z",
+            "last_record_position": 67,
+            "last_utc": "2017-11-15T22:56:47Z",
+            "record_count": 11,
+            "straddles_construction_junction": false,
+            "window_index": 6,
+            "word_count": 1059
+          },
+          {
+            "first_record_position": 68,
+            "first_utc": "2017-11-16T00:22:51Z",
+            "last_record_position": 76,
+            "last_utc": "2017-11-23T22:57:37Z",
+            "record_count": 9,
+            "straddles_construction_junction": false,
+            "window_index": 7,
+            "word_count": 1113
+          }
+        ],
+        "supplied_record_count": 84
+      },
+      "tolerance_records": 10,
+      "truth_boundaries": [
+        42
+      ]
+    },
+    "source_switch": true,
+    "stratum_id": "stratum-02"
+  }
+]

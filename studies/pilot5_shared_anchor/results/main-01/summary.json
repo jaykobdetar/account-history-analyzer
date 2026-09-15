@@ -1,0 +1,26 @@
+{
+  "descriptive_switch_minus_control": [
+    {
+      "both_executed": true,
+      "community_change": false,
+      "switch_minus_control_candidate_count": 1,
+      "switch_minus_control_candidate_occurrence": 1
+    },
+    {
+      "both_executed": true,
+      "community_change": true,
+      "switch_minus_control_candidate_count": 1,
+      "switch_minus_control_candidate_occurrence": 1
+    }
+  ],
+  "distinct_samples": 5,
+  "executed_histories": 4,
+  "execution_manifest_sha256": "a5e7b61446df63965a8e4a23e46c4c86d9d69083d7c5612d530d9455c53531da",
+  "independent_replicates_estimated": false,
+  "input_index_sha256": "e018dc50f000713c391c2a7479bc840951e986bede3160713192bcbc9f87b166",
+  "interpretation": "Four descriptive histories share one anchor. Contrasts concern this constructed diagnostic only; no IID means, confidence intervals, population accuracy or causal effects are estimated.",
+  "planned_histories": 4,
+  "registration_sha256": "5851634aa4e092d2429ec4e3b0288605ab854d38ce007f8936604a73755227e4",
+  "shared_anchor_count": 1,
+  "study": "pilot5_shared_anchor_exploratory"
+}

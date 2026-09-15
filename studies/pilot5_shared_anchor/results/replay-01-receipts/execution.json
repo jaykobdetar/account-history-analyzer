@@ -1,0 +1,534 @@
+{
+  "artifact_bytes": 273121963,
+  "artifact_limit_reached": false,
+  "cases": [
+    {
+      "case_id": "pilot5-diagnostic-01:AX:continuity_same_community",
+      "receipt": {
+        "analyzer_exit_code": 0,
+        "argv": [
+          "<WORKSPACE>/.venv/bin/python",
+          "-B",
+          "-m",
+          "account_history_analyzer",
+          "analyze",
+          "--input",
+          "<PRIVATE_WORK_AREA>/pilot5_private/replay-01/relocated/pilot5-diagnostic-01:AX:continuity_same_community.input.jsonl",
+          "--manifest",
+          "<PRIVATE_WORK_AREA>/pilot5_private/replay-01/relocated/pilot5-diagnostic-01:AX:continuity_same_community.manifest.json",
+          "--out",
+          "<PRIVATE_WORK_AREA>/pilot5_private/replay-01/pilot5-diagnostic-01:AX:continuity_same_community/analysis"
+        ],
+        "artifacts": [
+          {
+            "bytes": 11290,
+            "canonical": true,
+            "name": "activity_daily.svg",
+            "sha256": "b776815b70f08155740b628b559061f7bb28a9f2e3f76396bb104fa31740bbb4"
+          },
+          {
+            "bytes": 6425,
+            "canonical": true,
+            "name": "activity_hourly.svg",
+            "sha256": "e5225ddbe800ab0fbc839de4b63ef78dfd75661050acc7f888fb8d4f42638ff2"
+          },
+          {
+            "bytes": 12698,
+            "canonical": true,
+            "name": "adjacent_distances.svg",
+            "sha256": "09c9d42c490f59b14c680a16fb3b5e39410225597a6593827066a80cf4063779"
+          },
+          {
+            "bytes": 1136,
+            "canonical": true,
+            "name": "checksums.json",
+            "sha256": "9a877057aee0682d1f32bcd9ccbee2262ea13a9a5e7a20e8688580a9487412c9"
+          },
+          {
+            "bytes": 4400,
+            "canonical": true,
+            "name": "eligible_word_volume.svg",
+            "sha256": "31e8f6c48cc88c76c379ce8b0b578d61469fe14d871e3c8cb24fea68c505f6df"
+          },
+          {
+            "bytes": 189003,
+            "canonical": true,
+            "name": "evidence.jsonl",
+            "sha256": "e4f28b34310716e49ff99a363d3e539c632a07bb7fcc3f5764374c10b95467a1"
+          },
+          {
+            "bytes": 697,
+            "canonical": false,
+            "name": "ingest_receipt.json",
+            "sha256": "57ecd286d6dd5b42157a93f0523fd09a45f1541426032f038b2e4b96eb592952"
+          },
+          {
+            "bytes": 336157,
+            "canonical": true,
+            "name": "method_registry.json",
+            "sha256": "1b4d53b648303ea3b10f98e8dc40958b50587bd3c61c2262c83be7fb8a30da26"
+          },
+          {
+            "bytes": 1692064,
+            "canonical": true,
+            "name": "records_features.jsonl",
+            "sha256": "3a1f087b65cc1c736f1664bbde14fda858785d4fa2a91074b9748afdbc06fdc5"
+          },
+          {
+            "bytes": 683388,
+            "canonical": true,
+            "name": "report.html",
+            "sha256": "1f46a5a0494a0c825f89bf630e5e180c2550dc60cb9362a07454c5024ff08899"
+          },
+          {
+            "bytes": 553662,
+            "canonical": true,
+            "name": "report.md",
+            "sha256": "f5568e1b456f063453d3a2cfc6649a699a270bdd443a3f946995e6abfb6736a1"
+          },
+          {
+            "bytes": 2293,
+            "canonical": true,
+            "name": "resolved_config.json",
+            "sha256": "8fd0239fe2f87c9f1506786ac36099fe996e00cc6e021b3ecc67fbb65cd2d925"
+          },
+          {
+            "bytes": 70491811,
+            "canonical": true,
+            "name": "results.json",
+            "sha256": "0a268927f86e8798ae7373a0d7e96de0e45f54408c3d03c588a58cb0a8a47f74"
+          },
+          {
+            "bytes": 2529,
+            "canonical": false,
+            "name": "run_receipt.json",
+            "sha256": "cc232326f8e39cd7ab08513d2e949cf466e8c06a3750062f98d12676c6f21d26"
+          },
+          {
+            "bytes": 16189,
+            "canonical": true,
+            "name": "surface_features.svg",
+            "sha256": "a7f322e7e7dbc9f64740370ce3f8601e4c03a886b6be9bcc1cbe2b36ee6568bb"
+          },
+          {
+            "bytes": 284359,
+            "canonical": true,
+            "name": "windows.jsonl",
+            "sha256": "2237249832050cd1b9bda0e26a9a088c5cd26417f55c8b5fe3391dcf2b7df8c7"
+          }
+        ],
+        "case_id": "pilot5-diagnostic-01:AX:continuity_same_community",
+        "child_peak_rss_mib": 343.6953125,
+        "environment": {
+          "PYTHONHASHSEED": "73129",
+          "PYTHONPATH": "<INSTALLED_BASELINE>",
+          "TZ": "Pacific/Honolulu"
+        },
+        "exit_code": 0,
+        "external_artifact_limit_reached": false,
+        "external_wall_limit_reached": false,
+        "finished_utc": "2026-09-15T03:23:14.636944+00:00",
+        "started_utc": "2026-09-15T03:22:29.899733+00:00",
+        "wall_seconds": 44.73722908401396
+      },
+      "status": "attempted"
+    },
+    {
+      "case_id": "pilot5-diagnostic-01:AX:switch_same_community",
+      "receipt": {
+        "analyzer_exit_code": 0,
+        "argv": [
+          "<WORKSPACE>/.venv/bin/python",
+          "-B",
+          "-m",
+          "account_history_analyzer",
+          "analyze",
+          "--input",
+          "<PRIVATE_WORK_AREA>/pilot5_private/replay-01/relocated/pilot5-diagnostic-01:AX:switch_same_community.input.jsonl",
+          "--manifest",
+          "<PRIVATE_WORK_AREA>/pilot5_private/replay-01/relocated/pilot5-diagnostic-01:AX:switch_same_community.manifest.json",
+          "--out",
+          "<PRIVATE_WORK_AREA>/pilot5_private/replay-01/pilot5-diagnostic-01:AX:switch_same_community/analysis"
+        ],
+        "artifacts": [
+          {
+            "bytes": 9565,
+            "canonical": true,
+            "name": "activity_daily.svg",
+            "sha256": "387ffe9161ed01b58c9d17d9894ce569ae2ecbac43ec754e18b75608d787eb17"
+          },
+          {
+            "bytes": 6456,
+            "canonical": true,
+            "name": "activity_hourly.svg",
+            "sha256": "a1263a092861dc073982477fc94fa3e0db985f56b45ed82511f9eb8c3dc6a03b"
+          },
+          {
+            "bytes": 13194,
+            "canonical": true,
+            "name": "adjacent_distances.svg",
+            "sha256": "80cc65740d8b0f87f5eab5ba02523359fadb0bbeaa17327a1a17787c009c7b80"
+          },
+          {
+            "bytes": 1136,
+            "canonical": true,
+            "name": "checksums.json",
+            "sha256": "50cc93ee54c88508de233865cc04cf4624bfb8becfb8d19c1fe040e2709e5d5b"
+          },
+          {
+            "bytes": 4745,
+            "canonical": true,
+            "name": "eligible_word_volume.svg",
+            "sha256": "595e78436d42e18173c02ccedae632428a546c82de1105b1a1c8efaed125d7a0"
+          },
+          {
+            "bytes": 182743,
+            "canonical": true,
+            "name": "evidence.jsonl",
+            "sha256": "c199a6742b11d22d3752f8be06bcc1c75a5589b73ff1c191079bc7a307ae4bac"
+          },
+          {
+            "bytes": 690,
+            "canonical": false,
+            "name": "ingest_receipt.json",
+            "sha256": "e075c87d79e60a8122e92555debb071c80ae01d42fd1d5cef0b6d72516ad5ac1"
+          },
+          {
+            "bytes": 336157,
+            "canonical": true,
+            "name": "method_registry.json",
+            "sha256": "1b4d53b648303ea3b10f98e8dc40958b50587bd3c61c2262c83be7fb8a30da26"
+          },
+          {
+            "bytes": 1716343,
+            "canonical": true,
+            "name": "records_features.jsonl",
+            "sha256": "3a2b6b10f1096de34d73cf66eebb518e7541f44a75aa3c3de21b40a3c7f74bfc"
+          },
+          {
+            "bytes": 736178,
+            "canonical": true,
+            "name": "report.html",
+            "sha256": "dfbdfb0959e4f8dee033a2cb70bcbc8e11d472ca497ff3b0bd0cb143ccbf54b6"
+          },
+          {
+            "bytes": 596327,
+            "canonical": true,
+            "name": "report.md",
+            "sha256": "61657f21bc8e49a827720a0e567f4d47560378b7f1bc268c44b580141cb57633"
+          },
+          {
+            "bytes": 2293,
+            "canonical": true,
+            "name": "resolved_config.json",
+            "sha256": "8fd0239fe2f87c9f1506786ac36099fe996e00cc6e021b3ecc67fbb65cd2d925"
+          },
+          {
+            "bytes": 73802835,
+            "canonical": true,
+            "name": "results.json",
+            "sha256": "f9510b26135cfb924a358df747841e91c499db9bf0cb5aa8caf83d25f019f68a"
+          },
+          {
+            "bytes": 2529,
+            "canonical": false,
+            "name": "run_receipt.json",
+            "sha256": "a2b5d34cfcd329b6805f63ff650584858bae44535aabf354e5a77ec1d19b748c"
+          },
+          {
+            "bytes": 17350,
+            "canonical": true,
+            "name": "surface_features.svg",
+            "sha256": "015a3bd55ee0aed728f8613b2701b4e7f09bd11c93b42a0e3ff0c5e50bba1db3"
+          },
+          {
+            "bytes": 334861,
+            "canonical": true,
+            "name": "windows.jsonl",
+            "sha256": "98a2ff858240895e47482abcd9fb1abdde26334ffec63997dfd8f3a70e4b551c"
+          }
+        ],
+        "case_id": "pilot5-diagnostic-01:AX:switch_same_community",
+        "child_peak_rss_mib": 358.17578125,
+        "environment": {
+          "PYTHONHASHSEED": "73129",
+          "PYTHONPATH": "<INSTALLED_BASELINE>",
+          "TZ": "Pacific/Honolulu"
+        },
+        "exit_code": 0,
+        "external_artifact_limit_reached": false,
+        "external_wall_limit_reached": false,
+        "finished_utc": "2026-09-15T03:23:16.238054+00:00",
+        "started_utc": "2026-09-15T03:22:29.899760+00:00",
+        "wall_seconds": 46.33830880699679
+      },
+      "status": "attempted"
+    },
+    {
+      "case_id": "pilot5-diagnostic-01:AX:continuity_changed_community",
+      "receipt": {
+        "analyzer_exit_code": 0,
+        "argv": [
+          "<WORKSPACE>/.venv/bin/python",
+          "-B",
+          "-m",
+          "account_history_analyzer",
+          "analyze",
+          "--input",
+          "<PRIVATE_WORK_AREA>/pilot5_private/replay-01/relocated/pilot5-diagnostic-01:AX:continuity_changed_community.input.jsonl",
+          "--manifest",
+          "<PRIVATE_WORK_AREA>/pilot5_private/replay-01/relocated/pilot5-diagnostic-01:AX:continuity_changed_community.manifest.json",
+          "--out",
+          "<PRIVATE_WORK_AREA>/pilot5_private/replay-01/pilot5-diagnostic-01:AX:continuity_changed_community/analysis"
+        ],
+        "artifacts": [
+          {
+            "bytes": 16535,
+            "canonical": true,
+            "name": "activity_daily.svg",
+            "sha256": "4e787ecfc78a65896e0c6a709f3815ad2c2f17f218a20489d12c5847b435cb03"
+          },
+          {
+            "bytes": 6413,
+            "canonical": true,
+            "name": "activity_hourly.svg",
+            "sha256": "d8852445cdfeea5cc788a01203a83a217ee3b0fc245fbba9a8a82f546621efa3"
+          },
+          {
+            "bytes": 11871,
+            "canonical": true,
+            "name": "adjacent_distances.svg",
+            "sha256": "edc16b042b48a22a464e730962fefa276c4095f99141a562481fecd54f820e06"
+          },
+          {
+            "bytes": 1136,
+            "canonical": true,
+            "name": "checksums.json",
+            "sha256": "870c812dff8eeb132b9c6629ba37d7a26923f2cfe0bb763c45d6513ac4fb20d7"
+          },
+          {
+            "bytes": 4395,
+            "canonical": true,
+            "name": "eligible_word_volume.svg",
+            "sha256": "c161ac8892ca15b68d3341152c78e6188527eb115a1f4cf2d3cf03980788ec2d"
+          },
+          {
+            "bytes": 223759,
+            "canonical": true,
+            "name": "evidence.jsonl",
+            "sha256": "03e995b0469f4d56ac140bb89ba5d06a19e40be75b580ec4765b9655f32676b1"
+          },
+          {
+            "bytes": 704,
+            "canonical": false,
+            "name": "ingest_receipt.json",
+            "sha256": "24a74b6794ee7d8e69e93b816d096d8581a9d8824785dc9d0392e8e8ad787689"
+          },
+          {
+            "bytes": 336157,
+            "canonical": true,
+            "name": "method_registry.json",
+            "sha256": "1b4d53b648303ea3b10f98e8dc40958b50587bd3c61c2262c83be7fb8a30da26"
+          },
+          {
+            "bytes": 1698270,
+            "canonical": true,
+            "name": "records_features.jsonl",
+            "sha256": "b446674544006354c7e0383f3d81f52f1e4f2e3e99f70ce0444d4cbba84d79e1"
+          },
+          {
+            "bytes": 664481,
+            "canonical": true,
+            "name": "report.html",
+            "sha256": "8109711ee1c4e5886f57060c57cab2b47e1433d90bd32bd2ceb219bd216789dc"
+          },
+          {
+            "bytes": 543149,
+            "canonical": true,
+            "name": "report.md",
+            "sha256": "a3dc9e2e9827878a6c3d07fa01e0e57dfba28ce8552e0810ad1367e98ed5be67"
+          },
+          {
+            "bytes": 2293,
+            "canonical": true,
+            "name": "resolved_config.json",
+            "sha256": "8fd0239fe2f87c9f1506786ac36099fe996e00cc6e021b3ecc67fbb65cd2d925"
+          },
+          {
+            "bytes": 56190460,
+            "canonical": true,
+            "name": "results.json",
+            "sha256": "a291613c4ec36131d210825ed03cf628301812dba02a4716e42482d55ba2aa85"
+          },
+          {
+            "bytes": 2529,
+            "canonical": false,
+            "name": "run_receipt.json",
+            "sha256": "30968e2eec4ecd953b81a1dd83258b62402fdba243adbb24730c4d074d1f463d"
+          },
+          {
+            "bytes": 16047,
+            "canonical": true,
+            "name": "surface_features.svg",
+            "sha256": "79ac392f31eab95d79f541b1c8a49d1da0a044ce48c99f6817acd8c805283511"
+          },
+          {
+            "bytes": 298140,
+            "canonical": true,
+            "name": "windows.jsonl",
+            "sha256": "bd8be9022f78d0442c275fd2a7a84d7dfe0cec3c75d82fb40cc54b9e495debd1"
+          }
+        ],
+        "case_id": "pilot5-diagnostic-01:AX:continuity_changed_community",
+        "child_peak_rss_mib": 298.3203125,
+        "environment": {
+          "PYTHONHASHSEED": "73129",
+          "PYTHONPATH": "<INSTALLED_BASELINE>",
+          "TZ": "Pacific/Honolulu"
+        },
+        "exit_code": 0,
+        "external_artifact_limit_reached": false,
+        "external_wall_limit_reached": false,
+        "finished_utc": "2026-09-15T03:23:50.867217+00:00",
+        "started_utc": "2026-09-15T03:23:14.719071+00:00",
+        "wall_seconds": 36.14816062900354
+      },
+      "status": "attempted"
+    },
+    {
+      "case_id": "pilot5-diagnostic-01:AX:switch_changed_community",
+      "receipt": {
+        "analyzer_exit_code": 0,
+        "argv": [
+          "<WORKSPACE>/.venv/bin/python",
+          "-B",
+          "-m",
+          "account_history_analyzer",
+          "analyze",
+          "--input",
+          "<PRIVATE_WORK_AREA>/pilot5_private/replay-01/relocated/pilot5-diagnostic-01:AX:switch_changed_community.input.jsonl",
+          "--manifest",
+          "<PRIVATE_WORK_AREA>/pilot5_private/replay-01/relocated/pilot5-diagnostic-01:AX:switch_changed_community.manifest.json",
+          "--out",
+          "<PRIVATE_WORK_AREA>/pilot5_private/replay-01/pilot5-diagnostic-01:AX:switch_changed_community/analysis"
+        ],
+        "artifacts": [
+          {
+            "bytes": 10797,
+            "canonical": true,
+            "name": "activity_daily.svg",
+            "sha256": "44c729bf91a62aa0a9921cf521ddc4c3ff35cf4faac1ff76c5839d8f7430754f"
+          },
+          {
+            "bytes": 6479,
+            "canonical": true,
+            "name": "activity_hourly.svg",
+            "sha256": "ae1a36d70142e804cf83f9f872d36d8cf3572ede0e0e1a190201d6313f9b6e7d"
+          },
+          {
+            "bytes": 12347,
+            "canonical": true,
+            "name": "adjacent_distances.svg",
+            "sha256": "08626e2ac43a4c9e359ccb15e5a10493214a6e21a65981f7d3ee043498dd362a"
+          },
+          {
+            "bytes": 1136,
+            "canonical": true,
+            "name": "checksums.json",
+            "sha256": "774aecce881518889c81869564f7146268445ee4be82aa0db0293d6f632fdaa9"
+          },
+          {
+            "bytes": 4561,
+            "canonical": true,
+            "name": "eligible_word_volume.svg",
+            "sha256": "3733bae3f4da8cd1291603cd822ecb67902594daa4d0d02c1720cdd4e50072ad"
+          },
+          {
+            "bytes": 201036,
+            "canonical": true,
+            "name": "evidence.jsonl",
+            "sha256": "5fb63adcbf9d320ae38e6b0695f6dd114cb5aef31d42d3da7e0585651290972a"
+          },
+          {
+            "bytes": 696,
+            "canonical": false,
+            "name": "ingest_receipt.json",
+            "sha256": "997e5996208eef3972d6f98fa4ffdfade2957cd70977b9340fb01e782d81b1f3"
+          },
+          {
+            "bytes": 336157,
+            "canonical": true,
+            "name": "method_registry.json",
+            "sha256": "1b4d53b648303ea3b10f98e8dc40958b50587bd3c61c2262c83be7fb8a30da26"
+          },
+          {
+            "bytes": 1726097,
+            "canonical": true,
+            "name": "records_features.jsonl",
+            "sha256": "8e27749ad78e6e6c273a2fb543f650e3264d568f42d087dd2f546e287c15e30a"
+          },
+          {
+            "bytes": 661407,
+            "canonical": true,
+            "name": "report.html",
+            "sha256": "9a2135862755348afbe1fa7d9edd9ed3787f37b0d6dbb5ce99fe127a1d74f418"
+          },
+          {
+            "bytes": 539987,
+            "canonical": true,
+            "name": "report.md",
+            "sha256": "6de65a5f25b3063a06cc4e752c23299c730a811bbaff0353f1d71bd5582df522"
+          },
+          {
+            "bytes": 2293,
+            "canonical": true,
+            "name": "resolved_config.json",
+            "sha256": "8fd0239fe2f87c9f1506786ac36099fe996e00cc6e021b3ecc67fbb65cd2d925"
+          },
+          {
+            "bytes": 57227584,
+            "canonical": true,
+            "name": "results.json",
+            "sha256": "fbf457e9dcc26f93e114ba423e0f33a56315b6716a3b8d9fc146431f2fc05ddb"
+          },
+          {
+            "bytes": 2528,
+            "canonical": false,
+            "name": "run_receipt.json",
+            "sha256": "a3ec5743199394d4e69bbf1852e3b5315870d27487ffb54610560d04deef1524"
+          },
+          {
+            "bytes": 16761,
+            "canonical": true,
+            "name": "surface_features.svg",
+            "sha256": "d40763c148b0afec81a503eb3d11f380c94339f0fadebd7b96b10d80677244e9"
+          },
+          {
+            "bytes": 286930,
+            "canonical": true,
+            "name": "windows.jsonl",
+            "sha256": "f9a9bf4c7c565eb76344dc77d26ab69034c135cda2d2d82070194ec7b523153b"
+          }
+        ],
+        "case_id": "pilot5-diagnostic-01:AX:switch_changed_community",
+        "child_peak_rss_mib": 302.92578125,
+        "environment": {
+          "PYTHONHASHSEED": "73129",
+          "PYTHONPATH": "<INSTALLED_BASELINE>",
+          "TZ": "Pacific/Honolulu"
+        },
+        "exit_code": 0,
+        "external_artifact_limit_reached": false,
+        "external_wall_limit_reached": false,
+        "finished_utc": "2026-09-15T03:23:53.469660+00:00",
+        "started_utc": "2026-09-15T03:23:16.321258+00:00",
+        "wall_seconds": 37.14841864499613
+      },
+      "status": "attempted"
+    }
+  ],
+  "original_plus_current_output_bytes_before_execution_manifest": 546719485,
+  "replay": true,
+  "shared_anchor_dependence": true,
+  "wall_seconds": 83.67013802801375
+}

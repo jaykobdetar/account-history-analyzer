@@ -1,0 +1,36 @@
+{
+  "argv": [
+    "/usr/bin/timeout",
+    "--kill-after=5",
+    "1800",
+    ".venv/bin/python",
+    "scripts/offline_exec.py",
+    ".venv/bin/python",
+    "studies/pilot5_shared_anchor/scripts/check_shared_anchor.py",
+    "--plan",
+    "studies/pilot5_shared_anchor/protocol/SELECTION_REGISTRATION_V1.json",
+    "--prepared",
+    "<PRIVATE_WORK_AREA>/pilot5_private/prepared-01",
+    "--public",
+    "studies/pilot5_shared_anchor/inventory/prepared-01",
+    "--out",
+    "studies/pilot5_shared_anchor/review/shared-anchor-independent-check-01.json"
+  ],
+  "cwd": "<WORKSPACE>",
+  "started_utc": "2026-09-15T03:19:23.896423+00:00",
+  "finished_utc": "2026-09-15T03:19:24.239389+00:00",
+  "exit_code": 0,
+  "wall_seconds": 0.3429657130036503,
+  "child_peak_rss_mib": 132.12109375,
+  "runner_sha256": "4d94adb7a06ec38cc6f5b4fe55f801e87bbdcff712139146d53f55a2928eb2a4",
+  "outputs": {
+    "stdout.log": {
+      "bytes": 58,
+      "sha256": "5c0a9bf1a56688d35d31efe3646d49cbb81c8b06ea1ff55e67b579d1f7545f46"
+    },
+    "stderr.log": {
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    }
+  }
+}

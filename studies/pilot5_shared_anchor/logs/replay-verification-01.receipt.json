@@ -1,0 +1,35 @@
+{
+  "argv": [
+    ".venv/bin/python",
+    "scripts/offline_exec.py",
+    ".venv/bin/python",
+    "-B",
+    "studies/pilot5_shared_anchor/scripts/run_diagnostic.py",
+    "replay-check",
+    "--index",
+    "<PRIVATE_WORK_AREA>/pilot5_private/prepared-01/index.json",
+    "--run",
+    "<PRIVATE_WORK_AREA>/pilot5_private/main-01",
+    "--replay-root",
+    "<PRIVATE_WORK_AREA>/pilot5_private/replay-01",
+    "--out",
+    "studies/pilot5_shared_anchor/review/replay-check-01.json"
+  ],
+  "cwd": "<WORKSPACE>",
+  "started_utc": "2026-09-15T03:24:36.995605+00:00",
+  "finished_utc": "2026-09-15T03:24:37.702581+00:00",
+  "exit_code": 0,
+  "wall_seconds": 0.706976023997413,
+  "child_peak_rss_mib": 21.57421875,
+  "runner_sha256": "4d94adb7a06ec38cc6f5b4fe55f801e87bbdcff712139146d53f55a2928eb2a4",
+  "outputs": {
+    "stdout.log": {
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    "stderr.log": {
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    }
+  }
+}

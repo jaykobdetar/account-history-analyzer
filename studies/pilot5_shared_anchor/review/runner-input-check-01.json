@@ -1,0 +1,16 @@
+{
+  "five_samples_disjoint_original_ids": true,
+  "histories": 4,
+  "index_sha256": "e018dc50f000713c391c2a7479bc840951e986bede3160713192bcbc9f87b166",
+  "preprocessor_calls": 0,
+  "qualified_windows": [
+    9,
+    9,
+    8,
+    8
+  ],
+  "runner_sha256": "7336935b6c308d6f62f5aeadd0b2ddd7c7a978b513453e038126e7a3cb3aa903",
+  "shared_anchor_exact_bytes_except_uniform_alias": true,
+  "status": "passed",
+  "style_scores_computed": 0
+}

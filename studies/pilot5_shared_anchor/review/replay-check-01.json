@@ -1,0 +1,53 @@
+{
+  "all_passed": true,
+  "cases": [
+    {
+      "all_files_byte_identical": true,
+      "canonical_file_count": 14,
+      "case_id": "pilot5-diagnostic-01:AX:continuity_same_community",
+      "differing_files": [],
+      "original_dispatch_status": "attempted",
+      "replay_dispatch_status": "attempted"
+    },
+    {
+      "all_files_byte_identical": true,
+      "canonical_file_count": 14,
+      "case_id": "pilot5-diagnostic-01:AX:switch_same_community",
+      "differing_files": [],
+      "original_dispatch_status": "attempted",
+      "replay_dispatch_status": "attempted"
+    },
+    {
+      "all_files_byte_identical": true,
+      "canonical_file_count": 14,
+      "case_id": "pilot5-diagnostic-01:AX:continuity_changed_community",
+      "differing_files": [],
+      "original_dispatch_status": "attempted",
+      "replay_dispatch_status": "attempted"
+    },
+    {
+      "all_files_byte_identical": true,
+      "canonical_file_count": 14,
+      "case_id": "pilot5-diagnostic-01:AX:switch_changed_community",
+      "differing_files": [],
+      "original_dispatch_status": "attempted",
+      "replay_dispatch_status": "attempted"
+    }
+  ],
+  "excluded_operational_files": [
+    "ingest_receipt.json",
+    "run_receipt.json"
+  ],
+  "independent_replicates_estimated": false,
+  "original_environment": {
+    "PYTHONHASHSEED": "0",
+    "PYTHONPATH": "<INSTALLED_BASELINE>",
+    "TZ": "UTC"
+  },
+  "replay_environment": {
+    "PYTHONHASHSEED": "73129",
+    "PYTHONPATH": "<INSTALLED_BASELINE>",
+    "TZ": "Pacific/Honolulu"
+  },
+  "replayed_histories": 4
+}

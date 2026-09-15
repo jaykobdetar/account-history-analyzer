@@ -1,0 +1,16 @@
+{
+  "checker_sha256": "b91e62da481c7b3589d4d5b6170b3e1fbf7cc434214421e999d3913c89dc4e7b",
+  "histories": 4,
+  "input_index_sha256": "e018dc50f000713c391c2a7479bc840951e986bede3160713192bcbc9f87b166",
+  "input_record_appearances_verified": 342,
+  "new_preprocessor_calls": 0,
+  "only_changed_record_field": "uniform account_id alias",
+  "original_source_bytes_verified": 277322,
+  "original_source_index_sha256": "677f9512a8b1f4af006ca0aaca3ee1f6e2047cde37311084596bd5b32b0d6394",
+  "original_source_lines_sha256": "e4c1f116177cbff9b5522df2eee5385b783a8f197205394115fd32d7a22a3ba3",
+  "original_source_records_verified": 216,
+  "selected_records_all_audited_survivors": true,
+  "selection_registration_sha256": "d30f7b818e3f89523f19b0b9e14d6ed7b6ce0e827ecc4bf71a5009191c288b22",
+  "status": "passed",
+  "style_calls": 0
+}

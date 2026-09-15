@@ -1,0 +1,23 @@
+{
+  "argv": [
+    ".venv/bin/python",
+    "studies/pilot5_shared_anchor/environment/verify_final_preservation.py"
+  ],
+  "cwd": "<WORKSPACE>",
+  "started_utc": "2026-09-15T03:25:29.348621+00:00",
+  "finished_utc": "2026-09-15T03:25:29.559468+00:00",
+  "exit_code": 0,
+  "wall_seconds": 0.210842988017248,
+  "child_peak_rss_mib": 25.9921875,
+  "runner_sha256": "4d94adb7a06ec38cc6f5b4fe55f801e87bbdcff712139146d53f55a2928eb2a4",
+  "outputs": {
+    "stdout.log": {
+      "bytes": 1485,
+      "sha256": "1ffe561fa009d27fa9fc484ddcb7ddb763d6d5a5835ab35a840ed29fb1313655"
+    },
+    "stderr.log": {
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    }
+  }
+}

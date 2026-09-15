@@ -1,0 +1,10 @@
+test_all_five_volume_pairs_contribute (test_prepare_shared_anchor.PreparationTests.test_all_five_volume_pairs_contribute) ... ok
+test_anchor_time_absent_from_late_alignment_and_cost (test_prepare_shared_anchor.PreparationTests.test_anchor_time_absent_from_late_alignment_and_cost) ... ok
+test_date_boundary_inclusive_and_volume_boundaries (test_prepare_shared_anchor.PreparationTests.test_date_boundary_inclusive_and_volume_boundaries) ... ok
+test_identity_is_casefolded_and_delimited (test_prepare_shared_anchor.PreparationTests.test_identity_is_casefolded_and_delimited) ... ok
+test_missing_unused_reciprocal_early_cell_cannot_enter (test_prepare_shared_anchor.PreparationTests.test_missing_unused_reciprocal_early_cell_cannot_enter) ... ok
+
+----------------------------------------------------------------------
+Ran 5 tests in 0.003s
+
+OK

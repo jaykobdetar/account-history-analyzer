@@ -1,0 +1,46 @@
+{
+  "actual_baseline_identity": {
+    "config_sha256": "8fd0239fe2f87c9f1506786ac36099fe996e00cc6e021b3ecc67fbb65cd2d925",
+    "direct_url": {
+      "archive_info": {},
+      "url": "file:///tmp/ahas-pilot3-wheel/account_history_analyzer-1.0.4-py3-none-any.whl"
+    },
+    "distribution_path": "<INSTALLED_BASELINE>/account_history_analyzer-1.0.4.dist-info",
+    "distribution_version": "1.0.4",
+    "implementation_fingerprint": "bfc989028bf2b47c506d1ba501287d4e362aadc25ca5c731c41e4b27a336e179",
+    "module_version": "1.0.4",
+    "package_file": "<INSTALLED_BASELINE>/account_history_analyzer/__init__.py",
+    "reference_environment": "CPython-3.12.3;Linux;x86_64;numpy=2.4.2;scipy=1.17.1;ruptures=1.1.10;markdown-it-py=3.0.0;jsonschema=4.26.0",
+    "resource_hashes": {
+      "contraction_pairs.json": "f14da203d3a5965b5ea0982551dc9748c4a9655e7662cf8617ba58d86b805f34",
+      "default.toml": "b7147fe42aa43213cca289b263aa9e38889c0eb8dfbca43e7f710947331aa0a3",
+      "function_words_en_v1.txt": "f91c30201a636e7a9edd15166342afdcedae7fa34d7c7dd5c7352e49d4af2c9e",
+      "method_registry": "1b4d53b648303ea3b10f98e8dc40958b50587bd3c61c2262c83be7fb8a30da26",
+      "report_templates": "c8aa520917dc68d8229495a28a4375ab9e95902fe226955e79cbd1143ea3956c"
+    }
+  },
+  "case_ids": [
+    "pilot5-diagnostic-01:AX:continuity_same_community",
+    "pilot5-diagnostic-01:AX:switch_same_community",
+    "pilot5-diagnostic-01:AX:continuity_changed_community",
+    "pilot5-diagnostic-01:AX:switch_changed_community"
+  ],
+  "environment": {
+    "PYTHONHASHSEED": "0",
+    "PYTHONPATH": "<INSTALLED_BASELINE>",
+    "TZ": "UTC"
+  },
+  "helper_sha256": {
+    "chronology_math.py": "3af8024ec8325bea3cadfba6f30f8015eb0cd7102e473aafdbc6c4a26d17afc2",
+    "matched_condition_changes.py": "05a40e49e6247e71ccf8c5e9b6bdfe1e704e15a632029bbe31f665131214e867",
+    "run_full_chronology.py": "2318580a40888b1d21ba8036f4f7efdb1cbe9af7d5724361dfedcbf7ec9bc5d8",
+    "score_saved_chronology.py": "1e1e9c39d7fa88a31fc7a0f90647edc52a11deea21ccbc18117e8d9d2463c512"
+  },
+  "index_sha256": "e018dc50f000713c391c2a7479bc840951e986bede3160713192bcbc9f87b166",
+  "original_plus_replay_worst_case_analysis_bytes": 4294967296,
+  "outer_worker_wall_seconds": 630,
+  "registration_sha256": "5851634aa4e092d2429ec4e3b0288605ab854d38ce007f8936604a73755227e4",
+  "replay": false,
+  "runner_sha256": "7336935b6c308d6f62f5aeadd0b2ddd7c7a978b513453e038126e7a3cb3aa903",
+  "started_utc": "2026-09-15T03:20:30.391116+00:00"
+}

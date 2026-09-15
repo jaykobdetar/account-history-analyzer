@@ -1,0 +1,29 @@
+{
+  "phase": "before_independent_saved_metadata_check",
+  "registered_utc": "2026-09-15T03:19:23.869773+00:00",
+  "bindings": [
+    {
+      "path": "<WORKSPACE>/studies/pilot5_shared_anchor/scripts/check_shared_anchor.py",
+      "sha256": "b83198971454e26f91bf7c4e20a2787cf6d1ad994da45d4be11a12bbcd97d0b5"
+    },
+    {
+      "path": "<WORKSPACE>/studies/pilot5_shared_anchor/tests/test_check_shared_anchor.py",
+      "sha256": "98fd8f2c1ecd0a2fe8ffd7255e74f4a1e111daf39c3f6c00f0aa3eb3a8a5721f"
+    },
+    {
+      "path": "<WORKSPACE>/studies/pilot5_shared_anchor/tests/test_check_shared_anchor_io.py",
+      "sha256": "f9e3c1bcaa55a4adcedbbd7181cd4bf30b8509396c1aa637c98cc84ec30d9d86"
+    },
+    {
+      "path": "<WORKSPACE>/studies/pilot5_shared_anchor/logs/shared-anchor-checker-tests-01.receipt.json",
+      "sha256": "9b41d7b844d89c08d1361b996e0cafea2294880d653b71fa06faef4a724843b1"
+    },
+    {
+      "path": "<WORKSPACE>/studies/pilot5_shared_anchor/protocol/SELECTION_REGISTRATION_V1.json",
+      "sha256": "d30f7b818e3f89523f19b0b9e14d6ed7b6ce0e827ecc4bf71a5009191c288b22"
+    }
+  ],
+  "test_count": 24,
+  "actual_style_scores_inspected": false,
+  "scope": "Recompute every20 direction and exact winner from only frozen audited-survivor metadata; verify five selected record sets and four prepared metadata histories."
+}

@@ -1,0 +1,566 @@
+{
+  "candidates": [
+    {
+      "candidate_id": "candidate-01",
+      "community_x": "AskPhysics",
+      "community_y": "Physics",
+      "cost": null,
+      "cut": "2017-11-01T00:00:00Z",
+      "qualified_window_counts": null,
+      "reason_codes": [
+        "unavailable_sample:anchor"
+      ],
+      "stratum_id": "stratum-02",
+      "valid": false
+    },
+    {
+      "candidate_id": "candidate-02",
+      "community_x": "Physics",
+      "community_y": "AskPhysics",
+      "cost": {
+        "denominator": 155520000,
+        "numerator": 205980163
+      },
+      "cut": "2017-11-01T00:00:00Z",
+      "five_sample_record_ratio": {
+        "denominator": 41,
+        "numerator": 47
+      },
+      "five_sample_word_ratio": {
+        "denominator": 5005,
+        "numerator": 5164
+      },
+      "late_median_span_days": {
+        "denominator": 14400,
+        "numerator": 329251
+      },
+      "qualified_window_counts": [
+        9,
+        9,
+        9,
+        9
+      ],
+      "reason_codes": [],
+      "stratum_id": "stratum-02",
+      "valid": true
+    },
+    {
+      "candidate_id": "candidate-03",
+      "community_x": "AskPhysics",
+      "community_y": "Physics",
+      "cost": {
+        "denominator": 155520000,
+        "numerator": 187691011
+      },
+      "cut": "2017-11-01T00:00:00Z",
+      "five_sample_record_ratio": {
+        "denominator": 41,
+        "numerator": 47
+      },
+      "five_sample_word_ratio": {
+        "denominator": 5005,
+        "numerator": 5133
+      },
+      "late_median_span_days": {
+        "denominator": 14400,
+        "numerator": 329251
+      },
+      "qualified_window_counts": [
+        8,
+        9,
+        9,
+        9
+      ],
+      "reason_codes": [],
+      "stratum_id": "stratum-02",
+      "valid": true
+    },
+    {
+      "candidate_id": "candidate-04",
+      "community_x": "Physics",
+      "community_y": "AskPhysics",
+      "cost": {
+        "denominator": 31104000,
+        "numerator": 37451111
+      },
+      "cut": "2017-11-01T00:00:00Z",
+      "five_sample_record_ratio": {
+        "denominator": 41,
+        "numerator": 47
+      },
+      "five_sample_word_ratio": {
+        "denominator": 5005,
+        "numerator": 5133
+      },
+      "late_median_span_days": {
+        "denominator": 14400,
+        "numerator": 329251
+      },
+      "qualified_window_counts": [
+        9,
+        9,
+        8,
+        8
+      ],
+      "reason_codes": [],
+      "stratum_id": "stratum-02",
+      "valid": true
+    },
+    {
+      "candidate_id": "candidate-05",
+      "community_x": "linux",
+      "community_y": "linuxquestions",
+      "cost": {
+        "denominator": 155520000,
+        "numerator": 443571319
+      },
+      "cut": "2015-03-01T00:00:00Z",
+      "five_sample_record_ratio": {
+        "denominator": 69,
+        "numerator": 83
+      },
+      "five_sample_word_ratio": {
+        "denominator": 2515,
+        "numerator": 2656
+      },
+      "late_median_span_days": {
+        "denominator": 3456,
+        "numerator": 154801
+      },
+      "qualified_window_counts": [
+        9,
+        9,
+        9,
+        9
+      ],
+      "reason_codes": [
+        "four_late_median_span_above_30_days"
+      ],
+      "stratum_id": "stratum-04",
+      "valid": false
+    },
+    {
+      "candidate_id": "candidate-06",
+      "community_x": "linuxquestions",
+      "community_y": "linux",
+      "cost": {
+        "denominator": 155520000,
+        "numerator": 452529271
+      },
+      "cut": "2015-03-01T00:00:00Z",
+      "five_sample_record_ratio": {
+        "denominator": 69,
+        "numerator": 83
+      },
+      "five_sample_word_ratio": {
+        "denominator": 2511,
+        "numerator": 2656
+      },
+      "late_median_span_days": {
+        "denominator": 3456,
+        "numerator": 154801
+      },
+      "qualified_window_counts": [
+        9,
+        9,
+        9,
+        9
+      ],
+      "reason_codes": [
+        "four_late_median_span_above_30_days"
+      ],
+      "stratum_id": "stratum-04",
+      "valid": false
+    },
+    {
+      "candidate_id": "candidate-07",
+      "community_x": "linux",
+      "community_y": "linuxquestions",
+      "cost": {
+        "denominator": 155520000,
+        "numerator": 325944539
+      },
+      "cut": "2015-03-01T00:00:00Z",
+      "five_sample_record_ratio": {
+        "denominator": 22,
+        "numerator": 25
+      },
+      "five_sample_word_ratio": {
+        "denominator": 1669,
+        "numerator": 1724
+      },
+      "late_median_span_days": {
+        "denominator": 3456,
+        "numerator": 154801
+      },
+      "qualified_window_counts": [
+        9,
+        9,
+        9,
+        9
+      ],
+      "reason_codes": [
+        "four_late_median_span_above_30_days"
+      ],
+      "stratum_id": "stratum-04",
+      "valid": false
+    },
+    {
+      "candidate_id": "candidate-08",
+      "community_x": "linuxquestions",
+      "community_y": "linux",
+      "cost": {
+        "denominator": 155520000,
+        "numerator": 342180827
+      },
+      "cut": "2015-03-01T00:00:00Z",
+      "five_sample_record_ratio": {
+        "denominator": 33,
+        "numerator": 38
+      },
+      "five_sample_word_ratio": {
+        "denominator": 1669,
+        "numerator": 1724
+      },
+      "late_median_span_days": {
+        "denominator": 3456,
+        "numerator": 154801
+      },
+      "qualified_window_counts": [
+        9,
+        9,
+        9,
+        9
+      ],
+      "reason_codes": [
+        "four_late_median_span_above_30_days"
+      ],
+      "stratum_id": "stratum-04",
+      "valid": false
+    },
+    {
+      "candidate_id": "candidate-09",
+      "community_x": "linux",
+      "community_y": "linuxquestions",
+      "cost": {
+        "denominator": 31104000,
+        "numerator": 90107723
+      },
+      "cut": "2015-03-01T00:00:00Z",
+      "five_sample_record_ratio": {
+        "denominator": 69,
+        "numerator": 83
+      },
+      "five_sample_word_ratio": {
+        "denominator": 2515,
+        "numerator": 2656
+      },
+      "late_median_span_days": {
+        "denominator": 3456,
+        "numerator": 154801
+      },
+      "qualified_window_counts": [
+        9,
+        9,
+        10,
+        9
+      ],
+      "reason_codes": [
+        "four_late_median_span_above_30_days"
+      ],
+      "stratum_id": "stratum-04",
+      "valid": false
+    },
+    {
+      "candidate_id": "candidate-10",
+      "community_x": "linuxquestions",
+      "community_y": "linux",
+      "cost": {
+        "denominator": 31104000,
+        "numerator": 94213451
+      },
+      "cut": "2015-03-01T00:00:00Z",
+      "five_sample_record_ratio": {
+        "denominator": 69,
+        "numerator": 83
+      },
+      "five_sample_word_ratio": {
+        "denominator": 2515,
+        "numerator": 2656
+      },
+      "late_median_span_days": {
+        "denominator": 3456,
+        "numerator": 154801
+      },
+      "qualified_window_counts": [
+        10,
+        9,
+        9,
+        9
+      ],
+      "reason_codes": [
+        "four_late_median_span_above_30_days"
+      ],
+      "stratum_id": "stratum-04",
+      "valid": false
+    },
+    {
+      "candidate_id": "candidate-11",
+      "community_x": "linux",
+      "community_y": "linuxquestions",
+      "cost": {
+        "denominator": 38880000,
+        "numerator": 106426537
+      },
+      "cut": "2015-03-01T00:00:00Z",
+      "five_sample_record_ratio": {
+        "denominator": 66,
+        "numerator": 83
+      },
+      "five_sample_word_ratio": {
+        "denominator": 5007,
+        "numerator": 5312
+      },
+      "late_median_span_days": {
+        "denominator": 172800,
+        "numerator": 5728651
+      },
+      "qualified_window_counts": [
+        9,
+        9,
+        10,
+        9
+      ],
+      "reason_codes": [
+        "five_sample_record_ratio_above_5_over_4",
+        "four_late_median_span_above_30_days"
+      ],
+      "stratum_id": "stratum-04",
+      "valid": false
+    },
+    {
+      "candidate_id": "candidate-12",
+      "community_x": "linuxquestions",
+      "community_y": "linux",
+      "cost": {
+        "denominator": 7776000,
+        "numerator": 22650773
+      },
+      "cut": "2015-03-01T00:00:00Z",
+      "five_sample_record_ratio": {
+        "denominator": 66,
+        "numerator": 83
+      },
+      "five_sample_word_ratio": {
+        "denominator": 5007,
+        "numerator": 5312
+      },
+      "late_median_span_days": {
+        "denominator": 172800,
+        "numerator": 5728651
+      },
+      "qualified_window_counts": [
+        10,
+        9,
+        9,
+        9
+      ],
+      "reason_codes": [
+        "five_sample_record_ratio_above_5_over_4",
+        "four_late_median_span_above_30_days"
+      ],
+      "stratum_id": "stratum-04",
+      "valid": false
+    },
+    {
+      "candidate_id": "candidate-13",
+      "community_x": "linux",
+      "community_y": "linuxquestions",
+      "cost": {
+        "denominator": 155520000,
+        "numerator": 280781531
+      },
+      "cut": "2015-03-01T00:00:00Z",
+      "five_sample_record_ratio": {
+        "denominator": 33,
+        "numerator": 37
+      },
+      "five_sample_word_ratio": {
+        "denominator": 1669,
+        "numerator": 1724
+      },
+      "late_median_span_days": {
+        "denominator": 3456,
+        "numerator": 154801
+      },
+      "qualified_window_counts": [
+        9,
+        9,
+        9,
+        9
+      ],
+      "reason_codes": [
+        "four_late_median_span_above_30_days"
+      ],
+      "stratum_id": "stratum-04",
+      "valid": false
+    },
+    {
+      "candidate_id": "candidate-14",
+      "community_x": "linuxquestions",
+      "community_y": "linux",
+      "cost": {
+        "denominator": 155520000,
+        "numerator": 343113947
+      },
+      "cut": "2015-03-01T00:00:00Z",
+      "five_sample_record_ratio": {
+        "denominator": 33,
+        "numerator": 38
+      },
+      "five_sample_word_ratio": {
+        "denominator": 1669,
+        "numerator": 1724
+      },
+      "late_median_span_days": {
+        "denominator": 3456,
+        "numerator": 154801
+      },
+      "qualified_window_counts": [
+        9,
+        9,
+        9,
+        9
+      ],
+      "reason_codes": [
+        "four_late_median_span_above_30_days"
+      ],
+      "stratum_id": "stratum-04",
+      "valid": false
+    },
+    {
+      "candidate_id": "candidate-15",
+      "community_x": "linux",
+      "community_y": "linuxquestions",
+      "cost": {
+        "denominator": 38880000,
+        "numerator": 106597609
+      },
+      "cut": "2015-03-01T00:00:00Z",
+      "five_sample_record_ratio": {
+        "denominator": 66,
+        "numerator": 83
+      },
+      "five_sample_word_ratio": {
+        "denominator": 5007,
+        "numerator": 5312
+      },
+      "late_median_span_days": {
+        "denominator": 172800,
+        "numerator": 5728651
+      },
+      "qualified_window_counts": [
+        9,
+        9,
+        9,
+        10
+      ],
+      "reason_codes": [
+        "five_sample_record_ratio_above_5_over_4",
+        "four_late_median_span_above_30_days"
+      ],
+      "stratum_id": "stratum-04",
+      "valid": false
+    },
+    {
+      "candidate_id": "candidate-16",
+      "community_x": "linuxquestions",
+      "community_y": "linux",
+      "cost": {
+        "denominator": 38880000,
+        "numerator": 106628713
+      },
+      "cut": "2015-03-01T00:00:00Z",
+      "five_sample_record_ratio": {
+        "denominator": 66,
+        "numerator": 83
+      },
+      "five_sample_word_ratio": {
+        "denominator": 5007,
+        "numerator": 5312
+      },
+      "late_median_span_days": {
+        "denominator": 172800,
+        "numerator": 5728651
+      },
+      "qualified_window_counts": [
+        9,
+        9,
+        9,
+        9
+      ],
+      "reason_codes": [
+        "five_sample_record_ratio_above_5_over_4",
+        "four_late_median_span_above_30_days"
+      ],
+      "stratum_id": "stratum-04",
+      "valid": false
+    },
+    {
+      "candidate_id": "candidate-17",
+      "community_x": "learnprogramming",
+      "community_y": "programming",
+      "cost": null,
+      "cut": "2012-03-01T00:00:00Z",
+      "qualified_window_counts": null,
+      "reason_codes": [
+        "unavailable_sample:late_AY"
+      ],
+      "stratum_id": "stratum-05",
+      "valid": false
+    },
+    {
+      "candidate_id": "candidate-18",
+      "community_x": "programming",
+      "community_y": "learnprogramming",
+      "cost": null,
+      "cut": "2012-03-01T00:00:00Z",
+      "qualified_window_counts": null,
+      "reason_codes": [
+        "unavailable_sample:late_AX"
+      ],
+      "stratum_id": "stratum-05",
+      "valid": false
+    },
+    {
+      "candidate_id": "candidate-19",
+      "community_x": "learnprogramming",
+      "community_y": "programming",
+      "cost": null,
+      "cut": "2012-03-01T00:00:00Z",
+      "qualified_window_counts": null,
+      "reason_codes": [
+        "unavailable_sample:late_BY"
+      ],
+      "stratum_id": "stratum-05",
+      "valid": false
+    },
+    {
+      "candidate_id": "candidate-20",
+      "community_x": "programming",
+      "community_y": "learnprogramming",
+      "cost": null,
+      "cut": "2012-03-01T00:00:00Z",
+      "qualified_window_counts": null,
+      "reason_codes": [
+        "unavailable_sample:late_BX"
+      ],
+      "stratum_id": "stratum-05",
+      "valid": false
+    }
+  ],
+  "registration_sha256": "d30f7b818e3f89523f19b0b9e14d6ed7b6ce0e827ecc4bf71a5009191c288b22",
+  "selected_candidate_id": "candidate-04",
+  "selection_uses_style_results": false,
+  "valid_candidates": 3
+}

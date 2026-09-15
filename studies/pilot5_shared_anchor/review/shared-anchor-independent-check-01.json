@@ -1,0 +1,42 @@
+{
+  "candidate_directions_verified": 20,
+  "checker_sha256": "b83198971454e26f91bf7c4e20a2787cf6d1ad994da45d4be11a12bbcd97d0b5",
+  "exact_prefix_cost_gate_and_tie_checks_passed": true,
+  "independent_diagnostic_units": 1,
+  "independent_primary_window_guard_verified": true,
+  "input_hashes": {
+    "audit": "abacb1ebc4173c6024ff3853f240b06490edfbac22a51cbc1bb57b68926985cd",
+    "plan": "d30f7b818e3f89523f19b0b9e14d6ed7b6ce0e827ecc4bf71a5009191c288b22",
+    "source_preparation_receipt": "76c3e28b6278da13bd35ee33544f0c6e42c094d9a6010886dc4a2b8a5b5be3c9",
+    "source_selection_metadata": "3de6d64309e4f939c92bd9dcb7523c35c28461a6fd76458ced106ce007e7080b"
+  },
+  "new_preprocessing_calls": 0,
+  "new_style_calls": 0,
+  "original_source_identifiers_published": false,
+  "output_hashes": {
+    "candidate_enumeration": "5f995e70300c355116fbd27ac4da19cb95216f1ad9fc43eccf08d0a25e1459be",
+    "index": "e018dc50f000713c391c2a7479bc840951e986bede3160713192bcbc9f87b166",
+    "samples": "1765843de47e49e5527b88447b6e8fae59dd9c0ae2689a41e6da0a0e3fef6e70",
+    "selection": "c692b3a8f6f21f5a0e03159b882da1741b31ecfad5bc187384820ada0c3d7806",
+    "summary": "15364694508ea5af6c338c9dba571f8846ab37dc9523a22c3a5e54afbdfae14d"
+  },
+  "peak_rss_mib": 132.12109375,
+  "prepared_histories": 4,
+  "qualified_windows_per_history": [
+    9,
+    9,
+    8,
+    8
+  ],
+  "recorded_utc": "2026-09-15T03:19:24.232851+00:00",
+  "selected_candidate_id": "candidate-04",
+  "selected_samples": 5,
+  "shared_anchor_records": 42,
+  "source_prose_read": false,
+  "source_survivors_verified": 2252,
+  "status": "passed",
+  "unique_selected_records": 216,
+  "unique_selected_retained_words": 25179,
+  "valid_directions": 3,
+  "wall_seconds": 0.28930809200392105
+}
